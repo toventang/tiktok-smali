@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="wrap_content">
+    <com.bytedance.tux.icon.TuxIconView id="@+id/flm" background="?attr/ay" layout_width="match_parent" layout_height="52dp" NOT_FOUND_0x1b="0" NOT_FOUND_0x20="0"/>
+    <com.ss.android.ugc.aweme.ecommerce.pdp.view.FlashSaleBg id="@+id/b6y" paddingLeft="20dp" paddingRight="16dp" visibility="gone" layout_width="wrap_content" layout_height="0dp" paddingStart="20dp" paddingEnd="16dp" NOT_FOUND_0x18="@+id/flm" NOT_FOUND_0x1a="0" NOT_FOUND_0x20="@+id/flm">
+        <LinearLayout layout_gravity="center_vertical" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" layout_gravity="end" id="@+id/b71" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" NOT_FOUND_0x28="43"/>
+            <LinearLayout layout_gravity="end" orientation="horizontal" id="@+id/b6z" layout_width="wrap_content" layout_height="17dp" layout_marginTop="3dp">
+                <com.bytedance.tux.input.TuxTextView gravity="center_vertical" layout_gravity="center_vertical" id="@+id/b70" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="2dp" text="@string/bif" layout_marginEnd="2dp" NOT_FOUND_0x28="71"/>
+                <com.ss.android.ugc.aweme.ecommerce.pdp.view.FlashSaleCountDownView gravity="center_vertical" layout_gravity="center_vertical" id="@+id/b6x" layout_width="wrap_content" layout_height="17dp" NOT_FOUND_0x28="92"/>
+            </LinearLayout>
+        </LinearLayout>
+    </com.ss.android.ugc.aweme.ecommerce.pdp.view.FlashSaleBg>
+    <LinearLayout gravity="end" orientation="vertical" id="@+id/fln" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="16dp" layout_marginEnd="16dp" NOT_FOUND_0x18="@+id/flm" NOT_FOUND_0x1a="0" NOT_FOUND_0x20="@+id/flm">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="end" id="@+id/d4n" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x28="52"/>
+        <View id="@+id/d5_" layout_width="1dp" layout_height="1dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bd" gravity="end" id="@+id/cx" background="@drawable/y1" paddingLeft="3dp" paddingRight="3dp" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x28="92"/>
+    </LinearLayout>
+    <com.bytedance.tux.icon.TuxIconView id="@+id/bhs" visibility="gone" layout_width="20dp" layout_height="20dp" layout_marginLeft="16dp" layout_marginStart="16dp" NOT_FOUND_0x18="@+id/d9c" NOT_FOUND_0x1e="0" NOT_FOUND_0x20="@+id/d9c" NOT_FOUND_0x29="@raw/icon_coupon_fill" NOT_FOUND_0x2a="?attr/m"/>
+    <com.bytedance.tux.input.TuxTextView textColor="?attr/bc" ellipsize="end" id="@+id/d9c" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="2dp" layout_marginTop="6dp" layout_marginRight="2dp" maxLines="1" layout_marginStart="2dp" layout_marginEnd="2dp" NOT_FOUND_0x19="@+id/ckl" NOT_FOUND_0x1d="@+id/bhs" NOT_FOUND_0x20="0" NOT_FOUND_0x21="0.5" NOT_FOUND_0x22="0" NOT_FOUND_0x24="16dp" NOT_FOUND_0x25="16dp" NOT_FOUND_0x28="22"/>
+    <com.bytedance.tux.input.TuxTextView textColor="?attr/ab" ellipsize="end" id="@+id/ckl" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="2dp" maxLines="1" layout_marginStart="16dp" NOT_FOUND_0x1e="0" NOT_FOUND_0x1f="@+id/d9c" NOT_FOUND_0x28="61"/>
+    <com.bytedance.tux.input.TuxTextView textColor="?attr/ay" id="@+id/aml" background="@drawable/yf" paddingLeft="5dp" paddingRight="5dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="5dp" layout_marginStart="5dp" NOT_FOUND_0x1d="@+id/ckl" NOT_FOUND_0x1f="@+id/d9c" NOT_FOUND_0x21="0" NOT_FOUND_0x24="16dp" NOT_FOUND_0x25="16dp" NOT_FOUND_0x28="62"/>
+    <com.bytedance.tux.icon.TuxIconView layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/czg" layout_width="16dp" layout_height="16dp" layout_marginRight="16dp" tint="@color/c5" layout_marginEnd="16dp" NOT_FOUND_0x18="@+id/age" NOT_FOUND_0x1a="0" NOT_FOUND_0x1c="0" NOT_FOUND_0x20="@+id/age" NOT_FOUND_0x27="@drawable/yp" NOT_FOUND_0x29="@raw/icon_chevron_right_offset_ltr"/>
+    <LinearLayout orientation="horizontal" id="@+id/b6u" visibility="gone" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="8dp" layout_marginRight="16dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x1b="@+id/czg" NOT_FOUND_0x1e="0" NOT_FOUND_0x1f="@+id/ckl" NOT_FOUND_0x23="8dp" NOT_FOUND_0x26="8dp">
+        <com.bytedance.tux.icon.TuxIconView layout_width="12dp" layout_height="12dp" layout_marginTop="3dp" layout_marginRight="4dp" layout_marginEnd="4dp" NOT_FOUND_0x29="@raw/icon_bolt_fill" NOT_FOUND_0x2a="@color/bh"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/b9" id="@+id/b6w" layout_width="wrap_content" layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout gravity="center_vertical" orientation="horizontal" id="@+id/a4q" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="22dp" layout_marginRight="16dp" NOT_FOUND_0x1e="0" NOT_FOUND_0x1f="@+id/ckl">
+        <com.bytedance.lighten.loader.SmartImageView id="@+id/a4r" layout_width="13dp" layout_height="13dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/b9" ellipsize="end" gravity="start" layout_gravity="start" id="@+id/a4s" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" textAlignment="viewStart" NOT_FOUND_0x28="62"/>
+    </LinearLayout>
+    <LinearLayout orientation="horizontal" id="@+id/age" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="8dp" layout_marginRight="16dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x1b="@+id/czg" NOT_FOUND_0x1e="0" NOT_FOUND_0x1f="@+id/b6u" NOT_FOUND_0x23="16dp"/>
+    <com.ss.android.ugc.aweme.ecommerce.widget.LogoTuxTextView textColor="?attr/bc" ellipsize="end" gravity="start" id="@+id/bcm" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="8dp" layout_marginRight="16dp" layout_marginBottom="0dp" maxLines="1" textAlignment="viewStart" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x19="@+id/az6" NOT_FOUND_0x1e="0" NOT_FOUND_0x1f="@+id/age" NOT_FOUND_0x23="16dp" NOT_FOUND_0x28="41"/>
+    <LinearLayout gravity="center_vertical" orientation="horizontal" id="@+id/az6" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="9dp" layout_marginRight="16dp" layout_marginBottom="16dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x18="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x1e="0" NOT_FOUND_0x1f="@+id/bcm">
+        <com.ss.android.ugc.aweme.ecommerce.pdp.view.PdpExtraInfoView id="@+id/az5" visibility="gone" layout_width="wrap_content" layout_height="wrap_content"/>
+        <LinearLayout gravity="right|center_vertical|center_horizontal|center|end" orientation="horizontal" id="@+id/b9y" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="8dp" layout_marginStart="8dp">
+            <com.bytedance.tux.icon.TuxIconView layout_width="16dp" layout_height="16dp" NOT_FOUND_0x29="@raw/icon_truck_moving_ltr" NOT_FOUND_0x2a="?attr/ay"/>
+            <com.bytedance.tux.input.TuxTextView textColor="?attr/ay" ellipsize="end" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="2dp" text="@string/bg5" maxLines="1" layout_marginStart="2dp" NOT_FOUND_0x28="62"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

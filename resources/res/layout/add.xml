@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/cf2" layout_width="match_parent" layout_height="wrap_content">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/aa" id="@+id/eyp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="19dp" layout_marginBottom="12dp" text="@string/bxr" drawableLeft="@drawable/adr" drawablePadding="5dp" drawableStart="@drawable/adr" layout_marginStart="16dp" NOT_FOUND_0x16="63"/>
+    <RelativeLayout id="@+id/re" background="@color/f" layout_width="match_parent" layout_height="165dp">
+        <com.ss.android.ugc.aweme.discover.widget.BannerViewPager id="@+id/fk_" layout_width="match_parent" layout_height="match_parent" layout_alignParentTop="true"/>
+        <View id="@+id/e_f" layout_width="match_parent" layout_height="0dp"/>
+        <com.ss.android.ugc.aweme.discover.widget.IndicatorView id="@+id/aop" paddingBottom="4dp" layout_width="wrap_content" layout_height="wrap_content" layout_alignParentBottom="true" layout_centerHorizontal="true" NOT_FOUND_0x13="5dp" NOT_FOUND_0x14="5dp" NOT_FOUND_0x15="0.34"/>
+    </RelativeLayout>
+</LinearLayout>

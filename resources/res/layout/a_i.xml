@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/apf" background="@color/l" paddingBottom="0dp" layout_width="match_parent" layout_height="wrap_content" minHeight="44dp">
+    <RelativeLayout id="@+id/dp9" layout_width="match_parent" layout_height="match_parent">
+        <ImageView id="@+id/bi7" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="14dp" layout_marginTop="16dp" layout_marginBottom="8dp" src="0x7f080667" layout_marginStart="14dp"/>
+        <com.bytedance.tux.input.TuxCompoundIconTextView textColor="?attr/ay" gravity="center" id="@+id/ev_" paddingTop="16dp" paddingBottom="8dp" layout_width="wrap_content" layout_height="match_parent" text="@string/bcf" paddingStart="0dp" paddingEnd="16dp" layout_alignParentEnd="true" NOT_FOUND_0x1b="52" NOT_FOUND_0x1c="20dp" NOT_FOUND_0x1d="@raw/icon_plus_small" NOT_FOUND_0x1e="20dp" NOT_FOUND_0x1f="?attr/ay"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/f37" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="6dp" layout_marginTop="17dp" layout_marginRight="8dp" lines="1" layout_toLeftOf="@+id/ev_" layout_toRightOf="@+id/bi7" layout_marginStart="6dp" layout_marginEnd="8dp" layout_toStartOf="@+id/ev_" layout_toEndOf="@+id/bi7" NOT_FOUND_0x1b="51"/>
+    </RelativeLayout>
+</LinearLayout>

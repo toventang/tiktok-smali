@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/dvq" layout_width="match_parent" layout_height="@dimen/rv">
+    <RelativeLayout orientation="horizontal" id="@+id/dp3" layout_width="match_parent" layout_height="36dp" layout_marginLeft="16dp" layout_marginTop="16dp" layout_marginStart="16dp">
+        <RelativeLayout id="@+id/duk" background="@drawable/avj" layout_width="match_parent" layout_height="match_parent" layout_marginRight="16dp" layout_toLeftOf="@+id/f6k" layout_marginEnd="16dp" layout_toStartOf="@+id/f6k">
+            <com.ss.android.ugc.tools.view.widget.AVAutoRTLImageView id="@+id/c11" layout_width="24dp" layout_height="24dp" layout_marginLeft="6dp" src="0x7f0806a6" layout_centerVertical="true" layout_marginStart="6dp"/>
+            <ImageButton id="@+id/y2" background="0x7f0806a3" visibility="gone" layout_width="24dp" layout_height="24dp" layout_marginRight="6dp" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="6dp" layout_alignParentEnd="true" style="@style/f2"/>
+            <EditText textSize="15dp" textColor="@color/su" textColorHint="@color/sx" gravity="left|center_vertical|center_horizontal|center|start" id="@+id/ay5" background="@null" focusable="true" focusableInTouchMode="true" layout_width="match_parent" layout_height="wrap_content" lines="1" layout_centerVertical="true" inputType="text" imeOptions="actionSearch" textCursorDrawable="@drawable/bmu" textAlignment="viewStart" layout_toStartOf="@+id/y2" layout_toEndOf="@+id/c11"/>
+        </RelativeLayout>
+        <TextView textColor="@color/qt" gravity="center" id="@+id/f6k" layout_width="wrap_content" layout_height="match_parent" layout_marginEnd="16dp" layout_alignParentEnd="true" style="@style/a22"/>
+    </RelativeLayout>
+    <FrameLayout id="@+id/dv2" layout_width="match_parent" layout_height="match_parent" layout_marginTop="16dp">
+        <LinearLayout orientation="vertical" id="@+id/dv3" layout_width="match_parent" layout_height="match_parent">
+            <LinearLayout orientation="vertical" id="@+id/duz" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginStart="16dp">
+                <TextView textColor="@color/sw" id="@+id/f6l" layout_width="wrap_content" layout_height="wrap_content" style="@style/a20"/>
+                <androidx.recyclerview.widget.RecyclerView orientation="horizontal" id="@+id/drf" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp"/>
+            </LinearLayout>
+            <LinearLayout orientation="vertical" id="@+id/eba" layout_width="match_parent" layout_height="match_parent">
+                <TextView textColor="@color/sw" layout_gravity="center" id="@+id/f6m" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="14dp" style="@style/a20"/>
+                <androidx.recyclerview.widget.RecyclerView id="@+id/eb9" visibility="gone" layout_width="match_parent" layout_height="match_parent" layout_marginLeft="7.5dp" layout_marginRight="7.5dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

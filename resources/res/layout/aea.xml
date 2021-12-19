@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.tools.view.widget.AVAutoRTLImageView id="@+id/bn_" layout_width="31dp" layout_height="31dp" layout_marginLeft="15dp" layout_marginTop="31.5dp" src="0x7f0806ad" scaleType="centerInside" layout_marginStart="15dp"/>
+    <com.airbnb.lottie.LottieAnimationView layout_gravity="bottom|center_vertical|center_horizontal|center" id="@+id/oh" visibility="gone" layout_width="100dp" layout_height="100dp" layout_marginBottom="36.5dp" NOT_FOUND_0xb="true" NOT_FOUND_0xc="game_btn.json" NOT_FOUND_0xd="true"/>
+</FrameLayout>

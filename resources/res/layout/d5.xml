@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/b5y" layout_width="match_parent" layout_height="280dp">
+    <FrameLayout id="@+id/b6m" layout_width="match_parent" layout_height="76dp"/>
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent" layout_marginTop="76dp">
+        <FrameLayout id="@+id/b5_" layout_width="match_parent" layout_height="wrap_content">
+            <com.ss.android.ugc.aweme.shortvideo.cut.videoeditv2.VEVideoEditViewV2 id="@+id/ffa" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x8="72dp" NOT_FOUND_0x9="4dp" NOT_FOUND_0xa="36dp"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/st" id="@+id/eyw" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" layout_marginStart="68dp" NOT_FOUND_0xb="92"/>
+        </FrameLayout>
+        <FrameLayout id="@+id/b4i" layout_width="match_parent" layout_height="match_parent"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" layout_width="wrap_content" layout_height="wrap_content">
+    <com.bytedance.tux.status.loading.TuxLoadingHUD id="@+id/d4x" layout_width="wrap_content" layout_height="wrap_content"/>
+</LinearLayout>

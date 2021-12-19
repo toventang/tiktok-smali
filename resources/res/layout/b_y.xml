@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" gravity="center_vertical" layout_width="match_parent" layout_height="64dp">
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="15dp" textColor="@color/x5" gravity="center" id="@+id/dh4" layout_width="42dp" layout_height="wrap_content" layout_centerVertical="true" NOT_FOUND_0x14="2"/>
+    <FrameLayout id="@+id/b90" layout_width="48dp" layout_height="48dp" layout_marginLeft="40dp" layout_centerVertical="true" layout_marginStart="40dp">
+        <ImageView layout_gravity="center" id="@+id/fcu" layout_width="40dp" layout_height="40dp" src="0x7f080fa6" scaleType="fitXY"/>
+        <com.bytedance.android.live.core.widget.HSImageView layout_gravity="center" id="@+id/bu1" layout_width="46dp" layout_height="46dp"/>
+        <com.bytedance.android.live.core.widget.HSImageView layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" id="@+id/bzi" layout_width="16dp" layout_height="16dp" scaleType="centerCrop"/>
+    </FrameLayout>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="15dp" textColor="@color/x4" ellipsize="end" gravity="center_vertical" id="@+id/fdm" layout_width="wrap_content" layout_height="match_parent" layout_marginLeft="8dp" layout_marginRight="150dp" maxLines="1" layout_toRightOf="@+id/b90" layout_centerVertical="true" layout_marginStart="8dp" layout_marginEnd="150dp" layout_toEndOf="@+id/b90" NOT_FOUND_0x14="7"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="12dp" textColor="#80161823" gravity="end" id="@+id/eks" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="24dp" layout_marginRight="16dp" maxLines="1" layout_alignParentRight="true" layout_centerVertical="true" layout_marginStart="24dp" layout_marginEnd="16dp" layout_alignParentEnd="true" NOT_FOUND_0x14="7"/>
+</RelativeLayout>

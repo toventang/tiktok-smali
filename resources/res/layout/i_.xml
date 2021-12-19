@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/b4w" layout_width="match_parent" layout_height="match_parent">
+    <ViewStub id="@+id/ab8" layout_width="match_parent" layout_height="match_parent"/>
+    <LinearLayout orientation="vertical" id="@+id/ch6" layout_width="match_parent" layout_height="match_parent">
+        <FrameLayout id="@+id/bf6" layout_width="match_parent" layout_height="wrap_content"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" layout_gravity="center_horizontal" id="@+id/title" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" layout_marginBottom="12dp" NOT_FOUND_0x13="72"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" gravity="center" layout_gravity="center_horizontal" id="@+id/a_z" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="4dp" text="@string/amy" layout_marginStart="48dp" layout_marginEnd="48dp" NOT_FOUND_0x13="73"/>
+        <include id="@+id/ao4" visibility="gone" layout="@layout/jd"/>
+        <LinearLayout orientation="vertical" id="@+id/b4x" layout_width="match_parent" layout_height="0dp" layout_weight="1">
+            <com.ss.android.ugc.aweme.views.FpsRecyclerView id="@+id/djj" layout_width="match_parent" layout_height="wrap_content" overScrollMode="never"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtStatusView id="@+id/e_o" layout_width="match_parent" layout_height="match_parent" layout_marginStart="32dp" layout_marginEnd="32dp"/>
+            <LinearLayout gravity="center" layout_gravity="center" orientation="vertical" id="@+id/b8v" visibility="gone" layout_width="match_parent" layout_height="match_parent">
+                <ImageView layout_width="49dp" layout_height="49dp" src="0x7f0801f4"/>
+                <com.bytedance.tux.input.TuxTextView layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="25dp" text="@string/nz" NOT_FOUND_0x13="51"/>
+            </LinearLayout>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c5" gravity="center" layout_gravity="center" id="@+id/a9z" visibility="gone" layout_width="match_parent" layout_height="match_parent" text="@string/amq" NOT_FOUND_0x13="51"/>
+        </LinearLayout>
+        <View id="@+id/a_4" background="@color/b2" layout_width="match_parent" layout_height="1px"/>
+        <LinearLayout orientation="vertical" id="@+id/d1l" visibility="gone" layout_width="match_parent" layout_height="40dp"/>
+        <include layout_gravity="bottom" id="@+id/a_0" background="@drawable/lb" layout_width="match_parent" layout_height="wrap_content" layout="@layout/i5"/>
+        <LinearLayout orientation="horizontal" id="@+id/rw" visibility="gone" layout_width="match_parent" layout_height="56dp">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bz" gravity="center" id="@+id/rx" layout_width="0dp" layout_height="match_parent" text="@string/ak0" layout_weight="1" NOT_FOUND_0x13="42"/>
+            <View layout_gravity="center_vertical" background="@color/b3" layout_width="1px" layout_height="25dp"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bz" gravity="center" id="@+id/s0" layout_width="0dp" layout_height="match_parent" text="@string/ak4" layout_weight="1" NOT_FOUND_0x13="42"/>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout layout_gravity="bottom" id="@+id/ad8" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="52dp"/>
+    <ImageView layout_gravity="start" id="@+id/ru" padding="12dp" visibility="gone" layout_width="44dp" layout_height="44dp" layout_marginTop="2dp" src="0x7f0801d6" scaleType="fitCenter" layout_marginStart="4dp"/>
+    <com.bytedance.tux.input.TuxTextView layout_gravity="end" id="@+id/ry" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="11dp" text="@string/ak3" layout_marginEnd="16dp" NOT_FOUND_0x13="52"/>
+</FrameLayout>

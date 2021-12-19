@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center" orientation="vertical" id="@+id/zz" clipChildren="false" clipToPadding="false" layout_width="wrap_content" layout_height="wrap_content">
+    <FrameLayout layout_width="wrap_content" layout_height="wrap_content">
+        <com.facebook.drawee.view.SimpleDraweeView layout_gravity="center_horizontal" id="@+id/a00" layout_width="32dp" layout_height="32dp" NOT_FOUND_0x14="6" NOT_FOUND_0x17="6"/>
+        <View layout_gravity="end" id="@+id/djx" background="@drawable/dm" visibility="invisible" layout_width="4dp" layout_height="4dp" layout_marginTop="2dp"/>
+    </FrameLayout>
+    <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView textSize="10sp" textStyle="bold" textColor="@color/on" gravity="center" layout_gravity="center_horizontal" id="@+id/a01" layout_width="56dp" layout_height="wrap_content" layout_marginTop="2dp" text="@string/blj" maxLines="4" shadowColor="@color/bo" shadowDx="0" shadowDy="1" shadowRadius="2" NOT_FOUND_0x15="7" NOT_FOUND_0x16="true"/>
+</LinearLayout>

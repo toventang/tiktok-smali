@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="8dp" layout_marginStart="8dp">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/egd" background="@drawable/brn" layout_width="wrap_content" layout_height="36dp" layout_marginTop="8dp" NOT_FOUND_0x18="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="0">
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="12dp" textColor="@color/a9" ellipsize="end" id="@+id/ege" paddingLeft="42dp" paddingRight="12dp" layout_width="wrap_content" layout_height="wrap_content" maxWidth="175dp" maxLines="2" paddingStart="42dp" paddingEnd="12dp" NOT_FOUND_0x15="7" NOT_FOUND_0x16="0" NOT_FOUND_0x18="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="0"/>
+        <com.bytedance.android.livesdk.widget.VHeadView layout_gravity="center" id="@+id/egc" background="@drawable/bp_" layout_width="36dp" layout_height="36dp" scaleType="fitXY" NOT_FOUND_0x16="0" NOT_FOUND_0x18="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ProgressBar id="@+id/dby" layout_width="45dp" layout_height="6dp" layout_marginLeft="33dp" layout_marginTop="32dp" progressDrawable="@drawable/c81" layout_marginStart="33dp" NOT_FOUND_0x18="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="0" style="@style/Widget.ProgressBar.Horizontal"/>
+    <com.airbnb.lottie.LottieAnimationView id="@+id/a0d" visibility="invisible" layout_width="50dp" layout_height="50dp" NOT_FOUND_0x16="@+id/bfv" NOT_FOUND_0x17="@+id/bfv" NOT_FOUND_0x18="@+id/bfv" NOT_FOUND_0x19="@+id/bfv" NOT_FOUND_0x1a="@+id/bfv" NOT_FOUND_0x1b="@+id/bfv"/>
+    <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlImageView id="@+id/bfv" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="18dp" layout_marginTop="24dp" src="0x7f080e4d" layout_marginStart="18dp" NOT_FOUND_0x19="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

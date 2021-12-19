@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="wrap_content" layout_height="wrap_content">
+    <LinearLayout orientation="vertical" id="@+id/b4g" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="14dp" layout_marginRight="24dp" layout_marginStart="14dp" layout_marginEnd="24dp">
+        <FrameLayout layout_width="52dp" layout_height="52dp">
+            <com.ss.android.ugc.aweme.tools.beauty.views.SwitchButton layout_gravity="center" id="@+id/dsa" layout_width="wrap_content" layout_height="wrap_content" importantForAccessibility="no" NOT_FOUND_0xf="@drawable/p1" NOT_FOUND_0x10="@drawable/p_" NOT_FOUND_0x11="12dp" NOT_FOUND_0x12="4dp" NOT_FOUND_0x13="2" NOT_FOUND_0x14="12dp" style="@style/hl"/>
+        </FrameLayout>
+        <com.ss.android.ugc.tools.view.style.StyleTextView textSize="12sp" typeface="normal" textColor="#e6ffffff" layout_gravity="center" id="@+id/ew6" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp"/>
+    </LinearLayout>
+    <View layout_gravity="end" background="#33ffffff" layout_width="0.5dp" layout_height="36dp" layout_marginTop="6dp" layout_marginRight="17.5dp" layout_marginEnd="17.5dp"/>
+</FrameLayout>

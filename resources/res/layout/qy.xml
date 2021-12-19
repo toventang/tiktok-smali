@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/e54" focusable="true" clickable="true" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" focusable="true" focusableInTouchMode="true" layout_width="match_parent" layout_height="match_parent">
+        <FrameLayout id="@+id/bf9" layout_width="match_parent" layout_height="wrap_content"/>
+        <View id="@+id/an5" background="@color/b6" layout_width="match_parent" layout_height="1px" layout_marginLeft="@dimen/fj" layout_marginRight="@dimen/fj"/>
+        <androidx.core.widget.NestedScrollView id="@+id/e5q" scrollbars="none" layout_width="match_parent" layout_height="0dp" layout_weight="1" overScrollMode="never">
+            <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent" animateLayoutChanges="true">
+                <FrameLayout id="@+id/e53" layout_width="match_parent" layout_height="wrap_content"/>
+                <FrameLayout id="@+id/ag1" layout_width="match_parent" layout_height="wrap_content"/>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <FrameLayout id="@+id/ve" paddingTop="12dp" paddingBottom="12dp" layout_width="match_parent" layout_height="68dp" layout_marginLeft="@dimen/fj" layout_marginRight="@dimen/fj"/>
+    </LinearLayout>
+    <LinearLayout gravity="center" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/fj" layout_marginRight="@dimen/fj" layout_alignParentRight="true" layout_marginEnd="@dimen/fj" layout_alignParentEnd="true">
+        <ImageView id="@+id/e5a" layout_width="24dp" layout_height="24dp" NOT_FOUND_0x17="@drawable/yt"/>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.ui.widget.DmtLoadingLayout id="@+id/e5p" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true"/>
+</RelativeLayout>

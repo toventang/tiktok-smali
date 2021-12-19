@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout xmlns="" id="@+id/ad7" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xc="1" NOT_FOUND_0x14="0.75">
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="match_parent" layout_height="match_parent">
+        <com.bytedance.lighten.loader.SmartImageView id="@+id/c3b" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0" NOT_FOUND_0x11="@color/f" NOT_FOUND_0x12="6"/>
+        <LinearLayout orientation="horizontal" id="@+id/c3d" padding="4dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0xd="0" NOT_FOUND_0xf="0">
+            <ImageView layout_width="wrap_content" layout_height="wrap_content" src="@drawable/aw1"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/c3e" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="2dp" maxLines="1" NOT_FOUND_0x13="52"/>
+        </LinearLayout>
+        <FrameLayout id="@+id/c3c" background="@color/bj" visibility="gone" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0">
+            <ImageView layout_gravity="center" layout_width="wrap_content" layout_height="wrap_content" src="0x7f0808a3"/>
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>

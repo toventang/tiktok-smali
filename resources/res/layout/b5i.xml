@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center" layout_gravity="center_vertical" orientation="horizontal" background="@drawable/bp2" layout_width="31dp" layout_height="31dp" layout_marginLeft="8dp" layout_marginTop="5dp" layout_marginBottom="5dp" layout_marginStart="8dp">
+    <ImageView layout_gravity="center" id="@+id/bi7" layout_width="12dp" layout_height="12dp"/>
+</LinearLayout>

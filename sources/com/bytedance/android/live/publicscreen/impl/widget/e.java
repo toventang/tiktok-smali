@@ -1,0 +1,24 @@
+package com.bytedance.android.live.publicscreen.impl.widget;
+
+import com.bytedance.covode.number.Covode;
+import h.f.a.b;
+
+/* access modifiers changed from: package-private */
+public final /* synthetic */ class e implements b {
+
+    /* renamed from: a  reason: collision with root package name */
+    private final PublicScreenWidget f12573a;
+
+    static {
+        Covode.recordClassIndex(6915);
+    }
+
+    e(PublicScreenWidget publicScreenWidget) {
+        this.f12573a = publicScreenWidget;
+    }
+
+    @Override // h.f.a.b
+    public final Object invoke(Object obj) {
+        return this.f12573a.a((Integer) obj);
+    }
+}

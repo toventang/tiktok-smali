@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/df3" background="@drawable/bag" layout_width="316dp" layout_height="wrap_content">
+    <ImageView id="@+id/a2o" layout_width="match_parent" layout_height="250dp" layout_marginTop="50dp" src="0x7f0802f3"/>
+    <LinearLayout orientation="vertical" id="@+id/b8w" paddingLeft="8dp" paddingRight="8dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="8dp" paddingEnd="8dp">
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView layout_gravity="center_horizontal" id="@+id/df2" layout_width="168dp" layout_height="168dp" layout_marginTop="24dp" NOT_FOUND_0x10="0x7f08088b"/>
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/be" ellipsize="end" layout_gravity="center_horizontal" id="@+id/title" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" maxLines="1" NOT_FOUND_0x11="41"/>
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/bf" ellipsize="end" layout_gravity="center_horizontal" id="@+id/ak7" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" maxLines="1" NOT_FOUND_0x11="61"/>
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/bh" ellipsize="end" layout_gravity="center_horizontal" id="@+id/dcp" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="56dp" maxLines="2" NOT_FOUND_0x11="71"/>
+        <ImageView layout_gravity="center_horizontal" id="@+id/cj1" layout_width="wrap_content" layout_height="36dp" layout_marginTop="20dp" layout_marginBottom="20dp" src="0x7f08088d"/>
+    </LinearLayout>
+</FrameLayout>

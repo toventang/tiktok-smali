@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="horizontal" paddingLeft="16dp" paddingTop="16dp" paddingRight="16dp" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+    <com.ss.android.ugc.aweme.base.ui.SmartAvatarImageView id="@+id/dib" layout_width="56dp" layout_height="56dp"/>
+    <LinearLayout orientation="vertical" id="@+id/dij" paddingLeft="12dp" paddingRight="0dp" layout_width="0dp" layout_height="wrap_content" layout_weight="1" paddingStart="12dp" paddingEnd="0dp">
+        <RelativeLayout gravity="center_vertical" id="@+id/dpe" layout_width="wrap_content" layout_height="wrap_content">
+            <ImageView id="@+id/bly" visibility="gone" layout_width="10dp" layout_height="10dp" layout_marginLeft="3dp" src="0x7f08082a" layout_toRightOf="@+id/f_d" layout_centerVertical="true" layout_marginStart="3dp" layout_toEndOf="@+id/f_d"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/f_d" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" NOT_FOUND_0x1b="42"/>
+        </RelativeLayout>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" id="@+id/f3g" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" NOT_FOUND_0x1b="61"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" id="@+id/dig" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" NOT_FOUND_0x1b="61"/>
+        <com.ss.android.ugc.aweme.views.MutualRelationView id="@+id/crw" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+    </LinearLayout>
+    <RelativeLayout layout_gravity="center_vertical" id="@+id/bul" layout_width="120dp" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginStart="12dp">
+        <com.ss.android.ugc.aweme.friends.ui.TikTokFollowUserBtn ellipsize="end" layout_gravity="center_vertical" id="@+id/yf" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" layout_alignParentLeft="true" layout_alignParentStart="true"/>
+        <RelativeLayout id="@+id/buk" visibility="gone" layout_width="17dp" layout_height="24dp" layout_marginLeft="8dp" layout_alignParentRight="true" layout_centerVertical="true" layout_marginStart="8dp" layout_alignParentEnd="true">
+            <ImageView layout_width="10dp" layout_height="10dp" src="0x7f080344" layout_alignParentRight="true" layout_centerVertical="true" layout_alignParentEnd="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

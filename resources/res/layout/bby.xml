@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="" layout_width="wrap_content" layout_height="wrap_content">
+    <com.bytedance.android.live.core.widget.HSImageView layout_gravity="center_horizontal" id="@+id/by6" visibility="gone" layout_width="40dp" layout_height="20dp"/>
+    <androidx.constraintlayout.widget.ConstraintLayout layout_gravity="center_horizontal" id="@+id/c4w" background="@drawable/c9j" visibility="gone" layout_width="80dp" layout_height="20dp">
+        <androidx.appcompat.widget.AppCompatImageView id="@+id/bzt" layout_width="17dp" layout_height="20dp" layout_marginLeft="12dp" NOT_FOUND_0x14="0" NOT_FOUND_0x17="0" NOT_FOUND_0x18="0x7f080cdd"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textAppearance="@style/kd" textSize="14dp" textColor="@color/w5" gravity="center" id="@+id/f4h" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" layout_marginRight="12dp" includeFontPadding="false" lineSpacingExtra="0dp" NOT_FOUND_0x13="0" NOT_FOUND_0x15="@+id/bzt" NOT_FOUND_0x16="0" NOT_FOUND_0x17="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout layout_gravity="center_horizontal" orientation="horizontal" id="@+id/c4x" background="@drawable/c9j" visibility="gone" layout_width="wrap_content" layout_height="20dp">
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/a9" ellipsize="end" id="@+id/f4j" layout_width="0dp" layout_height="match_parent" layout_marginLeft="12dp" text="@string/eau" lines="1" layout_weight="1" style="@style/tt"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/w5" gravity="center" id="@+id/f4i" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" layout_marginRight="12dp" style="@style/tt"/>
+    </LinearLayout>
+</merge>

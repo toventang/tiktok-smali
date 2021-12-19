@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/dqe" background="@color/l" paddingBottom="12dp" layout_width="match_parent" layout_height="wrap_content">
+    <FrameLayout layout_width="match_parent" layout_height="52dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_gravity="center" id="@+id/f_v" layout_width="wrap_content" layout_height="wrap_content" text="@string/h8a" NOT_FOUND_0x1e="33"/>
+        <com.bytedance.tux.icon.TuxIconView layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/bve" layout_width="24dp" layout_height="24dp" layout_marginRight="16dp" layout_marginEnd="16dp" NOT_FOUND_0x1f="@raw/icon_x_mark_small"/>
+    </FrameLayout>
+    <View id="@+id/an6" background="@color/b2" layout_width="match_parent" layout_height="1px"/>
+    <com.ss.android.ugc.aweme.shoutouts.review.view.ShoutOutRatingBar layout_gravity="center_horizontal" id="@+id/dhb" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="25.6dp" layout_marginBottom="42.2dp" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0" NOT_FOUND_0x14="@+id/an6" NOT_FOUND_0x15="5" NOT_FOUND_0x16="0x7f080c16" NOT_FOUND_0x17="0x7f080c17" NOT_FOUND_0x18="28dp" NOT_FOUND_0x19="12dp" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="0x7f080c19"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtEditText textColor="@color/bx" textColorHint="@color/bz" id="@+id/ay0" background="@null" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginRight="16dp" hint="@string/gex" maxLength="200" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+    <View id="@+id/an8" background="@color/b0" layout_width="match_parent" layout_height="1px" layout_marginLeft="17dp" layout_marginTop="15.5dp" layout_marginRight="17dp" layout_marginStart="17dp" layout_marginEnd="17dp"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/ews" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" layout_marginStart="16dp" NOT_FOUND_0x1e="61"/>
+    <com.bytedance.tux.button.TuxButton id="@+id/zt" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="36dp" layout_marginRight="16dp" text="@string/h8b" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x1c="3" NOT_FOUND_0x1d="0"/>
+</LinearLayout>

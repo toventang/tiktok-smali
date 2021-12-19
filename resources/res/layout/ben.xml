@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" background="@color/l" layout_width="match_parent" layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView id="@+id/cb4" paddingBottom="@dimen/w9" clipChildren="false" clipToPadding="false" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x7="0" NOT_FOUND_0x8="0" NOT_FOUND_0x9="0" NOT_FOUND_0xa="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

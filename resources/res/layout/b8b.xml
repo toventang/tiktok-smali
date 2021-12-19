@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/b_r" background="@drawable/bs7" layout_width="match_parent" layout_height="440dp">
+    <LinearLayout orientation="vertical" id="@+id/dqb" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x19="0">
+        <FrameLayout layout_width="match_parent" layout_height="match_parent">
+            <LinearLayout id="@+id/dqa" layout_width="50dp" layout_height="52dp">
+                <View background="@drawable/c8_" layout_width="10dp" layout_height="19dp" layout_marginLeft="18dp" layout_marginTop="19dp" layout_marginStart="18dp"/>
+            </LinearLayout>
+            <com.bytedance.android.live.design.widget.LiveTextView textSize="17sp" textColor="@color/a09" gravity="center" layout_gravity="center" id="@+id/dq9" layout_width="wrap_content" layout_height="52dp" text="@string/el0" NOT_FOUND_0x14="7"/>
+        </FrameLayout>
+        <View background="@color/b6" layout_width="match_parent" layout_height="0.5dp"/>
+    </LinearLayout>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="12sp" textColor="#61000000" gravity="start" id="@+id/dq_" paddingLeft="16dp" paddingRight="16dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" text="@string/el8" paddingStart="16dp" paddingEnd="16dp" NOT_FOUND_0x16="0" NOT_FOUND_0x17="0" NOT_FOUND_0x18="@+id/dqb"/>
+    <com.bytedance.android.live.design.widget.LiveSwitch id="@+id/aal" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="22dp" layout_marginRight="16dp" checked="false" layout_marginEnd="16dp" NOT_FOUND_0x16="0" NOT_FOUND_0x18="@+id/dq_"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="15sp" textColor="#de000000" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="22dp" layout_marginRight="16dp" text="@string/el5" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x17="0" NOT_FOUND_0x18="@+id/dq_"/>
+    <View id="@+id/a_l" background="@color/b6" layout_width="match_parent" layout_height="0.5dp" layout_marginLeft="16dp" layout_marginTop="12dp" layout_marginRight="16dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x16="0" NOT_FOUND_0x17="0" NOT_FOUND_0x18="@+id/aal"/>
+    <com.bytedance.android.live.design.widget.LiveSwitch id="@+id/bbt" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="13dp" layout_marginRight="16dp" checked="false" layout_marginEnd="16dp" NOT_FOUND_0x16="0" NOT_FOUND_0x18="@+id/a_l"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="15sp" textColor="#de000000" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginRight="16dp" text="@string/el7" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x15="@+id/bbt" NOT_FOUND_0x17="0" NOT_FOUND_0x19="@+id/bbt"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

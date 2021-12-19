@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" background="@color/h" layout_width="match_parent" layout_height="wrap_content">
+    <com.bytedance.tux.icon.TuxIconView id="@+id/bja" layout_width="16dp" layout_height="16dp" layout_centerVertical="true" layout_marginStart="12dp"/>
+    <com.bytedance.tux.icon.TuxIconView id="@+id/lp" layout_width="16dp" layout_height="16dp" layout_centerVertical="true" layout_marginEnd="12dp" layout_alignParentEnd="true" NOT_FOUND_0x11="@raw/icon_chevron_right_ltr" NOT_FOUND_0x12="?attr/aa"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" ellipsize="end" id="@+id/adh" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="10dp" layout_marginBottom="10dp" minHeight="17dp" maxLines="2" layout_marginStart="4dp" layout_marginEnd="4dp" layout_toStartOf="@+id/lp" layout_toEndOf="@+id/bja" NOT_FOUND_0x10="61"/>
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center_vertical" orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/a2r" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10dp" layout_marginBottom="4dp" text="@string/d62" maxLines="1" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0xc="62"/>
+</LinearLayout>

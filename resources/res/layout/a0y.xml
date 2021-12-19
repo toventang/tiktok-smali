@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.commercialize.profile.EnterpriseRecyclerView id="@+id/djs" layout_width="match_parent" layout_height="wrap_content" overScrollMode="never" overScrollHeader="@color/c9" overScrollFooter="@color/c9"/>
+</FrameLayout>

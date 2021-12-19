@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" layout_gravity="bottom" orientation="vertical" id="@+id/aea" background="@drawable/h1" fitsSystemWindows="true" layout_width="match_parent" layout_height="538dp">
+    <FrameLayout id="@+id/epc" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="12dp" layout_marginBottom="12dp">
+        <com.bytedance.tux.icon.TuxIconView layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/cny" layout_width="24dp" layout_height="24dp" layout_marginRight="16dp" layout_marginEnd="16dp" NOT_FOUND_0x1f="@raw/icon_x_mark"/>
+        <com.bytedance.tux.input.TuxTextView gravity="center" layout_gravity="center" id="@+id/title" layout_width="wrap_content" layout_height="20dp" text="@string/fur" NOT_FOUND_0x1e="33"/>
+    </FrameLayout>
+    <View layout_gravity="bottom" id="@+id/an6" background="@color/b2" layout_width="match_parent" layout_height="0.5dp"/>
+    <LinearLayout gravity="center_vertical" orientation="horizontal" id="@+id/cgh" background="@drawable/pm" focusable="true" focusableInTouchMode="true" visibility="gone" layout_width="match_parent" layout_height="36dp" layout_marginLeft="16dp" layout_marginTop="12dp" layout_marginRight="16dp" layout_marginBottom="8dp" layout_marginStart="16dp" layout_marginEnd="16dp">
+        <com.bytedance.tux.icon.TuxIconView id="@+id/c0w" layout_width="24dp" layout_height="24dp" layout_marginLeft="8dp" layout_marginStart="8dp" NOT_FOUND_0x1f="@raw/icon_tab_explore_fill" NOT_FOUND_0x20="?attr/ad"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtEditText textColor="@color/bx" textColorHint="@color/c5" gravity="left|center_vertical|center_horizontal|center|start" id="@+id/dtp" background="@null" layout_width="0dp" layout_height="match_parent" hint="@string/vo" maxLines="1" layout_weight="1" imeOptions="actionSearch" textCursorDrawable="@drawable/a45" textDirection="inherit" textAlignment="viewStart" style="@style/y6"/>
+        <ImageButton id="@+id/a71" background="0x7f0805d8" visibility="gone" layout_width="24dp" layout_height="24dp" layout_marginRight="4dp" layout_marginEnd="4dp"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/clc" paddingTop="8dp" visibility="gone" clipToPadding="false" layout_width="match_parent" layout_height="0dp" layout_weight="1" NOT_FOUND_0x1d="@string/uo"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtStatusView id="@+id/e_o" visibility="gone" clipToPadding="false" layout_width="match_parent" layout_height="0dp" layout_weight="1" NOT_FOUND_0x1d="@string/uo"/>
+    <include id="@+id/e28" layout="@layout/f6"/>
+    <include layout="@layout/f8"/>
+</LinearLayout>

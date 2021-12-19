@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/c7_" layout_width="match_parent" layout_height="wrap_content">
+    <RelativeLayout id="@+id/fjf" layout_width="match_parent" layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/f5k" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" text="@string/d1q" layout_marginStart="16dp" NOT_FOUND_0x1c="71"/>
+        <ImageView id="@+id/d9f" layout_width="16dp" layout_height="16dp" layout_marginLeft="4dp" src="0x7f0807ac" layout_toRightOf="@+id/f5k" layout_alignBottom="@+id/f5k" layout_marginStart="4dp" layout_toEndOf="@+id/f5k"/>
+        <LinearLayout orientation="horizontal" id="@+id/cjf" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="16dp" layout_alignTop="@+id/f5k" layout_alignParentRight="true" layout_marginEnd="16dp" layout_alignParentEnd="true">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c5" gravity="top|center_vertical|center_horizontal|center" layout_gravity="center_vertical" id="@+id/cjd" layout_width="wrap_content" layout_height="wrap_content" text="@string/d1l" NOT_FOUND_0x1c="71"/>
+            <com.ss.android.ugc.aweme.views.AutoRTLImageView layout_gravity="center_vertical" id="@+id/cje" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" layout_marginTop="1dp" src="0x7f0807aa" layout_marginStart="4dp"/>
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView id="@+id/djs" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="10dp" layout_marginBottom="10dp" layout_below="@+id/f5k" layout_alignParentRight="true" layout_alignParentEnd="true"/>
+        <LinearLayout orientation="horizontal" id="@+id/b3d" layout_width="wrap_content" layout_height="wrap_content" layout_below="@+id/djs" layout_centerHorizontal="true">
+            <LinearLayout orientation="horizontal" id="@+id/b3b" layout_width="wrap_content" layout_height="wrap_content" layout_centerHorizontal="true">
+                <com.ss.android.ugc.aweme.base.ui.AvatarImageView layout_gravity="center_vertical" id="@+id/b39" layout_width="20dp" layout_height="20dp"/>
+                <com.ss.android.ugc.aweme.base.ui.AvatarImageView layout_gravity="center_vertical" id="@+id/b3_" layout_width="20dp" layout_height="20dp" layout_marginLeft="-4dp" layout_marginStart="-4dp"/>
+                <com.ss.android.ugc.aweme.base.ui.AvatarImageView layout_gravity="center_vertical" id="@+id/b3a" layout_width="20dp" layout_height="20dp" layout_marginLeft="-4dp" layout_marginStart="-4dp"/>
+            </LinearLayout>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/aa" gravity="top|center_vertical|center_horizontal|center" layout_gravity="center_vertical" id="@+id/b38" layout_width="wrap_content" layout_height="wrap_content" text="@string/d1k" layout_marginStart="8dp" NOT_FOUND_0x1c="61"/>
+            <ImageView layout_gravity="center_vertical" id="@+id/b3c" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" layout_marginTop="1dp" src="0x7f0807aa" layout_marginStart="4dp"/>
+        </LinearLayout>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/f4y" padding="8dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="5dp" layout_below="@+id/djs" NOT_FOUND_0x1c="61"/>
+        <View id="@+id/cae" background="@color/b4" visibility="gone" layout_width="match_parent" layout_height="1px" layout_marginLeft="16dp" layout_marginRight="16dp" layout_alignParentBottom="true" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+    </RelativeLayout>
+    <RelativeLayout id="@+id/fjg" background="@drawable/td" visibility="gone" layout_width="match_parent" layout_height="match_parent" layout_marginLeft="16dp" layout_marginRight="16dp" layout_marginBottom="16dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/aa" layout_width="wrap_content" layout_height="wrap_content" text="@string/eya" layout_centerHorizontal="true" layout_centerVertical="true" NOT_FOUND_0x1c="71"/>
+    </RelativeLayout>
+</RelativeLayout>

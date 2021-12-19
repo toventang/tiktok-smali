@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.ies.bullet.ui.common.DebugTagTextView xmlns="" textSize="13dp" textColor="@android:color/white" layout_gravity="bottom|left|center_vertical|center_horizontal|center" id="@+id/aij" background="@color/en" paddingLeft="7dp" paddingTop="4dp" paddingRight="7dp" paddingBottom="4dp" layout_width="wrap_content" layout_height="wrap_content"/>

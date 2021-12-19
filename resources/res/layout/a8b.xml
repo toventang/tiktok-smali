@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" focusable="true" clickable="true" layout_width="match_parent" layout_height="52dp">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/bll" layout_width="wrap_content" layout_height="wrap_content" text="@string/c9i" drawableRight="0x7f080831" layout_centerInParent="true" drawableEnd="0x7f080831" NOT_FOUND_0xa="42"/>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <FrameLayout id="@+id/e2r" visibility="gone" layout_width="match_parent" layout_height="@dimen/ny">
+        <ImageView layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/e2s" layout_width="@dimen/nz" layout_height="@dimen/nz" layout_marginRight="@dimen/o1" layout_marginEnd="@dimen/o1" NOT_FOUND_0xe="@drawable/b29"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="?attr/amo" layout_gravity="center" id="@+id/e2t" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/o1" maxLines="1" singleLine="true" style="@style/tm"/>
+        <com.bytedance.android.live.design.view.sheet.LiveSheetHandleView layout_gravity="center_horizontal" id="@+id/e2q" visibility="gone" layout_width="@dimen/nx" layout_height="@dimen/nt" layout_marginTop="@dimen/nu"/>
+        <View layout_gravity="bottom" background="?attr/alz" layout_width="match_parent" layout_height="@dimen/np"/>
+    </FrameLayout>
+    <FrameLayout id="@+id/e2k" layout_width="match_parent" layout_height="match_parent"/>
+</LinearLayout>

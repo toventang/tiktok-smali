@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <include id="@+id/emo" layout="@layout/az5"/>
+    <androidx.core.widget.NestedScrollView layout_width="match_parent" layout_height="match_parent">
+        <LinearLayout orientation="vertical" id="@+id/c4a" layout_width="match_parent" layout_height="match_parent" layout_marginTop="8dp">
+            <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/lb" layout_width="match_parent" NOT_FOUND_0x7="1" NOT_FOUND_0x8="@string/uf" NOT_FOUND_0xa="@string/fr2" style="@style/a11"/>
+            <com.ss.android.ugc.aweme.setting.ui.Divider layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x9="true" NOT_FOUND_0xb="@string/cux"/>
+            <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/eql" layout_width="match_parent" NOT_FOUND_0x7="1" NOT_FOUND_0x8="@string/fke" NOT_FOUND_0xa="@string/fkd" style="@style/a11"/>
+            <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/of" NOT_FOUND_0x8="@string/tn" NOT_FOUND_0xa="@string/tm" style="@style/a12"/>
+            <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/eto" visibility="gone" NOT_FOUND_0x8="@string/to" NOT_FOUND_0xa="@string/hal" style="@style/a12"/>
+            <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/etp" visibility="gone" layout_width="match_parent" NOT_FOUND_0x7="1" NOT_FOUND_0x8="@string/han" NOT_FOUND_0xa="@string/ham" style="@style/a11"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

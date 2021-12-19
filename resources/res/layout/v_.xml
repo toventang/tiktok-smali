@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="" background="@color/a2" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout id="@+id/dho" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+    <com.ss.android.ugc.aweme.crossplatform.view.WebViewFrameLayout id="@+id/fma" layout_width="match_parent" layout_height="match_parent"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtStatusView id="@+id/axu" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+    <View id="@+id/a7a" background="@color/a9" focusable="true" visibility="gone" clickable="true" layout_width="match_parent" layout_height="match_parent"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtStatusView layout_gravity="center" id="@+id/ci9" layout_width="wrap_content" layout_height="wrap_content"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" layout_gravity="bottom|left|center_vertical|center_horizontal|center" id="@+id/aip" background="@color/aq" paddingLeft="7dp" paddingTop="4dp" paddingRight="7dp" paddingBottom="4dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="10dp" layout_marginBottom="10dp" NOT_FOUND_0xf="61"/>
+    <View id="@+id/t0" background="@color/j" visibility="gone" layout_width="match_parent" layout_height="2dp"/>
+    <com.ss.android.ugc.aweme.feed.widget.LineProgressBarView id="@+id/d2u" visibility="gone" layout_width="match_parent" layout_height="2dp"/>
+</merge>

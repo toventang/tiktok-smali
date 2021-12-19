@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center_horizontal" layout_gravity="bottom" orientation="vertical" id="@+id/dqp" background="@drawable/b3a" layout_width="match_parent" layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView id="@+id/dtg" layout_width="match_parent" layout_height="0dp" layout_marginLeft="25dp" layout_marginTop="17dp" layout_marginRight="25dp" layout_marginBottom="17dp" layout_weight="1" layout_marginStart="25dp" layout_marginEnd="25dp">
+        <LinearLayout gravity="center_horizontal" orientation="vertical" id="@+id/dlo" clipChildren="false" clipToPadding="false" layout_width="wrap_content" layout_height="wrap_content">
+            <FrameLayout layout_gravity="center_horizontal" layout_width="46dp" layout_height="46dp">
+                <ImageView layout_gravity="center" id="@+id/dlp" layout_width="22dp" layout_height="22dp" src="0x7f08041b" scaleType="fitCenter"/>
+                <View id="@+id/dlq" background="@drawable/b3c" layout_width="match_parent" layout_height="match_parent"/>
+            </FrameLayout>
+            <com.bytedance.tux.input.TuxTextView textColor="?attr/bi" ellipsize="end" gravity="center_horizontal" layout_gravity="center_horizontal" id="@+id/dlr" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" text="@string/fcr" maxLines="2" NOT_FOUND_0x1d="11sp" NOT_FOUND_0x1e="8sp" NOT_FOUND_0x1f="1" NOT_FOUND_0x20="81"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <View id="@+id/an6" background="@color/b2" layout_width="match_parent" layout_height="0.5dp"/>
+    <com.bytedance.tux.input.TuxTextView textSize="15sp" textColor="@color/bx" ellipsize="end" gravity="center_horizontal" layout_gravity="center_horizontal" id="@+id/a1p" paddingLeft="32dp" paddingTop="17dp" paddingRight="32dp" paddingBottom="17dp" layout_width="wrap_content" layout_height="wrap_content" text="@string/a9e" maxLines="1" paddingStart="32dp" paddingEnd="32dp"/>
+</LinearLayout>

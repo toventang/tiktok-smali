@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="match_parent" layout_height="80dp">
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="12dp" textColor="@color/c5" id="@+id/f3k" layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true"/>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center_vertical" orientation="horizontal" paddingTop="5dp" paddingBottom="5dp" focusable="true" clickable="true" layout_width="match_parent" layout_height="wrap_content" layout_centerVertical="true">
+    <LinearLayout gravity="center" id="@+id/cf4" background="@drawable/a4z" layout_width="0dp" layout_height="wrap_content" minHeight="38dp" layout_weight="1" layout_marginStart="16dp">
+        <com.ss.android.ugc.aweme.views.mention.MentionEditText textSize="15dp" textColor="@color/aa" textColorHint="@color/aa" gravity="left|center_vertical|center_horizontal|center|start" layout_gravity="center" id="@+id/cly" background="@color/c9" paddingTop="10dp" paddingBottom="10dp" focusable="false" focusableInTouchMode="false" layout_width="match_parent" layout_height="match_parent" hint="@string/cf7" maxLines="1" lineSpacingExtra="3dp" inputType="none" paddingStart="12dp"/>
+    </LinearLayout>
+    <com.ss.android.ugc.aweme.emoji.views.StoryEmojiReactionView id="@+id/ave" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+</LinearLayout>

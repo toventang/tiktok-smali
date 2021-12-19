@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.im.sdk.chat.feature.reply.ui.ReplyMessageLayout xmlns="" id="@+id/dl_" background="@drawable/aqu" paddingTop="6dp" paddingBottom="6dp" layout_width="wrap_content" layout_height="wrap_content" paddingStart="12dp" paddingEnd="12dp" layout_marginStart="8dp" layout_marginEnd="24dp" NOT_FOUND_0xa="true" NOT_FOUND_0xb="@+id/adz" NOT_FOUND_0xc="0" NOT_FOUND_0xd="@+id/pf" NOT_FOUND_0xe="@+id/fdm" NOT_FOUND_0xf="@color/c5" NOT_FOUND_0x10="false"/>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <View id="@+id/afo" layout_width="match_parent" layout_height="0px" layout_weight="1"/>
+    <com.ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout orientation="vertical" id="@+id/afn" layout_width="match_parent" layout_height="@dimen/ck" layoutDirection="ltr" NOT_FOUND_0x23="@dimen/cl" NOT_FOUND_0x24="true">
+        <androidx.constraintlayout.widget.ConstraintLayout id="@+id/eml" layout_width="match_parent" layout_height="52dp" layout_marginLeft="16dp" layout_marginRight="16dp" layoutDirection="locale" layout_marginStart="16dp" layout_marginEnd="16dp">
+            <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView textColor="@color/a9" id="@+id/eja" layout_width="wrap_content" layout_height="wrap_content" text="@string/av3" NOT_FOUND_0x1c="7" NOT_FOUND_0x1f="0" NOT_FOUND_0x21="0" NOT_FOUND_0x22="0" style="@style/ww"/>
+            <RadioGroup orientation="horizontal" id="@+id/dmz" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x1f="0" NOT_FOUND_0x20="0" NOT_FOUND_0x22="0">
+                <com.bytedance.ies.dmt.ui.widget.DmtRadioButton textSize="13dp" textColor="@color/d8" gravity="center" id="@+id/dhl" background="@drawable/eo" layout_width="44dp" layout_height="28dp" checked="true" button="@color/c9" text="3s" fontFamily="ProximaNova-Semibold"/>
+                <com.bytedance.ies.dmt.ui.widget.DmtRadioButton textSize="13dp" textColor="@color/d8" gravity="center" id="@+id/dhk" background="@drawable/er" layout_width="44dp" layout_height="28dp" button="@color/c9" text="10s" fontFamily="ProximaNova-Semibold"/>
+            </RadioGroup>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout orientation="vertical" paddingLeft="16dp" paddingRight="16dp" paddingBottom="20dp" clipChildren="false" clipToPadding="false" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+            <FrameLayout layout_width="match_parent" layout_height="wrap_content" layout_marginTop="12dp">
+                <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+                    <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView textSize="11dp" textStyle="bold" textColor="@color/lm" id="@+id/ek0" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x1c="7" NOT_FOUND_0x1e="false"/>
+                    <androidx.legacy.widget.Space layout_width="0dp" layout_height="wrap_content" layout_weight="1"/>
+                    <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView textSize="11dp" textStyle="bold" textColor="@color/lm" id="@+id/ejh" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x1c="7" NOT_FOUND_0x1e="false"/>
+                </LinearLayout>
+                <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView textSize="11dp" textStyle="bold" textColor="@color/ll" id="@+id/ejt" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x1c="7"/>
+            </FrameLayout>
+            <LinearLayout orientation="vertical" clipChildren="false" layout_width="match_parent" layout_height="wrap_content">
+                <com.ss.android.ugc.aweme.shortvideo.widget.VolumeTapsView id="@+id/fkp" layout_width="match_parent" layout_height="56dp" layout_marginTop="4dp" NOT_FOUND_0x1d="false"/>
+            </LinearLayout>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" id="@+id/e9v" background="@drawable/to" layout_width="match_parent" layout_height="44dp" layout_marginTop="20dp" foreground="?attr/ab_" text="@string/av1" NOT_FOUND_0x25="52"/>
+        </LinearLayout>
+    </com.ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns="" id="@+id/dqk" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" id="@+id/akq" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x1c="com.ss.android.ugc.aweme.choosemusic.activity.MusicBottomSheetBehavior">
+        <androidx.legacy.widget.Space id="@+id/e7k" layout_width="match_parent" layout_height="wrap_content"/>
+        <RelativeLayout id="@+id/em_" background="@drawable/wn" layout_width="match_parent" layout_height="@dimen/a0s">
+            <FrameLayout layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="6dp" layout_centerVertical="true" layout_marginStart="6dp">
+                <ImageView layout_gravity="center_vertical" id="@+id/qb" padding="10dp" layout_width="44dp" layout_height="44dp" src="0x7f0806dd" scaleType="centerInside"/>
+                <com.ss.android.ugc.aweme.views.AutoRTLImageView layout_gravity="center_vertical" id="@+id/due" paddingLeft="12dp" paddingTop="13dp" paddingRight="22dp" paddingBottom="13dp" visibility="gone" layout_width="44dp" layout_height="44dp" src="0x7f0806a7" paddingStart="12dp" paddingEnd="22dp"/>
+            </FrameLayout>
+            <LinearLayout gravity="center" layout_gravity="center" orientation="horizontal" id="@+id/cgv" layout_width="wrap_content" layout_height="match_parent" layout_centerInParent="true">
+                <com.bytedance.tux.input.TuxTextView textColor="#e6161823" gravity="center_vertical" layout_gravity="center_vertical" id="@+id/f9l" layout_width="wrap_content" layout_height="@dimen/a0s" NOT_FOUND_0x1d="33"/>
+                <ImageView layout_gravity="center_vertical" id="@+id/c24" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" src="0x7f0807b5"/>
+            </LinearLayout>
+            <ImageView gravity="center" id="@+id/bvp" padding="10dp" visibility="gone" layout_width="wrap_content" layout_height="match_parent" layout_marginRight="6dp" src="0x7f0805ed" layout_alignParentRight="true" layout_marginEnd="6dp" layout_alignParentEnd="true"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c5" gravity="center" id="@+id/f6a" padding="10dp" layout_width="wrap_content" layout_height="match_parent" layout_marginRight="6dp" text="@string/dcw" layout_alignParentRight="true" layout_marginEnd="6dp" layout_alignParentEnd="true" NOT_FOUND_0x1d="41"/>
+        </RelativeLayout>
+        <FrameLayout id="@+id/b95" background="@color/l" layout_width="match_parent" layout_height="match_parent" layout_alignParentStart="true"/>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

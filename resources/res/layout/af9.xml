@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" layout_width="match_parent" layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.ad.feed.button.view.FeedAdButtonView id="@+id/b0o" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="@dimen/k6" layout_marginTop="10dp" layout_marginRight="@dimen/k8" layout_marginBottom="@dimen/jv" layout_marginStart="@dimen/k6" layout_marginEnd="@dimen/k8"/>
+</LinearLayout>

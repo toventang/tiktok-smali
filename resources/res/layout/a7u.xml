@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="wrap_content" splitMotionEvents="false">
+    <FrameLayout id="@+id/bpz" layout_width="0dp" layout_height="wrap_content" layout_marginTop="8dp" layout_marginBottom="8dp" layout_marginStart="12dp" layout_marginEnd="15dp" NOT_FOUND_0x1a="0" NOT_FOUND_0x1c="@+id/dyu" NOT_FOUND_0x1d="0" NOT_FOUND_0x1e="0">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" textColorHint="@color/ac" ellipsize="end" gravity="left|center_vertical|center_horizontal|center|start" id="@+id/dla" background="@drawable/aqd" paddingTop="10dp" paddingBottom="10dp" focusable="false" focusableInTouchMode="false" layout_width="match_parent" layout_height="wrap_content" hint="@string/cf7" maxLines="1" scrollHorizontally="false" textAlignment="viewStart" paddingStart="12dp" paddingEnd="40dp" NOT_FOUND_0x1f="41"/>
+        <com.bytedance.tux.icon.TuxIconView layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/avj" layout_width="@dimen/lo" layout_height="@dimen/lo" text="@string/ci1" layout_marginEnd="@dimen/lh" NOT_FOUND_0x20="@raw/icon_3pt_dm_emoji" NOT_FOUND_0x21="@color/a_"/>
+    </FrameLayout>
+    <com.bytedance.tux.icon.TuxIconView id="@+id/dyu" layout_width="@dimen/lp" layout_height="@dimen/lp" scaleType="centerInside" layout_marginStart="15dp" layout_marginEnd="12dp" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="0" NOT_FOUND_0x1e="0" NOT_FOUND_0x20="@raw/icon_paperplane_fill" NOT_FOUND_0x21="@color/ac"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

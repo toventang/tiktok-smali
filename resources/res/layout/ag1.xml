@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="" paddingTop="12dp" paddingBottom="12dp" layout_width="247dp" layout_height="@dimen/gq" paddingStart="20dp" paddingEnd="20dp">
+    <LinearLayout layout_gravity="center" orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content">
+        <ImageView layout_gravity="center_vertical" id="@+id/by0" layout_width="20dp" layout_height="20dp"/>
+        <com.bytedance.tux.input.TuxTextView ellipsize="end" layout_gravity="center_vertical" id="@+id/f9a" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" maxLines="1" layout_marginStart="4dp" NOT_FOUND_0xd="42"/>
+    </LinearLayout>
+</merge>

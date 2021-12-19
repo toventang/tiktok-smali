@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/a6w" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout id="@+id/cgi" background="@drawable/b6r" layout_width="0dp" layout_height="wrap_content" layout_marginTop="12dp" layout_marginBottom="4dp" layout_marginStart="8dp" layout_marginEnd="16dp" NOT_FOUND_0x1a="0" NOT_FOUND_0x1d="@+id/bu7" NOT_FOUND_0x1f="0" NOT_FOUND_0x20="@+id/bu7" NOT_FOUND_0x23="0">
+        <com.bytedance.tux.icon.TuxIconView layout_gravity="center_vertical" layout_width="20dp" layout_height="20dp" layout_marginTop="8dp" layout_marginBottom="8dp" layout_marginStart="6dp" NOT_FOUND_0x25="@raw/icon_magnifying_glass" NOT_FOUND_0x27="?attr/bc"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtEditText textColor="@color/bx" textColorHint="@color/c5" ellipsize="end" gravity="left|center_vertical|center_horizontal|center|start" layout_gravity="left|center_vertical|center_horizontal|center|start" id="@+id/ay6" background="@null" focusable="true" focusableInTouchMode="true" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="9dp" layout_marginBottom="9dp" hint="@string/dp9" singleLine="true" inputType="textNoSuggestions" imeOptions="actionSearch" textCursorDrawable="@drawable/b_u" textAlignment="viewStart" layout_marginStart="6dp" style="@style/y6"/>
+    </LinearLayout>
+    <com.bytedance.tux.icon.TuxIconView id="@+id/bu7" layout_width="24dp" layout_height="24dp" layout_marginStart="16dp" NOT_FOUND_0x19="@+id/cgi" NOT_FOUND_0x1b="@+id/cgi" NOT_FOUND_0x1c="0" NOT_FOUND_0x1e="@+id/cgi" NOT_FOUND_0x21="0" NOT_FOUND_0x23="@+id/cgi" NOT_FOUND_0x25="@raw/icon_arrow_left_ltr" NOT_FOUND_0x27="?attr/bc"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bh" id="@+id/f01" paddingTop="9dp" paddingBottom="9dp" layout_width="wrap_content" layout_height="wrap_content" text="@string/dp9" layout_marginEnd="16dp" NOT_FOUND_0x19="@+id/cgi" NOT_FOUND_0x1a="0" NOT_FOUND_0x1f="0" NOT_FOUND_0x23="@+id/cgi" NOT_FOUND_0x24="41"/>
+    <com.bytedance.tux.status.TuxStatusView layout_gravity="center_vertical" id="@+id/e_o" layout_width="match_parent" layout_height="0dp" NOT_FOUND_0x19="0" NOT_FOUND_0x22="@+id/cgi" NOT_FOUND_0x26="0"/>
+    <com.ss.android.ugc.aweme.music.search.ui.SearchView id="@+id/eg8" layout_width="match_parent" layout_height="0dp" NOT_FOUND_0x19="0" NOT_FOUND_0x22="@+id/cgi">
+        <com.bytedance.ies.powerlist.PowerList id="@+id/drv" clipToPadding="false" layout_width="match_parent" layout_height="match_parent" layout_marginTop="8dp"/>
+    </com.ss.android.ugc.aweme.music.search.ui.SearchView>
+</androidx.constraintlayout.widget.ConstraintLayout>

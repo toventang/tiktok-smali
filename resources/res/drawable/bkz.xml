@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <corners android:radius="5dp"/>
+            <solid android:color="@color/c9"/>
+        </shape>
+    </item>
+    <item android:left="1dp" android:top="1dp" android:right="1dp" android:bottom="1dp">
+        <shape>
+            <corners android:radius="4dp"/>
+            <stroke android:width="2dp" android:color="@color/l"/>
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout xmlns="" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x17="1" NOT_FOUND_0x19="0.75">
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/dnr" background="@drawable/b1c" layout_width="match_parent" layout_height="match_parent" scaleType="centerCrop" alpha="0.7"/>
+    <FrameLayout id="@+id/b5r" layout_width="match_parent" layout_height="match_parent"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/p" layout_gravity="top|left|center_vertical|center_horizontal|center|start" id="@+id/f9s" background="@drawable/b6_" paddingLeft="6dp" paddingTop="2dp" paddingRight="6dp" paddingBottom="2.5dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="6dp" layout_marginTop="6dp" text="@string/cx3" paddingStart="6dp" paddingEnd="6dp" layout_marginStart="6dp" NOT_FOUND_0x18="71"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" layout_gravity="center" id="@+id/b3f" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/cxq" NOT_FOUND_0x18="71"/>
+    <com.bytedance.tux.input.TuxTextView layout_gravity="bottom" id="@+id/f_m" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="4dp" drawableLeft="0x7f080a96" drawablePadding="1dp" drawableStart="0x7f080a96" layout_marginStart="4dp" NOT_FOUND_0x18="51" style="@style/a04"/>
+</com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>

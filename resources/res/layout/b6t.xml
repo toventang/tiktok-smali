@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@color/c9" layout_width="match_parent" layout_height="match_parent">
+    <View id="@+id/d10" layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+    <androidx.constraintlayout.widget.ConstraintLayout background="@drawable/bqz" layout_width="match_parent" layout_height="wrap_content">
+        <RelativeLayout id="@+id/pg" layout_width="150dp" layout_height="87dp" layout_marginTop="27dp" NOT_FOUND_0x19="0" NOT_FOUND_0x1c="0" NOT_FOUND_0x1e="0">
+            <ImageView id="@+id/jg" layout_width="84dp" layout_height="84dp" src="0x7f080e78" layout_alignParentLeft="true" layout_centerVertical="true" layout_alignParentStart="true"/>
+            <ImageView layout_width="87dp" layout_height="87dp" src="@drawable/c5j" layout_marginStart="-21dp" layout_toEndOf="@+id/jg"/>
+            <ImageView id="@+id/bdh" layout_width="84dp" layout_height="84dp" src="0x7f080e78" layout_centerVertical="true" scaleX="-1" layout_marginStart="-18dp" layout_toEndOf="@+id/jg"/>
+        </RelativeLayout>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="17dp" textColor="@color/bx" gravity="center" id="@+id/brj" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="19dp" layout_marginStart="32dp" layout_marginEnd="32dp" NOT_FOUND_0x18="2" NOT_FOUND_0x19="0" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="@+id/pg"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="15dp" textColor="@color/c5" gravity="center" id="@+id/bri" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/ea1" layout_marginStart="32dp" layout_marginEnd="32dp" NOT_FOUND_0x19="0" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="@+id/brj"/>
+        <View id="@+id/bgx" background="@color/a0f" layout_width="match_parent" layout_height="0.5dp" layout_marginTop="16dp" NOT_FOUND_0x19="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="0" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="@+id/bri"/>
+        <com.bytedance.android.live.design.widget.LiveCheckBox textAppearance="@style/k9" textColor="@color/c4" id="@+id/a3h" paddingLeft="8dp" layout_width="wrap_content" layout_height="50dp" layout_marginLeft="16dp" text="@string/ep4" paddingStart="8dp" layout_marginStart="16dp" NOT_FOUND_0x19="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="0" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="@+id/bgx" style="@style/t8"/>
+        <LinearLayout orientation="horizontal" id="@+id/brh" layout_width="match_parent" layout_height="60dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x19="0" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="@+id/a3h">
+            <com.bytedance.android.live.design.widget.LiveButton textColor="@color/a0h" id="@+id/f5n" layout_width="0dp" layout_height="44dp" text="@string/e4u" layout_weight="1" style="@style/t1"/>
+            <Space id="@+id/e7t" layout_width="8dp" layout_height="1dp"/>
+            <com.bytedance.android.live.design.widget.LiveButton enabled="false" textColor="@color/a24" id="@+id/evd" layout_width="0dp" layout_height="44dp" text="@string/e9l" layout_weight="1" style="@style/sv"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

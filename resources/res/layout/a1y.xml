@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.ies.dmt.ui.titlebar.TextTitleBar id="@+id/em8" layout_width="match_parent" layout_height="@dimen/a0s" NOT_FOUND_0x18="15dp" NOT_FOUND_0x19="@string/atq" NOT_FOUND_0x1a="@color/bx" NOT_FOUND_0x1c="true"/>
+    <RelativeLayout id="@+id/awy" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="15dp" layout_marginTop="14.5dp" layout_marginBottom="14.5dp" layout_marginStart="15dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a" id="@+id/awz" layout_width="wrap_content" layout_height="wrap_content" text="@string/a5u" NOT_FOUND_0x1b="51"/>
+        <ImageView id="@+id/a7o" layout_width="20dp" layout_height="20dp" layout_marginRight="20dp" src="0x7f080558" layout_alignParentRight="true" layout_marginEnd="20dp" layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <FrameLayout background="@color/l" layout_width="match_parent" layout_height="match_parent">
+        <com.bytedance.ies.dmt.ui.widget.DmtStatusView id="@+id/e_o" layout_width="match_parent" layout_height="match_parent"/>
+        <FrameLayout layout_width="match_parent" layout_height="match_parent">
+            <com.ss.android.ugc.aweme.base.opensourcemodified.android.support.v4.widget.SwipeRefreshLayout enabled="false" id="@+id/dk8" layout_width="match_parent" layout_height="match_parent" layout_marginTop="0.5dp">
+                <androidx.recyclerview.widget.RecyclerView id="@+id/cbi" layout_width="match_parent" layout_height="wrap_content"/>
+            </com.ss.android.ugc.aweme.base.opensourcemodified.android.support.v4.widget.SwipeRefreshLayout>
+            <com.ss.android.ugc.aweme.friends.widget.IndexView layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/bnz" visibility="gone" layout_width="16dp" layout_height="wrap_content" layout_marginRight="3dp" layout_marginEnd="3dp"/>
+        </FrameLayout>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/bnt" background="0x7f080542" paddingTop="4dp" paddingBottom="4dp" visibility="gone" layout_width="52dp" layout_height="42dp" paddingStart="12dp" paddingEnd="18dp" layout_marginEnd="40dp" NOT_FOUND_0x1b="11"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center_horizontal" orientation="vertical" id="@+id/dlx" layout_width="match_parent" layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView id="@+id/dlw" layout_width="match_parent" layout_height="wrap_content"/>
+    <com.ss.android.ugc.aweme.kids.commonfeed.ui.widget.ReportErrorView id="@+id/dln" layout_width="match_parent" layout_height="wrap_content"/>
+</LinearLayout>

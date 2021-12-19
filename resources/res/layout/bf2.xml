@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.android.live.design.widget.LiveTextView xmlns="" textSize="12sp" textColor="@color/ws" ellipsize="end" gravity="center" layout_gravity="bottom|right|center_vertical|center_horizontal|center" id="@+id/bqj" background="@drawable/br9" paddingLeft="6dp" paddingTop="11dp" paddingRight="6dp" paddingBottom="11dp" layout_width="@dimen/wg" layout_height="wrap_content" layout_marginRight="12dp" layout_marginBottom="52dp" text="@string/gs0" maxLines="2"/>

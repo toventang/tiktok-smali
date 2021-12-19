@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" background="@drawable/bp9" paddingBottom="12dp" layout_width="match_parent" layout_height="wrap_content">
+    <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/a0h" gravity="center" layout_gravity="center" id="@+id/f9l" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="20dp" layout_marginRight="16dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x19="0" NOT_FOUND_0x1b="0" NOT_FOUND_0x1d="0" style="@style/tj"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="15dp" textColor="#80161823" gravity="center" id="@+id/eye" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="12dp" layout_marginRight="16dp" includeFontPadding="false" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x19="0" NOT_FOUND_0x1b="0" NOT_FOUND_0x1c="@+id/f9l"/>
+    <View layout_gravity="center_horizontal" id="@+id/fj2" background="#161823" visibility="visible" layout_width="match_parent" layout_height="0.5dp" layout_marginTop="20dp" alpha="0.12" NOT_FOUND_0x18="0" NOT_FOUND_0x19="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="0" NOT_FOUND_0x1c="@+id/eye"/>
+    <com.bytedance.android.live.design.widget.LiveCheckBox textAppearance="@style/kb" textColor="#80161823" id="@+id/a36" paddingLeft="8dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" checked="false" text="@string/e10" paddingStart="8dp" NOT_FOUND_0x18="0" NOT_FOUND_0x19="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="0" NOT_FOUND_0x1c="@+id/fj2" style="@style/t8"/>
+    <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="44dp" layout_marginLeft="16dp" layout_marginTop="20dp" layout_marginRight="16dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x18="0" NOT_FOUND_0x19="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="0" NOT_FOUND_0x1c="@+id/a36">
+        <com.bytedance.android.live.design.widget.LiveButton id="@+id/cu4" layout_width="0dp" layout_height="44dp" layout_weight="1" style="@style/t1"/>
+        <Space id="@+id/e7t" layout_width="8dp" layout_height="1dp"/>
+        <com.bytedance.android.live.design.widget.LiveButton id="@+id/d7p" layout_width="0dp" layout_height="44dp" layout_weight="1" style="@style/sv"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

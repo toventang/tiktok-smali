@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/aao" focusable="false" focusableInTouchMode="false" layout_width="wrap_content" layout_height="wrap_content">
+    <FrameLayout id="@+id/a_0" focusable="false" focusableInTouchMode="false" layout_width="50dp" layout_height="50dp" layout_marginBottom="3dp" style="@style/vx">
+        <ImageView layout_gravity="center" id="@+id/a_h" focusable="false" focusableInTouchMode="false" layout_width="40dp" layout_height="40dp" src="0x7f080954"/>
+        <ImageView layout_gravity="end" id="@+id/a_f" visibility="gone" layout_width="20dp" layout_height="20dp" src="0x7f080654"/>
+    </FrameLayout>
+    <com.bytedance.tux.input.TuxTextView layout_gravity="center_horizontal" id="@+id/a_2" paddingBottom="16dp" focusable="false" focusableInTouchMode="false" visibility="visible" layout_marginTop="-3.4dp" importantForAccessibility="no" NOT_FOUND_0xd="72" style="@style/w0"/>
+</LinearLayout>

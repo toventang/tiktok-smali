@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" style="@style/yj">
+    <androidx.constraintlayout.widget.Guideline orientation="vertical" id="@+id/adz" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x15="0.8213"/>
+    <include id="@+id/c6k" NOT_FOUND_0x14="0" NOT_FOUND_0x18="0" NOT_FOUND_0x1a="0" layout="@layout/a7f"/>
+    <include id="@+id/c7x" layout_width="wrap_content" layout_height="32dp" layout_marginStart="16dp" NOT_FOUND_0x18="0" NOT_FOUND_0x1a="@+id/fdm" layout="@layout/a7v"/>
+    <com.ss.android.ugc.aweme.base.ui.AvatarImageView id="@+id/pf" layout_marginStart="12dp" NOT_FOUND_0x17="@+id/c7x" NOT_FOUND_0x1a="@+id/adh" style="@style/yl"/>
+    <include layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="8dp" NOT_FOUND_0x17="@+id/pf" NOT_FOUND_0x19="@+id/c6k" layout="@layout/a7i"/>
+    <ViewStub id="@+id/dl_" background="@drawable/aqu" paddingTop="6dp" paddingBottom="6dp" layout="@layout/a7r" inflatedId="@+id/dl_" layout_width="wrap_content" layout_height="wrap_content" paddingStart="12dp" paddingEnd="12dp" layout_marginStart="8dp" layout_marginEnd="24dp" NOT_FOUND_0x13="true" NOT_FOUND_0x14="@+id/adz" NOT_FOUND_0x16="0" NOT_FOUND_0x17="@+id/pf" NOT_FOUND_0x19="@+id/fdm"/>
+    <LinearLayout orientation="vertical" id="@+id/adh" background="@drawable/aqu" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="2dp" layout_marginStart="8dp" NOT_FOUND_0x13="true" NOT_FOUND_0x14="@+id/adz" NOT_FOUND_0x16="0" NOT_FOUND_0x17="@+id/pf" NOT_FOUND_0x19="@+id/dl_">
+        <ViewStub id="@+id/dl9" paddingTop="12dp" layout="@layout/a7q" inflatedId="@+id/dl9" layout_width="wrap_content" layout_height="wrap_content" paddingStart="12dp" paddingEnd="12dp"/>
+        <com.ss.android.ugc.aweme.im.sdk.common.ui.widget.SpanInterceptNoTextView textColor="@color/bx" id="@+id/cos" padding="12dp" layout_margin="0dp" maxWidth="@dimen/ln" lineSpacingExtra="0dp" NOT_FOUND_0x1b="31" style="@style/yn"/>
+    </LinearLayout>
+    <include layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="8dp" NOT_FOUND_0x17="@+id/pf" NOT_FOUND_0x19="@+id/adh" layout="@layout/a71"/>
+    <include layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x14="0" NOT_FOUND_0x18="0" NOT_FOUND_0x19="@+id/cf5" layout="@layout/a7d"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

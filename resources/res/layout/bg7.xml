@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" clipChildren="false" layout_width="36dp" layout_height="36dp" layout_marginStart="4dp" layout_marginEnd="4dp">
+    <com.bytedance.android.livesdk.widget.VHeadView layout_gravity="center" id="@+id/c0_" visibility="gone" layout_width="28dp" layout_height="28dp"/>
+    <com.airbnb.lottie.LottieAnimationView id="@+id/bt3" layout_width="match_parent" layout_height="match_parent"/>
+    <com.bytedance.android.live.core.widget.HSImageView layout_gravity="center" id="@+id/bu0" visibility="gone" layout_width="28dp" layout_height="28dp"/>
+    <com.bytedance.android.live.core.widget.HSAnimImageView id="@+id/btq" layout_width="match_parent" layout_height="match_parent"/>
+    <LinearLayout gravity="center_horizontal" orientation="vertical" clipChildren="false" layout_width="match_parent" layout_height="match_parent">
+        <ImageView id="@+id/enf" layout_width="36dp" layout_height="24dp" layout_marginBottom="1dp" scaleType="centerInside"/>
+        <View layout_width="wrap_content" layout_height="0dp" layout_weight="1"/>
+        <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlTextView textColor="@color/a24" ellipsize="end" gravity="center" id="@+id/enr" layout_width="40dp" layout_height="12dp" layout_marginBottom="-1dp" maxLines="1" includeFontPadding="false" alpha="0.6" textAlignment="center" layout_marginStart="-2dp" layout_marginEnd="-2dp" NOT_FOUND_0x16="10dp" NOT_FOUND_0x17="9dp" NOT_FOUND_0x18="1" style="@style/u5"/>
+    </LinearLayout>
+    <View layout_gravity="top|right|center_vertical|center_horizontal|center" id="@+id/djx" background="@drawable/c2g" visibility="gone" layout_width="10dp" layout_height="10dp"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="12sp" textColor="@color/a24" gravity="center" layout_gravity="top|right|center_vertical|center_horizontal|center" id="@+id/fjh" background="@drawable/bu1" visibility="invisible" layout_width="18dp" layout_height="15dp" includeFontPadding="false" style="@style/tz"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="14dp" textColor="@color/a9" gravity="center" layout_gravity="center" id="@+id/exx" layout_width="17dp" layout_height="17dp" includeFontPadding="false" NOT_FOUND_0x19="2"/>
+    <ImageView layout_gravity="center" id="@+id/c0a" visibility="gone" layout_width="15dp" layout_height="3dp" src="0x7f080f73"/>
+</FrameLayout>

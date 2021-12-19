@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" gravity="center" layout_width="72dp" layout_height="72dp">
+    <RelativeLayout id="@+id/t3" background="@drawable/a83" layout_width="72dp" layout_height="72dp"/>
+    <RelativeLayout id="@+id/d1y" layout_width="72dp" layout_height="72dp">
+        <RelativeLayout gravity="center" id="@+id/ajv" layout_width="72dp" layout_height="72dp" layout_centerInParent="true">
+            <ImageView id="@+id/eom" layout_width="25dp" layout_height="8dp" src="0x7f0805cd"/>
+            <ImageView id="@+id/vo" layout_width="25dp" layout_height="20dp" src="0x7f0805ce" layout_below="@+id/eom"/>
+        </RelativeLayout>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/ak0" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="6dp" text="@string/b5g" layout_alignParentBottom="true" layout_centerHorizontal="true" fontFamily="Proxima Nova" NOT_FOUND_0xe="81"/>
+    </RelativeLayout>
+</RelativeLayout>

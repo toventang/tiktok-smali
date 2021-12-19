@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" padding="10dp" layout_width="wrap_content" layout_height="wrap_content">
+    <com.bytedance.tux.icon.TuxIconView layout_gravity="center" id="@+id/bho" layout_width="24dp" layout_height="24dp" NOT_FOUND_0x8="@raw/icon_story_camera" NOT_FOUND_0x9="24dp" NOT_FOUND_0xa="24dp" NOT_FOUND_0xb="?attr/aa"/>
+    <com.ss.android.ugc.aweme.tux.business.story.StoryBrandView id="@+id/bi3" visibility="invisible" layout_width="36dp" layout_height="36dp" NOT_FOUND_0x7="2.5dp"/>
+    <com.ss.android.ugc.aweme.base.ui.AvatarImageView layout_gravity="center" id="@+id/bu0" visibility="gone" layout_width="28dp" layout_height="28dp" scaleType="fitXY"/>
+</FrameLayout>

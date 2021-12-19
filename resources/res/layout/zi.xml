@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <RelativeLayout id="@+id/emo" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="6dp">
+        <ImageView id="@+id/ef9" layout_width="50dp" layout_height="32dp" layout_marginRight="16dp" src="0x7f08037a" layout_alignParentRight="true" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/f8l" padding="14dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="2dp" text="@string/bye" layout_alignParentRight="true" layout_marginEnd="2dp" layout_alignParentEnd="true" NOT_FOUND_0x21="42"/>
+        <FrameLayout id="@+id/dxs" layout_width="32dp" layout_height="32dp" layout_centerInParent="true">
+            <View layout_gravity="center" id="@+id/sp" layout_width="20dp" layout_height="20dp"/>
+            <View layout_gravity="center" id="@+id/sq" layout_width="24dp" layout_height="24dp"/>
+        </FrameLayout>
+        <LinearLayout gravity="center_vertical" id="@+id/cgt" background="@drawable/a86" visibility="gone" layout_width="wrap_content" layout_height="24dp" layout_marginLeft="16dp" layout_centerVertical="true" paddingStart="6dp" paddingEnd="6dp" layout_marginStart="16dp">
+            <ImageView layout_width="16dp" layout_height="16dp" src="0x7f0806cf" scaleType="fitXY"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/a9" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" text="@string/cb5" layout_marginStart="4dp" NOT_FOUND_0x21="41"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout orientation="vertical" id="@+id/adr" layout_width="match_parent" layout_height="match_parent" layout_below="@+id/emo">
+        <RelativeLayout id="@+id/bq1" layout_width="match_parent" layout_height="match_parent" layout_weight="1">
+            <com.ss.android.ugc.aweme.editSticker.text.view.TextStickerEditText textSize="28sp" textStyle="bold" textColor="@color/a9" gravity="center" id="@+id/ay0" background="@null" paddingTop="12dp" paddingBottom="12dp" layout_width="match_parent" layout_height="wrap_content" layout_centerInParent="true" lineSpacingExtra="0dp" inputType="textMultiLine" textCursorDrawable="@drawable/a87" paddingStart="32dp" paddingEnd="32dp"/>
+        </RelativeLayout>
+        <LinearLayout layout_gravity="bottom" orientation="vertical" id="@+id/cgs" layout_width="match_parent" layout_height="wrap_content">
+            <LinearLayout gravity="center_vertical" id="@+id/cyw" layout_width="wrap_content" layout_height="52dp" layout_marginLeft="12dp" layout_marginStart="12dp">
+                <LinearLayout gravity="center_vertical" layout_width="wrap_content" layout_height="wrap_content" layout_weight="0">
+                    <ImageView layout_gravity="center_vertical" id="@+id/e05" layout_width="32dp" layout_height="32dp" layout_weight="0"/>
+                    <ImageView layout_gravity="center_vertical" id="@+id/iv" layout_width="32dp" layout_height="32dp" layout_marginLeft="12dp" src="0x7f0806c8" layout_weight="0" layout_marginStart="12dp"/>
+                    <ImageView layout_gravity="center_vertical" id="@+id/etn" visibility="gone" layout_width="32dp" layout_height="32dp" layout_marginLeft="12dp" src="0x7f0807c2" layout_weight="0" layout_marginStart="12dp"/>
+                    <View background="@color/a7" layout_width="1px" layout_height="24dp" layout_marginLeft="16dp" layout_marginStart="16dp"/>
+                </LinearLayout>
+                <LinearLayout orientation="vertical" id="@+id/b8o" layout_width="match_parent" layout_height="52dp" layout_weight="1"/>
+            </LinearLayout>
+            <com.ss.android.ugc.aweme.editSticker.text.view.ColorSelectLayout gravity="center_vertical" id="@+id/a8n" layout_width="match_parent" layout_height="52dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

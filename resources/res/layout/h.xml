@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" theme="?attr/br" orientation="vertical" id="@+id/dqn" background="#00000000" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.tux.widget.VisualLayout layout_gravity="center" id="@+id/fki" background="?attr/d0" focusable="true" clickable="true" layout_width="match_parent" layout_height="wrap_content" alpha="0" NOT_FOUND_0x13="true" NOT_FOUND_0x14="480dp" NOT_FOUND_0x15="360dp" NOT_FOUND_0x16="8dp">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+            <com.bytedance.tux.dialog.internal.area.ImageArea id="@+id/eok" layout_width="match_parent" layout_height="wrap_content"/>
+            <com.bytedance.tux.dialog.internal.area.CaptionArea id="@+id/a2f" layout_width="match_parent" layout_height="0dp" layout_marginLeft="20dp" layout_marginRight="20dp" layout_weight="1"/>
+            <com.bytedance.tux.dialog.internal.area.AccessoryArea id="@+id/bl" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="20dp" layout_marginTop="12dp" layout_marginRight="20dp"/>
+            <Space layout_width="match_parent" layout_height="20dp"/>
+            <com.bytedance.tux.dialog.internal.area.ActionArea id="@+id/bw" layout_width="match_parent" layout_height="wrap_content"/>
+        </LinearLayout>
+        <ImageView layout_gravity="end" id="@+id/a7r" padding="8dp" visibility="gone" layout_width="40dp" layout_height="40dp" layout_alignParentTop="true" layout_alignParentRight="true" layout_alignParentEnd="true"/>
+    </com.bytedance.tux.widget.VisualLayout>
+</FrameLayout>

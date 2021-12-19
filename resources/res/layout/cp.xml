@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" id="@+id/dqe" background="@drawable/cs" layout_width="match_parent" layout_height="wrap_content">
+        <RelativeLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+            <ImageView id="@+id/c2d" layout_width="25dp" layout_height="32dp" layout_marginTop="16dp" src="@raw/icon_color_tiktok_logo_dark" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+            <ImageView id="@+id/c2b" layout_width="126dp" layout_height="126dp" layout_marginTop="16dp" layout_marginBottom="21dp" src="@drawable/ao7" scaleType="fitCenter" layout_marginStart="18dp"/>
+            <TextView textSize="12dp" textStyle="bold" textColor="@color/bh" ellipsize="end" id="@+id/f9z" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="2dp" text="@string/uh" singleLine="true" layout_alignBottom="@+id/c2b" layout_marginStart="17dp" layout_marginEnd="16dp" layout_toEndOf="@+id/c2b"/>
+            <LinearLayout orientation="horizontal" id="@+id/cgy" layout_width="match_parent" layout_height="wrap_content" layout_above="@+id/f9z" layout_marginStart="16dp" layout_toEndOf="@+id/c2b" layout_alignEnd="@+id/f9z">
+                <TextView textSize="15dp" textStyle="bold" textColor="@color/a2" ellipsize="end" id="@+id/f9w" layout_width="match_parent" layout_height="wrap_content" text="@string/un" singleLine="true"/>
+            </LinearLayout>
+            <TextView textSize="10dp" textStyle="bold" textColor="@color/c5" ellipsize="end" id="@+id/f_j" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="3dp" singleLine="true" layout_above="@+id/cgy" layout_marginStart="16dp" layout_toEndOf="@+id/c2b" layout_alignEnd="@+id/f9z"/>
+        </RelativeLayout>
+        <LinearLayout gravity="center_vertical" orientation="horizontal" id="@+id/beb" background="@drawable/ct" paddingTop="11dp" paddingBottom="11dp" layout_width="match_parent" layout_height="0dp" layout_weight="1">
+            <TextView layout_width="0dp" layout_height="wrap_content" layout_weight="1"/>
+            <ImageView id="@+id/c2w" background="@drawable/cu" layout_width="91dp" layout_height="160dp" scaleType="fitCenter"/>
+            <TextView layout_width="0dp" layout_height="wrap_content" layout_weight="1"/>
+            <ImageView id="@+id/c2x" background="@drawable/cu" layout_width="91dp" layout_height="160dp" scaleType="fitCenter"/>
+            <TextView layout_width="0dp" layout_height="wrap_content" layout_weight="1"/>
+            <ImageView id="@+id/c2y" background="@drawable/cu" layout_width="91dp" layout_height="160dp" scaleType="fitCenter"/>
+            <TextView layout_width="0dp" layout_height="wrap_content" layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

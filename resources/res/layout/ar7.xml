@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/deh" paddingBottom="12dp" layout_width="match_parent" layout_height="wrap_content">
+    <com.bytedance.tux.icon.TuxIconView id="@+id/dex" visibility="gone" layout_width="20dp" layout_height="20dp" alpha="0.5" layout_marginEnd="16dp" NOT_FOUND_0xe="@+id/pf" NOT_FOUND_0x10="0" NOT_FOUND_0x15="0" NOT_FOUND_0x19="@+id/pf" NOT_FOUND_0x1c="@raw/icon_x_mark"/>
+    <com.bytedance.lighten.loader.SmartImageView id="@+id/fhq" layout_width="60dp" layout_height="80dp" layout_marginRight="16dp" layout_marginEnd="16dp" NOT_FOUND_0x10="0" NOT_FOUND_0x15="0" NOT_FOUND_0x19="@+id/dga" NOT_FOUND_0x1a="2dp"/>
+    <com.ss.android.ugc.aweme.views.MultiAvatarView id="@+id/pf" layout_width="wrap_content" layout_height="24dp" layout_marginLeft="16dp" layout_marginTop="16dp" layout_marginStart="16dp" NOT_FOUND_0xf="@+id/dga" NOT_FOUND_0x12="0" NOT_FOUND_0x17="0" NOT_FOUND_0x19="0"/>
+    <com.bytedance.tux.input.TuxTextView id="@+id/po" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" text="@string/f61" alpha="0.5" layout_marginStart="4dp" NOT_FOUND_0xe="@+id/pf" NOT_FOUND_0x13="@+id/pf" NOT_FOUND_0x16="@+id/pf" NOT_FOUND_0x19="@+id/pf" NOT_FOUND_0x1b="62"/>
+    <com.bytedance.tux.input.TuxTextView ellipsize="end" id="@+id/dga" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="8dp" layout_marginRight="16dp" maxLines="5" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x11="@+id/fhq" NOT_FOUND_0x12="0" NOT_FOUND_0x14="@+id/fhq" NOT_FOUND_0x17="0" NOT_FOUND_0x18="@+id/pf" NOT_FOUND_0x1b="42"/>
+    <com.bytedance.tux.input.TuxTextView id="@+id/dgc" layout_width="0dp" layout_height="wrap_content" layout_marginTop="4dp" alpha="0.5" NOT_FOUND_0x12="@+id/dga" NOT_FOUND_0x17="@+id/dga" NOT_FOUND_0x18="@+id/dga" NOT_FOUND_0x1b="61"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

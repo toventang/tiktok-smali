@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.commercialize.views.AdBottomSheetContainer xmlns="" id="@+id/w5" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout id="@+id/c_n" layout_width="match_parent" layout_height="match_parent">
+        <com.ss.android.ugc.aweme.views.RoundedFrameLayout background="@color/l" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0xf="16dp">
+            <com.ss.android.ugc.aweme.crossplatform.view.CrossPlatformWebView id="@+id/fm8" layout_width="match_parent" layout_height="match_parent" layout_marginTop="44.5dp"/>
+            <com.ss.android.ugc.aweme.bullet.module.base.CommonBizWebView id="@+id/a0o" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+            <FrameLayout id="@+id/cu9" background="@color/l" visibility="gone" layout_width="match_parent" layout_height="match_parent">
+                <com.bytedance.tux.input.TuxTextView textColor="@color/c5" gravity="center" layout_gravity="top|center_vertical|center_horizontal|center" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="150dp" text="@string/od" NOT_FOUND_0x10="51"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_gravity="bottom|center_vertical|center_horizontal|center" id="@+id/dmf" background="@drawable/sd" paddingLeft="100dp" paddingTop="12dp" paddingRight="100dp" paddingBottom="12dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="113dp" text="@string/fen" NOT_FOUND_0x10="41"/>
+            </FrameLayout>
+            <com.ss.android.ugc.aweme.commercialize.feed.popupwebview.AdPopUpWebTitleBar id="@+id/b6m" layout_width="match_parent" layout_height="wrap_content"/>
+        </com.ss.android.ugc.aweme.views.RoundedFrameLayout>
+    </FrameLayout>
+</com.ss.android.ugc.aweme.commercialize.views.AdBottomSheetContainer>

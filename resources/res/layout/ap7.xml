@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout xmlns="" id="@+id/ad7" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x14="1" NOT_FOUND_0x18="0.75">
+    <com.bytedance.lighten.loader.SmartImageView id="@+id/bvt" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x15="@color/f" NOT_FOUND_0x16="6"/>
+    <androidx.cardview.widget.CardView layout_gravity="top|left|center_vertical|center_horizontal|center|start" paddingLeft="5dp" paddingTop="1dp" paddingRight="5dp" paddingBottom="1dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="6dp" layout_marginStart="6dp" NOT_FOUND_0x12="?attr/a4" NOT_FOUND_0x13="2dp">
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/aa" id="@+id/f9s" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x17="72"/>
+    </androidx.cardview.widget.CardView>
+    <View layout_gravity="bottom" background="@drawable/a06" layout_width="match_parent" layout_height="60dp"/>
+    <LinearLayout gravity="bottom" layout_gravity="bottom" id="@+id/fgh" background="@drawable/ba3" paddingBottom="4dp" layout_width="match_parent" layout_height="50dp">
+        <com.bytedance.tux.input.TuxTextView gravity="center_vertical" id="@+id/f4l" visibility="visible" layout_width="0dp" layout_height="wrap_content" drawablePadding="1dp" layout_weight="1" drawableStart="0x7f080a94" textDirection="locale" layout_marginStart="4dp" style="@style/a04"/>
+    </LinearLayout>
+    <include layout="@layout/ap_"/>
+</com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>

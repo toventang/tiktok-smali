@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/adh" background="@drawable/bpq" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="17sp" textColor="#e6141210" layout_gravity="center_horizontal" background="@color/l" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="16dp" text="@string/ean" NOT_FOUND_0xb="7"/>
+    <View background="@color/b2" layout_width="match_parent" layout_height="0.5dp"/>
+    <androidx.core.widget.NestedScrollView background="@color/l" layout_width="match_parent" layout_height="match_parent" layout_marginTop="8dp">
+        <LinearLayout orientation="vertical" id="@+id/ene" layout_width="match_parent" layout_height="match_parent"/>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

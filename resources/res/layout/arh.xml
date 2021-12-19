@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/df1" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.tux.icon.TuxIconView id="@+id/dek" layout_width="24dp" layout_height="24dp" layout_marginLeft="18dp" layout_marginTop="44dp" layout_marginStart="18dp" NOT_FOUND_0x8="0" NOT_FOUND_0x9="0" NOT_FOUND_0xa="@raw/icon_arrow_left_ltr" NOT_FOUND_0xb="24dp" NOT_FOUND_0xc="24dp" NOT_FOUND_0xe="?attr/bc"/>
+    <com.bytedance.tux.status.TuxStatusView id="@+id/dgb" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x6="0" NOT_FOUND_0x7="0" NOT_FOUND_0x8="0" NOT_FOUND_0x9="0" NOT_FOUND_0xd="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

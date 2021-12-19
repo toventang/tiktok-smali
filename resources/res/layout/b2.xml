@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" background="@color/c9" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent" onClick="dismiss">
+    <FrameLayout layout_gravity="bottom" background="@drawable/ro" layout_width="match_parent" layout_height="340dp">
+        <com.ss.android.ugc.aweme.crossplatform.view.CrossPlatformWebView id="@+id/fm8" layout_width="match_parent" layout_height="match_parent"/>
+        <com.bytedance.tux.icon.TuxIconView id="@+id/a7h" layout_width="60dp" layout_height="48dp" NOT_FOUND_0x7="@raw/icon_x_mark" NOT_FOUND_0x8="24dp" NOT_FOUND_0x9="24dp" NOT_FOUND_0xa="?attr/bd"/>
+    </FrameLayout>
+</FrameLayout>

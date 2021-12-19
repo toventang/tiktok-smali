@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout background="@color/c9" paddingTop="48dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="15dp" paddingEnd="15dp">
+        <ImageView id="@+id/byt" layout_width="177dp" layout_height="24dp" src="0x7f080df8" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0"/>
+        <com.bytedance.android.live.core.widget.HSImageView id="@+id/bys" layout_width="match_parent" layout_height="100dp" layout_marginTop="16dp" NOT_FOUND_0xc="@drawable/bvq" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="@+id/byt" NOT_FOUND_0x10="@drawable/bvq"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="#e5ffffff" gravity="center" id="@+id/f2d" layout_width="match_parent" layout_height="match_parent" layout_marginTop="15dp" text="@string/eqc" NOT_FOUND_0xf="@+id/bys" style="@style/tm"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="#80ffffff" gravity="center" id="@+id/f2c" layout_width="match_parent" layout_height="match_parent" layout_marginTop="8dp" text="@string/ef5" NOT_FOUND_0xf="@+id/f2d" style="@style/tr"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

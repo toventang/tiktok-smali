@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/adh" layout_width="match_parent" layout_height="68dp">
+    <FrameLayout id="@+id/pi" layout_width="48dp" layout_height="48dp" layout_centerVertical="true" layout_marginStart="16dp" NOT_FOUND_0xf="0" NOT_FOUND_0x15="0" NOT_FOUND_0x17="0">
+        <com.ss.android.ugc.aweme.base.ui.AvatarImageView id="@+id/pf" layout_width="48dp" layout_height="48dp" NOT_FOUND_0x18="0x7f080644"/>
+    </FrameLayout>
+    <com.bytedance.tux.input.TuxRadio id="@+id/a5_" layout_width="24dp" layout_height="24dp" layout_centerVertical="true" layout_marginEnd="16dp" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0" NOT_FOUND_0x17="0" NOT_FOUND_0x1a="@color/bh" NOT_FOUND_0x1b="@color/b6"/>
+    <ImageView id="@+id/fez" layout_width="10dp" layout_height="10dp" src="0x7f0800d5" contentDescription="@string/h9h" layout_marginStart="4dp" NOT_FOUND_0xf="@+id/csg" NOT_FOUND_0x11="@+id/a5_" NOT_FOUND_0x12="0" NOT_FOUND_0x14="@+id/csg" NOT_FOUND_0x17="@+id/csg"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="start" id="@+id/csg" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" maxHeight="17dp" maxLines="1" layout_marginStart="12dp" NOT_FOUND_0xe="true" NOT_FOUND_0x12="0" NOT_FOUND_0x14="@+id/pi" NOT_FOUND_0x17="0" NOT_FOUND_0x19="52"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" gravity="center_vertical" id="@+id/al5" layout_width="wrap_content" layout_height="wrap_content" maxWidth="247dp" maxHeight="17dp" maxLines="1" NOT_FOUND_0x13="@+id/csg" NOT_FOUND_0x15="@+id/csg" NOT_FOUND_0x16="@+id/csg" NOT_FOUND_0x19="51"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

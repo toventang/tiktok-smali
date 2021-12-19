@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" gravity="center_horizontal" orientation="vertical" background="@color/l" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <include id="@+id/emo" layout="@layout/az5"/>
+    <Space id="@+id/e7k" layout_width="match_parent" layout_height="64dp" layout_below="@+id/emo"/>
+    <LinearLayout orientation="vertical" background="@color/l" layout_width="match_parent" layout_height="match_parent" layout_below="@+id/e7k">
+        <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/fkh" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="140dp" NOT_FOUND_0xd="@string/dly" NOT_FOUND_0xe="@string/hcz"/>
+        <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/af7" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xd="@string/bme" NOT_FOUND_0xe="@string/dlw" NOT_FOUND_0xf="@string/agt"/>
+    </LinearLayout>
+    <LinearLayout gravity="center_horizontal" orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="-42dp" layout_below="@+id/e7k">
+        <ImageView layout_width="84dp" layout_height="84dp" src="@drawable/status_icon" scaleType="fitXY"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10dp" text="@string/uk" NOT_FOUND_0x10="31"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/nu" id="@+id/ff2" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="5dp" NOT_FOUND_0x10="61"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" style="@style/a1g">
+    <ImageView id="@+id/bi7" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10dp" layout_marginBottom="10dp"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView id="@+id/text" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="5dp" layout_marginRight="5dp" style="@style/a1h"/>
+</LinearLayout>

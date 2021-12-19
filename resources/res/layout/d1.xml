@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="match_parent" layout_height="56dp">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/st" gravity="center_vertical" id="@+id/f71" layout_width="wrap_content" layout_height="wrap_content" layout_centerVertical="true" layout_marginStart="16dp" NOT_FOUND_0xe="52"/>
+    <androidx.appcompat.widget.AppCompatImageView id="@+id/bw7" visibility="gone" layout_width="32dp" layout_height="32dp" src="0x7f0807bd" layout_centerVertical="true" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+    <com.ss.android.ugc.aweme.themechange.base.AVDmtCheckableImageButton id="@+id/c1b" visibility="gone" layout_width="32dp" layout_height="32dp" layout_centerVertical="true" layout_alignWithParentIfMissing="true" layout_marginEnd="16dp" layout_toStartOf="@+id/bw7" NOT_FOUND_0xd="0x7f080477" NOT_FOUND_0xf="0x7f080476"/>
+    <androidx.appcompat.widget.AppCompatImageView id="@+id/c0i" visibility="gone" layout_width="32dp" layout_height="32dp" src="0x7f080107" layout_centerVertical="true" layout_alignWithParentIfMissing="true" layout_marginEnd="16dp" layout_toStartOf="@+id/c1b"/>
+</RelativeLayout>

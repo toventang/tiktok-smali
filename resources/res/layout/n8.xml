@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.views.ProgressWithTextSeekBar xmlns="" id="@+id/aty" background="@null" visibility="gone" layout_width="match_parent" layout_height="wrap_content" maxHeight="3dp" max="100" progress="100" progressDrawable="@drawable/d8" thumb="@drawable/d_" NOT_FOUND_0xa="16dp" NOT_FOUND_0xb="@string/g1c" NOT_FOUND_0xc="17dp" NOT_FOUND_0xd="@color/j0" NOT_FOUND_0xe="medium" NOT_FOUND_0xf="12dp" NOT_FOUND_0x10="48dp" NOT_FOUND_0x11="16dp"/>

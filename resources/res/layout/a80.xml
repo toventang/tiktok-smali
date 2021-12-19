@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout xmlns="" id="@+id/ad7" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x10="1" NOT_FOUND_0x13="0.7516">
+    <com.bytedance.lighten.loader.SmartImageView id="@+id/agf" layout_width="match_parent" layout_height="match_parent"/>
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+        <View background="@color/c9" layout_width="match_parent" layout_height="0dp" layout_weight="0.63"/>
+        <View background="@drawable/atf" layout_width="match_parent" layout_height="0dp" layout_weight="0.37"/>
+    </LinearLayout>
+    <com.bytedance.tux.input.TuxRadio layout_gravity="top|right|center_vertical|center_horizontal|center|end" id="@+id/dgn" focusable="false" focusableInTouchMode="false" layout_width="@dimen/m6" layout_height="@dimen/m6" layout_margin="@dimen/m5" NOT_FOUND_0x12="@color/a9"/>
+    <LinearLayout gravity="center_vertical" layout_gravity="bottom" orientation="horizontal" padding="@dimen/m0" layout_width="match_parent" layout_height="wrap_content">
+        <com.ss.android.ugc.aweme.base.ui.SmartAvatarImageView id="@+id/fcu" layout_width="@dimen/ly" layout_height="@dimen/ly"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" ellipsize="end" id="@+id/fdm" layout_width="wrap_content" layout_height="wrap_content" singleLine="true" layout_marginStart="@dimen/lz" NOT_FOUND_0x11="62"/>
+    </LinearLayout>
+</com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>

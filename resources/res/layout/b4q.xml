@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/bol" paddingTop="18dp" paddingBottom="4dp" layout_width="match_parent" layout_height="40dp" layout_marginLeft="13dp" layout_marginRight="13dp" layout_marginStart="13dp" layout_marginEnd="13dp">
+    <com.ss.android.ugc.tools.view.style.StyleTextView textSize="13sp" textColor="@color/a26" gravity="left|center_vertical|center_horizontal|center|start" id="@+id/eb2" layout_width="match_parent" layout_height="18dp" textDirection="locale" textAlignment="viewStart"/>
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.tux.widget.RadiusLayout xmlns="" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0xa="8dp" NOT_FOUND_0xb="8dp">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+        <com.bytedance.tux.input.TuxTextView gravity="center" id="@+id/cq" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginRight="16dp" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+        <androidx.core.widget.NestedScrollView layout_width="match_parent" layout_height="wrap_content">
+            <LinearLayout orientation="vertical" id="@+id/cp" layout_width="match_parent" layout_height="wrap_content"/>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</com.bytedance.tux.widget.RadiusLayout>

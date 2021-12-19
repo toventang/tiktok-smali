@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="@dimen/ck">
+    <LinearLayout orientation="vertical" id="@+id/ae6" layout_width="match_parent" layout_height="match_parent">
+        <RelativeLayout paddingLeft="16dp" paddingRight="16dp" layout_width="match_parent" layout_height="52dp" layout_marginBottom="27dp" paddingStart="16dp" paddingEnd="16dp">
+            <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView textStyle="bold" textColor="@color/a9" id="@+id/cqp" layout_width="wrap_content" layout_height="wrap_content" text="@string/g7l" shadowColor="@color/bo" shadowRadius="2" layout_centerVertical="true" NOT_FOUND_0x1f="7" NOT_FOUND_0x21="false" style="@style/ww"/>
+            <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView textSize="13dp" textStyle="bold" textColor="@color/a9" id="@+id/a4l" paddingLeft="8dp" paddingTop="5dp" paddingRight="8dp" paddingBottom="5dp" layout_width="wrap_content" layout_height="wrap_content" text="@string/g7v" drawableLeft="0x7f08076d" drawablePadding="6dp" layout_alignParentRight="true" layout_centerVertical="true" drawableStart="0x7f08076d" paddingStart="8dp" paddingEnd="8dp" layout_alignParentEnd="true" NOT_FOUND_0x1f="7" NOT_FOUND_0x21="false" NOT_FOUND_0x22="false" NOT_FOUND_0x26="2dp" NOT_FOUND_0x27="true" NOT_FOUND_0x28="true"/>
+        </RelativeLayout>
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtPanelRecycleView id="@+id/cqz" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x20="16dp" NOT_FOUND_0x24="12dp" NOT_FOUND_0x25="16dp"/>
+    </LinearLayout>
+    <LinearLayout gravity="center_horizontal" layout_gravity="center" orientation="vertical" id="@+id/cvh" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView textSize="14dp" layout_width="wrap_content" layout_height="wrap_content" text="@string/g7m" shadowColor="@color/bo" shadowRadius="2" NOT_FOUND_0x23="false"/>
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView textSize="15dp" textStyle="bold" gravity="center" id="@+id/dmh" paddingTop="13dp" paddingBottom="13dp" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="72dp" layout_marginTop="16dp" layout_marginRight="72dp" text="@string/fen" layout_marginStart="72dp" layout_marginEnd="72dp" NOT_FOUND_0x1f="7" NOT_FOUND_0x22="false" NOT_FOUND_0x26="2dp" NOT_FOUND_0x27="true" NOT_FOUND_0x28="true"/>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.ui.widget.DmtLoadingLayout layout_gravity="center" id="@+id/ci9" visibility="gone" layout_width="wrap_content" layout_height="wrap_content"/>
+</FrameLayout>

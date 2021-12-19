@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_gravity="bottom" id="@+id/a6d" background="@drawable/ck" layout_width="match_parent" layout_height="wrap_content">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/evi" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" text="@string/cb5" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x10="0" NOT_FOUND_0x11="0" NOT_FOUND_0x13="0" NOT_FOUND_0x16="33"/>
+    <ImageView id="@+id/btp" layout_width="24dp" layout_height="24dp" scaleType="centerCrop" layout_marginEnd="16dp" NOT_FOUND_0xf="@+id/evi" NOT_FOUND_0x10="0" NOT_FOUND_0x13="@+id/evi" NOT_FOUND_0x15="0x7f0805a1"/>
+    <View id="@+id/fed" background="@color/b6" layout_width="match_parent" layout_height="0.5dp" layout_marginTop="16dp" NOT_FOUND_0x10="0" NOT_FOUND_0x11="0" NOT_FOUND_0x12="@+id/evi"/>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/dr3" paddingTop="7.5dp" paddingBottom="7.5dp" clipToPadding="false" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xe="true" NOT_FOUND_0x10="0" NOT_FOUND_0x11="0" NOT_FOUND_0x12="@+id/fed" NOT_FOUND_0x14="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

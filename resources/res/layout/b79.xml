@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <View id="@+id/an1" layout_width="match_parent" layout_height="match_parent"/>
+    <View id="@+id/adt" background="@drawable/bow" layout_width="0dp" layout_height="174dp" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0x12="0"/>
+    <FrameLayout id="@+id/ae6" layout_width="0dp" layout_height="0dp" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0"/>
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/x7" background="@color/c9" paddingLeft="8dp" layout_width="wrap_content" layout_height="40dp" minWidth="87dp" paddingStart="8dp" NOT_FOUND_0xf="2" NOT_FOUND_0x12="0" NOT_FOUND_0x13="@+id/adt">
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="15dp" textColor="@color/a9" id="@+id/ew4" layout_width="wrap_content" layout_height="wrap_content" text="@string/eaf" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0"/>
+        <View id="@+id/bud" background="@color/l" layout_width="0dp" layout_height="2dp" NOT_FOUND_0xd="0" NOT_FOUND_0xe="@+id/ew4" NOT_FOUND_0x12="@+id/ew4"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/x9" background="@color/c9" layout_width="wrap_content" layout_height="40dp" minWidth="67dp" NOT_FOUND_0xf="2" NOT_FOUND_0x11="@+id/x7" NOT_FOUND_0x13="@+id/adt">
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="15dp" textColor="@color/a9" id="@+id/ezh" layout_width="wrap_content" layout_height="wrap_content" text="@string/e93" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0"/>
+        <View id="@+id/bx1" background="@color/l" layout_width="0dp" layout_height="2dp" NOT_FOUND_0xd="0" NOT_FOUND_0xe="@+id/ezh" NOT_FOUND_0x12="@+id/ezh"/>
+        <View id="@+id/b2m" background="@drawable/bzg" visibility="gone" layout_width="7dp" layout_height="7dp" layout_marginLeft="3dp" layout_marginStart="3dp" NOT_FOUND_0x10="@+id/ezh" NOT_FOUND_0x11="@+id/ezh" NOT_FOUND_0x13="@+id/ezh"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.anchor.multi.ui.BoundedRelativeLayout xmlns="" id="@+id/k_" background="@drawable/tu" layout_width="match_parent" layout_height="wrap_content">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/ka" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" text="@string/cwy" layout_alignParentTop="true" layout_centerHorizontal="true" NOT_FOUND_0x11="Proxima Nova" NOT_FOUND_0x12="33"/>
+    <com.bytedance.tux.icon.TuxIconView id="@+id/k9" layout_width="24dp" layout_height="24dp" layout_marginTop="14dp" layout_alignParentTop="true" layout_marginEnd="16dp" layout_alignParentEnd="true" NOT_FOUND_0x13="@raw/icon_x_mark" NOT_FOUND_0x14="?attr/bd"/>
+    <View id="@+id/an5" background="@color/b2" layout_width="match_parent" layout_height="0.5dp" layout_marginTop="16dp" layout_below="@+id/ka"/>
+    <androidx.core.widget.NestedScrollView scrollbarStyle="insideOverlay" id="@+id/k8" scrollbars="vertical" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/an5">
+        <LinearLayout orientation="vertical" id="@+id/jj" paddingTop="8dp" paddingBottom="32dp" layout_width="match_parent" layout_height="wrap_content"/>
+    </androidx.core.widget.NestedScrollView>
+</com.ss.android.ugc.aweme.anchor.multi.ui.BoundedRelativeLayout>

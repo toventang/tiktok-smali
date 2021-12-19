@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="wrap_content" layout_height="wrap_content">
+    <com.bytedance.android.livesdk.widget.VHeadView id="@+id/c2s" background="@drawable/bp_" layout_width="@dimen/ra" layout_height="@dimen/r_" layout_marginTop="3dp" scaleType="fitXY" NOT_FOUND_0x9="0" NOT_FOUND_0xc="0" NOT_FOUND_0xd="3dp"/>
+    <androidx.appcompat.widget.AppCompatImageView id="@+id/c2v" layout_width="0dp" layout_height="0dp" NOT_FOUND_0x7="@+id/c2s" NOT_FOUND_0x9="@+id/c2s" NOT_FOUND_0xa="@+id/c2s" NOT_FOUND_0xc="@+id/c2s"/>
+    <androidx.appcompat.widget.AppCompatImageView id="@+id/c2t" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x7="@+id/c2s" NOT_FOUND_0x8="@+id/c2s" NOT_FOUND_0xa="@+id/c2s"/>
+    <com.bytedance.android.live.core.widget.HSImageView id="@+id/c2u" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x7="@+id/c2s" NOT_FOUND_0x9="@+id/c2s" NOT_FOUND_0xa="@+id/c2s" NOT_FOUND_0xb="@+id/c2s"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

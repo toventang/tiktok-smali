@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/pe" layout_width="@dimen/l3" layout_height="@dimen/l3">
+    <FrameLayout layout_gravity="center" layout_width="56dp" layout_height="56dp">
+        <com.ss.android.ugc.aweme.base.ui.AvatarImageView layout_gravity="center" id="@+id/pd" layout_width="56dp" layout_height="56dp"/>
+        <ImageView layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" id="@+id/fi6" background="@drawable/ar_" padding="2.5dp" visibility="gone" layout_width="13dp" layout_height="13dp" layout_marginRight="0.5dp" layout_marginBottom="0.5dp" src="@drawable/aso" layout_marginEnd="0.5dp"/>
+        <com.bytedance.tux.icon.TuxIconView layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" id="@+id/dpk" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="0dp" layout_marginEnd="0dp" NOT_FOUND_0xb="@raw/icon_color_verified_badge"/>
+    </FrameLayout>
+</FrameLayout>

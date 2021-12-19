@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/ffb" layout_width="match_parent" layout_height="70dp">
+    <com.ss.android.ugc.aweme.themechange.base.AVDmtPanelRecycleView id="@+id/ffc" paddingTop="12dp" paddingBottom="10dp" clipToPadding="false" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x16="16dp" NOT_FOUND_0x18="16dp" NOT_FOUND_0x19="16dp"/>
+    <FrameLayout layout_gravity="bottom" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="4dp">
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtView layout_gravity="center_vertical" id="@+id/kl" layout_width="10dp" layout_height="2dp" layout_marginLeft="38dp" layout_marginStart="38dp" NOT_FOUND_0x17="false" NOT_FOUND_0x1a="10dp" NOT_FOUND_0x1c="true"/>
+    </FrameLayout>
+    <FrameLayout layout_gravity="bottom" orientation="horizontal" id="@+id/e4e" visibility="gone" layout_width="match_parent" layout_height="52dp">
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtView layout_gravity="top" layout_width="match_parent" layout_height="0.5dp" NOT_FOUND_0x1b="true"/>
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtImageView layout_gravity="left|center_vertical|center_horizontal|center|start" id="@+id/bt5" padding="5dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" src="0x7f080765" scaleType="centerInside" layout_marginStart="16dp"/>
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView textSize="17sp" textStyle="bold" textColor="@color/a9" layout_gravity="center" id="@+id/e4h" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/ax6" fontFamily="Proxima Nova"/>
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtImageView layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/bth" padding="5dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="16dp" src="0x7f080766" scaleType="centerInside" layout_marginEnd="16dp"/>
+    </FrameLayout>
+</FrameLayout>

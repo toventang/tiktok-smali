@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="wrap_content" layout_height="wrap_content" alpha="0.9">
+    <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlImageView id="@+id/dpl" layout_width="wrap_content" layout_height="12dp" layout_marginLeft="12dp" layout_marginTop="10dp" layout_marginBottom="10dp" src="0x7f080f88" layout_marginStart="12dp" NOT_FOUND_0xb="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0"/>
+    <com.bytedance.android.live.core.widget.HSImageView id="@+id/dpm" layout_width="16dp" layout_height="16dp" layout_marginLeft="10dp" layout_marginTop="8dp" layout_marginRight="12dp" layout_marginBottom="8dp" layout_marginStart="10dp" layout_marginEnd="12dp" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xd="@+id/dpl" NOT_FOUND_0xf="0"/>
+    <com.bytedance.android.livesdk.chatroom.backroom.RoomBackProgressView id="@+id/dpo" layout_width="22dp" layout_height="22dp" NOT_FOUND_0xb="@+id/dpm" NOT_FOUND_0xc="@+id/dpm" NOT_FOUND_0xe="@+id/dpm" NOT_FOUND_0xf="@+id/dpm"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

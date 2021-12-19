@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.tux.widget.spring.SpringLayout id="@+id/e8p" background="?attr/b0" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x4="true">
+        <include layout="@layout/wl"/>
+    </com.bytedance.tux.widget.spring.SpringLayout>
+</FrameLayout>

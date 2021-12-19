@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@color/l" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <View id="@+id/e__" background="@color/bz" layout_width="match_parent" layout_height="0dp"/>
+    <RelativeLayout gravity="center_vertical" orientation="horizontal" layout_width="match_parent" layout_height="@dimen/a0s">
+        <com.ss.android.ugc.aweme.views.AutoRTLImageView id="@+id/q_" layout_width="44dp" layout_height="match_parent" src="0x7f081080" layout_alignParentLeft="true" contentDescription="@string/a2g" layout_alignParentStart="true" style="@style/a3j"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/em1" layout_width="wrap_content" layout_height="wrap_content" text="@string/wf" maxLines="1" layout_centerInParent="true" layout_marginStart="88dp" layout_marginEnd="88dp" NOT_FOUND_0x13="33"/>
+        <View background="@color/b2" layout_width="match_parent" layout_height="1px" layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/cb6" layout_width="match_parent" layout_height="wrap_content"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtStatusView id="@+id/e_c" layout_width="match_parent" layout_height="match_parent"/>
+</LinearLayout>

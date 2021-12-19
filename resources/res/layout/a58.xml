@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center" layout_width="match_parent" layout_height="68dp">
+    <com.ss.android.ugc.aweme.base.ui.AvatarImageView id="@+id/or" layout_width="48dp" layout_height="48dp" layout_marginLeft="16dp" layout_centerVertical="true" layout_marginStart="16dp" NOT_FOUND_0x10="true"/>
+    <LinearLayout orientation="vertical" layout_width="0dp" layout_height="match_parent" layout_marginLeft="12dp" layout_weight="1" layout_marginStart="12dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/f3c" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" maxLines="1" NOT_FOUND_0x13="52"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" id="@+id/f11" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="2dp" maxLines="2" NOT_FOUND_0x13="51"/>
+    </LinearLayout>
+    <LinearLayout orientation="horizontal" id="@+id/dnw" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginRight="8dp" layout_marginStart="12dp" layout_marginEnd="8dp">
+        <com.bytedance.tux.button.TuxButton id="@+id/x8" layout_width="80dp" layout_height="wrap_content" text="@string/b5g" layout_marginEnd="8dp" NOT_FOUND_0x11="1" NOT_FOUND_0x12="1"/>
+        <com.bytedance.tux.button.TuxButton id="@+id/x4" layout_width="80dp" layout_height="wrap_content" text="@string/ml" layout_marginEnd="8dp" NOT_FOUND_0x11="1" NOT_FOUND_0x12="0"/>
+    </LinearLayout>
+</LinearLayout>

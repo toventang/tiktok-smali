@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="wrap_content">
+    <ImageView id="@+id/b9f" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="24dp" layout_marginRight="16dp" src="0x7f080849" NOT_FOUND_0xb="16dp" NOT_FOUND_0xe="0" NOT_FOUND_0x11="0" NOT_FOUND_0x13="0"/>
+    <androidx.constraintlayout.widget.Guideline orientation="vertical" id="@+id/bea" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0xf="32dp"/>
+    <androidx.constraintlayout.widget.Guideline orientation="vertical" id="@+id/be_" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x10="32dp"/>
+    <com.bytedance.tux.input.TuxTextView id="@+id/b9g" layout_width="0dp" layout_height="wrap_content" layout_marginTop="24dp" text="@string/b_2" textAlignment="center" NOT_FOUND_0xe="@+id/be_" NOT_FOUND_0x11="@+id/bea" NOT_FOUND_0x12="@+id/b9f" NOT_FOUND_0x16="23"/>
+    <com.bytedance.tux.input.TuxTextView id="@+id/b9e" layout_width="0dp" layout_height="wrap_content" layout_marginTop="8dp" text="@string/b_1" textAlignment="center" NOT_FOUND_0xe="@+id/be_" NOT_FOUND_0x11="@+id/bea" NOT_FOUND_0x12="@+id/b9g" NOT_FOUND_0x16="61"/>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/czx" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="24dp" layout_marginRight="16dp" layout_marginBottom="12dp" NOT_FOUND_0xb="16dp" NOT_FOUND_0xd="@+id/za" NOT_FOUND_0xe="0" NOT_FOUND_0x11="0" NOT_FOUND_0x12="@+id/b9e"/>
+    <com.bytedance.tux.button.TuxButton id="@+id/z_" layout_width="0dp" layout_height="wrap_content" layout_marginBottom="12dp" text="@string/dj3" NOT_FOUND_0xc="0" NOT_FOUND_0xe="@+id/be_" NOT_FOUND_0x11="@+id/bea" NOT_FOUND_0x14="3" NOT_FOUND_0x15="1"/>
+    <com.bytedance.tux.button.TuxButton id="@+id/za" layout_width="0dp" layout_height="wrap_content" layout_marginBottom="8dp" text="@string/cgn" NOT_FOUND_0xd="@+id/z_" NOT_FOUND_0xe="@+id/be_" NOT_FOUND_0x11="@+id/bea" NOT_FOUND_0x14="3" NOT_FOUND_0x15="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

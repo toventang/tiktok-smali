@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" layout_gravity="bottom" orientation="vertical" id="@+id/dqe" background="@drawable/dg" layout_width="match_parent" layout_height="wrap_content" minHeight="291dp">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" layout_width="match_parent" layout_height="52dp" text="@string/avl" NOT_FOUND_0xc="33"/>
+    <View background="@color/bx" layout_width="match_parent" layout_height="1px" alpha="0.2"/>
+    <com.ss.android.ugc.aweme.shortvideo.edit.infosticker.interact.livecountdown.datepick.DatePicker layout_gravity="center_horizontal" id="@+id/aie" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="32dp"/>
+</LinearLayout>

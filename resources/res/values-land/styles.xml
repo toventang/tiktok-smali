@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="lj" parent="@style/l2">
+        <item name="android:backgroundDimAmount">?attr/amf</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowAnimationStyle">@style/i</item>
+        <item name="a3a">@style/ra</item>
+    </style>
+    <style name="r4" parent="@style/ex">
+        <item name="agb">1</item>
+        <item name="ago">1</item>
+    </style>
+    <style name="ra" parent="@style/qy">
+        <item name="android:backgroundDimAmount">?attr/amf</item>
+        <item name="android:background">?attr/alc</item>
+        <item name="kt">@dimen/no</item>
+        <item name="a32">false</item>
+        <item name="a36">@dimen/ns</item>
+        <item name="a39">0dp</item>
+        <item name="ajt">@dimen/no</item>
+    </style>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" clipChildren="false" layout_width="36dp" layout_height="36dp" layout_marginStart="4dp" layout_marginEnd="4dp">
+    <LinearLayout gravity="center_horizontal" orientation="vertical" clipChildren="false" layout_width="match_parent" layout_height="match_parent">
+        <ImageView id="@+id/enf" layout_width="36dp" layout_height="24dp" layout_marginBottom="1dp" scaleType="centerInside"/>
+        <View layout_width="wrap_content" layout_height="0dp" layout_weight="1"/>
+        <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlTextView textColor="@color/a24" ellipsize="end" gravity="center" id="@+id/enr" layout_width="40dp" layout_height="12dp" layout_marginBottom="-1dp" maxLines="1" includeFontPadding="false" alpha="0.6" textAlignment="center" layout_marginStart="-2dp" layout_marginEnd="-2dp" NOT_FOUND_0x12="10dp" NOT_FOUND_0x13="9dp" NOT_FOUND_0x14="1" style="@style/u5"/>
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageView id="@+id/by0" layout_width="match_parent" layout_height="match_parent"/>
+    <androidx.appcompat.widget.AppCompatImageView id="@+id/by3" visibility="gone" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x15="0x7f0805b2"/>
+    <com.airbnb.lottie.LottieAnimationView id="@+id/by2" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+    <com.bytedance.android.live.core.widget.HSAnimImageView id="@+id/by1" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+</FrameLayout>

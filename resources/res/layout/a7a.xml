@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" background="@drawable/ark" layout_width="match_parent" layout_height="match_parent">
+    <ImageView id="@+id/e2o" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/m_" src="@drawable/l" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x14="0"/>
+    <com.bytedance.tux.input.TuxTextView textSize="@dimen/mc" id="@+id/e2w" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/mb" text="@string/cwa" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="@+id/e2o" NOT_FOUND_0x15="33"/>
+    <ImageView id="@+id/e2j" layout_width="@dimen/m9" layout_height="@dimen/m9" src="0x7f080853" layout_marginEnd="@dimen/m8" NOT_FOUND_0xf="@+id/e2w" NOT_FOUND_0x11="0" NOT_FOUND_0x14="@+id/e2w"/>
+    <View id="@+id/emh" background="@color/b2" layout_width="match_parent" layout_height="@dimen/md" layout_marginTop="@dimen/ma" NOT_FOUND_0x13="@+id/e2w"/>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/e2u" layout_width="match_parent" layout_height="0dp" NOT_FOUND_0x10="@+id/dc1" NOT_FOUND_0x13="@+id/emh"/>
+    <ProgressBar id="@+id/dc1" layout_width="@dimen/m4" layout_height="@dimen/m4" indeterminateOnly="true" indeterminateDrawable="@drawable/atn" indeterminateBehavior="repeat" NOT_FOUND_0xf="0" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="@+id/e2u"/>
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/awd" background="@color/l" paddingLeft="@dimen/lx" paddingRight="@dimen/lx" layout_width="match_parent" layout_height="0dp" NOT_FOUND_0xf="0" NOT_FOUND_0x13="@+id/emh">
+        <com.bytedance.tux.icon.TuxIconView id="@+id/aw3" layout_width="@dimen/lv" layout_height="@dimen/lv" layout_marginTop="@dimen/lu" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x14="0" NOT_FOUND_0x16="@drawable/as6"/>
+        <com.bytedance.tux.input.TuxTextView gravity="center" id="@+id/awb" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="@dimen/lw" text="@string/bnq" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="@+id/aw3" NOT_FOUND_0x15="32"/>
+        <com.bytedance.tux.input.TuxTextView gravity="center" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="@dimen/lt" text="@string/bna" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="@+id/awb" NOT_FOUND_0x15="51"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/ci_" background="@color/l" layout_width="match_parent" layout_height="0dp" NOT_FOUND_0xf="0" NOT_FOUND_0x13="@+id/emh">
+        <com.bytedance.tux.status.loading.TuxDualBallView id="@+id/ci9" layout_width="@dimen/l_" layout_height="@dimen/l_" layout_marginTop="@dimen/l9" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x14="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

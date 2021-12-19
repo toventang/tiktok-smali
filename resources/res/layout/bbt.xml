@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.android.livesdk.like.widget.anim.BottomLikeOptimizedView layout_gravity="bottom|right|center_vertical|center_horizontal|center" id="@+id/d0o" layout_width="68dp" layout_height="272dp" layout_marginBottom="32dp"/>
+</FrameLayout>

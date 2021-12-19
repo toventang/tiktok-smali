@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" orientation="vertical" paddingTop="28dp" layout_width="wrap_content" layout_height="227dp">
+    <RelativeLayout layout_gravity="center" id="@+id/ct0" layout_width="160dp" layout_height="160dp" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0">
+        <com.ss.android.ugc.aweme.views.RoundedFrameLayout layout_width="160dp" layout_height="160dp" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0x11="80dp">
+            <com.bytedance.lighten.loader.SmartCircleImageView id="@+id/ctv" layout_width="160dp" layout_height="160dp"/>
+        </com.ss.android.ugc.aweme.views.RoundedFrameLayout>
+        <com.bytedance.tux.icon.TuxIconView id="@+id/ctw" background="@drawable/bi3" layout_width="36dp" layout_height="36dp" layout_marginRight="10dp" layout_marginBottom="8dp" layout_alignParentRight="true" layout_alignParentBottom="true" layout_marginEnd="10dp" NOT_FOUND_0x12="@raw/icon_pen" NOT_FOUND_0x13="16dp" NOT_FOUND_0x14="16dp" NOT_FOUND_0x15="@color/e_"/>
+    </RelativeLayout>
+    <com.ss.android.ugc.aweme.views.RoundedFrameLayout id="@+id/ctu" layout_width="160dp" layout_height="160dp" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0x11="80dp">
+        <com.ss.android.ugc.navi.GeckoLottieView id="@+id/cjg" layout_width="160dp" layout_height="160dp" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="true" NOT_FOUND_0x10="true"/>
+    </com.ss.android.ugc.aweme.views.RoundedFrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

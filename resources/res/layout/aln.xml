@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" paddingLeft="16dp" paddingRight="18dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="18dp">
+    <View id="@+id/flj" background="@color/b6" layout_width="match_parent" layout_height="0.5dp"/>
+    <LinearLayout gravity="center_vertical" orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="12dp" layout_marginBottom="12dp">
+        <LinearLayout orientation="vertical" layout_width="0dp" layout_height="wrap_content" layout_marginRight="10dp" layout_weight="1" layout_marginEnd="10dp">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="start" id="@+id/f4m" layout_width="wrap_content" layout_height="wrap_content" text="@string/dcd" maxLines="2" textDirection="locale" textAlignment="viewStart" NOT_FOUND_0x15="42"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c5" gravity="start" id="@+id/f4n" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="2dp" maxLines="1" textDirection="locale" textAlignment="viewStart" NOT_FOUND_0x15="61"/>
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView id="@+id/eki" layout_width="wrap_content" layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

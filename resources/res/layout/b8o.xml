@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@drawable/bx7" layout_width="match_parent" layout_height="wrap_content">
+    <FrameLayout id="@+id/emn" layout_width="match_parent" layout_height="wrap_content">
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/c5" layout_gravity="center" id="@+id/title" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="17dp" layout_marginBottom="17dp" text="@string/eij" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/tw"/>
+    </FrameLayout>
+    <FrameLayout id="@+id/z7" layout_width="match_parent" layout_height="wrap_content">
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/bx" layout_gravity="center" id="@+id/z6" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="17dp" layout_marginBottom="17dp" text="@string/eie" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/tq"/>
+    </FrameLayout>
+    <View background="@color/b6" layout_width="match_parent" layout_height="1dp"/>
+    <FrameLayout id="@+id/zq" layout_width="match_parent" layout_height="wrap_content">
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/bx" layout_gravity="center" id="@+id/zp" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="17dp" layout_marginBottom="17dp" text="@string/eii" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/tq"/>
+    </FrameLayout>
+    <ImageView background="@color/v" layout_width="match_parent" layout_height="8dp"/>
+    <FrameLayout id="@+id/xy" layout_width="match_parent" layout_height="wrap_content">
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/c4" layout_gravity="center" id="@+id/xx" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="17dp" layout_marginBottom="17dp" text="@string/ei0" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/to"/>
+    </FrameLayout>
+</LinearLayout>

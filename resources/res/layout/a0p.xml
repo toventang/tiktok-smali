@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" orientation="vertical" background="@color/a9" layout_width="match_parent" layout_height="match_parent" layout_marginLeft="16dp" layout_marginRight="16dp">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+        <View orientation="vertical" id="@+id/e_f" layout_width="match_parent" layout_height="0dp"/>
+        <FrameLayout orientation="horizontal" layout_width="match_parent" layout_height="48dp">
+            <ViewSwitcher layout_gravity="left|center_vertical|center_horizontal|center|start" id="@+id/bnk" layout_width="wrap_content" layout_height="wrap_content">
+                <com.bytedance.tux.icon.TuxIconView layout_gravity="left|center_vertical|center_horizontal|center|start" id="@+id/bmt" layout_width="24dp" layout_height="24dp" NOT_FOUND_0xc="@raw/icon_x_mark" NOT_FOUND_0xd="?attr/bc"/>
+                <com.bytedance.tux.icon.TuxIconView layout_gravity="left|center_vertical|center_horizontal|center|start" id="@+id/bmp" layout_width="24dp" layout_height="24dp" NOT_FOUND_0xc="@raw/icon_chevron_left_offset_ltr" NOT_FOUND_0xd="?attr/bc"/>
+            </ViewSwitcher>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_gravity="center" id="@+id/fb7" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0xb="33"/>
+            <ViewSwitcher layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/fb_" layout_width="wrap_content" layout_height="wrap_content">
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_gravity="end" id="@+id/fal" layout_width="wrap_content" layout_height="wrap_content" text="Edit" NOT_FOUND_0xb="41"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bh" id="@+id/faj" layout_width="wrap_content" layout_height="wrap_content" text="Delete all" NOT_FOUND_0xb="41"/>
+            </ViewSwitcher>
+        </FrameLayout>
+        <com.bytedance.ies.dmt.ui.widget.DmtLoadingLayout id="@+id/cho" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+        <androidx.recyclerview.widget.RecyclerView orientation="vertical" id="@+id/djs" layout_width="match_parent" layout_height="match_parent"/>
+    </LinearLayout>
+</FrameLayout>

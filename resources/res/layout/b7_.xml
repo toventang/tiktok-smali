@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <com.google.android.material.tabs.TabLayout id="@+id/au6" layout_width="0dp" layout_height="48dp" layout_marginLeft="12dp" layout_marginStart="12dp" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0dp" NOT_FOUND_0x14="0" NOT_FOUND_0x15="12dp" NOT_FOUND_0x16="12dp"/>
+    <androidx.viewpager.widget.ViewPager id="@+id/au1" paddingLeft="16dp" layout_width="0dp" layout_height="0dp" paddingStart="16dp" NOT_FOUND_0xc="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="@+id/au6"/>
+    <ImageView id="@+id/dm6" paddingLeft="14dp" paddingTop="8dp" paddingRight="14dp" paddingBottom="8dp" layout_width="52dp" layout_height="40dp" src="@drawable/bx_" scaleType="fitXY" NOT_FOUND_0xd="0" NOT_FOUND_0x11="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

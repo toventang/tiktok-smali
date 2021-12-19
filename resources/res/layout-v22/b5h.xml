@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout layout_width="match_parent" layout_height="wrap_content">
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="15sp" textColor="@color/bx" id="@+id/u4" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginStart="16dp"/>
+        <View layout_width="0dp" layout_height="match_parent" layout_weight="1"/>
+        <ImageView layout_gravity="center" id="@+id/ty" layout_width="24dp" layout_height="24dp" layout_marginRight="16dp" layout_marginEnd="16dp"/>
+    </LinearLayout>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="13sp" textColor="@color/c5" gravity="start" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="4dp" layout_marginRight="16dp" text="@string/e97" lineSpacingExtra="3sp" translationY="-1.38sp" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+    <com.bytedance.android.live.broadcast.api.blockword.BlockWordMaxHeightScrollView layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="12dp" layout_marginRight="16dp" NOT_FOUND_0x1c="16dp">
+        <com.bytedance.android.live.broadcast.api.blockword.BlockWordFlowLayout id="@+id/b75" layout_width="match_parent" layout_height="wrap_content"/>
+    </com.bytedance.android.live.broadcast.api.blockword.BlockWordMaxHeightScrollView>
+    <RelativeLayout id="@+id/u3" visibility="gone" layout_width="match_parent" layout_height="52dp">
+        <com.bytedance.android.live.design.widget.LiveEditText textColor="@color/a05" gravity="left|center_vertical|center_horizontal|center|start" layout_gravity="center_vertical" id="@+id/u1" background="@null" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="17dp" layout_marginBottom="14dp" inputType="text" imeOptions="actionUnspecified|actionSend|flagNoExtractUi" textCursorDrawable="@drawable/bx5" textAlignment="viewStart" layout_marginStart="16dp" style="@style/to"/>
+        <com.bytedance.android.live.core.widget.FitTextView textSize="15sp" textColor="#b0b0b0" gravity="left|center_vertical|center_horizontal|center|start" layout_gravity="center_vertical" id="@+id/u2" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="17dp" layout_marginBottom="14dp" maxLines="1" singleLine="true" textAlignment="viewStart" layout_marginStart="16dp"/>
+        <View background="@color/wo" layout_width="match_parent" layout_height="1dp" layout_alignParentTop="true"/>
+        <View background="@color/wo" layout_width="match_parent" layout_height="1dp" layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</LinearLayout>

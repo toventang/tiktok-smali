@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" gravity="center" layout_gravity="center_horizontal" id="@+id/dol" layout_width="160dp" layout_height="44dp" layout_marginTop="@dimen/rk" layout_alignParentTop="true" layout_centerInParent="true">
+    <ImageView id="@+id/bv7" visibility="gone" layout_width="20dp" layout_height="20dp" src="0x7f080663" scaleType="centerInside" layout_centerVertical="true"/>
+    <com.ss.android.ugc.aweme.views.AlwaysMarqueeTextView textSize="13dp" textColor="@color/a9" ellipsize="marquee" gravity="center" layout_gravity="center" id="@+id/eww" paddingBottom="1.5dp" focusable="true" focusableInTouchMode="true" visibility="gone" layout_width="wrap_content" layout_height="44dp" layout_marginLeft="4dp" text="@string/adm" scrollHorizontally="true" singleLine="true" shadowColor="@color/bo" shadowDx="0" shadowDy="2" shadowRadius="2" layout_toRightOf="@+id/bv7" marqueeRepeatLimit="marquee_forever" layout_marginStart="4dp" layout_toEndOf="@+id/bv7"/>
+</RelativeLayout>

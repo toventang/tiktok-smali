@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout layout_gravity="start" id="@+id/b4o" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="86dp" layout_marginBottom="71dp" layout_marginStart="16dp" layout_marginEnd="72dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="start" layout_gravity="start" id="@+id/ewm" background="@drawable/s9" padding="8dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" maxWidth="320dp" textAlignment="viewStart" NOT_FOUND_0x10="32"/>
+        <FrameLayout layout_gravity="start" id="@+id/b63" background="@drawable/s9" visibility="gone" layout_width="32dp" layout_height="32dp">
+            <ProgressBar layout_gravity="center" id="@+id/d2p" layout_width="18dp" layout_height="18dp"/>
+        </FrameLayout>
+        <ImageView layout_gravity="start" id="@+id/buv" background="@drawable/s9" visibility="gone" layout_width="32dp" layout_height="32dp" src="0x7f080748"/>
+    </FrameLayout>
+</FrameLayout>

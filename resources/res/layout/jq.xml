@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="24dp" layout_height="24dp">
+    <com.bytedance.lighten.loader.SmartCircleImageView id="@+id/ov" layout_width="24dp" layout_height="24dp" NOT_FOUND_0x3="@drawable/cc1" NOT_FOUND_0x4="0" NOT_FOUND_0x5="0" NOT_FOUND_0x6="@drawable/cc1"/>
+</FrameLayout>

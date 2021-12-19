@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.android.live.design.widget.LiveButton xmlns="" textAppearance="@style/kp" textColor="?attr/als" id="@+id/efn" layout_width="match_parent" layout_height="24dp" layout_marginLeft="0dp" layout_marginRight="0dp" style="@style/sp"/>

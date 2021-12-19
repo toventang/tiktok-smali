@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.dsp.ui.DspLoadMoreFrameLayout gravity="center" orientation="vertical" id="@+id/cet" background="@color/a2" layout_width="match_parent" layout_height="match_parent" layout_marginBottom="49dp">
+        <com.ss.android.ugc.aweme.dsp.widget.vvpager.MDFilterScrollVerticalVPager id="@+id/fk_" layout_width="match_parent" layout_height="match_parent" overScrollMode="never"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtStatusView layout_gravity="center" id="@+id/e_6" layout_width="wrap_content" layout_height="wrap_content"/>
+    </com.ss.android.ugc.aweme.dsp.ui.DspLoadMoreFrameLayout>
+    <View layout_gravity="bottom" id="@+id/w9" background="@color/a2" layout_width="match_parent" layout_height="0dp"/>
+</FrameLayout>

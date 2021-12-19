@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="horizontal" paddingLeft="16dp" paddingRight="16dp" layout_width="match_parent" layout_height="64dp">
+    <com.ss.android.ugc.aweme.base.ui.SmartAvatarImageView layout_gravity="center_vertical" id="@+id/bu0" layout_width="48dp" layout_height="48dp"/>
+    <LinearLayout layout_gravity="center_vertical" orientation="vertical" layout_width="0dp" layout_height="wrap_content" layout_weight="1" layout_marginStart="12dp" layout_marginEnd="16dp">
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/bc" ellipsize="end" id="@+id/f3c" layout_width="wrap_content" layout_height="wrap_content" singleLine="true" NOT_FOUND_0xe="42"/>
+        <com.ss.android.ugc.aweme.views.MutualRelationView id="@+id/crw" visibility="gone" layout_width="wrap_content" layout_height="wrap_content"/>
+    </LinearLayout>
+    <com.ss.android.ugc.aweme.follow.NewFollowButton layout_gravity="center_vertical" id="@+id/yf" layout_width="88dp" layout_height="28dp"/>
+</LinearLayout>

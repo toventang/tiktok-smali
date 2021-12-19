@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_gravity="center" layout_width="wrap_content" layout_height="wrap_content">
+    <LinearLayout id="@+id/cz8" background="@drawable/boc" paddingLeft="9.5dp" paddingTop="4.5dp" paddingRight="9.5dp" paddingBottom="4.5dp" layout_width="wrap_content" layout_height="wrap_content" layout_alignParentRight="true" layout_alignParentEnd="true">
+        <ImageView layout_gravity="center" id="@+id/fk9" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="5dp" src="0x7f080fa1" layout_marginEnd="5dp"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="12dp" textColor="@color/a9" id="@+id/f3w" layout_width="wrap_content" layout_height="wrap_content"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView layout_gravity="center" id="@+id/drq" fadingEdgeLength="24dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="2dp" layout_toLeftOf="@+id/cz8" layout_alignParentTop="true" requiresFadingEdge="horizontal" layout_marginEnd="2dp" layout_toStartOf="@+id/cz8"/>
+</RelativeLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns="" id="@+id/dxd" scrollbars="vertical" fadingEdge="none" clipToPadding="false" layout_width="match_parent" layout_height="match_parent" cacheColorHint="@null" divider="?attr/a2p" overScrollMode="ifContentScrolls" textAlignment="viewStart" NOT_FOUND_0xa="@dimen/a9" NOT_FOUND_0xb="@dimen/a_" class="androidx.appcompat.app.AlertController$RecycleListView" style="@style/q9"/>

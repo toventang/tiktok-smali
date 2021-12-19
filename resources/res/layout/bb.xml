@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@color/l" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout background="@color/l" fitsSystemWindows="true" layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout orientation="horizontal" id="@+id/em8" layout_width="match_parent" layout_height="@dimen/a0s">
+            <com.bytedance.tux.input.TuxCompoundIconTextView textColor="?attr/bc" gravity="center" layout_gravity="center_vertical" id="@+id/q9" layout_width="wrap_content" layout_height="44dp" paddingStart="10dp" paddingEnd="0dp" layout_marginStart="6dp" NOT_FOUND_0x11="41" NOT_FOUND_0x12="24dp" NOT_FOUND_0x13="10dp" NOT_FOUND_0x14="@raw/icon_arrow_left_ltr" NOT_FOUND_0x15="24dp" NOT_FOUND_0x16="?attr/bc"/>
+            <androidx.legacy.widget.Space layout_width="0dp" layout_height="0dp" layout_weight="1"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" layout_gravity="center_vertical" id="@+id/a1p" paddingLeft="16dp" paddingRight="16dp" visibility="gone" layout_width="wrap_content" layout_height="44dp" text="@string/a9e" NOT_FOUND_0x11="41"/>
+        </LinearLayout>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_gravity="center" id="@+id/euz" layout_width="wrap_content" layout_height="wrap_content" text="@string/ct1" NOT_FOUND_0x11="33"/>
+    </FrameLayout>
+    <View background="@color/b2" layout_width="match_parent" layout_height="1px"/>
+    <FrameLayout id="@+id/b94" layout_width="match_parent" layout_height="match_parent"/>
+</LinearLayout>

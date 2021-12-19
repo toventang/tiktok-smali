@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="" orientation="vertical" background="@drawable/bux" padding="16dp" layout_width="wrap_content" layout_height="wrap_content">
+    <FrameLayout layout_gravity="center" layout_width="48dp" layout_height="48dp">
+        <com.bytedance.ies.dmt.ui.widget.DoubleColorBallAnimationView layout_gravity="center" id="@+id/kq" layout_width="37.5dp" layout_height="37.5dp"/>
+    </FrameLayout>
+    <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/a_" ellipsize="end" gravity="center_horizontal" layout_gravity="center_horizontal" id="@+id/ek7" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" maxWidth="176dp" minWidth="61dp" text="@string/gs3" maxLines="3" style="@style/y6"/>
+</merge>

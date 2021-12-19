@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.tux.input.TuxTextView xmlns="" textColor="@color/c5" gravity="start" id="@+id/elq" paddingTop="8dp" paddingBottom="8dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content" textAlignment="viewStart" NOT_FOUND_0x9="61"/>

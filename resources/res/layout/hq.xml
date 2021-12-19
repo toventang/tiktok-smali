@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.ies.dmt.ui.widget.tablayout.DmtTabLayout textColor="@color/bx" id="@+id/d49" layout_width="match_parent" layout_height="40dp" layout_marginLeft="30dp" layout_marginRight="30dp" NOT_FOUND_0x8="@color/bx" NOT_FOUND_0x9="2dp"/>
+    <View background="@color/b6" layout_width="match_parent" layout_height="0.5dp"/>
+    <com.ss.android.ugc.aweme.views.RtlViewPager id="@+id/d48" layout_width="match_parent" layout_height="match_parent"/>
+</LinearLayout>

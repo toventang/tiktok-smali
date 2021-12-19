@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_gravity="center_vertical" orientation="horizontal" layout_width="match_parent" layout_height="@dimen/mr">
+    <LinearLayout gravity="left|center_vertical|center_horizontal|center|start" orientation="horizontal" id="@+id/c9s" paddingLeft="16dp" paddingTop="12dp" paddingRight="12dp" paddingBottom="12dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_alignParentLeft="true" layout_centerVertical="true" contentDescription="@string/a2g" paddingStart="16dp" paddingEnd="12dp" layout_alignParentStart="true"/>
+    <LinearLayout gravity="end" orientation="horizontal" id="@+id/dnc" paddingLeft="12dp" paddingTop="12dp" paddingRight="16dp" paddingBottom="12dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_alignParentRight="true" layout_centerVertical="true" contentDescription="@string/cg2" paddingStart="12dp" paddingEnd="16dp" layout_alignParentEnd="true"/>
+    <ImageView id="@+id/dnq" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="9dp" layout_marginRight="9dp" src="@drawable/arg" scaleType="centerInside" layout_alignTop="@+id/dnc" layout_alignRight="@+id/dnc" layout_marginEnd="9dp" layout_alignEnd="@+id/dnc"/>
+    <RelativeLayout gravity="center_horizontal" orientation="vertical" id="@+id/emo" layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true">
+        <LinearLayout orientation="horizontal" id="@+id/emt" layout_width="wrap_content" layout_height="wrap_content" layout_centerHorizontal="true">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/title_tv" layout_width="0dp" layout_height="wrap_content" maxLines="1" singleLine="true" layout_weight="1" NOT_FOUND_0x26="33"/>
+        </LinearLayout>
+        <RelativeLayout orientation="horizontal" id="@+id/c_2" visibility="gone" layout_width="wrap_content" layout_height="wrap_content">
+            <com.ss.android.ugc.aweme.base.ui.AvatarImageView id="@+id/bu0" layout_width="40dp" layout_height="40dp" layout_centerVertical="true"/>
+            <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="8dp" layout_marginTop="2dp" layout_toRightOf="@+id/bu0" layout_marginStart="8dp" layout_toEndOf="@+id/bu0">
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/b3v" layout_width="match_parent" layout_height="wrap_content" maxLines="1" singleLine="true" NOT_FOUND_0x26="33"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" gravity="start" id="@+id/dw9" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="2dp" maxLines="1" singleLine="true" NOT_FOUND_0x26="61"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

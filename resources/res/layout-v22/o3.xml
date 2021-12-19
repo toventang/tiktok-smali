@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.ecommerce.address.widget.inputitem.InputItem xmlns="" id="@+id/d4a" layout_width="match_parent" layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.ecommerce.address.widget.PhoneInputView id="@+id/d4_" paddingTop="15dp" paddingBottom="15dp" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x5="15dp"/>
+</com.ss.android.ugc.aweme.ecommerce.address.widget.inputitem.InputItem>

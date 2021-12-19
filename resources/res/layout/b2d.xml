@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <View id="@+id/e_f" background="@color/c9" layout_width="match_parent" layout_height="0dp"/>
+    <dmt.viewpager.DmtRtlViewPager id="@+id/fkt" layout_width="match_parent" layout_height="match_parent"/>
+    <ViewStub id="@+id/bf4" layout="@layout/b32" layout_width="match_parent" layout_height="52dp" layout_below="@+id/e_f"/>
+    <LinearLayout orientation="horizontal" id="@+id/ch2" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="36dp" layout_alignParentBottom="true" layout_marginStart="16dp">
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/aa" id="@+id/f_d" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0xc="32"/>
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/ad" id="@+id/f54" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="4dp" NOT_FOUND_0xc="32"/>
+    </LinearLayout>
+</RelativeLayout>

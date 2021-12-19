@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/dp4" layout_width="match_parent" layout_height="match_parent">
+    <View background="@color/l" layout_width="match_parent" layout_height="match_parent"/>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/djs" layout_width="match_parent" layout_height="match_parent"/>
+    <LinearLayout orientation="vertical" id="@+id/dpi" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+</RelativeLayout>

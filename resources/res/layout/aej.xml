@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="32dp" layout_marginRight="105dp" layout_marginStart="16dp" layout_marginEnd="105dp">
+    <include layout="@layout/ai8"/>
+    <LinearLayout orientation="horizontal" id="@+id/abn" visibility="visible" layout_width="wrap_content" layout_height="wrap_content">
+        <com.facebook.drawee.view.SimpleDraweeView layout_gravity="center" id="@+id/abm" visibility="gone" layout_width="wrap_content" layout_height="20dp" layout_marginRight="8dp" layout_marginEnd="8dp" NOT_FOUND_0x10="2dp"/>
+        <LinearLayout orientation="vertical" layout_width="wrap_content" layout_height="wrap_content">
+            <com.ss.android.ugc.tools.view.style.StyleTextView textSize="12sp" textColor="@color/a2r" ellipsize="end" layout_gravity="center" id="@+id/abl" layout_width="wrap_content" layout_height="wrap_content" maxLines="2"/>
+            <com.ss.android.ugc.tools.view.style.StyleTextView textSize="10sp" textColor="@color/a2u" ellipsize="end" id="@+id/abo" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="1dp" text="@string/dnt" maxLines="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

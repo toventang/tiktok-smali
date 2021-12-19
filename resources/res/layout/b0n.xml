@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.shoutouts.review.view.ShoutoutsHeaderStepBottomStyle xmlns="" orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout gravity="center" orientation="horizontal" id="@+id/cgq" layout_width="0dp" layout_height="wrap_content" layout_weight="1" NOT_FOUND_0x10="@+id/ano" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0">
+        <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView id="@+id/c1z" layout_width="16dp" layout_height="16dp" src="@raw/icon_document" alpha="0.5"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/f92" layout_width="wrap_content" layout_height="wrap_content" text="@string/ge_" layout_marginStart="4dp" NOT_FOUND_0x15="41"/>
+        <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView id="@+id/c1y" layout_width="12dp" layout_height="12dp" src="@raw/icon_chevron_right_ltr" NOT_FOUND_0x14="@color/c5"/>
+    </LinearLayout>
+    <View id="@+id/ano" background="@color/b6" layout_width="1px" layout_height="16dp" layout_marginTop="1dp" layout_marginStart="8dp" layout_marginEnd="8dp" NOT_FOUND_0xf="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0"/>
+    <LinearLayout gravity="center" layout_gravity="center" orientation="horizontal" id="@+id/cff" layout_width="0dp" layout_height="wrap_content" layout_weight="1" NOT_FOUND_0xf="0" NOT_FOUND_0x11="@+id/ano" NOT_FOUND_0x13="0">
+        <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView layout_width="16dp" layout_height="16dp" src="@raw/icon_question_mark_circle_ltr" alpha="0.5" layout_marginEnd="4dp"/>
+    </LinearLayout>
+</com.ss.android.ugc.aweme.shoutouts.review.view.ShoutoutsHeaderStepBottomStyle>

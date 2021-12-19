@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.common.widget.scrollablelayout.ScrollableLayout id="@+id/dtd" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x1b="44dp">
+        <RelativeLayout gravity="center_vertical" orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+            <com.bytedance.tux.icon.TuxIconView id="@+id/qb" layout_width="44dp" layout_height="44dp" layout_alignParentLeft="true" contentDescription="@string/a2g" layout_alignParentStart="true" NOT_FOUND_0x1d="@raw/icon_arrow_left_ltr" NOT_FOUND_0x1e="24dp" NOT_FOUND_0x1f="24dp" NOT_FOUND_0x20="?attr/bc" style="@style/a3j"/>
+            <com.bytedance.tux.input.TuxTextView textColor="?attr/bc" ellipsize="end" id="@+id/title_tv" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" layout_centerInParent="true" layout_marginStart="88dp" layout_marginEnd="88dp" NOT_FOUND_0x1c="33"/>
+            <com.bytedance.tux.icon.TuxIconView id="@+id/hc" visibility="gone" layout_width="24dp" layout_height="24dp" layout_marginRight="16dp" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="16dp" layout_alignParentEnd="true" NOT_FOUND_0x1d="@raw/icon_person_plus" NOT_FOUND_0x20="?attr/bc"/>
+        </RelativeLayout>
+        <com.bytedance.ies.dmt.ui.widget.tablayout.DmtTabLayout id="@+id/ehe" layout_width="match_parent" layout_height="44dp" NOT_FOUND_0x14="@null" NOT_FOUND_0x15="?attr/az" NOT_FOUND_0x16="2dp" NOT_FOUND_0x17="0dp" NOT_FOUND_0x18="0" NOT_FOUND_0x19="12dp" NOT_FOUND_0x1a="12dp"/>
+        <View background="?attr/aj" layout_width="match_parent" layout_height="1px"/>
+        <com.ss.android.ugc.aweme.views.RtlViewPager id="@+id/fk_" background="?attr/m" layout_width="match_parent" layout_height="match_parent"/>
+    </com.ss.android.ugc.aweme.common.widget.scrollablelayout.ScrollableLayout>
+</FrameLayout>

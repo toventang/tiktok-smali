@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns="" background="@color/c9" layout_width="match_parent" layout_height="match_parent">
+    <View id="@+id/fk2" layout_width="match_parent" layout_height="match_parent" soundEffectsEnabled="false" importantForAccessibility="no"/>
+    <LinearLayout layout_gravity="bottom" orientation="vertical" id="@+id/cf8" layout_width="match_parent" layout_height="wrap_content">
+        <include layout="@layout/b37"/>
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtPanelFrameLayout id="@+id/fkj" paddingTop="28dp" paddingBottom="32dp" visibility="visible" clickable="true" clipChildren="false" layout_width="match_parent" layout_height="160dp" layout_marginTop="20dp" NOT_FOUND_0x14="true" NOT_FOUND_0x15="@dimen/cl" NOT_FOUND_0x16="true">
+            <com.ss.android.ugc.aweme.themechange.base.AVDmtPanelRecycleView id="@+id/au0" scrollbars="none" clipChildren="false" layout_width="match_parent" layout_height="wrap_content" splitMotionEvents="false" NOT_FOUND_0x11="16dp" NOT_FOUND_0x12="16dp" NOT_FOUND_0x13="16dp"/>
+            <com.ss.android.ugc.tools.view.widget.AVStatusView gravity="center" layout_gravity="center" id="@+id/ci4" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+        </com.ss.android.ugc.aweme.themechange.base.AVDmtPanelFrameLayout>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

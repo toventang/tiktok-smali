@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout layout_gravity="center" id="@+id/a6h" background="@drawable/a0f" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="40dp" layout_marginRight="40dp" layout_centerInParent="true">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/ly" id="@+id/ewr" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" drawableLeft="0x7f0806f5" drawablePadding="2dp" drawableStart="0x7f0806f5" NOT_FOUND_0x1f="0.495" NOT_FOUND_0x20="0" NOT_FOUND_0x21="0" NOT_FOUND_0x22="@+id/bv1" NOT_FOUND_0x26="33"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/ewp" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="20dp" layout_marginTop="12dp" layout_marginRight="20dp" text="@string/aay" maxLines="5" NOT_FOUND_0x1b="1" NOT_FOUND_0x20="0" NOT_FOUND_0x21="0" NOT_FOUND_0x22="@+id/ewr" NOT_FOUND_0x26="41"/>
+        <LinearLayout gravity="center" id="@+id/xz" background="@drawable/ui" paddingLeft="8dp" paddingTop="8dp" paddingRight="0dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="20dp" layout_marginTop="16dp" layout_marginRight="20dp" paddingStart="8dp" paddingEnd="0dp" NOT_FOUND_0x20="0" NOT_FOUND_0x21="0" NOT_FOUND_0x22="@+id/ewp">
+            <com.ss.android.ugc.aweme.account.ui.InputWithIndicator id="@+id/bpw" layout_width="match_parent" layout_height="20dp" maxLines="1" NOT_FOUND_0x1c="1" NOT_FOUND_0x1d="@string/ab2"/>
+            <com.ss.android.ugc.aweme.account.login.v2.ui.InputResultIndicator textSize="@dimen/d5" id="@+id/bpx" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="@dimen/d5" NOT_FOUND_0x24="@dimen/d4"/>
+        </LinearLayout>
+        <com.bytedance.lighten.loader.SmartImageView id="@+id/bv1" layout_width="72dp" layout_height="72dp" layout_margin="28dp" NOT_FOUND_0x20="0" NOT_FOUND_0x21="0" NOT_FOUND_0x23="0" NOT_FOUND_0x25="0x7f080872"/>
+        <LinearLayout orientation="vertical" id="@+id/a13" layout_width="match_parent" layout_height="47.5dp" layout_marginTop="20dp" NOT_FOUND_0x1e="0" NOT_FOUND_0x22="@+id/xz">
+            <com.bytedance.tux.input.TuxTextView id="@+id/anj" background="@color/b6" layout_width="match_parent" layout_height="0.5dp" NOT_FOUND_0x26="51"/>
+            <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="match_parent">
+                <com.bytedance.tux.input.TuxTextView textColor="@color/c5" gravity="center" id="@+id/cu4" background="@drawable/ug" paddingLeft="8dp" paddingRight="8dp" layout_width="0dp" layout_height="match_parent" text="@string/ab0" layout_weight="1" NOT_FOUND_0x26="41"/>
+                <com.bytedance.tux.input.TuxTextView id="@+id/f1z" background="@color/b6" layout_width="0.5dp" layout_height="match_parent" NOT_FOUND_0x26="51"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/d7p" background="@drawable/uh" paddingLeft="8dp" paddingRight="8dp" layout_width="0dp" layout_height="match_parent" text="@string/ab1" layout_weight="1" NOT_FOUND_0x26="42"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/drs" background="@color/l" layout_width="match_parent" layout_height="wrap_content" layout_alignParentBottom="true" NOT_FOUND_0x1e="0"/>
+</RelativeLayout>

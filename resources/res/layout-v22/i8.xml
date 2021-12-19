@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" paddingLeft="16dp" paddingTop="8dp" paddingRight="16dp" paddingBottom="8dp" layout_width="match_parent" layout_height="64dp" NOT_FOUND_0xc="16dp" NOT_FOUND_0xd="8dp">
+    <com.ss.android.ugc.aweme.base.ui.SmartAvatarImageView id="@+id/aru" layout_width="48dp" layout_height="48dp" NOT_FOUND_0xf="0" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0" NOT_FOUND_0x17="@color/f"/>
+    <com.bytedance.tux.icon.TuxIconView layout_width="24dp" layout_height="24dp" NOT_FOUND_0xf="@+id/aru" NOT_FOUND_0x10="@+id/aru" NOT_FOUND_0x15="@+id/aru" NOT_FOUND_0x16="@+id/aru" NOT_FOUND_0x19="@raw/icon_person_plus" NOT_FOUND_0x1a="?attr/bc"/>
+    <com.bytedance.tux.input.TuxTextView textColor="?attr/bc" ellipsize="end" id="@+id/fct" layout_width="wrap_content" layout_height="wrap_content" text="@string/gbu" maxLines="1" layout_marginStart="12dp" NOT_FOUND_0xe="true" NOT_FOUND_0xf="0" NOT_FOUND_0x11="@+id/ll" NOT_FOUND_0x12="0" NOT_FOUND_0x13="2" NOT_FOUND_0x14="@+id/aru" NOT_FOUND_0x16="0" NOT_FOUND_0x18="42"/>
+    <com.bytedance.tux.icon.TuxIconView id="@+id/ll" layout_width="24dp" layout_height="24dp" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0" NOT_FOUND_0x16="0" NOT_FOUND_0x19="@raw/icon_chevron_right_ltr" NOT_FOUND_0x1a="?attr/bc"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

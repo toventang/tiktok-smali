@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/dwp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="12dp" layout_marginBottom="4dp" layout_marginStart="16dp" NOT_FOUND_0x11="62"/>
+    <FrameLayout id="@+id/fd7" layout_width="match_parent" layout_height="wrap_content">
+        <com.ss.android.ugc.aweme.base.ui.AvatarImageWithVerify layout_gravity="left|center_vertical|center_horizontal|center|start" id="@+id/or" layout_width="48dp" layout_height="48dp" layout_marginTop="8dp" layout_marginBottom="8dp" layout_marginStart="16dp"/>
+        <LinearLayout layout_gravity="center_vertical" orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginStart="76dp" layout_marginEnd="56dp">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" gravity="start" id="@+id/cs_" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" textDirection="locale" textAlignment="viewStart" NOT_FOUND_0x11="52"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" gravity="start" id="@+id/ak7" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" textDirection="locale" textAlignment="viewStart" NOT_FOUND_0x11="51"/>
+        </LinearLayout>
+        <com.bytedance.tux.icon.TuxIconView layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/a52" layout_width="24dp" layout_height="24dp" layout_marginEnd="16dp"/>
+    </FrameLayout>
+</LinearLayout>

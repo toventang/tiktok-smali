@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.ies.dmt.ui.titlebar.ButtonTitleBar id="@+id/emo" layout_width="match_parent" layout_height="52dp" NOT_FOUND_0x18="8" NOT_FOUND_0x1a="Manage Captions" NOT_FOUND_0x1b="@color/nq" NOT_FOUND_0x20="true"/>
+    <LinearLayout orientation="vertical" id="@+id/au9" visibility="visible" layout_width="match_parent" layout_height="match_parent">
+        <ScrollView layout_width="match_parent" layout_height="0dp" layout_weight="1">
+            <LinearLayout orientation="vertical" id="@+id/ck8" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="32dp" layout_marginRight="32dp" NOT_FOUND_0x16="32dp">
+                <com.bytedance.lighten.loader.SmartImageView id="@+id/cyt" layout_width="match_parent" layout_height="180dp" layout_marginTop="16dp" scaleType="centerInside"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_gravity="center" id="@+id/cyu" layout_width="match_parent" layout_height="wrap_content" text="@string/ag8" textAlignment="center" NOT_FOUND_0x1f="23"/>
+                <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="32dp">
+                    <ImageView layout_width="24dp" layout_height="24dp" src="@raw/icon_auto_language" scaleType="centerInside"/>
+                    <LinearLayout layout_gravity="center_vertical" orientation="vertical" layout_width="0dp" layout_height="wrap_content" layout_weight="1" layout_marginStart="12dp">
+                        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_width="match_parent" layout_height="wrap_content" text="@string/ag4" NOT_FOUND_0x1f="42"/>
+                        <com.bytedance.tux.input.TuxTextView textColor="@color/c4" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="6dp" layout_marginBottom="6dp" text="@string/ag5" NOT_FOUND_0x17="6dp" NOT_FOUND_0x1f="41"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="24dp" layout_marginBottom="24dp" NOT_FOUND_0x17="24dp">
+                    <ImageView layout_width="24dp" layout_height="24dp" src="@raw/icon_globe" scaleType="centerInside"/>
+                    <LinearLayout layout_gravity="center_vertical" orientation="vertical" layout_width="0dp" layout_height="wrap_content" layout_weight="1" layout_marginStart="12dp">
+                        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_width="match_parent" layout_height="wrap_content" text="@string/ag6" NOT_FOUND_0x1f="42"/>
+                        <com.bytedance.tux.input.TuxTextView textColor="@color/c4" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="6dp" layout_marginBottom="6dp" text="@string/ag7" NOT_FOUND_0x17="6dp" NOT_FOUND_0x1f="41"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <com.bytedance.tux.button.TuxButton textColor="@color/a9" ellipsize="end" gravity="center" id="@+id/cys" layout_width="match_parent" layout_height="44dp" layout_marginLeft="32dp" layout_marginTop="16dp" layout_marginRight="32dp" layout_marginBottom="16dp" text="@string/a7y" maxLines="1" textAllCaps="false" NOT_FOUND_0x16="32dp" NOT_FOUND_0x17="16dp" NOT_FOUND_0x19="7" NOT_FOUND_0x1c="true" NOT_FOUND_0x1d="1" NOT_FOUND_0x1e="0"/>
+    </LinearLayout>
+</LinearLayout>

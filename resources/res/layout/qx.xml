@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="58dp">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/e5e" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="@dimen/fj" layout_marginTop="20dp" text="@string/bgf" layout_marginStart="@dimen/fj" NOT_FOUND_0x14="0" NOT_FOUND_0x17="0" NOT_FOUND_0x18="0" NOT_FOUND_0x19="62"/>
+    <com.bytedance.tux.icon.TuxIconView id="@+id/e5c" background="@drawable/xp" padding="8dp" layout_width="@dimen/fg" layout_height="@dimen/fg" NOT_FOUND_0x11="@+id/e5d" NOT_FOUND_0x13="@+id/e5b" NOT_FOUND_0x15="@+id/e5b" NOT_FOUND_0x18="@+id/e5d" NOT_FOUND_0x1a="@raw/icon_minus" NOT_FOUND_0x1b="@color/bx"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtEditText textColor="@color/bx" gravity="center" id="@+id/e5b" background="@drawable/xm" layout_width="@dimen/fh" layout_height="@dimen/fg" singleLine="true" digits="0123456789" inputType="phone" imeOptions="actionDone" NOT_FOUND_0x11="@+id/e5d" NOT_FOUND_0x13="@+id/e5d" NOT_FOUND_0x15="@+id/e5d" NOT_FOUND_0x18="@+id/e5d" style="@style/y2"/>
+    <com.bytedance.tux.icon.TuxIconView id="@+id/e5d" background="@drawable/xq" padding="8dp" layout_width="@dimen/fg" layout_height="@dimen/fg" layout_marginRight="@dimen/fj" layout_marginEnd="@dimen/fj" NOT_FOUND_0x11="@+id/e5e" NOT_FOUND_0x12="0" NOT_FOUND_0x16="0" NOT_FOUND_0x18="@+id/e5e" NOT_FOUND_0x1a="@raw/icon_plus" NOT_FOUND_0x1b="@color/bx"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

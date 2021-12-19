@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="match_parent" layout_height="58dp" style="@style/hb">
+    <ImageView id="@android:id/icon1" visibility="invisible" layout_width="@dimen/ah" layout_height="48dp" scaleType="centerInside" layout_alignParentTop="true" layout_alignParentBottom="true" style="@style/hc"/>
+    <ImageView id="@+id/at5" background="?attr/ab_" visibility="gone" layout_width="48dp" layout_height="48dp" scaleType="centerInside" layout_alignParentTop="true" layout_alignParentBottom="true" style="@style/he"/>
+    <ImageView id="@android:id/icon2" visibility="gone" layout_width="48dp" layout_height="48dp" scaleType="centerInside" layout_alignParentTop="true" layout_alignParentBottom="true" layout_alignWithParentIfMissing="true" style="@style/hd"/>
+    <TextView textAppearance="?attr/ai3" gravity="top" id="@android:id/text2" paddingBottom="4dp" visibility="gone" layout_width="match_parent" layout_height="29dp" singleLine="true" layout_alignParentBottom="true" layout_alignWithParentIfMissing="true" style="?android:attr/dropDownItemStyle"/>
+    <TextView textAppearance="?attr/ai4" id="@android:id/text1" layout_width="match_parent" layout_height="wrap_content" singleLine="true" layout_above="@android:id/text2" layout_centerVertical="true" style="?android:attr/dropDownItemStyle"/>
+</RelativeLayout>

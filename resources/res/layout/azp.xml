@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center_vertical" paddingLeft="16dp" paddingRight="16dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+    <LinearLayout layout_gravity="left|center_vertical|center_horizontal|center|start" orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="16dp" layout_weight="1" paddingEnd="12dp">
+        <com.bytedance.tux.icon.TuxIconView layout_gravity="center_vertical" id="@+id/e0z" layout_width="20dp" layout_height="20dp" layout_marginEnd="12dp" NOT_FOUND_0x14="@raw/icon_arrow_turn_up_right" NOT_FOUND_0x15="20dp" NOT_FOUND_0x16="20dp" NOT_FOUND_0x17="@color/b0"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/e29" layout_width="wrap_content" layout_height="wrap_content" text="@string/b04" maxLines="2" maxEms="15" NOT_FOUND_0x13="41"/>
+    </LinearLayout>
+    <RadioGroup layout_gravity="right|center_vertical|center_horizontal|center|end" orientation="horizontal" id="@+id/dgr" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10dp" layout_marginBottom="10dp"/>
+</LinearLayout>

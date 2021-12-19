@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/dvd" layout_width="match_parent" layout_height="wrap_content">
+    <include layout="@layout/awv"/>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/dv_" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x4="androidx.recyclerview.widget.LinearLayoutManager"/>
+    <include layout="@layout/avu"/>
+</LinearLayout>

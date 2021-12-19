@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/ad7" layout_width="match_parent" layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/dqe" background="@drawable/awx" layout_width="match_parent" layout_height="wrap_content">
+        <ImageView id="@+id/amo" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_alignParentRight="true" layout_alignParentEnd="true"/>
+        <com.bytedance.lighten.loader.SmartImageView id="@+id/c2f" layout_width="32dp" layout_height="32dp" layout_marginLeft="16dp" layout_marginTop="16dp" layout_marginBottom="16dp" layout_alignParentLeft="true" layout_alignParentTop="true" layout_marginStart="16dp" layout_alignParentStart="true" NOT_FOUND_0x23="@+id/drj" NOT_FOUND_0x25="@+id/dqe" NOT_FOUND_0x26="true"/>
+        <LinearLayout gravity="center_vertical" orientation="vertical" id="@+id/emm" layout_width="0dp" layout_height="match_parent" layout_marginLeft="8dp" layout_marginTop="16dp" layout_marginRight="16dp" layout_marginBottom="16dp" layout_marginStart="8dp" layout_marginEnd="16dp" NOT_FOUND_0x1e="@+id/drj" NOT_FOUND_0x20="@+id/f6u" NOT_FOUND_0x21="0" NOT_FOUND_0x22="@+id/c2f" NOT_FOUND_0x25="0">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="start" id="@+id/f9l" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x27="42"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" gravity="start" id="@+id/f_3" layout_width="match_parent" layout_height="20dp" maxLines="1" NOT_FOUND_0x27="71"/>
+        </LinearLayout>
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/bc" gravity="center" id="@+id/f6u" background="@drawable/awy" paddingLeft="6dp" paddingRight="6dp" visibility="visible" layout_width="wrap_content" layout_height="20dp" layout_marginRight="16dp" text="@string/ct3" drawableRight="0x7f0808a2" drawablePadding="6dp" drawableEnd="0x7f0808a2" paddingStart="6dp" paddingEnd="6dp" layout_marginEnd="16dp" NOT_FOUND_0x1e="@+id/drj" NOT_FOUND_0x1f="0" NOT_FOUND_0x25="0" NOT_FOUND_0x27="62"/>
+        <androidx.recyclerview.widget.RecyclerView id="@+id/drj" layout_width="match_parent" layout_height="150dp" layout_marginTop="16dp" layout_below="@+id/c2f" NOT_FOUND_0x1f="0" NOT_FOUND_0x23="0" NOT_FOUND_0x24="@+id/c2f"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

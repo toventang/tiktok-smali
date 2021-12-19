@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/ewk" paddingLeft="12dp" paddingTop="12dp" paddingRight="12dp" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x9="51"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bz" id="@+id/ewl" paddingLeft="12dp" paddingTop="4dp" paddingRight="12dp" paddingBottom="12dp" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x9="71"/>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.commercialize.profile.AdFakeUserProfileTabImageView xmlns="" layout_width="0dp" layout_height="match_parent" layout_weight="1">
+    <com.bytedance.tux.icon.TuxIconView id="@+id/azt" layout_width="24dp" layout_height="24dp" layout_marginTop="8dp" layout_centerInParent="true"/>
+</com.ss.android.ugc.aweme.commercialize.profile.AdFakeUserProfileTabImageView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="wrap_content">
+    <RelativeLayout layout_gravity="center" orientation="vertical" background="@drawable/vb" layout_width="280dp" layout_height="wrap_content">
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/bib" layout_width="match_parent" layout_height="202dp" layout_centerHorizontal="true"/>
+        <ImageView id="@+id/a7k" layout_width="22dp" layout_height="22dp" layout_margin="8dp" src="0x7f080c29" layout_alignParentTop="true" layout_alignParentRight="true" layout_alignParentEnd="true"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_gravity="center" id="@+id/em1" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" text="GET UP TO $30 EVERY DAY" layout_below="@+id/bib" layout_centerHorizontal="true" NOT_FOUND_0x18="33"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c4" gravity="center" layout_gravity="center" id="@+id/adp" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="27dp" layout_marginTop="8dp" layout_marginRight="27dp" text="by simply referring your friends to TikTok!" layout_below="@+id/em1" layout_centerHorizontal="true" layout_marginStart="27dp" layout_marginEnd="27dp" NOT_FOUND_0x18="51"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" layout_gravity="center" id="@+id/button" background="@drawable/b6s" paddingTop="14dp" paddingBottom="12dp" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="20dp" layout_marginTop="20dp" layout_marginRight="20dp" layout_marginBottom="24dp" text="Refer" layout_below="@+id/adp" layout_marginStart="20dp" layout_marginEnd="20dp" NOT_FOUND_0x18="43"/>
+    </RelativeLayout>
+</FrameLayout>

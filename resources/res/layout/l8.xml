@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" layout_gravity="center_vertical" orientation="vertical" layout_width="match_parent" layout_height="match_parent" layout_marginRight="14dp" layout_marginEnd="14dp">
+    <androidx.constraintlayout.widget.ConstraintLayout orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c4" ellipsize="end" layout_gravity="center_vertical" id="@+id/cxm" layout_width="0dp" layout_height="wrap_content" NOT_FOUND_0x14="@+id/cxq" NOT_FOUND_0x15="0" NOT_FOUND_0x17="0" NOT_FOUND_0x18="0" NOT_FOUND_0x19="0" NOT_FOUND_0x1a="1" NOT_FOUND_0x1c="52"/>
+        <com.ss.android.ugc.aweme.notification.view.FollowTuxTextView textColor="@color/c4" ellipsize="end" gravity="start" id="@+id/cxq" layout_width="0dp" layout_height="wrap_content" maxLines="1" layout_marginEnd="12dp" NOT_FOUND_0x13="0" NOT_FOUND_0x16="@+id/cxm" NOT_FOUND_0x19="@+id/cxm" NOT_FOUND_0x1a="1" NOT_FOUND_0x1c="62"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.ss.android.ugc.aweme.views.MutualRelationView id="@+id/crv" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="2dp" layout_marginBottom="2dp"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" gravity="center_vertical" id="@+id/cwx" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x1c="51"/>
+    <LinearLayout gravity="center_vertical" orientation="horizontal" id="@+id/cxt" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="5dp">
+        <ImageView layout_gravity="center_vertical" id="@+id/dl5" layout_width="2dp" layout_height="17dp" src="@drawable/ni" scaleType="fitXY" contentDescription="@null"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" layout_gravity="center_vertical" id="@+id/cxu" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="10dp" maxLines="1" layout_marginStart="10dp" NOT_FOUND_0x1c="51"/>
+    </LinearLayout>
+    <com.ss.android.ugc.aweme.base.ui.RemoteRoundImageView id="@+id/cwz" layout_width="42dp" layout_height="56dp" layout_marginTop="4dp" NOT_FOUND_0x1b="@color/f"/>
+</LinearLayout>

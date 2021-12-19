@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout id="@+id/b1u" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x9="0" NOT_FOUND_0x10="0"/>
+    <com.bytedance.lighten.loader.SmartImageView id="@+id/b19" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x9="0" NOT_FOUND_0x10="0"/>
+    <com.ss.android.ugc.aweme.feed.ui.LongPressLayout id="@+id/b1c" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout id="@+id/b17" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="11dp" layout_marginBottom="8dp" layout_marginStart="11dp" NOT_FOUND_0xa="@+id/b12" NOT_FOUND_0xd="0" NOT_FOUND_0xf="0"/>
+    <FrameLayout id="@+id/b12" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="11dp" layout_marginBottom="8dp" layout_marginStart="11dp" NOT_FOUND_0x9="0" NOT_FOUND_0xa="@+id/b1e" NOT_FOUND_0xd="0" NOT_FOUND_0xf="0"/>
+    <FrameLayout id="@+id/b1e" layout_width="280dp" layout_height="wrap_content" layout_marginLeft="11dp" layout_marginRight="90dp" layout_marginBottom="12dp" layout_marginStart="11dp" layout_marginEnd="90dp" NOT_FOUND_0xa="@+id/b18" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0"/>
+    <FrameLayout id="@+id/b18" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x9="0" NOT_FOUND_0xb="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0"/>
+    <FrameLayout id="@+id/b1d" layout_width="116dp" layout_height="116dp" layout_marginRight="11dp" layout_marginBottom="13dp" layout_marginEnd="11dp" NOT_FOUND_0xa="@+id/b18" NOT_FOUND_0xb="0" NOT_FOUND_0xe="0"/>
+    <ImageView id="@+id/b1b" layout_width="40dp" layout_height="40dp" layout_marginRight="15dp" layout_marginBottom="82dp" src="0x7f0808d6" layout_marginEnd="15dp" NOT_FOUND_0xa="@+id/b18" NOT_FOUND_0xb="0" NOT_FOUND_0xe="0"/>
+    <FrameLayout id="@+id/b1_" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="15dp" layout_marginBottom="17dp" layout_marginEnd="15dp" NOT_FOUND_0xa="@+id/b1b" NOT_FOUND_0xb="0" NOT_FOUND_0xe="0"/>
+    <com.bytedance.lighten.loader.SmartCircleImageView id="@+id/b1a" layout_width="48dp" layout_height="48dp" layout_marginRight="11dp" layout_marginBottom="30dp" layout_marginEnd="11dp" NOT_FOUND_0xa="@+id/b1_" NOT_FOUND_0xb="0" NOT_FOUND_0xe="0" NOT_FOUND_0x11="@drawable/axl" NOT_FOUND_0x12="@color/l" NOT_FOUND_0x13="1dp"/>
+    <ImageView id="@+id/afg" layout_width="8dp" layout_height="8dp" src="0x7f0808d0" NOT_FOUND_0xd="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0"/>
+    <ImageView id="@+id/afh" layout_width="8dp" layout_height="8dp" src="0x7f0808d1" NOT_FOUND_0xb="0" NOT_FOUND_0xe="0" NOT_FOUND_0x10="0"/>
+    <ImageView id="@+id/afc" layout_width="8dp" layout_height="8dp" src="0x7f0808d2" NOT_FOUND_0x9="0" NOT_FOUND_0xd="0" NOT_FOUND_0xf="0"/>
+    <ImageView id="@+id/afd" layout_width="8dp" layout_height="8dp" src="0x7f0808d3" NOT_FOUND_0x9="0" NOT_FOUND_0xb="0" NOT_FOUND_0xe="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

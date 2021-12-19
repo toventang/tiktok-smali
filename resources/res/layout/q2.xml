@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content">
+    <com.bytedance.tux.icon.TuxIconView layout_gravity="center_vertical" id="@+id/e99" visibility="gone" layout_width="12dp" layout_height="12dp" NOT_FOUND_0x15="@raw/icon_star_fill" NOT_FOUND_0x16="@color/a"/>
+    <com.ss.android.ugc.aweme.ecommerce.review.view.RatingNumber layout_gravity="center_vertical" id="@+id/dhd" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" layout_marginStart="4dp" NOT_FOUND_0xf="1"/>
+    <View id="@+id/anf" background="@color/b6" visibility="gone" layout_width="1dp" layout_height="match_parent" layout_marginLeft="8dp" layout_marginTop="4dp" layout_marginRight="8dp" layout_marginBottom="4dp" layout_marginStart="8dp" layout_marginEnd="8dp"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" layout_gravity="center_vertical" id="@+id/drz" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/bgl" NOT_FOUND_0x10="0" NOT_FOUND_0x11="0" NOT_FOUND_0x12="@+id/d9c" NOT_FOUND_0x13="1" NOT_FOUND_0x14="51"/>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout xmlns="" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xb="1" NOT_FOUND_0x11="0.75">
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/dnr" background="?attr/h" layout_width="match_parent" layout_height="match_parent"/>
+    <View background="?attr/b1" layout_width="match_parent" layout_height="match_parent" alpha="0.5"/>
+    <androidx.appcompat.widget.LinearLayoutCompat gravity="center" layout_gravity="center" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content">
+        <com.bytedance.tux.icon.TuxIconView id="@+id/bi5" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0xd="@raw/icon_story_camera" NOT_FOUND_0xe="32dp" NOT_FOUND_0xf="32dp" NOT_FOUND_0x10="?attr/aa"/>
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/aa" id="@+id/f87" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" text="@string/g83" NOT_FOUND_0xc="52"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>

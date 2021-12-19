@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/cio" layout_width="match_parent" layout_height="match_parent" layout_centerVertical="true">
+    <LinearLayout orientation="vertical" background="@color/l" layout_width="match_parent" layout_height="wrap_content">
+        <View id="@+id/b_u" layout_width="match_parent" layout_height="0dp"/>
+        <LinearLayout orientation="horizontal" id="@+id/ep_" layout_width="match_parent" layout_height="@dimen/a0s">
+            <FrameLayout id="@+id/c9q" layout_width="wrap_content" layout_height="match_parent">
+                <com.ss.android.ugc.aweme.views.AutoRTLImageView layout_gravity="center_vertical" id="@+id/qc" padding="10dp" visibility="visible" layout_width="44dp" layout_height="44dp" layout_marginLeft="8dp" src="@drawable/ccg" layout_marginStart="8dp"/>
+                <com.ss.android.ugc.aweme.discover.ui.SearchScanView id="@+id/dvl" visibility="gone" layout_width="wrap_content" layout_height="match_parent" layout_marginRight="2dp" layout_centerVertical="true" layout_marginEnd="2dp"/>
+                <com.bytedance.tux.icon.TuxIconView layout_gravity="center" id="@+id/he" visibility="gone" layout_width="48dp" layout_height="48dp" NOT_FOUND_0x1e="@raw/icon_person_plus" NOT_FOUND_0x1f="24dp" NOT_FOUND_0x20="24dp"/>
+            </FrameLayout>
+            <include layout_gravity="center_vertical" id="@+id/do7" layout_width="0dp" layout_height="wrap_content" layout_weight="1" layout_alignParentLeft="true" layout_centerVertical="true" layout_alignParentStart="true" layout="@layout/ax2"/>
+            <FrameLayout id="@+id/dna" layout_width="wrap_content" layout_height="match_parent">
+                <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView layout_gravity="center" id="@+id/qe" paddingLeft="4dp" paddingRight="16dp" visibility="gone" layout_width="44dp" layout_height="match_parent" scaleType="centerInside" layout_alignParentRight="true" paddingStart="4dp" paddingEnd="16dp" layout_alignParentEnd="true" NOT_FOUND_0x1c="@drawable/a5o"/>
+                <com.ss.android.ugc.aweme.discover.ui.SearchScanView id="@+id/dvm" visibility="visible" layout_width="wrap_content" layout_height="match_parent" layout_marginRight="2dp" layout_centerVertical="true" layout_marginEnd="2dp"/>
+            </FrameLayout>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bh" gravity="center" layout_gravity="center_vertical" id="@+id/f6o" paddingLeft="16dp" paddingRight="16dp" visibility="gone" layout_width="wrap_content" layout_height="match_parent" minWidth="64dp" text="@string/fhf" NOT_FOUND_0x1d="41"/>
+        </LinearLayout>
+        <View id="@+id/cai" background="?attr/an" layout_width="match_parent" layout_height="0.5dp"/>
+    </LinearLayout>
+    <FrameLayout background="@color/l" layout_width="match_parent" layout_height="match_parent">
+        <FrameLayout id="@+id/b94" layout_width="match_parent" layout_height="match_parent">
+            <include layout="@layout/y1"/>
+        </FrameLayout>
+        <com.ss.android.ugc.aweme.discover.ui.SearchIntermediateView id="@+id/dv4" layout_width="match_parent" layout_height="match_parent"/>
+    </FrameLayout>
+</LinearLayout>

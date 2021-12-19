@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/al1" background="@color/c9" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout id="@+id/b97" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout id="@+id/b94" layout_width="match_parent" layout_height="match_parent"/>
+    <ImageView layout_gravity="top|left|center_vertical|center_horizontal|center" layout_width="wrap_content" layout_height="wrap_content" src="0x7f08094f"/>
+    <ImageView layout_gravity="top|right|center_vertical|center_horizontal|center" layout_width="wrap_content" layout_height="wrap_content" src="0x7f080950"/>
+    <FrameLayout id="@+id/bcd" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout id="@+id/gg" layout_width="match_parent" layout_height="match_parent"/>
+    <com.ss.android.ugc.aweme.commercialize.views.AdHalfWebPageMaskLayer id="@+id/gu" layout_width="match_parent" layout_height="match_parent"/>
+    <com.ss.android.ugc.aweme.commercialize.views.AdHalfWebPageContainer layout_gravity="bottom|center_vertical|center_horizontal|center" id="@+id/gt" layout_width="270dp" layout_height="295dp" layout_marginBottom="-300dp"/>
+    <FrameLayout id="@+id/b6p" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout id="@+id/erg" visibility="gone" layout_width="wrap_content" layout_height="wrap_content"/>
+    <ViewStub id="@+id/ac_" layout="@layout/rx" layout_width="match_parent" layout_height="match_parent"/>
+    <ViewStub id="@+id/eg" layout="@layout/wc" layout_width="match_parent" layout_height="match_parent"/>
+</FrameLayout>

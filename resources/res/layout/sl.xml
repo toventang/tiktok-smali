@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="64dp" layout_height="wrap_content">
+    <RelativeLayout id="@+id/p4" layout_width="64dp" layout_height="64dp" layout_marginTop="4dp">
+        <com.ss.android.ugc.aweme.base.ui.SmartAvatarBorderView id="@+id/fcu" visibility="visible" layout_width="48dp" layout_height="48dp" layout_centerInParent="true"/>
+        <ImageView id="@+id/bwx" visibility="gone" layout_width="0dp" layout_height="0dp" src="0x7f08040c" scaleType="fitXY" layout_alignTop="@+id/fcu" layout_alignBottom="@+id/fcu" layout_alignStart="@+id/fcu" layout_alignEnd="@+id/fcu"/>
+        <com.ss.android.ugc.aweme.tux.business.story.StoryBrandView id="@+id/fdu" visibility="gone" layout_width="54dp" layout_height="54dp" layout_centerInParent="true" NOT_FOUND_0x13="2.5dp"/>
+        <com.ss.android.ugc.aweme.feed.ui.LiveCircleView id="@+id/fcw" padding="3dp" visibility="gone" layout_width="54dp" layout_height="54dp" layout_centerInParent="true" NOT_FOUND_0x12="1.5dp"/>
+        <com.bytedance.lighten.loader.SmartImageView id="@+id/dbp" layout_width="64dp" layout_height="32dp" scaleType="fitCenter" layout_alignParentTop="true" layout_centerHorizontal="true" NOT_FOUND_0x11="2"/>
+        <com.ss.android.ugc.aweme.feed.AvatarImageWithLive id="@+id/fd1" visibility="invisible" layout_width="48dp" layout_height="48dp" layout_alignTop="@+id/fcu" layout_centerInParent="true" layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/p5" visibility="gone" layout_width="50dp" layout_height="45dp" src="@drawable/icon" scaleType="fitCenter" layout_centerHorizontal="true"/>
+    <RelativeLayout id="@+id/b7j" paddingBottom="16dp" layout_width="60dp" layout_height="wrap_content" layout_marginTop="48dp" layout_centerHorizontal="true">
+        <com.ss.android.ugc.aweme.base.ui.AnimationImageView layout_gravity="center" id="@+id/b7a" layout_width="24dp" layout_height="24dp" layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center_horizontal" orientation="vertical" layout_width="130dp" layout_height="match_parent">
+    <com.bytedance.android.livesdk.chatroom.widget.AvatarIconView id="@+id/ph" layout_width="72dp" layout_height="72dp" layout_marginTop="12dp" NOT_FOUND_0xf="72dp" NOT_FOUND_0x10="16dp"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="13sp" textColor="@color/w6" ellipsize="end" gravity="center_horizontal" id="@+id/cs_" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="6dp" maxWidth="82dp" maxLines="1" NOT_FOUND_0xe="1"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/w7" ellipsize="end" gravity="center" id="@+id/akm" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="2dp" maxLines="1" NOT_FOUND_0xb="@dimen/zy" NOT_FOUND_0xc="@dimen/a00" NOT_FOUND_0xd="1" NOT_FOUND_0xe="1"/>
+</LinearLayout>

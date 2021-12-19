@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="" padding="5dp">
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/caw" layout_width="20dp" layout_height="20dp"/>
+    <LinearLayout layout_gravity="center_vertical" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="5dp" layout_marginStart="5dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a_" ellipsize="end" id="@+id/cav" layout_width="wrap_content" layout_height="wrap_content" maxWidth="194dp" maxLines="1" NOT_FOUND_0xf="62"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/ad" ellipsize="end" id="@+id/gm" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="3dp" maxWidth="194dp" maxLines="1" NOT_FOUND_0xf="81"/>
+    </LinearLayout>
+    <ImageView id="@+id/cax" visibility="gone" layout_width="20dp" layout_height="20dp" layout_marginLeft="12dp" src="0x7f080983" layout_marginStart="12dp"/>
+</merge>

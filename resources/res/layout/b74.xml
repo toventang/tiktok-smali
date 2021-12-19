@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@null" layout_width="match_parent" layout_height="wrap_content">
+    <FrameLayout background="@drawable/bps" layout_width="match_parent" layout_height="48dp">
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="14sp" textColor="@color/a0h" gravity="center_vertical" id="@+id/title" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="9dp" layout_marginStart="16dp" NOT_FOUND_0x11="1"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="10sp" textColor="@color/wf" id="@+id/akm" layout_width="wrap_content" layout_height="30dp" layout_marginLeft="16dp" layout_marginTop="27dp" text="@string/e54" layout_marginStart="16dp" NOT_FOUND_0x11="1"/>
+    </FrameLayout>
+    <View background="@color/wi" layout_width="match_parent" layout_height="4dp"/>
+    <FrameLayout background="@color/a24" layout_width="match_parent" layout_height="42dp">
+        <com.bytedance.android.live.design.widget.LiveSwitch layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/en9" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="16dp" checked="true" layout_marginEnd="16dp"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="14sp" textColor="@color/we" gravity="center" layout_gravity="left|center_vertical|center_horizontal|center|start" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginRight="64dp" text="@string/e5n" layout_marginStart="16dp" layout_marginEnd="64dp" NOT_FOUND_0x11="1"/>
+    </FrameLayout>
+    <LinearLayout gravity="center" orientation="vertical" id="@+id/avo" background="@color/wi" visibility="gone" layout_width="match_parent" layout_height="184dp">
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="?attr/amo" gravity="center" layout_width="wrap_content" layout_height="wrap_content" text="@string/e58" style="@style/tn"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="?attr/amu" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" text="@string/e57" style="@style/tr"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/djs" background="@color/wt" layout_width="match_parent" layout_height="184dp"/>
+</LinearLayout>

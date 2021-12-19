@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns="" id="@+id/dml" layout_width="match_parent" layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout id="@+id/dmq" visibility="gone" fadingEdge="none" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xe="0dp">
+        <include id="@+id/dmr" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x10="1" layout="@layout/qg"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/dmp" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0xf="@string/uo"/>
+    <androidx.cardview.widget.CardView layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" id="@+id/eo8" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="@dimen/fj" layout_marginBottom="66dp" layout_marginEnd="@dimen/fj" NOT_FOUND_0xd="32dp">
+        <com.bytedance.tux.icon.TuxIconView padding="8dp" layout_width="48dp" layout_height="48dp" NOT_FOUND_0x11="@raw/icon_2pt_arrow_stroke_to_top"/>
+    </androidx.cardview.widget.CardView>
+    <com.bytedance.tux.status.TuxStatusView id="@+id/dmu" background="@color/l" focusable="true" clickable="true" layout_width="match_parent" layout_height="match_parent"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

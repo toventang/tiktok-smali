@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="" gravity="center_vertical" paddingTop="12dp" paddingBottom="12dp" layout_width="match_parent" layout_height="wrap_content">
+    <ImageView id="@+id/bi7" layout_width="20dp" layout_height="20dp" layout_centerVertical="true" layout_marginEnd="12dp"/>
+    <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView id="@+id/bts" visibility="invisible" layout_width="20dp" layout_height="20dp" src="@drawable/a1g" layout_centerVertical="true" layout_alignParentEnd="true"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/ak7" layout_width="match_parent" layout_height="wrap_content" maxLines="2" layout_centerVertical="true" layout_toStartOf="@+id/bts" layout_toEndOf="@+id/bi7" NOT_FOUND_0xf="42"/>
+</merge>

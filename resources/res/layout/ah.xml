@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.view.menu.ListMenuItemView xmlns="" layout_width="match_parent" layout_height="?attr/a2w">
+    <RelativeLayout layout_gravity="center_vertical" duplicateParentState="true" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="?attr/a2x" layout_marginRight="?attr/a2y" layout_weight="1">
+        <TextView textAppearance="?attr/ai0" ellipsize="marquee" id="@+id/title" fadingEdge="horizontal" duplicateParentState="true" layout_width="match_parent" layout_height="wrap_content" singleLine="true" layout_alignParentLeft="true" layout_alignParentTop="true"/>
+        <TextView textAppearance="?android:attr/textAppearanceSmall" id="@+id/e3e" duplicateParentState="true" layout_width="wrap_content" layout_height="wrap_content" singleLine="true" layout_below="@+id/title" layout_alignParentLeft="true"/>
+    </RelativeLayout>
+</androidx.appcompat.view.menu.ListMenuItemView>

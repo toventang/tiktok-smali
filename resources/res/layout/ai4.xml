@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" id="@+id/cji" layout_width="match_parent" layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout layout_gravity="top" id="@+id/adx" layout_width="match_parent" layout_height="match_parent" layout_marginTop="100dp">
+        <FrameLayout id="@+id/bds" visibility="invisible" layout_width="0dp" layout_height="0dp" NOT_FOUND_0xe="@+id/ebc" NOT_FOUND_0xf="3:4" NOT_FOUND_0x10="0" NOT_FOUND_0x11="0" NOT_FOUND_0x13="0" NOT_FOUND_0x14="2" NOT_FOUND_0x15="180dp">
+            <com.airbnb.lottie.LottieAnimationView id="@+id/eb0" layout_width="match_parent" layout_height="match_parent" scaleType="fitCenter"/>
+            <ImageView layout_gravity="top|right|center_vertical|center_horizontal|center|end" id="@+id/eb1" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" layout_marginRight="4dp" src="0x7f080999" layout_marginEnd="4dp"/>
+        </FrameLayout>
+        <com.ss.android.ugc.tools.view.style.StyleTextView textColor="@color/a2r" gravity="center" id="@+id/ebc" layout_width="0dp" layout_height="wrap_content" layout_marginTop="16dp" layout_marginStart="56dp" layout_marginEnd="56dp" NOT_FOUND_0xd="0" NOT_FOUND_0x10="0" NOT_FOUND_0x11="0" NOT_FOUND_0x12="@+id/bds" style="@style/a25"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

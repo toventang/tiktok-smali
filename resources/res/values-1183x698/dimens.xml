@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cu">24dp</dimen>
+    <dimen name="cz">80dp</dimen>
+    <dimen name="d3">10dp</dimen>
+    <dimen name="d4">12dp</dimen>
+    <dimen name="d6">15dp</dimen>
+    <dimen name="d7">17dp</dimen>
+    <dimen name="d8">20dp</dimen>
+    <dimen name="d9">21dp</dimen>
+    <dimen name="d_">24dp</dimen>
+    <dimen name="da">25dp</dimen>
+    <dimen name="db">30dp</dimen>
+    <dimen name="dc">31dp</dimen>
+    <dimen name="dd">32dp</dimen>
+    <dimen name="de">35dp</dimen>
+    <dimen name="df">31dp</dimen>
+    <dimen name="dg">40dp</dimen>
+    <dimen name="dh">48dp</dimen>
+    <dimen name="di">5dp</dimen>
+    <dimen name="dj">5.5dp</dimen>
+    <dimen name="dk">61dp</dimen>
+    <dimen name="dl">72dp</dimen>
+    <dimen name="dm">8dp</dimen>
+</resources>

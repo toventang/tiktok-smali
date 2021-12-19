@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/atr" layout_width="match_parent" layout_height="wrap_content">
+    <RelativeLayout layout_width="match_parent" layout_height="52dp">
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtHorizontalImageTextLayout id="@+id/eup" layout_width="wrap_content" layout_height="32dp" layout_marginRight="16dp" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="16dp" layout_alignParentEnd="true" NOT_FOUND_0x14="false" NOT_FOUND_0x15="true" NOT_FOUND_0x18="0x7f080620" NOT_FOUND_0x19="8dp" NOT_FOUND_0x1a="2dp" NOT_FOUND_0x1b="true" NOT_FOUND_0x1c="@string/bln"/>
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView textColor="@color/c5" id="@+id/eut" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" text="@string/blo" layout_toLeftOf="@+id/eup" layout_centerVertical="true" layout_marginStart="16dp" layout_toStartOf="@+id/eup" NOT_FOUND_0x12="1" style="@style/ww"/>
+    </RelativeLayout>
+    <FrameLayout clipChildren="false" layout_width="match_parent" layout_height="wrap_content" splitMotionEvents="false">
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtPanelRecycleView id="@+id/djw" clipChildren="false" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" splitMotionEvents="false" NOT_FOUND_0x13="16dp" NOT_FOUND_0x16="16dp" NOT_FOUND_0x17="16dp"/>
+        <include layout="@layout/af7"/>
+    </FrameLayout>
+</LinearLayout>

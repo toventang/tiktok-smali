@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.views.CircleDraweeView layout_gravity="center" id="@+id/au2" layout_width="match_parent" layout_height="match_parent" scaleType="fitXY"/>
+    <ImageView layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" id="@+id/bnh" visibility="visible" layout_width="16dp" layout_height="16dp" layout_margin="1dp" src="0x7f0800e2" scaleType="fitXY"/>
+    <com.ss.android.ugc.tools.view.widget.CircleProgressView layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" id="@+id/byw" background="0x7f0800e3" visibility="gone" layout_width="16dp" layout_height="16dp" layout_margin="1dp" NOT_FOUND_0x9="5dp"/>
+</FrameLayout>

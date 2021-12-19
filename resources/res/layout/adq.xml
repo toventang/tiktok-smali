@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" background="@color/e_" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x1d="0" NOT_FOUND_0x1f="0" NOT_FOUND_0x23="0" NOT_FOUND_0x24="0">
+        <com.ss.android.ugc.aweme.tools.draft.ftc.util.FTCPreviewSurfaceView id="@+id/d8k" layout_width="match_parent" layout_height="match_parent"/>
+    </FrameLayout>
+    <com.ss.android.ugc.aweme.tools.draft.ftc.view.PeriscopeLayout id="@+id/cwj" layout_width="95dp" layout_height="95dp" layout_marginRight="21dp" layout_marginBottom="21dp" layout_marginEnd="21dp" NOT_FOUND_0x1e="@+id/b18" NOT_FOUND_0x1f="0" NOT_FOUND_0x22="0"/>
+    <FrameLayout id="@+id/cpu" layout_width="49dp" layout_height="49dp" layout_marginRight="16dp" layout_marginBottom="12dp" layout_marginEnd="16dp" NOT_FOUND_0x1e="@+id/b18" NOT_FOUND_0x1f="0" NOT_FOUND_0x22="0">
+        <ImageView layout_width="match_parent" layout_height="match_parent" src="0x7f0808dd"/>
+        <com.bytedance.lighten.loader.SmartCircleImageView layout_gravity="center" id="@+id/b1d" layout_width="27dp" layout_height="27dp" NOT_FOUND_0x25="0x7f0808dd"/>
+    </FrameLayout>
+    <com.ss.android.ugc.aweme.base.ui.AvatarImageView id="@+id/b1a" layout_width="48dp" layout_height="48dp" layout_marginRight="16dp" layout_marginBottom="20dp" scaleType="centerInside" layout_marginEnd="16dp" NOT_FOUND_0x1e="@+id/b1b" NOT_FOUND_0x1f="0" NOT_FOUND_0x22="0"/>
+    <ImageView id="@+id/b1b" layout_width="48dp" layout_height="48dp" layout_marginRight="16dp" layout_marginBottom="20dp" src="0x7f0808d6" layout_marginEnd="16dp" NOT_FOUND_0x1e="@+id/cpu" NOT_FOUND_0x1f="0" NOT_FOUND_0x22="0"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/f_d" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginRight="95dp" layout_marginBottom="8dp" layout_marginStart="16dp" layout_marginEnd="95dp" NOT_FOUND_0x1e="@+id/eyc" NOT_FOUND_0x20="@+id/cwj" NOT_FOUND_0x23="0" NOT_FOUND_0x26="32"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/eyc" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginRight="95dp" layout_marginBottom="8dp" maxLines="3" layout_marginStart="16dp" layout_marginEnd="95dp" NOT_FOUND_0x1e="@+id/f32" NOT_FOUND_0x20="@+id/b1a" NOT_FOUND_0x23="0" NOT_FOUND_0x26="41"/>
+    <com.ss.android.ugc.aweme.views.AlwaysMarqueeTextView textSize="15dp" textColor="@color/a_" ellipsize="marquee" gravity="start" id="@+id/f32" focusable="true" focusableInTouchMode="true" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginRight="60dp" layout_marginBottom="14dp" scrollHorizontally="true" singleLine="true" shadowColor="#26000000" shadowDy="2" shadowRadius="2" drawableLeft="0x7f080638" marqueeRepeatLimit="marquee_forever" drawableStart="0x7f080638" fontFamily="ProximaNova-Semibold" layout_marginStart="16dp" layout_marginEnd="60dp" NOT_FOUND_0x1e="@+id/b18" NOT_FOUND_0x20="@+id/b1a" NOT_FOUND_0x23="0"/>
+    <FrameLayout id="@+id/b18" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x1d="0" NOT_FOUND_0x1f="0" NOT_FOUND_0x21="0" NOT_FOUND_0x22="0" NOT_FOUND_0x23="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

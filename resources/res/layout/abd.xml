@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/dqn" layout_width="48dp" layout_height="48dp">
+    <com.facebook.drawee.view.SimpleDraweeView id="@+id/ffs" layout_width="48dp" layout_height="48dp" NOT_FOUND_0x6="6"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/dx4" background="@null" layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true" NOT_FOUND_0x7="72"/>
+</RelativeLayout>

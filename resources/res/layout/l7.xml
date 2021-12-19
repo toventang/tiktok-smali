@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="" layout_width="wrap_content" layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.base.ui.AvatarImageWithVerify layout_gravity="center" id="@+id/cx8" layout_width="48dp" layout_height="48dp" NOT_FOUND_0xd="@color/f5" NOT_FOUND_0xe="6" NOT_FOUND_0xf="true"/>
+    <androidx.constraintlayout.widget.Placeholder layout_width="54dp" layout_height="54dp"/>
+    <com.ss.android.ugc.aweme.tux.business.story.StoryBrandView id="@+id/cx9" visibility="gone" layout_width="54dp" layout_height="54dp"/>
+    <androidx.constraintlayout.widget.ConstraintLayout layout_gravity="center" id="@+id/cx7" visibility="gone" layout_width="48dp" layout_height="48dp">
+        <com.ss.android.ugc.aweme.base.ui.AvatarImageView id="@+id/cxa" layout_width="36dp" layout_height="36dp" NOT_FOUND_0xa="0" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0"/>
+        <com.ss.android.ugc.aweme.base.ui.AvatarImageView id="@+id/cx_" background="@drawable/nd" padding="2dp" layout_width="40dp" layout_height="40dp" layout_marginTop="10dp" layout_marginEnd="10dp" NOT_FOUND_0x9="@color/k" NOT_FOUND_0xa="0" NOT_FOUND_0xc="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

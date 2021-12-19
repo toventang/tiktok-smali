@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/dc3" layout_width="match_parent" layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.comment.barrage.view.AwemeCommentBubbleList id="@+id/a9x" layout_width="match_parent" layout_height="256dp" layout_marginBottom="32dp" layout_marginStart="16dp" layout_marginEnd="92dp"/>
+</FrameLayout>

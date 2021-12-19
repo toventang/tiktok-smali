@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/bnr" background="@color/l" layout_width="match_parent" layout_height="match_parent">
+    <View id="@+id/fej" layout_width="match_parent" layout_height="0dp"/>
+    <RelativeLayout id="@+id/bns" layout_width="match_parent" layout_height="44dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_width="wrap_content" layout_height="wrap_content" text="@string/dkh" layout_centerInParent="true" NOT_FOUND_0x11="33"/>
+        <com.bytedance.tux.icon.TuxIconView id="@+id/agt" layout_width="24dp" layout_height="24dp" layout_margin="10dp" layout_centerVertical="true" layout_alignParentEnd="true" NOT_FOUND_0x12="@raw/icon_pen_on_paper" NOT_FOUND_0x14="@color/bx"/>
+        <View id="@+id/elw" background="@color/b6" visibility="gone" layout_width="match_parent" layout_height="0.5dp" layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout id="@+id/bnq" layout_width="match_parent" layout_height="0dp" layout_weight="1">
+        <FrameLayout layout_width="match_parent" layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView id="@+id/bnp" background="@color/l" layout_width="match_parent" layout_height="wrap_content"/>
+            <FrameLayout id="@+id/dut" tag="INBOX_FRAGMENT_CONTAINER" background="@color/l" focusable="true" focusableInTouchMode="true" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+            <com.bytedance.tux.status.TuxStatusView id="@+id/e_c" visibility="gone" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x13="0"/>
+        </FrameLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <androidx.legacy.widget.Space id="@+id/v3" layout_width="match_parent" layout_height="58dp"/>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns="" gravity="top" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <TextView id="@+id/an" padding="24dp" layout_width="match_parent" layout_height="wrap_content" text="@string/hn"/>
+    <LinearLayout gravity="end" orientation="horizontal" padding="4dp" layout_width="match_parent" layout_height="match_parent">
+        <Button id="@+id/al" layout_width="wrap_content" layout_height="wrap_content" text="@string/hl" style="@style/Widget.Material.Light.Button.Borderless.Colored"/>
+        <Button id="@+id/am" layout_width="wrap_content" layout_height="wrap_content" text="@string/hm" style="@style/Widget.Material.Light.Button.Borderless.Colored"/>
+    </LinearLayout>
+</android.widget.LinearLayout>

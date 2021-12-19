@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="" gravity="center_vertical" orientation="horizontal" id="@+id/ekd" background="@drawable/a5y" paddingLeft="1dp" paddingTop="2dp" paddingRight="3dp" paddingBottom="2dp" layout_width="wrap_content" layout_height="wrap_content">
+    <com.bytedance.lighten.loader.SmartImageView id="@+id/ehv" paddingLeft="2dp" paddingTop="2dp" paddingBottom="2dp" layout_width="12dp" layout_height="12dp"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" ellipsize="end" gravity="start" layout_gravity="start" id="@+id/ei5" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="1dp" maxLines="1" textAlignment="viewStart" NOT_FOUND_0x10="92"/>
+</merge>

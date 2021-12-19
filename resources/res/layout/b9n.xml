@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" background="@color/c9" visibility="gone" layout_width="0dp" layout_height="wrap_content">
+    <ImageView id="@+id/cy_" layout_width="12dp" layout_height="12dp" layout_marginLeft="8dp" layout_marginTop="10dp" src="0x7f08102c" layout_marginStart="8dp" NOT_FOUND_0x14="0" NOT_FOUND_0x15="0"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="12dp" textColor="@color/aa" gravity="start" id="@+id/cya" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="26dp" layout_marginTop="8dp" layout_marginRight="26dp" layout_marginBottom="8dp" lineSpacingExtra="3dp" alpha="0.9" layout_marginStart="26dp" layout_marginEnd="26dp" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0" NOT_FOUND_0x15="0"/>
+    <ImageView id="@+id/cy7" layout_width="12dp" layout_height="12dp" layout_marginRight="8dp" layout_marginBottom="8dp" src="0x7f080f0a" layout_marginEnd="8dp" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="@+id/cya"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

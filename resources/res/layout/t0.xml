@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="wrap_content" layout_height="wrap_content">
+    <View id="@+id/cr0" layout_width="6dp" layout_height="49dp" layout_alignParentRight="true" layout_alignParentBottom="true" layout_alignParentEnd="true"/>
+    <com.ss.android.ugc.aweme.feed.widget.PeriscopeLayout id="@+id/cwj" layout_width="95dp" layout_height="95dp" layout_marginRight="21dp" layout_marginBottom="-22dp" layout_alignParentRight="true" layout_alignParentBottom="true" layout_marginEnd="21dp" layout_alignParentEnd="true"/>
+    <FrameLayout id="@+id/cpu" focusable="false" focusableInTouchMode="false" layout_width="49dp" layout_height="49dp" layout_marginBottom="1.5dp" layout_toLeftOf="@+id/cr0" layout_alignParentBottom="true" layout_toStartOf="@+id/cr0">
+        <com.bytedance.lighten.loader.SmartCircleImageView id="@+id/cpt" focusable="false" focusableInTouchMode="false" layout_width="@dimen/fw" layout_height="@dimen/fw" NOT_FOUND_0xf="0x7f08095a"/>
+        <com.bytedance.lighten.loader.SmartCircleImageView layout_gravity="center" id="@+id/d0c" focusable="false" focusableInTouchMode="false" visibility="gone" layout_width="27dp" layout_height="27dp"/>
+    </FrameLayout>
+</RelativeLayout>

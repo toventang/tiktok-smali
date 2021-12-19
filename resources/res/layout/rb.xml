@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/ad7" layout_width="match_parent" layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.discover.ui.NoticeView id="@+id/amh" visibility="visible" layout_width="match_parent" layout_height="80dp" NOT_FOUND_0x4="@raw/icon_x_mark" NOT_FOUND_0x5="@raw/icon_exclamation_mark_circle"/>
+</FrameLayout>

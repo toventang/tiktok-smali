@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="72dp" layout_height="104.5dp" layout_marginLeft="8dp" layout_marginTop="50dp" layout_marginStart="8dp">
+    <com.ss.android.ugc.aweme.base.ui.CircleImageView id="@+id/bvt" layout_width="56dp" layout_height="56dp" layout_marginTop="18dp" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0" NOT_FOUND_0x15="0"/>
+    <com.ss.android.ugc.aweme.feed.ui.LiveCircleView id="@+id/byp" padding="5dp" layout_width="70dp" layout_height="70dp" NOT_FOUND_0x11="@+id/bvt" NOT_FOUND_0x12="@+id/bvt" NOT_FOUND_0x13="@+id/bvt" NOT_FOUND_0x15="@+id/bvt" NOT_FOUND_0x16="1dp"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" ellipsize="end" gravity="center" id="@+id/bjg" background="@drawable/avr" paddingLeft="5dp" paddingTop="1dp" paddingRight="5dp" paddingBottom="1dp" layout_width="wrap_content" layout_height="20dp" layout_marginTop="64dp" maxWidth="56dp" maxLines="1" NOT_FOUND_0x12="@+id/bvt" NOT_FOUND_0x13="@+id/bvt" NOT_FOUND_0x15="0" NOT_FOUND_0x17="72"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/ac" ellipsize="end" id="@+id/f3c" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" maxWidth="84dp" maxLines="1" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0" NOT_FOUND_0x14="@+id/bvt" NOT_FOUND_0x17="72"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

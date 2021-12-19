@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns="" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/a3k" layout_width="match_parent" layout_height="wrap_content">
+        <View id="@+id/dyy" visibility="gone" layout_width="wrap_content" layout_height="@dimen/a0_" NOT_FOUND_0xa="0" NOT_FOUND_0xb="0" NOT_FOUND_0xe="0"/>
+        <com.bytedance.tux.icon.TuxIconView id="@+id/icon_iv" visibility="gone" layout_width="20dp" layout_height="20dp" layout_marginTop="16dp" NOT_FOUND_0xc="0" NOT_FOUND_0xe="0" NOT_FOUND_0x10="0" NOT_FOUND_0x12="20dp" NOT_FOUND_0x13="20dp"/>
+        <com.bytedance.tux.input.TuxTextView gravity="start" id="@+id/title_tv" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="17dp" textAlignment="viewStart" NOT_FOUND_0x9="true" NOT_FOUND_0xa="0" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xd="@+id/icon_iv" NOT_FOUND_0x10="0" NOT_FOUND_0x11="0"/>
+        <com.bytedance.tux.input.TuxTextView gravity="start" id="@+id/eej" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="16dp" textAlignment="viewStart" NOT_FOUND_0x9="true" NOT_FOUND_0xa="0" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xe="@+id/title_tv" NOT_FOUND_0xf="@+id/title_tv"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.bytedance.tux.widget.ExpandableLayout id="@+id/ayw" visibility="gone" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xa="0"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

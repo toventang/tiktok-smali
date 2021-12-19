@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.tools.view.style.StyleLinearLayout xmlns="" orientation="vertical" id="@+id/b2l" layout_width="match_parent" layout_height="@dimen/ck" NOT_FOUND_0x4="@dimen/cl" NOT_FOUND_0x5="true">
+    <FrameLayout layout_width="match_parent" layout_height="wrap_content">
+        <include layout="@layout/dz"/>
+    </FrameLayout>
+</com.ss.android.ugc.tools.view.style.StyleLinearLayout>

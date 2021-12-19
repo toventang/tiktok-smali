@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" paddingTop="8dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content">
+    <View id="@+id/an4" layout_width="8dp" layout_height="28dp" layout_centerHorizontal="true"/>
+    <com.ss.android.ugc.aweme.notification.view.template.NoticeTemplateBottomButton id="@+id/cu4" layout_width="match_parent" layout_height="wrap_content" maxWidth="500dp" layout_toLeftOf="@+id/an4" layout_alignParentLeft="true" layout_toStartOf="@+id/an4" layout_alignParentStart="true" NOT_FOUND_0xf="1" NOT_FOUND_0x10="1"/>
+    <com.ss.android.ugc.aweme.notification.view.template.NoticeTemplateBottomButton id="@+id/d7p" layout_width="match_parent" layout_height="wrap_content" maxWidth="500dp" layout_toRightOf="@+id/an4" layout_alignParentRight="true" layout_toEndOf="@+id/an4" layout_alignParentEnd="true" NOT_FOUND_0xf="1" NOT_FOUND_0x10="0"/>
+</RelativeLayout>

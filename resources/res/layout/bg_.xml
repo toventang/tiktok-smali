@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/enl" clipChildren="false" layout_width="40dp" layout_height="40dp">
+    <com.airbnb.lottie.LottieAnimationView layout_gravity="center" id="@+id/eni" visibility="visible" layout_width="70dp" layout_height="70dp" scaleType="centerCrop"/>
+    <androidx.constraintlayout.widget.ConstraintLayout layout_gravity="center" id="@+id/enj" layout_width="40dp" layout_height="40dp">
+        <ImageView id="@+id/enn" layout_width="36dp" layout_height="36dp" NOT_FOUND_0xf="0" NOT_FOUND_0x13="0" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0"/>
+        <View id="@+id/e7k" layout_width="4dp" layout_height="wrap_content" NOT_FOUND_0x14="@+id/enn" NOT_FOUND_0x16="@+id/enn"/>
+        <View id="@+id/enk" background="@drawable/bzg" visibility="gone" layout_width="8dp" layout_height="8dp" NOT_FOUND_0x10="@+id/enn" NOT_FOUND_0x11="45" NOT_FOUND_0x12="16dp"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="10dp" textColor="@color/a17" gravity="center" id="@+id/enh" background="@drawable/brm" visibility="gone" layout_width="wrap_content" layout_height="12dp" minWidth="12dp" includeFontPadding="false" paddingStart="2dp" paddingEnd="2dp" NOT_FOUND_0x13="@+id/e7k" NOT_FOUND_0x16="@+id/e7k" style="@style/u5"/>
+        <ImageView id="@+id/eng" visibility="gone" layout_width="12dp" layout_height="12dp" NOT_FOUND_0x10="@+id/enn" NOT_FOUND_0x11="45" NOT_FOUND_0x12="14dp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

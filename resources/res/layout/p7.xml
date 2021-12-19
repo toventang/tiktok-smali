@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" orientation="horizontal" id="@+id/r9" focusable="true" clickable="true" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="44dp" layout_marginRight="9dp" layout_marginStart="44dp" layout_marginEnd="9dp">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bz" id="@+id/r8" layout_width="wrap_content" layout_height="20dp" layout_marginBottom="16dp" scaleType="centerCrop" NOT_FOUND_0x10="0" NOT_FOUND_0x14="0" NOT_FOUND_0x16="0" NOT_FOUND_0x18="51"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bh" id="@+id/a1b" layout_width="wrap_content" layout_height="20dp" layout_marginRight="6dp" layout_marginEnd="6dp" NOT_FOUND_0x12="@+id/lk" NOT_FOUND_0x16="0" NOT_FOUND_0x18="51"/>
+    <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView id="@+id/lk" layout_width="16dp" layout_height="16dp" tint="@color/c5" NOT_FOUND_0x11="0" NOT_FOUND_0x16="0" NOT_FOUND_0x17="@drawable/yp"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/cwi" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" layout_marginBottom="16dp" NOT_FOUND_0x10="0" NOT_FOUND_0x11="@+id/a1b" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0" NOT_FOUND_0x15="@+id/a1b" NOT_FOUND_0x18="71"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

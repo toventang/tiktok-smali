@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout id="@+id/cpj" visibility="invisible" layout_width="49dp" layout_height="49dp" layout_marginRight="7dp" layout_marginBottom="64dp" layout_alignParentRight="true" layout_alignParentBottom="true" layout_marginEnd="7dp" layout_alignParentEnd="true">
+        <com.ss.android.ugc.tools.view.widget.CircleImageView id="@+id/cpi" layout_width="49dp" layout_height="49dp" alpha="0.5"/>
+        <com.ss.android.ugc.tools.view.widget.CircleImageView layout_gravity="center" id="@+id/d0b" layout_width="27dp" layout_height="27dp" alpha="0.5"/>
+    </FrameLayout>
+    <LinearLayout orientation="vertical" id="@+id/bd3" visibility="invisible" layout_width="49dp" layout_height="wrap_content" layout_marginRight="7dp" layout_marginBottom="33dp" layout_above="@+id/cpj" layout_alignParentRight="true" layout_marginEnd="7dp" layout_alignParentEnd="true">
+        <com.ss.android.ugc.aweme.shortvideo.edit.infosticker.interact.view.AvatarWithBorderView id="@+id/fcr" visibility="visible" layout_width="49dp" layout_height="49dp" layout_marginBottom="27dp" alpha="0.5"/>
+        <LinearLayout gravity="center_horizontal" orientation="vertical" layout_width="49dp" layout_height="wrap_content" layout_marginBottom="21dp">
+            <ImageView layout_gravity="center" layout_width="wrap_content" layout_height="wrap_content" src="0x7f080637" alpha="0.5"/>
+            <com.bytedance.tux.input.TuxTextView textSize="12sp" textColor="@color/a9" layout_width="wrap_content" layout_height="wrap_content" text="0" alpha="0.5"/>
+        </LinearLayout>
+        <LinearLayout gravity="center_horizontal" orientation="vertical" layout_width="49dp" layout_height="wrap_content" layout_marginBottom="21dp">
+            <ImageView layout_gravity="center" layout_width="wrap_content" layout_height="wrap_content" src="0x7f080635" alpha="0.5"/>
+            <com.bytedance.tux.input.TuxTextView textSize="12sp" textColor="@color/a9" layout_width="wrap_content" layout_height="wrap_content" text="0" alpha="0.5"/>
+        </LinearLayout>
+        <LinearLayout gravity="center_horizontal" orientation="vertical" layout_width="49dp" layout_height="wrap_content">
+            <ImageView layout_gravity="center" layout_width="wrap_content" layout_height="wrap_content" src="0x7f0807a7" alpha="0.5"/>
+            <com.bytedance.tux.input.TuxTextView textSize="12sp" textColor="@color/a9" layout_width="wrap_content" layout_height="wrap_content" text="0" alpha="0.5"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout orientation="vertical" id="@+id/bd2" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_alignBottom="@+id/cpj" layout_marginStart="16dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/ev2" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" alpha="0.5" NOT_FOUND_0x1c="32"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/euv" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" shadowColor="#26000000" shadowDy="2" shadowRadius="2" drawableLeft="0x7f080638" alpha="0.5" drawableStart="0x7f080638" NOT_FOUND_0x1c="41"/>
+    </LinearLayout>
+</RelativeLayout>

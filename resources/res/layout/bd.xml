@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@color/l" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <RelativeLayout layout_width="match_parent" layout_height="@dimen/a0s">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/ba1" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" text="@string/a9e" layout_alignParentLeft="true" layout_centerVertical="true" layout_marginStart="16dp" layout_alignParentStart="true" NOT_FOUND_0x20="41"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_gravity="center" layout_width="wrap_content" layout_height="wrap_content" text="@string/esr" layout_centerInParent="true" NOT_FOUND_0x20="32"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bh" id="@+id/ba8" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="16dp" text="@string/ffv" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="16dp" layout_alignParentEnd="true" NOT_FOUND_0x20="41"/>
+    </RelativeLayout>
+    <View background="@color/b2" layout_width="match_parent" layout_height="1dp"/>
+    <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" paddingStart="16dp" paddingEnd="16dp">
+        <RelativeLayout background="@drawable/rs" layout_width="0dp" layout_height="wrap_content" layout_marginTop="4dp" layout_marginBottom="4dp" layout_weight="1">
+            <ImageView id="@+id/baa" layout_width="24dp" layout_height="24dp" layout_marginLeft="4dp" layout_marginTop="6dp" layout_marginBottom="6dp" src="@raw/icon_tab_explore" layout_alignParentLeft="true" layout_centerVertical="true" layout_marginStart="4dp" layout_alignParentStart="true"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtEditText textColor="@color/bx" id="@+id/ba_" background="@color/c9" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" hint="@string/gdb" maxLines="1" layout_toRightOf="@+id/baa" layout_centerVertical="true" fontFamily="Proxima Nova" layout_marginStart="4dp" layout_toEndOf="@+id/baa" NOT_FOUND_0x1f="@color/bh" style="@style/y6"/>
+        </RelativeLayout>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bh" layout_gravity="center_vertical" id="@+id/ba9" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" text="@string/gd8" layout_marginStart="16dp" NOT_FOUND_0x20="41"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/ba6" layout_width="match_parent" layout_height="0dp" layout_weight="1" paddingStart="16dp" paddingEnd="16dp"/>
+</LinearLayout>

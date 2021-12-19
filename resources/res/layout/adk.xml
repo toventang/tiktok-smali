@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" id="@+id/cfh" layout_width="match_parent" layout_height="match_parent">
+        <FrameLayout id="@+id/ae8" layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+        <LinearLayout orientation="vertical" id="@+id/a1u" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+            <View background="@color/b6" layout_width="match_parent" layout_height="0.5dp"/>
+            <LinearLayout gravity="center_vertical" orientation="horizontal" layout_width="match_parent" layout_height="44dp">
+                <ImageView layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" src="0x7f0808fc" layout_marginStart="16dp"/>
+                <com.bytedance.tux.input.TuxTextView id="@+id/ahg" paddingRight="16dp" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="4dp" singleLine="true" layout_weight="1" paddingEnd="16dp" layout_marginStart="4dp" NOT_FOUND_0x21="51" style="@style/f6"/>
+                <View background="@color/b6" layout_width="0.5dp" layout_height="12dp"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/er" id="@+id/a1v" paddingLeft="16dp" paddingRight="16dp" layout_width="wrap_content" layout_height="wrap_content" text="@string/adn" paddingStart="16dp" paddingEnd="16dp" NOT_FOUND_0x21="51" style="@style/f6"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout orientation="vertical" id="@+id/cgf" background="@color/l" visibility="gone" layout_width="match_parent" layout_height="match_parent">
+        <FrameLayout id="@+id/dp2" clickable="true" layout_width="match_parent" layout_height="36dp">
+            <LinearLayout gravity="center_vertical" orientation="horizontal" id="@+id/dp3" background="@drawable/ay_" layout_width="match_parent" layout_height="match_parent" layout_marginLeft="16dp" layout_marginRight="16dp" layout_marginStart="16dp" layout_marginEnd="16dp">
+                <ImageView layout_gravity="center_vertical" id="@+id/c0x" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" src="0x7f080902" layout_marginStart="4dp"/>
+                <com.bytedance.ies.dmt.ui.widget.DmtEditText textColor="@color/bx" textColorHint="@color/c5" gravity="left|center_vertical|center_horizontal|center|start" id="@+id/f6i" background="@null" focusable="true" focusableInTouchMode="true" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="8dp" hint="@string/axh" lines="1" layout_weight="1" inputType="text" imeOptions="actionSearch" textCursorDrawable="@drawable/ayb" textAlignment="viewStart" layout_marginStart="8dp" style="@style/y6"/>
+                <ImageView id="@+id/bvb" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" src="0x7f0806aa" layout_marginStart="4dp" layout_marginEnd="4dp"/>
+            </LinearLayout>
+            <FrameLayout layout_gravity="end" id="@+id/awn" layout_width="wrap_content" layout_height="match_parent">
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bh" gravity="center" id="@+id/f6j" paddingRight="16dp" visibility="invisible" layout_width="wrap_content" layout_height="match_parent" maxWidth="100dp" text="@string/fhf" paddingEnd="16dp" NOT_FOUND_0x21="41"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bh" gravity="center" id="@+id/f6k" paddingRight="16dp" visibility="visible" layout_width="wrap_content" layout_height="match_parent" maxWidth="100dp" text="@string/a9e" paddingEnd="16dp" NOT_FOUND_0x21="41"/>
+            </FrameLayout>
+        </FrameLayout>
+        <FrameLayout visibility="visible" layout_width="match_parent" layout_height="match_parent" layout_marginTop="7.5dp">
+            <View id="@+id/cfn" clickable="true" layout_width="match_parent" layout_height="match_parent"/>
+            <com.bytedance.tux.status.TuxStatusView id="@+id/e_o" visibility="gone" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x22="0"/>
+            <include id="@+id/dif" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout="@layout/av7"/>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

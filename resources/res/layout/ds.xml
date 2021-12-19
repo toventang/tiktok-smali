@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.themechange.base.AVDmtPanelRelativeLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="164dp" NOT_FOUND_0x18="@dimen/cl" NOT_FOUND_0x19="true" NOT_FOUND_0x23="true">
+    <RelativeLayout id="@+id/eo_" layout_width="match_parent" layout_height="44dp">
+        <FrameLayout id="@+id/emk" paddingLeft="16dp" paddingRight="16dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_centerVertical="true"/>
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtTabLayout id="@+id/ehm" visibility="gone" layout_width="wrap_content" layout_height="44dp" layout_marginRight="96dp" layout_centerVertical="true" layout_marginEnd="96dp" NOT_FOUND_0x1a="@color/c9" NOT_FOUND_0x1b="0" NOT_FOUND_0x1c="@color/a9" NOT_FOUND_0x1d="2dp" NOT_FOUND_0x1e="30dp" NOT_FOUND_0x1f="0" NOT_FOUND_0x20="0dp" NOT_FOUND_0x21="0dp" NOT_FOUND_0x22="@null"/>
+        <LinearLayout gravity="end" layout_width="wrap_content" layout_height="wrap_content" layout_alignParentRight="true" layout_alignParentEnd="true">
+            <com.ss.android.ugc.aweme.themechange.base.AVDmtImageView id="@+id/c35" visibility="invisible" layout_width="32dp" layout_height="32dp" layout_marginTop="6dp" layout_marginRight="12dp" src="0x7f0805f9" layout_marginEnd="12dp" NOT_FOUND_0x17="true"/>
+            <ImageView id="@+id/c33" padding="4dp" visibility="gone" layout_width="32dp" layout_height="32dp" layout_marginTop="6dp" layout_marginRight="8dp" src="@drawable/f9" layout_marginEnd="8dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout id="@+id/did" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="13dp" layout_below="@+id/eo_">
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtPanelRecycleView id="@+id/drw" layout_width="match_parent" layout_height="wrap_content" layout_centerVertical="true" NOT_FOUND_0x14="16dp" NOT_FOUND_0x15="12dp" NOT_FOUND_0x16="16dp"/>
+    </RelativeLayout>
+    <RelativeLayout id="@+id/a8e" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="13dp" layout_below="@+id/eo_">
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtPanelRecycleView id="@+id/dru" visibility="invisible" layout_width="match_parent" layout_height="wrap_content" layout_centerVertical="true" NOT_FOUND_0x14="16dp" NOT_FOUND_0x15="12dp" NOT_FOUND_0x16="16dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/ac" id="@+id/apx" padding="10dp" layout_width="wrap_content" layout_height="wrap_content" text="@string/ahm" layout_centerInParent="true" NOT_FOUND_0x24="51"/>
+    </RelativeLayout>
+</com.ss.android.ugc.aweme.themechange.base.AVDmtPanelRelativeLayout>

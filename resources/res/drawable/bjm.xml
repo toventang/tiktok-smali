@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns="">
+    <solid color="@color/t"/>
+    <corners radius="4dp"/>
+    <gradient startColor="#00ffffff" endColor="#ffffff" angle="0" type="linear"/>
+</shape>

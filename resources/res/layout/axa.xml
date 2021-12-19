@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout gravity="center" orientation="vertical" id="@+id/fnb" paddingLeft="8dp" paddingRight="8dp" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x13="0" NOT_FOUND_0x17="0" NOT_FOUND_0x19="0"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/l" ellipsize="end" id="@+id/f9l" paddingLeft="8dp" focusable="true" clickable="true" layout_width="0dp" layout_height="wrap_content" text="@string/doo" maxLines="1" paddingStart="8dp" NOT_FOUND_0x13="@+id/y3" NOT_FOUND_0x16="@+id/y3" NOT_FOUND_0x17="0" NOT_FOUND_0x18="@+id/y3" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="@+id/y3" NOT_FOUND_0x1c="62"/>
+    <FrameLayout id="@+id/y3" layout_width="30dp" layout_height="30dp" layout_marginBottom="1.5dp" NOT_FOUND_0x14="@+id/fnb" NOT_FOUND_0x15="0" NOT_FOUND_0x19="0">
+        <ImageView layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/dqx" layout_width="10dp" layout_height="10dp" layout_marginRight="8dp" src="0x7f080b24" layout_marginEnd="8dp"/>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

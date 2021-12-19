@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" background="@color/c9" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.tux.widget.VisualLayout layout_gravity="center" id="@+id/dqf" background="@color/l" focusable="true" clickable="true" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x17="true" NOT_FOUND_0x19="480dp">
+        <LinearLayout orientation="vertical" id="@+id/bp4" layout_width="match_parent" layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" gravity="center" id="@+id/ev1" paddingLeft="24dp" paddingTop="24dp" paddingRight="24dp" layout_width="match_parent" layout_height="wrap_content" maxLines="3" NOT_FOUND_0x18="23"/>
+            <ScrollView scrollbarAlwaysDrawVerticalTrack="true" paddingLeft="12dp" paddingRight="12dp" scrollbars="vertical" fadingEdge="none" layout_width="match_parent" layout_height="0dp" layout_marginTop="10dp" layout_weight="1" scrollbarFadeDuration="0" fadeScrollbars="false" overScrollMode="never">
+                <com.bytedance.tux.input.TuxTextView textColor="@color/c4" gravity="center" id="@+id/eun" paddingLeft="8dp" paddingRight="8dp" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x18="41"/>
+            </ScrollView>
+            <com.bytedance.tux.input.TuxTextView id="@+id/bgu" background="@color/b6" layout_width="match_parent" layout_height="0.5dp" layout_marginTop="20dp" NOT_FOUND_0x18="51"/>
+        </LinearLayout>
+    </com.bytedance.tux.widget.VisualLayout>
+</FrameLayout>

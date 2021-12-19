@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.shortvideo.mvtemplate.choosemedia.MultiSelectView xmlns="" layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" id="@+id/cp0" layout_width="wrap_content" layout_height="48dp" layout_marginLeft="20dp" layout_marginRight="20dp" layout_marginBottom="24dp" layout_marginStart="20dp" layout_marginEnd="20dp" NOT_FOUND_0x9="24dp" NOT_FOUND_0xa="4dp" NOT_FOUND_0xb="48dp" NOT_FOUND_0xc="#fe2c55" NOT_FOUND_0xd="0x7f080661" NOT_FOUND_0xe="@color/l" NOT_FOUND_0xf="0x7f080660"/>

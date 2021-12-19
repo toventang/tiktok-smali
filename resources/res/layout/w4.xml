@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <FrameLayout layout_width="match_parent" layout_height="match_parent">
+        <com.ss.android.ugc.aweme.views.FpsRecyclerView id="@+id/b1g" clipToPadding="false" layout_width="match_parent" layout_height="wrap_content"/>
+        <FrameLayout id="@+id/e_r" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="60dp">
+            <com.bytedance.ies.dmt.ui.widget.DmtStatusView id="@+id/e_o" layout_width="match_parent" layout_height="match_parent"/>
+        </FrameLayout>
+        <ViewStub id="@+id/ed6" visibility="invisible" layout="@layout/w_" layout_width="match_parent" layout_height="wrap_content"/>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@+id/bdu" background="@color/l" focusable="true" visibility="gone" clickable="true" layout_width="match_parent" layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/c_w" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="12dp" layout_marginBottom="12dp" text="@string/c_k" layout_marginStart="16dp" NOT_FOUND_0x13="0" NOT_FOUND_0x15="@+id/bve" NOT_FOUND_0x16="0" NOT_FOUND_0x17="@+id/bve" NOT_FOUND_0x19="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="61"/>
+            <ImageView id="@+id/bve" layout_width="24dp" layout_height="24dp" layout_marginRight="16dp" src="0x7f080489" layout_marginEnd="16dp" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0" NOT_FOUND_0x18="0" NOT_FOUND_0x1a="0"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+</LinearLayout>

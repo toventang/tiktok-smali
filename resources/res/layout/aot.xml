@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/be0" background="@color/n" paddingBottom="24dp" clickable="true" layout_width="match_parent" layout_height="wrap_content" minHeight="132dp">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/e2e" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="24dp" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="Share...." NOT_FOUND_0x14="32"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" gravity="center" id="@+id/e2f" layout_width="match_parent" layout_height="0dp" layout_marginLeft="48dp" layout_marginTop="10dp" layout_marginRight="48dp" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0" NOT_FOUND_0x11="@+id/e2e" NOT_FOUND_0x13="record............" NOT_FOUND_0x14="71"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bh" gravity="center" id="@+id/agz" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10dp" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0" NOT_FOUND_0x11="@+id/e2f" NOT_FOUND_0x13="Create Video" NOT_FOUND_0x14="42"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

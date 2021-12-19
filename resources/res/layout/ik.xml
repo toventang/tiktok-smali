@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="300dp">
+    <LinearLayout gravity="center_horizontal" orientation="vertical" id="@+id/bbg" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x1b="0" NOT_FOUND_0x1c="0">
+        <com.google.android.material.tabs.TabLayout id="@+id/bbu" layout_width="match_parent" layout_height="28dp" layout_marginLeft="12dp" layout_marginRight="12dp" NOT_FOUND_0x1d="@null" NOT_FOUND_0x1e="@color/bi" NOT_FOUND_0x1f="2dp" NOT_FOUND_0x20="0" NOT_FOUND_0x21="12dp" NOT_FOUND_0x22="12dp"/>
+        <View background="@color/b2" layout_width="match_parent" layout_height="0.5dp" layout_marginTop="-1dp"/>
+        <com.ss.android.ugc.aweme.comment.gift.GiftChooseViewPager id="@+id/bbv" layout_width="match_parent" layout_height="208dp" layout_marginLeft="12dp" layout_marginTop="12dp" layout_marginRight="12dp"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtLoadingLayout layout_gravity="center" id="@+id/bbi" visibility="gone" layout_width="match_parent" layout_height="208dp" layout_marginLeft="12dp" layout_marginTop="12dp" layout_marginRight="12dp"/>
+        <LinearLayout gravity="center_vertical" orientation="horizontal" layout_width="match_parent" layout_height="52dp">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/b_" ellipsize="end" id="@+id/di8" layout_width="wrap_content" layout_height="wrap_content" text="@string/hbp" maxLines="1" layout_marginStart="12dp" NOT_FOUND_0x23="42"/>
+            <ImageView gravity="center" layout_gravity="center" id="@+id/a84" background="0x7f080201" layout_width="16dp" layout_height="16dp" layout_marginStart="8dp"/>
+            <FrameLayout id="@+id/a86" layout_width="0dp" layout_height="wrap_content" layout_weight="1">
+                <com.bytedance.ies.dmt.ui.widget.DmtLoadingLayout id="@+id/a87" visibility="gone" layout_width="wrap_content" layout_height="wrap_content"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" gravity="center" id="@+id/a85" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" layout_marginRight="4dp" maxLines="1" NOT_FOUND_0x23="41"/>
+            </FrameLayout>
+            <com.bytedance.ies.dmt.ui.widget.DmtButton textSize="16dp" textColor="@color/bz" ellipsize="end" id="@+id/dyn" background="@drawable/n3" paddingLeft="6dp" paddingRight="6dp" layout_width="88dp" layout_height="28dp" layout_marginLeft="12dp" layout_marginTop="12dp" layout_marginRight="12dp" layout_marginBottom="12dp" text="@string/fkv" maxLines="1" textAllCaps="false" paddingStart="6dp" paddingEnd="6dp" NOT_FOUND_0x18="7" style="?android:attr/borderlessButtonStyle"/>
+        </LinearLayout>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.ui.widget.DmtStatusView id="@+id/e_o" visibility="gone" layout_width="0dp" layout_height="0dp" NOT_FOUND_0x19="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="0" NOT_FOUND_0x1c="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

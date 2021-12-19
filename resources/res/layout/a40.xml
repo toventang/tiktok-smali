@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_gravity="center" id="@+id/b8k" paddingLeft="12dp" paddingRight="12dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" minWidth="53dp">
+    <com.ss.android.ugc.aweme.base.ui.CircleImageView id="@+id/bvw" layout_width="24dp" layout_height="24dp" layout_marginLeft="32dp" layout_marginStart="32dp"/>
+    <com.ss.android.ugc.aweme.base.ui.CircleImageView id="@+id/bvv" layout_width="24dp" layout_height="24dp" layout_marginLeft="16dp" layout_marginStart="16dp"/>
+    <com.ss.android.ugc.aweme.base.ui.CircleImageView id="@+id/bvu" layout_width="24dp" layout_height="24dp"/>
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns="" id="@+id/af4" background="@color/uo" layout_width="match_parent" layout_height="match_parent">
+    <View id="@+id/ebu" background="@color/uo" layout_width="match_parent" layout_height="match_parent" soundEffectsEnabled="false"/>
+    <FrameLayout id="@+id/ehz" layout_width="wrap_content" layout_height="wrap_content">
+        <include layout="@layout/aej"/>
+        <include layout="@layout/aek"/>
+        <include layout="@layout/ai1"/>
+    </FrameLayout>
+    <LinearLayout orientation="vertical" id="@+id/c54" layout_width="match_parent" layout_height="match_parent"/>
+    <LinearLayout layout_gravity="bottom" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+        <include layout="@layout/er"/>
+        <FrameLayout id="@+id/eae" visibility="invisible" layout_width="match_parent" layout_height="wrap_content"/>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

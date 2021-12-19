@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" paddingTop="8dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="12dp">
+    <com.ss.android.ugc.aweme.base.ui.SmartAvatarImageView id="@+id/dtv" layout_width="40dp" layout_height="40dp" NOT_FOUND_0xc="0" NOT_FOUND_0xf="0" NOT_FOUND_0x11="0"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/dtx" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginStart="12dp" NOT_FOUND_0xb="@+id/dtw" NOT_FOUND_0xd="@+id/dtv" NOT_FOUND_0xe="@+id/dtv" NOT_FOUND_0x11="@+id/dtv" NOT_FOUND_0x12="2" NOT_FOUND_0x13="41"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/dtw" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginStart="12dp" NOT_FOUND_0xa="0" NOT_FOUND_0xd="@+id/dtv" NOT_FOUND_0xe="@+id/dtv" NOT_FOUND_0x10="@+id/dtx" NOT_FOUND_0x13="51"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" background="@drawable/bqe" layout_width="match_parent" layout_height="48dp">
+    <LinearLayout id="@+id/ee1" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0">
+        <ImageView layout_gravity="center" id="@+id/c9t" layout_width="24dp" layout_height="24dp" layout_marginStart="8dp"/>
+        <com.bytedance.android.livesdk.service.LiveGiftMarqueeTextView textSize="12dp" textColor="@color/a9" ellipsize="marquee" layout_gravity="center_vertical" id="@+id/bav" focusable="true" focusableInTouchMode="true" layout_width="0dp" layout_height="wrap_content" singleLine="true" layout_weight="1" marqueeRepeatLimit="marquee_forever" layout_marginStart="5dp" layout_marginEnd="16dp"/>
+        <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlImageView layout_gravity="center_vertical" id="@+id/ee0" visibility="invisible" layout_width="16dp" layout_height="16dp" src="0x7f080d36" layout_marginEnd="16dp"/>
+    </LinearLayout>
+    <View background="#1fffffff" layout_width="match_parent" layout_height="0.5dp" NOT_FOUND_0x11="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

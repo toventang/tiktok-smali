@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="start" layout_gravity="start" orientation="horizontal" clipChildren="false" layout_width="wrap_content" layout_height="45dp" layoutDirection="locale">
+    <LinearLayout layout_gravity="center" orientation="horizontal" id="@+id/rr" background="@drawable/bq_" clipChildren="false" layout_width="wrap_content" layout_height="45dp" minWidth="0dp" layout_marginStart="8dp" NOT_FOUND_0x1c="@+id/p4" NOT_FOUND_0x1e="0">
+        <RelativeLayout id="@+id/p4" layout_width="45dp" layout_height="45dp" NOT_FOUND_0x1d="0" NOT_FOUND_0x1e="0">
+            <ImageView id="@+id/fcz" layout_width="32dp" layout_height="32dp" src="0x7f080fa6" layout_centerInParent="true"/>
+            <ImageView id="@+id/fcv" layout_width="40dp" layout_height="40dp" layout_centerInParent="true"/>
+            <ImageView id="@+id/bgs" layout_width="12dp" layout_height="12dp" layout_marginRight="4dp" layout_marginBottom="4dp" layout_alignRight="@+id/fcv" layout_alignBottom="@+id/fcv" layout_marginEnd="4dp" layout_alignEnd="@+id/fcv"/>
+        </RelativeLayout>
+        <LinearLayout gravity="center_vertical" orientation="vertical" id="@+id/cam" layout_width="wrap_content" layout_height="45dp" layout_marginLeft="2dp" translationY="-2dp" layout_marginStart="2dp">
+            <com.bytedance.android.live.design.widget.LiveTextView textSize="13sp" textColor="@color/a9" ellipsize="end" id="@+id/fdp" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="5dp" maxWidth="100dp" maxLines="1" NOT_FOUND_0x1b="7"/>
+            <com.bytedance.android.live.design.widget.LiveTextView textSize="10dp" textColor="#a3ffffff" ellipsize="end" id="@+id/bax" layout_width="wrap_content" layout_height="wrap_content" maxWidth="100dp" maxLines="1"/>
+        </LinearLayout>
+        <ImageView layout_gravity="center_vertical" id="@+id/bb_" layout_width="40dp" layout_height="40dp" layout_marginLeft="4dp" layout_marginRight="6dp" src="0x7f080e77" layout_marginStart="4dp" layout_marginEnd="6dp"/>
+    </LinearLayout>
+</LinearLayout>

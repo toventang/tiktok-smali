@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <include id="@+id/emo" layout="@layout/anb"/>
+    <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/b7t" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" NOT_FOUND_0x6="@string/bzn" NOT_FOUND_0x7="1"/>
+    <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/c_u" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x6="@string/cw4" NOT_FOUND_0x7="1"/>
+    <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/a_o" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x6="@string/al8" NOT_FOUND_0x7="1"/>
+</LinearLayout>

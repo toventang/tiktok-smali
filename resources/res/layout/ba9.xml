@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" paddingBottom="12dp" layout_width="match_parent" layout_height="wrap_content">
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="13sp" textColor="#57162823" id="@+id/f0s" paddingLeft="16dp" paddingRight="16dp" layout_width="wrap_content" layout_height="wrap_content"/>
+</LinearLayout>

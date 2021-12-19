@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_gravity="center_horizontal" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="16dp" NOT_FOUND_0x9="0" NOT_FOUND_0xa="0" NOT_FOUND_0xd="0" NOT_FOUND_0x10="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/deu" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="33dp" NOT_FOUND_0x9="0" NOT_FOUND_0xa="0" NOT_FOUND_0xd="0" NOT_FOUND_0x10="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0">
+        <com.bytedance.tux.input.TuxTextView id="@+id/dea" layout_width="wrap_content" layout_height="wrap_content" alpha="0.5" NOT_FOUND_0x9="0" NOT_FOUND_0xb="@+id/deb" NOT_FOUND_0xc="2" NOT_FOUND_0xd="0" NOT_FOUND_0xf="@+id/deb" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0" NOT_FOUND_0x14="42"/>
+        <com.bytedance.tux.icon.TuxIconView id="@+id/deb" layout_width="12dp" layout_height="12dp" layout_marginLeft="5dp" alpha="0.5" layout_marginStart="5dp" NOT_FOUND_0x9="@+id/dea" NOT_FOUND_0xa="0" NOT_FOUND_0xe="@+id/dea" NOT_FOUND_0x10="0" NOT_FOUND_0x11="@+id/dea" NOT_FOUND_0x13="@+id/dea" NOT_FOUND_0x15="@raw/icon_chevron_down_fill"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.bytedance.ies.dmt.ui.widget.DoubleColorBallAnimationView id="@+id/aq4" layout_width="30dp" layout_height="30dp" layout_marginTop="15dp" NOT_FOUND_0x9="@+id/deu" NOT_FOUND_0xa="0" NOT_FOUND_0xd="0" NOT_FOUND_0x10="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="@+id/deu"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

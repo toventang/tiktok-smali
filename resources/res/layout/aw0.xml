@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center_vertical" orientation="horizontal" background="@color/l" layout_width="match_parent" layout_height="48dp">
+    <com.bytedance.tux.icon.TuxIconView id="@+id/bxo" layout_width="16dp" layout_height="16dp" layout_marginStart="16dp" layout_marginEnd="8dp" NOT_FOUND_0x15="@raw/icon_clock" NOT_FOUND_0x16="?attr/bc"/>
+    <LinearLayout gravity="center_vertical" orientation="horizontal" id="@+id/adx" layout_width="0dp" layout_height="wrap_content" layout_weight="1" layout_marginEnd="16dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" gravity="start" id="@+id/exf" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" textDirection="locale" textAlignment="viewStart" NOT_FOUND_0x14="41"/>
+        <ImageView id="@+id/bxr" visibility="gone" layout_width="16dp" layout_height="16dp" src="0x7f080b66" layout_marginStart="2dp" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0"/>
+    </LinearLayout>
+    <com.ss.android.ugc.aweme.search.view.UsernameWithVerifyAndRelation gravity="center_vertical" id="@+id/f3g" visibility="gone" layout_width="0dp" layout_height="wrap_content" layout_weight="1" layout_marginEnd="16dp"/>
+    <com.ss.android.ugc.aweme.base.ui.SmartAvatarImageView id="@+id/bu0" visibility="gone" layout_width="36dp" layout_height="36dp"/>
+    <com.bytedance.tux.icon.TuxIconView id="@+id/bw9" padding="10dp" layout_width="36dp" layout_height="36dp" layout_marginStart="10dp" layout_marginEnd="6dp" NOT_FOUND_0x15="@raw/icon_x_mark" NOT_FOUND_0x16="?attr/bc"/>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.ies.dmt.ui.titlebar.ButtonTitleBar id="@+id/em8" layout_width="match_parent" layout_height="@dimen/a0s" NOT_FOUND_0x14="8" NOT_FOUND_0x1c=" " NOT_FOUND_0x1d="@color/bx" NOT_FOUND_0x1f="true"/>
+    <ScrollView layout_width="match_parent" layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout layout_width="match_parent" layout_height="wrap_content">
+            <com.bytedance.ies.dmt.ui.widget.DmtStatusView id="@+id/e_o" background="@drawable/hw" paddingLeft="16dp" paddingTop="16dp" paddingRight="16dp" paddingBottom="16dp" visibility="gone" layout_width="80dp" layout_height="80dp" paddingStart="16dp" paddingEnd="16dp" NOT_FOUND_0x15="@+id/bg_" NOT_FOUND_0x16="0" NOT_FOUND_0x17="0" NOT_FOUND_0x18="0" NOT_FOUND_0x19="0" NOT_FOUND_0x1a="@+id/bg9"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/bg9" visibility="visible" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="32dp" layout_marginTop="40dp" layout_marginRight="32dp" text="@string/ap7" layout_marginStart="32dp" layout_marginEnd="32dp" NOT_FOUND_0x1b="0" NOT_FOUND_0x1e="23"/>
+            <ImageView id="@+id/bt3" layout_width="match_parent" layout_height="260dp" layout_marginLeft="58dp" layout_marginTop="48dp" layout_marginRight="58dp" layout_marginStart="58dp" layout_marginEnd="58dp" NOT_FOUND_0x16="0" NOT_FOUND_0x17="0" NOT_FOUND_0x18="0" NOT_FOUND_0x19="0" NOT_FOUND_0x1a="@+id/bg9"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="start" id="@+id/bg_" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="32dp" layout_marginTop="48dp" layout_marginRight="32dp" text="@string/ap6" layout_marginStart="32dp" layout_marginEnd="32dp" NOT_FOUND_0x1a="@+id/bt3" NOT_FOUND_0x1e="51"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

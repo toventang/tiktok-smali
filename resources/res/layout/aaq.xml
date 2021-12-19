@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="">
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/d38" layout_width="40dp" layout_height="40dp" NOT_FOUND_0xf="0" NOT_FOUND_0x19="0" NOT_FOUND_0x1b="0"/>
+    <com.bytedance.tux.input.TuxTextView textColor="?attr/bc" ellipsize="end" id="@+id/d3o" layout_width="0dp" layout_height="wrap_content" layout_marginStart="12dp" layout_marginEnd="12dp" NOT_FOUND_0x10="@+id/d3d" NOT_FOUND_0x12="@+id/d3e" NOT_FOUND_0x15="@+id/d38" NOT_FOUND_0x16="@+id/d3e" NOT_FOUND_0x18="@+id/d38" NOT_FOUND_0x1b="0" NOT_FOUND_0x1d="2" NOT_FOUND_0x1e="42"/>
+    <com.bytedance.tux.input.TuxTextView textColor="?attr/bj" ellipsize="end" id="@+id/d3d" layout_width="0dp" layout_height="wrap_content" NOT_FOUND_0xf="0" NOT_FOUND_0x11="@+id/d3o" NOT_FOUND_0x13="0" NOT_FOUND_0x14="@+id/d3o" NOT_FOUND_0x16="@+id/d3e" NOT_FOUND_0x19="@+id/d3o" NOT_FOUND_0x1a="@+id/d3o" NOT_FOUND_0x1c="0"/>
+    <com.bytedance.tux.icon.TuxIconView id="@+id/d3_" layout_width="24dp" layout_height="24dp" NOT_FOUND_0xf="0" NOT_FOUND_0x11="0" NOT_FOUND_0x17="0" NOT_FOUND_0x1b="0" NOT_FOUND_0x1f="@raw/icon_x_mark_small" NOT_FOUND_0x20="?attr/bd"/>
+    <com.bytedance.tux.button.TuxButton textColor="@color/a9" ellipsize="end" gravity="center" id="@+id/d3e" background="@drawable/azs" paddingTop="6dp" paddingBottom="6dp" layout_width="88dp" layout_height="28dp" text="@string/a7v" maxLines="1" textAllCaps="false" layout_marginEnd="8dp" NOT_FOUND_0xe="7" NOT_FOUND_0xf="0" NOT_FOUND_0x12="@+id/d3_" NOT_FOUND_0x1b="0" style="@style/y4"/>
+</merge>

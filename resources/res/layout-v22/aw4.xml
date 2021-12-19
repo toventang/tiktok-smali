@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout xmlns="" id="@+id/dqj" background="@color/f" layout_width="match_parent" layout_height="0dp" NOT_FOUND_0x19="1" NOT_FOUND_0x1d="0.61">
+    <com.ss.android.ugc.aweme.feed.widget.LinearGradientDraweeView id="@+id/agf" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x16="6" NOT_FOUND_0x17="@color/bl" NOT_FOUND_0x1a="180dp"/>
+    <ViewStub id="@+id/dio" layout_width="match_parent" layout_height="match_parent"/>
+    <LinearLayout layout_gravity="bottom" orientation="vertical" layout_width="match_parent" layout_height="wrap_content" paddingStart="10dp" paddingEnd="10dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center_vertical" id="@+id/fgc" background="@drawable/bdh" paddingLeft="5dp" paddingRight="5dp" visibility="gone" layout_width="wrap_content" layout_height="17dp" layout_marginBottom="5dp" NOT_FOUND_0x15="5dp" NOT_FOUND_0x1c="72"/>
+        <com.ss.android.ugc.aweme.base.ui.TagLayout id="@+id/ehz" layout_width="match_parent" layout_height="16dp" layout_marginBottom="12dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" ellipsize="end" id="@+id/ak7" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="12dp" maxLines="3" NOT_FOUND_0x1c="42"/>
+        <LinearLayout gravity="center_vertical" layout_gravity="bottom" orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="10dp">
+            <com.bytedance.lighten.loader.SmartCircleImageView id="@+id/nu" layout_width="20dp" layout_height="20dp" layout_marginRight="4dp" layout_marginEnd="4dp" NOT_FOUND_0x18="@color/f" NOT_FOUND_0x1b="@color/f"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/a_" ellipsize="end" layout_gravity="center_vertical" id="@+id/nw" layout_width="0dp" layout_height="wrap_content" layout_marginRight="10dp" maxLines="1" layout_weight="1" layout_marginEnd="10dp" NOT_FOUND_0x1c="62"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/a_" layout_gravity="center_vertical" id="@+id/c_s" layout_width="wrap_content" layout_height="wrap_content" drawablePadding="4.5dp" drawableStart="0x7f080b46" NOT_FOUND_0x1c="62"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>

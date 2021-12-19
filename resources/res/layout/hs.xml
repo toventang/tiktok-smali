@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" paddingLeft="30dp" paddingTop="@dimen/dl" paddingRight="30dp" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.account.ui.PhoneInputView id="@+id/d4h" layout_width="match_parent" layout_height="30dp" NOT_FOUND_0xa="0"/>
+    <com.ss.android.ugc.aweme.account.login.v2.ui.InputResultIndicator textSize="@dimen/d5" id="@+id/d4g" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="@dimen/d3" NOT_FOUND_0xb="@dimen/d4" NOT_FOUND_0xc="true"/>
+    <com.bytedance.tux.input.TuxTextView id="@+id/d4f" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="@dimen/d4" NOT_FOUND_0xd="51"/>
+    <com.ss.android.ugc.aweme.account.ui.LoadingButton textSize="@dimen/d6" id="@+id/d4e" layout_width="match_parent" layout_height="44dp" layout_marginTop="@dimen/d8" text="@string/aqr"/>
+</LinearLayout>

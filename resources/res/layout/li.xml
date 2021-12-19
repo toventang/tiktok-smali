@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.ies.powerlist.PowerList id="@+id/b2y" background="?attr/m" paddingTop="8dp" layout_width="match_parent" layout_height="wrap_content"/>
+    <View background="@drawable/n_" layout_width="match_parent" layout_height="8dp"/>
+    <View id="@+id/tp" background="?attr/b1" layout_width="match_parent" layout_height="match_parent"/>
+</LinearLayout>

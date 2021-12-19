@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="375dp" layout_height="375dp">
+    <LinearLayout orientation="vertical" background="@drawable/bhm" layout_width="match_parent" layout_height="wrap_content" layout_weight="1">
+        <com.bytedance.lighten.loader.SmartCircleImageView layout_gravity="center" id="@+id/cdt" layout_width="127.5dp" layout_height="127.5dp" layout_marginTop="24dp" NOT_FOUND_0xf="@raw/icon_color_default_avatar"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" gravity="center" id="@+id/cdu" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@Tony Scott" maxLines="1" NOT_FOUND_0x11="12"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c4" ellipsize="end" gravity="center" id="@+id/cdv" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp" text="@string/fts" maxLines="3" maxEms="100" NOT_FOUND_0x11="33"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bz" gravity="bottom|center_vertical|center_horizontal|center" id="@+id/cdw" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="16dp" text="@string/ftt" layout_weight="1" NOT_FOUND_0x11="33"/>
+    </LinearLayout>
+    <LinearLayout orientation="vertical" background="@drawable/bhl" layout_width="match_parent" layout_height="wrap_content">
+        <ImageView layout_gravity="center" id="@+id/cds" layout_width="104dp" layout_height="25dp" layout_marginTop="20dp" layout_marginBottom="20dp" NOT_FOUND_0x10="0x7f080bf8"/>
+    </LinearLayout>
+</LinearLayout>

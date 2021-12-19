@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="?attr/m" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.ies.dmt.ui.titlebar.TextTitleBar id="@+id/em8" layout_width="match_parent" layout_height="@dimen/gq" NOT_FOUND_0x6="8" NOT_FOUND_0x7="17dp" NOT_FOUND_0x8="8" NOT_FOUND_0xe="@color/bx" NOT_FOUND_0x10="true"/>
+    <FrameLayout layout_width="match_parent" layout_height="match_parent">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+            <com.bytedance.ies.dmt.ui.widget.tablayout.DmtTabLayout id="@+id/dwa" layout_width="match_parent" layout_height="40dp" NOT_FOUND_0x9="@color/bx" NOT_FOUND_0xa="2dp" NOT_FOUND_0xb="0" NOT_FOUND_0xc="12dp" NOT_FOUND_0xd="12dp"/>
+            <View id="@+id/ca6" background="?attr/al" layout_width="match_parent" layout_height="0.5dp"/>
+            <com.ss.android.ugc.aweme.views.RtlViewPager id="@+id/dwd" layout_width="match_parent" layout_height="match_parent"/>
+        </LinearLayout>
+        <com.bytedance.tux.status.TuxStatusView id="@+id/cr2" background="?attr/m" visibility="gone" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0xf="0"/>
+    </FrameLayout>
+</LinearLayout>

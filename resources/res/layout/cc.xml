@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/c8s" background="@color/a2" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.shortvideo.widget.VEVideoPublishPreviewSurfaceView id="@+id/d94" visibility="invisible" layout_width="match_parent" layout_height="wrap_content"/>
+    <View layout_gravity="top" id="@+id/d93" background="@drawable/gq" visibility="invisible" layout_width="match_parent" layout_height="108dp"/>
+    <View layout_gravity="bottom" id="@+id/d92" background="@drawable/gr" visibility="invisible" layout_width="match_parent" layout_height="200dp"/>
+    <ImageView layout_gravity="center" id="@+id/fgx" layout_width="match_parent" layout_height="match_parent"/>
+    <View layout_gravity="bottom" id="@+id/e7q" background="@color/c9" layout_width="match_parent" layout_height="40dp"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/ewm" background="@drawable/dv" padding="8dp" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" maxWidth="320dp" layout_marginStart="16dp" NOT_FOUND_0xf="32"/>
+    <com.ss.android.ugc.aweme.shortvideo.edit.infosticker.interact.livecountdown.edit.LiveCDEditStickerView id="@+id/d8z" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content"/>
+    <com.ss.android.ugc.aweme.shortvideo.edit.infosticker.interact.duet.DuetEditStickerView id="@+id/d8u" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content"/>
+    <com.ss.android.ugc.aweme.shortvideo.edit.infosticker.interact.poll.PollingStickerView id="@+id/d91" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content"/>
+    <com.ss.android.ugc.aweme.shortvideo.ui.PreviewFakeFeedView id="@+id/d8v" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+    <View id="@+id/fiv" visibility="invisible" layout_width="match_parent" layout_height="wrap_content"/>
+    <com.ss.android.ugc.aweme.themechange.base.AVDmtAutoRTLImageView layout_gravity="start" id="@+id/d8n" padding="10dp" visibility="gone" layout_width="38dp" layout_height="38dp" layout_marginLeft="6dp" layout_marginTop="15dp" src="0x7f0807a5" layout_marginStart="6dp"/>
+    <ImageView layout_gravity="end" id="@+id/d8r" padding="10dp" visibility="gone" layout_width="44dp" layout_height="44dp" layout_marginTop="15dp" layout_marginRight="6dp" src="0x7f0800f0" layout_marginEnd="6dp"/>
+    <ImageView layout_gravity="center" id="@+id/d90" visibility="invisible" layout_width="72dp" layout_height="72dp" src="0x7f0807a6"/>
+</FrameLayout>

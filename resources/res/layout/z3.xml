@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/bs5" layout_width="match_parent" layout_height="match_parent">
+    <GridView layout_gravity="center" id="@+id/avb" paddingLeft="16dp" paddingRight="16dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp"/>
+</FrameLayout>

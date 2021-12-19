@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="@dimen/wl" layout_height="match_parent">
+    <com.bytedance.android.livesdk.widget.LandscapePanelBackgroundView layout_width="match_parent" layout_height="match_parent"/>
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="@dimen/wi" layout_height="match_parent" layout_marginLeft="@dimen/wj" layout_marginTop="16dp" layout_marginRight="@dimen/wk" layout_marginBottom="22dp">
+        <FrameLayout id="@+id/ae6" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x13="0" NOT_FOUND_0x16="0" NOT_FOUND_0x18="0">
+            <ImageView id="@+id/b_n" visibility="gone" layout_width="match_parent" layout_height="match_parent" layout_marginTop="40dp" maxHeight="220dp"/>
+            <com.bytedance.android.live.core.widget.HSImageView id="@+id/b_o" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" NOT_FOUND_0x1b="1.5121"/>
+            <FrameLayout id="@+id/cdl" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="20dp">
+                <View layout_gravity="center" id="@+id/bu6" background="@drawable/boh" visibility="gone" layout_width="76dp" layout_height="76dp"/>
+                <com.bytedance.android.live.core.widget.HSImageView layout_gravity="center" id="@+id/or" background="0x7f080cf2" layout_width="72dp" layout_height="72dp" NOT_FOUND_0x10="2" NOT_FOUND_0x19="0x7f080fa6" NOT_FOUND_0x1a="true"/>
+                <com.bytedance.android.livesdk.usercard.LivingView layout_gravity="center" id="@+id/ce9" layout_width="72dp" layout_height="72dp"/>
+                <com.bytedance.android.live.core.widget.HSImageView layout_gravity="center" id="@+id/bu1" visibility="gone" layout_width="90dp" layout_height="90dp"/>
+            </FrameLayout>
+        </FrameLayout>
+        <ImageView id="@+id/ckf" paddingLeft="16dp" paddingTop="2dp" paddingRight="16dp" paddingBottom="2dp" visibility="gone" layout_width="52dp" layout_height="24dp" src="0x7f081008" NOT_FOUND_0x13="0" NOT_FOUND_0x18="0"/>
+        <ImageView id="@+id/cww" paddingLeft="16dp" paddingTop="2dp" paddingRight="16dp" paddingBottom="2dp" visibility="gone" layout_width="52dp" layout_height="24dp" src="0x7f081045" NOT_FOUND_0x16="0" NOT_FOUND_0x18="0"/>
+        <ImageView id="@+id/dlk" paddingLeft="16dp" paddingTop="2dp" paddingRight="16dp" paddingBottom="2dp" visibility="gone" layout_width="52dp" layout_height="24dp" src="0x7f081009" NOT_FOUND_0x13="0" NOT_FOUND_0x18="0"/>
+        <include id="@+id/ci9" visibility="visible" layout_width="0dp" layout_height="0dp" NOT_FOUND_0x11="0" NOT_FOUND_0x14="0" NOT_FOUND_0x15="0" NOT_FOUND_0x18="0" layout="@layout/bfe"/>
+        <FrameLayout id="@+id/d_j" layout_width="match_parent" layout_height="0dp" NOT_FOUND_0x11="0" NOT_FOUND_0x13="0" NOT_FOUND_0x16="0" NOT_FOUND_0x17="@+id/ae6"/>
+        <View id="@+id/epv" layout_width="0dp" layout_height="0dp" NOT_FOUND_0x12="@+id/ae6" NOT_FOUND_0x13="0" NOT_FOUND_0x16="0" NOT_FOUND_0x18="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

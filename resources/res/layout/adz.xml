@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <RelativeLayout orientation="vertical" id="@+id/dqn" background="@color/l" layout_width="match_parent" layout_height="match_parent">
+        <View id="@+id/e_f" background="@color/l" layout_width="match_parent" layout_height="0dp"/>
+        <com.bytedance.tux.navigation.TuxNavBar id="@+id/em8" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/e_f"/>
+        <androidx.core.widget.NestedScrollView id="@+id/dtg" layout_width="match_parent" layout_height="match_parent" layout_below="@+id/em8">
+            <LinearLayout orientation="vertical" id="@+id/cgl" layout_width="match_parent" layout_height="match_parent">
+                <com.ss.android.ugc.aweme.setting.ui.Divider layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xe="true" NOT_FOUND_0x13="@string/fp6"/>
+                <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/bm" tag="account_and_safety" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xf="true" NOT_FOUND_0x11="0x7f0808ad" NOT_FOUND_0x12="@string/d1x"/>
+                <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/dwr" tag="security_center" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xf="true" NOT_FOUND_0x10="false" NOT_FOUND_0x11="0x7f080919" NOT_FOUND_0x12="@string/fp4"/>
+                <com.ss.android.ugc.aweme.setting.ui.Divider layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x13="@string/atv"/>
+                <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/la" tag="app_language" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xf="true" NOT_FOUND_0x11="0x7f0808b3" NOT_FOUND_0x12="@string/fr2"/>
+                <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/am8" tag="digital_wellbeing" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xf="true" NOT_FOUND_0x11="0x7f0808b2" NOT_FOUND_0x12="@string/ghe"/>
+                <com.ss.android.ugc.aweme.setting.ui.Divider layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x13="@string/a8l"/>
+                <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/a76" tag="clear_cache" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xf="true" NOT_FOUND_0x11="0x7f0808ae" NOT_FOUND_0x12="@string/ago"/>
+                <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/aid" tag="data_saver" visibility="gone" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xf="true" NOT_FOUND_0x11="0x7f0808b1" NOT_FOUND_0x12="@string/b4l"/>
+                <com.ss.android.ugc.aweme.setting.ui.Divider layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x13="@string/gar"/>
+                <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/b27" tag="feedback_and_help" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xf="true" NOT_FOUND_0x11="0x7f0808b7" NOT_FOUND_0x12="@string/d_r"/>
+                <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/bg1" tag="helper_center" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xf="true" NOT_FOUND_0x11="0x7f0808b4" NOT_FOUND_0x12="@string/bwa"/>
+                <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/dry" tag="safety_center" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xf="true" NOT_FOUND_0x11="0x7f0808b9" NOT_FOUND_0x12="@string/ffh"/>
+                <com.ss.android.ugc.aweme.setting.ui.Divider layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x13="@string/fp5"/>
+                <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/ace" tag="community_guidelines" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xf="true" NOT_FOUND_0x10="false" NOT_FOUND_0x11="0x7f0808af" NOT_FOUND_0x12="@string/as3"/>
+                <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/eiv" tag="terms_of_use" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xf="true" NOT_FOUND_0x11="0x7f0808bb" NOT_FOUND_0x12="@string/f0d"/>
+                <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/d9e" tag="privacy_policy" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xf="true" NOT_FOUND_0x10="false" NOT_FOUND_0x11="0x7f0808b6" NOT_FOUND_0x12="@string/eub"/>
+                <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/af_" tag="copyright_policy" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xf="true" NOT_FOUND_0x10="false" NOT_FOUND_0x11="0x7f0808b0" NOT_FOUND_0x12="@string/aur"/>
+                <com.ss.android.ugc.aweme.setting.ui.Divider layout_width="match_parent" layout_height="wrap_content"/>
+                <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/czh" tag="open_debug_test" visibility="gone" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xf="true" NOT_FOUND_0x11="0x7f0808b8" NOT_FOUND_0x12="@string/b58"/>
+                <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/cj6" tag="logout" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xf="true" NOT_FOUND_0x11="0x7f0808b5" NOT_FOUND_0x12="@string/d0u"/>
+                <RelativeLayout background="@color/l" layout_width="match_parent" layout_height="110dp">
+                    <com.bytedance.tux.input.TuxTextView textColor="@color/nr" gravity="center" id="@+id/fdd" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="5dp" minHeight="30dp" layout_alignParentTop="true" layout_centerHorizontal="true" NOT_FOUND_0x14="61"/>
+                    <com.bytedance.tux.input.TuxTextView textColor="@color/nu" gravity="center" id="@+id/ff3" layout_width="wrap_content" layout_height="50dp" layout_below="@+id/fdd" layout_centerHorizontal="true" NOT_FOUND_0x14="61"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
+</FrameLayout>

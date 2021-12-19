@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/d1n" background="@drawable/a09" paddingTop="8dp" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.views.WorkaroundNestedScrollView id="@+id/dt9" layout_width="match_parent" layout_height="0dp" NOT_FOUND_0x14="@+id/e1_" NOT_FOUND_0x15="0">
+        <LinearLayout gravity="center_horizontal" orientation="vertical" id="@+id/e19" layout_width="match_parent" layout_height="match_parent">
+            <LinearLayout gravity="center_horizontal" layout_gravity="bottom" orientation="vertical" id="@+id/e18" layout_width="match_parent" layout_height="match_parent">
+                <LinearLayout layout_gravity="center" orientation="vertical" id="@+id/e0x" layout_width="match_parent" layout_height="wrap_content"/>
+                <View id="@+id/wi" background="@color/v" layout_width="match_parent" layout_height="8dp"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/c5" gravity="start" id="@+id/e17" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="20dp" layout_marginBottom="4dp" text="@string/b_4" paddingStart="16dp" paddingEnd="0dp" NOT_FOUND_0x16="62"/>
+                <FrameLayout id="@+id/elo" layout_width="match_parent" layout_height="wrap_content"/>
+                <androidx.recyclerview.widget.RecyclerView orientation="vertical" id="@+id/djh" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x12="@string/uo"/>
+            </LinearLayout>
+            <LinearLayout orientation="vertical" id="@+id/amx" background="@drawable/qy" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+        </LinearLayout>
+    </com.ss.android.ugc.aweme.views.WorkaroundNestedScrollView>
+    <LinearLayout orientation="vertical" id="@+id/dyt" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="-8dp" alpha="0" NOT_FOUND_0x15="0">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/dys" background="@drawable/a09" layout_width="match_parent" layout_height="52dp" text="@string/b_4" NOT_FOUND_0x16="33"/>
+        <View background="@color/b2" layout_width="match_parent" layout_height="0.5px" layout_alignParentBottom="true"/>
+    </LinearLayout>
+    <LinearLayout orientation="vertical" id="@+id/e1_" visibility="gone" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x13="0">
+        <View id="@+id/e1k" background="@color/b6" layout_width="match_parent" layout_height="1px"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

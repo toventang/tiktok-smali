@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <root-path name="name" path=""/>
+    <external-path name="share_path0" path="share/"/>
+    <external-path name="download_path2" path="Download/"/>
+    <cache-path name="gif" path="gif/"/>
+    <external-files-path name="share_path1" path="share/"/>
+    <external-files-path name="install_path" path="update/"/>
+    <external-files-path name="livewallpaper" path="livewallpaper/"/>
+    <external-cache-path name="share_image_path0" path="picture/"/>
+    <external-cache-path name="share_image_path2" path="head/"/>
+    <external-cache-path name="share_image_path3" path="feedback/"/>
+    <external-cache-path name="share_image_path4" path="tmpimages/"/>
+    <cache-path name="share_image_path1" path="picture/"/>
+    <cache-path name="share_image_path3" path="head/"/>
+    <cache-path name="share_image_path4" path="tmpimages/"/>
+    <cache-path name="share_sdk_path_0" path="share_content_cache/"/>
+</paths>

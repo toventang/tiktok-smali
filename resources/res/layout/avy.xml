@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" background="@color/l" layout_width="match_parent" layout_height="48dp">
+    <FrameLayout id="@+id/b6e" layout_width="wrap_content" layout_height="match_parent" NOT_FOUND_0x9="0" NOT_FOUND_0xb="@+id/f3g" NOT_FOUND_0xc="1" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0">
+        <com.bytedance.tux.icon.TuxIconView layout_gravity="center_vertical" id="@+id/c12" layout_width="18dp" layout_height="18dp" layout_marginStart="15dp" layout_marginEnd="7dp" NOT_FOUND_0x10="@raw/icon_magnifying_glass" NOT_FOUND_0x11="?attr/bc"/>
+    </FrameLayout>
+    <com.ss.android.ugc.aweme.search.view.UsernameWithVerifyAndRelation gravity="start" id="@+id/f3g" layout_width="0dp" layout_height="wrap_content" layout_marginEnd="16dp" NOT_FOUND_0x9="0" NOT_FOUND_0xb="@+id/bu0" NOT_FOUND_0xd="@+id/b6e" NOT_FOUND_0xf="0"/>
+    <com.ss.android.ugc.aweme.base.ui.SmartAvatarImageView id="@+id/bu0" layout_width="36dp" layout_height="36dp" NOT_FOUND_0x9="0" NOT_FOUND_0xb="@+id/b6k" NOT_FOUND_0xd="@+id/f3g" NOT_FOUND_0xf="0"/>
+    <FrameLayout id="@+id/b6k" layout_width="wrap_content" layout_height="match_parent" NOT_FOUND_0x9="0" NOT_FOUND_0xa="0" NOT_FOUND_0xd="@+id/bu0" NOT_FOUND_0xf="0">
+        <com.ss.android.ugc.aweme.discover.widget.SugCompletionView layout_gravity="center_vertical" id="@+id/c1q" padding="10dp" layout_width="36dp" layout_height="36dp" layout_marginStart="10dp" layout_marginEnd="6dp" NOT_FOUND_0x10="@raw/icon_arrow_up_left_ltr" NOT_FOUND_0x11="?attr/bc"/>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

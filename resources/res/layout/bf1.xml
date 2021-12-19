@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="wrap_content" layout_height="56dp">
+    <View id="@+id/c9x" layout_width="10dp" layout_height="match_parent" NOT_FOUND_0x7="0" NOT_FOUND_0x8="0" NOT_FOUND_0xc="0"/>
+    <View id="@+id/dnk" layout_width="10dp" layout_height="match_parent" NOT_FOUND_0x7="0" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0"/>
+    <View id="@+id/qq" background="@drawable/br7" layout_width="56dp" layout_height="56dp" NOT_FOUND_0x7="0" NOT_FOUND_0x9="@+id/c9x" NOT_FOUND_0xa="@+id/dnk" NOT_FOUND_0xc="0"/>
+    <com.bytedance.android.live.core.widget.HSImageView layout_gravity="center" id="@+id/bm4" layout_width="49dp" layout_height="49dp" NOT_FOUND_0x6="0" NOT_FOUND_0x7="@+id/qq" NOT_FOUND_0x8="@+id/qq" NOT_FOUND_0xb="@+id/qq" NOT_FOUND_0xc="@+id/qq"/>
+    <com.bytedance.android.livesdk.widget.LiveLoadingView id="@+id/chg" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x7="@+id/qq" NOT_FOUND_0x8="@+id/qq" NOT_FOUND_0xb="@+id/qq" NOT_FOUND_0xc="@+id/qq"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

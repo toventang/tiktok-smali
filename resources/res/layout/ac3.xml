@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <View id="@+id/e_f" background="@color/l" layout_width="match_parent" layout_height="0dp"/>
+    <com.bytedance.ies.dmt.ui.titlebar.ButtonTitleBar id="@+id/emo" layout_width="match_parent" layout_height="@dimen/a0s" NOT_FOUND_0x8="8" NOT_FOUND_0xb="@string/fp4" NOT_FOUND_0xc="@color/nq" NOT_FOUND_0xd="true"/>
+    <ScrollView layout_width="match_parent" layout_height="0dp" layout_marginTop="8dp" layout_weight="1">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+            <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/ds5" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x9="@string/fg6" NOT_FOUND_0xa="1"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

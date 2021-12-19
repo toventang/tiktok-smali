@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.photo.local.MediaTypeNavigator xmlns="" orientation="vertical" id="@+id/cl9" background="@color/l" layout_width="match_parent" layout_height="45dp">
+    <LinearLayout orientation="horizontal" id="@+id/eh5" layout_width="match_parent" layout_height="match_parent"/>
+    <LinearLayout gravity="center_horizontal" orientation="horizontal" id="@+id/cfk" layout_width="180dp" layout_height="wrap_content" layout_alignParentBottom="true">
+        <ImageView id="@+id/by7" background="@color/a" layout_width="match_parent" layout_height="2dp" layout_marginStart="12dp" layout_marginEnd="12dp"/>
+    </LinearLayout>
+    <View id="@+id/an6" background="@color/f2" visibility="gone" layout_width="match_parent" layout_height="0.5dp" layout_alignParentBottom="true"/>
+</com.ss.android.ugc.aweme.photo.local.MediaTypeNavigator>

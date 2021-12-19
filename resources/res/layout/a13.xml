@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" background="@color/l" layout_width="match_parent" layout_height="match_parent">
+    <View id="@+id/e__" background="@color/c9" layout_width="match_parent" layout_height="0dp"/>
+    <com.bytedance.ies.dmt.ui.titlebar.ButtonTitleBar id="@+id/elv" layout_width="match_parent" layout_height="@dimen/a0s" NOT_FOUND_0xb="@color/bx"/>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/apd" layout_width="match_parent" layout_height="wrap_content" layout_above="@+id/c5c" layout_below="@+id/elv"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtStatusView id="@+id/chi" layout_width="match_parent" layout_height="match_parent" layout_above="@+id/c5c" layout_below="@+id/elv"/>
+    <FrameLayout id="@+id/c4l" visibility="gone" layout_width="match_parent" layout_height="52dp" layout_alignParentBottom="true">
+        <View background="@color/b6" layout_width="match_parent" layout_height="0.5dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bh" layout_gravity="center_horizontal" id="@+id/eup" background="?attr/ab_" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" NOT_FOUND_0xc="33"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" layout_gravity="center_horizontal" id="@+id/ezt" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="36dp" NOT_FOUND_0xc="61"/>
+    </FrameLayout>
+</RelativeLayout>

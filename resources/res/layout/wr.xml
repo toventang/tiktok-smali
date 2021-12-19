@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center_vertical" orientation="horizontal" paddingLeft="12dp" paddingRight="10dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="12dp" paddingEnd="10dp">
+    <com.bytedance.lighten.loader.SmartImageView id="@+id/eb4" layout_width="36dp" layout_height="36dp" NOT_FOUND_0xe="0x7f08049b" NOT_FOUND_0xf="6" NOT_FOUND_0x10="4dp" NOT_FOUND_0x11="@color/c9" NOT_FOUND_0x12="0.5dp"/>
+    <LinearLayout orientation="horizontal" id="@+id/ebt" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="8dp" layout_marginRight="8dp" layout_weight="1">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/ebs" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x13="41"/>
+        <com.bytedance.tux.icon.TuxIconView layout_gravity="center" layout_width="16dp" layout_height="16dp" NOT_FOUND_0x14="@raw/icon_chevron_right_offset_small_ltr" NOT_FOUND_0x15="?attr/aa"/>
+    </LinearLayout>
+    <include id="@+id/vc" layout="@layout/wj"/>
+</LinearLayout>

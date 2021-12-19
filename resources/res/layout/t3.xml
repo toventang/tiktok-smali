@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/ac6" visibility="gone" layout_width="wrap_content" layout_height="wrap_content">
+    <com.bytedance.tux.button.TuxButton layout_gravity="center_vertical" id="@+id/aq9" layout_width="271dp" layout_height="wrap_content" text="@string/bew" NOT_FOUND_0x6="2" NOT_FOUND_0x7="0" NOT_FOUND_0x8="@raw/icon_duet"/>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@drawable/bpl" layout_width="0dp" layout_height="wrap_content">
+    <View id="@+id/azf" layout_width="match_parent" layout_height="0dp"/>
+    <RelativeLayout id="@+id/emo" layout_width="match_parent" layout_height="48dp">
+        <ImageView id="@+id/a03" layout_width="32dp" layout_height="32dp" layout_marginRight="16dp" src="@drawable/bqu" scaleType="fitXY" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+        <ImageView id="@+id/a02" layout_width="32dp" layout_height="32dp" layout_marginLeft="16dp" src="@drawable/bop" layout_alignParentLeft="true" layout_centerVertical="true" layout_marginStart="16dp" layout_alignParentStart="true"/>
+    </RelativeLayout>
+</LinearLayout>

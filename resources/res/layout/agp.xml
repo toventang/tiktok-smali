@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" paddingLeft="16dp" paddingRight="16dp" layout_width="match_parent" layout_height="wrap_content">
+    <View layout_gravity="top" id="@+id/an5" background="@color/b6" layout_width="match_parent" layout_height="0.5dp" layout_marginBottom="20dp"/>
+    <com.bytedance.tux.input.TuxTextView textColor="#e6161823" ellipsize="end" id="@+id/f9n" layout_width="match_parent" layout_height="wrap_content" lines="1" layout_below="@+id/an5" layout_marginEnd="16dp" layout_toStartOf="@+id/f9p" NOT_FOUND_0x12="42"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/f9p" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="2dp" text="@string/hce" lines="1" layout_below="@+id/an5" layout_alignParentRight="true" layout_alignParentEnd="true" NOT_FOUND_0x12="61"/>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/dr4" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="20dp" layout_marginBottom="4dp" layout_below="@+id/f9n"/>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" orientation="vertical" background="@color/ri" layout_width="match_parent" layout_height="match_parent">
+    <RelativeLayout id="@+id/emo" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="6dp">
+        <TextView textSize="17sp" textColor="@color/go" gravity="center" id="@+id/ef9" layout_width="50dp" layout_height="32dp" layout_marginRight="16dp" text="@string/ffv" layout_alignParentRight="true" fontFamily="ProximaNova-Semibold" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+        <FrameLayout id="@+id/dxs" visibility="gone" layout_width="32dp" layout_height="32dp" layout_centerInParent="true">
+            <View layout_gravity="center" id="@+id/sp" layout_width="20dp" layout_height="20dp"/>
+            <View layout_gravity="center" id="@+id/sq" layout_width="24dp" layout_height="24dp"/>
+        </FrameLayout>
+    </RelativeLayout>
+    <LinearLayout orientation="vertical" id="@+id/adr" layout_width="match_parent" layout_height="match_parent" layout_below="@+id/emo">
+        <RelativeLayout id="@+id/bq1" layout_width="match_parent" layout_height="match_parent" layout_marginLeft="24dp" layout_marginRight="24dp" layout_weight="1">
+            <EditText textSize="28sp" textStyle="bold" textColor="#ffffff" gravity="center" id="@+id/atq" background="@null" padding="12dp" layout_width="match_parent" layout_height="wrap_content" layout_centerInParent="true" lineSpacingExtra="0dp" inputType="textMultiLine" textCursorDrawable="@drawable/bb5"/>
+        </RelativeLayout>
+        <LinearLayout layout_gravity="bottom" orientation="vertical" layout_width="match_parent" layout_height="wrap_content"/>
+    </LinearLayout>
+</RelativeLayout>

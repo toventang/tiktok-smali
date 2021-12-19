@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" background="@drawable/a9m" paddingLeft="16dp" paddingRight="16dp" layout_width="match_parent" layout_height="72dp">
+    <com.bytedance.tux.icon.TuxIconView id="@+id/bm4" layout_width="56dp" layout_height="56dp" layout_centerVertical="true" NOT_FOUND_0x17="@raw/icon_color_facebook_circle"/>
+    <LinearLayout orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginRight="12dp" layout_toLeftOf="@+id/button" layout_toRightOf="@+id/bm4" layout_centerVertical="true" layout_marginStart="12dp" layout_marginEnd="12dp" layout_toStartOf="@+id/button" layout_toEndOf="@+id/bm4">
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/bc" id="@+id/title" layout_width="wrap_content" layout_height="wrap_content" singleLine="true" NOT_FOUND_0x16="42"/>
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/bj" id="@+id/ak7" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" NOT_FOUND_0x16="61"/>
+    </LinearLayout>
+    <com.bytedance.tux.button.TuxButton id="@+id/button" layout_width="120dp" layout_height="wrap_content" layout_centerVertical="true" layout_alignParentEnd="true" NOT_FOUND_0x14="1" NOT_FOUND_0x15="0"/>
+</RelativeLayout>

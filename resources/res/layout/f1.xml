@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/drh" layout_width="80dp" layout_height="80dp" layout_marginStart="4dp">
+    <com.bytedance.lighten.loader.SmartImageView id="@+id/byz" layout_width="80dp" layout_height="80dp" scaleType="centerCrop" NOT_FOUND_0xb="4dp"/>
+    <View layout_gravity="bottom" id="@+id/fj4" background="0x7f080640" visibility="gone" layout_width="match_parent" layout_height="32dp"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a_" layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" id="@+id/eyv" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="4dp" layout_marginEnd="4dp"/>
+</FrameLayout>

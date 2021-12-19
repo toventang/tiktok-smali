@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="wrap_content">
+    <FrameLayout paddingLeft="@dimen/fj" paddingTop="@dimen/fj" paddingRight="@dimen/fj" paddingBottom="@dimen/fj" layout_width="match_parent" layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout id="@+id/cve" background="@drawable/zr" paddingLeft="16dp" paddingTop="26dp" paddingRight="16dp" paddingBottom="26dp" layout_width="match_parent" layout_height="wrap_content">
+            <com.bytedance.tux.icon.TuxIconView id="@+id/hf" layout_width="20dp" layout_height="20dp" NOT_FOUND_0xf="0" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x14="@raw/icon_plus" NOT_FOUND_0x15="@color/c5"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/hw" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="12dp" maxWidth="283dp" text="@string/fx8" layout_marginStart="12dp" NOT_FOUND_0xf="0" NOT_FOUND_0x10="@+id/hf" NOT_FOUND_0x12="0" NOT_FOUND_0x13="42"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+    <com.ss.android.ugc.aweme.ecommerce.widget.AddressInfoCard id="@+id/beg" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+</FrameLayout>

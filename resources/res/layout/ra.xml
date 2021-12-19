@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.tux.input.TuxTextView xmlns="" textColor="@color/ga" ellipsize="end" layout_gravity="center_horizontal" id="@android:id/text1" layout_width="wrap_content" layout_height="wrap_content" maxLines="2" textAlignment="center" NOT_FOUND_0x8="42"/>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.commercialize.views.OpenURLHintLayout xmlns="" id="@+id/ahc" background="@color/l" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.crossplatform.view.GradualChangeLinearLayout orientation="vertical" id="@+id/cfg" layout_width="match_parent" layout_height="match_parent">
+        <Space id="@+id/csm" layout_width="match_parent" layout_height="@dimen/tn"/>
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="0dp" layout_weight="1">
+            <ViewStub layout_gravity="top" id="@+id/eix" layout="@layout/v9" layout_width="match_parent" layout_height="wrap_content"/>
+            <com.ss.android.ugc.aweme.crossplatform.view.CrossPlatformWebView id="@+id/ah_" layout_width="match_parent" layout_height="match_parent"/>
+        </LinearLayout>
+    </com.ss.android.ugc.aweme.crossplatform.view.GradualChangeLinearLayout>
+    <com.ss.android.ugc.aweme.crossplatform.view.CrossPlatformTitleBar id="@+id/ahd" layout_width="match_parent" layout_height="wrap_content"/>
+    <FrameLayout layout_gravity="bottom" id="@+id/dw" background="@color/a9" visibility="gone" layout_width="match_parent" layout_height="58dp">
+        <View layout_gravity="top" background="#26ffffff" layout_width="match_parent" layout_height="1dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/p" gravity="center" layout_gravity="center" id="@+id/dx" background="@drawable/a3l" layout_width="335dp" layout_height="40dp" layout_marginLeft="20dp" layout_marginRight="20dp" text="@string/b6r" NOT_FOUND_0x13="41"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" layout_gravity="bottom|left|center_vertical|center_horizontal|center" id="@+id/aip" background="@color/aq" paddingLeft="7dp" paddingTop="4dp" paddingRight="7dp" paddingBottom="4dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="10dp" layout_marginBottom="10dp" text="WebView" NOT_FOUND_0x13="61"/>
+    </FrameLayout>
+    <ViewStub id="@+id/abv" layout="@layout/v5" layout_width="match_parent" layout_height="wrap_content"/>
+</com.ss.android.ugc.aweme.commercialize.views.OpenURLHintLayout>

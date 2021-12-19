@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/agk" background="@drawable/b1c" layout_width="match_parent" layout_height="match_parent"/>
+    <View layout_gravity="top" id="@+id/bcv" background="@drawable/a07" layout_width="match_parent" layout_height="108dp"/>
+    <View layout_gravity="bottom" id="@+id/bct" background="@drawable/a06" layout_width="match_parent" layout_height="90dp"/>
+    <ImageView layout_gravity="center" id="@+id/bzv" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" src="0x7f080961"/>
+</FrameLayout>

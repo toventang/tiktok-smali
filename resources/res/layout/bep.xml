@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.android.live.core.widget.HSImageView id="@+id/agf" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x15="6" NOT_FOUND_0x16="@dimen/wu"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="13sp" textColor="@color/a9" background="@drawable/bxd" paddingLeft="4dp" paddingTop="2dp" paddingRight="4dp" paddingBottom="2dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="8dp" layout_marginTop="8dp" text="@string/gnf" lineSpacingExtra="3sp" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="14sp" textColor="@color/a_" ellipsize="end" id="@+id/awm" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="8dp" layout_marginBottom="8dp" maxLines="1" NOT_FOUND_0x11="7" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0"/>
+    <View background="@drawable/bxf" layout_width="match_parent" layout_height="4dp" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0"/>
+    <com.bytedance.android.livesdk.chatroom.end.LiveRecommendBar id="@+id/awl" background="@drawable/bxg" layout_width="match_parent" layout_height="4dp" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

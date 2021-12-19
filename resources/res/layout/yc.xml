@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_gravity="center_horizontal" id="@+id/dol" paddingTop="24.5dp" layout_width="wrap_content" layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout layout_gravity="center_horizontal" layout_width="wrap_content" layout_height="44dp">
+        <androidx.constraintlayout.widget.ConstraintLayout id="@+id/feg" background="@drawable/ef" layout_width="wrap_content" layout_height="28dp" layout_marginStart="8dp" layout_marginEnd="8dp" NOT_FOUND_0x22="0" NOT_FOUND_0x23="0" NOT_FOUND_0x27="0" NOT_FOUND_0x28="0">
+            <LinearLayout gravity="center" orientation="horizontal" id="@+id/fe6" paddingLeft="12dp" paddingRight="12dp" layout_width="wrap_content" layout_height="match_parent" paddingStart="12dp" paddingEnd="12dp" NOT_FOUND_0x24="0" NOT_FOUND_0x27="0" NOT_FOUND_0x28="0">
+                <FrameLayout id="@+id/b59" layout_width="wrap_content" layout_height="wrap_content">
+                    <ImageView id="@+id/bv7" visibility="visible" layout_width="20dp" layout_height="20dp" src="0x7f080663" scaleType="centerInside"/>
+                    <ProgressBar layout_gravity="center" id="@+id/asp" visibility="gone" layout_width="13.5dp" layout_height="13.5dp" NOT_FOUND_0x22="0" NOT_FOUND_0x27="0" NOT_FOUND_0x28="0" style="@style/xa"/>
+                </FrameLayout>
+                <com.ss.android.ugc.aweme.views.AlwaysMarqueeTextView textSize="13dp" textColor="@color/a9" ellipsize="marquee" gravity="center" id="@+id/eww" paddingBottom="1.5dp" focusable="true" focusableInTouchMode="true" visibility="gone" layout_width="wrap_content" layout_height="44dp" layout_marginLeft="4dp" maxWidth="140dp" minWidth="@dimen/ei" text="@string/adm" scrollHorizontally="true" singleLine="true" shadowColor="@color/bo" shadowDx="0" shadowDy="2" shadowRadius="2" marqueeRepeatLimit="marquee_forever" layout_marginStart="4dp"/>
+            </LinearLayout>
+            <View id="@+id/fei" layout_width="0dp" layout_height="match_parent" NOT_FOUND_0x23="@+id/fe6" NOT_FOUND_0x24="0" NOT_FOUND_0x25="0" NOT_FOUND_0x27="0"/>
+            <LinearLayout orientation="horizontal" id="@+id/fe9" visibility="gone" layout_width="wrap_content" layout_height="32dp" NOT_FOUND_0x22="0" NOT_FOUND_0x23="0" NOT_FOUND_0x26="@+id/fe6" NOT_FOUND_0x28="0">
+                <View layout_gravity="center_vertical" background="@color/a6" layout_width="1dp" layout_height="match_parent"/>
+                <FrameLayout layout_width="@dimen/h6" layout_height="match_parent">
+                    <ImageView layout_gravity="center" layout_width="30dp" layout_height="30dp" src="0x7f0805fd" scaleType="centerInside"/>
+                </FrameLayout>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <FrameLayout id="@+id/fe_" visibility="gone" layout_width="44dp" layout_height="0dp" NOT_FOUND_0x22="0" NOT_FOUND_0x23="0" NOT_FOUND_0x28="0">
+            <View layout_gravity="center_vertical" background="@drawable/ee" layout_width="@dimen/h6" layout_height="28dp"/>
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

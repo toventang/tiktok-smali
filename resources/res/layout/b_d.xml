@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.android.live.core.widget.HSImageView id="@+id/bm4" layout_width="match_parent" layout_height="match_parent" scaleType="centerCrop" importantForAccessibility="no" NOT_FOUND_0x19="@dimen/vc"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="14sp" textColor="@color/y9" id="@+id/text" paddingLeft="5.5dp" paddingRight="5.5dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="15dp" layout_marginBottom="16dp" layout_alignLeft="@+id/bm4" layout_alignBottom="@+id/bm4" importantForAccessibility="no" paddingStart="5.5dp" paddingEnd="5.5dp" layout_marginStart="15dp" layout_alignStart="@+id/bm4"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="10sp" textColor="#a3ffffff" id="@+id/c46" background="@drawable/boq" paddingLeft="6dp" paddingTop="3dp" paddingRight="6dp" paddingBottom="3dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="8dp" layout_marginBottom="6dp" includeFontPadding="false" layout_alignParentLeft="true" layout_alignParentBottom="true" importantForAccessibility="no" paddingStart="6dp" paddingEnd="6dp" layout_marginStart="8dp" layout_alignParentStart="true"/>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+        <com.ss.android.ugc.aweme.im.sdk.common.ui.widget.ImTextTitleBar id="@+id/em8" layout_width="match_parent" layout_height="@dimen/mr" NOT_FOUND_0x1c="@string/cdr" NOT_FOUND_0x1d="@color/bx" NOT_FOUND_0x1e="@string/chx" NOT_FOUND_0x1f="@string/chz"/>
+        <FrameLayout id="@+id/e13" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="4dp"/>
+        <LinearLayout gravity="center_vertical" orientation="horizontal" background="@color/f" focusable="true" focusableInTouchMode="true" layout_width="match_parent" layout_height="36dp" layout_marginLeft="16dp" layout_marginTop="4dp" layout_marginRight="16dp" layout_marginBottom="8dp" layout_marginStart="16dp" layout_marginEnd="16dp">
+            <com.bytedance.tux.icon.TuxIconView id="@+id/c0w" layout_width="16dp" layout_height="16dp" layout_marginStart="11.5dp" NOT_FOUND_0x20="@raw/icon_magnifying_glass"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtEditText textColor="@color/bx" textColorHint="@color/c5" gravity="left|center_vertical|center_horizontal|center|start" id="@+id/dur" background="@null" paddingLeft="0dp" paddingRight="14dp" layout_width="0dp" layout_height="match_parent" layout_marginLeft="8dp" layout_marginRight="4dp" hint="@string/cf6" maxLines="1" singleLine="true" layout_weight="1" imeOptions="actionSearch" textDirection="ltr" textAlignment="viewStart" paddingStart="0dp" paddingEnd="14dp" layout_marginStart="8dp" layout_marginEnd="4dp" style="@style/y4"/>
+            <com.bytedance.tux.icon.TuxIconView id="@+id/y0" visibility="gone" layout_width="24dp" layout_height="24dp" layout_marginEnd="4dp" NOT_FOUND_0x20="@raw/icon_x_mark_circle_fill" NOT_FOUND_0x22="@color/c5"/>
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView id="@+id/djh" layout_width="match_parent" layout_height="match_parent"/>
+    </LinearLayout>
+    <com.bytedance.tux.status.TuxStatusView id="@+id/e_o" visibility="gone" layout_width="match_parent" layout_height="match_parent" layout_marginTop="100dp" NOT_FOUND_0x21="0"/>
+</FrameLayout>

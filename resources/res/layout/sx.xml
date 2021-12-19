@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/cgg" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.ug.guide.PhoneView layout_gravity="center_horizontal" id="@+id/bzr" layout_width="100dp" layout_height="190dp" layout_marginTop="20dp"/>
+    <com.ss.android.ugc.aweme.ug.guide.PlayView layout_gravity="center_horizontal" id="@+id/bzv" layout_width="92dp" layout_height="156dp" layout_marginTop="34dp"/>
+    <ImageView layout_gravity="bottom|right|center_vertical|center_horizontal|center" id="@+id/bx2" background="0x7f080427" layout_width="114dp" layout_height="114dp" layout_marginRight="20dp"/>
+</FrameLayout>

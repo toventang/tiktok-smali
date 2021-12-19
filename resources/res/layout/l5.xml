@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/cxx" paddingTop="7dp" paddingRight="16dp" paddingBottom="7dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="13dp" paddingEnd="16dp">
+    <include layout="@layout/kb"/>
+    <com.ss.android.ugc.aweme.notification.view.template.NoticeTemplateLeftView id="@+id/cxd" layout_width="wrap_content" layout_height="wrap_content" layout_alignParentLeft="true" layout_alignParentStart="true"/>
+    <RelativeLayout id="@+id/cxk" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="3dp" layout_toRightOf="@+id/cxd" layout_alignParentRight="true" layout_marginStart="9dp" layout_toEndOf="@+id/cxd" layout_alignParentEnd="true">
+        <com.ss.android.ugc.aweme.notification.view.template.NoticeTemplateMiddleView id="@+id/cxl" layout_width="match_parent" layout_height="wrap_content" minHeight="48dp" layout_toLeftOf="@+id/cxw" layout_centerVertical="true" layout_toStartOf="@+id/cxw"/>
+        <com.ss.android.ugc.aweme.notification.view.template.NoticeTemplateRightView id="@+id/cxw" layout_width="wrap_content" layout_height="wrap_content" layout_alignParentRight="true" layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <com.ss.android.ugc.aweme.notification.view.template.NoticeTemplateBottomView id="@+id/cwv" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/cxk" layout_alignLeft="@+id/cxk" layout_alignRight="@+id/cxk" layout_alignStart="@+id/cxk" layout_alignEnd="@+id/cxk"/>
+</RelativeLayout>

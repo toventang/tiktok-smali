@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns="" background="@color/l" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+        <View id="@+id/e_f" background="@color/bz" layout_width="match_parent" layout_height="0dp"/>
+        <com.bytedance.tux.navigation.TuxNavBar id="@+id/emo" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="10dp"/>
+        <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/d3x" visibility="gone" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x8="@string/fm_" NOT_FOUND_0x9="@string/fm9" NOT_FOUND_0xa="1"/>
+        <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/d3y" visibility="gone" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x8="@string/fmb" NOT_FOUND_0x9="@string/fma" NOT_FOUND_0xa="1"/>
+        <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/d3z" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x8="@string/fo8" NOT_FOUND_0x9="@string/fo7" NOT_FOUND_0xa="1"/>
+        <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/ekj" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x8="@string/fqu" NOT_FOUND_0x9="@string/fqx" NOT_FOUND_0xa="1"/>
+        <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/d1z" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x8="@string/fqy" NOT_FOUND_0x9="@string/fr1" NOT_FOUND_0xa="1"/>
+        <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/ekk" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x8="@string/gf0" NOT_FOUND_0x9="@string/gf1"/>
+        <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/d40" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x8="@string/bw" NOT_FOUND_0x9="@string/cmp"/>
+        <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/d41" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x8="@string/fqe" NOT_FOUND_0x9="@string/fqd"/>
+        <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/aju" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x8="@string/c_5" NOT_FOUND_0x9="@string/c_6"/>
+    </LinearLayout>
+</ScrollView>

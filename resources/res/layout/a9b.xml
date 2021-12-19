@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" orientation="horizontal" background="@drawable/cdn" layout_width="match_parent" layout_height="50dp">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_width="wrap_content" layout_height="wrap_content" layout_centerVertical="true" layout_alignParentStart="true" NOT_FOUND_0xb="63"/>
+    <ImageView id="@+id/bmo" layout_width="20dp" layout_height="20dp" src="@drawable/cm" layout_alignParentRight="true" layout_centerVertical="true"/>
+    <androidx.recyclerview.widget.RecyclerView orientation="horizontal" id="@+id/djn" layout_width="wrap_content" layout_height="wrap_content" layout_toLeftOf="@+id/bmo" layout_centerVertical="true"/>
+</RelativeLayout>

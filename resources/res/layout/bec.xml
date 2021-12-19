@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="wrap_content" layout_height="match_parent">
+    <ImageView layout_gravity="center" id="@+id/etk" layout_width="16dp" layout_height="16dp" layout_marginLeft="2dp" layout_marginRight="2dp" scaleType="fitXY"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="13dp" gravity="left|center_vertical|center_horizontal|center|start" id="@+id/etl" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" layout_marginRight="2dp" minHeight="21dp" maxLines="1" includeFontPadding="false" shadowColor="#29000000" shadowDx="1" shadowDy="1" shadowRadius="1" textIsSelectable="false" textAlignment="viewStart" layout_marginStart="4dp" layout_marginEnd="2dp" NOT_FOUND_0x15="7"/>
+</FrameLayout>

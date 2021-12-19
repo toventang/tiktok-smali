@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.android.live.design.widget.shapecontrol.ShapeControllableRelativeLayout xmlns="" id="@+id/efr" background="?attr/alc" layout_width="match_parent" layout_height="240dp" NOT_FOUND_0x14="@dimen/no" NOT_FOUND_0x15="@dimen/no">
+    <androidx.appcompat.widget.AppCompatImageView id="@+id/efq" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="20dp" layout_marginRight="22dp" layout_alignParentTop="true" layout_alignParentRight="true" layout_alignParentEnd="true" NOT_FOUND_0x12="@drawable/b29" NOT_FOUND_0x13="#000"/>
+    <RelativeLayout id="@+id/efu" paddingBottom="34dp" visibility="visible" layout_width="match_parent" layout_height="wrap_content">
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="?attr/amo" gravity="center" id="@+id/efv" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="48dp" layout_marginTop="24dp" layout_marginRight="48dp" layout_alignParentTop="true" layout_centerHorizontal="true" style="@style/kg"/>
+        <androidx.appcompat.widget.LinearLayoutCompat orientation="vertical" id="@+id/efp" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="24dp" layout_marginRight="16dp" layout_below="@+id/efv" layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <RelativeLayout id="@+id/efs" visibility="invisible" layout_width="match_parent" layout_height="wrap_content" layout_centerInParent="true">
+        <androidx.appcompat.widget.AppCompatImageView id="@+id/efk" layout_width="wrap_content" layout_height="wrap_content" layout_centerHorizontal="true" NOT_FOUND_0x12="0x7f080f1f"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="?attr/amo" gravity="center" id="@+id/eft" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="24dp" layout_marginTop="24dp" layout_marginRight="24dp" layout_below="@+id/efk" layout_centerHorizontal="true" style="@style/kg"/>
+    </RelativeLayout>
+</com.bytedance.android.live.design.widget.shapecontrol.ShapeControllableRelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@drawable/ar4" layout_width="match_parent" layout_height="wrap_content">
+    <include layout="@layout/a7x"/>
+    <FrameLayout id="@+id/bk5" visibility="invisible" layout_width="match_parent" layout_height="wrap_content" minHeight="72dp"/>
+    <View id="@+id/bk6" background="@color/v" visibility="invisible" layout_width="match_parent" layout_height="8dp"/>
+    <FrameLayout id="@+id/bk0" visibility="invisible" layout_width="match_parent" layout_height="wrap_content" minHeight="52dp"/>
+    <View id="@+id/bk1" background="@color/v" visibility="invisible" layout_width="match_parent" layout_height="8dp"/>
+    <com.bytedance.tux.icon.TuxIconView layout_gravity="center_horizontal" id="@+id/bl5" layout_width="72dp" layout_height="72dp" layout_marginTop="48dp" contentDescription="@string/ez4" NOT_FOUND_0x15="@raw/icon_large_person" NOT_FOUND_0x16="?attr/bd"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c4" gravity="center" layout_gravity="center_horizontal" id="@+id/blx" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="21dp" text="@string/ez4" NOT_FOUND_0x14="51"/>
+    <com.bytedance.tux.button.TuxButton gravity="center" layout_gravity="center_horizontal" id="@+id/zr" layout_width="144dp" layout_height="wrap_content" layout_marginTop="20dp" layout_marginBottom="128dp" text="@string/aox" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0" NOT_FOUND_0x11="@+id/blx" NOT_FOUND_0x12="2" NOT_FOUND_0x13="0"/>
+</LinearLayout>

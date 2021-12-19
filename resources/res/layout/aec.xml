@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" background="@color/c9" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.views.CircleDraweeView id="@+id/bnf" layout_width="match_parent" layout_height="match_parent" layout_margin="2dp" scaleType="fitXY" layout_centerInParent="true"/>
+    <com.bytedance.lighten.loader.SmartImageView id="@+id/e4o" visibility="gone" layout_width="match_parent" layout_height="match_parent" layout_margin="2dp" layout_centerInParent="true"/>
+    <ImageView id="@+id/bnh" visibility="visible" layout_width="16dp" layout_height="16dp" layout_margin="1dp" src="0x7f0806e7" scaleType="fitXY" layout_alignParentRight="true" layout_alignParentBottom="true" layout_alignParentEnd="true"/>
+    <com.ss.android.ugc.aweme.shortvideo.sticker.AVCircleProgressView id="@+id/byw" background="0x7f0806e8" visibility="gone" layout_width="16dp" layout_height="16dp" layout_margin="1dp" layout_alignParentRight="true" layout_alignParentBottom="true" layout_alignParentEnd="true" NOT_FOUND_0xc="5dp"/>
+</RelativeLayout>

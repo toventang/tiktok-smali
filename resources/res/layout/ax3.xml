@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" orientation="horizontal" id="@+id/do7" layout_width="match_parent" layout_height="@dimen/a0s">
+    <FrameLayout id="@+id/do8" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout id="@+id/qd" layout_width="wrap_content" layout_height="wrap_content" layout_centerVertical="true">
+        <com.ss.android.ugc.aweme.views.AutoRTLImageView layout_gravity="center_vertical" id="@+id/qc" padding="10dp" visibility="gone" layout_width="44dp" layout_height="44dp" layout_marginLeft="6dp" src="@drawable/bdj" layout_marginStart="6dp"/>
+    </FrameLayout>
+    <FrameLayout layout_gravity="center_vertical" id="@+id/dw1" layout_width="wrap_content" layout_height="wrap_content" layout_alignParentRight="true" layout_centerVertical="true" layout_alignParentEnd="true">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bh" gravity="center" layout_gravity="center_vertical" id="@+id/f6o" paddingLeft="16dp" paddingRight="16dp" visibility="visible" layout_width="wrap_content" layout_height="44dp" text="@string/fhf" NOT_FOUND_0x19="41"/>
+        <FrameLayout layout_gravity="center" id="@+id/dub" background="@color/c9" visibility="gone" clickable="false" layout_width="56dp" layout_height="44dp">
+            <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView layout_gravity="center" id="@+id/c0y" layout_width="24dp" layout_height="24dp" src="0x7f080b57"/>
+        </FrameLayout>
+    </FrameLayout>
+    <include layout_gravity="center_vertical" layout_width="match_parent" layout_height="36dp" layout_toLeftOf="@+id/dw1" layout_toRightOf="@+id/qd" layout_centerInParent="true" layout_toStartOf="@+id/dw1" layout_toEndOf="@+id/qd" layout="@layout/ax2"/>
+</RelativeLayout>

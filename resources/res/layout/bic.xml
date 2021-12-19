@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/f9l" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="24dp" layout_marginStart="20dp" layout_marginEnd="20dp" NOT_FOUND_0xe="0" NOT_FOUND_0xf="23"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c4" gravity="center" id="@+id/f2q" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="12dp" layout_marginStart="20dp" layout_marginEnd="20dp" NOT_FOUND_0xd="@+id/f9l" NOT_FOUND_0xf="41"/>
+    <View id="@+id/fec" background="@color/b6" layout_width="match_parent" layout_height="0.5dp" layout_marginTop="20dp" NOT_FOUND_0xd="@+id/f2q"/>
+    <View id="@+id/fep" background="@color/b6" layout_width="0.5dp" layout_height="48dp" NOT_FOUND_0x9="0" NOT_FOUND_0xc="0" NOT_FOUND_0xd="@+id/fec"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c4" gravity="center" id="@+id/f3d" layout_width="0dp" layout_height="48dp" NOT_FOUND_0xa="@+id/fep" NOT_FOUND_0xc="0" NOT_FOUND_0xd="@+id/fec" NOT_FOUND_0xf="41"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/b9" gravity="center" id="@+id/f4q" layout_width="0dp" layout_height="48dp" NOT_FOUND_0x9="0" NOT_FOUND_0xb="@+id/fep" NOT_FOUND_0xd="@+id/fec" NOT_FOUND_0xf="42"/>
+</merge>

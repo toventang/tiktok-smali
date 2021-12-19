@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" padding="9dp" layout_width="74dp" layout_height="74dp">
+    <ImageView layout_gravity="center" id="@+id/bne" layout_width="60dp" layout_height="60dp" src="@drawable/u8"/>
+    <com.facebook.drawee.view.SimpleDraweeView layout_gravity="center" id="@+id/bnf" layout_width="50dp" layout_height="50dp" scaleType="fitXY" NOT_FOUND_0x9="0x7f0806ea"/>
+    <ImageView layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" id="@+id/bnh" visibility="visible" layout_width="18dp" layout_height="18dp" layout_margin="3dp" src="0x7f080124" scaleType="fitXY"/>
+</FrameLayout>

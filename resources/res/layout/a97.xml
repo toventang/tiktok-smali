@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="" orientation="vertical" background="@drawable/qc" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout gravity="center_vertical" orientation="horizontal" id="@+id/a_0" layout_width="match_parent" layout_height="wrap_content">
+        <com.ss.android.ugc.aweme.base.ui.CircleImageView layout_gravity="top" id="@+id/or" layout_width="@dimen/f_" layout_height="@dimen/f_" layout_marginLeft="16dp" layout_marginTop="12dp" layout_marginRight="12dp" layout_marginStart="16dp" layout_marginEnd="12dp" NOT_FOUND_0x27="@color/f" NOT_FOUND_0x28="6" NOT_FOUND_0x29="true"/>
+        <LinearLayout orientation="vertical" layout_width="0dp" layout_height="wrap_content" layout_weight="1">
+            <LinearLayout gravity="center_vertical" orientation="horizontal" id="@+id/a_n" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp">
+                <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" id="@+id/title" layout_width="wrap_content" layout_height="wrap_content" maxWidth="125dp" maxLines="1" NOT_FOUND_0x2a="63"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/c4" id="@+id/aa6" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" layout_marginStart="4dp" NOT_FOUND_0x2a="62"/>
+                <com.bytedance.tux.input.TuxTextView textColor="?attr/ay" layout_gravity="top" id="@+id/aah" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="1dp" paddingStart="1dp" paddingEnd="4dp" NOT_FOUND_0x2a="72"/>
+            </LinearLayout>
+            <LinearLayout orientation="horizontal" id="@+id/ae_" layout_width="match_parent" layout_height="wrap_content">
+                <com.ss.android.ugc.aweme.views.MentionTextView textColor="@color/bj" gravity="center_vertical" layout_gravity="center_vertical" id="@+id/adh" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="2dp" shadowDy="1" shadowRadius="1" style="@style/y6"/>
+            </LinearLayout>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/aam" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="2dp" layout_marginBottom="8dp" NOT_FOUND_0x2a="61"/>
+        </LinearLayout>
+        <ImageView id="@+id/ayu" background="@drawable/qc" visibility="gone" layout_width="45dp" layout_height="45dp" src="0x7f080708" scaleType="center"/>
+        <RelativeLayout layout_gravity="top" id="@+id/c5g" layout_width="48dp" layout_height="wrap_content">
+            <ImageView id="@+id/bwd" layout_width="24dp" layout_height="24dp" layout_marginTop="15dp" src="@drawable/ad0" layout_centerHorizontal="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout id="@+id/dl3" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="57dp" layout_marginBottom="10dp" layout_marginStart="57dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a3" id="@+id/dld" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="7dp" layout_alignParentLeft="true" layout_marginStart="7dp" layout_alignParentStart="true" NOT_FOUND_0x2a="61"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/dl2" background="@drawable/xi" paddingLeft="3dp" paddingRight="4dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="6dp" layout_marginTop="3dp" maxWidth="125dp" layout_toRightOf="@+id/dld" paddingStart="3dp" paddingEnd="4dp" layout_marginStart="6dp" layout_toEndOf="@+id/dld" NOT_FOUND_0x2a="91"/>
+        <com.ss.android.ugc.aweme.views.MentionTextView textSize="15sp" textColor="@color/a3" id="@+id/dl4" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="2dp" layout_marginRight="21dp" layout_below="@+id/dld" layout_alignLeft="@+id/dld" layout_marginEnd="21dp" layout_alignStart="@+id/dld"/>
+        <View id="@+id/dl5" background="@drawable/qb" layout_width="2dp" layout_height="match_parent" layout_marginTop="2dp" minHeight="30dp" layout_alignTop="@+id/dld" layout_alignBottom="@+id/dl4"/>
+    </RelativeLayout>
+</merge>

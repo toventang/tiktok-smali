@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.tux.widget.FlexLayout xmlns="" id="@+id/e_s" paddingLeft="32dp" paddingRight="32dp" layout_width="match_parent" layout_height="match_parent">
+    <View id="@+id/top_margin_view" layout_width="wrap_content" layout_height="0dp" NOT_FOUND_0x8="this.tag==0?         (0.4*parent.height-(icon_iv.visible?114dp:(banner_iv.visible?222dp:42dp)))         :(0.4*parent.height-0.4*(title_tv.height+message_tv.height+button.height+52dp))"/>
+    <com.bytedance.tux.icon.TuxIconView id="@+id/icon_iv" visibility="gone" layout_width="72dp" layout_height="72dp" NOT_FOUND_0x7="50%" NOT_FOUND_0x9="prev.bottom"/>
+    <ImageView id="@+id/banner_iv" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x7="50%" NOT_FOUND_0x8="180dp" NOT_FOUND_0x9="prev.bottom"/>
+    <com.bytedance.tux.input.TuxTextView gravity="center" id="@+id/title_tv" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x7="50%" NOT_FOUND_0x9="prev.bottom+(icon_iv.visible?20dp:(banner_iv.visible?20dp:0dp))"/>
+    <com.bytedance.tux.input.TuxTextView gravity="center" id="@+id/message_tv" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x7="50%" NOT_FOUND_0x9="prev.bottom+12dp"/>
+    <com.bytedance.tux.button.TuxButton id="@+id/button" visibility="gone" layout_width="250dp" layout_height="wrap_content" NOT_FOUND_0x7="50%" NOT_FOUND_0x9="top_margin_view.tag==0?70%+42dp:message_tv.bottom+20dp"/>
+</com.bytedance.tux.widget.FlexLayout>

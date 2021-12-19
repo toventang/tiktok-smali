@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="48dp" layout_height="48dp">
+    <com.bytedance.tux.icon.TuxIconView layout_width="48dp" layout_height="48dp" NOT_FOUND_0x6="0x7f08082e"/>
+    <com.bytedance.tux.icon.TuxIconView id="@+id/bkf" layout_width="32dp" layout_height="32dp" layout_marginTop="8dp" layout_marginBottom="8dp" layout_centerInParent="true" NOT_FOUND_0x6="@raw/icon_exclamation_mark"/>
+</RelativeLayout>

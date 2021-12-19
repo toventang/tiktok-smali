@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" id="@+id/cfh" layout_width="match_parent" layout_height="match_parent">
+        <LinearLayout gravity="left|center_vertical|center_horizontal|center|start" orientation="horizontal" id="@+id/dp1" background="@drawable/sv" layout_width="match_parent" layout_height="36dp" layout_marginBottom="14dp" layout_marginStart="16dp" layout_marginEnd="16dp">
+            <ImageView layout_gravity="center_vertical" id="@+id/c0w" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" src="0x7f0806a9" scaleType="fitXY" layout_marginStart="4dp"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c5" layout_gravity="center_vertical" id="@+id/dvg" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="8dp" text="@string/axh" layout_marginStart="8dp" NOT_FOUND_0x12="41"/>
+        </LinearLayout>
+        <com.ss.android.ugc.aweme.choosemusic.view.StarTcmItem id="@+id/bsx" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="-10dp"/>
+        <com.ss.android.ugc.aweme.choosemusic.view.CommerceTipsItem id="@+id/brz" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="-10dp"/>
+        <FrameLayout id="@+id/ae8" layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+        <ViewStub id="@+id/fjo" layout="@layout/bk9" layout_width="match_parent" layout_height="wrap_content"/>
+    </LinearLayout>
+    <ViewStub id="@+id/fjr" layout="@layout/bk_" layout_width="match_parent" layout_height="wrap_content"/>
+</FrameLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" paddingLeft="16dp" paddingTop="10dp" paddingRight="16dp" paddingBottom="10dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+    <FrameLayout layout_gravity="center_vertical" id="@+id/b4d" layout_width="64dp" layout_height="64dp">
+        <com.ss.android.ugc.aweme.base.ui.SmartRoundImageView id="@+id/bu0" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x1a="@color/j" NOT_FOUND_0x1b="6"/>
+        <ImageView layout_gravity="center" id="@+id/c00" visibility="gone" layout_width="28dp" layout_height="28dp" src="0x7f080b38"/>
+    </FrameLayout>
+    <LinearLayout layout_gravity="center_vertical" orientation="vertical" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="12dp" layout_weight="1" layout_marginStart="12dp">
+        <LinearLayout gravity="center_vertical" layout_width="match_parent" layout_height="wrap_content">
+            <ImageView id="@+id/bzl" visibility="gone" layout_width="16dp" layout_height="16dp" layout_marginRight="2dp" src="0x7f080b30" layout_marginEnd="2dp"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/f39" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" NOT_FOUND_0x1c="42"/>
+        </LinearLayout>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" id="@+id/f33" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="2dp" maxLines="1" textDirection="locale" NOT_FOUND_0x1c="61"/>
+        <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="6dp">
+            <LinearLayout orientation="horizontal" layout_width="0dp" layout_height="wrap_content" layout_weight="1" lineSpacingExtra="0dp">
+                <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" id="@+id/f35" layout_width="wrap_content" layout_height="wrap_content" lines="1" NOT_FOUND_0x1c="61"/>
+                <androidx.recyclerview.widget.RecyclerView orientation="horizontal" id="@+id/cra" visibility="gone" layout_width="wrap_content" layout_height="15dp" layout_marginLeft="4dp" layout_marginRight="4dp"/>
+            </LinearLayout>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c5" layout_gravity="center_vertical" id="@+id/f__" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginStart="12dp" NOT_FOUND_0x1c="61"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

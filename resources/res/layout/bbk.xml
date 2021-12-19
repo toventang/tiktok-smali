@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/bq8" layout_width="wrap_content" layout_height="wrap_content">
+    <FrameLayout orientation="vertical" background="0x7f080d25" layout_width="108dp" layout_height="108dp">
+        <com.bytedance.android.live.core.widget.HSImageView layout_gravity="center" id="@+id/by4" layout_width="94dp" layout_height="94dp" scaleType="fitXY" NOT_FOUND_0x9="4dp"/>
+    </FrameLayout>
+    <ImageView id="@+id/c2c" layout_width="16dp" layout_height="10dp" layout_marginTop="-1.5dp" src="0x7f080e7e"/>
+</LinearLayout>

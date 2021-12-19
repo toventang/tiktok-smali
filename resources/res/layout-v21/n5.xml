@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" orientation="vertical" id="@+id/bez" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout orientation="vertical" id="@+id/bf9" layout_width="match_parent" layout_height="wrap_content">
+        <RelativeLayout id="@+id/p4" paddingLeft="16dp" paddingRight="16dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+            <com.bytedance.lighten.loader.SmartImageView layout_gravity="center_vertical" id="@+id/or" layout_width="120dp" layout_height="158dp" NOT_FOUND_0x1a="0x7f080974" NOT_FOUND_0x1b="0x7f080974" NOT_FOUND_0x1c="2dp" NOT_FOUND_0x1d="@color/b4" NOT_FOUND_0x1e="1px"/>
+            <com.bytedance.tux.input.TuxTextView textColor="#590011" id="@+id/pm" background="@drawable/w8" paddingLeft="4dp" paddingTop="2.5dp" paddingRight="4dp" paddingBottom="2.5dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" paddingStart="4dp" paddingEnd="4dp" elevation="5dp" NOT_FOUND_0x1f="93"/>
+            <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_toRightOf="@+id/or" layout_marginStart="16dp" layout_toEndOf="@+id/or">
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/title" layout_width="wrap_content" layout_height="wrap_content" maxLines="2" NOT_FOUND_0x1f="21"/>
+                <ViewStub id="@+id/my" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="9dp"/>
+                <ViewStub gravity="center_vertical" id="@+id/a0z" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <ViewStub id="@+id/fl0" layout="@layout/n3" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="16dp" layout_marginRight="16dp" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+        <ViewStub id="@+id/fkw" layout="@layout/ms" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="16dp" layout_marginRight="16dp" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+        <ViewStub id="@+id/fky" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="16dp" layout_marginRight="16dp" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+        <ViewStub id="@+id/fkx" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="16dp" layout_marginRight="16dp" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+        <ViewStub id="@+id/fkz" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="16dp" layout_marginRight="16dp" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+        <ViewStub id="@+id/fla" layout="@layout/w3" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp"/>
+        <ViewStub id="@+id/fl2" layout="@layout/n4" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp"/>
+        <include layout="@layout/vz"/>
+        <Space id="@+id/w9" layout_width="0dp" layout_height="16dp"/>
+        <View id="@+id/vg" background="@color/b2" visibility="gone" layout_width="match_parent" layout_height="0.5dp" layout_marginLeft="16dp" layout_marginRight="16dp"/>
+    </LinearLayout>
+</FrameLayout>

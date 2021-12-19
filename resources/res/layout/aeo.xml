@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content">
+    <TextView id="@android:id/text1" layout_width="wrap_content" layout_height="wrap_content" maxLines="1"/>
+    <ImageView id="@android:id/icon" layout_width="6dp" layout_height="6dp" contentDescription="@null"/>
+</LinearLayout>

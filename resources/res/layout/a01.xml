@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" padding="8dp" layout_width="match_parent" layout_height="wrap_content">
+    <View id="@+id/agf" background="@color/f" layout_width="48dp" layout_height="64dp" layout_marginStart="8dp" NOT_FOUND_0xa="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0"/>
+    <com.bytedance.tux.icon.TuxIconView layout_width="22dp" layout_height="22dp" NOT_FOUND_0xa="@+id/agf" NOT_FOUND_0xb="@+id/agf" NOT_FOUND_0xd="@+id/agf" NOT_FOUND_0xe="@+id/agf" NOT_FOUND_0x10="@raw/icon_plus" NOT_FOUND_0x11="?attr/bc"/>
+    <com.bytedance.tux.input.TuxTextView textSize="15dp" id="@+id/cs_" layout_width="wrap_content" layout_height="wrap_content" text="@string/bta" maxLines="2" layout_marginStart="12dp" NOT_FOUND_0xa="0" NOT_FOUND_0xc="@+id/agf" NOT_FOUND_0xe="0" NOT_FOUND_0xf="42"/>
+    <com.bytedance.tux.icon.TuxIconView layout_width="22dp" layout_height="22dp" layout_marginEnd="8dp" NOT_FOUND_0xa="@+id/agf" NOT_FOUND_0xb="0" NOT_FOUND_0xe="@+id/agf" NOT_FOUND_0x10="@raw/icon_chevron_right_offset_ltr" NOT_FOUND_0x11="?attr/bj"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

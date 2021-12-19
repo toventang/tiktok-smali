@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" clipChildren="false" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.shortvideo.widget.ProgressSegmentView id="@+id/dc_" layout_width="match_parent" layout_height="18dp" layout_marginLeft="8dp" layout_marginTop="@dimen/rl" layout_marginRight="8dp" layout_marginStart="8dp" layout_marginEnd="8dp"/>
+    <FrameLayout layout_gravity="bottom|center_vertical|center_horizontal|center" id="@+id/a8q" layout_width="100dp" layout_height="100dp" layout_marginBottom="40dp">
+        <com.ss.android.ugc.aweme.widgetcompat.AnimationImageView id="@+id/a8r" padding="6dp" visibility="gone" layout_width="100dp" layout_height="100dp"/>
+        <FrameLayout layout_gravity="center" id="@+id/a8o" visibility="gone" layout_width="80dp" layout_height="80dp"/>
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtImageView layout_gravity="center" id="@+id/a8p" visibility="gone" layout_width="24dp" layout_height="24dp" src="@drawable/gx"/>
+    </FrameLayout>
+    <com.bytedance.tux.input.TuxTextView textSize="14sp" textStyle="bold" textColor="@color/a9" gravity="center" layout_gravity="bottom|center_vertical|center_horizontal|center" id="@+id/f4z" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="156dp" text="" shadowColor="@color/bl" shadowDy="1" shadowRadius="5" NOT_FOUND_0x22="52"/>
+    <com.ss.android.ugc.aweme.shortvideo.widget.RecordLayout enabled="false" layout_gravity="bottom|center_vertical|center_horizontal|center" id="@+id/dhn" focusableInTouchMode="true" clipToPadding="false" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="40dp"/>
+    <com.ss.android.ugc.aweme.shortvideo.widget.TouchSensitiveRelativeLayout layout_gravity="bottom" id="@+id/cv2" layout_width="match_parent" layout_height="100dp" layout_marginBottom="40dp">
+        <FrameLayout id="@+id/div" layout_width="100dp" layout_height="100dp" layout_centerInParent="true"/>
+        <FrameLayout gravity="top|center_vertical|center_horizontal|center" layout_width="wrap_content" layout_height="match_parent" layout_toRightOf="@+id/div" layout_alignParentRight="true" layout_centerVertical="true" layout_toEndOf="@+id/div" layout_alignParentEnd="true">
+            <LinearLayout layout_gravity="center" orientation="horizontal" id="@+id/cv1" visibility="visible" layout_width="wrap_content" layout_height="wrap_content">
+                <ImageView layout_gravity="center_vertical" id="@+id/bw8" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" src="0x7f0800f7" scaleType="center" shadowColor="@color/bo" shadowDy="1"/>
+                <ImageView textColor="@color/de" layout_gravity="center_vertical" id="@+id/z8" background="@drawable/b53" padding="@dimen/ci" visibility="gone" layout_width="@dimen/ch" layout_height="@dimen/ch" layout_marginLeft="16dp" src="0x7f08069d" scaleType="centerInside" layout_marginStart="16dp"/>
+            </LinearLayout>
+        </FrameLayout>
+    </com.ss.android.ugc.aweme.shortvideo.widget.TouchSensitiveRelativeLayout>
+</FrameLayout>

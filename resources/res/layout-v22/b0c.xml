@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@drawable/ua" layout_width="match_parent" layout_height="wrap_content">
+    <ImageView layout_gravity="end" id="@+id/bve" layout_width="24dp" layout_height="24dp" layout_marginTop="14dp" layout_marginRight="14dp" src="0x7f0806de" layout_alignParentRight="true" layout_marginEnd="14dp" layout_alignParentEnd="true"/>
+    <ImageView layout_gravity="center_horizontal" layout_width="48dp" layout_height="48dp" layout_marginTop="14dp" layout_marginBottom="20dp" src="0x7f0805b5"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center_horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="32dp" layout_marginRight="32dp" text="@string/ah9" NOT_FOUND_0x11="32dp" NOT_FOUND_0x13="23"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c4" gravity="center_horizontal" id="@+id/f0n" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="32dp" layout_marginTop="12dp" layout_marginRight="32dp" text="@string/b32" NOT_FOUND_0x11="32dp" NOT_FOUND_0x13="51"/>
+    <com.bytedance.tux.button.TuxButton id="@+id/y_" layout_width="match_parent" layout_height="44dp" layout_marginLeft="32dp" layout_marginTop="24dp" layout_marginRight="32dp" layout_marginBottom="46dp" text="@string/c7" NOT_FOUND_0x11="32dp" NOT_FOUND_0x12="false" NOT_FOUND_0x13="42"/>
+</LinearLayout>

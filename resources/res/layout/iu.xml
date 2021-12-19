@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/dqe" clipChildren="false" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="54dp" layout_marginRight="12dp" layout_marginStart="54dp" layout_marginEnd="12dp">
+    <LinearLayout gravity="center_vertical" orientation="horizontal" id="@+id/c7f" paddingLeft="6dp" paddingRight="0dp" visibility="visible" clipChildren="false" layout_width="match_parent" layout_height="wrap_content" paddingStart="6dp" paddingEnd="0dp">
+        <LinearLayout gravity="center_vertical" id="@+id/ayr" clipChildren="false" layout_width="wrap_content" layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/f5v" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="3dp" layout_marginBottom="3dp" NOT_FOUND_0x18="62"/>
+            <ImageView layout_gravity="center_vertical" id="@+id/bna" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="2dp" src="0x7f0801e6" layout_marginStart="2dp"/>
+        </LinearLayout>
+        <Space layout_width="0dp" layout_height="wrap_content" layout_weight="1"/>
+        <LinearLayout gravity="right|center_vertical|center_horizontal|center|end" id="@+id/a8a" visibility="gone" clipChildren="false" layout_width="wrap_content" layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/a8b" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="3dp" layout_marginBottom="3dp" text="@string/ajo" drawablePadding="2dp" drawableEnd="0x7f0801e4" NOT_FOUND_0x18="62"/>
+        </LinearLayout>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.ui.widget.DmtLoadingLayout layout_gravity="center" id="@+id/c7g" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="6dp" layout_marginRight="0dp" layout_marginStart="6dp" layout_marginEnd="0dp"/>
+</FrameLayout>

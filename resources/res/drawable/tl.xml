@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns="" shape="oval" useLevel="false">
+    <stroke width="1dp" color="@color/h"/>
+    <solid color="@color/c7"/>
+    <corners radius="360dp"/>
+    <padding left="1dp" top="1dp" right="1dp" bottom="1dp"/>
+    <size height="20dp" width="20dp"/>
+</shape>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="64dp" layout_height="94dp" layout_marginEnd="6dp">
+    <com.ss.android.ugc.aweme.base.ui.AvatarImageView id="@+id/p4" focusableInTouchMode="false" clickable="false" layout_width="48dp" layout_height="48dp" layout_marginTop="16dp" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0" NOT_FOUND_0x11="0"/>
+    <com.bytedance.tux.icon.TuxIconView id="@+id/a7y" background="@drawable/bap" padding="1.5dp" layout_width="20dp" layout_height="20dp" layout_marginTop="15dp" layout_marginEnd="2dp" NOT_FOUND_0xf="0" NOT_FOUND_0x11="0" NOT_FOUND_0x13="@raw/icon_x_mark_circle_fill" NOT_FOUND_0x14="@color/na"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c4" ellipsize="end" gravity="center" id="@+id/csg" clickable="false" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="8dp" maxLines="1" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0" NOT_FOUND_0x12="81"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/sw" gravity="center_vertical" id="@+id/eyc" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="22dp" layout_marginRight="16dp" text="@string/d6l" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x14="72"/>
+    <com.ss.android.ugc.aweme.themechange.base.AVDmtPanelRecycleView id="@+id/ffc" clipChildren="false" clipToPadding="false" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" NOT_FOUND_0xf="16dp" NOT_FOUND_0x11="16dp" NOT_FOUND_0x12="16dp"/>
+    <FrameLayout layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp">
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtView layout_gravity="center_vertical" id="@+id/kl" layout_width="10dp" layout_height="2dp" layout_marginStart="38dp" NOT_FOUND_0x10="false" NOT_FOUND_0x13="10dp" NOT_FOUND_0x15="true"/>
+    </FrameLayout>
+</LinearLayout>

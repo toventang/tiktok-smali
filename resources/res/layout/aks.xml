@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="match_parent" layout_height="165dp" splitMotionEvents="false" windowEnableSplitTouch="false">
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/a24" background="@color/j" layout_width="match_parent" layout_height="match_parent"/>
+    <RelativeLayout id="@+id/a23" layout_width="48dp" layout_height="48dp" layout_alignParentEnd="true">
+        <androidx.appcompat.widget.AppCompatCheckBox id="@+id/a22" background="@drawable/b35" layout_width="24dp" layout_height="24dp" layout_marginTop="6dp" button="@null" layout_marginEnd="6dp" layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <FrameLayout id="@+id/a25" background="@color/a3" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+    <com.bytedance.tux.icon.TuxIconView id="@+id/a28" layout_width="16dp" layout_height="16dp" layout_marginBottom="6dp" layout_alignParentBottom="true" layout_marginStart="6dp"/>
+</RelativeLayout>

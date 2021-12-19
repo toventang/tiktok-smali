@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center" layout_gravity="center" orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp">
+    <FrameLayout layout_gravity="center" id="@+id/b4d" layout_width="68dp" layout_height="68dp">
+        <com.ss.android.ugc.aweme.tux.business.story.StoryBrandView layout_gravity="center" id="@+id/c0s" layout_width="68dp" layout_height="68dp" NOT_FOUND_0xd="2.5dp"/>
+        <com.ss.android.ugc.aweme.base.ui.AvatarImageView layout_gravity="center" id="@+id/bu0" layout_width="58dp" layout_height="58dp"/>
+        <ImageView layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" id="@+id/bwv" visibility="gone" layout_width="16dp" layout_height="16dp" src="0x7f080586"/>
+    </FrameLayout>
+    <com.bytedance.tux.input.TuxTextView textColor="?attr/ac" ellipsize="end" id="@+id/f3c" layout_width="72dp" layout_height="wrap_content" layout_marginTop="2dp" maxLines="1" textAlignment="center" NOT_FOUND_0xe="81"/>
+</LinearLayout>

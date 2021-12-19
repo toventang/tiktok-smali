@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" orientation="vertical" background="@color/a9" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+        <ViewStub layout_gravity="top" id="@+id/eda" layout_width="match_parent" layout_height="48dp"/>
+        <RelativeLayout id="@+id/a3l" background="@drawable/ox" visibility="gone" layout_width="match_parent" layout_height="@dimen/by" layout_marginLeft="16dp" layout_marginTop="4dp" layout_marginRight="16dp" layout_marginBottom="4dp">
+            <com.bytedance.tux.icon.TuxIconView id="@+id/duw" layout_width="24dp" layout_height="24dp" layout_marginLeft="4dp" layout_centerVertical="true" layout_marginStart="4dp" layout_alignParentStart="true" NOT_FOUND_0x19="@raw/icon_magnifying_glass" NOT_FOUND_0x1a="?attr/bj"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/fam" background="@null" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" layout_toRightOf="@+id/duw" layout_centerVertical="true" layout_marginStart="4dp" layout_toEndOf="@+id/duw" NOT_FOUND_0x18="41"/>
+        </RelativeLayout>
+        <com.bytedance.ies.dmt.ui.widget.DmtLoadingLayout id="@+id/cho" layout_width="match_parent" layout_height="match_parent"/>
+        <com.ss.android.ugc.aweme.views.DoubleBallSwipeRefreshLayout id="@+id/ci2" layout_width="match_parent" layout_height="match_parent" layout_marginLeft="16dp" layout_marginRight="16dp" layout_marginBottom="70dp">
+            <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+                <androidx.recyclerview.widget.RecyclerView orientation="vertical" id="@+id/djs" clipToPadding="true" layout_width="match_parent" layout_height="match_parent"/>
+            </LinearLayout>
+        </com.ss.android.ugc.aweme.views.DoubleBallSwipeRefreshLayout>
+    </LinearLayout>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" layout_gravity="bottom" id="@+id/yb" background="@color/bh" visibility="visible" layout_width="match_parent" layout_height="44dp" layout_marginLeft="16dp" layout_marginTop="13dp" layout_marginRight="16dp" layout_marginBottom="12dp" text="@string/bpx" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x18="41"/>
+    <LinearLayout gravity="center" orientation="vertical" id="@+id/c5m" visibility="gone" layout_width="match_parent" layout_height="match_parent">
+        <com.bytedance.lighten.loader.SmartImageView id="@+id/biq" layout_width="72dp" layout_height="72dp" NOT_FOUND_0x15="2" NOT_FOUND_0x16="@color/l" NOT_FOUND_0x17="2dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/fan" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="20dp" text="@string/bpy" NOT_FOUND_0x18="32"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" gravity="center" id="@+id/fao" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginTop="12dp" layout_marginRight="12dp" text="@string/bpz" layout_marginStart="12dp" layout_marginEnd="12dp" NOT_FOUND_0x18="51"/>
+    </LinearLayout>
+</FrameLayout>

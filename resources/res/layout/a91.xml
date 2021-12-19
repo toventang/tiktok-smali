@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" id="@+id/c8b" paddingLeft="@dimen/ek" paddingTop="@dimen/ek" paddingRight="0dp" paddingBottom="@dimen/ek" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" paddingStart="@dimen/ek"/>

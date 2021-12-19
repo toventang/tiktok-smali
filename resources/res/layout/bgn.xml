@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.android.livesdk.chatroom.ui.AlwaysConsumeEventFrameLayout xmlns="" id="@+id/vz" visibility="gone" layout_width="@dimen/zi" layout_height="@dimen/zh"/>

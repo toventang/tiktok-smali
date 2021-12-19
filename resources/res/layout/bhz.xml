@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="" background="@drawable/cbh" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout orientation="horizontal" id="@+id/ch9" paddingLeft="0dp" paddingRight="8dp" layout_width="wrap_content" layout_height="wrap_content" layout_alignParentLeft="true" paddingStart="0dp" paddingEnd="8dp" layout_alignParentStart="true">
+        <com.facebook.drawee.view.SimpleDraweeView layout_gravity="center_vertical" id="@+id/c36" visibility="gone" layout_width="20dp" layout_height="20dp" layout_marginRight="12dp" layout_marginEnd="12dp"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView textSize="15dp" ellipsize="end" layout_gravity="center_vertical" id="@+id/fa2" layout_width="wrap_content" layout_height="wrap_content" maxLines="3" lineSpacingExtra="3dp"/>
+    </LinearLayout>
+    <RelativeLayout gravity="end" id="@+id/ch_" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_alignParentRight="true" layout_alignParentEnd="true"/>
+</merge>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/dqm" background="@drawable/aty" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout orientation="vertical" id="@+id/e0y" layout_width="match_parent" layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bj" layout_gravity="center_horizontal" id="@+id/dyr" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="20dp" text="@string/ci4" NOT_FOUND_0x22="43"/>
+        <HorizontalScrollView scrollbars="none" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="20dp" layout_marginTop="15dp" layout_marginRight="20dp" layout_marginBottom="15dp">
+            <LinearLayout gravity="center" orientation="horizontal" id="@+id/fdk" layout_width="wrap_content" layout_height="wrap_content"/>
+        </HorizontalScrollView>
+    </LinearLayout>
+    <View id="@+id/fhz" background="@color/am" layout_width="match_parent" layout_height="0.5dp" layout_marginLeft="20dp" layout_marginRight="20dp" layout_marginBottom="15dp"/>
+    <LinearLayout orientation="vertical" paddingBottom="12dp" layout_width="match_parent" layout_height="wrap_content">
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView layout_gravity="center_horizontal" id="@+id/e0w" layout_width="165dp" layout_height="165dp" layout_marginBottom="15dp" NOT_FOUND_0x20="@drawable/aqa" NOT_FOUND_0x21="2dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" gravity="left|right|center_vertical|center_horizontal|fill_horizontal|center" id="@+id/e27" padding="10dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="10dp" layout_marginRight="10dp" layout_marginBottom="14dp" maxLines="3" NOT_FOUND_0x22="51"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtEditText textColor="@color/bx" textColorHint="@color/c5" gravity="left|center_vertical|center_horizontal|center|start" id="@+id/asr" background="@drawable/au1" paddingLeft="10dp" paddingTop="9.5dp" paddingRight="10dp" paddingBottom="9.5dp" focusable="true" focusableInTouchMode="true" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="20dp" layout_marginRight="20dp" layout_marginBottom="8dp" hint="@string/cfd" maxLines="2" textCursorDrawable="@drawable/art" textAlignment="viewStart" paddingStart="10dp" paddingEnd="10dp" style="@style/y6"/>
+    </LinearLayout>
+    <View id="@+id/e14" background="@color/am" layout_width="match_parent" layout_height="0.5dp"/>
+    <LinearLayout orientation="horizontal" id="@+id/e0j" layout_width="match_parent" layout_height="49dp">
+        <com.bytedance.ies.dmt.ui.widget.DmtButton textColor="@color/a3" gravity="center" layout_gravity="start" id="@+id/e0l" background="@null" layout_width="0dp" layout_height="49dp" text="@string/cdh" layout_weight="1" textAllCaps="false" style="@style/y9"/>
+        <View layout_gravity="center_horizontal" background="@color/am" layout_width="0.5dp" layout_height="49dp" layout_marginTop="359dp"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtButton textColor="@color/bx" gravity="center" layout_gravity="end" id="@+id/e0r" background="@null" layout_width="0dp" layout_height="49dp" text="@string/ci1" layout_weight="1" textAllCaps="false" style="@style/y9"/>
+    </LinearLayout>
+</LinearLayout>

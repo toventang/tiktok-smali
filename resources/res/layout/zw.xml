@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/a47" background="@color/l" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout orientation="horizontal" id="@+id/cgx" background="?attr/ab_" layout_width="match_parent" layout_height="84dp">
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView layout_gravity="center_vertical" id="@+id/dtl" background="@drawable/a8j" layout_width="64dp" layout_height="64dp" src="0x7f080a4f" layout_marginStart="16dp" NOT_FOUND_0xf="1dp"/>
+        <RelativeLayout layout_gravity="center_vertical" id="@+id/doy" layout_width="match_parent" layout_height="wrap_content" layout_marginStart="12dp">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/a48" layout_width="wrap_content" layout_height="wrap_content" maxWidth="187dp" lines="1" layout_marginEnd="90dp" NOT_FOUND_0x10="43"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" id="@+id/f_a" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" lines="1" layout_below="@+id/a48" layout_marginEnd="90dp" NOT_FOUND_0x10="61"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

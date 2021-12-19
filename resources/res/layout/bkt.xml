@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <RelativeLayout id="@+id/ffp" layout_width="match_parent" layout_height="match_parent">
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/agf" layout_width="match_parent" layout_height="match_parent"/>
+    </RelativeLayout>
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/e_8" visibility="gone" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x4="2"/>
+</RelativeLayout>

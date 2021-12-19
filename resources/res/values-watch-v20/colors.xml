@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gc">#90000000</color>
+    <color name="ge">#90000000</color>
+    <color name="gf">#de000000</color>
+    <color name="gh">@android:color/white</color>
+    <color name="gi">#deffffff</color>
+    <color name="gj">@android:color/black</color>
+    <color name="gk">#deffffff</color>
+</resources>

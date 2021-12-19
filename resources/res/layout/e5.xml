@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout id="@+id/aql" layout_width="match_parent" layout_height="match_parent">
+        <View id="@+id/aqg" layout_width="match_parent" layout_height="match_parent" layout_above="@+id/aqd" soundEffectsEnabled="false" importantForAccessibility="no"/>
+        <RelativeLayout layout_gravity="bottom" id="@+id/aqd" clickable="true" layout_width="match_parent" layout_height="wrap_content">
+            <RelativeLayout id="@+id/aqh" paddingTop="5dp" paddingRight="16dp" paddingBottom="16dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_alignParentRight="true" paddingEnd="16dp" layout_alignParentEnd="true">
+                <RelativeLayout background="@drawable/di" layout_width="wrap_content" layout_height="28dp">
+                    <ImageView id="@+id/aqi" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="6dp" scaleType="fitXY" layout_centerVertical="true" layout_marginStart="6dp"/>
+                    <com.bytedance.tux.input.TuxTextView textColor="@color/a_" id="@+id/aqj" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" layout_marginRight="8dp" layout_toRightOf="@+id/aqi" layout_centerVertical="true" layout_marginStart="4dp" layout_marginEnd="8dp" layout_toEndOf="@+id/aqi" NOT_FOUND_0x28="62"/>
+                </RelativeLayout>
+            </RelativeLayout>
+            <com.ss.android.ugc.aweme.themechange.base.AVDmtPanelRelativeLayout id="@+id/aqc" layout_width="match_parent" layout_height="@dimen/ck" layout_below="@+id/aqh" NOT_FOUND_0x25="true" NOT_FOUND_0x26="@dimen/cl" NOT_FOUND_0x27="true">
+                <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView gravity="center" id="@+id/aqk" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginRight="16dp" minHeight="50dp" text="@string/be4" maxLines="2" lineSpacingExtra="3sp" NOT_FOUND_0x22="7" NOT_FOUND_0x25="true" style="@style/y6"/>
+                <FrameLayout layout_width="match_parent" layout_height="match_parent">
+                    <com.ss.android.ugc.aweme.themechange.base.AVDmtPanelRecycleView layout_gravity="center_vertical" orientation="horizontal" id="@+id/aqf" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x23="18dp" NOT_FOUND_0x24="15dp"/>
+                </FrameLayout>
+                <com.bytedance.ies.dmt.ui.widget.DmtStatusView gravity="center" layout_gravity="center" id="@+id/aqe" layout_width="match_parent" layout_height="match_parent" layout_below="@+id/aqk"/>
+            </com.ss.android.ugc.aweme.themechange.base.AVDmtPanelRelativeLayout>
+        </RelativeLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <include layout_gravity="end" layout_width="40dp" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="32dp" layout_marginRight="10dp" layout_marginBottom="40dp" layout_marginStart="16dp" layout_marginEnd="10dp" layout="@layout/aau"/>
+    <include layout="@layout/ai5"/>
+</FrameLayout>

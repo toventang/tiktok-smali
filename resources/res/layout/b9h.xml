@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.android.live.common.keyboard.MeasureLinearLayout xmlns="" orientation="vertical" id="@+id/ad7" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <view id="@+id/fjm" layout_width="match_parent" layout_height="0dp" layout_weight="1" class="com.bytedance.android.livesdk.chatroom.ui.KeyboardShadowView"/>
+    <LinearLayout orientation="vertical" id="@+id/bp5" background="@color/l" layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout layout_gravity="bottom" orientation="horizontal" id="@+id/bpz" background="@color/l" visibility="visible" layout_width="match_parent" layout_height="52dp">
+            <com.bytedance.android.livesdk.widget.BarrageView layout_gravity="center_vertical" id="@+id/rj" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="8dp" layout_marginStart="8dp"/>
+            <FrameLayout layout_gravity="center_vertical" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="8dp" minHeight="32dp" layout_weight="1" layout_marginStart="8dp">
+                <FrameLayout id="@+id/bq0" layout_width="match_parent" layout_height="match_parent">
+                    <com.bytedance.android.livesdk.chatroom.ui.CommentEditText textSize="15sp" textColor="@color/a05" gravity="left|center_vertical|center_horizontal|center|start" layout_gravity="center_vertical" id="@+id/ate" background="@null" layout_width="match_parent" layout_height="match_parent" layout_marginTop="12dp" layout_marginBottom="12dp" lineSpacingExtra="5sp" inputType="text" imeOptions="actionUnspecified|actionSend|flagNoExtractUi" textCursorDrawable="@drawable/bx5" textAlignment="viewStart"/>
+                    <com.bytedance.android.live.core.widget.FitTextView textSize="15sp" textColor="#b0b0b0" gravity="left|center_vertical|center_horizontal|center|start" layout_gravity="center_vertical" id="@+id/atf" background="@null" focusable="false" clickable="false" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="6dp" maxLines="1" singleLine="true" textAlignment="viewStart" layout_marginStart="6dp"/>
+                </FrameLayout>
+                <FrameLayout id="@+id/bq4" visibility="gone" layout_width="match_parent" layout_height="46dp"/>
+            </FrameLayout>
+            <ImageView layout_gravity="center_vertical" id="@+id/czj" padding="8dp" layout_width="40dp" layout_height="40dp" src="0x7f080e94"/>
+            <ImageView layout_gravity="center_vertical" id="@+id/dyp" padding="8dp" layout_width="40dp" layout_height="40dp" src="0x7f080f8f"/>
+        </LinearLayout>
+        <View background="@color/b2" layout_width="match_parent" layout_height="0.5dp"/>
+        <LinearLayout orientation="vertical" id="@+id/avc" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+            <com.bytedance.android.live.uikit.rtl.RtlViewPager id="@+id/bq7" layout_width="match_parent" layout_height="@dimen/wc"/>
+            <View background="#0d000000" layout_width="match_parent" layout_height="1dp"/>
+            <androidx.constraintlayout.widget.ConstraintLayout layout_width="match_parent" layout_height="@dimen/wd">
+                <com.bytedance.android.live.design.widget.LiveButton id="@+id/bq6" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="11dp" layout_marginEnd="11dp" NOT_FOUND_0x1e="0" NOT_FOUND_0x1f="0" NOT_FOUND_0x22="0" style="@style/sz"/>
+                <LinearLayout orientation="horizontal" id="@+id/bq5" layout_width="0dp" layout_height="match_parent" NOT_FOUND_0x1e="0" NOT_FOUND_0x20="@+id/bq6" NOT_FOUND_0x21="0" NOT_FOUND_0x22="0"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.bytedance.android.live.common.keyboard.MeasureLinearLayout>

@@ -1,0 +1,113 @@
+package com.f.a;
+
+import android.content.ClipboardManager;
+import android.content.Context;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+import android.os.Build;
+import android.os.Handler;
+import android.os.Looper;
+import com.bytedance.apm.internal.ApmDelegate;
+import com.bytedance.covode.number.Covode;
+import com.bytedance.crash.d;
+import com.bytedance.frameworks.apm.trace.MethodCollector;
+import com.ss.android.ugc.aweme.framework.a.a;
+import com.ss.android.ugc.aweme.lancet.i;
+import java.lang.reflect.Field;
+import org.json.JSONObject;
+
+public final class b {
+
+    /* renamed from: a  reason: collision with root package name */
+    public static e f46464a;
+
+    /* renamed from: b  reason: collision with root package name */
+    public static boolean f46465b;
+
+    /* renamed from: c  reason: collision with root package name */
+    public static boolean f46466c;
+
+    /* renamed from: d  reason: collision with root package name */
+    public static boolean f46467d = true;
+
+    /* renamed from: e  reason: collision with root package name */
+    public static Context f46468e;
+
+    static {
+        Covode.recordClassIndex(28366);
+    }
+
+    private static NetworkInfo a(ConnectivityManager connectivityManager) {
+        try {
+            return connectivityManager.getActiveNetworkInfo();
+        } catch (Exception e2) {
+            a.a((Throwable) e2);
+            return com.ss.android.ugc.aweme.net.e.a.a();
+        }
+    }
+
+    private static boolean a(Context context) {
+        NetworkInfo a2;
+        try {
+            ConnectivityManager connectivityManager = (ConnectivityManager) a(context, "connectivity");
+            if (connectivityManager == null || (a2 = a(connectivityManager)) == null || !a2.isAvailable()) {
+                return false;
+            }
+            return true;
+        } catch (Exception unused) {
+        }
+    }
+
+    private static Object a(Context context, String str) {
+        Object obj;
+        MethodCollector.i(5098);
+        if (Build.VERSION.SDK_INT > 27 || !"clipboard".equals(str)) {
+            if (!i.f107220b && "connectivity".equals(str)) {
+                try {
+                    new com.bytedance.platform.godzilla.b.b.b().a();
+                    i.f107220b = true;
+                    obj = context.getSystemService(str);
+                } catch (Throwable unused) {
+                }
+            }
+            obj = context.getSystemService(str);
+        } else if (i.f107219a) {
+            synchronized (ClipboardManager.class) {
+                try {
+                    obj = context.getSystemService(str);
+                    if (Thread.currentThread() != Looper.getMainLooper().getThread()) {
+                        try {
+                            Field declaredField = ClipboardManager.class.getDeclaredField("mHandler");
+                            declaredField.setAccessible(true);
+                            declaredField.set(obj, new i.a((Handler) declaredField.get(obj)));
+                        } catch (Exception e2) {
+                            d.a(e2, "ClipboardManager Handler Reflect Fail");
+                        }
+                    }
+                    i.f107219a = false;
+                } finally {
+                    MethodCollector.o(5098);
+                }
+            }
+        } else {
+            obj = context.getSystemService(str);
+        }
+        return obj;
+    }
+
+    static void a(boolean z, String str, JSONObject jSONObject) {
+        if (!z) {
+            Context context = f46468e;
+            if (context != null && !a(context)) {
+                return;
+            }
+            if (ApmDelegate.a.f25042a.a("image_monitor_error_v2")) {
+                com.bytedance.apm.b.a("image_monitor_error_v2", jSONObject);
+            }
+        }
+        e eVar = f46464a;
+        if (eVar != null) {
+            eVar.a(z, jSONObject);
+        }
+    }
+}

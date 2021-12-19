@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <include id="@+id/bpg" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="32dp" layout_marginTop="@dimen/dg" layout_marginRight="32dp" layout_marginStart="32dp" layout_marginEnd="32dp" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0" NOT_FOUND_0x12="0" layout="@layout/hx"/>
+    <com.ss.android.ugc.aweme.account.ui.LoadingButton textSize="@dimen/d6" id="@+id/bph" layout_width="match_parent" layout_height="44dp" layout_marginLeft="32dp" layout_marginTop="@dimen/dd" layout_marginRight="32dp" text="@string/apa" layout_marginStart="32dp" layout_marginEnd="32dp" NOT_FOUND_0x11="@+id/bpg"/>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/bpf" background="@color/l" visibility="gone" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xc="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

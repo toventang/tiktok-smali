@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/abw" background="@color/bk" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.base.ui.MaxHeightScrollView orientation="vertical" scrollbars="none" layout_width="match_parent" layout_height="wrap_content" requiresFadingEdge="vertical" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0" NOT_FOUND_0x11="0" NOT_FOUND_0x12="300dp">
+        <androidx.recyclerview.widget.RecyclerView id="@+id/c3_" visibility="gone" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xd="true" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0" NOT_FOUND_0x11="0"/>
+    </com.ss.android.ugc.aweme.base.ui.MaxHeightScrollView>
+    <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+        <Button textSize="12sp" gravity="center" id="@+id/j2" background="@color/av" layout_width="0dp" layout_height="wrap_content" text="first allow" layout_weight="1"/>
+        <Button textSize="12sp" gravity="center" id="@+id/dqy" background="@color/av" layout_width="0dp" layout_height="wrap_content" text="rule" layout_weight="1"/>
+        <Button textSize="12sp" gravity="center" id="@+id/a74" background="@color/av" layout_width="0dp" layout_height="wrap_content" text="Clear" layout_weight="1"/>
+        <Button textSize="12sp" gravity="center" id="@+id/a7p" background="@color/av" layout_width="0dp" layout_height="wrap_content" text="Close" layout_weight="1"/>
+    </LinearLayout>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/aes" visibility="gone" layout_width="match_parent" layout_height="wrap_content" text="The first jump needs to follow the jump rules, the second jump has no restrictions" NOT_FOUND_0x13="71"/>
+</LinearLayout>

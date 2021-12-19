@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@color/l" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout id="@+id/em5" layout_width="match_parent" layout_height="@dimen/a0s">
+        <com.bytedance.tux.navigation.TuxNavBar id="@+id/em8" layout_width="match_parent" layout_height="match_parent"/>
+        <View id="@+id/d02" background="@color/bk" visibility="gone" layout_width="match_parent" layout_height="match_parent" alpha="0"/>
+        <com.ss.android.ugc.aweme.ecommerce.combinepayment.view.PageStepper layout_gravity="bottom" id="@+id/d1h" layout_width="match_parent" layout_height="wrap_content"/>
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/ad7" layout_width="match_parent" layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView id="@+id/djs" layout_width="match_parent" layout_height="0dp" NOT_FOUND_0x8="androidx.recyclerview.widget.LinearLayoutManager" NOT_FOUND_0xa="@+id/ve" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0"/>
+        <View id="@+id/d01" background="@color/bk" visibility="gone" layout_width="match_parent" layout_height="match_parent" alpha="0" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0"/>
+        <com.ss.android.ugc.aweme.ecommerce.combinepayment.ordersubmit.view.OrderSummaryPanel id="@+id/eet" visibility="invisible" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xa="@+id/ve" NOT_FOUND_0xc="0"/>
+        <FrameLayout layout_gravity="bottom" id="@+id/ve" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x9="0" NOT_FOUND_0xc="0"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtStatusView id="@+id/e_o" layout_width="match_parent" layout_height="match_parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

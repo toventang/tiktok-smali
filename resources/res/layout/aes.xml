@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.themechange.base.AVDmtPanelFrameLayout xmlns="" orientation="vertical" id="@+id/at9" layout_width="match_parent" layout_height="@dimen/ck" NOT_FOUND_0x15="@color/d" NOT_FOUND_0x1a="true" NOT_FOUND_0x1d="@dimen/cl" NOT_FOUND_0x1e="true" NOT_FOUND_0x1f="true">
+    <include layout="@layout/aeq"/>
+    <com.ss.android.ugc.aweme.shortvideo.cut.videoedit.VEVideoEditView id="@+id/ffa" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="62dp" NOT_FOUND_0x16="72dp" NOT_FOUND_0x17="4dp" NOT_FOUND_0x18="56dp" NOT_FOUND_0x19="31dp" NOT_FOUND_0x1c="36dp"/>
+    <LinearLayout layout_gravity="bottom" orientation="vertical" id="@+id/ase" layout_width="match_parent" layout_height="wrap_content">
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView textSize="10dp" gravity="center" id="@+id/e5w" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="20dp" text="@string/g7p" shadowColor="@color/bo" shadowRadius="2" NOT_FOUND_0x1b="false"/>
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView textSize="11dp" textColor="@color/c5" ellipsize="end" id="@+id/ev4" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="10dp" layout_marginRight="16dp" layout_marginBottom="0dp" text="@string/bju" maxLines="2" shadowColor="@color/bo" shadowRadius="2" lineSpacingExtra="2dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x1b="false"/>
+        <include layout="@layout/aet"/>
+    </LinearLayout>
+</com.ss.android.ugc.aweme.themechange.base.AVDmtPanelFrameLayout>

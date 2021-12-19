@@ -1,0 +1,25 @@
+package com.bytedance.android.livesdk.function;
+
+import com.bytedance.android.livesdk.function.LiveRoomNotifyWidget;
+import com.bytedance.covode.number.Covode;
+
+final /* synthetic */ class i implements Runnable {
+
+    /* renamed from: a  reason: collision with root package name */
+    private final LiveRoomNotifyWidget.AnonymousClass1.AnonymousClass1 f17799a;
+
+    static {
+        Covode.recordClassIndex(9880);
+    }
+
+    i(LiveRoomNotifyWidget.AnonymousClass1.AnonymousClass1 r1) {
+        this.f17799a = r1;
+    }
+
+    public final void run() {
+        LiveRoomNotifyWidget.AnonymousClass1.AnonymousClass1 r1 = this.f17799a;
+        if (LiveRoomNotifyWidget.this.isViewValid() && LiveRoomNotifyWidget.this.f17764d != null) {
+            LiveRoomNotifyWidget.this.f17764d.start();
+        }
+    }
+}

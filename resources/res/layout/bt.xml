@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.android.ecommerce.ocr.view.OcrCameraPreview id="@+id/bjl" layout_width="match_parent" layout_height="match_parent">
+        <ImageView id="@+id/ckm" background="@color/kb" visibility="invisible" layout_width="match_parent" layout_height="match_parent"/>
+    </com.bytedance.android.ecommerce.ocr.view.OcrCameraPreview>
+    <com.bytedance.android.ecommerce.ocr.view.OcrTitleView id="@+id/cyi" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x11="@drawable/bm7" NOT_FOUND_0x12="true" NOT_FOUND_0x13="true"/>
+    <FrameLayout id="@+id/bjs" layout_width="327dp" layout_height="212dp" layout_centerInParent="true">
+        <ImageView id="@+id/bjt" layout_width="327dp" layout_height="212dp" src="@drawable/b5g"/>
+        <com.bytedance.android.ecommerce.view.OcrScanView id="@+id/bju" layout_width="327dp" layout_height="match_parent" NOT_FOUND_0x14="@drawable/bbc"/>
+    </FrameLayout>
+    <TextView textAppearance="@style/zu" gravity="center_horizontal" id="@+id/bjr" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="66dp" layout_marginTop="24dp" layout_marginRight="66dp" text="Place the bank card face in this area and align the edge of the scan box" layout_below="@+id/bjs" lineSpacingExtra="0sp"/>
+    <TextView textAppearance="@style/zu" id="@+id/bjm" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="origin image size is 0.2582130432128906M , final image size is 0.2582130432128906" layout_below="@+id/bjr" layout_centerHorizontal="true" lineSpacingExtra="0sp"/>
+</RelativeLayout>

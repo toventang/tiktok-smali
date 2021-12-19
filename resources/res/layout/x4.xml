@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/ck_" background="@drawable/sh" paddingLeft="20dp" paddingTop="18dp" paddingRight="20dp" paddingBottom="12dp" layout_width="wrap_content" layout_height="wrap_content" paddingStart="20dp" paddingEnd="20dp">
+    <ProgressBar layout_gravity="center_horizontal" id="@+id/dc1" layout_width="24dp" layout_height="24dp" indeterminate="true" indeterminateDrawable="@drawable/cd5"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView textColor="@color/a9" id="@+id/ci7" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="11.5dp" text="@string/cbz"/>
+</LinearLayout>

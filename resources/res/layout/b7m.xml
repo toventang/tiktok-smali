@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/c7o" background="@null" layout_width="match_parent" layout_height="wrap_content">
+    <FrameLayout orientation="horizontal" id="@+id/emj" background="@drawable/bqz" layout_width="match_parent" layout_height="52dp">
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="17sp" textColor="@color/a0h" gravity="center" layout_gravity="center" id="@+id/f9m" layout_width="wrap_content" layout_height="wrap_content" text="@string/ehb" lineSpacingExtra="3sp" NOT_FOUND_0x10="2"/>
+        <ImageView layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/yv" layout_width="wrap_content" layout_height="wrap_content" src="0x7f080f51" layout_marginEnd="56dp"/>
+        <ImageView layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/yx" layout_width="wrap_content" layout_height="wrap_content" src="0x7f080f92" layout_marginEnd="16dp"/>
+    </FrameLayout>
+    <View id="@+id/fjm" background="#e7e7e8" layout_width="match_parent" layout_height="0.5dp"/>
+    <com.bytedance.android.livesdk.widget.LiveLoadingView layout_gravity="center" id="@+id/chc" background="@color/a24" padding="6dp" visibility="visible" layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/djs" background="@color/a24" visibility="gone" layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+</LinearLayout>

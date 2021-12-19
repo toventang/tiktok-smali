@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="48dp" layout_height="62dp">
+    <com.bytedance.android.live.core.widget.HSImageView id="@+id/av7" layout_width="32dp" layout_height="32dp" NOT_FOUND_0x3="0" NOT_FOUND_0x4="0" NOT_FOUND_0x5="0" NOT_FOUND_0x6="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

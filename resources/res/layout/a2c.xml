@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/f8k" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="20dp" layout_marginBottom="4dp" text="@string/by7" layout_marginStart="16dp" NOT_FOUND_0x10="62"/>
+    <LinearLayout orientation="horizontal" id="@+id/cfb" background="@drawable/a9m" layout_width="match_parent" layout_height="76dp">
+        <com.bytedance.tux.icon.TuxIconView layout_gravity="center_vertical" id="@+id/bi7" layout_width="56dp" layout_height="56dp" layout_marginStart="16dp" layout_marginEnd="12dp" NOT_FOUND_0x11="@raw/icon_color_facebook_circle"/>
+        <LinearLayout layout_gravity="center_vertical" orientation="vertical" layout_width="0dp" layout_height="wrap_content" layout_weight="1" layout_marginEnd="15dp">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/b3l" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="0dp" text="@string/by5" maxLines="1" singleLine="true" NOT_FOUND_0x10="42"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" id="@+id/dwe" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="0dp" text="@string/by4" maxLines="2" singleLine="false" NOT_FOUND_0x10="61"/>
+        </LinearLayout>
+        <com.ss.android.ugc.aweme.friends.invite.I18nFollowAndInviteUserBtn layout_gravity="center_vertical" id="@+id/fap" layout_width="wrap_content" layout_height="wrap_content" layout_marginEnd="16dp"/>
+    </LinearLayout>
+</LinearLayout>

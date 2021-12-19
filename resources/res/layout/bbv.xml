@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="40dp">
+    <LinearLayout layout_gravity="left" orientation="horizontal" id="@+id/c69" paddingLeft="12dp" paddingTop="3dp" paddingBottom="3dp" layout_width="wrap_content" layout_height="match_parent" layoutDirection="ltr"/>
+    <LinearLayout layout_gravity="right" orientation="horizontal" id="@+id/c7l" paddingTop="3dp" paddingRight="12dp" paddingBottom="3dp" layout_width="wrap_content" layout_height="match_parent" layoutDirection="rtl"/>
+    <com.bytedance.android.live.core.widget.HSImageView layout_gravity="center" id="@+id/bub" visibility="gone" layout_width="@dimen/rc" layout_height="@dimen/rb"/>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" background="@color/v" layout_width="match_parent" layout_height="40dp" paddingStart="16dp" paddingEnd="16dp">
+    <ImageView layout_gravity="left|center_vertical|center_horizontal|center|start" id="@+id/bis" layout_width="20dp" layout_height="20dp" src="@drawable/a81"/>
+    <TextSwitcher layout_gravity="left|center_vertical|center_horizontal|center|start" id="@+id/eri" background="@null" layout_width="match_parent" layout_height="wrap_content" inAnimation="@anim/dm" outAnimation="@anim/dz" layout_marginStart="25dp" layout_marginEnd="25dp"/>
+    <com.bytedance.tux.icon.TuxIconView layout_gravity="right|center_vertical|center_horizontal|center|end" layout_width="16dp" layout_height="16dp" NOT_FOUND_0xc="@raw/icon_chevron_right_offset_ltr" NOT_FOUND_0xd="?attr/bj"/>
+</FrameLayout>

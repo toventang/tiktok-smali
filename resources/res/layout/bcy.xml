@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" orientation="horizontal" layout_width="match_parent" layout_height="457dp">
+    <View id="@+id/fhz" background="#f8f8f8" layout_width="match_parent" layout_height="8dp" NOT_FOUND_0xd="0" NOT_FOUND_0x11="0" NOT_FOUND_0x13="0"/>
+    <androidx.constraintlayout.widget.ConstraintLayout background="@color/a24" layout_width="match_parent" layout_height="457dp" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0x11="0" NOT_FOUND_0x12="@+id/fhz">
+        <ImageView id="@+id/avv" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="80dp" src="0x7f080fe4" NOT_FOUND_0xd="0" NOT_FOUND_0x11="0" NOT_FOUND_0x13="0"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/a1r" gravity="center_horizontal" id="@+id/title" layout_width="0dp" layout_height="wrap_content" layout_marginTop="15dp" text="@string/egt" layout_marginStart="32dp" layout_marginEnd="32dp" NOT_FOUND_0xc="@+id/clf" NOT_FOUND_0xd="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0" NOT_FOUND_0x11="0" NOT_FOUND_0x12="@+id/avv" style="@style/tn"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/a1s" gravity="center_horizontal" id="@+id/clf" layout_width="0dp" layout_height="wrap_content" layout_marginTop="12dp" text="@string/e6k" layout_marginStart="32dp" layout_marginEnd="32dp" NOT_FOUND_0xc="@+id/yt" NOT_FOUND_0xd="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0" NOT_FOUND_0x11="0" NOT_FOUND_0x12="@+id/title" NOT_FOUND_0x14="100dp" style="@style/tr"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/a1r" gravity="center" id="@+id/yt" background="@drawable/bu0" layout_width="240dp" layout_height="44dp" layout_marginTop="20dp" text="@string/e6l" NOT_FOUND_0xd="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0" NOT_FOUND_0x11="0" NOT_FOUND_0x12="@+id/clf" style="@style/tq"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

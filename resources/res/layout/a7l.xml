@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.im.sdk.share.ui.nested.ShareNestedLayout xmlns="" layout_gravity="bottom" orientation="vertical" id="@+id/e1o" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent" layout_alignParentBottom="true" translationY="538dp">
+    <View id="@+id/d57" layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+    <LinearLayout layout_gravity="bottom" orientation="vertical" id="@+id/aea" background="@drawable/ar4" layout_width="match_parent" layout_height="538dp">
+        <include layout="@layout/a7x"/>
+        <FrameLayout id="@+id/elm" layout_width="match_parent" layout_height="wrap_content"/>
+        <include layout="@layout/a4f"/>
+    </LinearLayout>
+</com.ss.android.ugc.aweme.im.sdk.share.ui.nested.ShareNestedLayout>

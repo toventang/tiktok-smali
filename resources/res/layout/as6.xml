@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/dqk" background="@color/a2" layout_width="match_parent" layout_height="match_parent"> s 
+    <RelativeLayout layout_gravity="bottom" id="@+id/dow" layout_width="match_parent" layout_height="100dp" layout_marginBottom="40dp">
+        <com.ss.android.ugc.aweme.shortvideo.widget.RecordLayout id="@+id/div" layout_width="100dp" layout_height="100dp" layout_centerInParent="true"/>
+        <RelativeLayout id="@+id/atv" layout_width="match_parent" layout_height="match_parent" layout_centerVertical="true" contentDescription="@string/gjh" layout_toStartOf="@+id/div" layout_alignParentStart="true">
+            <com.ss.android.ugc.aweme.widgetcompat.RemoteImageView id="@+id/c26" layout_width="36dp" layout_height="36dp" layout_centerInParent="true" importantForAccessibility="no" NOT_FOUND_0x21="0x7f0806ba" NOT_FOUND_0x22="6"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/a9" ellipsize="end" gravity="top|center_vertical|center_horizontal|center" id="@+id/f9r" layout_width="72dp" layout_height="match_parent" layout_marginTop="2dp" text="@string/gjh" maxLines="2" shadowColor="@color/bo" shadowDx="0" shadowDy="2" shadowRadius="2" layout_below="@+id/c26" layout_alignParentBottom="true" layout_centerHorizontal="true" importantForAccessibility="no" NOT_FOUND_0x23="82"/>
+            <com.ss.android.ugc.aweme.widgetcompat.RemoteImageView id="@+id/c28" layout_width="36dp" layout_height="36dp" layout_alignTop="@+id/c26" layout_alignRight="@+id/c26" importantForAccessibility="no" layout_alignEnd="@+id/c26" NOT_FOUND_0x20="0"/>
+        </RelativeLayout>
+        <FrameLayout gravity="top|center_vertical|center_horizontal|center" id="@+id/cmm" layout_width="wrap_content" layout_height="match_parent" layout_toRightOf="@+id/div" layout_alignParentRight="true" layout_centerVertical="true" layout_toEndOf="@+id/div" layout_alignParentEnd="true">
+            <com.ss.android.ugc.aweme.shortvideo.local.UploadButton layout_gravity="center" id="@+id/a08" layout_width="wrap_content" layout_height="match_parent"/>
+        </FrameLayout>
+    </RelativeLayout>
+</FrameLayout>

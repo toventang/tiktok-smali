@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns="" layout_gravity="bottom" id="@+id/af4" background="@color/uo" layout_width="match_parent" layout_height="match_parent">
+    <View id="@+id/ebu" layout_width="match_parent" layout_height="74dp" soundEffectsEnabled="false" importantForAccessibility="no"/>
+    <FrameLayout layout_gravity="bottom" id="@+id/eae" layout_width="match_parent" layout_height="match_parent">
+        <com.ss.android.ugc.tools.view.style.StyleLinearLayout orientation="vertical" id="@+id/boe" layout_width="match_parent" layout_height="match_parent" layout_marginTop="74dp" NOT_FOUND_0x17="@dimen/cl" NOT_FOUND_0x18="true">
+            <RelativeLayout id="@+id/bos" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+            <FrameLayout orientation="vertical" id="@+id/bov" paddingTop="16dp" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+            <FrameLayout id="@+id/bok" layout_width="match_parent" layout_height="match_parent">
+                <LinearLayout orientation="vertical" id="@+id/boj" layout_width="match_parent" layout_height="match_parent">
+                    <FrameLayout id="@+id/ebn" layout_width="match_parent" layout_height="wrap_content">
+                        <com.ss.android.ugc.tools.view.style.StyleTabLayout id="@+id/ebm" layout_width="match_parent" layout_height="52dp" layout_marginLeft="16dp" layout_marginRight="16dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0xf="@android:color/transparent" NOT_FOUND_0x10="0" NOT_FOUND_0x11="@color/qs" NOT_FOUND_0x12="2dp" NOT_FOUND_0x13="9999dp" NOT_FOUND_0x14="0" NOT_FOUND_0x15="0dp" NOT_FOUND_0x16="0dp"/>
+                    </FrameLayout>
+                    <View id="@+id/ca6" background="@color/jl" layout_width="match_parent" layout_height="0.5dp"/>
+                    <androidx.viewpager.widget.ViewPager id="@+id/bp1" layout_width="match_parent" layout_height="match_parent"/>
+                </LinearLayout>
+                <FrameLayout id="@+id/bot" layout_width="match_parent" layout_height="match_parent"/>
+            </FrameLayout>
+        </com.ss.android.ugc.tools.view.style.StyleLinearLayout>
+    </FrameLayout>
+    <View id="@+id/tv" layout_width="match_parent" layout_height="match_parent" soundEffectsEnabled="false"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

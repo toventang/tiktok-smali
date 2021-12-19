@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="wrap_content" style="@style/yj">
+    <include layout="@layout/a7f"/>
+    <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" minHeight="84dp">
+        <include layout="@layout/a7v"/>
+        <com.ss.android.ugc.aweme.base.ui.AvatarImageView id="@+id/pf" style="@style/yk"/>
+        <LinearLayout orientation="vertical" layout_width="wrap_content" layout_height="wrap_content">
+            <include layout="@layout/a7g"/>
+            <FrameLayout id="@+id/adh" background="@drawable/aqu" layout_width="255dp" layout_height="wrap_content">
+                <LinearLayout layout_gravity="left|center_vertical|center_horizontal|center|start" orientation="vertical" layout_width="177dp" layout_height="wrap_content" layout_marginTop="12dp" layout_marginBottom="12dp" layout_marginStart="12dp" layout_marginEnd="12dp">
+                    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center_vertical" id="@+id/title_tv" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xd="@integer/k"/>
+                </LinearLayout>
+                <com.ss.android.ugc.aweme.base.ui.RemoteImageView layout_gravity="end" id="@+id/d4o" layout_width="42dp" layout_height="56dp" layout_marginTop="12dp" layout_marginBottom="12dp" layout_marginStart="12dp" layout_marginEnd="12dp"/>
+            </FrameLayout>
+            <include layout="@layout/a71"/>
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/a7d"/>
+</LinearLayout>

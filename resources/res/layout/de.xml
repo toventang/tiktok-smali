@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" paddingLeft="16dp" paddingRight="16dp" layout_width="wrap_content" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+    <com.ss.android.ugc.tools.view.style.StyleView layout_width="0.5dp" layout_height="40dp" layout_marginTop="8dp" NOT_FOUND_0x7="@color/ua"/>
+</RelativeLayout>

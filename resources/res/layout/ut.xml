@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" paddingLeft="16dp" paddingRight="16dp" paddingBottom="24dp" layout_width="match_parent" layout_height="wrap_content">
+    <com.bytedance.tux.widget.RadiusLayout background="@color/k" layout_width="match_parent" layout_height="173dp" NOT_FOUND_0x11="2dp">
+        <com.ss.android.ugc.aweme.views.AutoRTLImageView layout_width="match_parent" layout_height="match_parent" src="0x7f080458"/>
+        <com.bytedance.lighten.loader.SmartCircleImageView layout_gravity="center_horizontal" id="@+id/or" layout_width="48dp" layout_height="48dp" layout_marginTop="8dp" scaleType="fitCenter" NOT_FOUND_0x12="0x7f080767" NOT_FOUND_0x13="2" NOT_FOUND_0x14="#1f161823" NOT_FOUND_0x15="0.5dp"/>
+        <LinearLayout gravity="center_vertical" layout_gravity="bottom|center_vertical|center_horizontal|center" id="@+id/dep" layout_width="wrap_content" layout_height="29dp">
+            <com.bytedance.tux.icon.TuxIconView layout_width="16dp" layout_height="16dp" NOT_FOUND_0x17="@raw/icon_qa_ltr" NOT_FOUND_0x18="?attr/ay"/>
+            <com.bytedance.tux.input.TuxTextView textColor="?attr/ay" paddingTop="6dp" paddingBottom="6dp" layout_width="wrap_content" layout_height="wrap_content" text="@string/dc" maxEms="39" layout_marginStart="4dp" NOT_FOUND_0x16="62"/>
+        </LinearLayout>
+    </com.bytedance.tux.widget.RadiusLayout>
+</FrameLayout>

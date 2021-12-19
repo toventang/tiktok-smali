@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="wrap_content" layout_height="wrap_content">
+    <com.bytedance.android.livesdk.widget.VHeadView id="@+id/bf0" background="@drawable/bxh" padding="1.5dp" layout_width="48dp" layout_height="48dp" layout_marginTop="16dp" scaleType="fitXY" layout_centerHorizontal="true"/>
+    <ImageView id="@+id/bx4" layout_width="24dp" layout_height="24dp" layout_marginTop="-16dp" src="0x7f080ead" layout_below="@+id/bf0" layout_centerHorizontal="true"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="12sp" textColor="#ccffffff" ellipsize="end" gravity="center_vertical" id="@+id/eph" layout_width="wrap_content" layout_height="20dp" layout_marginLeft="8dp" layout_marginTop="16dp" layout_marginRight="8dp" maxLines="1" layout_below="@+id/bf0" layout_centerHorizontal="true"/>
+    <com.bytedance.android.live.core.widget.FitTextView textSize="12sp" textColor="#7affffff" gravity="center" id="@+id/epg" background="@drawable/bxe" paddingLeft="8dp" paddingRight="8dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" layout_below="@+id/eph" layout_centerHorizontal="true"/>
+</RelativeLayout>

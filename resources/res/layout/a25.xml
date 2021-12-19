@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" paddingTop="29dp" paddingBottom="23dp" layout_width="match_parent" layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/bu0" layout_width="84dp" layout_height="84dp" NOT_FOUND_0x9="@drawable/a9l" NOT_FOUND_0xa="0" NOT_FOUND_0xb="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="@drawable/a9l" NOT_FOUND_0x11="true"/>
+    <View id="@+id/byh" background="0x7f08055a" layout_width="53dp" layout_height="60dp" layout_marginEnd="13.7dp" NOT_FOUND_0xa="0" NOT_FOUND_0xc="@+id/bu0" NOT_FOUND_0xf="0"/>
+    <View background="0x7f08055b" layout_width="47dp" layout_height="69dp" layout_marginTop="-2dp" layout_marginStart="15dp" NOT_FOUND_0xd="@+id/bu0" NOT_FOUND_0xf="@+id/bu0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

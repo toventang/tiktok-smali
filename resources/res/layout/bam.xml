@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" padding="7dp" layout_width="match_parent" layout_height="match_parent" layout_marginTop="6dp">
+    <com.bytedance.android.live.core.widget.HSImageView id="@+id/bwm" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x5="2dp" NOT_FOUND_0x6="1"/>
+</FrameLayout>

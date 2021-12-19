@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout id="@+id/ca1" layout_width="match_parent" layout_height="match_parent"/>
+    <LinearLayout gravity="center_horizontal" layout_gravity="center" orientation="vertical" background="@drawable/bpo" layout_width="310dp" layout_height="wrap_content">
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/bx" gravity="center" id="@+id/ca5" layout_width="270dp" layout_height="wrap_content" layout_marginTop="24dp" text="@string/emr" style="@style/tj"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/c4" gravity="center" id="@+id/ca2" layout_width="270dp" layout_height="wrap_content" layout_marginTop="12dp" style="@style/to"/>
+        <LinearLayout gravity="center" orientation="horizontal" id="@+id/afz" layout_width="match_parent" layout_height="50dp" layout_marginTop="12dp" layoutDirection="ltr">
+            <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/bx" gravity="center" id="@+id/afu" background="@drawable/bpp" layout_width="50dp" layout_height="50dp" style="@style/tg"/>
+            <ImageView gravity="center" id="@+id/aft" layout_width="20dp" layout_height="24dp" src="0x7f080f54" scaleType="center"/>
+            <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/bx" gravity="center" id="@+id/afv" background="@drawable/bpp" layout_width="50dp" layout_height="50dp" style="@style/tg"/>
+        </LinearLayout>
+        <View id="@+id/ca3" background="@color/b6" layout_width="match_parent" layout_height="0.5dp" layout_marginTop="20dp"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/bx" gravity="center" id="@+id/ca4" layout_width="match_parent" layout_height="48dp" text="@string/emq" style="@style/tq"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" clipChildren="false" layout_width="88dp" layout_height="110dp">
+    <include id="@+id/es6" visibility="invisible" layout_width="match_parent" layout_height="match_parent" layout="@layout/baf"/>
+    <FrameLayout id="@+id/adx" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0" NOT_FOUND_0x15="0">
+        <ImageView id="@+id/c9v" visibility="gone" layout_width="wrap_content" layout_height="13dp" layout_marginTop="16dp" scaleType="fitXY"/>
+        <com.bytedance.android.live.core.widget.HSImageView layout_gravity="center_horizontal" id="@+id/cuk" layout_width="56dp" layout_height="56dp" layout_marginTop="12dp"/>
+        <androidx.constraintlayout.widget.ConstraintLayout layout_width="match_parent" layout_height="match_parent">
+            <com.bytedance.android.livesdk.widget.CountDownTextView textSize="8sp" textColor="@color/a24" id="@+id/f9g" background="@drawable/bs8" padding="2dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="60dp" layout_marginBottom="36dp" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0" NOT_FOUND_0x15="0"/>
+            <com.bytedance.android.live.design.widget.LiveTextView textSize="12sp" textColor="@color/xm" ellipsize="end" gravity="center" layout_gravity="center_horizontal" id="@+id/cul" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="72dp" layout_marginBottom="2dp" maxLines="1" NOT_FOUND_0x15="0"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="10sp" textColor="@color/a9" layout_gravity="top|right|center_vertical|center_horizontal|center|end" id="@+id/dd4" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" layout_marginRight="10dp" layout_marginEnd="10dp"/>
+    </FrameLayout>
+    <com.bytedance.android.livesdk.service.animation.view.LiveNewSendGiftAnimationView id="@+id/bb5" visibility="gone" clipChildren="false" layout_width="match_parent" layout_height="match_parent"/>
+</FrameLayout>

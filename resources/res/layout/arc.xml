@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <Button id="@+id/b28" visibility="gone" layout_width="150dp" layout_height="150dp" NOT_FOUND_0x6="0" NOT_FOUND_0x7="0" NOT_FOUND_0x8="0"/>
+    <com.ss.android.ugc.aweme.qna.ui.QnaRecyclerView id="@+id/dgd" paddingTop="8dp" visibility="gone" clipToPadding="false" layout_width="match_parent" layout_height="match_parent"/>
+    <include layout="@layout/ara"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

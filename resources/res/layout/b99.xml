@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@color/c9" layout_width="match_parent" layout_height="match_parent">
+    <View id="@+id/d10" layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+    <FrameLayout orientation="horizontal" id="@+id/emj" background="@drawable/bqz" layout_width="match_parent" layout_height="52dp">
+        <FrameLayout layout_gravity="left|center_vertical|center_horizontal|center|start" id="@+id/c6_" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginStart="16dp"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="17sp" textColor="@color/a0h" gravity="center" layout_gravity="center" id="@+id/f9l" layout_width="wrap_content" layout_height="wrap_content" lineSpacingExtra="3sp" NOT_FOUND_0x12="2"/>
+        <FrameLayout layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/c7m" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="16dp" layout_marginEnd="16dp"/>
+        <ImageView id="@+id/by8" visibility="gone" layout_width="0dp" layout_height="0dp" layout_toRightOf="@+id/f9l" layout_centerVertical="true"/>
+    </FrameLayout>
+    <View id="@+id/fjm" background="#e7e7e8" layout_width="match_parent" layout_height="0.5dp"/>
+    <FrameLayout id="@+id/b94" background="@color/l" layout_width="match_parent" layout_height="wrap_content"/>
+</LinearLayout>

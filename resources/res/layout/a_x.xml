@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout gravity="center" id="@+id/jl" background="@drawable/cj" padding="0.5dp" layout_width="match_parent" layout_height="wrap_content">
+        <com.ss.android.ugc.aweme.base.ui.SquareImageView id="@+id/bi7" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xc="@color/f" NOT_FOUND_0xd="@color/f" NOT_FOUND_0xe="2dp"/>
+    </LinearLayout>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/title" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" layout_marginBottom="4dp" maxLines="2" textDirection="locale" NOT_FOUND_0xf="41"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/d99" layout_width="wrap_content" layout_height="wrap_content" textDirection="locale" NOT_FOUND_0xf="53"/>
+</LinearLayout>

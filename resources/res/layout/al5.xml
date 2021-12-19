@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="" layout_width="match_parent" layout_height="68dp">
+    <LinearLayout orientation="horizontal" id="@+id/cmy" visibility="gone" layout_width="match_parent" layout_height="44dp" layout_marginLeft="16dp" layout_marginTop="12dp" layout_marginRight="16dp" layout_marginBottom="12dp">
+        <com.bytedance.tux.button.TuxButton id="@+id/ze" layout_width="wrap_content" layout_height="wrap_content" text="@string/fcf" layout_weight="1" layout_marginEnd="4dp" NOT_FOUND_0xd="3" NOT_FOUND_0xe="1"/>
+        <com.bytedance.tux.button.TuxButton id="@+id/xp" layout_width="wrap_content" layout_height="wrap_content" text="@string/pn" layout_weight="1" layout_marginStart="4dp" NOT_FOUND_0xd="3" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0x7f0809b4"/>
+    </LinearLayout>
+    <com.bytedance.tux.button.TuxButton id="@+id/zf" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="12dp" layout_marginRight="16dp" layout_marginBottom="12dp" text="@string/fcg" NOT_FOUND_0xd="3" NOT_FOUND_0xe="1"/>
+</merge>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/ax8" background="@drawable/cbo" layout_width="match_parent" layout_height="52dp">
+    <com.bytedance.lighten.loader.SmartImageView id="@+id/ax6" layout_width="20dp" layout_height="20dp" layout_marginLeft="16dp" layout_centerVertical="true" layout_marginStart="16dp" NOT_FOUND_0xd="@drawable/z2"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/ax_" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" text="Shipping info" layout_toRightOf="@+id/ax6" layout_centerVertical="true" lineSpacingExtra="3sp" layout_marginStart="16dp" layout_toEndOf="@+id/ax6" NOT_FOUND_0xe="42"/>
+</RelativeLayout>

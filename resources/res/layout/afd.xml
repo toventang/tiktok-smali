@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content">
+    <com.bytedance.ies.bullet.ui.common.BulletContainerView id="@+id/a0e" layout_width="wrap_content" layout_height="wrap_content"/>
+</FrameLayout>

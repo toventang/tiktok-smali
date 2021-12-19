@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/c7x" visibility="gone" layout_width="wrap_content" layout_height="30dp" layout_marginStart="12dp">
+    <com.bytedance.tux.input.TuxCheckBox layout_gravity="center" id="@+id/a3c" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x6="0" NOT_FOUND_0x7="0"/>
+</FrameLayout>

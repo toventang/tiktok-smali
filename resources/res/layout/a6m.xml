@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_gravity="center" id="@+id/pe" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" layout_marginBottom="8dp">
+    <com.ss.android.ugc.aweme.base.ui.AvatarImageView layout_gravity="center" id="@+id/pd" layout_width="48dp" layout_height="48dp"/>
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.ies.ugc.aweme.commercialize.splash.topview.mask.AwesomeSplashNewMask xmlns="" id="@+id/q6" layout_width="match_parent" layout_height="match_parent">
+    <ImageView id="@+id/c2_" background="0x7f080ad3" visibility="gone" layout_width="match_parent" layout_height="80dp" rotation="180"/>
+    <Space id="@+id/q7" layout_width="match_parent" layout_height="0px"/>
+    <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView id="@+id/q5" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="14dp" layout_marginTop="14dp" src="0x7f080c4e" scaleType="centerInside" layout_below="@+id/q7" layout_alignParentLeft="true" layoutDirection="ltr"/>
+    <include id="@+id/e50" layout_width="wrap_content" layout_height="wrap_content" layout_below="@+id/q7" layout_alignParentRight="true" layout="@layout/bk5"/>
+    <com.bytedance.tux.input.TuxTextView gravity="center" id="@+id/f7l" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" shadowColor="@color/bo" shadowDy="1" layout_below="@+id/q7" layout_marginEnd="13dp" layout_alignParentEnd="true" NOT_FOUND_0x19="71"/>
+    <RelativeLayout id="@+id/doq" background="0x7f080ad3" visibility="gone" layout_width="match_parent" layout_height="114dp" layout_alignParentBottom="true">
+        <ImageView id="@+id/c05" padding="8dp" layout_width="30dp" layout_height="24dp" layout_marginBottom="-12dp" src="0x7f0810b4" scaleType="fitXY" layout_above="@+id/f51" layout_centerHorizontal="true"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="top" id="@+id/f51" padding="8dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="46dp" shadowColor="@color/bo" shadowDy="1" layout_alignParentBottom="true" layout_centerHorizontal="true" NOT_FOUND_0x19="41"/>
+    </RelativeLayout>
+</com.bytedance.ies.ugc.aweme.commercialize.splash.topview.mask.AwesomeSplashNewMask>

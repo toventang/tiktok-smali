@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="200dp" layout_height="wrap_content">
+    <FrameLayout id="@+id/aa8" background="@drawable/qf" paddingTop="10dp" paddingBottom="10dp" layout_width="wrap_content" layout_height="wrap_content" paddingStart="8dp" paddingEnd="8dp" NOT_FOUND_0x12="0" NOT_FOUND_0x14="0">
+        <com.ss.android.ugc.tools.view.widget.CircleImageView id="@+id/a9u" layout_width="24dp" layout_height="24dp" layout_marginTop="15dp" scaleType="fitXY" NOT_FOUND_0x15="0x7f080add"/>
+        <LinearLayout orientation="vertical" id="@+id/ejn" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="30dp">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/g_" ellipsize="end" gravity="left|center_vertical|center_horizontal|center|start" id="@+id/aae" layout_width="wrap_content" layout_height="wrap_content" text="@string/fcp" maxLines="2" NOT_FOUND_0x16="93"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" gravity="left|center_vertical|center_horizontal|center|start" id="@+id/aa7" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="2dp" maxLines="10" NOT_FOUND_0x16="43"/>
+        </LinearLayout>
+    </FrameLayout>
+    <com.ss.android.ugc.aweme.themechange.base.AVDmtAutoRTLImageView layout_width="12dp" layout_height="8dp" src="0x7f08037d" NOT_FOUND_0x12="0" NOT_FOUND_0x13="@+id/aa8"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

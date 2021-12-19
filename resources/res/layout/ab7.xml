@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.themechange.base.AVDmtPanelFrameLayout xmlns="" id="@+id/dqn" layout_width="48dp" layout_height="48dp" NOT_FOUND_0x5="2dp" NOT_FOUND_0x6="true">
+    <com.ss.android.ugc.aweme.shortvideo.cut.stickingpoint.view.DmtPlusView layout_gravity="center" id="@+id/hp" layout_width="12dp" layout_height="12dp" NOT_FOUND_0x4="2dp" NOT_FOUND_0x5="1dp"/>
+</com.ss.android.ugc.aweme.themechange.base.AVDmtPanelFrameLayout>

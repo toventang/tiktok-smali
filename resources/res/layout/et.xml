@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="" layout_width="match_parent" layout_height="wrap_content" layoutDirection="ltr">
+    <com.ss.android.ugc.tools.view.widget.AVTextView textColor="@color/re" id="@+id/f7s" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="15dp" text="00:00" layout_centerVertical="true" layout_marginStart="15dp" style="@style/a1z"/>
+    <com.ss.android.ugc.tools.view.widget.AVTextView textColor="@color/re" id="@+id/ez7" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="15dp" text="00:15" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="15dp" layout_alignParentEnd="true" style="@style/a1z"/>
+    <FrameLayout id="@+id/au4" layout_width="match_parent" layout_height="wrap_content" layout_centerVertical="true">
+        <com.ss.android.ugc.aweme.shortvideo.widget.ChooseVideoCoverView id="@+id/a61" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x11="28dp" NOT_FOUND_0x12="28dp"/>
+        <FrameLayout id="@+id/uu" layout_width="match_parent" layout_height="28dp"/>
+        <com.ss.android.ugc.aweme.effect.VEEffectSeekBar id="@+id/au3" layout_width="match_parent" layout_height="28dp"/>
+    </FrameLayout>
+    <FrameLayout id="@+id/doc" layout_width="20dp" layout_height="40dp" layout_alignLeft="@+id/au4" layout_centerVertical="true" layout_alignStart="@+id/au4">
+        <ImageView layout_gravity="center_vertical" id="@+id/exn" layout_width="4dp" layout_height="40dp"/>
+    </FrameLayout>
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout gravity="center_horizontal" orientation="vertical" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x8="0" NOT_FOUND_0x9="0" NOT_FOUND_0xa="0" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0.4">
+        <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlImageView id="@+id/axg" layout_width="72dp" layout_height="72dp"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="?attr/amo" id="@+id/title" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="20dp" style="@style/tn"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="?attr/amo" gravity="center" id="@+id/adh" layout_width="310dp" layout_height="wrap_content" layout_marginTop="12dp" style="@style/tr"/>
+        <com.bytedance.android.live.design.widget.LiveButton id="@+id/dmf" layout_width="240dp" layout_height="@dimen/ud" layout_marginTop="20dp" text="@string/egj" style="@style/t1"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

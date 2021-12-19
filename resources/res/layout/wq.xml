@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center_vertical" orientation="horizontal" paddingLeft="12dp" paddingRight="12dp" layout_width="match_parent" layout_height="wrap_content" layout_centerVertical="true">
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/cqi" layout_width="16dp" layout_height="16dp"/>
+    <include layout_width="0dp" layout_height="match_parent" layout_marginLeft="8dp" layout_marginRight="16dp" layout_weight="1" layout_marginStart="8dp" layout_marginEnd="16dp" layout="@layout/wh"/>
+    <include id="@+id/vc" layout="@layout/wj"/>
+</LinearLayout>

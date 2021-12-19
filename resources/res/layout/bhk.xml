@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.android.live.design.widget.LiveEditText xmlns="" textSize="17dp" textColor="@color/a9" textColorHint="@color/a9" ellipsize="end" gravity="top|left|center_vertical|center_horizontal|center|start" background="@color/c9" paddingLeft="81dp" paddingTop="8dp" paddingRight="8dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" minHeight="81dp" imeOptions="actionDone" textCursorDrawable="@drawable/bx6" textAlignment="viewStart" paddingStart="81dp" paddingEnd="8dp" NOT_FOUND_0x12="7"/>

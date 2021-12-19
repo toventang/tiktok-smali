@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.ies.dmt.ui.gesture.GestureFrameLayout xmlns="" id="@+id/bcd" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.base.ui.ScrollableViewPager id="@+id/fk_" layout_width="match_parent" layout_height="match_parent"/>
+    <include layout="@layout/a3x"/>
+    <ImageView layout_gravity="top|left|center_vertical|center_horizontal|center" id="@+id/bgk" layout_width="wrap_content" layout_height="wrap_content" src="0x7f08094f"/>
+    <ImageView layout_gravity="top|right|center_vertical|center_horizontal|center" id="@+id/bgl" layout_width="wrap_content" layout_height="wrap_content" src="0x7f080950"/>
+    <ViewStub id="@+id/fl4" visibility="gone" layout="@layout/a3h" layout_width="match_parent" layout_height="match_parent"/>
+    <ViewStub id="@+id/flf" layout="@layout/a3g" layout_width="270dp" layout_height="295dp"/>
+    <ViewStub id="@+id/ei" layout="@layout/rr" layout_width="match_parent" layout_height="match_parent"/>
+    <ViewStub id="@+id/eg" layout="@layout/a3f" layout_width="match_parent" layout_height="match_parent"/>
+    <ViewStub id="@+id/ac_" layout="@layout/rx" layout_width="match_parent" layout_height="match_parent"/>
+</com.bytedance.ies.dmt.ui.gesture.GestureFrameLayout>

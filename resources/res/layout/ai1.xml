@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="32dp" layout_marginStart="16dp">
+    <include layout="@layout/ai8"/>
+    <LinearLayout orientation="horizontal" id="@+id/c88" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+        <com.ss.android.ugc.tools.view.style.StyleTextView textSize="10sp" textColor="#ffffffff" gravity="center" id="@+id/c89" layout_width="wrap_content" layout_height="wrap_content" text="@string/z2" shadowDy="1" shadowRadius="2" lineSpacingExtra="3sp" NOT_FOUND_0x13="7"/>
+        <com.ss.android.ugc.tools.view.widget.CircleImageView id="@+id/c8_" layout_width="20dp" layout_height="20dp" layout_marginRight="4dp" layout_marginEnd="4dp"/>
+        <com.ss.android.ugc.tools.view.style.StyleTextView textSize="10sp" textColor="#ffffffff" ellipsize="end" gravity="center" id="@+id/c8a" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="12dp" maxLines="1" shadowDy="1" shadowRadius="2" lineSpacingExtra="3sp" layout_marginEnd="12dp" NOT_FOUND_0x13="7"/>
+    </LinearLayout>
+</LinearLayout>

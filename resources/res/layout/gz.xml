@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" paddingLeft="32dp" paddingTop="40dp" paddingRight="32dp" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a2" id="@+id/d24" layout_width="match_parent" layout_height="wrap_content" text="@string/arv" NOT_FOUND_0x16="23"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/d21" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" text="@string/arw" NOT_FOUND_0x16="41"/>
+    <com.ss.android.ugc.aweme.account.ui.InputWithIndicator id="@+id/d22" layout_width="match_parent" layout_height="48dp" layout_marginTop="25dp" maxLines="1" maxLength="20" inputType="textPassword" NOT_FOUND_0xe="1" NOT_FOUND_0xf="@color/bx" NOT_FOUND_0x10="@string/aru" NOT_FOUND_0x11="15"/>
+    <com.ss.android.ugc.aweme.account.login.v2.ui.InputResultIndicator textSize="@dimen/d5" id="@+id/d23" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="@dimen/d5" NOT_FOUND_0x15="@dimen/d4"/>
+    <com.ss.android.ugc.aweme.account.ui.LoadingButton id="@+id/d20" layout_width="match_parent" layout_height="44dp" layout_marginTop="25dp" text="@string/arp" NOT_FOUND_0x12="3dp" NOT_FOUND_0x13="15dp" NOT_FOUND_0x14="18dp"/>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.android.live.liveinteract.match.ui.view.PKProgressBar layout_gravity="center_vertical" id="@+id/fjb" layout_width="match_parent" layout_height="16dp"/>
+    <FrameLayout layout_gravity="center_vertical" id="@+id/dmx" visibility="gone" layout_width="match_parent" layout_height="16dp"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textColor="?attr/als" gravity="center" layout_gravity="center_vertical" id="@+id/alz" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" includeFontPadding="false" style="@style/tt"/>
+    <com.bytedance.android.live.core.widget.HSImageView id="@+id/d55" visibility="gone" layout_width="50dp" layout_height="match_parent"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textColor="?attr/als" gravity="center" layout_gravity="center_vertical" id="@+id/am0" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" includeFontPadding="false" style="@style/tt"/>
+    <com.bytedance.android.live.core.widget.HSImageView layout_gravity="center" id="@+id/cma" visibility="visible" layout_width="25dp" layout_height="40dp" layout_marginBottom="1dp"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textColor="?attr/als" gravity="center" layout_gravity="left|center_vertical|center_horizontal|center" id="@+id/c_1" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="12dp" includeFontPadding="false" style="@style/tt"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textColor="?attr/als" gravity="center" layout_gravity="right|center_vertical|center_horizontal|center" id="@+id/dno" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="12dp" includeFontPadding="false" style="@style/tt"/>
+</FrameLayout>

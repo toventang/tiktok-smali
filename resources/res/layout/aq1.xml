@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="168dp" layout_height="168dp">
+    <androidx.cardview.widget.CardView layout_gravity="center" background="@color/z" layout_width="156dp" layout_height="156dp" NOT_FOUND_0x8="4dp">
+        <androidx.constraintlayout.widget.ConstraintLayout layout_width="match_parent" layout_height="match_parent">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/u" id="@+id/day" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="10dp" text="@string/a14" NOT_FOUND_0x9="0" NOT_FOUND_0xa="0" NOT_FOUND_0xb="0" NOT_FOUND_0xd="62"/>
+            <com.bytedance.tux.icon.TuxIconView id="@+id/dax" layout_width="30dp" layout_height="30dp" NOT_FOUND_0x9="0" NOT_FOUND_0xa="0" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xe="@raw/icon_plus_small" NOT_FOUND_0xf="28dp" NOT_FOUND_0x10="28dp" NOT_FOUND_0x11="@color/u"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

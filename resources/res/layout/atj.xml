@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_gravity="bottom" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout orientation="vertical" id="@+id/fko" paddingBottom="63dp" layout_width="match_parent" layout_height="wrap_content" layout_alignParentBottom="true" NOT_FOUND_0x1e="@dimen/cl" NOT_FOUND_0x22="true">
+        <FrameLayout layout_width="match_parent" layout_height="wrap_content" layout_marginTop="12dp" layout_marginBottom="22dp">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/a9" layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/bv3" layout_width="wrap_content" layout_height="wrap_content" text="@string/bba" layout_marginEnd="16dp" NOT_FOUND_0x24="42"/>
+        </FrameLayout>
+        <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="75dp" paddingStart="16dp" paddingEnd="0dp">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center_vertical" id="@+id/f47" layout_width="100dp" layout_height="50dp" layout_marginTop="20dp" layout_marginBottom="1dp" text="@string/d1w" singleLine="false" NOT_FOUND_0x24="62" style="@style/y2"/>
+            <com.ss.android.ugc.aweme.views.TextSeekBar layout_gravity="center_vertical" orientation="vertical" id="@+id/ejy" layout_width="match_parent" layout_height="wrap_content">
+                <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView textSize="12dp" textColor="@color/a_" id="@+id/aq0" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="50" NOT_FOUND_0x18="7" NOT_FOUND_0x1a="true"/>
+                <com.ss.android.ugc.aweme.themechange.base.AVDmtSeekBar id="@+id/dww" background="@null" clipChildren="false" clipToPadding="false" layout_width="match_parent" layout_height="wrap_content" maxHeight="4dp" max="100" progress="50" NOT_FOUND_0x19="0dp" NOT_FOUND_0x1b="@color/a_" NOT_FOUND_0x1c="12dp" NOT_FOUND_0x1d="20dp" NOT_FOUND_0x1e="50dp" NOT_FOUND_0x1f="false" NOT_FOUND_0x20="20dp" NOT_FOUND_0x21="20dp" NOT_FOUND_0x23="18dp"/>
+            </com.ss.android.ugc.aweme.views.TextSeekBar>
+        </LinearLayout>
+        <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="75dp" layout_marginTop="0dp" paddingStart="16dp" paddingEnd="0dp">
+            <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView textColor="@color/a9" gravity="center_vertical" id="@+id/f48" layout_width="100dp" layout_height="50dp" layout_marginTop="20dp" text="@string/my" singleLine="false" NOT_FOUND_0x18="7" style="@style/y2"/>
+            <com.ss.android.ugc.aweme.views.TextSeekBar layout_gravity="center_vertical" orientation="vertical" id="@+id/ejx" layout_width="match_parent" layout_height="wrap_content">
+                <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView textSize="13dp" textColor="@color/a_" id="@+id/apy" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="50" NOT_FOUND_0x18="7" NOT_FOUND_0x1a="true"/>
+                <com.ss.android.ugc.aweme.themechange.base.AVDmtSeekBar id="@+id/dwx" background="@null" clipChildren="false" clipToPadding="false" layout_width="match_parent" layout_height="wrap_content" maxHeight="4dp" max="100" progress="50" NOT_FOUND_0x19="0dp" NOT_FOUND_0x1b="@color/a_" NOT_FOUND_0x1c="12dp" NOT_FOUND_0x1d="20dp" NOT_FOUND_0x1e="50dp" NOT_FOUND_0x1f="false" NOT_FOUND_0x20="20dp" NOT_FOUND_0x21="20dp" NOT_FOUND_0x23="18dp"/>
+            </com.ss.android.ugc.aweme.views.TextSeekBar>
+        </LinearLayout>
+    </com.ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout>
+</RelativeLayout>

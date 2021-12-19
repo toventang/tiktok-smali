@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" fitsSystemWindows="false" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.share.qrcode.view.QRCodeBackgroundLayout id="@+id/dfl" layout_width="match_parent" layout_height="match_parent"/>
+    <RelativeLayout fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+        <RelativeLayout orientation="horizontal" id="@+id/dfg" layout_width="match_parent" layout_height="44dp">
+            <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView layout_gravity="left|center_vertical|center_horizontal|center|start" id="@+id/dfh" layout_width="44dp" layout_height="44dp" src="@drawable/b0l" contentDescription="@string/a2g" style="@style/a3j"/>
+            <ImageView id="@+id/dfi" layout_width="40dp" layout_height="40dp" layout_marginRight="8dp" scaleType="centerInside" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="8dp" layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <FrameLayout id="@+id/df4" layout_width="311dp" layout_height="wrap_content" layout_marginTop="99dp" layout_centerHorizontal="true">
+            <LinearLayout orientation="vertical" background="@drawable/bi8" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="32dp">
+                <com.bytedance.tux.input.TuxTextView textColor="@color/a2" ellipsize="end" gravity="center_horizontal" layout_gravity="center_horizontal" id="@+id/dfm" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="52dp" layout_marginRight="16dp" maxLines="2" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x1c="33"/>
+                <FrameLayout layout_gravity="center_horizontal" id="@+id/df_" layout_width="170dp" layout_height="170dp" layout_marginTop="22dp">
+                    <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView layout_gravity="top|left|center_vertical|center_horizontal|center|start" layout_width="19dp" layout_height="19dp" src="0x7f080c04"/>
+                    <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView layout_gravity="top|right|center_vertical|center_horizontal|center|end" layout_width="19dp" layout_height="19dp" src="0x7f080c06"/>
+                    <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" layout_width="19dp" layout_height="19dp" src="0x7f080c05"/>
+                    <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" layout_width="19dp" layout_height="19dp" src="0x7f080c03"/>
+                    <com.ss.android.ugc.aweme.share.qrcode.view.QRCodeSquareView layout_gravity="center" id="@+id/dfa" layout_width="150dp" layout_height="150dp" NOT_FOUND_0x1b="0x7f080ae0"/>
+                </FrameLayout>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" gravity="center" layout_gravity="center_horizontal" id="@+id/df9" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="16dp" layout_marginRight="16dp" text="@string/f7i" maxLines="2" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x1c="91"/>
+                <ImageView layout_gravity="center_horizontal" id="@+id/cj1" layout_width="wrap_content" layout_height="16dp" layout_marginTop="18dp" layout_marginBottom="24dp" src="0x7f08088d"/>
+            </LinearLayout>
+            <com.ss.android.ugc.aweme.base.ui.SmartAvatarBorderView layout_gravity="center_horizontal" id="@+id/dfk" background="@drawable/bi9" layout_width="@dimen/sl" layout_height="@dimen/sl"/>
+        </FrameLayout>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/dff" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" text="@string/f7c" layout_below="@+id/df4" layout_centerHorizontal="true" NOT_FOUND_0x1c="71"/>
+        <com.ss.android.ugc.aweme.share.qrcode.view.UserQRCodeControlView id="@+id/df5" layout_width="match_parent" layout_height="wrap_content" layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</FrameLayout>

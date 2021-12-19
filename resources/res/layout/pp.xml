@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="wrap_content">
+    <View id="@+id/bf9" background="@color/l" layout_width="match_parent" layout_height="44dp" alpha="0"/>
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/bf_" layout_width="match_parent" layout_height="match_parent" layout_marginTop="10dp" layout_marginBottom="10dp">
+        <com.bytedance.tux.icon.TuxIconView id="@+id/a7u" layout_width="24dp" layout_height="24dp" layout_marginLeft="@dimen/fj" layout_marginStart="@dimen/fj" NOT_FOUND_0xc="0" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0" NOT_FOUND_0x18="@raw/icon_x_mark" NOT_FOUND_0x19="true" NOT_FOUND_0x1a="?attr/aa"/>
+        <com.bytedance.tux.icon.TuxIconView id="@+id/e3_" visibility="gone" layout_width="24dp" layout_height="24dp" layout_marginRight="22dp" layout_marginEnd="22dp" NOT_FOUND_0xc="0" NOT_FOUND_0xf="@+id/uf" NOT_FOUND_0x14="0" NOT_FOUND_0x18="@raw/icon_shopping_cart" NOT_FOUND_0x19="true" NOT_FOUND_0x1a="?attr/aa"/>
+        <com.bytedance.tux.badge.TuxAlertBadge id="@+id/e3b" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0xe="@+id/e3a" NOT_FOUND_0x11="@+id/e3a" NOT_FOUND_0x14="@+id/e3a" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0" NOT_FOUND_0x17="1"/>
+        <androidx.legacy.widget.Space id="@+id/e3a" layout_width="10dp" layout_height="14dp" NOT_FOUND_0xd="@+id/e3_" NOT_FOUND_0xe="@+id/e3_" NOT_FOUND_0x10="@+id/e3_" NOT_FOUND_0x11="@+id/e3_" NOT_FOUND_0x12="@+id/e3_" NOT_FOUND_0x14="@+id/e3_"/>
+        <com.bytedance.tux.icon.TuxIconView id="@+id/uf" visibility="gone" layout_width="24dp" layout_height="24dp" layout_marginRight="22dp" layout_marginEnd="22dp" NOT_FOUND_0xc="0" NOT_FOUND_0xf="@+id/co2" NOT_FOUND_0x14="0" NOT_FOUND_0x18="@raw/icon_bookmark" NOT_FOUND_0x19="true" NOT_FOUND_0x1a="?attr/aa"/>
+        <com.bytedance.tux.icon.TuxIconView id="@+id/co2" layout_width="24dp" layout_height="24dp" layout_marginLeft="20dp" layout_marginRight="@dimen/fj" layout_marginStart="20dp" layout_marginEnd="@dimen/fj" NOT_FOUND_0xc="0" NOT_FOUND_0xe="0" NOT_FOUND_0x14="0" NOT_FOUND_0x18="@raw/icon_ellipsis_horizontal" NOT_FOUND_0x19="true" NOT_FOUND_0x1a="?attr/aa"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

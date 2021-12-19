@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/do4" background="@color/us" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.tools.beauty.views.BeautyStyleFrameLayout id="@+id/b4u" background="@color/d_" layout_width="match_parent" layout_height="@dimen/ck" layout_alignParentBottom="true" NOT_FOUND_0x37="@dimen/cl" NOT_FOUND_0x38="true">
+        <RelativeLayout id="@+id/do2" layout_width="match_parent" layout_height="match_parent">
+            <com.ss.android.ugc.tools.view.style.StyleTabLayout id="@+id/en4" layout_width="match_parent" layout_height="@dimen/cm" layout_marginRight="76dp" layout_marginEnd="76dp" NOT_FOUND_0x2f="@android:color/transparent" NOT_FOUND_0x30="@color/ni" NOT_FOUND_0x31="2dp" NOT_FOUND_0x32="30dp" NOT_FOUND_0x33="0" NOT_FOUND_0x34="0dp" NOT_FOUND_0x35="0dp" NOT_FOUND_0x36="@style/r4"/>
+            <com.ss.android.ugc.tools.view.style.StyleRecyclerView id="@+id/dr6" layout_width="match_parent" layout_height="100dp" layout_marginTop="32dp" layout_below="@+id/en4" overScrollMode="never"/>
+            <RelativeLayout id="@+id/do3" layout_width="76dp" layout_height="40dp" layout_alignParentTop="true" layout_alignParentRight="true" layout_alignParentEnd="true">
+                <com.ss.android.ugc.tools.view.style.StyleView id="@+id/fe7" background="@color/nf" layout_width="0.5dp" layout_height="16dp" layout_marginTop="12dp" layout_centerVertical="true"/>
+                <LinearLayout orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true">
+                    <ImageView layout_gravity="center_vertical" id="@+id/bvl" layout_width="wrap_content" layout_height="wrap_content" scaleType="fitCenter"/>
+                    <com.ss.android.ugc.tools.view.style.StyleTextView textSize="13sp" textColor="@color/dz" layout_gravity="center_vertical" id="@+id/ex7" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" text="@string/yb" layout_marginStart="4dp"/>
+                </LinearLayout>
+            </RelativeLayout>
+            <LinearLayout id="@+id/b4t" visibility="gone" layout_width="56dp" layout_height="40dp">
+                <com.ss.android.ugc.aweme.tools.beauty.views.BeautySwitchView layout_gravity="center" id="@+id/b34" layout_width="32dp" layout_height="wrap_content" layout_marginLeft="16dp" NOT_FOUND_0x2b="@drawable/d9" NOT_FOUND_0x2c="2.5dp" NOT_FOUND_0x2d="6dp" NOT_FOUND_0x2e="@color/dt"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout id="@+id/do0" visibility="gone" layout_width="match_parent" layout_height="match_parent">
+            <RelativeLayout id="@+id/do1" layout_width="match_parent" layout_height="@dimen/cm">
+                <FrameLayout id="@+id/b4s" layout_width="40dp" layout_height="match_parent">
+                    <ImageView layout_gravity="center" id="@+id/bvj" layout_width="wrap_content" layout_height="wrap_content" src="0x7f08075e"/>
+                </FrameLayout>
+                <TextView textSize="16dp" textColor="@color/a2r" id="@+id/ex5" layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true"/>
+            </RelativeLayout>
+            <com.ss.android.ugc.tools.view.style.StyleRecyclerView id="@+id/dr5" layout_width="match_parent" layout_height="100dp" layout_marginTop="32dp" layout_below="@+id/do1" overScrollMode="never"/>
+        </RelativeLayout>
+    </com.ss.android.ugc.aweme.tools.beauty.views.BeautyStyleFrameLayout>
+    <LinearLayout orientation="vertical" id="@+id/do5" paddingTop="16dp" paddingBottom="16dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_above="@+id/b4u">
+        <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+            <TextView textSize="13sp" textStyle="bold" textColor="#ffffff" layout_gravity="bottom" id="@+id/f6w" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="8dp" layout_marginBottom="4dp" maxLines="1" maxLength="4" lineSpacingExtra="2dp" layout_marginStart="8dp"/>
+            <com.ss.android.ugc.aweme.tools.beauty.views.BeautySeekBar id="@+id/d2q" background="#0000" padding="0dp" layout_width="match_parent" layout_height="48dp" layout_marginLeft="8dp" layout_marginRight="8dp" indeterminate="false" layout_weight="1" layout_marginStart="8dp" layout_marginEnd="8dp" NOT_FOUND_0x26="11dp" NOT_FOUND_0x27="3dp" NOT_FOUND_0x28="10dp" NOT_FOUND_0x29="#ffffff" NOT_FOUND_0x2a="12sp"/>
+        </LinearLayout>
+        <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+            <TextView textSize="13sp" textStyle="bold" textColor="#ffffff" layout_gravity="bottom" id="@+id/f6x" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="8dp" layout_marginBottom="4dp" maxLines="1" maxLength="4" lineSpacingExtra="2dp" layout_marginStart="8dp"/>
+            <com.ss.android.ugc.aweme.tools.beauty.views.BeautySeekBar id="@+id/d2r" background="#0000" padding="0dp" visibility="gone" layout_width="match_parent" layout_height="48dp" layout_marginLeft="8dp" layout_marginTop="8dp" layout_marginRight="8dp" indeterminate="false" layout_weight="1" layout_marginStart="8dp" layout_marginEnd="8dp" NOT_FOUND_0x26="11dp" NOT_FOUND_0x27="3dp" NOT_FOUND_0x28="10dp" NOT_FOUND_0x29="#ffffff" NOT_FOUND_0x2a="12sp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View id="@+id/fe8" background="@color/us" layout_width="match_parent" layout_height="match_parent" layout_above="@+id/do5" soundEffectsEnabled="false" importantForAccessibility="no"/>
+</RelativeLayout>

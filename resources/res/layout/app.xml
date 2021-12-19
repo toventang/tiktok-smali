@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.tux.input.slider.TuxSlider id="@+id/da2" layout_width="310dp" layout_height="wrap_content" NOT_FOUND_0x3="0" NOT_FOUND_0x4="0" NOT_FOUND_0x5="0" NOT_FOUND_0x6="0" NOT_FOUND_0x7="1" NOT_FOUND_0x8="24dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

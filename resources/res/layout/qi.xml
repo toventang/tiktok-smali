@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/aem" paddingLeft="@dimen/fj" paddingRight="@dimen/fj" layout_width="match_parent" layout_height="wrap_content">
+    <androidx.core.widget.NestedScrollView id="@+id/di3" paddingBottom="68dp" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0">
+        <LinearLayout orientation="vertical" id="@+id/di2" paddingTop="8dp" focusable="true" focusableInTouchMode="true" layout_width="match_parent" layout_height="wrap_content"/>
+    </androidx.core.widget.NestedScrollView>
+    <com.bytedance.tux.button.TuxButton id="@+id/vc" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="12dp" text="@string/bg3" NOT_FOUND_0xc="0" NOT_FOUND_0x10="3" NOT_FOUND_0x11="1" NOT_FOUND_0x12="42"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

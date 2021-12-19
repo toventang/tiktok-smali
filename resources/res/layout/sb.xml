@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center" orientation="vertical" id="@+id/b0r" background="@color/bj" paddingLeft="40dp" paddingRight="40dp" visibility="gone" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/eo" layout_width="64dp" layout_height="64dp" layout_marginBottom="16dp" NOT_FOUND_0x1b="9dp"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a_" gravity="center" id="@+id/fg" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="12dp" NOT_FOUND_0x1c="21"/>
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/eq" background="@drawable/zx" layout_width="120dp" layout_height="120dp" layout_marginBottom="16dp"/>
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/gz" background="@drawable/a02" visibility="gone" layout_width="220dp" layout_height="220dp" NOT_FOUND_0x1b="2dp"/>
+    <LinearLayout gravity="center" id="@+id/gs" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="8.5dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/ez" background="@drawable/zy" paddingLeft="4dp" paddingRight="4dp" paddingBottom="1dp" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" NOT_FOUND_0x1c="71"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/gr" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="8dp" maxLines="1" layout_marginStart="8dp" NOT_FOUND_0x1c="41"/>
+    </LinearLayout>
+    <LinearLayout gravity="center_vertical" orientation="horizontal" id="@+id/fe" layout_width="wrap_content" layout_height="wrap_content">
+        <com.ss.android.ugc.aweme.commercialize.ad.AdRatingView id="@+id/g9" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x17="3dp" NOT_FOUND_0x18="0x7f080c52" NOT_FOUND_0x19="5" NOT_FOUND_0x1a="0x7f080425"/>
+        <View id="@+id/fd" background="@color/a7" layout_width="0.5dp" layout_height="10dp" layout_marginLeft="8dp" layout_marginRight="10.5dp" layout_marginStart="8dp" layout_marginEnd="10.5dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/ac" id="@+id/d5" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="0.5dp" NOT_FOUND_0x1c="71"/>
+    </LinearLayout>
+    <com.ss.android.ugc.aweme.commercialize.ad.DescTextView textSize="14sp" textColor="@color/ac" gravity="center_horizontal" id="@+id/ds" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" maxLines="3"/>
+    <LinearLayout gravity="center" id="@+id/g5" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8.5dp" layout_marginBottom="8.5dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" layout_gravity="bottom" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="0.5dp" text="@string/ff4" NOT_FOUND_0x1c="81"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/g4" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x1c="41"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/ac" ellipsize="end" id="@+id/gb" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="8dp" maxLines="1" layout_marginStart="8dp" NOT_FOUND_0x1c="71"/>
+    </LinearLayout>
+    <com.ss.android.ugc.aweme.commercialize.ad.AdTagGroup id="@+id/gq" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp"/>
+    <Space layout_width="0dp" layout_height="28dp"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" layout_gravity="center" id="@+id/b0p" background="@drawable/azm" paddingTop="9.5dp" paddingBottom="9.5dp" layout_width="match_parent" layout_height="wrap_content" text="@string/bv2" NOT_FOUND_0x1c="41"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" layout_gravity="center" id="@+id/b0u" paddingTop="9.5dp" paddingBottom="9.5dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="22.5dp" text="@string/bv4" NOT_FOUND_0x1c="41"/>
+</LinearLayout>

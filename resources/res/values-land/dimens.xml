@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="f">48dp</dimen>
+    <dimen name="bb">12dp</dimen>
+    <dimen name="bd">14dp</dimen>
+    <dimen name="w8">28dp</dimen>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" orientation="vertical" background="@drawable/boa" layout_width="match_parent" layout_height="450dp">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/emj" layout_width="match_parent" layout_height="52dp" layout_alignParentTop="true">
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="17dp" textColor="@color/bx" id="@+id/f5h" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x11="2" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0" NOT_FOUND_0x17="0"/>
+        <ImageView id="@+id/de7" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="17dp" src="0x7f080f70" layout_marginEnd="17dp" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0" NOT_FOUND_0x15="0" NOT_FOUND_0x17="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View id="@+id/ant" background="@color/y5" layout_width="match_parent" layout_height="1dp" layout_alignBottom="@+id/emj" NOT_FOUND_0x14="0"/>
+    <RelativeLayout id="@+id/dh3" layout_width="match_parent" layout_height="397dp" layout_below="@+id/ant">
+        <androidx.recyclerview.widget.RecyclerView id="@+id/n7" visibility="gone" layout_width="match_parent" layout_height="match_parent" layout_above="@+id/dy8"/>
+        <com.bytedance.android.livesdk.rank.impl.view.SelfRankInfoView id="@+id/dy8" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <RelativeLayout id="@+id/d9x" layout_width="match_parent" layout_height="397dp" layout_below="@+id/ant">
+        <com.bytedance.android.livesdk.widget.LiveLoadingView id="@+id/ci9" visibility="gone" layout_width="36dp" layout_height="36dp" layout_centerInParent="true"/>
+        <com.bytedance.android.livesdk.rank.impl.view.NoNetworkView id="@+id/cvt" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+        <com.bytedance.android.livesdk.rank.impl.view.NoAudienceView id="@+id/cvf" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+        <com.bytedance.android.livesdk.rank.impl.view.ServerFailView id="@+id/dz3" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+    </RelativeLayout>
+</RelativeLayout>

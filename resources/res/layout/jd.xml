@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" background="@color/j" paddingTop="10dp" paddingBottom="10dp" layout_width="match_parent" layout_height="wrap_content">
+    <com.bytedance.lighten.loader.SmartCircleImageView id="@+id/os" layout_width="18dp" layout_height="18dp" layout_marginLeft="16dp" layout_marginStart="16dp" NOT_FOUND_0xc="0" NOT_FOUND_0xf="0" NOT_FOUND_0x14="0" NOT_FOUND_0x15="0"/>
+    <com.bytedance.lighten.loader.SmartCircleImageView id="@+id/ot" layout_width="18dp" layout_height="18dp" layout_marginLeft="13dp" layout_marginStart="13dp" NOT_FOUND_0xc="0" NOT_FOUND_0xf="@+id/os" NOT_FOUND_0x14="@+id/os" NOT_FOUND_0x15="0"/>
+    <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView id="@+id/awu" layout_width="16dp" layout_height="16dp" layout_marginRight="16dp" src="@drawable/mo" layout_marginEnd="16dp" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0x12="0" NOT_FOUND_0x15="0"/>
+    <com.bytedance.tux.input.TuxTextView textColor="?attr/bc" id="@+id/ak7" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="4dp" layout_marginRight="2.5dp" layout_marginStart="4dp" layout_marginEnd="2.5dp" NOT_FOUND_0xc="0" NOT_FOUND_0xe="@+id/awu" NOT_FOUND_0x10="@+id/ot" NOT_FOUND_0x11="@+id/awu" NOT_FOUND_0x13="@+id/ot" NOT_FOUND_0x15="0" NOT_FOUND_0x16="52"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/epv" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.android.live.design.widget.shapecontrol.ShapeControllableLinearLayout layout_gravity="bottom" orientation="vertical" id="@+id/c6" background="?attr/alc" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x9="@dimen/no" NOT_FOUND_0xa="@dimen/no">
+        <LinearLayout orientation="vertical" id="@+id/csh" layout_width="match_parent" layout_height="wrap_content" showDividers="middle">
+            <com.bytedance.android.live.design.view.action.LiveActionButton id="@+id/dl0" layout_width="match_parent" layout_height="wrap_content" style="@style/r_"/>
+            <com.bytedance.android.live.design.view.action.LiveActionButton id="@+id/eqg" layout_width="match_parent" layout_height="wrap_content" text="Translate" style="@style/r_"/>
+            <com.bytedance.android.live.design.view.action.LiveActionButton id="@+id/crm" layout_width="match_parent" layout_height="wrap_content" style="@style/r_"/>
+            <com.bytedance.android.live.design.view.action.LiveActionButton id="@+id/c3v" layout_width="match_parent" layout_height="wrap_content" text="@string/dyt" style="@style/r9"/>
+            <com.bytedance.android.live.design.view.action.LiveActionButton id="@+id/dlm" layout_width="match_parent" layout_height="wrap_content" text="@string/eb1" style="@style/r9"/>
+        </LinearLayout>
+        <View background="?attr/alg" layout_width="match_parent" layout_height="@dimen/o6"/>
+        <com.bytedance.android.live.design.view.action.LiveActionButton id="@+id/a1p" layout_width="match_parent" layout_height="wrap_content" text="@string/gle" style="@style/r8"/>
+    </com.bytedance.android.live.design.widget.shapecontrol.ShapeControllableLinearLayout>
+    <include layout_gravity="bottom" id="@+id/ci9" visibility="gone" layout_width="match_parent" layout_height="200dp" layout="@layout/bei"/>
+</FrameLayout>

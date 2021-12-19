@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center_vertical" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.ies.dmt.ui.widget.DmtEditText gravity="left|center_vertical|center_horizontal|center|start" id="@+id/bpu" background="@null" layout_width="0dp" layout_height="match_parent" layout_weight="1" inputType="textPassword" textCursorDrawable="@drawable/iu" fontFamily="ProximaNova-Semibold" textAlignment="viewStart"/>
+    <FrameLayout layout_width="wrap_content" layout_height="match_parent">
+        <LinearLayout gravity="center_vertical" layout_gravity="center" orientation="horizontal" id="@+id/bpv" clipChildren="false" layout_width="wrap_content" layout_height="match_parent"/>
+    </FrameLayout>
+</LinearLayout>

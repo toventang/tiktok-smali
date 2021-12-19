@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" background="@color/a24" padding="20dp" layout_width="match_parent" layout_height="wrap_content" layout_marginStart="40dp" layout_marginEnd="40dp">
+    <com.bytedance.android.live.uikit.textview.AlwaysMarqueeTextView textColor="#000000" ellipsize="marquee" id="@+id/f1_" layout_width="0dp" layout_height="wrap_content" scrollHorizontally="true" singleLine="true" marqueeRepeatLimit="marquee_forever" NOT_FOUND_0x11="0" NOT_FOUND_0x13="0" style="@style/tt"/>
+    <com.bytedance.android.live.uikit.textview.AlwaysMarqueeTextView textColor="#000000" ellipsize="marquee" id="@+id/f_e" layout_width="0dp" layout_height="wrap_content" layout_marginTop="5dp" scrollHorizontally="true" singleLine="true" marqueeRepeatLimit="marquee_forever" NOT_FOUND_0x11="0" NOT_FOUND_0x12="@+id/f1_" style="@style/tt"/>
+    <com.bytedance.android.live.design.widget.LiveEditText textColor="#000000" id="@+id/ay7" layout_width="match_parent" layout_height="wrap_content" maxLines="10" NOT_FOUND_0xf="0" NOT_FOUND_0x11="0" NOT_FOUND_0x12="@+id/f_e" style="@style/tx"/>
+    <com.bytedance.android.live.design.widget.LiveButton textColor="@color/a01" id="@+id/xx" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10dp" text="@string/gyl" layout_marginEnd="10dp" NOT_FOUND_0xf="0" NOT_FOUND_0x12="@+id/ay7" style="@style/ss"/>
+    <com.bytedance.android.live.design.widget.LiveButton textColor="@color/a01" id="@+id/zk" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10dp" text="@string/gyp" NOT_FOUND_0x10="@+id/xx" NOT_FOUND_0x12="@+id/ay7" style="@style/ss"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

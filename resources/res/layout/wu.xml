@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center_vertical" orientation="horizontal" paddingTop="5dp" paddingBottom="5dp" focusable="true" clickable="true" layout_width="match_parent" layout_height="wrap_content" layout_centerVertical="true" paddingStart="8dp" paddingEnd="8dp">
+    <LinearLayout gravity="center" orientation="vertical" id="@+id/ch3" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" paddingStart="9dp" paddingEnd="9dp">
+        <com.bytedance.tux.icon.TuxIconView layout_width="24dp" layout_height="24dp" NOT_FOUND_0x17="@raw/icon_eye_fill" NOT_FOUND_0x18="@color/a9"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a_" id="@+id/etw" focusable="false" focusableInTouchMode="false" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" includeFontPadding="false" importantForAccessibility="no" NOT_FOUND_0x16="72"/>
+    </LinearLayout>
+    <LinearLayout gravity="center" orientation="vertical" id="@+id/ceq" layout_width="wrap_content" layout_height="wrap_content" paddingStart="9dp" paddingEnd="9dp">
+        <com.bytedance.tux.icon.TuxIconView layout_width="24dp" layout_height="24dp" NOT_FOUND_0x17="@raw/icon_color_comment_shadow" NOT_FOUND_0x18="@color/a9"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a_" id="@+id/etr" focusable="false" focusableInTouchMode="false" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" includeFontPadding="false" importantForAccessibility="no" NOT_FOUND_0x16="72"/>
+    </LinearLayout>
+    <Space layout_width="0dp" layout_height="0dp" layout_weight="1"/>
+    <com.bytedance.tux.icon.TuxIconView id="@+id/en3" layout_width="24dp" layout_height="24dp" layout_marginTop="8dp" layout_marginBottom="8dp" layout_marginStart="12dp" layout_marginEnd="12dp" NOT_FOUND_0x17="@raw/icon_story_camera" NOT_FOUND_0x18="@color/a9"/>
+</LinearLayout>

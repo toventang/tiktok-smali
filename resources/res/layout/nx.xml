@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/ad7" focusableInTouchMode="true" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.ies.dmt.ui.titlebar.NormalTitleBar id="@+id/elv" layout_width="match_parent" layout_height="@dimen/a0s" layout_alignParentTop="true" NOT_FOUND_0x12="@string/fwc"/>
+    <com.ss.android.ugc.aweme.ecommerce.combinepayment.view.PageStepper id="@+id/ea6" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/elv"/>
+    <androidx.core.widget.NestedScrollView id="@+id/cu5" layout_width="match_parent" layout_height="match_parent" layout_marginLeft="16dp" layout_marginRight="16dp" layout_above="@+id/uy" layout_below="@+id/ea6">
+        <androidx.recyclerview.widget.RecyclerView id="@+id/djj" paddingTop="8dp" clipToPadding="false" layout_width="match_parent" layout_height="wrap_content"/>
+    </androidx.core.widget.NestedScrollView>
+    <FrameLayout id="@+id/uy" layout_width="match_parent" layout_height="wrap_content" layout_alignParentBottom="true">
+        <androidx.recyclerview.widget.RecyclerView id="@+id/aub" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+        <View layout_gravity="top" id="@+id/ds2" background="@color/b2" layout_width="match_parent" layout_height="0.5dp"/>
+        <com.bytedance.tux.button.TuxButton layout_gravity="center" id="@+id/ds1" layout_width="match_parent" layout_height="44dp" layout_marginLeft="16dp" layout_marginTop="12dp" layout_marginRight="16dp" layout_marginBottom="12dp" text="@string/fwa" NOT_FOUND_0x13="3" NOT_FOUND_0x14="0"/>
+    </FrameLayout>
+    <com.bytedance.ies.dmt.ui.widget.DmtStatusView id="@+id/e_c" background="@color/r" visibility="invisible" layout_width="match_parent" layout_height="match_parent" layout_below="@+id/elv"/>
+</RelativeLayout>

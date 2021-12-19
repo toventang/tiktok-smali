@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@drawable/a3f" layout_width="match_parent" layout_height="wrap_content">
+    <FrameLayout layout_width="match_parent" layout_height="166dp">
+        <com.bytedance.lighten.loader.SmartImageView id="@+id/dck" layout_width="match_parent" layout_height="match_parent" scaleType="centerInside"/>
+    </FrameLayout>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/dcn" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="20dp" layout_marginTop="20dp" layout_marginRight="20dp" textAlignment="center" NOT_FOUND_0x10="20dp" NOT_FOUND_0x12="23"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c4" id="@+id/dci" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="20dp" layout_marginTop="12dp" layout_marginRight="20dp" textAlignment="center" NOT_FOUND_0x10="20dp" NOT_FOUND_0x12="41"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c4" id="@+id/dcj" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="20dp" layout_marginTop="8dp" layout_marginRight="20dp" textAlignment="center" NOT_FOUND_0x10="20dp" NOT_FOUND_0x12="41"/>
+    <View background="@color/b2" layout_width="match_parent" layout_height="0.5dp" layout_marginTop="20dp"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" gravity="center" id="@+id/cyq" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginTop="12dp" layout_marginRight="12dp" layout_marginBottom="12dp" text="@string/b75" maxLines="1" NOT_FOUND_0x10="12dp" NOT_FOUND_0x11="12dp" NOT_FOUND_0x12="42"/>
+</LinearLayout>

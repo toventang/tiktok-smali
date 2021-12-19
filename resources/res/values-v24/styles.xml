@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="b5" parent="@android:style/Animation.DropDownUp">
+    </style>
+    <style name="b6" parent="@android:style/Animation.DropDownDown">
+    </style>
+    <style name="j4" parent="@style/j3">
+    </style>
+    <style name="j7" parent="@style/j2">
+    </style>
+    <style name="j9" parent="@style/j8">
+    </style>
+    <style name="ja" parent="@style/j_">
+    </style>
+</resources>

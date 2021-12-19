@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <TextView textSize="14sp" textColor="@color/a2r" id="@+id/fad" background="@color/e_" paddingLeft="16dp" paddingTop="6dp" paddingRight="16dp" paddingBottom="6dp" layout_width="wrap_content" layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/d1t" background="@drawable/cc2" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="40dp" layout_marginRight="40dp" minWidth="200dp" layout_marginStart="40dp" layout_marginEnd="40dp">
+    <LinearLayout orientation="vertical" id="@+id/eo0" layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout gravity="left|center_vertical|center_horizontal|center" orientation="horizontal" id="@+id/ems" paddingLeft="24dp" paddingTop="22dp" paddingRight="24dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="24dp" paddingEnd="24dp">
+            <ImageView id="@+id/bi7" layout_width="32dp" layout_height="32dp" layout_marginRight="8dp" src="@null" scaleType="fitCenter" layout_marginEnd="8dp"/>
+            <TextView textSize="17sp" textColor="@color/pp" ellipsize="end" id="@+id/iq" layout_width="match_parent" layout_height="wrap_content" singleLine="true" includeFontPadding="false"/>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout id="@+id/ado" layout_width="match_parent" layout_height="wrap_content" minHeight="@dimen/bl" layout_weight="1">
+        <View layout_gravity="top" id="@+id/dt8" visibility="gone" layout_width="match_parent" layout_height="1dp"/>
+        <ScrollView id="@+id/dt9" clipToPadding="false" layout_width="match_parent" layout_height="wrap_content">
+            <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+                <TextView textSize="15sp" textColor="@color/pq" id="@+id/clf" paddingLeft="24dp" paddingTop="18dp" paddingRight="24dp" paddingBottom="20dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="24dp" paddingEnd="24dp"/>
+            </LinearLayout>
+        </ScrollView>
+        <View layout_gravity="bottom" id="@+id/dt7" visibility="gone" layout_width="match_parent" layout_height="1dp"/>
+    </FrameLayout>
+    <FrameLayout id="@+id/ahs" layout_width="match_parent" layout_height="wrap_content" minHeight="@dimen/bl" layout_weight="1">
+        <FrameLayout id="@+id/ahr" paddingLeft="24dp" paddingRight="24dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="24dp" paddingEnd="24dp"/>
+    </FrameLayout>
+    <LinearLayout gravity="bottom" orientation="horizontal" id="@+id/a0v" paddingLeft="24dp" paddingTop="10dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="24dp">
+        <Button id="@+id/a0u" layout_width="wrap_content" layout_height="wrap_content" style="@style/a1e"/>
+        <View visibility="invisible" layout_width="0dp" layout_height="0dp" layout_weight="1"/>
+        <Button id="@+id/a0t" layout_width="wrap_content" layout_height="wrap_content" style="@style/a1e"/>
+        <Button id="@+id/a0s" layout_width="wrap_content" layout_height="wrap_content" style="@style/a1e"/>
+    </LinearLayout>
+</LinearLayout>

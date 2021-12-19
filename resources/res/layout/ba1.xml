@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center_vertical" orientation="horizontal" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+    <View id="@+id/ani" background="@color/b0" layout_width="35dp" layout_height="0.5dp"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="13sp" textColor="@color/c5" gravity="center" id="@+id/dij" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="35dp" layout_marginRight="35dp" text="@string/eos" layout_weight="1"/>
+    <View id="@+id/anm" background="@color/b0" layout_width="35dp" layout_height="0.5dp"/>
+</LinearLayout>

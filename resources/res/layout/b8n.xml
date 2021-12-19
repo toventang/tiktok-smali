@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="70dp">
+    <FrameLayout layout_gravity="center" id="@+id/chp" layout_width="36dp" layout_height="36dp"/>
+</FrameLayout>

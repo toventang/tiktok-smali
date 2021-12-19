@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" background="@drawable/c8s" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout layout_gravity="center" orientation="vertical" id="@+id/c5n" layout_width="wrap_content" layout_height="wrap_content">
+        <com.bytedance.android.live.core.widget.HSImageView layout_gravity="center_horizontal" id="@+id/aw7" background="0x7f080f7a" layout_width="wrap_content" layout_height="wrap_content"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="13dp" textColor="@color/a24" layout_gravity="center" id="@+id/aw8" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="7dp" text="@string/elo" alpha="0.5"/>
+    </LinearLayout>
+    <com.bytedance.android.live.core.widget.HSImageView layout_gravity="center" id="@+id/c5o" background="0x7f080ed2" visibility="gone" layout_width="wrap_content" layout_height="wrap_content"/>
+</FrameLayout>

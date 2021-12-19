@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/c4k" layout_width="match_parent" layout_height="wrap_content">
+    <com.bytedance.android.livesdk.chatroom.ui.NoMoreSpaceTextView textSize="14sp" layout_gravity="start" id="@+id/text" background="@drawable/bsj" paddingLeft="8dp" paddingTop="3dp" paddingRight="8dp" paddingBottom="3dp" layout_width="wrap_content" layout_height="wrap_content" minHeight="24dp" lineSpacingExtra="2dp" textIsSelectable="false" textAlignment="viewStart" paddingStart="8dp" paddingEnd="8dp" NOT_FOUND_0x10="7"/>
+</RelativeLayout>

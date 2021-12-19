@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/a0b" background="0x7f0807fa" layout_width="180dp" layout_height="75dp" layout_alignParentBottom="true">
+    <com.ss.android.ugc.aweme.tux.business.story.StoryBrandView id="@+id/ebz" paddingLeft="5dp" paddingTop="2dp" paddingRight="5dp" paddingBottom="2dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginRight="12dp" layout_marginBottom="4dp" layout_above="@+id/ae_" NOT_FOUND_0x17="12dp" NOT_FOUND_0x18="5dp" NOT_FOUND_0x19="2dp" NOT_FOUND_0x1a="6" NOT_FOUND_0x1b="2dp">
+        <LinearLayout gravity="center" orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content">
+            <com.bytedance.tux.icon.TuxIconView layout_width="12dp" layout_height="12dp" NOT_FOUND_0x1d="@raw/icon_story_star" NOT_FOUND_0x1e="12dp" NOT_FOUND_0x1f="12dp" NOT_FOUND_0x20="@color/a9"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/a9" ellipsize="end" layout_width="wrap_content" layout_height="wrap_content" text="@string/h8o" maxLines="1" textAlignment="center" layout_marginStart="2dp" NOT_FOUND_0x1c="62"/>
+        </LinearLayout>
+    </com.ss.android.ugc.aweme.tux.business.story.StoryBrandView>
+    <LinearLayout gravity="center_vertical" orientation="horizontal" id="@+id/ae_" padding="12dp" layout_width="match_parent" layout_height="wrap_content" layout_alignParentBottom="true">
+        <com.ss.android.ugc.aweme.base.ui.AvatarImageView id="@+id/ads" layout_width="18dp" layout_height="18dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" ellipsize="end" gravity="left|center_vertical|center_horizontal|center|start" id="@+id/aeb" layout_width="116dp" layout_height="wrap_content" maxLines="1" textAlignment="viewStart" layout_marginStart="8dp" NOT_FOUND_0x1c="62"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" orientation="vertical" paddingLeft="6dp" paddingRight="6dp" layout_width="wrap_content" layout_height="40dp" NOT_FOUND_0x12="6dp">
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="11dp" textColor="#e6ffffff" ellipsize="end" id="@+id/f_o" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="3dp" maxWidth="70dp" minWidth="37dp" text="@string/eqe" maxLines="1" NOT_FOUND_0x13="7" NOT_FOUND_0x16="0" NOT_FOUND_0x18="0"/>
+    <LinearLayout orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="2dp" NOT_FOUND_0x16="0" NOT_FOUND_0x17="@+id/f_o">
+        <com.bytedance.android.live.core.widget.HSImageView id="@+id/bm3" layout_width="14dp" layout_height="14dp"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="11dp" textColor="#66ffffff" ellipsize="end" id="@+id/f_t" layout_width="wrap_content" layout_height="wrap_content" maxWidth="56dp" minWidth="23dp" maxLines="1" NOT_FOUND_0x13="7"/>
+    </LinearLayout>
+    <ProgressBar id="@+id/fn5" layout_width="0dp" layout_height="3dp" max="100" progress="50" indeterminate="false" progressDrawable="@drawable/ca7" NOT_FOUND_0x14="0" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0" style="@style/qf"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

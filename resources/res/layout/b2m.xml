@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/dsk" background="@drawable/uj" layout_width="match_parent" layout_height="54dp">
+    <RelativeLayout gravity="center_vertical" orientation="horizontal" layout_width="match_parent" layout_height="match_parent">
+        <FrameLayout layout_gravity="center_vertical" id="@+id/a7d" layout_width="0dp" layout_height="match_parent" layout_marginRight="16dp" layout_toLeftOf="@+id/b6f" layout_alignParentLeft="true" layout_centerVertical="true" layout_marginEnd="16dp" layout_toStartOf="@+id/b6f" layout_alignParentStart="true"/>
+        <include id="@+id/b6f" layout="@layout/b37"/>
+    </RelativeLayout>
+</FrameLayout>

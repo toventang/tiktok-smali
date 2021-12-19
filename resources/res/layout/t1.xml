@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <FrameLayout id="@+id/akd" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="100dp" layout_marginEnd="100dp">
+        <LinearLayout orientation="horizontal" id="@+id/ako" layout_width="wrap_content" layout_height="wrap_content">
+            <com.ss.android.ugc.aweme.views.MentionTextView textSize="15sp" textColor="@color/a_" ellipsize="end" gravity="start" layout_gravity="center_vertical" id="@+id/ak7" paddingTop="4.5dp" scrollbars="none" fadingEdgeLength="@dimen/ft" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="@dimen/g5" maxLines="4" includeFontPadding="false" shadowColor="@color/iu" shadowDy="1" shadowRadius="1" layout_weight="1" lineSpacingExtra="3dp" requiresFadingEdge="vertical" textAlignment="viewStart" layout_marginStart="@dimen/g5"/>
+        </LinearLayout>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a_" layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" id="@+id/f9q" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/bv8" NOT_FOUND_0x23="32"/>
+    </FrameLayout>
+    <com.bytedance.tux.input.TuxTextView ellipsize="end" id="@+id/dch" paddingLeft="4dp" paddingTop="2dp" paddingRight="4dp" paddingBottom="2dp" visibility="gone" clickable="false" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="@dimen/g5" layout_marginTop="4dp" maxLines="1" paddingStart="4dp" paddingEnd="4dp" layout_marginStart="@dimen/g5" NOT_FOUND_0x23="92"/>
+    <com.bytedance.tux.tag.TuxTag id="@+id/epz" paddingLeft="4dp" paddingTop="1dp" paddingRight="4dp" paddingBottom="1dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="@dimen/g5" layout_marginTop="4dp" layout_marginBottom="4dp" paddingStart="4dp" paddingEnd="4dp" layout_marginStart="@dimen/g5" NOT_FOUND_0x24="@color/a2" NOT_FOUND_0x25="true" NOT_FOUND_0x26="0" NOT_FOUND_0x27="@color/a2"/>
+    <com.ss.android.ugc.aweme.translation.ui.TranslationStatusView id="@+id/eqo" visibility="gone" layout_width="wrap_content" layout_height="20dp" layout_marginLeft="@dimen/g5" layout_marginTop="4dp" layout_marginStart="@dimen/g5"/>
+</LinearLayout>

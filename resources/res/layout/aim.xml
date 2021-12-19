@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_gravity="center" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout gravity="center" orientation="vertical" background="@drawable/po" layout_width="152dp" layout_height="125dp" layout_centerInParent="true">
+        <com.airbnb.lottie.LottieAnimationView layout_gravity="center" id="@+id/bxd" layout_width="112dp" layout_height="67dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" layout_gravity="center_horizontal" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" text="@string/g7i" NOT_FOUND_0xb="42"/>
+    </LinearLayout>
+</RelativeLayout>

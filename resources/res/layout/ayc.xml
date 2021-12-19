@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <include id="@+id/emo" layout="@layout/anb"/>
+    <com.bytedance.ies.powerlist.PowerList id="@+id/d7z" layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+</LinearLayout>

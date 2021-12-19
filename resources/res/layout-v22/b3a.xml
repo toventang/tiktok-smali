@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout xmlns="" gravity="center_vertical" orientation="vertical" layout_width="match_parent" layout_height="match_parent" layout_alignParentTop="true" NOT_FOUND_0x12="true" NOT_FOUND_0x13="true">
+    <RelativeLayout layout_width="match_parent" layout_height="52dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" id="@+id/a1p" paddingLeft="12dp" paddingRight="12dp" layout_width="wrap_content" layout_height="match_parent" text="@string/a9e" layout_alignParentLeft="true" layout_alignParentStart="true" NOT_FOUND_0x11="12dp" NOT_FOUND_0x14="41"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" id="@+id/ef9" paddingLeft="12dp" paddingRight="12dp" layout_width="wrap_content" layout_height="match_parent" text="@string/ffv" layout_alignParentRight="true" layout_alignParentEnd="true" NOT_FOUND_0x11="12dp" NOT_FOUND_0x14="42"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" layout_width="wrap_content" layout_height="wrap_content" text="@string/x_" shadowColor="#26000000" shadowRadius="2" layout_centerInParent="true" NOT_FOUND_0x14="33"/>
+    </RelativeLayout>
+    <com.ss.android.ugc.aweme.themechange.base.AVDmtPanelRecycleView id="@+id/at6" layout_width="match_parent" layout_height="match_parent"/>
+</com.ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout>

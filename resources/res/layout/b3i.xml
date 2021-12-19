@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView id="@+id/egu" background="@color/a9" paddingTop="8dp" layout_width="match_parent" layout_height="wrap_content"/>
+    <FrameLayout layout_width="match_parent" layout_height="8dp">
+        <View background="@color/bk" layout_width="match_parent" layout_height="8dp"/>
+        <View background="@drawable/bln" layout_width="match_parent" layout_height="8dp"/>
+    </FrameLayout>
+    <View id="@+id/tp" background="@color/bk" layout_width="match_parent" layout_height="match_parent"/>
+</LinearLayout>

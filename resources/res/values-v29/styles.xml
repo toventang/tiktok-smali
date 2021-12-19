@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="w" parent="@style/oe">
+        <item name="?0x101058c">false</item>
+        <item name="ki">@drawable/qx</item>
+        <item name="kj">@drawable/rd</item>
+        <item name="oq">@color/nw</item>
+        <item name="vv">@drawable/aca</item>
+        <item name="a2l">@drawable/b21</item>
+        <item name="a77">@drawable/b5p</item>
+        <item name="abp">@drawable/bhb</item>
+        <item name="abq">@drawable/bhc</item>
+    </style>
+    <style name="mt" parent="@style/mp">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowAnimationStyle">@style/l</item>
+        <item name="?0x1010605">false</item>
+    </style>
+    <style name="on" parent="@style/lb">
+        <item name="android:textAppearanceSmall">@style/i_</item>
+        <item name="?0x101058c">false</item>
+        <item name="bn">@style/n9</item>
+        <item name="bo">@style/n_</item>
+        <item name="bp">@style/na</item>
+        <item name="br">@style/nb</item>
+        <item name="bs">@style/nd</item>
+        <item name="bt">@style/ne</item>
+        <item name="bu">@style/nf</item>
+        <item name="bv">@style/ng</item>
+        <item name="bw">@style/nh</item>
+        <item name="by">@style/ni</item>
+        <item name="bz">@style/nj</item>
+        <item name="c0">@style/nk</item>
+        <item name="c1">@style/nl</item>
+        <item name="c2">@style/nm</item>
+        <item name="c3">@style/n8</item>
+        <item name="c4">@style/nn</item>
+        <item name="c5">@style/no</item>
+        <item name="c6">@style/np</item>
+        <item name="c7">@style/nq</item>
+        <item name="c8">@style/nr</item>
+        <item name="c9">@style/ns</item>
+        <item name="c_">@style/nu</item>
+        <item name="ca">@style/nv</item>
+        <item name="cb">@style/nw</item>
+        <item name="cc">@style/nx</item>
+        <item name="cd">@style/ny</item>
+        <item name="ce">@style/nz</item>
+        <item name="cf">@style/oh</item>
+        <item name="cg">@style/og</item>
+        <item name="ch">@style/oi</item>
+        <item name="aou">@drawable/cav</item>
+        <item name="aov">@drawable/cay</item>
+    </style>
+</resources>

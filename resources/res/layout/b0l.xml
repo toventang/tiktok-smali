@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.shoutouts.review.view.ShoutOutPopupView xmlns="" orientation="vertical" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/a6s" background="@drawable/bir" visibility="gone" layout_width="match_parent" layout_height="60dp">
+        <com.bytedance.tux.icon.TuxIconView id="@+id/bve" padding="6dp" visibility="visible" layout_width="30dp" layout_height="30dp" alpha="0.3" layout_marginEnd="16dp" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0" NOT_FOUND_0x13="0" NOT_FOUND_0x15="@raw/icon_x_mark"/>
+        <com.bytedance.tux.button.TuxButton textColor="@color/a9" id="@+id/f4r" background="@drawable/biq" layout_width="wrap_content" layout_height="28dp" text="@string/dj9" paddingStart="30dp" paddingEnd="30dp" layout_marginEnd="5dp" NOT_FOUND_0xf="0" NOT_FOUND_0x11="@+id/bve" NOT_FOUND_0x13="0" NOT_FOUND_0x14="52"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_width="0dp" layout_height="wrap_content" text="@string/dj_" paddingStart="12dp" paddingEnd="12dp" NOT_FOUND_0xf="0" NOT_FOUND_0x11="@+id/f4r" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0" NOT_FOUND_0x14="42"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/a6p" background="@drawable/bir" visibility="gone" layout_width="match_parent" layout_height="60dp" layout_marginTop="8dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_width="wrap_content" layout_height="wrap_content" text="@string/dj8" layout_marginStart="12dp" NOT_FOUND_0xf="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0" NOT_FOUND_0x14="42"/>
+        <com.bytedance.tux.button.TuxButton textColor="@color/a9" id="@+id/f_i" background="@drawable/biq" layout_width="wrap_content" layout_height="28dp" text="@string/h8d" paddingStart="28dp" paddingEnd="28dp" layout_marginEnd="12dp" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0" NOT_FOUND_0x13="0" NOT_FOUND_0x14="52"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.ss.android.ugc.aweme.shoutouts.review.view.ShoutOutPopupView>

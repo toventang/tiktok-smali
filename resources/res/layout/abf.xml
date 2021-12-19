@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" paddingLeft="28dp" paddingTop="12dp" paddingRight="28dp" paddingBottom="12dp" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/d1i" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="4dp" layout_marginTop="44dp" layout_marginRight="4dp" text="@string/f02" NOT_FOUND_0x1b="13"/>
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="0dp" layout_marginTop="48dp" layout_weight="1">
+        <RelativeLayout id="@+id/d3u" padding="24dp" layout_width="match_parent" layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/d3w" layout_width="wrap_content" layout_height="wrap_content" text="@string/ezx" layout_toLeftOf="@+id/d3v" layout_alignParentLeft="true" layout_alignParentTop="true" layout_toStartOf="@+id/d3v" layout_alignParentStart="true" NOT_FOUND_0x1b="33"/>
+            <com.bytedance.tux.input.TuxRadio id="@+id/d3v" layout_width="wrap_content" layout_height="wrap_content" checked="false" layout_alignParentTop="true" layout_alignParentRight="true" layout_alignParentEnd="true"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/d3t" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" text="@string/ezy" layout_below="@+id/d3w" layout_alignParentLeft="true" layout_alignParentStart="true" NOT_FOUND_0x1b="51"/>
+        </RelativeLayout>
+        <RelativeLayout id="@+id/b_x" padding="24dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/b_z" layout_width="wrap_content" layout_height="wrap_content" text="@string/ezz" layout_toLeftOf="@+id/b_y" layout_alignParentLeft="true" layout_alignParentTop="true" layout_toStartOf="@+id/b_y" layout_alignParentStart="true" NOT_FOUND_0x1b="33"/>
+            <com.bytedance.tux.input.TuxRadio id="@+id/b_y" layout_width="wrap_content" layout_height="wrap_content" checked="false" layout_alignParentTop="true" layout_alignParentRight="true" layout_alignParentEnd="true"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/b_w" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" text="@string/f00" layout_below="@+id/b_z" layout_alignParentLeft="true" layout_alignParentStart="true" NOT_FOUND_0x1b="51"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c4" id="@+id/b8q" layout_width="match_parent" layout_height="wrap_content" text="@string/f01" NOT_FOUND_0x1b="61"/>
+    <com.bytedance.tux.button.TuxButton enabled="false" id="@+id/cv0" layout_width="match_parent" layout_height="44dp" layout_marginTop="12dp" text="@string/dg3" NOT_FOUND_0x19="3" NOT_FOUND_0x1a="0"/>
+</LinearLayout>

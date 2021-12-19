@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/dfx" background="@drawable/bal" visibility="visible" layout_width="match_parent" layout_height="55dp">
+    <com.ss.android.ugc.aweme.views.MultiAvatarView id="@+id/dfv" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x8="0" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0"/>
+    <com.bytedance.tux.input.TuxTextView textColor="?attr/bc" id="@+id/dfy" layout_width="wrap_content" layout_height="wrap_content" text="@string/f4v" layout_marginStart="8dp" NOT_FOUND_0x8="0" NOT_FOUND_0xa="@+id/dfv" NOT_FOUND_0xc="0" NOT_FOUND_0xd="41"/>
+    <com.bytedance.tux.icon.TuxIconView id="@+id/dfw" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x8="0" NOT_FOUND_0x9="0" NOT_FOUND_0xc="0" NOT_FOUND_0xe="@raw/icon_chevron_right_offset_ltr" NOT_FOUND_0xf="16dp" NOT_FOUND_0x10="16dp" NOT_FOUND_0x11="?attr/bj"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

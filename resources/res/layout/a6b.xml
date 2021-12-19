@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" style="@style/yj">
+    <include layout="@layout/a7f"/>
+    <RelativeLayout layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout gravity="end" orientation="horizontal" id="@+id/ae_" layout_width="match_parent" layout_height="wrap_content">
+            <com.bytedance.tux.icon.TuxIconView layout_gravity="center_vertical" id="@+id/e_l" visibility="gone" layout_width="20dp" layout_height="20dp" scaleType="fitXY" layout_marginEnd="8dp"/>
+            <LinearLayout gravity="end" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content">
+                <include layout="@layout/a7h"/>
+                <LinearLayout gravity="center" id="@+id/adh" layout_width="wrap_content" layout_height="wrap_content">
+                    <com.ss.android.ugc.aweme.im.sdk.common.ui.widget.SpanInterceptNoTextView id="@+id/cos" paddingBottom="2dp" style="@style/ym"/>
+                </LinearLayout>
+                <include layout="@layout/a71"/>
+                <include layout="@layout/a7e"/>
+            </LinearLayout>
+            <com.ss.android.ugc.aweme.base.ui.AvatarImageView id="@+id/pf" style="@style/yl"/>
+        </LinearLayout>
+        <include layout="@layout/a7w"/>
+    </RelativeLayout>
+    <include layout="@layout/a7d"/>
+</LinearLayout>

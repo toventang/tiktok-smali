@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="40dp">
+    <com.ss.android.ugc.tools.view.style.StyleTextView textColor="@color/sw" id="@+id/eb2" paddingLeft="16dp" paddingTop="20dp" layout_width="match_parent" layout_height="40dp" text="@string/fii" lineSpacingExtra="3sp" paddingStart="16dp" NOT_FOUND_0x9="7" style="@style/a20"/>
+</FrameLayout>

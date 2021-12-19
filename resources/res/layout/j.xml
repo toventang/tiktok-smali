@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.tux.widget.FlexLayout xmlns="" id="@+id/csq" layout_width="match_parent" layout_height="52dp">
+    <LinearLayout orientation="horizontal" id="@+id/nav_start" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0xb="50%" NOT_FOUND_0xc="8dp" NOT_FOUND_0xd="nav_start.right"/>
+    <LinearLayout gravity="center_horizontal" orientation="vertical" id="@+id/cso" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0xa="(nav_start.right&gt;parent.width/2)?             nav_start.right + this.width /2:             ((parent.width - max(nav_start.right, parent.width - nav_end.left)*2)&gt;wrap_content?             50%: nav_start.right + this.width /2)" NOT_FOUND_0xb="50%" NOT_FOUND_0xe="                 nav_start.right&gt;parent.width/2 ? nav_end.left - nav_start.right:             ((parent.width - max(nav_start.right, parent.width - nav_end.left)*2)&gt;wrap_content?             (parent.width - max(nav_start.right, parent.width - nav_end.left)*2)             :nav_end.left - nav_start.right)">
+        <com.bytedance.tux.input.TuxTextView ellipsize="end" layout_gravity="center_horizontal" id="@+id/csn" layout_width="wrap_content" layout_height="wrap_content" maxLines="1"/>
+        <com.bytedance.tux.input.TuxTextView ellipsize="end" layout_gravity="center_horizontal" id="@+id/csv" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" maxLines="1"/>
+    </LinearLayout>
+    <LinearLayout orientation="horizontal" id="@+id/nav_end" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0xb="50%" NOT_FOUND_0xd="100%-8dp"/>
+    <View id="@+id/cst" layout_width="match_parent" layout_height="0.5dp" NOT_FOUND_0x9="100%"/>
+</com.bytedance.tux.widget.FlexLayout>

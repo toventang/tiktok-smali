@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+        <TextView textSize="13sp" textStyle="bold" textColor="#ffffff" layout_gravity="bottom" id="@+id/f6w" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="8dp" layout_marginBottom="4dp" maxLines="1" maxLength="4" lineSpacingExtra="2dp" layout_marginStart="8dp"/>
+        <com.ss.android.ugc.aweme.tools.beauty.views.BeautySeekBar id="@+id/d2q" background="#0000" padding="0dp" layout_width="match_parent" layout_height="48dp" layout_marginLeft="8dp" layout_marginRight="8dp" indeterminate="false" layout_weight="1" layout_marginStart="8dp" layout_marginEnd="8dp" NOT_FOUND_0x16="11dp" NOT_FOUND_0x17="3dp" NOT_FOUND_0x18="10dp" NOT_FOUND_0x19="#ffffff" NOT_FOUND_0x1a="12sp" style="@style/gj"/>
+    </LinearLayout>
+    <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+        <TextView textSize="13sp" textStyle="bold" textColor="#ffffff" layout_gravity="bottom" id="@+id/f6x" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="8dp" layout_marginBottom="4dp" maxLines="1" maxLength="4" lineSpacingExtra="2dp" layout_marginStart="8dp"/>
+        <com.ss.android.ugc.aweme.tools.beauty.views.BeautySeekBar id="@+id/d2r" background="#0000" padding="0dp" visibility="gone" layout_width="match_parent" layout_height="48dp" layout_marginLeft="8dp" layout_marginTop="8dp" layout_marginRight="8dp" indeterminate="false" layout_weight="1" layout_marginStart="8dp" layout_marginEnd="8dp" NOT_FOUND_0x16="11dp" NOT_FOUND_0x17="3dp" NOT_FOUND_0x18="10dp" NOT_FOUND_0x19="#ffffff" NOT_FOUND_0x1a="12sp"/>
+    </LinearLayout>
+</FrameLayout>

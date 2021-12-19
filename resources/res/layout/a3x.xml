@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" fitsSystemWindows="true" layout_width="wrap_content" layout_height="wrap_content">
+    <FrameLayout layout_gravity="top|left|center_vertical|center_horizontal|center|start" id="@+id/ed2" paddingLeft="16dp" paddingRight="0dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="58dp" layout_marginBottom="58dp" paddingStart="16dp" paddingEnd="0dp" layout_marginEnd="58dp"/>
+</FrameLayout>

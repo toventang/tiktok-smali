@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_gravity="right" orientation="horizontal" id="@+id/d7q" visibility="gone" layout_width="wrap_content" layout_height="26dp" layout_marginTop="-10.5dp">
+    <LinearLayout gravity="center_vertical" orientation="horizontal" id="@+id/d7s" paddingLeft="2dp" paddingRight="16dp" layout_width="wrap_content" layout_height="wrap_content" layout_alignParentRight="true" layout_centerVertical="true">
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/d7u" layout_width="0px" layout_height="12dp" scaleType="fitCenter"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/d7v" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" NOT_FOUND_0x14="81"/>
+    </LinearLayout>
+    <ImageView id="@+id/d7t" layout_width="24dp" layout_height="16dp" scaleType="fitXY" layout_toLeftOf="@+id/d7s" layout_alignParentBottom="true"/>
+    <View id="@+id/d7r" background="@color/a9" layout_width="wrap_content" layout_height="wrap_content" layout_toRightOf="@+id/d7t" layout_alignTop="@+id/d7t" layout_alignParentRight="true" layout_alignParentBottom="true"/>
+</RelativeLayout>

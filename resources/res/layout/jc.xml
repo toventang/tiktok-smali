@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/c7o" background="@drawable/qc" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout gravity="center_vertical" orientation="horizontal" id="@+id/ad9" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="10dp" minHeight="48dp">
+        <com.ss.android.ugc.aweme.base.ui.SmartAvatarImageView layout_gravity="top" id="@+id/or" layout_width="@dimen/f_" layout_height="@dimen/f_" layout_marginTop="13dp" layout_marginStart="12dp" layout_marginEnd="8dp" NOT_FOUND_0x17="@color/f" NOT_FOUND_0x18="6" NOT_FOUND_0x19="true"/>
+        <LinearLayout orientation="vertical" layout_width="0dp" layout_height="wrap_content" layout_weight="1" layout_marginEnd="21dp">
+            <LinearLayout gravity="center_vertical" orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10dp">
+                <com.bytedance.tux.input.TuxTextView textColor="@color/c4" ellipsize="end" gravity="center_vertical" id="@+id/title" layout_width="wrap_content" layout_height="wrap_content" maxWidth="125dp" maxLines="1" NOT_FOUND_0x1a="62"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/c4" gravity="center_vertical" id="@+id/aa6" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x1a="62"/>
+                <com.bytedance.tux.input.TuxTextView gravity="center_vertical" id="@+id/aah" layout_width="wrap_content" layout_height="wrap_content" text="@string/x1" NOT_FOUND_0x1a="72" style="@style/ur"/>
+            </LinearLayout>
+            <com.ss.android.ugc.aweme.comment.widget.CommentDescView id="@+id/a_3" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp"/>
+            <com.ss.android.ugc.aweme.comment.barrage.view.CommentRichTagView id="@+id/dt" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" NOT_FOUND_0x15="@+id/aka" NOT_FOUND_0x16="@+id/aka"/>
+            <com.ss.android.ugc.aweme.comment.barrage.view.CommentTaggedPeopleView id="@+id/eid" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp"/>
+            <com.ss.android.ugc.aweme.comment.barrage.view.CommentMultiAnchorTagLayout id="@+id/cox" layout_width="match_parent" layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View id="@+id/an6" background="@color/b4" layout_width="match_parent" layout_height="0.5dp" layout_marginLeft="16dp" layout_marginRight="16dp" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+</LinearLayout>

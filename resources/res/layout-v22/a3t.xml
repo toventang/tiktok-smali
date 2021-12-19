@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns="" gravity="center" layout_gravity="center" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <androidx.appcompat.widget.LinearLayoutCompat gravity="center" layout_gravity="center" orientation="vertical" id="@+id/cex" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="60dp" layout_marginBottom="16dp">
+        <FrameLayout id="@+id/b54" layout_width="68dp" layout_height="68dp">
+            <FrameLayout layout_gravity="top" id="@+id/b4e" layout_width="match_parent" layout_height="68dp">
+                <com.ss.android.ugc.aweme.tux.business.story.StoryBrandView layout_gravity="center" id="@+id/bw2" visibility="gone" layout_width="60dp" layout_height="60dp" NOT_FOUND_0x14="4"/>
+                <com.bytedance.tux.icon.TuxIconView layout_gravity="center" id="@+id/bur" visibility="gone" layout_width="30dp" layout_height="30dp" NOT_FOUND_0x18="@raw/icon_story_camera_fill" NOT_FOUND_0x19="30dp" NOT_FOUND_0x1a="30dp" NOT_FOUND_0x1d="?attr/aa"/>
+                <com.ss.android.ugc.aweme.tux.business.story.StoryBrandView layout_gravity="center" id="@+id/c15" visibility="visible" layout_width="68dp" layout_height="68dp" NOT_FOUND_0x16="2.5dp"/>
+                <com.ss.android.ugc.aweme.base.ui.AvatarImageView layout_gravity="center" id="@+id/c14" layout_width="58dp" layout_height="58dp"/>
+                <FrameLayout layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" id="@+id/b66" visibility="gone" layout_width="21dp" layout_height="21dp">
+                    <View layout_gravity="center" background="@drawable/aan" layout_width="20dp" layout_height="20dp"/>
+                    <View layout_gravity="center" background="@color/l" layout_width="3dp" layout_height="10dp"/>
+                    <com.bytedance.tux.icon.TuxIconView layout_gravity="center" layout_width="17dp" layout_height="17dp" NOT_FOUND_0x18="@raw/icon_exclamation_mark_circle_fill" NOT_FOUND_0x19="16dp" NOT_FOUND_0x1a="16dp" NOT_FOUND_0x1d="?attr/av"/>
+                </FrameLayout>
+            </FrameLayout>
+            <FrameLayout layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" id="@+id/b4m" visibility="visible" layout_width="25dp" layout_height="25dp">
+                <View layout_gravity="center" background="@drawable/aan" layout_width="25dp" layout_height="25dp"/>
+                <com.ss.android.ugc.aweme.tux.business.story.StoryBrandView layout_gravity="center" id="@+id/bw3" visibility="visible" layout_width="20dp" layout_height="20dp" NOT_FOUND_0x14="5" NOT_FOUND_0x15="20dp"/>
+                <com.bytedance.tux.icon.TuxIconView layout_gravity="center" layout_width="16dp" layout_height="16dp" NOT_FOUND_0x18="@raw/icon_plus_small" NOT_FOUND_0x19="16dp" NOT_FOUND_0x1a="16dp" NOT_FOUND_0x1d="?attr/aa"/>
+            </FrameLayout>
+        </FrameLayout>
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/ab" ellipsize="end" id="@+id/ey2" layout_width="72dp" layout_height="match_parent" layout_marginTop="4dp" text="@string/g9l" maxLines="1" textAlignment="center" NOT_FOUND_0x17="62"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <View id="@+id/dyy" background="?attr/a_" layout_width="match_parent" layout_height="0.5dp" layout_marginLeft="16dp" layout_marginRight="16dp" NOT_FOUND_0x13="16dp"/>
+    <com.bytedance.tux.status.refresh.TuxRefreshLayout id="@+id/dk8" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x1b="1" NOT_FOUND_0x1c="1">
+        <com.bytedance.ies.powerlist.PowerList orientation="vertical" id="@+id/fdj" paddingBottom="16dp" clipToPadding="false" layout_width="match_parent" layout_height="match_parent"/>
+    </com.bytedance.tux.status.refresh.TuxRefreshLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

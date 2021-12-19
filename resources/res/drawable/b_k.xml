@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns="" shape="rectangle">
+    <gradient startColor="@color/mz" endColor="@color/n0" angle="0" type="linear" centerColor="@color/n1"/>
+</shape>

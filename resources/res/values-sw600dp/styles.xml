@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="r4" parent="@style/ex">
+        <item name="agb">1</item>
+        <item name="ago">1</item>
+    </style>
+</resources>

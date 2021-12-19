@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <RelativeLayout orientation="vertical" id="@+id/dqe" background="@color/l" layout_width="match_parent" layout_height="match_parent">
+        <com.bytedance.ies.dmt.ui.titlebar.TextTitleBar id="@+id/em8" background="@color/l" layout_width="match_parent" layout_height="@dimen/a0s" layout_below="@+id/e_f" NOT_FOUND_0x7="15dp" NOT_FOUND_0x8="@string/aja" NOT_FOUND_0x9="@color/bx" NOT_FOUND_0xa="true"/>
+        <com.bytedance.ies.powerlist.PowerList id="@+id/bhi" layout_width="match_parent" layout_height="match_parent" layout_below="@+id/em8"/>
+    </RelativeLayout>
+</FrameLayout>

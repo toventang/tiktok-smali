@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" background="@drawable/a2p" paddingLeft="16dp" paddingTop="16dp" paddingRight="16dp" layout_width="match_parent" layout_height="wrap_content">
+    <com.bytedance.tux.input.TuxTextView id="@+id/eqt" layout_width="24dp" layout_height="wrap_content" NOT_FOUND_0x15="0" NOT_FOUND_0x17="0" NOT_FOUND_0x18="32"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/eqv" layout_width="0dp" layout_height="wrap_content" maxLines="2" textDirection="locale" layout_marginStart="4dp" layout_marginEnd="6dp" NOT_FOUND_0xf="true" NOT_FOUND_0x12="@+id/eqw" NOT_FOUND_0x13="0" NOT_FOUND_0x14="@+id/eqt" NOT_FOUND_0x17="0" NOT_FOUND_0x18="42"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" gravity="start" id="@+id/eqw" layout_width="wrap_content" layout_height="wrap_content" maxLines="2" NOT_FOUND_0x11="0" NOT_FOUND_0x17="0" NOT_FOUND_0x18="61"/>
+    <View background="@color/b6" layout_width="0dp" layout_height="0.5dp" layout_marginTop="16dp" NOT_FOUND_0x10="0" NOT_FOUND_0x11="@+id/eqw" NOT_FOUND_0x15="@+id/eqv" NOT_FOUND_0x16="@+id/eqv"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

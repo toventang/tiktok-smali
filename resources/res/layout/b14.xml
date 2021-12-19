@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.tux.widget.RadiusLayout xmlns="" background="@color/v" layout_width="130dp" layout_height="176dp" NOT_FOUND_0x16="2dp" NOT_FOUND_0x17="@color/f" NOT_FOUND_0x18="1px">
+    <RelativeLayout layout_width="match_parent" layout_height="match_parent">
+        <com.bytedance.tux.icon.TuxIconView id="@+id/ajq" layout_width="16dp" layout_height="16dp" layout_marginTop="8dp" layout_alignParentTop="true" layout_marginEnd="8dp" layout_alignParentEnd="true" NOT_FOUND_0x1b="@raw/icon_x_mark_small" NOT_FOUND_0x1c="16dp" NOT_FOUND_0x1d="16dp" NOT_FOUND_0x1f="@color/c5"/>
+        <com.ss.android.ugc.aweme.base.ui.SmartAvatarImageView id="@+id/ow" layout_width="72dp" layout_height="72dp" layout_marginTop="12dp" layout_centerHorizontal="true" layout_marginStart="5dp" layout_marginEnd="5dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" gravity="center" id="@+id/cv9" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="10dp" layout_marginTop="6dp" layout_marginRight="10dp" maxLines="1" layout_below="@+id/ow" layout_centerHorizontal="true" layout_marginStart="10dp" layout_marginEnd="10dp" NOT_FOUND_0x1a="62"/>
+        <FrameLayout gravity="center" id="@+id/dih" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="8dp" layout_marginRight="8dp" layout_below="@+id/cv9" layout_centerHorizontal="true">
+            <com.bytedance.tux.input.TuxTextView textColor="?attr/bj" gravity="center" id="@+id/di0" layout_width="wrap_content" layout_height="wrap_content" maxWidth="114dp" maxLines="2" NOT_FOUND_0x1a="71" NOT_FOUND_0x1e="10dp"/>
+            <com.ss.android.ugc.aweme.views.MutualRelationView id="@+id/crt" visibility="gone" layout_width="wrap_content" layout_height="wrap_content"/>
+        </FrameLayout>
+        <com.ss.android.ugc.aweme.social.widget.card.view.FollowButtonWithBlock ellipsize="end" gravity="center" id="@+id/b7b" layout_width="106dp" layout_height="28dp" layout_marginTop="10dp" layout_marginBottom="12dp" maxLines="1" drawablePadding="4dp" layout_alignParentBottom="true" layout_centerHorizontal="true" NOT_FOUND_0x19="0" NOT_FOUND_0x1a="62"/>
+    </RelativeLayout>
+</com.bytedance.tux.widget.RadiusLayout>

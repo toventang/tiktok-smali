@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/b69" layout_width="wrap_content" layout_height="wrap_content">
+    <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="match_parent" layoutDirection="ltr">
+        <ImageView id="@+id/bu8" layout_width="1dp" layout_height="match_parent" src="@drawable/w2" scaleType="fitXY"/>
+        <ImageView id="@+id/bu9" layout_width="1dp" layout_height="match_parent" src="@drawable/w3" scaleType="fitXY"/>
+    </LinearLayout>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="start" layout_gravity="center" id="@+id/exf" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="18dp" layout_marginTop="12dp" layout_marginRight="18dp" layout_marginBottom="16dp" maxWidth="208dp" NOT_FOUND_0xf="62"/>
+</FrameLayout>

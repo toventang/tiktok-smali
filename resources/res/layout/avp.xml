@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <RelativeLayout orientation="vertical" paddingLeft="16dp" paddingTop="10dp" paddingRight="16dp" paddingBottom="10dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+        <ImageView id="@+id/bv0" layout_width="29dp" layout_height="29dp" src="0x7f080b35" layout_centerVertical="true"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/ewo" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginRight="94dp" singleLine="true" layout_toRightOf="@+id/bv0" layout_centerVertical="true" layout_marginStart="12dp" layout_marginEnd="94dp" layout_toEndOf="@+id/bv0" NOT_FOUND_0x1c="42"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" gravity="start" id="@+id/f43" layout_width="wrap_content" layout_height="wrap_content" layout_alignParentRight="true" layout_centerVertical="true" textDirection="locale" textAlignment="viewStart" layout_alignParentEnd="true" NOT_FOUND_0x1c="61"/>
+    </RelativeLayout>
+    <ViewStub id="@+id/dug" layout="@layout/awe" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/bv0"/>
+</LinearLayout>

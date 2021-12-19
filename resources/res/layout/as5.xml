@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/dqe" layout_width="match_parent" layout_height="match_parent">
+    <include layout="@layout/as6"/>
+    <FrameLayout background="@color/bj" layout_width="match_parent" layout_height="match_parent">
+        <com.ss.android.ugc.tools.view.widget.AVAutoRTLImageView id="@+id/q9" padding="@dimen/ci" focusable="true" layout_width="@dimen/ch" layout_height="44dp" layout_marginTop="@dimen/rk" src="0x7f0806ad" scaleType="centerInside" layout_marginStart="12dp"/>
+        <LinearLayout layout_gravity="center" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="62dp" layout_marginRight="62dp" layout_marginStart="62dp" layout_marginEnd="62dp">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center_horizontal" id="@+id/title" layout_width="match_parent" layout_height="wrap_content" text="@string/g_u" NOT_FOUND_0x1a="13"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/a_" gravity="center_horizontal" id="@+id/ee9" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="14dp" NOT_FOUND_0x1a="51"/>
+            <androidx.constraintlayout.widget.ConstraintLayout id="@+id/a1k" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="32dp">
+                <com.ss.android.ugc.aweme.themechange.base.AVDmtImageView id="@+id/bur" layout_width="wrap_content" layout_height="wrap_content" src="0x7f080676" NOT_FOUND_0x14="false" NOT_FOUND_0x17="0" NOT_FOUND_0x19="0"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/a1h" layout_width="wrap_content" layout_height="wrap_content" text="@string/g_p" layout_marginStart="16dp" NOT_FOUND_0x15="@+id/bur" NOT_FOUND_0x16="@+id/bur" NOT_FOUND_0x1a="42"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/ac" id="@+id/a1l" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" text="@string/g_o" NOT_FOUND_0x17="@+id/a1h" NOT_FOUND_0x18="@+id/a1h" NOT_FOUND_0x1a="51"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout id="@+id/cm2" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="32dp">
+                <com.ss.android.ugc.aweme.themechange.base.AVDmtImageView id="@+id/bz0" layout_width="wrap_content" layout_height="wrap_content" src="0x7f080679" NOT_FOUND_0x14="false" NOT_FOUND_0x17="0" NOT_FOUND_0x19="0"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/cm1" layout_width="wrap_content" layout_height="wrap_content" text="@string/g_t" layout_marginStart="16dp" NOT_FOUND_0x15="@+id/bz0" NOT_FOUND_0x16="@+id/bz0" NOT_FOUND_0x1a="42"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/ac" id="@+id/cm6" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" text="@string/g_s" NOT_FOUND_0x17="@+id/cm1" NOT_FOUND_0x18="@+id/cm1" NOT_FOUND_0x1a="51"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout id="@+id/b2_" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="32dp">
+                <com.ss.android.ugc.aweme.themechange.base.AVDmtImageView id="@+id/bwz" layout_width="wrap_content" layout_height="wrap_content" src="0x7f080678" NOT_FOUND_0x14="false" NOT_FOUND_0x17="0" NOT_FOUND_0x19="0"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/b29" layout_width="wrap_content" layout_height="wrap_content" text="@string/g_r" layout_marginStart="16dp" NOT_FOUND_0x15="@+id/bwz" NOT_FOUND_0x16="@+id/bwz" NOT_FOUND_0x1a="42"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/ac" id="@+id/b2a" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" text="@string/g_q" NOT_FOUND_0x17="@+id/b29" NOT_FOUND_0x18="@+id/b29" NOT_FOUND_0x1a="51"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" id="@+id/j1" background="@drawable/bkw" paddingTop="13dp" paddingBottom="13dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="112dp" text="@string/g_l" NOT_FOUND_0x1a="42"/>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

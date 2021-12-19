@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="wrap_content" layout_height="wrap_content">
+    <com.facebook.drawee.view.SimpleDraweeView id="@+id/c34" layout_width="44dp" layout_height="44dp" layout_centerVertical="true" NOT_FOUND_0xe="@drawable/e1" NOT_FOUND_0xf="@drawable/e1" NOT_FOUND_0x10="false" NOT_FOUND_0x11="2dp"/>
+    <LinearLayout orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" layout_centerVertical="true" layout_marginStart="8dp" layout_marginEnd="4dp" layout_toEndOf="@+id/c34">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" layout_width="wrap_content" layout_height="wrap_content" text="@string/bk5" NOT_FOUND_0x12="41"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/ac" ellipsize="end" id="@+id/fa4" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" maxWidth="195dp" maxLines="1" NOT_FOUND_0x12="61"/>
+    </LinearLayout>
+</RelativeLayout>

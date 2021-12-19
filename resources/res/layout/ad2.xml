@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="wrap_content" layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.kids.commonfeed.ui.widget.PeriscopeLayout id="@+id/cwj" layout_width="95dp" layout_height="95dp" layout_marginRight="21dp" layout_alignParentRight="true" layout_alignParentBottom="true" layout_marginEnd="21dp" layout_alignParentEnd="true"/>
+    <FrameLayout id="@+id/cpu" layout_width="49dp" layout_height="49dp" layout_alignParentRight="true" layout_alignParentBottom="true" layout_alignParentEnd="true">
+        <com.bytedance.lighten.loader.SmartCircleImageView layout_gravity="center" id="@+id/cpt" layout_width="27dp" layout_height="27dp" NOT_FOUND_0x9="0x7f0808dd"/>
+    </FrameLayout>
+</RelativeLayout>

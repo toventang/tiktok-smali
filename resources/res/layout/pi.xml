@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns="" id="@+id/dtg" layout_width="match_parent" layout_height="match_parent" layout_marginTop="8dp">
+    <LinearLayout orientation="vertical" id="@+id/dtb" layout_width="match_parent" layout_height="wrap_content"/>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/dqg" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+        <com.ss.android.ugc.aweme.account.views.AutoRTLImageView id="@+id/ayy" padding="10dp" layout_width="44dp" layout_height="44dp" layout_marginLeft="6dp" layout_marginTop="3dp" src="@drawable/ix" layout_marginStart="6dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bi" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="32dp" layout_marginTop="32dp" layout_marginRight="32dp" text="@string/a4x" layout_marginStart="32dp" layout_marginEnd="32dp" NOT_FOUND_0x15="23"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/ak7" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="32dp" layout_marginTop="8dp" layout_marginRight="32dp" text="@string/c36" layout_marginStart="32dp" layout_marginEnd="32dp" NOT_FOUND_0x15="51"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtEditText textSize="15sp" textColor="@color/bi" textColorHint="@color/c5" gravity="center_vertical" id="@+id/auc" background="@null" layout_width="match_parent" layout_height="48dp" layout_marginLeft="32dp" layout_marginTop="24dp" layout_marginRight="32dp" hint="@string/bmh" inputType="textEmailAddress" layout_marginStart="32dp" layout_marginEnd="32dp"/>
+        <View background="@color/b6" layout_width="match_parent" layout_height="1dp" layout_marginLeft="32dp" layout_marginRight="32dp" layout_marginStart="32dp" layout_marginEnd="32dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" id="@+id/dyf" background="@drawable/cbl" padding="12dp" layout_width="match_parent" layout_height="44dp" layout_marginLeft="32dp" layout_marginTop="24dp" layout_marginRight="32dp" text="@string/c3_" layout_marginStart="32dp" layout_marginEnd="32dp" NOT_FOUND_0x15="51" NOT_FOUND_0x16="10dp"/>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.ui.widget.DmtStatusView layout_gravity="center" id="@+id/e_c" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+</FrameLayout>

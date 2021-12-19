@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <ViewStub id="@+id/e87" visibility="gone" layout="@layout/b1l" layout_width="match_parent" layout_height="27dp"/>
+    <RelativeLayout layout_width="match_parent" layout_height="match_parent">
+        <RelativeLayout id="@+id/e89" layout_width="match_parent" layout_height="match_parent" layout_above="@+id/rf">
+            <com.ss.android.ad.splash.core.BDASplashImageView id="@+id/e8i" visibility="gone" layout_width="match_parent" layout_height="match_parent" scaleType="fitXY"/>
+            <com.ss.android.ad.splash.core.video2.BDASplashVideoView id="@+id/e8h" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+        </RelativeLayout>
+        <RelativeLayout id="@+id/e8a" background="@color/pd" visibility="gone" layout_width="match_parent" layout_height="60dp" layout_alignBottom="@+id/e89">
+            <RelativeLayout layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true">
+                <TextView textSize="20dp" textColor="@color/pj" ellipsize="end" id="@+id/e8c" layout_width="wrap_content" layout_height="wrap_content" maxWidth="200dp" text="@string/g34" lines="1" layout_centerVertical="true"/>
+                <ImageView paddingTop="1dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" src="0x7f080c3e" layout_toRightOf="@+id/e8c" layout_centerVertical="true"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <ImageView id="@+id/gk" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="14dp" layout_marginTop="14dp" layout_alignParentLeft="true" layout_alignParentTop="true" layout_marginStart="14dp" layout_alignParentStart="true"/>
+        <android.widget.Space id="@+id/rf" background="@color/pj" visibility="invisible" layout_width="match_parent" layout_height="wrap_content" layout_alignParentBottom="true"/>
+        <TextView textSize="12dp" textColor="#ffffff" id="@+id/gh" padding="3dp" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" layout_marginRight="9dp" shadowColor="#7f000000" shadowRadius="12" layout_toLeftOf="@+id/ep" layout_alignParentTop="true" layout_marginEnd="9dp" layout_toStartOf="@+id/ep"/>
+        <FrameLayout id="@+id/ep" visibility="gone" layout_width="wrap_content" layout_height="@dimen/st" layout_marginTop="8dp" layout_marginRight="10dp" layout_alignParentTop="true" layout_alignParentRight="true" layout_marginEnd="10dp" layout_alignParentEnd="true">
+            <TextView textSize="12dp" textColor="@color/ph" gravity="center" layout_gravity="center" id="@+id/gf" background="@drawable/bk2" paddingLeft="10dp" paddingRight="10dp" layout_width="wrap_content" layout_height="24dp" text="@string/g37" paddingStart="10dp" paddingEnd="10dp"/>
+            <ImageView layout_gravity="center" id="@+id/ge" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" scaleType="fitXY"/>
+        </FrameLayout>
+        <include layout="@layout/ahv"/>
+        <include layout="@layout/ahu"/>
+        <RelativeLayout id="@+id/e8g" visibility="gone" layout_width="match_parent" layout_height="match_parent">
+            <FrameLayout id="@+id/e8f" layout_width="wrap_content" layout_height="wrap_content"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

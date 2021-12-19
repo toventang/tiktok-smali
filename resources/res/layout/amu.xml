@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" background="@color/v" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.emoji.emojiPageV2.SwipeControlledRecycleView id="@+id/djj" layout_width="match_parent" layout_height="wrap_content"/>
+    <com.ss.android.ugc.aweme.views.AutoRTLImageView id="@+id/ajs" background="@drawable/a7b" paddingLeft="12dp" paddingTop="8dp" paddingRight="12dp" paddingBottom="8dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="16dp" layout_marginBottom="53dp" src="0x7f0809bf" layout_alignParentRight="true" layout_alignParentBottom="true" paddingStart="12dp" paddingEnd="12dp" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+</RelativeLayout>

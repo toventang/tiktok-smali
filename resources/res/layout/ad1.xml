@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center" orientation="vertical" id="@+id/c_r" layout_width="wrap_content" layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.kids.commonfeed.ui.widget.DiggAnimationView id="@+id/bn4" layout_width="40dp" layout_height="40dp" src="@drawable/ax5"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/f1x" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="6dp" NOT_FOUND_0x8="62"/>
+</LinearLayout>

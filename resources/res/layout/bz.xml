@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/ad9" background="@color/m" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.ies.dmt.ui.titlebar.TextTitleBar id="@+id/em8" layout_width="match_parent" layout_height="@dimen/a0s" NOT_FOUND_0x12="15dp" NOT_FOUND_0x13="@string/fgl" NOT_FOUND_0x14="@color/bx" NOT_FOUND_0x16="true"/>
+    <FrameLayout id="@+id/df3" layout_width="316dp" layout_height="400dp" layout_marginTop="32dp" layout_below="@+id/em8" layout_centerHorizontal="true"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" gravity="center" id="@+id/dsg" layout_width="316dp" layout_height="wrap_content" layout_marginTop="16dp" text="@string/h7q" layout_below="@+id/df3" layout_centerHorizontal="true" NOT_FOUND_0x15="71"/>
+    <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="24dp" layout_alignParentBottom="true" layout_centerHorizontal="true">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" gravity="center" id="@+id/f6d" layout_width="0dp" layout_height="wrap_content" text="@string/fg8" drawableTop="0x7f080afe" drawablePadding="8dp" layout_weight="1" NOT_FOUND_0x15="71"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" gravity="center" id="@+id/f6e" layout_width="0dp" layout_height="wrap_content" text="@string/fgl" drawableTop="0x7f080afd" drawablePadding="8dp" layout_weight="1" NOT_FOUND_0x15="71"/>
+    </LinearLayout>
+</RelativeLayout>

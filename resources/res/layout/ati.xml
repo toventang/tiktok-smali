@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <ImageView id="@+id/at1" visibility="gone" layout_width="40dp" layout_height="48dp" src="0x7f0804e2" scaleType="fitXY" layout_centerInParent="true" alpha="0.7"/>
+    <com.ss.android.ugc.aweme.shortvideo.cut.videoedit.rtlview.RTLImageView id="@+id/ast" visibility="gone" layout_width="56dp" layout_height="45dp" src="0x7f0804dd" scaleType="fitXY" layout_centerInParent="true" alpha="0.7"/>
+    <RelativeLayout gravity="center" id="@+id/asz" layout_width="match_parent" layout_height="wrap_content" layout_alignParentBottom="true">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" id="@+id/cjb" paddingBottom="8dp" visibility="gone" layout_width="300dp" layout_height="wrap_content" text="@string/azg" layout_centerHorizontal="true" NOT_FOUND_0x18="22"/>
+        <LinearLayout gravity="center" orientation="horizontal" id="@+id/at3" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/cjb">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/at2" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="4dp" NOT_FOUND_0x18="13"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/aa" id="@+id/arw" layout_width="wrap_content" layout_height="wrap_content" text="/" layout_marginStart="4dp" layout_toEndOf="@+id/at2" NOT_FOUND_0x18="12"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/aa" id="@+id/at4" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="4dp" layout_toEndOf="@+id/arw" NOT_FOUND_0x18="12"/>
+        </LinearLayout>
+        <SeekBar id="@+id/at0" paddingTop="6dp" paddingBottom="6dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="25dp" max="100" progressDrawable="@drawable/a77" thumb="@drawable/a71" layout_below="@+id/at3" layout_centerHorizontal="true" layout_marginStart="4dp" layout_marginEnd="4dp"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" background="@drawable/bv8" layout_width="wrap_content" layout_height="40dp" maxWidth="82dp" minWidth="49dp">
+    <com.bytedance.android.livesdk.wishlist.view.WishListNotSetView id="@+id/fn4" layout_width="wrap_content" layout_height="match_parent" maxWidth="82dp" minWidth="49dp" NOT_FOUND_0x6="0"/>
+    <com.bytedance.android.livesdk.wishlist.view.WishListInProgressView id="@+id/fn2" layout_width="wrap_content" layout_height="match_parent" maxWidth="82dp" minWidth="49dp" NOT_FOUND_0x6="0"/>
+    <com.bytedance.android.livesdk.wishlist.view.WishListThanksView id="@+id/fn7" layout_width="wrap_content" layout_height="match_parent" maxWidth="82dp" minWidth="49dp" NOT_FOUND_0x6="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

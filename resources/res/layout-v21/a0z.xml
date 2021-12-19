@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/dqn" background="@color/l" layout_width="match_parent" layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/em8" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x21="0" NOT_FOUND_0x24="0" NOT_FOUND_0x26="0">
+        <ImageView id="@+id/q9" padding="16dp" layout_width="56dp" layout_height="56dp" src="@drawable/ccg" NOT_FOUND_0x20="0" NOT_FOUND_0x24="0" NOT_FOUND_0x26="0"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/title" layout_width="0dp" layout_height="wrap_content" maxLines="1" alpha="0" NOT_FOUND_0x20="0" NOT_FOUND_0x22="@+id/cnu" NOT_FOUND_0x23="@+id/q9" NOT_FOUND_0x26="0" NOT_FOUND_0x27="33"/>
+        <View id="@+id/cnu" layout_width="56dp" layout_height="56dp" NOT_FOUND_0x20="0" NOT_FOUND_0x21="0" NOT_FOUND_0x26="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.core.widget.NestedScrollView id="@+id/dtg" layout_width="match_parent" layout_height="0dp" NOT_FOUND_0x20="0" NOT_FOUND_0x21="0" NOT_FOUND_0x24="0" NOT_FOUND_0x25="@+id/em8">
+        <androidx.constraintlayout.widget.ConstraintLayout layout_width="match_parent" layout_height="match_parent">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c4" ellipsize="end" id="@+id/elq" visibility="visible" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="10dp" text="This advertiser doesn&apos;t have an accout yet.This advertiser doesn&apos;t have an accout yet.This advertiser doesn&apos;t have an accout yet" maxLines="1" drawablePadding="4dp" drawableStart="0x7f08050f" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x21="0" NOT_FOUND_0x24="0" NOT_FOUND_0x26="0" NOT_FOUND_0x27="61"/>
+            <androidx.constraintlayout.widget.ConstraintLayout id="@+id/d_l" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x21="0" NOT_FOUND_0x24="0" NOT_FOUND_0x25="@+id/elq">
+                <com.ss.android.ugc.aweme.base.ui.SmartRoundImageView id="@+id/fcu" layout_width="100dp" layout_height="100dp" NOT_FOUND_0x24="0" NOT_FOUND_0x26="0"/>
+                <LinearLayout orientation="vertical" layout_width="0dp" layout_height="wrap_content" layout_marginStart="16dp" NOT_FOUND_0x21="0" NOT_FOUND_0x23="@+id/fcu" NOT_FOUND_0x26="0">
+                    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/fdm" paddingBottom="4sp" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x27="23"/>
+                    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/fd9" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x27="61"/>
+                    <LinearLayout orientation="vertical" id="@+id/ffy" layout_width="match_parent" layout_height="wrap_content">
+                        <com.ss.android.ugc.aweme.views.MentionTextView textSize="15sp" textColor="@color/bi" id="@+id/ffx" layout_width="match_parent" layout_height="wrap_content" lineSpacingExtra="3sp"/>
+                        <ViewStub id="@+id/ect" layout="@layout/zl" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="6dp"/>
+                        <ViewStub id="@+id/ecs" layout="@layout/zk" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="6dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <FrameLayout id="@+id/ffw" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x21="0" NOT_FOUND_0x24="0" NOT_FOUND_0x25="@+id/d_l">
+                <com.ss.android.ugc.aweme.views.MentionTextView textSize="15sp" textColor="@color/bx" id="@+id/ffv" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" shadowColor="@color/iu" shadowDy="1" shadowRadius="1" lineSpacingExtra="3sp" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+            </FrameLayout>
+            <FrameLayout id="@+id/ffq" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" minHeight="0.1dp" NOT_FOUND_0x20="0" NOT_FOUND_0x21="0" NOT_FOUND_0x24="0" NOT_FOUND_0x25="@+id/ffw">
+                <ImageView id="@+id/ffs" layout_width="match_parent" layout_height="wrap_content" src="@color/a2" scaleType="centerCrop"/>
+                <FrameLayout id="@+id/ffp" layout_width="match_parent" layout_height="wrap_content">
+                    <ImageView layout_gravity="center" id="@+id/fgt" visibility="gone" layout_width="40dp" layout_height="50dp" src="0x7f080961" scaleType="fitXY"/>
+                </FrameLayout>
+            </FrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/d_" background="@drawable/rg" padding="16dp" layout_width="match_parent" layout_height="wrap_content" layout_marginStart="16dp" layout_marginEnd="16dp" elevation="8dp" NOT_FOUND_0x20="0" NOT_FOUND_0x21="0" NOT_FOUND_0x24="0">
+        <com.ss.android.ugc.aweme.base.ui.SmartRoundImageView id="@+id/dd" layout_width="40dp" layout_height="40dp" NOT_FOUND_0x20="0" NOT_FOUND_0x24="0" NOT_FOUND_0x26="0"/>
+        <LinearLayout orientation="vertical" layout_width="0dp" layout_height="wrap_content" layout_marginStart="8dp" layout_marginEnd="8dp" NOT_FOUND_0x20="0" NOT_FOUND_0x22="@+id/df" NOT_FOUND_0x23="@+id/dd" NOT_FOUND_0x26="0">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/db" paddingBottom="3sp" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x27="43"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/d8" paddingBottom="3sp" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x27="81"/>
+        </LinearLayout>
+        <com.bytedance.tux.icon.TuxIconView id="@+id/df" layout_width="16dp" layout_height="16dp" NOT_FOUND_0x20="0" NOT_FOUND_0x21="0" NOT_FOUND_0x26="0" NOT_FOUND_0x28="@raw/icon_chevron_right_ltr" NOT_FOUND_0x29="?attr/ab"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View id="@+id/awd" visibility="gone" layout_width="match_parent" layout_height="64dp" NOT_FOUND_0x20="0" NOT_FOUND_0x21="0" NOT_FOUND_0x24="0"/>
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/da" background="@drawable/rh" paddingTop="12dp" paddingBottom="12dp" layout_width="match_parent" layout_height="64dp" paddingStart="16dp" paddingEnd="16dp" elevation="8dp" NOT_FOUND_0x20="0" NOT_FOUND_0x21="0" NOT_FOUND_0x24="0">
+        <com.ss.android.ugc.aweme.base.ui.SmartRoundImageView id="@+id/de" layout_width="40dp" layout_height="40dp" NOT_FOUND_0x20="0" NOT_FOUND_0x24="0" NOT_FOUND_0x26="0"/>
+        <LinearLayout orientation="vertical" layout_width="0dp" layout_height="wrap_content" layout_marginStart="8dp" layout_marginEnd="8dp" NOT_FOUND_0x20="0" NOT_FOUND_0x22="@+id/dg" NOT_FOUND_0x23="@+id/de" NOT_FOUND_0x26="0">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/a2" id="@+id/dc" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" NOT_FOUND_0x27="43"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/i" id="@+id/d9" paddingTop="3sp" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" NOT_FOUND_0x27="81"/>
+        </LinearLayout>
+        <ImageView id="@+id/dg" layout_width="20dp" layout_height="20dp" src="@drawable/anp" scaleType="fitXY" NOT_FOUND_0x20="0" NOT_FOUND_0x21="0" NOT_FOUND_0x26="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ViewStub id="@+id/e9" layout="@layout/cm" layout_width="match_parent" layout_height="match_parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center" orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content">
+    <FrameLayout layout_width="wrap_content" layout_height="wrap_content">
+        <com.ss.android.ugc.aweme.base.ui.AvatarImageView id="@+id/pd" layout_width="40dp" layout_height="40dp" NOT_FOUND_0xb="0x7f080644" NOT_FOUND_0xc="6" NOT_FOUND_0xd="true"/>
+        <com.bytedance.tux.icon.TuxIconView id="@+id/fez" style="@style/yh"/>
+    </FrameLayout>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bj" ellipsize="end" id="@+id/fdm" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="10dp" maxWidth="190dp" singleLine="true" layout_marginStart="10dp" NOT_FOUND_0xe="41"/>
+</LinearLayout>

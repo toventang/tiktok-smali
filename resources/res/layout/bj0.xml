@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <androidx.appcompat.widget.ViewStubCompat id="@+id/cs1" layout="@layout/eo" layout_width="match_parent" layout_height="match_parent"/>
+</FrameLayout>

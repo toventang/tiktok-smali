@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/b4h" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" id="@+id/ces" paddingLeft="10dp" paddingRight="10dp" paddingBottom="35dp" layout_width="match_parent" layout_height="wrap_content" layout_alignParentBottom="true">
+        <com.ss.android.ugc.aweme.views.RoundedFrameLayout id="@+id/b64" background="@color/r" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xf="13dp">
+            <com.bytedance.tux.input.TuxTextView textColor="#007aff" gravity="center" layout_gravity="center" id="@+id/f4f" paddingTop="16dp" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x10="21"/>
+        </com.ss.android.ugc.aweme.views.RoundedFrameLayout>
+        <com.ss.android.ugc.aweme.views.RoundedFrameLayout id="@+id/b4n" background="@color/r" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="10dp" NOT_FOUND_0xf="13dp">
+            <com.bytedance.tux.input.TuxTextView textColor="#007aff" gravity="center" layout_gravity="center" paddingTop="16dp" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content" text="@string/a9e" NOT_FOUND_0x10="21"/>
+        </com.ss.android.ugc.aweme.views.RoundedFrameLayout>
+    </LinearLayout>
+</RelativeLayout>

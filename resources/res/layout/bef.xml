@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/ai_" layout_width="48dp" layout_height="26dp">
+    <View id="@+id/aia" background="@drawable/bpi" layout_width="48dp" layout_height="26dp"/>
+    <View id="@+id/ai9" background="@drawable/bpj" layout_width="24dp" layout_height="24dp" layout_marginLeft="1dp" layout_marginTop="1dp" layout_marginStart="1dp"/>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_gravity="center" clipChildren="false" clipToPadding="false" layout_width="wrap_content" layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/a9i" visibility="invisible" layout_width="match_parent" layout_height="96dp" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0">
+        <View id="@+id/a9h" background="0x7f080cd7" layout_width="10dp" layout_height="96dp" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0"/>
+        <View id="@+id/a9j" background="0x7f080cd8" layout_width="19dp" layout_height="96dp" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/a9_" background="@drawable/bnx" clipChildren="false" clipToPadding="false" layout_width="wrap_content" layout_height="25dp" layout_marginBottom="38dp" NOT_FOUND_0xc="@+id/a9i" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0">
+        <View id="@+id/a99" layout_width="25dp" layout_height="25dp" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="25dp" textColor="@color/a7" id="@+id/a9c" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0xc="@+id/a9a" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="@+id/a9a"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="21dp" textColor="#66ffffff" id="@+id/a9b" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0xc="@+id/a9a" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="@+id/a9a"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="17dp" textColor="@color/a9" id="@+id/a9a" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="5dp" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="@+id/a99"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

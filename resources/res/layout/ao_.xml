@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" background="@color/l" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.tux.navigation.TuxNavBar id="@+id/csl" layout_width="match_parent" layout_height="52dp"/>
+    <include id="@+id/dzi" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="39dp" layout_marginRight="16dp" NOT_FOUND_0xd="@+id/csl" NOT_FOUND_0xe="@+id/csl" layout="@layout/ap9"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/fdi" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="12dp" layout_marginRight="16dp" layout_marginBottom="8dp" text="link" NOT_FOUND_0xd="0" NOT_FOUND_0xe="@+id/dzi" NOT_FOUND_0x10="51"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/eyy" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="12dp" layout_marginRight="16dp" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="@+id/fdi" NOT_FOUND_0x10="61"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtStatusView id="@+id/e_o" visibility="gone" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xf="0"/>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/dzk" background="@color/l" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xb="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

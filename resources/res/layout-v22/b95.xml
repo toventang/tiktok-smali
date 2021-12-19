@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.android.livesdk.utils.crop.CropView xmlns="" id="@+id/ah8" background="@color/a2" layout_width="match_parent" layout_height="match_parent">
+    <View layout_width="match_parent" layout_height="52dp"/>
+    <ImageView layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" id="@+id/ewf" padding="12dp" layout_width="40dp" layout_height="40dp" layout_marginLeft="16dp" layout_marginBottom="40dp" src="0x7f080f60" layout_marginStart="16dp"/>
+    <ImageView layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" id="@+id/exb" paddingLeft="8.5dp" paddingTop="12dp" paddingRight="8.5dp" paddingBottom="12dp" layout_width="40dp" layout_height="40dp" layout_marginRight="16dp" layout_marginBottom="40dp" src="0x7f080f61" layout_marginEnd="16dp" NOT_FOUND_0x10="8.5dp" NOT_FOUND_0x11="12dp"/>
+</com.bytedance.android.livesdk.utils.crop.CropView>

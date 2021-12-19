@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/dqe" clipChildren="false" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.story.record.widget.StoryRecordLayout id="@+id/dj1" layout_width="80dp" layout_height="80dp" layout_marginBottom="86dp" layout_alignParentBottom="true" layout_centerHorizontal="true"/>
+    <RelativeLayout id="@+id/cil" visibility="gone" layout_width="41dp" layout_height="32dp" layout_marginRight="26dp" layout_marginBottom="110dp" layout_toLeftOf="@+id/dj1" layout_alignParentBottom="true" layout_marginEnd="26dp" layout_toStartOf="@+id/dj1">
+        <RelativeLayout id="@+id/fc3" background="@drawable/bku" layout_width="match_parent" layout_height="28dp" layout_centerVertical="true">
+            <ImageView id="@+id/fc2" layout_width="20dp" layout_height="20dp" layout_marginLeft="10dp" src="0x7f080c80" layout_alignParentLeft="true" layout_centerVertical="true" layout_marginStart="10dp" layout_alignParentStart="true"/>
+        </RelativeLayout>
+        <ImageView id="@+id/cin" background="@drawable/bkx" padding="4dp" visibility="gone" layout_width="32dp" layout_height="32dp" layout_marginRight="5dp" src="0x7f080c81" layout_alignParentRight="true" layout_marginEnd="5dp" layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center_horizontal" id="@+id/bjv" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="30dp" layout_alignParentBottom="true" NOT_FOUND_0x1b="62"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center_horizontal" id="@+id/app" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="30dp" text="@string/g8p" layout_alignParentBottom="true" NOT_FOUND_0x1b="62"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center_horizontal" id="@+id/dkj" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="30dp" text="@string/g8r" layout_above="@+id/dj1" NOT_FOUND_0x1b="62"/>
+    <ImageView id="@+id/dj3" visibility="gone" layout_width="5dp" layout_height="wrap_content" layout_marginBottom="1dp" src="@drawable/bb0" scaleType="center" layout_alignParentBottom="true" layout_centerHorizontal="true"/>
+</RelativeLayout>

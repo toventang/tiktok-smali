@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="horizontal" id="@+id/ber" background="@drawable/rw" layout_width="wrap_content" layout_height="wrap_content">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bm" gravity="left|center_vertical|center_horizontal|center|start" layout_gravity="center_vertical" id="@+id/f1f" paddingTop="16dp" paddingBottom="14dp" layout_width="wrap_content" layout_height="wrap_content" paddingStart="12dp" paddingEnd="2dp" NOT_FOUND_0x12="21"/>
+    <com.ss.android.ugc.aweme.shortvideo.edit.infosticker.interact.social.ui.SocialTouchableEditText textColor="@color/bx" textColorHint="@color/bz" gravity="left|center_vertical|center_horizontal|center|start" layout_gravity="center_vertical" id="@+id/aya" background="@null" paddingTop="8dp" paddingBottom="8dp" layout_width="wrap_content" layout_height="wrap_content" hint="@string/axt" maxLines="1" inputType="text" textCursorDrawable="@drawable/a87" textAlignment="viewStart" paddingEnd="16dp"/>
+</LinearLayout>

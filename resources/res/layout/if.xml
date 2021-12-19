@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.common.keyboard.MeasureLinearLayout xmlns="" orientation="vertical" id="@+id/d0u" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="horizontal" id="@+id/d0t" layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+    <LinearLayout layout_gravity="bottom" orientation="vertical" id="@+id/ad7" background="@drawable/lj" layout_width="match_parent" layout_height="wrap_content">
+        <View id="@+id/eh7" background="@color/a8" layout_width="match_parent" layout_height="0.5dp"/>
+        <include id="@+id/ash" background="@color/c9" layout_width="match_parent" layout_height="47dp" layout="@layout/i5"/>
+        <View id="@+id/fa" background="@color/bj" visibility="gone" layout_width="match_parent" layout_height="47dp" layout_marginTop="-47dp"/>
+        <androidx.appcompat.widget.AppCompatCheckBox textColor="@color/bz" gravity="center_vertical" id="@+id/a35" layout_width="wrap_content" layout_height="42.5dp" layout_marginLeft="12dp" button="@null" text="@string/f0o" drawableLeft="@drawable/mz" drawablePadding="4dp" drawableStart="@drawable/mz" layout_marginStart="12dp" style="@style/y4"/>
+        <LinearLayout orientation="vertical" id="@+id/d1k" background="@color/p" visibility="gone" layout_width="match_parent" layout_height="244dp"/>
+    </LinearLayout>
+</com.ss.android.ugc.aweme.common.keyboard.MeasureLinearLayout>

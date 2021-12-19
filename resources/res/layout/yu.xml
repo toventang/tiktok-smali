@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.base.ui.RemoteImageView xmlns="" id="@+id/ehd" background="@drawable/a7u" paddingLeft="15dp" paddingTop="11dp" paddingRight="15dp" paddingBottom="11dp" layout_width="52dp" layout_height="44dp" scaleType="fitCenter"/>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" gravity="center" orientation="vertical" background="@drawable/hg" layout_width="57dp" layout_height="57dp">
+    <com.bytedance.tux.status.loading.TuxDualBallView layout_gravity="center_horizontal" id="@+id/eu6" layout_width="32dp" layout_height="32dp"/>
+</RelativeLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.ies.uikit.dialog.RecycleListView xmlns="" paddingTop="@dimen/iv" scrollbars="vertical" clipToPadding="false" layout_width="match_parent" layout_height="match_parent" cacheColorHint="@null" divider="@null" overScrollMode="ifContentScrolls"/>

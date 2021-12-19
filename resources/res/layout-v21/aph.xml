@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" background="@color/mq" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout id="@+id/da6" visibility="invisible" layout_width="match_parent" layout_height="match_parent"/>
+    <androidx.cardview.widget.CardView id="@+id/dav" visibility="gone" layout_width="80dp" layout_height="80dp" backgroundTint="@color/a3" NOT_FOUND_0x7="0" NOT_FOUND_0x8="0" NOT_FOUND_0x9="0" NOT_FOUND_0xa="0">
+        <com.bytedance.tux.status.loading.TuxDualBallView layout_gravity="center" id="@+id/dau" layout_width="32dp" layout_height="32dp"/>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

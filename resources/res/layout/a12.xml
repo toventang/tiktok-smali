@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/fi5" clipChildren="false" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout id="@+id/bf2" fitsSystemWindows="true" layout_width="match_parent" layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_gravity="left|center_vertical|center_horizontal|center|start" id="@+id/eul" paddingTop="14dp" paddingBottom="14dp" layout_width="wrap_content" layout_height="wrap_content" text="@string/a9e" paddingStart="16dp" paddingEnd="16dp" NOT_FOUND_0x17="31"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/eum" paddingTop="14dp" paddingBottom="14dp" layout_width="wrap_content" layout_height="wrap_content" text="@string/ffv" paddingStart="16dp" paddingEnd="16dp" NOT_FOUND_0x17="31"/>
+    </FrameLayout>
+    <FrameLayout id="@+id/att" background="@color/l" layout_width="match_parent" layout_height="wrap_content" layout_alignParentBottom="true"/>
+    <LinearLayout orientation="vertical" id="@+id/dji" clipChildren="false" layout_width="match_parent" layout_height="wrap_content" layout_above="@+id/att" layoutDirection="ltr" layout_marginStart="16dp" layout_marginEnd="16dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/euo" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="14dp" text="@string/d66" NOT_FOUND_0x17="71"/>
+        <com.ss.android.ugc.aweme.ftc.widgets.FTCChooseCoverView layout_gravity="bottom" id="@+id/ff_" layout_width="match_parent" layout_height="64dp" layout_marginTop="14dp" layout_marginBottom="14dp"/>
+    </LinearLayout>
+    <FrameLayout id="@+id/ffe" clipChildren="false" layout_width="match_parent" layout_height="match_parent" layout_above="@+id/dji" layout_below="@+id/bf2" layout_centerInParent="true">
+        <FrameLayout layout_gravity="center" id="@+id/atu" layout_width="match_parent" layout_height="match_parent"/>
+    </FrameLayout>
+    <FrameLayout id="@+id/ats" layout_width="match_parent" layout_height="match_parent"/>
+</RelativeLayout>

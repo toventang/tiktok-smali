@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" theme="@style/ob" orientation="vertical" paddingTop="0dp" layout_width="match_parent" layout_height="wrap_content">
+    <RelativeLayout layout_width="match_parent" layout_height="52dp">
+        <ImageView id="@+id/b38" layout_width="24dp" layout_height="24dp" layout_marginTop="15dp" src="0x7f0806a2" scaleType="fitXY" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+        <FrameLayout layout_width="match_parent" layout_height="match_parent" layout_centerVertical="true" layout_marginStart="16dp" layout_marginEnd="59dp" layout_alignParentStart="true">
+            <com.ss.android.ugc.aweme.themechange.base.AVDmtTabLayout id="@+id/ehm" layout_width="wrap_content" layout_height="52dp" layout_marginTop="0dp" NOT_FOUND_0x17="@color/c9" NOT_FOUND_0x18="0" NOT_FOUND_0x19="@color/a9" NOT_FOUND_0x1a="2dp" NOT_FOUND_0x1b="30dp" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="0dp" NOT_FOUND_0x1e="0dp" NOT_FOUND_0x1f="@null"/>
+        </FrameLayout>
+    </RelativeLayout>
+    <View background="@color/a7" layout_width="match_parent" layout_height="0.5dp"/>
+    <FrameLayout id="@+id/dnt" layout_width="match_parent" layout_height="1000px">
+        <FrameLayout id="@+id/fix" layout_width="match_parent" layout_height="match_parent">
+            <com.bytedance.ies.dmt.ui.widget.DmtStatusView layout_gravity="center_vertical" id="@+id/ci4" visibility="invisible" layout_width="match_parent" layout_height="wrap_content" layout_centerInParent="true"/>
+            <com.ss.android.ugc.aweme.themechange.base.AVDmtPanelRecycleView id="@+id/drt" layout_width="match_parent" layout_height="match_parent"/>
+            <com.bytedance.tux.status.TuxStatusView id="@+id/e_p" visibility="invisible" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x22="0"/>
+        </FrameLayout>
+        <FrameLayout id="@+id/fiw" layout_width="match_parent" layout_height="match_parent">
+            <com.bytedance.ies.dmt.ui.widget.DmtStatusView layout_gravity="center_vertical" id="@+id/ci5" visibility="invisible" layout_width="match_parent" layout_height="wrap_content" layout_centerInParent="true"/>
+            <com.ss.android.ugc.aweme.themechange.base.AVDmtPanelRecycleView id="@+id/dru" layout_width="match_parent" layout_height="match_parent" layout_centerVertical="true"/>
+            <com.bytedance.tux.status.TuxStatusView id="@+id/e_q" visibility="invisible" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x22="0"/>
+        </FrameLayout>
+    </FrameLayout>
+    <View background="@color/a7" layout_width="match_parent" layout_height="0.5dp"/>
+    <RelativeLayout id="@+id/v9" layout_width="match_parent" layout_height="48dp">
+        <RelativeLayout id="@+id/eu3" layout_width="wrap_content" layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxCheckBox theme="@style/ob" id="@+id/eu1" layout_width="32dp" layout_height="32dp" layout_marginTop="19dp" layout_marginStart="16dp" NOT_FOUND_0x20="0"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/eu2" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="19dp" text="@string/dnn" maxLines="1" layout_marginStart="8dp" layout_toEndOf="@+id/eu1" NOT_FOUND_0x21="42"/>
+        </RelativeLayout>
+        <LinearLayout orientation="horizontal" id="@+id/fkq" paddingTop="15dp" layout_width="wrap_content" layout_height="match_parent" layout_alignParentEnd="true">
+            <ImageView layout_width="20dp" layout_height="20dp" layout_marginTop="2dp" src="0x7f080702" scaleType="fitXY"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/a9" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" text="@string/zj" paddingEnd="16dp" layout_marginStart="8dp" NOT_FOUND_0x21="42"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

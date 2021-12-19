@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.account.views.AutoRTLImageView id="@+id/c20" padding="10dp" layout_width="44dp" layout_height="52dp" layout_marginLeft="6dp" src="@drawable/ix" scaleType="center" layout_marginStart="6dp"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="32dp" layout_marginTop="24dp" layout_marginRight="32dp" text="@string/arb" NOT_FOUND_0x13="23"/>
+    <RelativeLayout orientation="horizontal" paddingTop="14dp" paddingBottom="14dp" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="32dp" layout_marginTop="28dp" layout_marginRight="32dp">
+        <androidx.appcompat.widget.AppCompatCheckBox id="@+id/a3e" background="@drawable/hk" layout_width="24dp" layout_height="24dp" button="@null"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/ii" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="30dp" text="@string/fb4" layout_toRightOf="@+id/a3e" layout_marginStart="30dp" layout_toEndOf="@+id/a3e" NOT_FOUND_0x13="41"/>
+    </RelativeLayout>
+    <LinearLayout orientation="horizontal" paddingTop="16dp" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="32dp" layout_marginRight="32dp">
+        <androidx.appcompat.widget.AppCompatCheckBox id="@+id/a3g" background="@drawable/hk" layout_width="24dp" layout_height="24dp" button="@null"/>
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="30dp" layout_marginStart="30dp">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_width="match_parent" layout_height="wrap_content" text="@string/ar9" NOT_FOUND_0x13="41"/>
+            <WebView id="@+id/fnh" layout_width="match_parent" layout_height="96dp" layout_marginTop="6dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout orientation="horizontal" paddingTop="16dp" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="32dp" layout_marginRight="32dp">
+        <androidx.appcompat.widget.AppCompatCheckBox id="@+id/a3f" background="@drawable/hk" layout_width="24dp" layout_height="24dp" button="@null"/>
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="30dp" layout_marginStart="30dp">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_width="match_parent" layout_height="wrap_content" text="@string/ar8" NOT_FOUND_0x13="41"/>
+            <WebView id="@+id/fng" layout_width="match_parent" layout_height="96dp" layout_marginTop="6dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout orientation="horizontal" paddingTop="14dp" paddingBottom="14dp" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="32dp" layout_marginRight="32dp">
+        <androidx.appcompat.widget.AppCompatCheckBox id="@+id/a3d" background="@drawable/hk" layout_width="24dp" layout_height="24dp" button="@null"/>
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="30dp" layout_marginStart="30dp">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/epx" layout_width="match_parent" layout_height="wrap_content" text="@string/fb4" NOT_FOUND_0x13="41"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/epw" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="6dp" text="@string/fb4" NOT_FOUND_0x13="71"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

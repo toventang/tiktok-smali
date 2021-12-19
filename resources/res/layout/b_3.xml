@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" paddingLeft="16dp" paddingTop="10dp" paddingRight="16dp" paddingBottom="10dp" layout_width="match_parent" layout_height="68dp">
+    <ImageView id="@+id/ehx" layout_width="48dp" layout_height="48dp" NOT_FOUND_0xc="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0"/>
+    <com.bytedance.android.live.design.widget.LiveRadioButton id="@+id/ei2" layout_width="24dp" layout_height="24dp" layout_marginRight="16dp" layout_marginEnd="16dp" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0x10="0"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textColor="?attr/amo" id="@+id/eht" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginStart="12dp" NOT_FOUND_0xc="0" NOT_FOUND_0xe="@+id/ehx" NOT_FOUND_0x10="0" style="@style/tt"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

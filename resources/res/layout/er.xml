@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_gravity="center_horizontal" id="@+id/ebo" visibility="gone" layout_width="280dp" layout_height="140dp" layout_marginBottom="15dp">
+    <com.facebook.drawee.view.SimpleDraweeView layout_gravity="center" id="@+id/ebp" layout_width="280dp" layout_height="140dp"/>
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+        <View layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+        <RelativeLayout gravity="center" layout_width="match_parent" layout_height="0dp" layout_weight="4">
+            <com.ss.android.ugc.tools.view.style.StyleTextView textSize="15dp" textColor="@color/nt" ellipsize="end" gravity="center" id="@+id/ebq" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="32dp" layout_marginRight="32dp" text="Create with #GenTikTok to raise money for charity" maxLines="3" lineSpacingExtra="0dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

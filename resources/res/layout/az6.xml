@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@color/l" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <include layout="@layout/az2"/>
+    <View style="@style/h0"/>
+    <WebView id="@+id/fm8" layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+</LinearLayout>

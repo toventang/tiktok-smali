@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+        <com.ss.android.ugc.aweme.im.sdk.common.ui.widget.ImTextTitleBar id="@+id/em8" layout_width="match_parent" layout_height="@dimen/mr" NOT_FOUND_0x12="@string/cdr" NOT_FOUND_0x13="@color/bx" NOT_FOUND_0x14="@string/chx" NOT_FOUND_0x15="@string/chz"/>
+        <FrameLayout id="@+id/e13" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="4dp"/>
+        <include layout="@layout/a85"/>
+        <FrameLayout layout_width="match_parent" layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView id="@+id/djh" layout_width="match_parent" layout_height="wrap_content" layout_toLeftOf="@+id/bnz" layout_toStartOf="@+id/bnz"/>
+            <com.ss.android.ugc.aweme.im.sdk.relations.ui.view.IndexView layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/bnz" layout_width="16dp" layout_height="wrap_content" layout_marginRight="4dp" layout_marginEnd="4dp"/>
+        </FrameLayout>
+    </LinearLayout>
+    <com.bytedance.tux.status.TuxStatusView id="@+id/e_o" visibility="gone" layout_width="match_parent" layout_height="match_parent" layout_marginTop="100dp" NOT_FOUND_0x17="0"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/bnw" background="0x7f080851" paddingTop="4dp" paddingBottom="4dp" visibility="gone" layout_width="52dp" layout_height="42dp" paddingStart="12dp" paddingEnd="18dp" layout_marginEnd="40dp" NOT_FOUND_0x16="11"/>
+</FrameLayout>

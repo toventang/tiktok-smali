@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_gravity="bottom" orientation="vertical" layout_width="375dp" layout_height="214dp" layout_marginLeft="8dp" layout_marginRight="8dp" layout_marginBottom="8dp">
+    <View id="@+id/adx" background="@drawable/brh" layout_width="match_parent" layout_height="match_parent" layout_marginTop="34dp"/>
+    <View id="@+id/pk" background="@drawable/boh" layout_width="76dp" layout_height="76dp" NOT_FOUND_0x1d="0" NOT_FOUND_0x1e="0" NOT_FOUND_0x1f="0" NOT_FOUND_0x20="0" NOT_FOUND_0x22="0"/>
+    <ImageView layout_gravity="center_horizontal" id="@+id/or" layout_width="72dp" layout_height="72dp" scaleType="fitCenter" NOT_FOUND_0x1c="@+id/pk" NOT_FOUND_0x1d="@+id/pk" NOT_FOUND_0x20="@+id/pk" NOT_FOUND_0x22="@+id/pk"/>
+    <LinearLayout gravity="center" orientation="horizontal" id="@+id/csc" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="52dp" NOT_FOUND_0x1d="@+id/adx" NOT_FOUND_0x20="@+id/adx" NOT_FOUND_0x22="@+id/adx">
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="16sp" textColor="#404040" ellipsize="end" gravity="center" id="@+id/cs_" layout_width="wrap_content" layout_height="wrap_content" maxWidth="164dp" minHeight="22dp" maxLines="1" NOT_FOUND_0x1b="7"/>
+        <com.bytedance.android.live.core.widget.HSImageView id="@+id/jx" visibility="gone" layout_width="30dp" layout_height="16dp" layout_marginLeft="4dp" layout_marginStart="4dp" NOT_FOUND_0x1a="0"/>
+    </LinearLayout>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="12sp" textColor="#b0b0b0" ellipsize="end" gravity="center_horizontal" id="@+id/akm" paddingLeft="10dp" paddingRight="10dp" layout_width="match_parent" layout_height="wrap_content" maxLines="2" paddingStart="10dp" paddingEnd="10dp" NOT_FOUND_0x21="@+id/csc"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/a9" gravity="center" id="@+id/b7a" background="@drawable/bsa" layout_width="match_parent" layout_height="40dp" layout_marginLeft="16dp" layout_marginTop="24dp" layout_marginRight="16dp" layout_marginBottom="16dp" text="@string/goa" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x1d="0" NOT_FOUND_0x20="0" NOT_FOUND_0x21="@+id/akm"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

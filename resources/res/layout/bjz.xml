@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="" layout_width="match_parent" layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/d7h" background="@color/l" layout_width="match_parent" layout_height="44.5dp">
+        <View id="@+id/d6y" background="@color/b3" layout_width="match_parent" layout_height="0.5dp" NOT_FOUND_0x15="0"/>
+        <com.bytedance.tux.icon.TuxIconView id="@+id/d71" padding="10dp" layout_width="44dp" layout_height="44dp" layout_marginLeft="6dp" layout_marginStart="6dp" NOT_FOUND_0x15="0" NOT_FOUND_0x18="0" NOT_FOUND_0x19="0" NOT_FOUND_0x1b="@raw/icon_x_mark" NOT_FOUND_0x1e="?attr/bc"/>
+        <com.bytedance.tux.icon.TuxIconView id="@+id/a49" padding="10dp" visibility="gone" layout_width="44dp" layout_height="44dp" layout_marginLeft="6dp" layout_marginStart="6dp" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0" NOT_FOUND_0x19="0" NOT_FOUND_0x1b="@raw/icon_x_mark" NOT_FOUND_0x1e="?attr/bc"/>
+        <com.bytedance.tux.icon.TuxIconView id="@+id/d7a" visibility="visible" layout_width="44dp" layout_height="44dp" layout_marginRight="6dp" layout_marginEnd="6dp" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0" NOT_FOUND_0x19="0" NOT_FOUND_0x1b="@raw/icon_exclamation_mark_triangle_fill" NOT_FOUND_0x1c="24dp" NOT_FOUND_0x1d="24dp" NOT_FOUND_0x1e="?attr/bc"/>
+        <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView id="@+id/d7d" padding="12dp" visibility="gone" layout_width="44dp" layout_height="44dp" layout_marginRight="6dp" src="0x7f080682" layout_marginEnd="6dp" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0" NOT_FOUND_0x19="0"/>
+        <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView id="@+id/d72" paddingLeft="6dp" paddingTop="10dp" paddingRight="10dp" paddingBottom="10dp" layout_width="44dp" layout_height="44dp" src="@drawable/ah9" paddingStart="6dp" paddingEnd="10dp" NOT_FOUND_0x15="0" NOT_FOUND_0x17="@+id/d71" NOT_FOUND_0x19="0"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/d7f" layout_width="wrap_content" layout_height="wrap_content" lines="1" maxEms="9" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0" NOT_FOUND_0x18="0" NOT_FOUND_0x19="0" NOT_FOUND_0x1a="33"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

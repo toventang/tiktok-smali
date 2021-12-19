@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="horizontal" id="@+id/di" background="@drawable/b5z" paddingTop="12dp" paddingBottom="12dp" layout_width="match_parent" layout_height="64dp" layout_marginBottom="-129dp" layout_alignParentBottom="true" paddingStart="16dp" paddingEnd="16dp" layout_alignParentStart="true" layout_alignParentEnd="true">
+    <com.ss.android.ugc.aweme.base.ui.SmartAvatarImageView id="@+id/d6v" background="@drawable/aow" layout_width="40dp" layout_height="40dp"/>
+    <LinearLayout layout_gravity="center_vertical" orientation="vertical" layout_width="0dp" layout_height="wrap_content" layout_marginTop="3dp" layout_marginBottom="4dp" layout_weight="1" layout_marginStart="8dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/d6u" layout_width="wrap_content" layout_height="17dp" maxLines="1" NOT_FOUND_0x14="53"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c4" id="@+id/d6w" layout_width="wrap_content" layout_height="14dp" layout_marginTop="2dp" maxLines="1" NOT_FOUND_0x14="81"/>
+    </LinearLayout>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" layout_gravity="center_vertical" id="@+id/dj" layout_width="88dp" layout_height="24dp" layout_marginStart="8dp" NOT_FOUND_0x14="71"/>
+</LinearLayout>

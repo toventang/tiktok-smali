@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" visibility="gone" layout_width="270dp" layout_height="wrap_content">
+    <RelativeLayout id="@+id/ayz" background="@drawable/a0h" layout_width="270dp" layout_height="wrap_content" layout_marginTop="12dp">
+        <com.ss.android.ugc.aweme.base.ui.SmartAvatarImageView id="@+id/e2h" visibility="visible" layout_width="38dp" layout_height="38dp" layout_marginLeft="10dp" layout_marginTop="12dp" layout_marginBottom="12dp" layout_marginStart="10dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" ellipsize="end" gravity="start" id="@+id/f7_" layout_width="wrap_content" layout_height="20dp" layout_marginLeft="56dp" layout_marginTop="12dp" layout_marginRight="92dp" text="yyggpppjjllLL" maxLines="1" layout_alignParentLeft="true" layout_alignParentTop="true" layout_alignParentRight="true" textAlignment="viewStart" layout_marginStart="56dp" layout_marginEnd="92dp" layout_alignParentStart="true" layout_alignParentEnd="true" NOT_FOUND_0x1c="43"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" ellipsize="end" gravity="start" id="@+id/f7a" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="56dp" layout_marginTop="34dp" layout_marginRight="93dp" layout_marginBottom="14dp" text="@string/g9" maxLines="2" layout_alignParentLeft="true" layout_alignParentTop="true" layout_alignParentRight="true" textAlignment="viewStart" layout_marginStart="56dp" layout_marginEnd="93dp" layout_alignParentStart="true" layout_alignParentEnd="true" NOT_FOUND_0x1c="81"/>
+        <RelativeLayout id="@+id/ezp" background="@drawable/a1x" layout_width="72dp" layout_height="28dp" layout_marginTop="17dp" layout_marginRight="10dp" layout_alignParentTop="true" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="10dp" layout_alignParentEnd="true">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/l" gravity="center" id="@+id/b7h" layout_width="56dp" layout_height="18dp" layout_marginTop="5dp" layout_marginRight="8dp" text="@string/d88" maxLines="1" layout_alignParentTop="true" layout_alignParentRight="true" layout_centerVertical="true" textAllCaps="false" layout_marginEnd="8dp" layout_alignParentEnd="true" NOT_FOUND_0x19="14dp" NOT_FOUND_0x1a="10dp" NOT_FOUND_0x1b="1" NOT_FOUND_0x1c="52"/>
+        </RelativeLayout>
+        <RelativeLayout layout_width="126dp" layout_height="wrap_content" layout_marginRight="11.5dp" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="11.5dp" layout_alignParentEnd="true">
+            <com.bytedance.tux.icon.TuxIconView id="@+id/cs2" layout_width="18dp" layout_height="18dp" layout_alignParentRight="true" layout_centerVertical="true" alpha="0" layout_alignParentEnd="true" NOT_FOUND_0x1d="@raw/icon_chevron_right_ltr" NOT_FOUND_0x1e="?attr/aa"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

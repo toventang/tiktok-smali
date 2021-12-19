@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns="" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x1f="@android:color/transparent" NOT_FOUND_0x20="10dp">
+    <LinearLayout gravity="center_horizontal" orientation="vertical" background="@drawable/wq" layout_width="600dp" layout_height="wrap_content">
+        <RelativeLayout orientation="horizontal" background="@drawable/ws" layout_width="match_parent" layout_height="110dp">
+            <FrameLayout layout_width="match_parent" layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView layout_width="18dp" layout_height="18dp" layout_marginLeft="12dp" layout_marginTop="11dp" layout_marginBottom="11dp" scaleType="fitXY" adjustViewBounds="false" layout_marginStart="12dp" NOT_FOUND_0x21="@drawable/x1"/>
+            </FrameLayout>
+            <TextView textSize="52sp" typeface="sans" textColor="@color/g8" gravity="center" id="@+id/acr" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true" fontFamily="sans-serif-light"/>
+            <ProgressBar id="@+id/dc1" layout_width="wrap_content" layout_height="0dp" layout_alignTop="@+id/acr" layout_alignBottom="@+id/acr" layout_centerInParent="true" layout_centerHorizontal="true" layout_centerVertical="true"/>
+        </RelativeLayout>
+        <TextView id="@+id/a90" layout_marginLeft="90dp" layout_marginTop="18dp" layout_marginRight="90dp" text="@string/ai_" layout_marginStart="90dp" layout_marginEnd="90dp" style="@style/vh"/>
+        <TextView textStyle="bold" gravity="center_horizontal" id="@+id/a91" layout_width="match_parent" layout_marginTop="12dp" text="@string/aia" layout_marginStart="0dp" layout_marginEnd="0dp" style="@style/vh"/>
+        <TextView id="@+id/a8x" layout_marginTop="12dp" style="@style/vh"/>
+        <FrameLayout layout_width="match_parent" layout_height="wrap_content" layout_marginTop="17dp" layout_marginBottom="17dp">
+            <Button textSize="18sp" typeface="sans" textStyle="bold" textColor="@color/fu" layout_gravity="center_horizontal" id="@+id/a1t" background="@drawable/wr" focusable="true" clickable="true" layout_width="wrap_content" layout_height="wrap_content" minWidth="200dp" text="@android:string/cancel" textAllCaps="true" fontFamily="sans-serif-medium"/>
+        </FrameLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" paddingLeft="16dp" paddingTop="8dp" paddingRight="16dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x11="16dp" NOT_FOUND_0x12="8dp">
+    <com.bytedance.tux.icon.TuxIconView id="@+id/q3" layout_width="48dp" layout_height="48dp" NOT_FOUND_0x13="0" NOT_FOUND_0x18="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x22="@drawable/no"/>
+    <com.bytedance.tux.input.TuxTextView textColor="?attr/bc" id="@+id/q4" layout_width="0dp" layout_height="wrap_content" text="@string/clh" layout_marginStart="12dp" NOT_FOUND_0x14="@+id/cbb" NOT_FOUND_0x16="@+id/cbd" NOT_FOUND_0x17="@+id/q3" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="2" NOT_FOUND_0x21="52"/>
+    <androidx.appcompat.widget.LinearLayoutCompat textColor="?attr/bj" ellipsize="end" gravity="center_vertical" orientation="horizontal" id="@+id/cbb" layout_width="0dp" layout_height="wrap_content" layout_marginTop="2dp" singleLine="true" NOT_FOUND_0x13="0" NOT_FOUND_0x16="@+id/cbc" NOT_FOUND_0x18="@+id/q4" NOT_FOUND_0x19="@+id/q4">
+        <com.ss.android.ugc.aweme.base.ui.AvatarImageView id="@+id/c1a" visibility="gone" layout_width="18dp" layout_height="18dp" layout_marginEnd="4dp" NOT_FOUND_0x1c="@color/bl" NOT_FOUND_0x1d="6" NOT_FOUND_0x1e="true"/>
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/bj" ellipsize="end" id="@+id/cba" layout_width="match_parent" layout_height="wrap_content" singleLine="true" NOT_FOUND_0x21="61"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.bytedance.tux.input.TuxTextView textColor="?attr/bd" id="@+id/cbd" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="6dp" NOT_FOUND_0x13="@+id/q4" NOT_FOUND_0x16="@+id/bts" NOT_FOUND_0x17="@+id/q4" NOT_FOUND_0x1a="@+id/q4" NOT_FOUND_0x21="61"/>
+    <com.bytedance.tux.badge.TuxAlertBadge id="@+id/cbc" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="10dp" NOT_FOUND_0x13="@+id/cbb" NOT_FOUND_0x16="@+id/bts" NOT_FOUND_0x17="@+id/cbb" NOT_FOUND_0x1a="@+id/cbb" NOT_FOUND_0x1f="0" NOT_FOUND_0x20="1"/>
+    <com.bytedance.tux.icon.TuxIconView id="@+id/bts" visibility="gone" layout_width="20dp" layout_height="20dp" NOT_FOUND_0x13="0" NOT_FOUND_0x15="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x22="@raw/icon_chevron_right_offset_small_ltr" NOT_FOUND_0x23="20dp" NOT_FOUND_0x24="20dp" NOT_FOUND_0x25="?attr/bc"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

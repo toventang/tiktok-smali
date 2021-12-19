@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns="">
+    <corners bottomLeftRadius="2dp" bottomRightRadius="2dp"/>
+    <gradient startColor="#ccfd473a" endColor="#ccfc2258" angle="0"/>
+</shape>

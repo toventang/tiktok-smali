@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="64dp" layout_height="94dp" layout_marginRight="6dp" layout_marginEnd="6dp">
+    <com.ss.android.ugc.aweme.base.ui.AvatarImageView id="@+id/p4" layout_width="48dp" layout_height="48dp" layout_marginTop="16dp" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0"/>
+    <com.ss.android.ugc.aweme.base.ui.CircleImageView id="@+id/a7y" background="@drawable/l8" layout_width="20dp" layout_height="20dp" layout_marginTop="14dp" layout_marginRight="2dp" scaleType="centerCrop" layout_marginEnd="2dp" NOT_FOUND_0xe="0" NOT_FOUND_0x10="0"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c4" ellipsize="end" gravity="center" id="@+id/eib" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="8dp" maxLines="1" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0" NOT_FOUND_0x11="81"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

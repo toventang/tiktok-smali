@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/s4" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.sdk.bdlynx.view.BDLynxView id="@+id/s3" layout_width="match_parent" layout_height="match_parent"/>
+</FrameLayout>

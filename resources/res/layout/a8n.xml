@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" background="@drawable/sl" layout_width="match_parent" layout_height="56dp" layout_marginLeft="16dp" layout_marginRight="16dp">
+    <com.ss.android.ugc.aweme.base.ui.AvatarImageWithVerify id="@+id/pf" layout_width="40dp" layout_height="40dp" NOT_FOUND_0xf="0" NOT_FOUND_0x15="0" NOT_FOUND_0x17="0"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/csg" layout_width="0dp" layout_height="wrap_content" maxLines="1" layout_marginStart="12dp" layout_marginEnd="12dp" NOT_FOUND_0x10="@+id/di4" NOT_FOUND_0x12="@+id/b7g" NOT_FOUND_0x13="0" NOT_FOUND_0x14="@+id/pf" NOT_FOUND_0x17="0" NOT_FOUND_0x19="2" NOT_FOUND_0x1a="1" NOT_FOUND_0x1b="52"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" gravity="start" id="@+id/di4" layout_width="0dp" layout_height="wrap_content" layout_marginStart="12dp" layout_marginEnd="12dp" NOT_FOUND_0xf="0" NOT_FOUND_0x12="@+id/b7g" NOT_FOUND_0x14="@+id/pf" NOT_FOUND_0x16="@+id/csg" NOT_FOUND_0x1b="51"/>
+    <com.ss.android.ugc.aweme.views.MutualRelationView id="@+id/crv" layout_width="0dp" layout_height="wrap_content" layout_marginStart="12dp" layout_marginEnd="12dp" NOT_FOUND_0x12="@+id/b7g" NOT_FOUND_0x14="@+id/pf" NOT_FOUND_0x17="@+id/di4"/>
+    <com.ss.android.ugc.aweme.im.sdk.share.panel.ui.view.SharePanelFollowButton gravity="center" id="@+id/b7g" visibility="gone" layout_width="90dp" layout_height="28dp" text="@string/byt" NOT_FOUND_0xe="1" NOT_FOUND_0xf="0" NOT_FOUND_0x11="0" NOT_FOUND_0x17="0"/>
+    <View id="@+id/an5" background="@color/b6" layout_width="match_parent" layout_height="0.5dp" NOT_FOUND_0xf="0" NOT_FOUND_0x18="1"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="50dp">
+    <TextView textSize="15dp" layout_gravity="center" id="@+id/euq" layout_width="wrap_content" layout_height="wrap_content" text="@string/cpa"/>
+    <TextView textSize="15dp" layout_gravity="center" id="@+id/euy" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/cpd"/>
+    <TextView textSize="15dp" layout_gravity="center" id="@+id/euu" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/cpc"/>
+    <ProgressBar layout_gravity="center" id="@+id/dby" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="5dp" layout_marginBottom="5dp" style="@style/Widget.ProgressBar.Small"/>
+</FrameLayout>

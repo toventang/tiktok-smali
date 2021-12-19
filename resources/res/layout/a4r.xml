@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center" orientation="vertical" id="@+id/dqe" layout_width="match_parent" layout_height="match_parent">
+    <RelativeLayout id="@+id/drp" layout_width="match_parent" layout_height="52dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_width="wrap_content" layout_height="wrap_content" text="@string/c8c" layout_centerInParent="true" NOT_FOUND_0x19="33"/>
+        <androidx.appcompat.widget.AppCompatImageView id="@+id/bve" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="12dp" src="0x7f080853" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="12dp" layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <FrameLayout layout_gravity="center_vertical" id="@+id/adh" layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout orientation="vertical" id="@+id/aem" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp">
+            <com.ss.android.ugc.aweme.base.ui.RemoteImageView layout_gravity="center_horizontal" id="@+id/or" layout_width="72dp" layout_height="72dp" layout_marginBottom="8dp" NOT_FOUND_0x15="true"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" layout_gravity="center_horizontal" id="@+id/f07" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="32dp" layout_marginRight="32dp" singleLine="true" layout_centerInParent="true" NOT_FOUND_0x19="32"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c4" layout_gravity="center_horizontal" id="@+id/f06" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" layout_centerInParent="true" NOT_FOUND_0x19="41"/>
+            <FrameLayout layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="20dp" layout_marginRight="16dp">
+                <com.bytedance.tux.button.TuxButton textColor="@color/bx" gravity="center" id="@+id/yc" visibility="gone" layout_width="match_parent" layout_height="44dp" layout_marginTop="12dp" layout_marginBottom="12dp" text="@string/c95" NOT_FOUND_0x16="42" NOT_FOUND_0x17="3" NOT_FOUND_0x18="1"/>
+                <LinearLayout orientation="vertical" id="@+id/cfm" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="12dp">
+                    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" layout_gravity="center_horizontal" id="@+id/f0o" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="32dp" NOT_FOUND_0x19="41"/>
+                    <com.bytedance.tux.button.TuxButton textColor="@color/bx" gravity="center" id="@+id/xo" layout_width="match_parent" layout_height="44dp" NOT_FOUND_0x16="42" NOT_FOUND_0x17="3" NOT_FOUND_0x18="1"/>
+                </LinearLayout>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bd" gravity="center" layout_gravity="center_horizontal" id="@+id/ezb" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="16dp" NOT_FOUND_0x19="41"/>
+            </FrameLayout>
+        </LinearLayout>
+        <com.bytedance.tux.status.loading.TuxDualBallView layout_gravity="center" id="@+id/aq4" visibility="gone" layout_width="36dp" layout_height="36dp"/>
+        <LinearLayout gravity="center" layout_gravity="center" orientation="vertical" id="@+id/axu" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="32dp" layout_marginRight="32dp">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c4" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="20dp" text="@string/c9t" NOT_FOUND_0x19="51"/>
+            <com.bytedance.tux.button.TuxButton textColor="@color/bx" id="@+id/zi" layout_width="match_parent" layout_height="44dp" layout_marginLeft="36dp" layout_marginRight="36dp" text="@string/cjx" NOT_FOUND_0x16="42" NOT_FOUND_0x17="3" NOT_FOUND_0x18="1" NOT_FOUND_0x1a="0x7f080838"/>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

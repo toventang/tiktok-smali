@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" orientation="vertical" id="@+id/apf" background="@color/l" layout_width="match_parent" layout_height="96dp">
+    <Space id="@+id/apj" layout_width="match_parent" layout_height="16dp"/>
+    <Space id="@+id/api" layout_width="match_parent" layout_height="16dp" layout_alignParentBottom="true"/>
+    <RelativeLayout layout_width="match_parent" layout_height="wrap_content" layout_above="@+id/api" layout_below="@+id/apj">
+        <com.ss.android.ugc.aweme.tools.draft.ftc.pages.FTCDraftItemView orientation="horizontal" id="@+id/ces" layout_width="match_parent" layout_height="wrap_content" layout_toLeftOf="@+id/eyt" layout_toStartOf="@+id/eyt">
+            <androidx.appcompat.widget.AppCompatCheckBox layout_gravity="center_vertical" id="@+id/a5_" layout_width="22dp" layout_height="22dp" layout_marginLeft="-22dp" button="@drawable/rb" layout_marginStart="-22dp"/>
+            <RelativeLayout id="@+id/do6" paddingLeft="16dp" layout_width="match_parent" layout_height="64dp" paddingStart="16dp">
+                <FrameLayout id="@+id/b5n" layout_width="64dp" layout_height="64dp" layout_centerVertical="true">
+                    <com.facebook.drawee.view.SimpleDraweeView id="@+id/agf" layout_width="64dp" layout_height="64dp" scaleType="centerCrop" NOT_FOUND_0x25="2dp"/>
+                    <ImageView layout_gravity="center" id="@+id/apk" layout_width="24dp" layout_height="24dp" NOT_FOUND_0x26="0x7f080103"/>
+                </FrameLayout>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/e4" gravity="center" id="@+id/ajs" background="@drawable/rc" visibility="gone" layout_width="57dp" layout_height="30dp" text="@string/b5g" layout_alignParentRight="true" layout_centerVertical="true" layout_alignParentEnd="true" NOT_FOUND_0x27="61"/>
+                <LinearLayout orientation="vertical" id="@+id/cgw" layout_width="match_parent" layout_height="match_parent" layout_marginLeft="16dp" layout_marginRight="24dp" layout_toRightOf="@+id/b5n" layout_alignTop="@+id/b5n" layout_marginStart="16dp" layout_marginEnd="24dp" layout_toEndOf="@+id/b5n">
+                    <com.ss.android.ugc.aweme.tools.draft.ExpandableMentionTextView textColor="@color/c5" textColorHint="@color/bx" ellipsize="end" id="@+id/q2" background="@color/c9" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="3dp" maxLines="2" lineSpacingExtra="3dp" style="@style/y6"/>
+                    <Space layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp"/>
+                    <LinearLayout orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content">
+                        <ImageView layout_gravity="center_vertical" id="@+id/a46" layout_width="wrap_content" layout_height="wrap_content" src="0x7f080607"/>
+                        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" textColorHint="@color/bx" layout_gravity="center_vertical" id="@+id/pt" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="3dp" hint="@string/bck" maxLines="2" layout_marginStart="3dp" NOT_FOUND_0x27="41"/>
+                    </LinearLayout>
+                    <com.bytedance.tux.input.TuxTextView textColor="@color/ac" gravity="center_vertical" id="@+id/apm" visibility="gone" layout_width="wrap_content" layout_height="17dp" text="" singleLine="true" layout_alignParentBottom="true" NOT_FOUND_0x27="71"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </com.ss.android.ugc.aweme.tools.draft.ftc.pages.FTCDraftItemView>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" gravity="end" id="@+id/eyt" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="3dp" layout_marginRight="16dp" layout_alignParentRight="true" layout_marginEnd="16dp" layout_alignParentEnd="true" NOT_FOUND_0x27="61"/>
+    </RelativeLayout>
+    <View id="@+id/exg" background="@color/b6" layout_width="match_parent" layout_height="0.5dp" layout_alignParentBottom="true" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+</RelativeLayout>

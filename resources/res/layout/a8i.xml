@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.ies.dmt.ui.titlebar.ButtonTitleBar id="@+id/emo" layout_width="match_parent" layout_height="@dimen/a0s" NOT_FOUND_0x19="@string/fg9" NOT_FOUND_0x1a="15sp" NOT_FOUND_0x1b="0" NOT_FOUND_0x1c="@color/nq" NOT_FOUND_0x20="true"/>
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+        <FrameLayout id="@+id/c85" background="@color/v" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bi" id="@+id/f7u" layout_width="match_parent" layout_height="wrap_content" alpha="0.75" NOT_FOUND_0x1f="41"/>
+        </FrameLayout>
+        <ScrollView orientation="vertical" layout_width="match_parent" layout_height="0dp" fillViewport="true" layout_weight="1">
+            <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+                <com.bytedance.ies.dmt.ui.widget.DmtEditText textSize="15sp" gravity="top" id="@+id/ato" background="@null" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="23dp" layout_marginRight="16dp" minHeight="60sp" hint="@string/het" inputType="textMultiLine" textDirection="locale"/>
+                <LinearLayout orientation="vertical" id="@+id/c5k" layout_width="match_parent" layout_height="match_parent">
+                    <com.ss.android.ugc.aweme.setting.ui.Divider layout_width="match_parent" layout_height="wrap_content"/>
+                    <LinearLayout layout_gravity="start" orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginRight="16dp" layout_marginBottom="28dp" layoutDirection="locale">
+                        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/f8a" layout_width="wrap_content" layout_height="wrap_content" text="0" NOT_FOUND_0x1f="51"/>
+                        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" layout_width="wrap_content" layout_height="wrap_content" text="/" NOT_FOUND_0x1f="51"/>
+                        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" layout_width="wrap_content" layout_height="wrap_content" text="250" NOT_FOUND_0x1f="51"/>
+                    </LinearLayout>
+                    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent" layout_marginLeft="16dp" layout_marginRight="16dp">
+                        <com.bytedance.tux.input.TuxTextView layout_width="match_parent" layout_height="wrap_content" text="@string/hep" NOT_FOUND_0x1f="51"/>
+                        <com.bytedance.tux.input.TuxTextView layout_width="match_parent" layout_height="wrap_content" text="@string/heq" NOT_FOUND_0x1f="51"/>
+                        <com.bytedance.tux.input.TuxTextView layout_width="match_parent" layout_height="wrap_content" text="@string/her" NOT_FOUND_0x1f="51"/>
+                        <com.bytedance.tux.input.TuxTextView layout_width="match_parent" layout_height="wrap_content" text="@string/hes" NOT_FOUND_0x1f="51"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <com.bytedance.tux.button.TuxButton id="@+id/a1a" layout_width="match_parent" layout_height="wrap_content" layout_margin="15dp" text="@string/ga4" NOT_FOUND_0x1d="3" NOT_FOUND_0x1e="0" NOT_FOUND_0x1f="42"/>
+    </LinearLayout>
+</LinearLayout>

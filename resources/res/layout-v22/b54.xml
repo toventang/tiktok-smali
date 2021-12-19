@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" background="@color/r" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/ere" paddingTop="16dp" paddingBottom="16dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="40dp" layout_marginRight="40dp" text="@string/gkh" NOT_FOUND_0xc="40dp" NOT_FOUND_0xd="16dp" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="33"/>
+    <com.bytedance.tux.icon.TuxIconView id="@+id/erc" layout_width="24dp" layout_height="24dp" layout_marginEnd="16dp" NOT_FOUND_0xe="@+id/ere" NOT_FOUND_0xf="0" NOT_FOUND_0x12="@+id/ere" NOT_FOUND_0x14="@raw/icon_x_mark_small" NOT_FOUND_0x15="@android:color/black"/>
+    <View id="@+id/erf" background="@color/b2" layout_width="0dp" layout_height="0.5dp" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0" NOT_FOUND_0x11="@+id/ere"/>
+    <com.bytedance.ies.powerlist.PowerList id="@+id/erd" paddingTop="8dp" clipToPadding="false" layout_width="match_parent" layout_height="0dp" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0" NOT_FOUND_0x11="@+id/erf"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

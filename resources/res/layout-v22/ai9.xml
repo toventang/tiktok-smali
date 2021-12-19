@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/cwm" layout_width="match_parent" layout_height="match_parent">
+    <androidx.legacy.widget.Space layout_width="0dp" layout_height="0dp" layout_weight="1"/>
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="0dp" layout_weight="2">
+        <ImageView layout_gravity="center_horizontal" id="@+id/bze" layout_width="wrap_content" layout_height="wrap_content" src="0x7f080670"/>
+        <LinearLayout layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp">
+            <androidx.legacy.widget.Space layout_width="0dp" layout_height="0dp" layout_weight="1"/>
+            <com.ss.android.ugc.tools.view.style.StyleTextView textStyle="normal" textColor="@color/st" gravity="center" layout_width="0dp" layout_height="wrap_content" text="@string/dqg" shadowColor="#4d000000" shadowRadius="10" layout_weight="5" fontFamily="ProximaNova-Semibold" NOT_FOUND_0xf="24dp" NOT_FOUND_0x10="7" style="@style/a26"/>
+            <androidx.legacy.widget.Space layout_width="0dp" layout_height="0dp" layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

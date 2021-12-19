@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/a6m" background="@color/a24" focusable="true" clickable="true" layout_width="match_parent" layout_height="wrap_content">
+    <com.bytedance.android.live.design.widget.LiveTextView textColor="#80161823" id="@+id/f8c" paddingTop="20dp" paddingBottom="4dp" layout_width="match_parent" layout_height="wrap_content" minHeight="41dp" text="@string/eaq" paddingStart="16dp" paddingEnd="16dp" NOT_FOUND_0xd="0" style="@style/tw"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

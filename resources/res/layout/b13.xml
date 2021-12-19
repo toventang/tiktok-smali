@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" paddingTop="8dp" paddingBottom="8dp" layout_width="match_parent" layout_height="68dp" paddingStart="16dp">
+    <com.ss.android.ugc.aweme.base.ui.SmartAvatarImageView layout_gravity="center_vertical" id="@+id/ow" layout_width="48dp" layout_height="48dp" NOT_FOUND_0x11="0" NOT_FOUND_0x16="0" NOT_FOUND_0x17="0"/>
+    <LinearLayout orientation="vertical" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginRight="12dp" maxWidth="182dp" NOT_FOUND_0x11="0" NOT_FOUND_0x13="@+id/dx7" NOT_FOUND_0x14="0" NOT_FOUND_0x15="@+id/ow" NOT_FOUND_0x17="0">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/cv9" layout_width="wrap_content" layout_height="wrap_content" maxWidth="182dp" maxLines="1" NOT_FOUND_0x1a="42"/>
+        <FrameLayout layout_gravity="center_vertical" id="@+id/adm" layout_width="wrap_content" layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" id="@+id/di0" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="4dp" maxWidth="182dp" maxLines="2" NOT_FOUND_0x1a="61"/>
+            <com.ss.android.ugc.aweme.views.MutualRelationView id="@+id/crt" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+        </FrameLayout>
+    </LinearLayout>
+    <com.bytedance.tux.input.TuxCheckBox id="@+id/dx7" layout_width="wrap_content" layout_height="wrap_content" layout_marginEnd="16dp" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x17="0" NOT_FOUND_0x18="0" NOT_FOUND_0x19="1"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

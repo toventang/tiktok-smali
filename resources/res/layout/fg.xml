@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@color/l" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <RelativeLayout gravity="center_vertical" id="@+id/emo" background="@color/l" layout_width="match_parent" layout_height="@dimen/do">
+        <View id="@+id/emi" background="@color/l" layout_width="match_parent" layout_height="match_parent" alpha="0"/>
+        <ImageView id="@+id/qb" padding="10dp" layout_width="44dp" layout_height="44dp" layout_marginLeft="6dp" src="0x7f080166" layout_centerVertical="true" layout_marginStart="6dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/title" layout_width="wrap_content" layout_height="wrap_content" text="@string/adk" layout_centerInParent="true" NOT_FOUND_0x21="33"/>
+    </RelativeLayout>
+    <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="40dp" layout_marginLeft="10dp" layout_marginRight="10dp" layout_marginStart="10dp" layout_marginEnd="10dp">
+        <com.bytedance.ies.dmt.ui.widget.DmtEditText textColor="@color/bx" textColorHint="@color/c5" id="@+id/duo" background="@drawable/hj" paddingLeft="14dp" paddingRight="14dp" layout_width="0dp" layout_height="40dp" layout_marginRight="10dp" hint="@string/fhl" maxLines="1" singleLine="true" maxLength="14" layout_weight="1" textCursorDrawable="@drawable/is" paddingStart="14dp" paddingEnd="14dp" layout_marginEnd="10dp" style="@style/y6"/>
+        <FrameLayout layout_gravity="center_vertical" layout_width="54dp" layout_height="40dp">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/nq" gravity="center" id="@+id/dvn" background="@drawable/hz" layout_width="54dp" layout_height="40dp" text="@string/aaj" NOT_FOUND_0x21="61"/>
+            <ImageView layout_gravity="center" id="@+id/chg" visibility="invisible" layout_width="21dp" layout_height="21dp" src="0x7f080176"/>
+        </FrameLayout>
+    </LinearLayout>
+    <RelativeLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView id="@+id/dr8" layout_width="match_parent" layout_height="match_parent"/>
+        <com.ss.android.ugc.aweme.account.login.ui.WaveSideBar id="@+id/e46" paddingLeft="8dp" paddingRight="8dp" layout_width="wrap_content" layout_height="wrap_content" layout_centerVertical="true" paddingStart="8dp" paddingEnd="8dp" NOT_FOUND_0x1f="@color/nu" NOT_FOUND_0x20="12dp"/>
+    </RelativeLayout>
+</LinearLayout>

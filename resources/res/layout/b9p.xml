@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@drawable/bqz" paddingBottom="16dp" layout_width="match_parent" layout_height="520dp">
+    <FrameLayout layout_width="match_parent" layout_height="52dp">
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="17sp" textColor="@color/a0h" gravity="center" layout_gravity="center" id="@+id/f9l" layout_width="wrap_content" layout_height="wrap_content" text="@string/dsm" lineSpacingExtra="3sp" NOT_FOUND_0x17="2"/>
+        <ImageView layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/buc" layout_width="wrap_content" layout_height="wrap_content" layout_marginEnd="16dp"/>
+        <View layout_gravity="bottom" background="?attr/alz" layout_width="match_parent" layout_height="0.5dp"/>
+    </FrameLayout>
+    <LinearLayout gravity="center_vertical" orientation="horizontal" id="@+id/c4y" background="#08161823" visibility="gone" layout_width="match_parent" layout_height="62dp" paddingStart="16dp" paddingEnd="16dp">
+        <ImageView background="0x7f080f45" layout_width="20dp" layout_height="20dp"/>
+        <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlTextView layout_width="0dp" layout_height="wrap_content" text="@string/e12" layout_weight="1" textAlignment="viewStart" layout_marginStart="8dp" layout_marginEnd="8dp"/>
+        <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlImageView layout_width="wrap_content" layout_height="wrap_content" src="0x7f080f64"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/alq" layout_width="match_parent" layout_height="0dp" layout_marginTop="8dp" layout_weight="1"/>
+    <com.bytedance.android.live.design.widget.LiveButton id="@+id/acu" layout_width="match_parent" layout_height="44dp" layout_marginLeft="16dp" layout_marginTop="12dp" layout_marginRight="16dp" layout_marginStart="16dp" layout_marginEnd="16dp" style="@style/sv"/>
+    <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlTextView textColor="@color/c5" id="@+id/akl" visibility="visible" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="12dp" layout_marginRight="16dp" text="@string/elp" lineSpacingExtra="4dp" textAlignment="viewStart" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+</LinearLayout>

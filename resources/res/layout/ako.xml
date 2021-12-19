@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" gravity="center_vertical" layout_width="match_parent" layout_height="52dp" splitMotionEvents="false" windowEnableSplitTouch="false">
+    <com.bytedance.tux.icon.TuxIconView id="@+id/bsd" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layoutDirection="ltr" layout_marginStart="16dp" layout_alignParentStart="true"/>
+    <com.bytedance.tux.input.TuxTextView textColor="?attr/bc" ellipsize="end" id="@+id/bsh" layout_width="wrap_content" layout_height="wrap_content" maxWidth="300dp" maxLines="1" layout_toRightOf="@+id/bsd" layout_marginStart="13dp" layout_toEndOf="@+id/bsd" NOT_FOUND_0x18="41"/>
+    <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView id="@+id/bsn" layout_width="7dp" layout_height="12dp" layout_marginRight="16dp" src="0x7f0809af" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+    <androidx.appcompat.widget.AppCompatCheckBox id="@+id/bsm" background="@drawable/b31" visibility="gone" layout_width="24dp" layout_height="24dp" layout_marginRight="16dp" checked="false" button="@null" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+</RelativeLayout>

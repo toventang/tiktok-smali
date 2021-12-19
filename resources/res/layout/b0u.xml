@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.shoutouts.review.view.ShoutoutsReviewHeaderTop xmlns="" paddingLeft="16dp" paddingRight="16dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+    <com.bytedance.tux.icon.TuxIconView id="@+id/bvh" layout_width="24dp" layout_height="24dp" layout_marginTop="26dp" NOT_FOUND_0x19="0" NOT_FOUND_0x1b="0" NOT_FOUND_0x24="@raw/icon_color_tiktok_coin"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/f4u" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="1dp" NOT_FOUND_0x14="@+id/bvh" NOT_FOUND_0x18="@+id/bvh" NOT_FOUND_0x1b="@+id/bvh" NOT_FOUND_0x23="12"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/ez_" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="3dp" NOT_FOUND_0x19="0" NOT_FOUND_0x1a="@+id/bvh" NOT_FOUND_0x23="61"/>
+    <ImageView id="@+id/bxm" paddingTop="4dp" paddingBottom="3dp" layout_width="28dp" layout_height="0dp" src="@raw/icon_info_circle" alpha="0.3" paddingStart="4dp" paddingEnd="10dp" NOT_FOUND_0x14="@+id/ez_" NOT_FOUND_0x18="@+id/ez_" NOT_FOUND_0x1b="@+id/ez_"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" gravity="right|center_vertical|center_horizontal|center|end" id="@+id/f63" layout_width="0dp" layout_height="wrap_content" text="@string/fzg" NOT_FOUND_0x16="0" NOT_FOUND_0x18="@+id/bxm" NOT_FOUND_0x1b="@+id/ez_" NOT_FOUND_0x23="61"/>
+    <com.ss.android.ugc.aweme.shoutouts.review.view.ShoutOutRatingBar id="@+id/dhb" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="2dp" NOT_FOUND_0x13="false" NOT_FOUND_0x15="@+id/f63" NOT_FOUND_0x16="0" NOT_FOUND_0x1c="5" NOT_FOUND_0x1d="0x7f080c16" NOT_FOUND_0x1e="0x7f080c17" NOT_FOUND_0x1f="16dp" NOT_FOUND_0x20="2dp" NOT_FOUND_0x21="0" NOT_FOUND_0x22="0x7f080c19"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/f5i" layout_width="wrap_content" layout_height="wrap_content" layout_marginEnd="4dp" NOT_FOUND_0x14="@+id/dhb" NOT_FOUND_0x17="@+id/dhb" NOT_FOUND_0x1b="@+id/dhb" NOT_FOUND_0x23="42"/>
+    <View background="@color/b6" layout_width="match_parent" layout_height="1px" layout_marginTop="19dp" NOT_FOUND_0x1a="@+id/f63"/>
+</com.ss.android.ugc.aweme.shoutouts.review.view.ShoutoutsReviewHeaderTop>

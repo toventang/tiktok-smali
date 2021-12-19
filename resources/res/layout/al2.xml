@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/cn2" layout_width="match_parent" layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/agl" layout_width="64dp" layout_height="84dp" layout_marginLeft="16dp" layout_marginTop="10dp" layout_marginBottom="10dp" layout_marginStart="16dp" NOT_FOUND_0x13="@color/a0" NOT_FOUND_0x14="@color/a0" NOT_FOUND_0x15="2dp"/>
+    <RelativeLayout layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginTop="16dp" layout_marginRight="56dp" layout_centerVertical="true" layout_marginStart="12dp" layout_marginEnd="56dp" layout_toEndOf="@+id/agl">
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/bc" ellipsize="end" id="@+id/cn0" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" maxLines="3" NOT_FOUND_0x18="41"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/cn1" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" layout_below="@+id/cn0" NOT_FOUND_0x18="61"/>
+    </RelativeLayout>
+    <ImageView id="@+id/byd" visibility="visible" layout_width="24dp" layout_height="24dp" src="0x7f08089b" scaleType="center" layout_centerVertical="true" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+    <com.bytedance.tux.input.TuxCheckBox id="@+id/bhx" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" layout_centerVertical="true" layout_marginEnd="16dp" layout_alignParentEnd="true" NOT_FOUND_0x16="0" NOT_FOUND_0x17="1"/>
+</RelativeLayout>

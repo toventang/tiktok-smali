@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.android.livesdk.widget.SafeFrameLayout xmlns="" id="@+id/ad7" background="@color/a2" layout_width="match_parent" layout_height="match_parent" keepScreenOn="true">
+    <SurfaceView visibility="gone" layout_width="0dp" layout_height="0dp"/>
+    <com.bytedance.android.livesdk.widget.LiveVerticalViewPager id="@+id/fk_" layout_width="match_parent" layout_height="match_parent"/>
+    <include layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" id="@+id/qj" visibility="gone" layout_width="wrap_content" layout_height="26dp" layout_marginBottom="52dp" layout="@layout/be1"/>
+</com.bytedance.android.livesdk.widget.SafeFrameLayout>

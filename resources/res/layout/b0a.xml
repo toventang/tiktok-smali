@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/bhj" visibility="visible" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="20dp" layout_marginBottom="12dp" layout_marginStart="16dp">
+    <LinearLayout orientation="vertical" id="@+id/c8u" layout_width="match_parent" layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/eh1" layout_width="wrap_content" layout_height="wrap_content" text="@string/cc9" NOT_FOUND_0xe="71"/>
+        <LinearLayout orientation="horizontal" id="@+id/c4r" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="12dp">
+            <ImageView id="@+id/a07" layout_width="44dp" layout_height="44dp" scaleType="center"/>
+            <RadioGroup orientation="horizontal" id="@+id/dgr" layout_width="match_parent" layout_height="wrap_content">
+                <com.ss.android.ugc.aweme.base.widget.CanCancelRadioButton id="@+id/yr" layout_width="44dp" layout_height="44dp" layout_marginLeft="16dp" button="@null" layout_marginStart="16dp"/>
+                <com.ss.android.ugc.aweme.base.widget.CanCancelRadioButton id="@+id/ys" layout_width="44dp" layout_height="44dp" layout_marginLeft="16dp" button="@null" layout_marginStart="16dp"/>
+                <com.ss.android.ugc.aweme.base.widget.CanCancelRadioButton id="@+id/zk" layout_width="44dp" layout_height="44dp" layout_marginLeft="16dp" button="@null" layout_marginStart="16dp"/>
+            </RadioGroup>
+            <androidx.legacy.widget.Space layout_width="0dp" layout_height="0dp" layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

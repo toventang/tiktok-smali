@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout id="@+id/e9v" background="@drawable/bmv" visibility="invisible" layout_width="wrap_content" layout_height="52dp" layout_marginBottom="36dp" layout_alignParentBottom="true" layout_centerHorizontal="true">
+        <View layout_gravity="center" id="@+id/e_0" background="@drawable/bmv" visibility="gone" layout_width="56dp" layout_height="56dp"/>
+        <RelativeLayout gravity="center" layout_gravity="center" id="@+id/e9x" paddingLeft="25dp" paddingRight="25dp" layout_width="wrap_content" layout_height="match_parent" paddingStart="25dp" paddingEnd="25dp">
+            <ImageView id="@+id/e_2" layout_width="22dp" layout_height="22dp" src="0x7f0809c5" scaleType="fitCenter" layout_alignParentLeft="true" layout_centerVertical="true" layout_alignParentStart="true"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/a9" ellipsize="end" id="@+id/e_1" paddingLeft="6dp" paddingRight="0dp" layout_width="wrap_content" layout_height="wrap_content" maxWidth="202dp" text="@string/bdp" maxLines="1" singleLine="true" layout_toRightOf="@+id/e_2" layout_centerVertical="true" paddingStart="6dp" paddingEnd="0dp" layout_toEndOf="@+id/e_2" NOT_FOUND_0x1b="33"/>
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,83 @@
+package com.ss.android.ugc.aweme.draft.model;
+
+import com.bytedance.covode.number.Covode;
+import h.f.b.g;
+import h.f.b.l;
+
+public final class DraftVECheckResult {
+    private final int errorCode;
+    private final String path;
+
+    static {
+        Covode.recordClassIndex(51860);
+    }
+
+    public DraftVECheckResult() {
+        this(0, null, 3, null);
+    }
+
+    public static int com_ss_android_ugc_aweme_draft_model_DraftVECheckResult_com_ss_android_ugc_aweme_lancet_HashCodeLancet_hashCode(int i2) {
+        return i2;
+    }
+
+    public static /* synthetic */ DraftVECheckResult copy$default(DraftVECheckResult draftVECheckResult, int i2, String str, int i3, Object obj) {
+        if ((i3 & 1) != 0) {
+            i2 = draftVECheckResult.errorCode;
+        }
+        if ((i3 & 2) != 0) {
+            str = draftVECheckResult.path;
+        }
+        return draftVECheckResult.copy(i2, str);
+    }
+
+    public final int component1() {
+        return this.errorCode;
+    }
+
+    public final String component2() {
+        return this.path;
+    }
+
+    public final DraftVECheckResult copy(int i2, String str) {
+        return new DraftVECheckResult(i2, str);
+    }
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof DraftVECheckResult)) {
+            return false;
+        }
+        DraftVECheckResult draftVECheckResult = (DraftVECheckResult) obj;
+        return this.errorCode == draftVECheckResult.errorCode && l.a(this.path, draftVECheckResult.path);
+    }
+
+    public final int hashCode() {
+        int com_ss_android_ugc_aweme_draft_model_DraftVECheckResult_com_ss_android_ugc_aweme_lancet_HashCodeLancet_hashCode = com_ss_android_ugc_aweme_draft_model_DraftVECheckResult_com_ss_android_ugc_aweme_lancet_HashCodeLancet_hashCode(this.errorCode) * 31;
+        String str = this.path;
+        return com_ss_android_ugc_aweme_draft_model_DraftVECheckResult_com_ss_android_ugc_aweme_lancet_HashCodeLancet_hashCode + (str != null ? str.hashCode() : 0);
+    }
+
+    public final String toString() {
+        return "DraftVECheckResult(errorCode=" + this.errorCode + ", path=" + this.path + ")";
+    }
+
+    public final int getErrorCode() {
+        return this.errorCode;
+    }
+
+    public final String getPath() {
+        return this.path;
+    }
+
+    public DraftVECheckResult(int i2, String str) {
+        this.errorCode = i2;
+        this.path = str;
+    }
+
+    /* JADX INFO: this call moved to the top of the method (can break code semantics) */
+    public /* synthetic */ DraftVECheckResult(int i2, String str, int i3, g gVar) {
+        this((i3 & 1) != 0 ? 0 : i2, (i3 & 2) != 0 ? null : str);
+    }
+}

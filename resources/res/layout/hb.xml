@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" style="@style/up">
+    <com.bytedance.tux.input.TuxTextView id="@+id/q9" layout_width="20dp" layout_height="20dp" NOT_FOUND_0xd="51" style="@style/ud"/>
+    <com.bytedance.tux.input.TuxTextView ellipsize="end" id="@+id/title" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" layout_centerInParent="true" NOT_FOUND_0xd="51" style="@style/uq"/>
+    <com.bytedance.tux.input.TuxTextView id="@+id/dno" visibility="gone" layout_alignParentRight="true" layout_alignParentEnd="true" NOT_FOUND_0xd="51" style="@style/uo"/>
+    <ProgressBar id="@+id/dnl" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="15dp" indeterminateOnly="true" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="15dp" layout_alignParentEnd="true" style="?android:attr/progressBarStyleSmall"/>
+</RelativeLayout>

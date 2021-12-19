@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/b4g" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="14dp" layout_marginEnd="14dp">
+    <FrameLayout layout_gravity="center_horizontal" id="@+id/b5i" layout_width="wrap_content" layout_height="wrap_content">
+        <View layout_gravity="end" id="@+id/bt2" background="@drawable/p9" visibility="gone" layout_width="8dp" layout_height="8dp"/>
+        <ImageView layout_gravity="center_horizontal" id="@+id/bue" visibility="gone" layout_width="16dp" layout_height="16dp" layout_marginLeft="18dp" layout_marginTop="38dp" src="0x7f0800e2" scaleType="fitXY" layout_marginStart="18dp"/>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.base.ui.AvatarImageView id="@+id/eo3" visibility="gone" layout_width="28dp" layout_height="28dp" layout_marginRight="4dp" layout_marginEnd="4dp" NOT_FOUND_0x15="true"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c4" gravity="center_vertical" layout_gravity="center_vertical" id="@+id/epa" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="4dp" layout_marginRight="4dp" layout_weight="1" layout_marginStart="4dp" layout_marginEnd="4dp" NOT_FOUND_0x16="41"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" id="@+id/eod" background="@drawable/aqf" paddingLeft="8dp" paddingRight="8dp" visibility="gone" layout_width="wrap_content" layout_height="28dp" layout_marginLeft="12dp" minWidth="86dp" text="@string/ces" layout_alignParentRight="true" layout_centerVertical="true" textAllCaps="false" layout_marginStart="12dp" layout_alignParentEnd="true" NOT_FOUND_0x16="41"/>
+</merge>

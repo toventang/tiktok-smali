@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="">
+    <ImageView layout_gravity="center_horizontal" id="@+id/bi7" duplicateParentState="true" layout_width="24dp" layout_height="24dp" layout_marginTop="@dimen/hf" layout_marginBottom="@dimen/hf" contentDescription="@null"/>
+    <com.google.android.material.internal.BaselineLayout layout_gravity="bottom|center_vertical|center_horizontal|center" paddingBottom="10dp" duplicateParentState="true" clipToPadding="false" layout_width="wrap_content" layout_height="wrap_content">
+        <TextView textSize="@dimen/hh" id="@+id/e68" duplicateParentState="true" layout_width="wrap_content" layout_height="wrap_content" maxLines="1"/>
+        <TextView textSize="@dimen/h_" id="@+id/c4c" paddingLeft="8dp" paddingRight="8dp" visibility="invisible" duplicateParentState="true" layout_width="wrap_content" layout_height="wrap_content" maxLines="1"/>
+    </com.google.android.material.internal.BaselineLayout>
+</merge>

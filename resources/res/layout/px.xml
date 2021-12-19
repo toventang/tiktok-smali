@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/ahu" layout_width="match_parent" layout_height="40dp" layout_marginLeft="@dimen/fj" layout_marginRight="@dimen/fj">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/ahv" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="3dp" NOT_FOUND_0x9="0" NOT_FOUND_0xc="0" NOT_FOUND_0xe="62"/>
+    <com.bytedance.tux.icon.TuxIconView id="@+id/e9j" layout_width="16dp" layout_height="16dp" layout_marginRight="4dp" layout_marginEnd="4dp" NOT_FOUND_0x9="@+id/dhd" NOT_FOUND_0xb="@+id/dhd" NOT_FOUND_0xd="@+id/dhd" NOT_FOUND_0xf="@raw/icon_star_fill" NOT_FOUND_0x10="@color/a"/>
+    <com.ss.android.ugc.aweme.ecommerce.review.view.RatingNumber id="@+id/dhd" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="2dp" NOT_FOUND_0x8="2" NOT_FOUND_0x9="0" NOT_FOUND_0xb="@+id/qh"/>
+    <com.bytedance.tux.icon.TuxIconView id="@+id/qh" layout_width="16dp" layout_height="16dp" layout_marginBottom="3dp" NOT_FOUND_0x9="0" NOT_FOUND_0xa="0" NOT_FOUND_0xf="@raw/icon_chevron_right_offset_ltr" NOT_FOUND_0x10="@color/c5"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

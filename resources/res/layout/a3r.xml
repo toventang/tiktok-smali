@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" padding="10dp" layout_width="wrap_content" layout_height="wrap_content">
+    <com.bytedance.tux.icon.TuxIconView layout_gravity="center" id="@+id/bho" layout_width="24dp" layout_height="24dp" NOT_FOUND_0x5="@raw/icon_music_dsp1" NOT_FOUND_0x6="24dp" NOT_FOUND_0x7="24dp" NOT_FOUND_0x8="?attr/aa"/>
+</FrameLayout>

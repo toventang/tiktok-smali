@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/b1x" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout id="@+id/b6h" background="@color/a2" layout_width="match_parent" layout_height="173dp"/>
+    <com.ss.android.ugc.aweme.feed.ui.LiveSkyLightTouchEventFrameLayout id="@+id/b52" background="@color/a2" layout_width="match_parent" layout_height="match_parent">
+        <include layout="@layout/s3"/>
+    </com.ss.android.ugc.aweme.feed.ui.LiveSkyLightTouchEventFrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/alh" layout_width="match_parent" layout_height="match_parent"/>
+    <include layout="@layout/sn"/>
+    <FrameLayout id="@+id/b6g" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/ab" gravity="center" layout_gravity="center_horizontal" id="@+id/f7i" background="@drawable/rl" paddingLeft="10dp" paddingRight="6dp" layout_width="wrap_content" layout_height="24dp" drawableRight="0x7f080629" drawableEnd="0x7f080629" paddingStart="10dp" paddingEnd="6dp" NOT_FOUND_0xe="62"/>
+    </FrameLayout>
+</FrameLayout>

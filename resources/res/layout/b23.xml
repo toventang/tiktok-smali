@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/b4y" paddingTop="7dp" paddingBottom="7dp" layout_width="32dp" layout_height="match_parent">
+    <View layout_gravity="center" id="@+id/buh" background="@drawable/bks" visibility="gone" layout_width="32dp" layout_height="match_parent"/>
+    <com.ss.android.ugc.aweme.story.base.widget.RoundCornerImageView layout_gravity="center" id="@+id/bvt" layout_width="28dp" layout_height="match_parent" layout_margin="1.5dp" src="@drawable/bl_" scaleType="centerCrop" NOT_FOUND_0xb="2dp"/>
+    <View layout_gravity="center" id="@+id/buj" background="@drawable/bkt" visibility="gone" layout_width="28dp" layout_height="match_parent" layout_margin="1.5dp"/>
+</FrameLayout>

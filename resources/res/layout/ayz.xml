@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" layout_width="match_parent" layout_height="wrap_content">
+    <com.bytedance.tux.table.cell.TuxTextCell id="@+id/fkk" layout_width="match_parent" layout_height="wrap_content" checked="false" NOT_FOUND_0x4="3" NOT_FOUND_0x5="Tux Text Cell Title"/>
+</LinearLayout>

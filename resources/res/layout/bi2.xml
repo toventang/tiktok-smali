@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center_vertical" orientation="horizontal" paddingLeft="0dp" paddingRight="16dp" layout_width="wrap_content" layout_height="match_parent" paddingStart="0dp" paddingEnd="16dp">
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView gravity="end" id="@+id/f6_" background="@color/c9" layout_width="wrap_content" layout_height="wrap_content" style="@style/y6"/>
+    <ImageView id="@+id/bzh" visibility="gone" layout_width="8dp" layout_height="8dp" src="@drawable/cbf"/>
+    <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView id="@+id/c0o" layout_width="20dp" layout_height="20dp" src="@drawable/cc8"/>
+</LinearLayout>

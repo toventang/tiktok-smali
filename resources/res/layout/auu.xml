@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/dqn" layout_width="match_parent" layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout layout_gravity="center" background="@drawable/bbm" clickable="true" layout_width="310dp" layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/title" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="24dp" text="@string/fic" NOT_FOUND_0xd="@+id/edi" NOT_FOUND_0xe="0" NOT_FOUND_0x11="0" NOT_FOUND_0x13="0" NOT_FOUND_0x14="2" NOT_FOUND_0x15="21"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c4" gravity="center" id="@+id/edi" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="20dp" layout_marginTop="12dp" layout_marginRight="20dp" text="@string/fid" NOT_FOUND_0xd="@+id/a1p" NOT_FOUND_0xe="0" NOT_FOUND_0x11="0" NOT_FOUND_0x12="@+id/title" NOT_FOUND_0x15="41"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c4" gravity="center" id="@+id/a1p" background="@drawable/bbl" layout_width="0dp" layout_height="48dp" layout_marginTop="20dp" text="@string/fie" NOT_FOUND_0xc="0" NOT_FOUND_0xf="@+id/dn8" NOT_FOUND_0x11="0" NOT_FOUND_0x12="@+id/edi" NOT_FOUND_0x15="41"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/dn8" background="@drawable/bbl" layout_width="0dp" layout_height="48dp" text="@string/fif" NOT_FOUND_0xc="@+id/a1p" NOT_FOUND_0xe="0" NOT_FOUND_0x10="@+id/a1p" NOT_FOUND_0x13="@+id/a1p" NOT_FOUND_0x15="41"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

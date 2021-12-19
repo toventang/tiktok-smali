@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/cux" focusable="true" focusableInTouchMode="true" fitsSystemWindows="true" clickable="true" layout_width="match_parent" layout_height="match_parent">
+    <RelativeLayout layout_width="match_parent" layout_height="@dimen/a0s">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/cuy" layout_width="wrap_content" layout_height="wrap_content" text="@string/a9e" layout_centerVertical="true" layout_marginStart="16dp" layout_alignParentStart="true" NOT_FOUND_0x22="41"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_gravity="center" layout_width="wrap_content" layout_height="wrap_content" text="@string/tx" layout_centerInParent="true" NOT_FOUND_0x22="32"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bh" id="@+id/jz" layout_width="wrap_content" layout_height="wrap_content" text="@string/ov" layout_centerVertical="true" layout_marginEnd="16dp" layout_alignParentEnd="true" NOT_FOUND_0x22="41"/>
+    </RelativeLayout>
+    <View background="@color/b2" layout_width="match_parent" layout_height="1dp"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" padding="16dp" paddingTop="16dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" text="@string/tv" paddingStart="16dp" paddingEnd="16dp" NOT_FOUND_0x22="41"/>
+    <RelativeLayout focusable="true" focusableInTouchMode="true" layout_width="match_parent" layout_height="48dp" layout_marginStart="15dp" layout_marginEnd="18dp">
+        <com.bytedance.ies.dmt.ui.widget.DmtEditText textColor="@color/bx" layout_gravity="start" id="@+id/k2" background="@color/c9" layout_width="0dp" layout_height="wrap_content" layout_marginTop="8dp" hint="https://www.example.com/page" singleLine="true" layout_centerVertical="true" fontFamily="Proxima Nova" textDirection="locale" textAlignment="viewStart" layout_marginEnd="34dp" layout_alignParentStart="true" layout_alignParentEnd="true" style="@style/y7"/>
+        <FrameLayout layout_width="24dp" layout_height="24dp" layout_centerVertical="true" layout_alignParentEnd="true">
+            <ProgressBar id="@+id/k1" layout_width="match_parent" layout_height="match_parent"/>
+            <ImageView id="@+id/k0" layout_width="match_parent" layout_height="match_parent" src="0x7f08064d"/>
+        </FrameLayout>
+    </RelativeLayout>
+    <View id="@+id/k3" background="@color/b0" layout_width="match_parent" layout_height="1dp" layout_marginStart="15dp" layout_marginEnd="18dp"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/gr" id="@+id/k4" paddingTop="12dp" layout_width="match_parent" layout_height="wrap_content" text="@string/tu" drawablePadding="6dp" drawableStart="0x7f08064e" layout_marginStart="15dp" layout_marginEnd="18dp" NOT_FOUND_0x22="51"/>
+    <com.bytedance.tux.input.TuxCompoundIconTextView textColor="?attr/ay" ellipsize="end" id="@+id/k5" paddingTop="24dp" layout_width="wrap_content" layout_height="wrap_content" text="@string/tw" maxLines="1" layout_marginStart="15dp" layout_marginEnd="18dp" NOT_FOUND_0x22="41" NOT_FOUND_0x23="@raw/icon_chevron_right_offset_fill_ltr" NOT_FOUND_0x24="16dp" NOT_FOUND_0x25="16dp" NOT_FOUND_0x26="?attr/ay"/>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" layout_width="200dp" layout_height="wrap_content">
+    <com.ss.android.ugc.tools.view.widget.CircleImageView id="@+id/a9u" layout_width="15dp" layout_height="15dp" layout_marginTop="15dp" scaleType="fitXY" NOT_FOUND_0x11="0x7f08037b"/>
+    <LinearLayout orientation="vertical" id="@+id/ejn" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="5dp" layout_weight="1" layout_marginStart="5dp">
+        <LinearLayout orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content">
+            <ImageView id="@+id/dfz" layout_width="12dp" layout_height="12dp" src="0x7f08069b"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/g_" ellipsize="end" gravity="start" id="@+id/aae" paddingRight="15dp" layout_width="match_parent" layout_height="wrap_content" text="@string/dg" maxLines="2" paddingEnd="15dp" NOT_FOUND_0x12="92"/>
+        </LinearLayout>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" gravity="center_vertical" id="@+id/aa7" layout_width="wrap_content" layout_height="wrap_content" maxLines="10" NOT_FOUND_0x12="43"/>
+    </LinearLayout>
+</LinearLayout>

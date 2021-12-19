@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" background="@null" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="81.5dp" layout_marginRight="81.5dp" layout_centerInParent="true" layoutDirection="ltr" layout_marginStart="81.5dp" layout_marginEnd="81.5dp">
+    <com.ss.android.ugc.tools.view.style.StyleTextView textSize="26sp" textColor="@color/uh" gravity="center" id="@+id/b3w" background="@null" layout_width="wrap_content" layout_height="wrap_content" minWidth="140dp" layout_centerInParent="true"/>
+    <com.ss.android.ugc.tools.view.style.StyleTextView textSize="26sp" textColor="@color/uh" gravity="center" id="@+id/dwm" background="@null" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="25dp" minWidth="140dp" layout_alignParentRight="true" layout_marginStart="25dp" layout_alignParentEnd="true"/>
+</RelativeLayout>

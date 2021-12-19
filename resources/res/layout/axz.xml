@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+        <com.bytedance.ies.dmt.ui.titlebar.TextTitleBar id="@+id/em8" background="@color/l" layout_width="match_parent" layout_height="@dimen/a0s" NOT_FOUND_0xf="15dp" NOT_FOUND_0x12="@string/a7s" NOT_FOUND_0x13="@color/bx" NOT_FOUND_0x16="true"/>
+        <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/je" layout_width="match_parent" NOT_FOUND_0x10="0x7f080baf" NOT_FOUND_0x11="@string/fng" style="@style/a11"/>
+        <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/dcg" visibility="gone" layout_width="match_parent" NOT_FOUND_0x10="0x7f080b87" NOT_FOUND_0x11="@string/ezn" style="@style/a11"/>
+        <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/clr" visibility="gone" layout_width="match_parent" NOT_FOUND_0x10="0x7f080bb4" NOT_FOUND_0x11="@string/d45" style="@style/a11"/>
+        <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/ah1" visibility="gone" layout_width="match_parent" NOT_FOUND_0x10="0x7f080ba4" NOT_FOUND_0x11="@string/fmn" style="@style/a11"/>
+        <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/cd9" visibility="gone" layout_width="match_parent" NOT_FOUND_0x10="0x7f080bb1" NOT_FOUND_0x11="@string/bx" style="@style/a11"/>
+        <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/a0r" visibility="gone" layout_width="match_parent" NOT_FOUND_0x10="@raw/icon_file_tick" NOT_FOUND_0x11="@string/gr" style="@style/a11"/>
+        <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/e4_" visibility="gone" layout_width="match_parent" NOT_FOUND_0x10="@raw/icon_briefcase_plus" NOT_FOUND_0x11="@string/gkv" style="@style/a11"/>
+        <com.bytedance.tux.table.cell.TuxTextCell id="@+id/wr" visibility="gone" layout_width="match_parent" NOT_FOUND_0x14="@raw/icon_film_star" NOT_FOUND_0x15="@string/a3e" style="@style/a11"/>
+    </LinearLayout>
+    <com.bytedance.tux.input.TuxTextView textSize="12dp" textColor="@color/bx" gravity="center" id="@+id/v4" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="27dp" layout_alignParentBottom="true" lineSpacingExtra="6dp" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+</RelativeLayout>

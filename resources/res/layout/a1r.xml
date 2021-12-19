@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <RelativeLayout id="@+id/fdj" layout_width="match_parent" layout_height="match_parent">
+        <com.bytedance.tux.status.TuxStatusView gravity="center" id="@+id/e_o" layout_width="match_parent" layout_height="216dp"/>
+        <com.bytedance.ies.powerlist.PowerList id="@+id/d7z" layout_width="match_parent" layout_height="match_parent"/>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content">
+    <com.bytedance.tux.input.TuxTextView layout_gravity="center" id="@android:id/text1" visibility="visible" text="@string/gk2" NOT_FOUND_0x11="32" style="@style/yc"/>
+    <FrameLayout layout_gravity="center" id="@+id/b8k" paddingLeft="12dp" paddingRight="12dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" minWidth="53dp">
+        <com.ss.android.ugc.aweme.base.ui.CircleImageView id="@+id/bvw" layout_width="24dp" layout_height="24dp" layout_marginLeft="32dp" layout_marginStart="32dp"/>
+        <com.ss.android.ugc.aweme.base.ui.CircleImageView id="@+id/bvv" layout_width="24dp" layout_height="24dp" layout_marginLeft="16dp" layout_marginStart="16dp"/>
+        <com.ss.android.ugc.aweme.base.ui.CircleImageView id="@+id/bvu" layout_width="24dp" layout_height="24dp"/>
+    </FrameLayout>
+    <View id="@+id/f8q" background="@drawable/a_q" visibility="visible" layout_width="8dp" layout_height="8dp" layout_marginLeft="-12dp" layout_marginTop="17dp" layout_marginStart="-12dp"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" id="@+id/f8r" background="@drawable/a_r" paddingLeft="5dp" paddingRight="5dp" visibility="gone" layout_width="wrap_content" layout_height="15dp" layout_marginLeft="-8dp" layout_marginTop="13dp" minWidth="16dp" text="99+" layout_marginStart="-8dp" NOT_FOUND_0x11="71"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" id="@+id/ce8" background="@drawable/a_s" paddingLeft="4dp" paddingRight="4dp" visibility="gone" layout_width="wrap_content" layout_height="14dp" layout_marginLeft="-18dp" layout_marginTop="13dp" maxWidth="64dp" minWidth="16dp" text="LIVE" layout_marginStart="-18dp" NOT_FOUND_0x11="92"/>
+</LinearLayout>

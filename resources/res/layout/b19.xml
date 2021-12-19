@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" background="@drawable/b03" layout_width="match_parent" layout_height="52dp">
+    <LinearLayout layout_gravity="left|center_vertical|center_horizontal|center|start" orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="6dp" layout_marginStart="6dp">
+        <com.bytedance.tux.icon.TuxIconView id="@+id/bhp" visibility="visible" layout_width="24dp" layout_height="24dp" layout_marginLeft="10dp" layout_marginTop="10dp" layout_marginBottom="10dp" layout_marginStart="10dp" NOT_FOUND_0x14="@raw/icon_arrow_left_ltr"/>
+        <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView id="@+id/bhq" padding="10dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" src="0x7f080c24"/>
+    </LinearLayout>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" layout_gravity="center" id="@+id/f9l" layout_width="wrap_content" layout_height="wrap_content" lines="1" maxEms="9" NOT_FOUND_0x13="33"/>
+    <LinearLayout layout_gravity="right|center_vertical|center_horizontal|center|end" orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="6dp" layout_marginEnd="6dp">
+        <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView id="@+id/zo" padding="10dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" src="0x7f080c25"/>
+        <com.bytedance.tux.icon.TuxIconView id="@+id/zg" visibility="gone" layout_width="24dp" layout_height="24dp" layout_marginTop="10dp" layout_marginBottom="10dp" layout_marginEnd="10dp" NOT_FOUND_0x14="@raw/icon_flag"/>
+        <com.bytedance.tux.icon.TuxIconView id="@+id/y5" visibility="gone" layout_width="24dp" layout_height="24dp" layout_marginTop="10dp" layout_marginBottom="10dp" layout_marginEnd="10dp" NOT_FOUND_0x14="@raw/icon_favorites_collection"/>
+    </LinearLayout>
+</FrameLayout>

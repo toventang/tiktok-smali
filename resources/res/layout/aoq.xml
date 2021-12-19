@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" background="?attr/ab_" layout_width="match_parent" layout_height="72dp">
+    <include id="@+id/c97" layout_width="58dp" layout_height="58dp" layout_marginLeft="16dp" layout_marginRight="12dp" layout_centerVertical="true" layout_marginStart="16dp" layout_marginEnd="12dp" layout="@layout/mk"/>
+    <LinearLayout orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="15dp" layout_toLeftOf="@+id/fap" layout_toRightOf="@+id/c97" layout_centerVertical="true" layout_marginEnd="15dp" layout_toStartOf="@+id/fap" layout_toEndOf="@+id/c97">
+        <LinearLayout orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" layout_gravity="start" id="@+id/fb8" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" singleLine="true" layout_weight="1" NOT_FOUND_0x20="42"/>
+            <com.ss.android.ugc.aweme.views.AutoRTLImageView layout_gravity="center_vertical" id="@+id/bwj" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" src="0x7f080a52" layout_marginStart="4dp"/>
+        </LinearLayout>
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/bj" ellipsize="end" layout_gravity="start" id="@+id/fak" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp" maxLines="1" singleLine="true" drawablePadding="2dp" textDirection="locale" textAlignment="viewStart" NOT_FOUND_0x20="71"/>
+    </LinearLayout>
+    <com.ss.android.ugc.aweme.following.ui.view.FollowUserBtn id="@+id/fap" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="16dp" layout_toLeftOf="@+id/cnk" layout_centerVertical="true" layout_marginEnd="16dp" layout_toStartOf="@+id/cnk"/>
+    <ImageView id="@+id/cnk" paddingLeft="0dp" paddingRight="14dp" layout_width="wrap_content" layout_height="72dp" src="0x7f080a47" layout_alignParentRight="true" layout_centerVertical="true" paddingStart="0dp" paddingEnd="14dp" layout_alignParentEnd="true"/>
+</RelativeLayout>

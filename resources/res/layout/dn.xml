@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="wrap_content" layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.themechange.base.AVDmtImageTextView id="@+id/bt0" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x3="true" NOT_FOUND_0x4="false" NOT_FOUND_0x5="true" NOT_FOUND_0x6="72dp" NOT_FOUND_0x7="72dp" NOT_FOUND_0x8="0x7f08065a" NOT_FOUND_0x9="18dp" NOT_FOUND_0xa="2dp" NOT_FOUND_0xb="@string/d5u"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

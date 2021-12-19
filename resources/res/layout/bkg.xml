@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@color/l" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout layout_width="match_parent" layout_height="wrap_content">
+        <include id="@+id/emo" layout_width="match_parent" layout_height="@dimen/a0s" layout="@layout/anb"/>
+        <com.bytedance.tux.icon.TuxIconView layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/d85" padding="8dp" layout_width="40dp" layout_height="40dp" layout_marginEnd="8dp" NOT_FOUND_0x13="@raw/icon_gear"/>
+    </FrameLayout>
+    <FrameLayout layout_width="match_parent" layout_height="0dp" layout_weight="1">
+        <androidx.recyclerview.widget.RecyclerView id="@+id/djs" layout_width="match_parent" layout_height="match_parent"/>
+        <com.bytedance.tux.status.TuxStatusView id="@+id/e_o" layout_width="match_parent" layout_height="match_parent"/>
+    </FrameLayout>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" id="@+id/b3e" background="@drawable/cdu" paddingTop="13dp" paddingBottom="13dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="12dp" text="@string/hdu" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x12="42"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/bh_" background="@drawable/cdw" paddingTop="13dp" paddingBottom="13dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" layout_marginBottom="13dp" text="@string/hdt" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x12="42"/>
+</LinearLayout>

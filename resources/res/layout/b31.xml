@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/dqk" background="@color/a2" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout layout_gravity="bottom" id="@+id/azy" layout_width="match_parent" layout_height="wrap_content">
+        <com.ss.android.ugc.aweme.story.record.widget.StoryRecordLayout layout_gravity="center_horizontal" id="@+id/dj1" layout_width="80dp" layout_height="80dp" layout_marginBottom="86dp"/>
+        <include layout="@layout/b36"/>
+    </FrameLayout>
+    <FrameLayout id="@+id/ad7" layout_width="match_parent" layout_height="match_parent"/>
+</FrameLayout>

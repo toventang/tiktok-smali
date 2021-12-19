@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/c8s" background="@color/a2" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.tools.draft.ftc.util.FTCPreviewSurfaceView id="@+id/d8k" visibility="invisible" layout_width="match_parent" layout_height="match_parent"/>
+    <ImageView layout_gravity="center" id="@+id/btb" layout_width="match_parent" layout_height="match_parent"/>
+    <View layout_gravity="bottom" id="@+id/dx6" background="@color/c9" layout_width="match_parent" layout_height="40dp"/>
+</FrameLayout>

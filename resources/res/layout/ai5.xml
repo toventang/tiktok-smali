@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <androidx.legacy.widget.Space layout_width="0dp" layout_height="0dp" layout_weight="1"/>
+    <LinearLayout orientation="vertical" id="@+id/b4b" layout_width="match_parent" layout_height="wrap_content">
+        <com.facebook.drawee.view.SimpleDraweeView layout_gravity="center_horizontal" id="@+id/ebd" layout_width="120dp" layout_height="60dp" layout_marginBottom="12dp" NOT_FOUND_0xb="2"/>
+        <com.ss.android.ugc.tools.view.style.StyleTextView textColor="@color/r3" gravity="center" layout_gravity="center_horizontal" id="@+id/ebc" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="56dp" layout_marginEnd="56dp" style="@style/a25"/>
+    </LinearLayout>
+    <androidx.legacy.widget.Space layout_width="0dp" layout_height="0dp" layout_weight="2"/>
+</LinearLayout>

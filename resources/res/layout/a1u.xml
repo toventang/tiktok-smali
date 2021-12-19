@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_gravity="center" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout id="@+id/b6s" layout_width="match_parent" layout_height="match_parent" layout_marginBottom="179dp">
+        <com.ss.android.ugc.aweme.photomovie.CompatTextureView layout_gravity="center" id="@+id/ekb" layout_width="match_parent" layout_height="match_parent"/>
+        <ImageView layout_gravity="center" id="@+id/d5j" visibility="gone" layout_width="45dp" layout_height="45dp" src="0x7f080100" scaleType="centerInside"/>
+    </FrameLayout>
+    <LinearLayout layout_gravity="bottom" orientation="vertical" background="@drawable/ul" layout_width="match_parent" layout_height="163dp">
+        <LinearLayout gravity="center_vertical" orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="18dp" layout_marginRight="20dp" layout_marginBottom="23.5dp" layout_marginStart="16dp" layout_marginEnd="20dp">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" id="@+id/f9e" layout_width="0dp" layout_height="wrap_content" layout_marginRight="5dp" maxLines="1" shadowColor="@color/bo" shadowRadius="2" layout_weight="1" layout_marginEnd="5dp" NOT_FOUND_0x1b="61"/>
+            <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView id="@+id/btl" visibility="gone" layout_width="28dp" layout_height="28dp" src="0x7f080618"/>
+            <Space layout_width="20dp" layout_height="0dp"/>
+            <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView id="@+id/c0u" visibility="gone" layout_width="28dp" layout_height="28dp" src="0x7f0805c9"/>
+        </LinearLayout>
+        <com.ss.android.ugc.aweme.shortvideo.cut.videoedit.VideoEditView id="@+id/fg1" layout_width="match_parent" layout_height="match_parent" layout_marginBottom="30dp" NOT_FOUND_0x16="72dp" NOT_FOUND_0x17="4dp" NOT_FOUND_0x18="60dp" NOT_FOUND_0x19="31dp" NOT_FOUND_0x1a="36dp"/>
+    </LinearLayout>
+</FrameLayout>

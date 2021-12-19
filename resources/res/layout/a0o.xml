@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@color/l" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="horizontal" id="@+id/c6v" background="?attr/ab_" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp">
+        <LinearLayout layout_gravity="center_vertical" orientation="vertical" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="16dp" layout_marginBottom="16dp" layout_weight="1" layout_marginStart="16dp">
+            <com.bytedance.tux.input.TuxTextView id="@+id/f49" text="@string/dgn" NOT_FOUND_0xc="41" style="@style/a0m"/>
+            <com.bytedance.tux.input.TuxTextView id="@+id/f4_" text="@string/f1d" NOT_FOUND_0xc="61" style="@style/a0l"/>
+        </LinearLayout>
+        <FrameLayout layout_width="wrap_content" layout_height="match_parent">
+            <ImageView id="@+id/d37" style="@style/a0k"/>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout orientation="horizontal" id="@+id/c6z" background="?attr/ab_" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp">
+        <LinearLayout layout_gravity="center_vertical" orientation="vertical" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="16dp" layout_marginBottom="16dp" layout_weight="1" layout_marginStart="16dp">
+            <com.bytedance.tux.input.TuxTextView id="@+id/f4b" text="@string/f0f" NOT_FOUND_0xc="41" style="@style/a0m"/>
+            <com.bytedance.tux.input.TuxTextView id="@+id/f4c" text="@string/f0i" NOT_FOUND_0xc="61" style="@style/a0l"/>
+        </LinearLayout>
+        <FrameLayout layout_width="wrap_content" layout_height="match_parent">
+            <ImageView id="@+id/d3k" style="@style/a0k"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <include id="@+id/dbh" layout="@layout/aqj"/>
+    <View background="@color/l" layout_width="match_parent" layout_height="match_parent" layout_below="@+id/dbh"/>
+    <ScrollView background="@color/l" scrollbars="none" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/dbh">
+        <RelativeLayout layout_width="match_parent" layout_height="wrap_content">
+            <include id="@+id/bqz" layout="@layout/aoh"/>
+            <View id="@+id/ann" background="@color/l" layout_width="match_parent" layout_height="32dp" layout_below="@+id/bqz"/>
+            <include layout="@layout/aqi"/>
+            <FrameLayout id="@+id/bm4" layout_width="90dp" layout_height="90dp" layout_below="@+id/ann" layout_centerHorizontal="true">
+                <com.ss.android.ugc.aweme.base.ui.AvatarImageView layout_gravity="center" id="@+id/bfb" layout_width="90dp" layout_height="90dp"/>
+                <com.ss.android.ugc.aweme.base.ui.RemoteImageView layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x10="@color/c5" NOT_FOUND_0x11="6" NOT_FOUND_0x12="true"/>
+                <com.bytedance.tux.icon.TuxIconView layout_gravity="center" layout_width="32dp" layout_height="32dp" NOT_FOUND_0x14="@raw/icon_3pt_camera" NOT_FOUND_0x15="?attr/aa"/>
+            </FrameLayout>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" text="@string/ab5" layout_below="@+id/bm4" layout_centerHorizontal="true" NOT_FOUND_0x13="51"/>
+        </RelativeLayout>
+    </ScrollView>
+    <com.bytedance.ies.dmt.ui.widget.DmtStatusView id="@+id/e_o" visibility="gone" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0"/>
+</RelativeLayout>

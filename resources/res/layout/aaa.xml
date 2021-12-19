@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" background="@color/l" layout_width="match_parent" layout_height="48dp">
+    <FrameLayout id="@+id/b6e" layout_width="wrap_content" layout_height="match_parent" NOT_FOUND_0x11="0" NOT_FOUND_0x13="@+id/f8g" NOT_FOUND_0x15="1" NOT_FOUND_0x17="0" NOT_FOUND_0x18="0">
+        <com.bytedance.tux.icon.TuxIconView layout_gravity="center_vertical" id="@+id/c12" layout_width="18dp" layout_height="18dp" layout_marginStart="15dp" layout_marginEnd="7dp" NOT_FOUND_0x1c="@raw/icon_magnifying_glass" NOT_FOUND_0x1d="?attr/bc"/>
+    </FrameLayout>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" gravity="start" id="@+id/f8g" layout_width="0dp" layout_height="wrap_content" layout_marginRight="10dp" maxLines="2" textDirection="locale" textAlignment="viewStart" layout_marginEnd="10dp" NOT_FOUND_0x11="0" NOT_FOUND_0x13="@+id/b6k" NOT_FOUND_0x14="0" NOT_FOUND_0x16="@+id/b6e" NOT_FOUND_0x18="0" NOT_FOUND_0x19="16dp" NOT_FOUND_0x1a="16dp" NOT_FOUND_0x1b="41"/>
+    <FrameLayout id="@+id/b6k" layout_width="wrap_content" layout_height="match_parent" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x16="@+id/f8g" NOT_FOUND_0x18="0">
+        <com.ss.android.ugc.aweme.choosemusic.view.SugCompletionView layout_gravity="center_vertical" id="@+id/c1q" padding="10dp" layout_width="36dp" layout_height="36dp" layout_marginStart="10dp" layout_marginEnd="6dp"/>
+    </FrameLayout>
+    <View id="@+id/vh" background="@color/b6" visibility="gone" layout_width="match_parent" layout_height="0.5dp" layout_marginLeft="16dp" layout_marginRight="16dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x17="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

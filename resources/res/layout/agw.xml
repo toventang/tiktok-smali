@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.tools.view.style.StyleRelativeLayout xmlns="" visibility="gone" layout_width="match_parent" layout_height="64dp" layout_marginLeft="8dp" layout_marginRight="8dp" layout_marginStart="8dp" layout_marginEnd="8dp" NOT_FOUND_0x14="7dp">
+    <com.ss.android.ugc.tools.view.style.StyleTextView textColor="@color/on" gravity="center" id="@+id/a4c" layout_width="wrap_content" layout_height="match_parent" layout_marginRight="16dp" text="@string/ayw" layout_alignParentRight="true" layout_marginEnd="16dp" layout_alignParentEnd="true" style="@style/a22"/>
+    <View id="@+id/a4d" background="@color/nz" layout_width="0.5dp" layout_height="36dp" layout_marginRight="16dp" layout_toLeftOf="@+id/a4c" layout_centerVertical="true" layout_marginEnd="16dp" layout_toStartOf="@+id/a4c"/>
+    <com.ss.android.ugc.tools.view.style.StyleRecyclerView id="@+id/d3q" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="6dp" layout_marginRight="6dp" layout_toLeftOf="@+id/a4d" layout_centerInParent="true" layout_toStartOf="@+id/a4d" NOT_FOUND_0x12="6dp" NOT_FOUND_0x13="false"/>
+</com.ss.android.ugc.tools.view.style.StyleRelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" orientation="horizontal" id="@+id/emo" paddingLeft="0dp" paddingTop="24.5dp" paddingRight="8dp" paddingBottom="100dp" visibility="visible" layout_width="match_parent" layout_height="wrap_content" paddingStart="0dp" paddingEnd="8dp">
+    <com.ss.android.ugc.tools.view.widget.AVAutoRTLImageView id="@+id/q9" padding="8dp" layout_width="40dp" layout_height="40dp" layout_marginLeft="12dp" src="0x7f0805c3" scaleType="centerCrop" layout_marginStart="12dp" NOT_FOUND_0x1d="0" NOT_FOUND_0x21="0" NOT_FOUND_0x22="0"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/on" ellipsize="end" gravity="start" id="@+id/evz" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/auc" maxLines="2" shadowColor="@color/bo" shadowDx="0" shadowDy="2" shadowRadius="2" layout_centerVertical="true" NOT_FOUND_0x1a="0" NOT_FOUND_0x1e="0" NOT_FOUND_0x20="0" NOT_FOUND_0x22="0" NOT_FOUND_0x23="41"/>
+    <include layout_width="wrap_content" layout_height="28dp" NOT_FOUND_0x1a="@+id/q9" NOT_FOUND_0x1b="0" NOT_FOUND_0x1c="0.5" NOT_FOUND_0x21="0" NOT_FOUND_0x22="@+id/q9" layout="@layout/bih"/>
+    <LinearLayout orientation="horizontal" id="@+id/c95" paddingTop="4dp" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x1b="0" NOT_FOUND_0x1f="0" NOT_FOUND_0x22="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

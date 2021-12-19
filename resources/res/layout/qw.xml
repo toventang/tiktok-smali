@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="horizontal" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.tux.button.TuxButton id="@+id/e59" layout_width="0dp" layout_height="44dp" layout_marginRight="12dp" text="@string/bj8" layout_weight="1" layout_marginEnd="12dp" NOT_FOUND_0x8="false" NOT_FOUND_0x9="3" NOT_FOUND_0xa="1"/>
+    <com.bytedance.tux.button.TuxButton id="@+id/e5_" layout_width="0dp" layout_height="44dp" text="@string/bfu" layout_weight="1" NOT_FOUND_0x8="false" NOT_FOUND_0x9="3" NOT_FOUND_0xa="0"/>
+</LinearLayout>

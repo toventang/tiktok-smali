@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.feed.ui.DrawableTopLeftTextView xmlns="" textSize="15sp" id="@+id/f7g" paddingLeft="20dp" paddingTop="12dp" paddingRight="20dp" paddingBottom="12dp" layout_width="match_parent" layout_height="wrap_content" drawableLeft="@drawable/bek" drawablePadding="12dp" lineSpacingExtra="3dp" drawableStart="@drawable/bek" paddingStart="20dp" paddingEnd="20dp"/>

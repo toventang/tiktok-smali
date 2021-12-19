@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.anchor.multi.ui.FeedMultiTagLayout id="@+id/b1p" focusable="true" visibility="gone" clickable="true" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="6dp" layout_marginStart="@dimen/a0z" layout_marginEnd="120dp"/>
+</LinearLayout>

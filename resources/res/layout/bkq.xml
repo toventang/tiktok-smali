@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center_horizontal" layout_gravity="center" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" minHeight="124dp">
+    <LinearLayout gravity="center_horizontal" layout_gravity="center_horizontal" orientation="vertical" background="@drawable/dx" layout_width="220dp" layout_height="wrap_content" minHeight="124dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bb" layout_gravity="center_horizontal" background="@drawable/dz" paddingLeft="4dp" paddingRight="4dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="7dp" layout_marginBottom="10dp" text="@string/g75" NOT_FOUND_0x1d="83"/>
+        <com.ss.android.ugc.aweme.shortvideo.edit.infosticker.interact.livecountdown.sticker.LiveCDEditText textSize="21dp" textColor="@color/a9" textColorHint="#4dffffff" id="@+id/arr" background="@null" focusableInTouchMode="true" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="11dp" layout_marginRight="11dp" hint="@string/aw1" shadowColor="#3f000000" shadowDx="-0.5" shadowDy="0.5" shadowRadius="2" textCursorDrawable="@drawable/dy" fontFamily="ProximaNova-Regular" NOT_FOUND_0x1c="2"/>
+        <com.ss.android.ugc.aweme.shortvideo.edit.infosticker.interact.livecountdown.sticker.LiveCDLinearLayout layout_gravity="center_horizontal" orientation="horizontal" id="@+id/cew" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="2dp" layout_marginBottom="9dp">
+            <LinearLayout gravity="center_horizontal" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" minWidth="42dp">
+                <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/exr" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x1d="13"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/o2" id="@+id/exs" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" text="@string/ave" NOT_FOUND_0x1d="93"/>
+            </LinearLayout>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/a9" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="8dp" layout_marginTop="5dp" layout_marginRight="8dp" text=":" NOT_FOUND_0x1d="23"/>
+            <LinearLayout gravity="center_horizontal" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" minWidth="42dp">
+                <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/ext" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x1d="13"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/o2" id="@+id/exu" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" text="@string/avf" NOT_FOUND_0x1d="93"/>
+            </LinearLayout>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/a9" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="8dp" layout_marginTop="5dp" layout_marginRight="8dp" text=":" NOT_FOUND_0x1d="23"/>
+            <LinearLayout gravity="center_horizontal" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" minWidth="42dp">
+                <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/exv" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x1d="13"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/o2" id="@+id/exw" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" text="@string/avk" NOT_FOUND_0x1d="93"/>
+            </LinearLayout>
+        </com.ss.android.ugc.aweme.shortvideo.edit.infosticker.interact.livecountdown.sticker.LiveCDLinearLayout>
+    </LinearLayout>
+</LinearLayout>

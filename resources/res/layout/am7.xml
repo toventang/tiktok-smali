@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="" orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout layout_gravity="bottom" orientation="vertical" id="@+id/bod" focusable="true" focusableInTouchMode="true" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="90dp">
+        <androidx.appcompat.widget.AppCompatImageView id="@+id/c0g" layout_width="wrap_content" layout_height="wrap_content" src="0x7f0809e9"/>
+        <com.ss.android.ugc.aweme.dsp.widget.MDMarqueeView id="@+id/f7j" layout_width="match_parent" layout_height="23dp" layout_marginTop="18dp" importantForAccessibility="no" NOT_FOUND_0x14="20dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/aa" ellipsize="end" id="@+id/f7f" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="6dp" maxLines="1" importantForAccessibility="no" NOT_FOUND_0x15="32"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" id="@+id/cpz" layout_width="match_parent" layout_height="36dp" layout_marginTop="18dp" layout_marginBottom="20dp" text="@string/dbh" textAlignment="center" NOT_FOUND_0x15="52"/>
+    </LinearLayout>
+    <LinearLayout gravity="end" layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" orientation="vertical" id="@+id/cgd" layout_width="wrap_content" layout_height="wrap_content">
+        <include id="@+id/pq" layout_width="64dp" layout_height="wrap_content" layout_marginEnd="-1dp" layout="@layout/sl"/>
+        <include layout_width="wrap_content" layout_height="wrap_content" layout_marginEnd="6dp" layout="@layout/t2"/>
+        <include layout_width="wrap_content" layout_height="wrap_content" layout_marginEnd="6dp" layout="@layout/sz"/>
+        <include layout_width="50dp" layout_height="wrap_content" layout_marginEnd="6dp" layout="@layout/t5"/>
+        <com.bytedance.tux.icon.TuxIconView layout_gravity="center" id="@+id/c01" layout_width="40dp" layout_height="40dp" layout_marginTop="12dp" layout_marginBottom="18dp" NOT_FOUND_0x16="@raw/icon_color_queue" NOT_FOUND_0x17="?attr/aa"/>
+    </LinearLayout>
+</merge>

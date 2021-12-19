@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.tools.view.style.StyleRelativeLayout xmlns="" orientation="horizontal" id="@+id/c8p" visibility="visible" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x1a="@color/u6" NOT_FOUND_0x1c="@dimen/cl" NOT_FOUND_0x1e="true">
+    <FrameLayout id="@+id/d0_" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="18dp" layout_marginTop="12dp" layout_marginBottom="5dp" layout_marginStart="18dp">
+        <com.ss.android.ugc.tools.view.widget.AVAutoRTLImageView id="@+id/bn5" layout_width="wrap_content" layout_height="wrap_content" src="0x7f080a04"/>
+        <com.ss.android.ugc.tools.view.style.StyleTextView textSize="17sp" layout_gravity="center_horizontal" id="@+id/d09" layout_width="wrap_content" layout_height="wrap_content" text="@string/b21" layout_centerHorizontal="true" NOT_FOUND_0x1b="7" NOT_FOUND_0x1d="@color/ub"/>
+    </FrameLayout>
+    <FrameLayout id="@+id/d05" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginTop="10dp" layout_below="@+id/d0_" layout_marginStart="12dp">
+        <com.ss.android.ugc.tools.view.widget.CircleImageView id="@+id/bn6" layout_width="40dp" layout_height="40dp" layout_margin="7dp" scaleType="fitXY"/>
+        <LinearLayout orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="55dp" layout_marginTop="7dp" layout_marginStart="55dp">
+            <com.ss.android.ugc.tools.view.style.StyleTextView textStyle="bold" id="@+id/d08" layout_width="wrap_content" layout_height="wrap_content" text="username" shadowDx="0" shadowDy="1" shadowRadius="1" NOT_FOUND_0x1b="7"/>
+            <com.ss.android.ugc.tools.view.style.StyleTextView id="@+id/d04" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="2dp" text="effects" shadowDx="0" shadowDy="1" shadowRadius="1"/>
+        </LinearLayout>
+        <com.ss.android.ugc.tools.view.style.StyleTextView textSize="14sp" gravity="center" layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/b7f" background="@drawable/b5k" layout_width="88dp" layout_height="28dp" layout_marginRight="16dp" text="@string/b1z" layout_marginEnd="16dp" NOT_FOUND_0x1b="7" NOT_FOUND_0x1d="@color/uc"/>
+    </FrameLayout>
+    <View background="@drawable/b5n" layout_width="match_parent" layout_height="2dp" layout_marginLeft="16dp" layout_marginTop="5dp" layout_marginRight="16dp" layout_marginBottom="5dp" layout_below="@+id/d05" alpha="0.2"/>
+</com.ss.android.ugc.tools.view.style.StyleRelativeLayout>

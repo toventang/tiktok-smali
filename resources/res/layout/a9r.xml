@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="52dp">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/ex0" layout_width="wrap_content" layout_height="wrap_content" text="@string/agn" NOT_FOUND_0x5="0" NOT_FOUND_0x6="0" NOT_FOUND_0x7="0" NOT_FOUND_0x8="0" NOT_FOUND_0x9="41"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

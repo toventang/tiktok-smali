@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/c99" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.autoplay.player.video.SearchPlayerCore layout_gravity="center" id="@+id/ekb" background="@color/a2" layout_width="match_parent" layout_height="match_parent" layerType="hardware"/>
+    <ImageView id="@+id/agj" background="@color/a2" layout_width="match_parent" layout_height="match_parent"/>
+    <com.ss.android.ugc.aweme.feed.widget.LinearGradientDraweeView layout_gravity="center" id="@+id/agf" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x7="7"/>
+    <ImageView layout_gravity="bottom" id="@+id/agm" background="@drawable/beb" visibility="gone" layout_width="match_parent" layout_height="150dp"/>
+</FrameLayout>

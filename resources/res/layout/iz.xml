@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="64dp">
+    <com.bytedance.tux.status.loading.TuxDualBallView id="@+id/aq4" layout_width="36dp" layout_height="36dp" NOT_FOUND_0x4="0" NOT_FOUND_0x5="0" NOT_FOUND_0x6="0" NOT_FOUND_0x7="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

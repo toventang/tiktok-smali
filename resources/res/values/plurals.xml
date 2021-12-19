@@ -1,0 +1,1495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="one">Approved (%d)</item>
+        <item quantity="other">Approved (%d)</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="one">You&apos;ve got %d new mention.</item>
+        <item quantity="other">You&apos;ve got %d new mentions.</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="one">%d question</item>
+        <item quantity="other">%d questions</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="one">Under review (%d)</item>
+        <item quantity="other">Under review (%d)</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="one">The registration information can’t be changed within %d month once your registration is approved.</item>
+        <item quantity="other">The registration information can’t be changed within %d months once your registration is approved.</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="one">You can only change the registered information %d month after it’s approved.</item>
+        <item quantity="other">You can only change the registered information %d months after it’s approved.</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="one">Upload up to %d image</item>
+        <item quantity="other">Upload up to %d images</item>
+    </plurals>
+    <plurals name="h">
+        <item quantity="one">DAY</item>
+        <item quantity="other">DAYS</item>
+    </plurals>
+    <plurals name="i">
+        <item quantity="one">HOUR</item>
+        <item quantity="other">HOURS</item>
+    </plurals>
+    <plurals name="j">
+        <item quantity="one">MINUTE</item>
+        <item quantity="other">MINUTES</item>
+    </plurals>
+    <plurals name="k">
+        <item quantity="one">SECOND</item>
+        <item quantity="other">SECONDS</item>
+    </plurals>
+    <plurals name="l">
+        <item quantity="one">Add video (%d)</item>
+        <item quantity="other">Add videos (%d)</item>
+    </plurals>
+    <plurals name="m">
+        <item quantity="one">%s video added. Tap &quot;Done&quot; to finish editing.</item>
+        <item quantity="other">%s videos added. Tap &quot;Done&quot; to finish editing.</item>
+    </plurals>
+    <plurals name="n">
+        <item quantity="one">Are you %d year old?\10\10 If this isn’t correct, you may not get the right TikTok experience. You may not be able to change it right away.</item>
+        <item quantity="other">Are you %d years old?\10\10 If this isn’t correct, you may not get the right TikTok experience. You may not be able to change it right away.</item>
+    </plurals>
+    <plurals name="o">
+        <item quantity="one">Are you %d year old?</item>
+        <item quantity="other">Are you %d years old?</item>
+    </plurals>
+    <plurals name="p">
+        <item quantity="one">You entered an age of %d year old. Enter your real date of birth.</item>
+        <item quantity="other">You entered an age of %d years old. Enter your real date of birth.</item>
+    </plurals>
+    <plurals name="q">
+        <item quantity="one">%d year old</item>
+        <item quantity="other">%d years old</item>
+    </plurals>
+    <plurals name="r">
+        <item quantity="one">%s share</item>
+        <item quantity="other">%s shares</item>
+    </plurals>
+    <plurals name="s">
+        <item quantity="one">%s view</item>
+        <item quantity="other">%s views</item>
+    </plurals>
+    <plurals name="t">
+        <item quantity="one">Voice effect may reduce accuracy</item>
+        <item quantity="other">Voice effects may reduce accuracy</item>
+    </plurals>
+    <plurals name="u">
+        <item quantity="one">%1$d friend invited. You can earn %2$s%3$d for your next invite.</item>
+        <item quantity="other">%1$d friends invited. You can earn %2$s%3$d for your next invite.</item>
+    </plurals>
+    <plurals name="v">
+        <item quantity="one">%d month</item>
+        <item quantity="other">%d months</item>
+    </plurals>
+    <plurals name="w">
+        <item quantity="one">%d year</item>
+        <item quantity="other">%d years</item>
+    </plurals>
+    <plurals name="x">
+        <item quantity="one">Block account</item>
+        <item quantity="other">Block accounts</item>
+    </plurals>
+    <plurals name="y">
+        <item quantity="one">%d account selected.</item>
+        <item quantity="other">%d accounts selected.</item>
+    </plurals>
+    <plurals name="z">
+        <item quantity="one">You can select up to %d account at a time.</item>
+        <item quantity="other">You can select up to %d accounts at a time.</item>
+    </plurals>
+    <plurals name="a0">
+        <item quantity="one">You&apos;ve selected %d account to block. Blocked accounts won&apos;t be able to see your profile or content on TikTok.</item>
+        <item quantity="other">You&apos;ve selected %d accounts to block. Blocked accounts won&apos;t be able to see your profile or content on TikTok.</item>
+    </plurals>
+    <plurals name="a1">
+        <item quantity="one">Block %d account?</item>
+        <item quantity="other">Block %d accounts?</item>
+    </plurals>
+    <plurals name="a2">
+        <item quantity="one">Delete comment</item>
+        <item quantity="other">Delete comments</item>
+    </plurals>
+    <plurals name="a3">
+        <item quantity="one">You&apos;ve selected %d comment.</item>
+        <item quantity="other">You&apos;ve selected %d comments.</item>
+    </plurals>
+    <plurals name="a4">
+        <item quantity="one">Delete %d comment?</item>
+        <item quantity="other">Delete %d comments?</item>
+    </plurals>
+    <plurals name="a5">
+        <item quantity="one">Comment deleted</item>
+        <item quantity="other">Comments deleted</item>
+    </plurals>
+    <plurals name="a6">
+        <item quantity="one">%d comment selected.</item>
+        <item quantity="other">%d comments selected.</item>
+    </plurals>
+    <plurals name="a7">
+        <item quantity="one">You can select up to %d comment at a time.</item>
+        <item quantity="other">You can select up to %d comments at a time.</item>
+    </plurals>
+    <plurals name="a8">
+        <item quantity="one">Report comment</item>
+        <item quantity="other">Report comments</item>
+    </plurals>
+    <plurals name="a9">
+        <item quantity="one">You&apos;re reporting %d comment. We&apos;ll review this comment for inappropriate content.</item>
+        <item quantity="other">You&apos;re reporting %d comments. We&apos;ll review these comments for inappropriate content.</item>
+    </plurals>
+    <plurals name="a_">
+        <item quantity="one">Report %d comment?</item>
+        <item quantity="other">Report %d comments?</item>
+    </plurals>
+    <plurals name="aa">
+        <item quantity="one">Comment reported</item>
+        <item quantity="other">Comments reported</item>
+    </plurals>
+    <plurals name="ab">
+        <item quantity="one">%d comment selected</item>
+        <item quantity="other">%d comments selected</item>
+    </plurals>
+    <plurals name="ac">
+        <item quantity="one">No one chitchats on TikTok quite like you. You’ve commented {comment_cnt} time.</item>
+        <item quantity="other">No one chitchats on TikTok quite like you. You’ve commented {comment_cnt} times.</item>
+    </plurals>
+    <plurals name="ad">
+        <item quantity="one">Your most popular comment got {comment_like_cnt} like.</item>
+        <item quantity="other">Your most popular comment got {comment_like_cnt} likes .</item>
+    </plurals>
+    <plurals name="ae">
+        <item quantity="one">%s comment</item>
+        <item quantity="other">%s comments</item>
+    </plurals>
+    <plurals name="af">
+        <item quantity="one">%s user set reminder</item>
+        <item quantity="other">%s users set reminders</item>
+    </plurals>
+    <plurals name="ag">
+        <item quantity="one">%s effect</item>
+        <item quantity="other">%s effects</item>
+    </plurals>
+    <plurals name="ah">
+        <item quantity="one">10 minutes until your LIVE: &quot;{0}&quot;. {0} user sets reminder.</item>
+        <item quantity="other">10 minutes until your LIVE: &quot;{0}&quot;. {0} users set reminders.</item>
+    </plurals>
+    <plurals name="ai">
+        <item quantity="one">It&apos;s time to go LIVE! {0} user sets reminder for &quot;{0}&quot;.</item>
+        <item quantity="other">It&apos;s time to go LIVE! {0} users set reminders for &quot;{0}&quot;.</item>
+    </plurals>
+    <plurals name="aj">
+        <item quantity="one">%s user has set reminder</item>
+        <item quantity="other">%s users have set reminders</item>
+    </plurals>
+    <plurals name="ak">
+        <item quantity="one">Have at least %d follower</item>
+        <item quantity="other">Have at least %d followers</item>
+    </plurals>
+    <plurals name="al">
+        <item quantity="one">Post at least %1$d video in the last %2$d days</item>
+        <item quantity="other">Post at least %1$d videos in the last %2$d days</item>
+    </plurals>
+    <plurals name="am">
+        <item quantity="one">Discard draft?</item>
+        <item quantity="other">Discard drafts?</item>
+    </plurals>
+    <plurals name="an">
+        <item quantity="one">%d Duet and Stitch video was created using your original video.</item>
+        <item quantity="other">%d Duet and Stitch videos were created using your original videos.</item>
+    </plurals>
+    <plurals name="ao">
+        <item quantity="one">You can choose to remove these videos after %d day.</item>
+        <item quantity="other">You can choose to remove these videos after %d days.</item>
+    </plurals>
+    <plurals name="ap">
+        <item quantity="one">If you recover your account within the next %d day, these videos will be restored.</item>
+        <item quantity="other">If you recover your account within the next %d days, these videos will be restored.</item>
+    </plurals>
+    <plurals name="aq">
+        <item quantity="one">Your account will be deactivated for %d day and won’t be visible to the public. During deactivation, you can reactive your TikTok account anytime.</item>
+        <item quantity="other">Your account will be deactivated for %d days and won’t be visible to the public. During deactivation, you can reactive your TikTok account anytime.</item>
+    </plurals>
+    <plurals name="ar">
+        <item quantity="one">After %d day, your account and data will be deleted permanently.</item>
+        <item quantity="other">After %d days, your account and data will be deleted permanently.</item>
+    </plurals>
+    <plurals name="as">
+        <item quantity="one">Review this %d task before deleting your account</item>
+        <item quantity="other">Review these %d tasks before deleting your account</item>
+    </plurals>
+    <plurals name="at">
+        <item quantity="one">Incorrect passcode. %d attempt left.</item>
+        <item quantity="other">Incorrect passcode. %d attempts left.</item>
+    </plurals>
+    <plurals name="au">
+        <item quantity="one">Too many attempts. Try again in %d minute.</item>
+        <item quantity="other">Too many attempts. Try again in %d minutes.</item>
+    </plurals>
+    <plurals name="av">
+        <item quantity="one">%d melody</item>
+        <item quantity="other">%d melodies</item>
+    </plurals>
+    <plurals name="aw">
+        <item quantity="one">%d music</item>
+        <item quantity="other">%d music</item>
+    </plurals>
+    <plurals name="ax">
+        <item quantity="one">%d piece</item>
+        <item quantity="other">%d pieces</item>
+    </plurals>
+    <plurals name="ay">
+        <item quantity="one">%d song</item>
+        <item quantity="other">%d songs</item>
+    </plurals>
+    <plurals name="az">
+        <item quantity="one">%d sound</item>
+        <item quantity="other">%d sounds</item>
+    </plurals>
+    <plurals name="b0">
+        <item quantity="one">%d tune</item>
+        <item quantity="other">%d tunes</item>
+    </plurals>
+    <plurals name="b1">
+        <item quantity="one">You both follow %s and %d other</item>
+        <item quantity="other">You both follow %s and %d others</item>
+    </plurals>
+    <plurals name="b2">
+        <item quantity="one">%s video</item>
+        <item quantity="other">%s videos</item>
+    </plurals>
+    <plurals name="b3">
+        <item quantity="one">Discard draft?</item>
+        <item quantity="other">Discard drafts?</item>
+    </plurals>
+    <plurals name="b4">
+        <item quantity="one">Delete draft?</item>
+        <item quantity="other">Delete drafts?</item>
+    </plurals>
+    <plurals name="b5">
+        <item quantity="one">Drafts %d video</item>
+        <item quantity="other">Drafts %d videos</item>
+    </plurals>
+    <plurals name="b6">
+        <item quantity="one">%1$s and %2$s other will be notified when this video is posted.</item>
+        <item quantity="other">%1$s and %2$s others will be notified when this video is posted.</item>
+    </plurals>
+    <plurals name="b7">
+        <item quantity="one">%ss</item>
+        <item quantity="other">%ss</item>
+    </plurals>
+    <plurals name="b8">
+        <item quantity="one">%d item</item>
+        <item quantity="other">%d items</item>
+    </plurals>
+    <plurals name="b9">
+        <item quantity="one">{{required_quantity}}+ item</item>
+        <item quantity="other">{{required_quantity}}+ items</item>
+    </plurals>
+    <plurals name="b_">
+        <item quantity="one">Follow-up review %d day later</item>
+        <item quantity="other">Follow-up review %d days later</item>
+    </plurals>
+    <plurals name="ba">
+        <item quantity="one">Available in {num} day</item>
+        <item quantity="other">Available in {num} days</item>
+    </plurals>
+    <plurals name="bb">
+        <item quantity="one">{count} more point to move up a rank</item>
+        <item quantity="other">{count} more points to move up a rank</item>
+    </plurals>
+    <plurals name="bc">
+        <item quantity="one">{count} more point to be a top creator</item>
+        <item quantity="other">{count} more points to be a top creator</item>
+    </plurals>
+    <plurals name="bd">
+        <item quantity="one">Flash Deal starts in {{num}} minute</item>
+        <item quantity="other">Flash Deal starts in {{num}} minutes</item>
+    </plurals>
+    <plurals name="be">
+        <item quantity="one">Flash Deal starts in {num} minute</item>
+        <item quantity="other">Flash Deal starts in {num} minutes</item>
+    </plurals>
+    <plurals name="bf">
+        <item quantity="one">Flash Deal starts in {{num}} minute</item>
+        <item quantity="other">Flash Deal starts in {{num}} minutes</item>
+    </plurals>
+    <plurals name="bg">
+        <item quantity="one">Ends in %s day</item>
+        <item quantity="other">Ends in %s days</item>
+    </plurals>
+    <plurals name="bh">
+        <item quantity="one">We&apos;ll send you a push notification %s minute before the event starts.</item>
+        <item quantity="other">We&apos;ll send you a push notification %s minutes before the event starts.</item>
+    </plurals>
+    <plurals name="bi">
+        <item quantity="one">We&apos;ll send you a push notification %s minute before the event starts.</item>
+        <item quantity="other">We&apos;ll send you a push notification %s minutes before the event starts.</item>
+    </plurals>
+    <plurals name="bj">
+        <item quantity="one">We&apos;ll send you a push notification %s minute before the event starts</item>
+        <item quantity="other">We&apos;ll send you a push notification %s minutes before the event starts</item>
+    </plurals>
+    <plurals name="bk">
+        <item quantity="one">{{count}} day left</item>
+        <item quantity="other">{{count}} days left</item>
+    </plurals>
+    <plurals name="bl">
+        <item quantity="one">You are invited to sell the following {{count}} product that offer free sample. Accept the invites to get it.</item>
+        <item quantity="other">You are invited to sell the following {{count}} products that offer free samples. Accept the invites to get them.</item>
+    </plurals>
+    <plurals name="bm">
+        <item quantity="one">The product is unavailable. Contact our support team and try again.</item>
+        <item quantity="other">The products are unavailable. Contact our support team and try again.</item>
+    </plurals>
+    <plurals name="bn">
+        <item quantity="one">Something went wrong with the free sample. Contact our support team and try again.</item>
+        <item quantity="other">Something went wrong with free samples. Contact our support team and try again.</item>
+    </plurals>
+    <plurals name="bo">
+        <item quantity="one">Ends in {count} day</item>
+        <item quantity="other">Ends in {count} days</item>
+    </plurals>
+    <plurals name="bp">
+        <item quantity="one">Ends in {count} hour</item>
+        <item quantity="other">Ends in {count} hours</item>
+    </plurals>
+    <plurals name="bq">
+        <item quantity="one">Ends in {count} minute</item>
+        <item quantity="other">Ends in {count} minutes</item>
+    </plurals>
+    <plurals name="br">
+        <item quantity="one">{count} left</item>
+        <item quantity="other">{count} left</item>
+    </plurals>
+    <plurals name="bs">
+        <item quantity="one">{count} requestor</item>
+        <item quantity="other">{count} requestors</item>
+    </plurals>
+    <plurals name="bt">
+        <item quantity="one">Your refund was sent to {payment_method}, and is supposed to arrive in around {count} day.</item>
+        <item quantity="other">Your refund was sent to {payment_method}, and is supposed to arrive in around {count} days.</item>
+    </plurals>
+    <plurals name="bu">
+        <item quantity="one">You placed a similar order %s hour ago. The previous order is awaiting payment.</item>
+        <item quantity="other">You placed a similar order %s hours ago. The previous order is awaiting payment.</item>
+    </plurals>
+    <plurals name="bv">
+        <item quantity="one">You placed a similar order %s minute ago. The previous order is awaiting payment.</item>
+        <item quantity="other">You placed a similar order %s minutes ago. The previous order is awaiting payment.</item>
+    </plurals>
+    <plurals name="bw">
+        <item quantity="one">Agreement</item>
+        <item quantity="other">Agreements</item>
+    </plurals>
+    <plurals name="bx">
+        <item quantity="one">Suggestion</item>
+        <item quantity="other">Suggestions</item>
+    </plurals>
+    <plurals name="by">
+        <item quantity="one">with {count}+ item</item>
+        <item quantity="other">with {count}+ items</item>
+    </plurals>
+    <plurals name="bz">
+        <item quantity="one">%1$s item, total %2$s</item>
+        <item quantity="other">%1$s items, total %2$s</item>
+    </plurals>
+    <plurals name="c0">
+        <item quantity="one">Total (%s item)</item>
+        <item quantity="other">Total (%s items)</item>
+    </plurals>
+    <plurals name="c1">
+        <item quantity="one">The following %d product was removed.</item>
+        <item quantity="other">The following %d products were removed.</item>
+    </plurals>
+    <plurals name="c2">
+        <item quantity="one">%d product was removed</item>
+        <item quantity="other">%d products were removed</item>
+    </plurals>
+    <plurals name="c3">
+        <item quantity="one">The following %d product was removed.</item>
+        <item quantity="other">The following %d products were removed.</item>
+    </plurals>
+    <plurals name="c4">
+        <item quantity="one">Product has been removed (%d)</item>
+        <item quantity="other">Products have been removed (%d)</item>
+    </plurals>
+    <plurals name="c5">
+        <item quantity="one">%d product was removed</item>
+        <item quantity="other">%d products were removed</item>
+    </plurals>
+    <plurals name="c6">
+        <item quantity="one">%d product removed</item>
+        <item quantity="other">%d products removed</item>
+    </plurals>
+    <plurals name="c7">
+        <item quantity="one">The following %d product will be removed. Confirm the removal, or it&apos;ll take effect automatically on {date}.</item>
+        <item quantity="other">The following %d products will be removed. Confirm the removal, or it&apos;ll take effect automatically on {date}.</item>
+    </plurals>
+    <plurals name="c8">
+        <item quantity="one">%d product will be removed</item>
+        <item quantity="other">%d products will be removed</item>
+    </plurals>
+    <plurals name="c9">
+        <item quantity="one">%d product will be removed on {date}</item>
+        <item quantity="other">%d products will be removed on {date}</item>
+    </plurals>
+    <plurals name="c_">
+        <item quantity="one">%d product will be removed</item>
+        <item quantity="other">%d products will be removed</item>
+    </plurals>
+    <plurals name="ca">
+        <item quantity="one">You liked a total of {effect_video_cnt} video that used it.</item>
+        <item quantity="other">You liked a total of {effect_video_cnt} videos that used it.</item>
+    </plurals>
+    <plurals name="cb">
+        <item quantity="one">%1$s: %2$s, %3$s, %4$s, and others posted %5$d new video.</item>
+        <item quantity="other">%1$s: %2$s, %3$s, %4$s, and others posted %5$d new videos.</item>
+    </plurals>
+    <plurals name="cc">
+        <item quantity="one">%1$s: %2$s posted %3$d new video.</item>
+        <item quantity="other">%1$s: %2$s posted %3$d new videos.</item>
+    </plurals>
+    <plurals name="cd">
+        <item quantity="one">%1$s: %2$s, %3$s, and %4$s posted %5$d new video.</item>
+        <item quantity="other">%1$s: %2$s, %3$s, and %4$s posted %5$d new videos.</item>
+    </plurals>
+    <plurals name="ce">
+        <item quantity="one">%1$s: %2$s and %3$s posted %4$d new video.</item>
+        <item quantity="other">%1$s: %2$s and %3$s posted %4$d new videos.</item>
+    </plurals>
+    <plurals name="cf">
+        <item quantity="one">You&apos;ve got %d new follower.</item>
+        <item quantity="other">You&apos;ve got %d new followers.</item>
+    </plurals>
+    <plurals name="cg">
+        <item quantity="one">You&apos;ve got %d new like.</item>
+        <item quantity="other">You&apos;ve got %d new likes.</item>
+    </plurals>
+    <plurals name="ch">
+        <item quantity="one">You have %d new notification waiting for you.</item>
+        <item quantity="other">You have %d new notifications waiting for you.</item>
+    </plurals>
+    <plurals name="ci">
+        <item quantity="one">We found %d video we think you might like.</item>
+        <item quantity="other">We found %d videos we think you might like.</item>
+    </plurals>
+    <plurals name="cj">
+        <item quantity="one">%1$s: %2$d video that you might like.</item>
+        <item quantity="other">%1$s: %2$d videos that you might like.</item>
+    </plurals>
+    <plurals name="ck">
+        <item quantity="one">Tagged</item>
+        <item quantity="other">Tagged</item>
+    </plurals>
+    <plurals name="cl">
+        <item quantity="one">%d registered</item>
+        <item quantity="other">%d registered</item>
+    </plurals>
+    <plurals name="cm">
+        <item quantity="one">%d registered</item>
+        <item quantity="other">%d registered</item>
+    </plurals>
+    <plurals name="cn">
+        <item quantity="one">Registered for this event</item>
+        <item quantity="other">Registered for this event</item>
+    </plurals>
+    <plurals name="co">
+        <item quantity="one">%s video</item>
+        <item quantity="other">%s videos</item>
+    </plurals>
+    <plurals name="cp">
+        <item quantity="one">%s video added</item>
+        <item quantity="other">%s videos added</item>
+    </plurals>
+    <plurals name="cq">
+        <item quantity="one">Remove %d video from %s</item>
+        <item quantity="other">Remove %d videos from %s</item>
+    </plurals>
+    <plurals name="cr">
+        <item quantity="one">Remove %1$d video from %2$s</item>
+        <item quantity="other">Remove %1$d videos from %2$s</item>
+    </plurals>
+    <plurals name="cs">
+        <item quantity="one">%d video moved to %s</item>
+        <item quantity="other">%d videos moved to %s</item>
+    </plurals>
+    <plurals name="ct">
+        <item quantity="one">%1$d video moved to %2$s</item>
+        <item quantity="other">%1$d videos moved to %2$s</item>
+    </plurals>
+    <plurals name="cu">
+        <item quantity="one">%d video removed</item>
+        <item quantity="other">%d videos removed</item>
+    </plurals>
+    <plurals name="cv">
+        <item quantity="one">%d new video from friends</item>
+        <item quantity="other">%d new videos from friends</item>
+    </plurals>
+    <plurals name="cw">
+        <item quantity="one">New request</item>
+        <item quantity="other">New requests</item>
+    </plurals>
+    <plurals name="cx">
+        <item quantity="one">member</item>
+        <item quantity="other">members</item>
+    </plurals>
+    <plurals name="cy">
+        <item quantity="one">%s member</item>
+        <item quantity="other">%s members</item>
+    </plurals>
+    <plurals name="cz">
+        <item quantity="one">See %d more member</item>
+        <item quantity="other">See %d more members</item>
+    </plurals>
+    <plurals name="d0">
+        <item quantity="one">%s view</item>
+        <item quantity="other">%s views</item>
+    </plurals>
+    <plurals name="d1">
+        <item quantity="one">Sent to %s and %d other</item>
+        <item quantity="other">Sent to %s and %d others</item>
+    </plurals>
+    <plurals name="d2">
+        <item quantity="one">%s follower</item>
+        <item quantity="other">%s followers</item>
+    </plurals>
+    <plurals name="d3">
+        <item quantity="one">%d video</item>
+        <item quantity="other">%d videos</item>
+    </plurals>
+    <plurals name="d4">
+        <item quantity="one">%1$s follows %2$s and %3$d other. View their profile.</item>
+        <item quantity="other">%1$s follows %2$s and %3$d others. View their profile.</item>
+    </plurals>
+    <plurals name="d5">
+        <item quantity="one">%1$s is followed by %2$s and %3$d other. View their profile.</item>
+        <item quantity="other">%1$s is followed by %2$s and %3$d others. View their profile.</item>
+    </plurals>
+    <plurals name="d6">
+        <item quantity="one">%1$s is friends with %2$s and %3$d other. View their profile.</item>
+        <item quantity="other">%1$s is friends with %2$s and %3$d others. View their profile.</item>
+    </plurals>
+    <plurals name="d7">
+        <item quantity="one">%1$s is followed by %2$s, %3$s, and %d other. View their profile.</item>
+        <item quantity="other">%1$s is followed by %2$s, %3$s, and %d others. View their profile.</item>
+    </plurals>
+    <plurals name="d8">
+        <item quantity="one">%1$s follows %2$s, %3$s, and %4$d other. View their profile.</item>
+        <item quantity="other">%1$s follows %2$s, %3$s, and %4$d others. View their profile.</item>
+    </plurals>
+    <plurals name="d9">
+        <item quantity="one">%1$s is friends with %2$s, %3$s, and %4$d other. View their profile.</item>
+        <item quantity="other">%1$s is friends with %2$s, %3$s, and %4$d others. View their profile.</item>
+    </plurals>
+    <plurals name="d_">
+        <item quantity="one">Follow %1$s, %2$s, and %d other you may know to watch their videos.</item>
+        <item quantity="other">Follow %1$s, %2$s, and %d others you may know to watch their videos.</item>
+    </plurals>
+    <plurals name="da">
+        <item quantity="one">%d other</item>
+        <item quantity="other">%d others</item>
+    </plurals>
+    <plurals name="db">
+        <item quantity="one">Follow %1$s, %2$s, and %3$d other you may know to watch their videos.</item>
+        <item quantity="other">Follow %1$s, %2$s, and %3$d others you may know to watch their videos.</item>
+    </plurals>
+    <plurals name="dc">
+        <item quantity="one">{0} video</item>
+        <item quantity="other">{0} videos</item>
+    </plurals>
+    <plurals name="dd">
+        <item quantity="one">%d keyword</item>
+        <item quantity="other">%d keywords</item>
+    </plurals>
+    <plurals name="de">
+        <item quantity="one">{0} ({1}) started following you. {2} and {3} other are following them.</item>
+        <item quantity="other">{0} ({1}) started following you. {2} and {3} others are following them.</item>
+    </plurals>
+    <plurals name="df">
+        <item quantity="one">{0} ({1}) started following you. {2} and {3} other are friends with them.</item>
+        <item quantity="other">{0} ({1}) started following you. {2} and {3} others are friends with them.</item>
+    </plurals>
+    <plurals name="dg">
+        <item quantity="one">{0} ({1}) started following you. You both follow {2} and {3} other.</item>
+        <item quantity="other">{0} ({1}) started following you. You both follow {2} and {3} others.</item>
+    </plurals>
+    <plurals name="dh">
+        <item quantity="one">commented on your video. You have {3} mutual connection.</item>
+        <item quantity="other">commented on your video. You have {3} mutual connections.</item>
+    </plurals>
+    <plurals name="di">
+        <item quantity="one">commented on your video. {2} and {3} other are following them.</item>
+        <item quantity="other">commented on your video. {2} and {3} others are following them.</item>
+    </plurals>
+    <plurals name="dj">
+        <item quantity="one">commented on your video. {2} and {3} other are friends with them.</item>
+        <item quantity="other">commented on your video. {2} and {3} others are friends with them.</item>
+    </plurals>
+    <plurals name="dk">
+        <item quantity="one">commented on your video. You both follow {2} and {3} other.</item>
+        <item quantity="other">commented on your video. You both follow {2} and {3} others.</item>
+    </plurals>
+    <plurals name="dl">
+        <item quantity="one">created a duet with you. You have {3} mutual connection.</item>
+        <item quantity="other">created a duet with you. You have {3} mutual connections.</item>
+    </plurals>
+    <plurals name="dm">
+        <item quantity="one">created a duet with you. {2} and {3} other are following them.</item>
+        <item quantity="other">created a duet with you. {2} and {3} others are following them.</item>
+    </plurals>
+    <plurals name="dn">
+        <item quantity="one">created a duet with you. {2} and {3} other are friends with them.</item>
+        <item quantity="other">created a duet with you. {2} and {3} others are friends with them.</item>
+    </plurals>
+    <plurals name="do">
+        <item quantity="one">created a duet with you. You both follow {2} and {3} other.</item>
+        <item quantity="other">created a duet with you. You both follow {2} and {3} others.</item>
+    </plurals>
+    <plurals name="dp">
+        <item quantity="one">liked your video. You both follow {2} and {3} other.</item>
+        <item quantity="other">liked your video. You both follow {2} and {3} others.</item>
+    </plurals>
+    <plurals name="dq">
+        <item quantity="one">liked your video. You have {3} mutual connection.</item>
+        <item quantity="other">liked your video. You have {3} mutual connections.</item>
+    </plurals>
+    <plurals name="dr">
+        <item quantity="one">liked your video. {2} and {3} other are following them.</item>
+        <item quantity="other">liked your video. {2} and {3} others are following them.</item>
+    </plurals>
+    <plurals name="ds">
+        <item quantity="one">liked your video. {2} and {3} other are friends with them.</item>
+        <item quantity="other">liked your video. {2} and {3} others are friends with them.</item>
+    </plurals>
+    <plurals name="dt">
+        <item quantity="one">mentioned you in a comment. You have {3} mutual connection.</item>
+        <item quantity="other">mentioned you in a comment. You have {3} mutual connections.</item>
+    </plurals>
+    <plurals name="du">
+        <item quantity="one">mentioned you in a comment. {2} and {3} other are following them.</item>
+        <item quantity="other">mentioned you in a comment. {2} and {3} others are following them.</item>
+    </plurals>
+    <plurals name="dv">
+        <item quantity="one">mentioned you in a comment. {2} and {3} other are friends with them.</item>
+        <item quantity="other">mentioned you in a comment. {2} and {3} other are friends with them.</item>
+    </plurals>
+    <plurals name="dw">
+        <item quantity="one">mentioned you in a comment. You both follow {2} and {3} other.</item>
+        <item quantity="other">mentioned you in a comment. You both follow {2} and {3} others.</item>
+    </plurals>
+    <plurals name="dx">
+        <item quantity="one">[{3} mutual connection]</item>
+        <item quantity="other">[{3} mutual connections]</item>
+    </plurals>
+    <plurals name="dy">
+        <item quantity="one">[both followed by {2} and {3} other]</item>
+        <item quantity="other">[both followed by {2} and {3} others]</item>
+    </plurals>
+    <plurals name="dz">
+        <item quantity="one">[both follow {2} and {3} other]</item>
+        <item quantity="other">[both follow {2} and {3} others]</item>
+    </plurals>
+    <plurals name="e0">
+        <item quantity="one">{0} started following you. You both follow {2} and {3} other.</item>
+        <item quantity="other">{0} started following you. You both follow {2} and {3} others.</item>
+    </plurals>
+    <plurals name="e1">
+        <item quantity="one">{0} started following you. You have {3} mutual connection.</item>
+        <item quantity="other">{0} started following you. You have {3} mutual connections.</item>
+    </plurals>
+    <plurals name="e2">
+        <item quantity="one">{0} started following you. {2} and {3} other are following them.</item>
+        <item quantity="other">{0} started following you. {2} and {3} others are following them.</item>
+    </plurals>
+    <plurals name="e3">
+        <item quantity="one">{0} started following you. {2} and {3} other are friends with them.</item>
+        <item quantity="other">{0} started following you. {2} and {3} others are friends with them.</item>
+    </plurals>
+    <plurals name="e4">
+        <item quantity="one">[both are friends with {2} and {3} other]</item>
+        <item quantity="other">[both are friends with {2} and {3} others]</item>
+    </plurals>
+    <plurals name="e5">
+        <item quantity="one">{0} ({1}) sent you a follow request. You have {3} mutual connection.</item>
+        <item quantity="other">{0} ({1}) sent you a follow request. You have {3} mutual connections.</item>
+    </plurals>
+    <plurals name="e6">
+        <item quantity="one">{0} ({1}) sent you a follow request. {2} and {3} other are following them.</item>
+        <item quantity="other">{0} ({1}) sent you a follow request. {2} and {3} others are following them.</item>
+    </plurals>
+    <plurals name="e7">
+        <item quantity="one">{0} ({1}) sent you a follow request. {2} and {3} other are friends with them.</item>
+        <item quantity="other">{0} ({1}) sent you a follow request. {2} and {3} others are friends with them.</item>
+    </plurals>
+    <plurals name="e8">
+        <item quantity="one">{0} ({1}) sent you a follow request. You both follow {2} and {3} other.</item>
+        <item quantity="other">{0} ({1}) sent you a follow request. You both follow {2} and {3} others.</item>
+    </plurals>
+    <plurals name="e9">
+        <item quantity="one">{0} ({1}) started following you. You have {3} mutual connection.</item>
+        <item quantity="other">{0} ({1}) started following you. You have {3} mutual connections.</item>
+    </plurals>
+    <plurals name="e_">
+        <item quantity="one">{0} ({1}) started following you. {2} and {3} other are following them.</item>
+        <item quantity="other">{0} ({1}) started following you. {2} and {3} others are following them.</item>
+    </plurals>
+    <plurals name="ea">
+        <item quantity="one">{0} ({1}) started following you. {2} and {3} other are friends with them.</item>
+        <item quantity="other">{0} ({1}) started following you. {2} and {3} others are friends with them.</item>
+    </plurals>
+    <plurals name="eb">
+        <item quantity="one">{0} ({1}) started following you. You both follow {2} and {3} other.</item>
+        <item quantity="other">{0} ({1}) started following you. You both follow {2} and {3} others.</item>
+    </plurals>
+    <plurals name="ec">
+        <item quantity="one">{0} accepted your follow request. You have {3} mutual connection.</item>
+        <item quantity="other">{0} accepted your follow request. You have {3} mutual connections.</item>
+    </plurals>
+    <plurals name="ed">
+        <item quantity="one">{0} accepted your follow request. {2} and {3} other are following them.</item>
+        <item quantity="other">{0} accepted your follow request. {2} and {3} others are following them.</item>
+    </plurals>
+    <plurals name="ee">
+        <item quantity="one">{0} accepted your follow request. {2} and {3} other are friends with them.</item>
+        <item quantity="other">{0} accepted your follow request. {2} and {3} others are friends with them.</item>
+    </plurals>
+    <plurals name="ef">
+        <item quantity="one">{0} accepted your follow request. You both follow {2} and {3} other.</item>
+        <item quantity="other">{0} accepted your follow request. You both follow {2} and {3} others.</item>
+    </plurals>
+    <plurals name="eg">
+        <item quantity="one">{0} sent you a follow request. You have {3} mutual connection.</item>
+        <item quantity="other">{0} sent you a follow request. You have {3} mutual connections.</item>
+    </plurals>
+    <plurals name="eh">
+        <item quantity="one">{0} sent you a follow request. {2} and {3} other are following them.</item>
+        <item quantity="other">{0} sent you a follow request. {2} and {3} others are following them.</item>
+    </plurals>
+    <plurals name="ei">
+        <item quantity="one">{0} sent you a follow request. {2} and {3} other are friends with them.</item>
+        <item quantity="other">{0} sent you a follow request. {2} and {3} others are friends with them.</item>
+    </plurals>
+    <plurals name="ej">
+        <item quantity="one">{0} sent you a follow request. You both follow {2} and {3} other.</item>
+        <item quantity="other">{0} sent you a follow request. You both follow {2} and {3} others.</item>
+    </plurals>
+    <plurals name="ek">
+        <item quantity="one">replied to your comment. You have {3} mutual connection.</item>
+        <item quantity="other">replied to your comment. You have {3} mutual connections.</item>
+    </plurals>
+    <plurals name="el">
+        <item quantity="one">replied to your comment. {2} and {3} other are following them.</item>
+        <item quantity="other">replied to your comment. {2} and {3} others are following them.</item>
+    </plurals>
+    <plurals name="em">
+        <item quantity="one">replied to your comment. {2} and {3} other are friends with them.</item>
+        <item quantity="other">replied to your comment. {2} and {3} others are friends with them.</item>
+    </plurals>
+    <plurals name="en">
+        <item quantity="one">replied to your comment. You both follow {2} and {3} other.</item>
+        <item quantity="other">replied to your comment. You both follow {2} and {3} others.</item>
+    </plurals>
+    <plurals name="eo">
+        <item quantity="one">replied to your comment with a video. You have {3} mutual connection.</item>
+        <item quantity="other">replied to your comment with a video. You have {3} mutual connections.</item>
+    </plurals>
+    <plurals name="ep">
+        <item quantity="one">replied to your comment with a video. {2} and {3} other are following them.</item>
+        <item quantity="other">replied to your comment with a video. {2} and {3} others are following them.</item>
+    </plurals>
+    <plurals name="eq">
+        <item quantity="one">replied to your comment with a video. {2} and {3} other are friends with them.</item>
+        <item quantity="other">replied to your comment with a video. {2} and {3} others are friends with them.</item>
+    </plurals>
+    <plurals name="er">
+        <item quantity="one">replied to your comment with a video. You both follow {2} and {3} other.</item>
+        <item quantity="other">replied to your comment with a video. You both follow {2} and {3} others.</item>
+    </plurals>
+    <plurals name="es">
+        <item quantity="one">mentioned you in a video. You have {3} mutual connection.</item>
+        <item quantity="other">mentioned you in a video. You have {3} mutual connections.</item>
+    </plurals>
+    <plurals name="et">
+        <item quantity="one">mentioned you in a video. {2} and {3} other are following them.</item>
+        <item quantity="other">mentioned you in a video. {2} and {3} others are following them.</item>
+    </plurals>
+    <plurals name="eu">
+        <item quantity="one">mentioned you in a video. {2} and {3} other are friends with them.</item>
+        <item quantity="other">mentioned you in a video. {2} and {3} others are friends with them.</item>
+    </plurals>
+    <plurals name="ev">
+        <item quantity="one">mentioned you in a video. You both follow {2} and {3} other.</item>
+        <item quantity="other">mentioned you in a video. You both follow {2} and {3} others.</item>
+    </plurals>
+    <plurals name="ew">
+        <item quantity="one">voted for your video. You have {3} mutual connection.</item>
+        <item quantity="other">voted for your video. You have {3} mutual connections.</item>
+    </plurals>
+    <plurals name="ex">
+        <item quantity="one">replied with a video to a comment you also replied to. You have {3} mutual connection.</item>
+        <item quantity="other">replied with a video to a comment you also replied to. You have {3} mutual connections.</item>
+    </plurals>
+    <plurals name="ey">
+        <item quantity="one">replied with a video to a comment you also replied to. {2} and {3} other are following them.</item>
+        <item quantity="other">replied with a video to a comment you also replied to. {2} and {3} others are following them.</item>
+    </plurals>
+    <plurals name="ez">
+        <item quantity="one">replied with a video to a comment you also replied to. {2} and {3} other are friends with them.</item>
+        <item quantity="other">replied with a video to a comment you also replied to. {2} and {3} others are friends with them.</item>
+    </plurals>
+    <plurals name="f0">
+        <item quantity="one">replied with a video to a comment you also replied to. You both follow {2} and {3} other.</item>
+        <item quantity="other">replied with a video to a comment you also replied to. You both follow {2} and {3} others.</item>
+    </plurals>
+    <plurals name="f1">
+        <item quantity="one">voted for your video. {2} and {3} other are following them.</item>
+        <item quantity="other">voted for your video. {2} and {3} others are following them.</item>
+    </plurals>
+    <plurals name="f2">
+        <item quantity="one">voted for your video. {2} and {3} other are friends with them.</item>
+        <item quantity="other">voted for your video. {2} and {3} others are friends with them.</item>
+    </plurals>
+    <plurals name="f3">
+        <item quantity="one">voted for your video. You both follow {2} and {3} other.</item>
+        <item quantity="other">voted for your video. You both follow {2} and {3} others.</item>
+    </plurals>
+    <plurals name="f4">
+        <item quantity="one">%d LIVE video</item>
+        <item quantity="other">%d LIVE videos</item>
+    </plurals>
+    <plurals name="f5">
+        <item quantity="one">Ends in %s day</item>
+        <item quantity="other">Ends in %s days</item>
+    </plurals>
+    <plurals name="f6">
+        <item quantity="one">%d item</item>
+        <item quantity="other">%d items</item>
+    </plurals>
+    <plurals name="f7">
+        <item quantity="one">Sending to %s and %d other...</item>
+        <item quantity="other">Sending to %s and %d others...</item>
+    </plurals>
+    <plurals name="f8">
+        <item quantity="one">Sent to %s and %d other</item>
+        <item quantity="other">Sent to %s and %d others</item>
+    </plurals>
+    <plurals name="f9">
+        <item quantity="one">You can submit %d more video</item>
+        <item quantity="other">You can submit %d more videos</item>
+    </plurals>
+    <plurals name="f_">
+        <item quantity="one">You can now upload videos up to %d minute long!</item>
+        <item quantity="other">You can now upload videos up to %d minutes long!</item>
+    </plurals>
+    <plurals name="fa">
+        <item quantity="one">Introducing %d minute video</item>
+        <item quantity="other">Introducing %d minutes video</item>
+    </plurals>
+    <plurals name="fb">
+        <item quantity="one">%d mutual connection</item>
+        <item quantity="other">%d mutual connections</item>
+    </plurals>
+    <plurals name="fc">
+        <item quantity="one">Add video (%s)</item>
+        <item quantity="other">Add videos (%s)</item>
+    </plurals>
+    <plurals name="fd">
+        <item quantity="one">Remove video (%s)</item>
+        <item quantity="other">Remove videos (%s)</item>
+    </plurals>
+    <plurals name="fe">
+        <item quantity="one">%s view</item>
+        <item quantity="other">%s views</item>
+    </plurals>
+    <plurals name="ff">
+        <item quantity="one">End this LIVE video? 1 viewer is currently watching.</item>
+        <item quantity="other">End this LIVE video? %s viewers are currently watching.</item>
+    </plurals>
+    <plurals name="fg">
+        <item quantity="one">End this LIVE video? 1 viewer is currently watching.</item>
+        <item quantity="other">End this LIVE video? %s viewers are currently watching.</item>
+    </plurals>
+    <plurals name="fh">
+        <item quantity="one">Coin</item>
+        <item quantity="other">Coins</item>
+    </plurals>
+    <plurals name="fi">
+        <item quantity="one">%d viewer</item>
+        <item quantity="other">%d viewers</item>
+    </plurals>
+    <plurals name="fj">
+        <item quantity="one">%d follower active now</item>
+        <item quantity="other">%d followers active now</item>
+    </plurals>
+    <plurals name="fk">
+        <item quantity="one">%d Coin</item>
+        <item quantity="other">%d Coins</item>
+    </plurals>
+    <plurals name="fl">
+        <item quantity="one">Complete exchange to %s coin?</item>
+        <item quantity="other">Complete exchange to %s coins?</item>
+    </plurals>
+    <plurals name="fm">
+        <item quantity="one">%s guest request</item>
+        <item quantity="other">%s guest requests</item>
+    </plurals>
+    <plurals name="fn">
+        <item quantity="one">%s request</item>
+        <item quantity="other">%s requests</item>
+    </plurals>
+    <plurals name="fo">
+        <item quantity="one">You are suspended from going LIVE as a guest until %d day later</item>
+        <item quantity="other">You are suspended from going LIVE as a guest until %d days later</item>
+    </plurals>
+    <plurals name="fp">
+        <item quantity="one">You are suspended from going LIVE as a guest until %d hour later</item>
+        <item quantity="other">You are suspended from going LIVE as a guest until %d hours later</item>
+    </plurals>
+    <plurals name="fq">
+        <item quantity="one">You are suspended from going LIVE as a guest until %d minute later</item>
+        <item quantity="other">You are suspended from going LIVE as a guest until %d minutes later</item>
+    </plurals>
+    <plurals name="fr">
+        <item quantity="one">You are suspended from going LIVE as a guest until %d second later</item>
+        <item quantity="other">You are suspended from going LIVE as a guest until %d seconds later</item>
+    </plurals>
+    <plurals name="fs">
+        <item quantity="one">%s like</item>
+        <item quantity="other">%s likes</item>
+    </plurals>
+    <plurals name="ft">
+        <item quantity="one">like</item>
+        <item quantity="other">likes</item>
+    </plurals>
+    <plurals name="fu">
+        <item quantity="one">%s like</item>
+        <item quantity="other">%s likes</item>
+    </plurals>
+    <plurals name="fv">
+        <item quantity="one">Your LIVE application wasn&apos;t approved. You can apply again in %d day.</item>
+        <item quantity="other">Your LIVE application wasn&apos;t approved. You can apply again in %d days.</item>
+    </plurals>
+    <plurals name="fw">
+        <item quantity="one">You&apos;ve applied for LIVE access and can go LIVE for the next 7 days. Remember to follow Community Guidelines and go LIVE for %d hour in your first week to get ongoing access.</item>
+        <item quantity="other">You&apos;ve applied for LIVE access and can go LIVE for the next 7 days. Remember to follow Community Guidelines and go LIVE for %d hours in your first week to get ongoing access.</item>
+    </plurals>
+    <plurals name="fx">
+        <item quantity="one">Go LIVE for %d more hour by %s to get ongoing LIVE access</item>
+        <item quantity="other">Go LIVE for %d more hours by %s to get ongoing LIVE access</item>
+    </plurals>
+    <plurals name="fy">
+        <item quantity="one">Go LIVE for %1$s more hour by %2$s to get ongoing LIVE access</item>
+        <item quantity="other">Go LIVE for %1$s more hours by %2$s to get ongoing LIVE access</item>
+    </plurals>
+    <plurals name="fz">
+        <item quantity="one">%s needs %s coin to become this week&apos;s top %d host!</item>
+        <item quantity="other">%s needs %s coins to become this week&apos;s top %d host!</item>
+    </plurals>
+    <plurals name="g0">
+        <item quantity="one">1 day left. Get %s more diamond to become a top 3 host and win an exclusive badge on your video.</item>
+        <item quantity="other">1 day left. Get %s more diamonds to become a top 3 host and win an exclusive badge on your video.</item>
+    </plurals>
+    <plurals name="g1">
+        <item quantity="one">1 day left. Get %s more diamond to have your LIVE reach more potential viewers.</item>
+        <item quantity="other">1 day left. Get %s more diamonds to have your LIVE reach more potential viewers.</item>
+    </plurals>
+    <plurals name="g2">
+        <item quantity="one">1 day left. Get %s more diamond to win unique rewards for popular hosts!</item>
+        <item quantity="other">1 day left. Get %s more diamonds to win unique rewards for popular hosts!</item>
+    </plurals>
+    <plurals name="g3">
+        <item quantity="one">1 follower active now</item>
+        <item quantity="other">%s followers active now</item>
+    </plurals>
+    <plurals name="g4">
+        <item quantity="one">%s coin needed</item>
+        <item quantity="other">%s coins needed</item>
+    </plurals>
+    <plurals name="g5">
+        <item quantity="one">3 minutes left. Get %s more diamond to become a top 3 host and win an exclusive badge.</item>
+        <item quantity="other">3 minutes left. Get %s more diamonds to become a top 3 host and win an exclusive badge.</item>
+    </plurals>
+    <plurals name="g6">
+        <item quantity="one">3 minutes left. Get %s more diamond to have your LIVE reach more potential viewers.</item>
+        <item quantity="other">3 minutes left. Get %s more diamonds to have your LIVE reach more potential viewers.</item>
+    </plurals>
+    <plurals name="g7">
+        <item quantity="one">3 minutes left. Get %s more diamond to win unique rewards for popular hosts!</item>
+        <item quantity="other">3 minutes left. Get %s more diamonds to win unique rewards for popular hosts!</item>
+    </plurals>
+    <plurals name="g8">
+        <item quantity="one">%s is scheduled to start in 10 mins. %d viewer have seen your event. Go LIVE now to get the most out of your promotion!</item>
+        <item quantity="other">%s is scheduled to start in 10 mins. %d viewers have seen your event. Go LIVE now to get the most out of your promotion!</item>
+    </plurals>
+    <plurals name="g9">
+        <item quantity="one">%d user viewed your event. Get ready to go LIVE!</item>
+        <item quantity="other">%d users viewed your event. Get ready to go LIVE!</item>
+    </plurals>
+    <plurals name="g_">
+        <item quantity="one">{numberofviews} user viewed your event. Get ready to go LIVE!</item>
+        <item quantity="other">{numberofviews} users viewed your event. Get ready to go LIVE!</item>
+    </plurals>
+    <plurals name="ga">
+        <item quantity="one">%d user viewed your event! Remember to go LIVE on time.</item>
+        <item quantity="other">%d users viewed your event! Remember to go LIVE on time.</item>
+    </plurals>
+    <plurals name="gb">
+        <item quantity="one">%d minute</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+    <plurals name="gc">
+        <item quantity="one">%d second</item>
+        <item quantity="other">%d seconds</item>
+    </plurals>
+    <plurals name="gd">
+        <item quantity="one">%d min</item>
+        <item quantity="other">%d mins</item>
+    </plurals>
+    <plurals name="ge">
+        <item quantity="one">%d sec</item>
+        <item quantity="other">%d secs</item>
+    </plurals>
+    <plurals name="gf">
+        <item quantity="one">You&apos;ve spent %d coin today.</item>
+        <item quantity="other">You&apos;ve spent %d coins today.</item>
+    </plurals>
+    <plurals name="gg">
+        <item quantity="one">Gift at a slower pace and try again in %d minute.</item>
+        <item quantity="other">Gift at a slower pace and try again in %d minutes.</item>
+    </plurals>
+    <plurals name="gh">
+        <item quantity="one">%s coin needed for selected gift</item>
+        <item quantity="other">%s coins needed for selected gift</item>
+    </plurals>
+    <plurals name="gi">
+        <item quantity="one">Requested: %d min ago</item>
+        <item quantity="other">Requested: %d mins ago</item>
+    </plurals>
+    <plurals name="gj">
+        <item quantity="one">You can enter up to %s emote in a comment</item>
+        <item quantity="other">You can enter up to %s emotes in a comment</item>
+    </plurals>
+    <plurals name="gk">
+        <item quantity="one">Subscribe to use %1$s&apos;s %2$s custom emote</item>
+        <item quantity="other">Subscribe to use %1$s&apos;s %2$s custom emotes</item>
+    </plurals>
+    <plurals name="gl">
+        <item quantity="one">Top viewer</item>
+        <item quantity="other">Top viewers</item>
+    </plurals>
+    <plurals name="gm">
+        <item quantity="one">Top viewer</item>
+        <item quantity="other">Top viewers</item>
+    </plurals>
+    <plurals name="gn">
+        <item quantity="one">Viewer</item>
+        <item quantity="other">Viewers</item>
+    </plurals>
+    <plurals name="go">
+        <item quantity="one">%d viewer</item>
+        <item quantity="other">%d viewers</item>
+    </plurals>
+    <plurals name="gp">
+        <item quantity="one">%s viewer</item>
+        <item quantity="other">%s viewers</item>
+    </plurals>
+    <plurals name="gq">
+        <item quantity="one">%s viewer sent gifts</item>
+        <item quantity="other">%s viewers sent gifts</item>
+    </plurals>
+    <plurals name="gr">
+        <item quantity="one">%1$d coin = %2$s%3$.2f</item>
+        <item quantity="other">%1$d coins = %2$s%3$.2f</item>
+    </plurals>
+    <plurals name="gs">
+        <item quantity="one">%s updated the price of their TikTok Shoutouts videos to %s coin.</item>
+        <item quantity="other">%s updated the price of their TikTok Shoutouts videos to %s coins.</item>
+    </plurals>
+    <plurals name="gt">
+        <item quantity="one">%1$s received %2$s like</item>
+        <item quantity="other">%1$s received a total of %2$s likes across all videos</item>
+    </plurals>
+    <plurals name="gu">
+        <item quantity="one">%d account is hidden due to this user&apos;s privacy settings</item>
+        <item quantity="other">%d accounts are hidden due to their privacy settings</item>
+    </plurals>
+    <plurals name="gv">
+        <item quantity="one">viewed your profile.</item>
+        <item quantity="other">viewed your profile.</item>
+    </plurals>
+    <plurals name="gw">
+        <item quantity="one">%1$s, %2$s, and %d other</item>
+        <item quantity="other">%1$s, %2$s, and %d others</item>
+    </plurals>
+    <plurals name="gx">
+        <item quantity="one">%d person viewed your profile.</item>
+        <item quantity="other">%d people viewed your profile.</item>
+    </plurals>
+    <plurals name="gy">
+        <item quantity="one">%1$s, %2$s, and %d other viewed your profile.</item>
+        <item quantity="other">%1$s, %2$s, and %d others viewed your profile.</item>
+    </plurals>
+    <plurals name="gz">
+        <item quantity="one">We sent a notification to your %1$s and %2$s other device. Make sure you have TikTok open and tap &quot;Yes&quot; in the notification to continue logging in.</item>
+        <item quantity="other">We sent a notification to your %1$s and %2$s other devices. Make sure you have TikTok open and tap &quot;Yes&quot; in the notification to continue logging in.</item>
+    </plurals>
+    <plurals name="h0">
+        <item quantity="one">%d question asked</item>
+        <item quantity="other">%d questions asked</item>
+    </plurals>
+    <plurals name="h1">
+        <item quantity="one">%s video</item>
+        <item quantity="other">%s videos</item>
+    </plurals>
+    <plurals name="h2">
+        <item quantity="one">%d video</item>
+        <item quantity="other">%d videos</item>
+    </plurals>
+    <plurals name="h3">
+        <item quantity="one">Answer {number}</item>
+        <item quantity="other">Answers {number}</item>
+    </plurals>
+    <plurals name="h4">
+        <item quantity="one">%$s question is unavailable and have been removed from your Favorites.</item>
+        <item quantity="other">%$s questions are unavailable and have been removed from your Favorites.</item>
+    </plurals>
+    <plurals name="h5">
+        <item quantity="one">%s question is unavailable and have been removed from your Favorites.</item>
+        <item quantity="other">%s questions are unavailable and have been removed from your Favorites.</item>
+    </plurals>
+    <plurals name="h6">
+        <item quantity="one">{number} recommended</item>
+        <item quantity="other">{number} recommended</item>
+    </plurals>
+    <plurals name="h7">
+        <item quantity="one">%s recommended</item>
+        <item quantity="other">%s recommended</item>
+    </plurals>
+    <plurals name="h8">
+        <item quantity="one">%d recommended</item>
+        <item quantity="other">%d recommended</item>
+    </plurals>
+    <plurals name="h9">
+        <item quantity="one">Record up to %d second</item>
+        <item quantity="other">Record up to %d seconds</item>
+    </plurals>
+    <plurals name="h_">
+        <item quantity="one">Record up to %d second using sound from the original video</item>
+        <item quantity="other">Record up to %d seconds using sound from the original video</item>
+    </plurals>
+    <plurals name="ha">
+        <item quantity="one">Draft (%d)</item>
+        <item quantity="other">Drafts (%d)</item>
+    </plurals>
+    <plurals name="hb">
+        <item quantity="one">Remove video (%d)</item>
+        <item quantity="other">Remove videos (%d)</item>
+    </plurals>
+    <plurals name="hc">
+        <item quantity="one">{number} reposted</item>
+        <item quantity="other">{number} reposted</item>
+    </plurals>
+    <plurals name="hd">
+        <item quantity="one">%s reposted</item>
+        <item quantity="other">%s reposted</item>
+    </plurals>
+    <plurals name="he">
+        <item quantity="one">%d reposted</item>
+        <item quantity="other">%d reposted</item>
+    </plurals>
+    <plurals name="hf">
+        <item quantity="one">{number} hours {number} minutes spent</item>
+        <item quantity="other">{number} hour {number} minute spent</item>
+    </plurals>
+    <plurals name="hg">
+        <item quantity="one">{number} times</item>
+        <item quantity="other">{number} time</item>
+    </plurals>
+    <plurals name="hh">
+        <item quantity="one">{number} times opened</item>
+        <item quantity="other">{number} time opened</item>
+    </plurals>
+    <plurals name="hi">
+        <item quantity="one">You spent {number} hours on TikTok this past week ({percent} less than the previous week).</item>
+        <item quantity="other">You spent {number} hour on TikTok this past week ({percent} less than the previous week).</item>
+    </plurals>
+    <plurals name="hj">
+        <item quantity="one">You spent {number} hours on TikTok this past week ({percent} more than the previous week).</item>
+        <item quantity="other">You spent {number} hour on TikTok this past week ({percent} more than the previous week).</item>
+    </plurals>
+    <plurals name="hk">
+        <item quantity="one">You spent {number} hours on TikTok this past week ({percent} less than the previous week)</item>
+        <item quantity="other">You spent {number} hour on TikTok this past week ({percent} less than the previous week)</item>
+    </plurals>
+    <plurals name="hl">
+        <item quantity="one">You spent {number} hours on TikTok this past week ({percent} more than the previous week)</item>
+        <item quantity="other">You spent {number} hour on TikTok this past week ({percent} more than the previous week)</item>
+    </plurals>
+    <plurals name="hm">
+        <item quantity="one">You spent {number} hours on TikTok this past week ({percent} less than the previous week)</item>
+        <item quantity="other">You spent {number} hour on TikTok this past week ({percent} less than the previous week)</item>
+    </plurals>
+    <plurals name="hn">
+        <item quantity="one">You spent {number} hours on TikTok this past week ({percent} more than the previous week)</item>
+        <item quantity="other">You spent {number} hour on TikTok this past week ({percent} more than the previous week)</item>
+    </plurals>
+    <plurals name="ho">
+        <item quantity="one">%s follower</item>
+        <item quantity="other">%s followers</item>
+    </plurals>
+    <plurals name="hp">
+        <item quantity="one">Updated %dd ago</item>
+        <item quantity="other">Updated %dd ago</item>
+    </plurals>
+    <plurals name="hq">
+        <item quantity="one">Updated %dh ago</item>
+        <item quantity="other">Updated %dh ago</item>
+    </plurals>
+    <plurals name="hr">
+        <item quantity="one">Updated %dm ago</item>
+        <item quantity="other">Updated %dm ago</item>
+    </plurals>
+    <plurals name="hs">
+        <item quantity="one">Updated %ds ago</item>
+        <item quantity="other">Updated %ds ago</item>
+    </plurals>
+    <plurals name="ht">
+        <item quantity="one">Updated %dw ago</item>
+        <item quantity="other">Updated %dw ago</item>
+    </plurals>
+    <plurals name="hu">
+        <item quantity="one">%s video</item>
+        <item quantity="other">%s videos</item>
+    </plurals>
+    <plurals name="hv">
+        <item quantity="one">%d video</item>
+        <item quantity="other">%d videos</item>
+    </plurals>
+    <plurals name="hw">
+        <item quantity="one">You’ve shared {share_number} time this year.</item>
+        <item quantity="other">You’ve shared {share_number} times this year.</item>
+    </plurals>
+    <plurals name="hx">
+        <item quantity="one">In 2020, your sounds were used by {sound_use_cnt} video.</item>
+        <item quantity="other">In 2020, your sounds were used by {sound_use_cnt} videos.</item>
+    </plurals>
+    <plurals name="hy">
+        <item quantity="one">And videos with your sounds received a total of {sound_views} view!</item>
+        <item quantity="other">And videos with your sounds received a total of {sound_views} views!</item>
+    </plurals>
+    <plurals name="hz">
+        <item quantity="one">You watched {watch_video_cnt} video that used {music_name} in 2020. But this wasn’t the only hit you jammed to.</item>
+        <item quantity="other">You watched {watch_video_cnt} videos that used {music_name} in 2020. But this wasn’t the only hit you jammed to.</item>
+    </plurals>
+    <plurals name="i0">
+        <item quantity="one">You enjoyed {genre_cnt} genre this year, including:</item>
+        <item quantity="other">You enjoyed {genre_cnt} different genres this year, including:</item>
+    </plurals>
+    <plurals name="i1">
+        <item quantity="one">Story (%d)</item>
+        <item quantity="other">Stories (%d)</item>
+    </plurals>
+    <plurals name="i2">
+        <item quantity="one">You posted {post_video_cnt</item>
+        <item quantity="other">You posted {post_video_cnt</item>
+    </plurals>
+    <plurals name="i3">
+        <item quantity="one">Your most popular video got {video_view_cnt} view.</item>
+        <item quantity="other">Your most popular video got {video_view_cnt} views.</item>
+    </plurals>
+    <plurals name="i4">
+        <item quantity="one">Thanks for supporting this creator so they can keep making content you love. They’ll get your tip within %d hour.</item>
+        <item quantity="other">Thanks for supporting this creator so they can keep making content you love. They’ll get your tip within %d hours.</item>
+    </plurals>
+    <plurals name="i5">
+        <item quantity="one">sent %d tip</item>
+        <item quantity="other">sent %d tips</item>
+    </plurals>
+    <plurals name="i6">
+        <item quantity="one">%d video added</item>
+        <item quantity="other">%d videos added</item>
+    </plurals>
+    <plurals name="i7">
+        <item quantity="one">%d day ago</item>
+        <item quantity="other">%d day ago</item>
+    </plurals>
+    <plurals name="i8">
+        <item quantity="one">Hour</item>
+        <item quantity="other">Hours</item>
+    </plurals>
+    <plurals name="i9">
+        <item quantity="one">%1$d hour ago</item>
+        <item quantity="other">%1$d hours ago</item>
+    </plurals>
+    <plurals name="i_">
+        <item quantity="one">minute</item>
+        <item quantity="other">minutes</item>
+    </plurals>
+    <plurals name="ia">
+        <item quantity="one">%1$d minute ago</item>
+        <item quantity="other">%1$d minutes ago</item>
+    </plurals>
+    <plurals name="ib">
+        <item quantity="one">Hour</item>
+        <item quantity="other">Hours</item>
+    </plurals>
+    <plurals name="ic">
+        <item quantity="one">minute</item>
+        <item quantity="other">minutes</item>
+    </plurals>
+    <plurals name="id">
+        <item quantity="one">s</item>
+        <item quantity="other">s</item>
+    </plurals>
+    <plurals name="ie">
+        <item quantity="one">%1$d year ago</item>
+        <item quantity="other">%1$d years ago</item>
+    </plurals>
+    <plurals name="if">
+        <item quantity="one">Sorry! You have been banned\10 You can live stream again in %1$d day</item>
+        <item quantity="other">Sorry! You have been banned\10 You can live stream again in %1$d days</item>
+    </plurals>
+    <plurals name="ig">
+        <item quantity="one">Sorry! You have been banned\10 You can live stream again in %1$d hour</item>
+        <item quantity="other">Sorry! You have been banned\10 You can live stream again in %1$d hours</item>
+    </plurals>
+    <plurals name="ih">
+        <item quantity="one">Sorry, you are currently banned. \10 You can live stream again in: %1$d minute</item>
+        <item quantity="other">Sorry, you are currently banned. \10 You can live stream again in: %1$d minutes</item>
+    </plurals>
+    <plurals name="ii">
+        <item quantity="one">Sorry! You have been banned\10 You can live stream again in %1$d second</item>
+        <item quantity="other">Sorry! You have been banned\10 You can live stream again in %1$d seconds</item>
+    </plurals>
+    <plurals name="ij">
+        <item quantity="one">%d user is watching your broadcast, do you want to close it?</item>
+        <item quantity="other">%d users are watching your broadcast, do you want to close it?</item>
+    </plurals>
+    <plurals name="ik">
+        <item quantity="one">Expires in %d day</item>
+        <item quantity="other">Expires in %d days</item>
+    </plurals>
+    <plurals name="il">
+        <item quantity="one">Expires in %d hour</item>
+        <item quantity="other">Expires in %d hours</item>
+    </plurals>
+    <plurals name="im">
+        <item quantity="one">First time recharge %1$d diamond to get %2$d more!</item>
+        <item quantity="other">First time recharge %1$d diamonds to get %2$d more!</item>
+    </plurals>
+    <plurals name="in">
+        <item quantity="one">minute</item>
+        <item quantity="other">minutes</item>
+    </plurals>
+    <plurals name="io">
+        <item quantity="one">posted %d video</item>
+        <item quantity="other">posted %d videos</item>
+    </plurals>
+    <plurals name="ip">
+        <item quantity="one">Are you %d year old?</item>
+        <item quantity="other">Are you %d years old?</item>
+    </plurals>
+    <plurals name="iq">
+        <item quantity="one">%1$s wasn&apos;t able to create your TikTok Shoutouts video in time. %2$d coin will be returned to your account within 24 hours.</item>
+        <item quantity="other">%1$s wasn&apos;t able to create your TikTok Shoutouts video in time. %2$d coins will be returned to your account within 24 hours.</item>
+    </plurals>
+    <plurals name="ir">
+        <item quantity="one">%d coin will be returned to your account within 24 hours.</item>
+        <item quantity="other">%d coins will be returned to your account within 24 hours.</item>
+    </plurals>
+    <plurals name="is">
+        <item quantity="one">This request expired. %s coin will be returned to your account.</item>
+        <item quantity="other">This request expired. %s coins will be returned to your account.</item>
+    </plurals>
+    <plurals name="it">
+        <item quantity="one">Your request has been canceled. %d coin will be returned to your account within 24 hours.</item>
+        <item quantity="other">Your request has been canceled. %d coins will be returned to your account within 24 hours.</item>
+    </plurals>
+    <plurals name="iu">
+        <item quantity="one">Coin</item>
+        <item quantity="other">Coins</item>
+    </plurals>
+    <plurals name="iv">
+        <item quantity="one">%1$s declined your request. %2$s coin will be returned to your account within 24 hours.</item>
+        <item quantity="other">%1$s declined your request. %2$s coins will be returned to your account within 24 hours.</item>
+    </plurals>
+    <plurals name="iw">
+        <item quantity="one">%1$s wasn&apos;t able to create your TikTok Shoutouts video in time. Your request has expired and %2$s coin will be returned to your account within 24 hours.</item>
+        <item quantity="other">%1$s wasn&apos;t able to create your TikTok Shoutouts video in time. Your request has expired and %2$s coins will be returned to your account within 24 hours.</item>
+    </plurals>
+    <plurals name="ix">
+        <item quantity="one">If %1$s doesn&apos;t accept your request within 2 days, we&apos;ll automatically cancel your request and refund %2$s coin to your account within 24 hours.</item>
+        <item quantity="other">If %1$s doesn&apos;t accept your request within 2 days, we&apos;ll automatically cancel your request and refund %2$s coins to your account within 24 hours.</item>
+    </plurals>
+    <plurals name="iy">
+        <item quantity="one">{1} is on TikTok. You have {2} mutual connection. Say hi��</item>
+        <item quantity="other">{1} is on TikTok. You have {2} mutual connections. Say hi��</item>
+    </plurals>
+    <plurals name="iz">
+        <item quantity="one">{1} is on TikTok. You have {2} mutual follower. Say hi��</item>
+        <item quantity="other">{1} is on TikTok. You have {2} mutual followers. Say hi��</item>
+    </plurals>
+    <plurals name="j0">
+        <item quantity="one">{1} is on TikTok. You both follow {2} of the same account. Say hi��</item>
+        <item quantity="other">{1} is on TikTok. You both follow {2} of the same accounts. Say hi��</item>
+    </plurals>
+    <plurals name="j1">
+        <item quantity="one">{1} is on TikTok. You have {2} mutual friend. Say hi��</item>
+        <item quantity="other">{1} is on TikTok. You have {2} mutual friends. Say hi��</item>
+    </plurals>
+    <plurals name="j2">
+        <item quantity="one">%s viewer</item>
+        <item quantity="other">%s viewers</item>
+    </plurals>
+    <plurals name="j3">
+        <item quantity="one">%s like</item>
+        <item quantity="other">%s likes</item>
+    </plurals>
+    <plurals name="j4">
+        <item quantity="one">%d product</item>
+        <item quantity="other">%d products</item>
+    </plurals>
+    <plurals name="j5">
+        <item quantity="one">{1} just posted a video. You have {2} mutual connection.</item>
+        <item quantity="other">{1} just posted a video. You have {2} mutual connections.</item>
+    </plurals>
+    <plurals name="j6">
+        <item quantity="one">{1} just posted a video. You have {2} mutual follower.</item>
+        <item quantity="other">{1} just posted a video. You have {2} mutual followers.</item>
+    </plurals>
+    <plurals name="j7">
+        <item quantity="one">{1} just posted a video. You both follow {2} of the same account.</item>
+        <item quantity="other">{1} just posted a video. You both follow {2} of the same accounts.</item>
+    </plurals>
+    <plurals name="j8">
+        <item quantity="one">{1} just posted a video. You have {2} mutual friend.</item>
+        <item quantity="other">{1} just posted a video. You have {2} mutual friends.</item>
+    </plurals>
+    <plurals name="j9">
+        <item quantity="one">Post</item>
+        <item quantity="other">Posts</item>
+    </plurals>
+    <plurals name="j_">
+        <item quantity="one">%d coin</item>
+        <item quantity="other">%d coins</item>
+    </plurals>
+    <plurals name="ja">
+        <item quantity="one">sent: %s</item>
+        <item quantity="other">sent: %s</item>
+    </plurals>
+    <plurals name="jb">
+        <item quantity="one">Photo saved</item>
+        <item quantity="other">Photos saved</item>
+    </plurals>
+    <plurals name="jc">
+        <item quantity="one">%d gift left</item>
+        <item quantity="other">%d gifts left</item>
+    </plurals>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" gravity="bottom" layout_gravity="bottom" orientation="vertical" id="@+id/c50" background="@color/l" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+    <View id="@+id/ca6" background="@color/b2" layout_width="match_parent" layout_height="1px"/>
+    <RelativeLayout id="@+id/axy" layout_width="match_parent" layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView ellipsize="end" id="@+id/a_1" paddingLeft="12dp" paddingTop="10dp" paddingRight="12dp" paddingBottom="10dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="16dp" layout_marginRight="16dp" maxLines="2" layout_marginStart="16dp" layout_marginEnd="29dp"/>
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/bvt" layout_width="42dp" layout_height="56dp" layout_marginTop="16dp" layout_marginRight="16dp" layout_marginBottom="16dp" layout_below="@+id/a_1" layout_alignParentRight="true" layout_marginEnd="16dp" layout_alignParentEnd="true" NOT_FOUND_0x24="2dp"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtEditText textSize="15sp" textColor="@color/bx" textColorHint="@color/c5" gravity="top" id="@+id/asv" background="@null" scrollbars="vertical" layout_width="match_parent" layout_height="56dp" layout_marginLeft="16dp" layout_marginTop="16dp" layout_marginRight="29dp" hint="@string/cnf" maxLines="3" layout_toLeftOf="@+id/bvt" layout_below="@+id/a_1" textCursorDrawable="@drawable/art" layout_marginStart="16dp" layout_marginEnd="29dp" layout_toStartOf="@+id/bvt"/>
+    </RelativeLayout>
+    <LinearLayout orientation="vertical" id="@+id/c7y" padding="16dp" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/axy">
+        <LinearLayout layout_gravity="center_vertical" orientation="horizontal" id="@+id/bd9" visibility="invisible" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="16dp">
+            <com.bytedance.tux.input.TuxCheckBox layout_gravity="top|left|center_vertical|center_horizontal|center|start" id="@+id/a5_" clickable="false" layout_width="wrap_content" layout_height="wrap_content" checked="false" layout_marginEnd="8dp" NOT_FOUND_0x26="0" NOT_FOUND_0x27="0"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c4" layout_width="wrap_content" layout_height="wrap_content" text="@string/c6n" NOT_FOUND_0x28="41"/>
+        </LinearLayout>
+        <com.bytedance.tux.button.TuxButton textStyle="bold" textColor="@color/a9" gravity="center" id="@+id/f72" background="@drawable/ar6" layout_width="match_parent" layout_height="44dp" text="@string/ci1" NOT_FOUND_0x25="42"/>
+    </LinearLayout>
+</RelativeLayout>

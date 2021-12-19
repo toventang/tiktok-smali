@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.commercialize.views.OpenURLHintLayout xmlns="" id="@+id/a0l" background="@color/l" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+        <Space id="@+id/csm" layout_width="match_parent" layout_height="@dimen/tn"/>
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="0dp" layout_weight="1">
+            <ViewStub layout_gravity="top" id="@+id/eix" layout="@layout/v9" layout_width="match_parent" layout_height="wrap_content"/>
+            <FrameLayout layout_width="match_parent" layout_height="match_parent">
+                <FrameLayout id="@+id/a0h" layout_width="match_parent" layout_height="match_parent"/>
+                <com.bytedance.ies.dmt.ui.widget.DmtStatusView id="@+id/axu" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <com.ss.android.ugc.aweme.bullet.views.BulletCommonTitleBar id="@+id/a0m" layout_width="match_parent" layout_height="wrap_content"/>
+    <FrameLayout layout_gravity="bottom" id="@+id/dw" background="@color/a9" visibility="gone" layout_width="match_parent" layout_height="58dp">
+        <View layout_gravity="top" background="#26ffffff" layout_width="match_parent" layout_height="1dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/p" gravity="center" layout_gravity="center" id="@+id/dx" background="@drawable/a3l" layout_width="335dp" layout_height="40dp" layout_marginLeft="20dp" layout_marginRight="20dp" text="@string/b6r" NOT_FOUND_0x13="41"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" layout_gravity="bottom|left|center_vertical|center_horizontal|center" id="@+id/aij" background="@color/bh" paddingLeft="7dp" paddingTop="4dp" paddingRight="7dp" paddingBottom="4dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="10dp" layout_marginBottom="10dp" text="Bullet" NOT_FOUND_0x13="61"/>
+    </FrameLayout>
+</com.ss.android.ugc.aweme.commercialize.views.OpenURLHintLayout>

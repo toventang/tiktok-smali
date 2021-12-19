@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="60dp">
+    <RelativeLayout layout_width="match_parent" layout_height="52dp" paddingStart="16dp" paddingEnd="16dp">
+        <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView id="@+id/e2y" layout_width="20dp" layout_height="20dp" layout_centerVertical="true" NOT_FOUND_0x16="@drawable/z3"/>
+        <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView id="@+id/b8z" layout_width="16dp" layout_height="16dp" tint="@color/c5" layout_alignParentRight="true" layout_centerVertical="true" layout_alignParentEnd="true" NOT_FOUND_0x16="@drawable/yp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" gravity="right|center_vertical|center_horizontal|center|end" id="@+id/lj" layout_width="match_parent" layout_height="wrap_content" text="@string/bg8" maxLines="1" layout_toLeftOf="@+id/b8z" layout_toRightOf="@+id/e2x" layout_centerVertical="true" textAlignment="viewEnd" layout_toStartOf="@+id/b8z" layout_toEndOf="@+id/e2x"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/e2x" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="12dp" text="@string/bg9" layout_toRightOf="@+id/e2y" layout_centerVertical="true" layout_marginStart="12dp" layout_marginEnd="12dp" layout_toEndOf="@+id/e2y" NOT_FOUND_0x17="42"/>
+    </RelativeLayout>
+</FrameLayout>

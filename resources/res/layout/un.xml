@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" layout_gravity="bottom" orientation="vertical" id="@+id/dqn" background="@drawable/a2s" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="20dp">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" layout_gravity="center" id="@+id/title" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="24dp" layout_marginBottom="12dp" layout_marginStart="24dp" layout_marginEnd="24dp" NOT_FOUND_0x15="21"/>
+    <RelativeLayout layout_width="match_parent" layout_height="0dp" layout_weight="1">
+        <ScrollView scrollbarThumbVertical="@drawable/bbh" scrollbarAlwaysDrawVerticalTrack="true" scrollbars="vertical" fadingEdge="none" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="22dp" scrollbarFadeDuration="0" fadeScrollbars="false" overScrollMode="never" layout_marginStart="24dp" layout_marginEnd="24dp">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c4" gravity="center" id="@+id/adh" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x15="41"/>
+        </ScrollView>
+    </RelativeLayout>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" id="@+id/a0s" background="@drawable/a2u" layout_width="match_parent" layout_height="44dp" layout_marginStart="24dp" layout_marginEnd="24dp" NOT_FOUND_0x15="41"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" gravity="center" id="@+id/a0t" visibility="gone" layout_width="match_parent" layout_height="44dp" layout_marginTop="4dp" layout_marginStart="24dp" layout_marginEnd="24dp" NOT_FOUND_0x15="41"/>
+    <View layout_width="match_parent" layout_height="14dp"/>
+</LinearLayout>

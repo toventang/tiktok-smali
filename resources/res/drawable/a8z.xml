@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android">
+    <animated-rotate android:duration="1000" android:drawable="0x7f080520" android:fromDegrees="0" android:toDegrees="360" android:pivotX="50%" android:pivotY="50%"/>
+</rotate>

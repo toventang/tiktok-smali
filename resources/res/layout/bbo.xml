@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="wrap_content" layout_height="wrap_content">
+    <com.bytedance.android.livesdk.rank.impl.ui.MarqueeSwitcher id="@+id/es0" layout_width="wrap_content" layout_height="21dp" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0" NOT_FOUND_0x17="0" NOT_FOUND_0x18="0">
+        <com.bytedance.android.livesdk.rank.impl.ui.MarqueeTextView textSize="12dp" textColor="@color/xv" ellipsize="none" gravity="center" background="@drawable/bqt" paddingLeft="8dp" paddingRight="8dp" layout_width="wrap_content" layout_height="21dp" maxWidth="170dp" singleLine="true" drawableLeft="0x7f080e49" drawablePadding="3dp" marqueeRepeatLimit="marquee_forever" drawableStart="0x7f080e49" paddingStart="8dp" paddingEnd="8dp" NOT_FOUND_0x12="7"/>
+        <com.bytedance.android.livesdk.rank.impl.ui.MarqueeTextView textSize="12dp" textColor="@color/xv" ellipsize="none" gravity="center" background="@drawable/bqt" paddingLeft="8dp" paddingRight="8dp" layout_width="wrap_content" layout_height="21dp" maxWidth="170dp" singleLine="true" drawableLeft="0x7f080e49" drawablePadding="3dp" marqueeRepeatLimit="marquee_forever" drawableStart="0x7f080e49" paddingStart="8dp" paddingEnd="8dp" NOT_FOUND_0x12="7"/>
+    </com.bytedance.android.livesdk.rank.impl.ui.MarqueeSwitcher>
+</androidx.constraintlayout.widget.ConstraintLayout>

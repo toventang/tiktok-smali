@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+        <com.bytedance.ies.dmt.ui.titlebar.TextTitleBar id="@+id/elv" background="@color/l" layout_width="match_parent" layout_height="@dimen/a0s" NOT_FOUND_0x1e="15dp" NOT_FOUND_0x1f="8" NOT_FOUND_0x20="@string/vk" NOT_FOUND_0x21="@color/bx" NOT_FOUND_0x22="@string/vp" NOT_FOUND_0x23="@color/bx" NOT_FOUND_0x27="false"/>
+        <LinearLayout gravity="center_vertical" orientation="horizontal" background="@drawable/pm" focusable="true" focusableInTouchMode="true" layout_width="match_parent" layout_height="36dp" layout_marginLeft="16dp" layout_marginTop="4dp" layout_marginRight="16dp" layout_marginBottom="8dp" layout_marginStart="16dp" layout_marginEnd="16dp">
+            <com.bytedance.tux.icon.TuxIconView id="@+id/c0w" layout_width="24dp" layout_height="24dp" layout_marginLeft="8dp" layout_marginStart="8dp" NOT_FOUND_0x25="@raw/icon_tab_explore_fill" NOT_FOUND_0x26="?attr/bc"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtEditText textColor="@color/bx" textColorHint="@color/c5" gravity="left|center_vertical|center_horizontal|center|start" id="@+id/dtp" background="@null" layout_width="0dp" layout_height="match_parent" hint="@string/vo" maxLines="1" singleLine="true" layout_weight="1" imeOptions="actionSearch" textCursorDrawable="@drawable/a45" textDirection="ltr" textAlignment="viewStart" style="@style/y6"/>
+            <ImageButton id="@+id/a71" background="0x7f0805d8" visibility="gone" layout_width="24dp" layout_height="24dp" layout_marginRight="4dp" layout_marginEnd="4dp"/>
+        </LinearLayout>
+        <FrameLayout layout_width="match_parent" layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView id="@+id/djj" layout_width="match_parent" layout_height="match_parent"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtStatusView id="@+id/e_c" layout_width="match_parent" layout_height="match_parent"/>
+            <com.ss.android.ugc.aweme.friends.ui.IndexView layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/bnu" layout_width="16dp" layout_height="wrap_content" layout_marginRight="4dp" layout_marginEnd="4dp"/>
+        </FrameLayout>
+    </LinearLayout>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/bnt" background="0x7f0802b6" paddingTop="4dp" paddingBottom="4dp" visibility="gone" layout_width="52dp" layout_height="42dp" paddingStart="12dp" paddingEnd="18dp" layout_marginEnd="40dp" NOT_FOUND_0x24="11"/>
+</FrameLayout>

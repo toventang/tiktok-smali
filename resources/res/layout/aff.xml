@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.ad.feed.survey.FeedAdSurveyMaskLayout xmlns="" background="@color/bj" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.ies.bullet.ui.common.BulletContainerView layout_gravity="center_vertical" id="@+id/a0f" layout_width="match_parent" layout_height="wrap_content" layout_marginStart="32dp" layout_marginEnd="33dp"/>
+</com.ss.android.ugc.aweme.ad.feed.survey.FeedAdSurveyMaskLayout>

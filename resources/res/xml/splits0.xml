@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<splits>
+    <module name="">
+        <language>
+            <entry key="af" split="config.af"/>
+            <entry key="ar" split="config.ar"/>
+            <entry key="bn" split="config.bn"/>
+            <entry key="ceb" split="config.ceb"/>
+            <entry key="cs" split="config.cs"/>
+            <entry key="de" split="config.de"/>
+            <entry key="el" split="config.el"/>
+            <entry key="en" split="config.en"/>
+            <entry key="es" split="config.es"/>
+            <entry key="fa" split="config.fa"/>
+            <entry key="fi" split="config.fi"/>
+            <entry key="fil" split="config.fil"/>
+            <entry key="fr" split="config.fr"/>
+            <entry key="gu" split="config.gu"/>
+            <entry key="he" split="config.he"/>
+            <entry key="hi" split="config.hi"/>
+            <entry key="hu" split="config.hu"/>
+            <entry key="id" split="config.id"/>
+            <entry key="in" split="config.in"/>
+            <entry key="it" split="config.it"/>
+            <entry key="iw" split="config.iw"/>
+            <entry key="ja" split="config.ja"/>
+            <entry key="jv" split="config.jv"/>
+            <entry key="km" split="config.km"/>
+            <entry key="kn" split="config.kn"/>
+            <entry key="ko" split="config.ko"/>
+            <entry key="ml" split="config.ml"/>
+            <entry key="mr" split="config.mr"/>
+            <entry key="ms" split="config.ms"/>
+            <entry key="my" split="config.my"/>
+            <entry key="nl" split="config.nl"/>
+            <entry key="or" split="config.or"/>
+            <entry key="pa" split="config.pa"/>
+            <entry key="pl" split="config.pl"/>
+            <entry key="pt" split="config.pt"/>
+            <entry key="ro" split="config.ro"/>
+            <entry key="ru" split="config.ru"/>
+            <entry key="sq" split="config.sq"/>
+            <entry key="sv" split="config.sv"/>
+            <entry key="sw" split="config.sw"/>
+            <entry key="ta" split="config.ta"/>
+            <entry key="te" split="config.te"/>
+            <entry key="th" split="config.th"/>
+            <entry key="tr" split="config.tr"/>
+            <entry key="uk" split="config.uk"/>
+            <entry key="ur" split="config.ur"/>
+            <entry key="vi" split="config.vi"/>
+            <entry key="zh" split="config.zh"/>
+            <entry key="zu" split="config.zu"/>
+        </language>
+    </module>
+    <module name="df_poi">
+        <language>
+            <entry key="ar" split="df_poi.config.ar"/>
+            <entry key="bn" split="df_poi.config.bn"/>
+            <entry key="ceb" split="df_poi.config.ceb"/>
+            <entry key="cs" split="df_poi.config.cs"/>
+            <entry key="de" split="df_poi.config.de"/>
+            <entry key="el" split="df_poi.config.el"/>
+            <entry key="es" split="df_poi.config.es"/>
+            <entry key="fi" split="df_poi.config.fi"/>
+            <entry key="fil" split="df_poi.config.fil"/>
+            <entry key="fr" split="df_poi.config.fr"/>
+            <entry key="hi" split="df_poi.config.hi"/>
+            <entry key="hu" split="df_poi.config.hu"/>
+            <entry key="in" split="df_poi.config.in"/>
+            <entry key="it" split="df_poi.config.it"/>
+            <entry key="iw" split="df_poi.config.iw"/>
+            <entry key="ja" split="df_poi.config.ja"/>
+            <entry key="jv" split="df_poi.config.jv"/>
+            <entry key="km" split="df_poi.config.km"/>
+            <entry key="ko" split="df_poi.config.ko"/>
+            <entry key="ms" split="df_poi.config.ms"/>
+            <entry key="my" split="df_poi.config.my"/>
+            <entry key="nl" split="df_poi.config.nl"/>
+            <entry key="pl" split="df_poi.config.pl"/>
+            <entry key="pt" split="df_poi.config.pt"/>
+            <entry key="ro" split="df_poi.config.ro"/>
+            <entry key="ru" split="df_poi.config.ru"/>
+            <entry key="sv" split="df_poi.config.sv"/>
+            <entry key="th" split="df_poi.config.th"/>
+            <entry key="tr" split="df_poi.config.tr"/>
+            <entry key="uk" split="df_poi.config.uk"/>
+            <entry key="ur" split="df_poi.config.ur"/>
+            <entry key="vi" split="df_poi.config.vi"/>
+            <entry key="zh" split="df_poi.config.zh"/>
+        </language>
+    </module>
+    <module name="df_poi_map">
+        <language>
+            <entry key="ar" split="df_poi_map.config.ar"/>
+            <entry key="bn" split="df_poi_map.config.bn"/>
+            <entry key="ceb" split="df_poi_map.config.ceb"/>
+            <entry key="cs" split="df_poi_map.config.cs"/>
+            <entry key="de" split="df_poi_map.config.de"/>
+            <entry key="el" split="df_poi_map.config.el"/>
+            <entry key="es" split="df_poi_map.config.es"/>
+            <entry key="fi" split="df_poi_map.config.fi"/>
+            <entry key="fil" split="df_poi_map.config.fil"/>
+            <entry key="fr" split="df_poi_map.config.fr"/>
+            <entry key="hi" split="df_poi_map.config.hi"/>
+            <entry key="hu" split="df_poi_map.config.hu"/>
+            <entry key="in" split="df_poi_map.config.in"/>
+            <entry key="it" split="df_poi_map.config.it"/>
+            <entry key="iw" split="df_poi_map.config.iw"/>
+            <entry key="ja" split="df_poi_map.config.ja"/>
+            <entry key="jv" split="df_poi_map.config.jv"/>
+            <entry key="km" split="df_poi_map.config.km"/>
+            <entry key="ko" split="df_poi_map.config.ko"/>
+            <entry key="ms" split="df_poi_map.config.ms"/>
+            <entry key="my" split="df_poi_map.config.my"/>
+            <entry key="nl" split="df_poi_map.config.nl"/>
+            <entry key="pl" split="df_poi_map.config.pl"/>
+            <entry key="pt" split="df_poi_map.config.pt"/>
+            <entry key="ro" split="df_poi_map.config.ro"/>
+            <entry key="ru" split="df_poi_map.config.ru"/>
+            <entry key="sv" split="df_poi_map.config.sv"/>
+            <entry key="th" split="df_poi_map.config.th"/>
+            <entry key="tr" split="df_poi_map.config.tr"/>
+            <entry key="uk" split="df_poi_map.config.uk"/>
+            <entry key="ur" split="df_poi_map.config.ur"/>
+            <entry key="vi" split="df_poi_map.config.vi"/>
+            <entry key="zh" split="df_poi_map.config.zh"/>
+        </language>
+    </module>
+</splits>

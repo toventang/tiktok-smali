@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.profile.tab.MusProfileNavigator xmlns="" id="@+id/db9" layout_width="match_parent" layout_height="40dp">
+    <LinearLayout orientation="horizontal" id="@+id/eh5" layout_width="match_parent" layout_height="match_parent"/>
+    <View id="@+id/cjx" background="@color/bx" layout_width="40dp" layout_height="2dp" layout_marginLeft="200dp" layout_alignParentBottom="true" layout_marginStart="200dp"/>
+    <View background="@color/b6" layout_width="match_parent" layout_height="0.5dp"/>
+    <View background="@color/b6" layout_width="match_parent" layout_height="0.5dp" layout_alignParentBottom="true"/>
+</com.ss.android.ugc.aweme.profile.tab.MusProfileNavigator>

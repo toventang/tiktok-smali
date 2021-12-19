@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="">
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/caw" layout_width="20dp" layout_height="20dp" layout_marginTop="5dp" layout_marginBottom="5dp"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a_" ellipsize="end" id="@+id/cav" paddingBottom="1.4dp" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="5dp" maxLines="1" layout_weight="1" layout_marginStart="5dp" NOT_FOUND_0x12="62"/>
+    <ImageView layout_gravity="center_vertical" id="@+id/c0n" visibility="gone" layout_width="12dp" layout_height="12dp" src="0x7f080962"/>
+    <View id="@+id/go" background="@color/a7" visibility="gone" layout_width="1dp" layout_height="12dp" layout_marginLeft="5dp" layout_marginRight="2dp" layout_marginStart="5dp" layout_marginEnd="2dp"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/ad" ellipsize="end" id="@+id/gm" paddingBottom="1.4dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="6dp" maxLines="1" layout_marginStart="6dp" NOT_FOUND_0x12="82"/>
+    <ImageView id="@+id/cax" visibility="gone" layout_width="20dp" layout_height="20dp" layout_marginLeft="2dp" src="0x7f080983" layout_marginStart="2dp"/>
+    <View id="@+id/d59" background="@color/c9" layout_width="1dp" layout_height="match_parent"/>
+</merge>

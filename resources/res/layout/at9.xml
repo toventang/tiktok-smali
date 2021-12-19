@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_gravity="top" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="horizontal" id="@+id/el1" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x10="0" NOT_FOUND_0x14="0">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="end" id="@+id/ahi" layout_width="0dp" layout_height="wrap_content" text="" shadowDx="1" shadowDy="1" layout_weight="1" NOT_FOUND_0x15="12"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center_horizontal" id="@+id/a3s" layout_width="30dp" layout_height="wrap_content" text="/" shadowDx="1" shadowDy="1" NOT_FOUND_0x15="33"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="start" id="@+id/epq" layout_width="0dp" layout_height="wrap_content" text="" shadowDx="1" shadowDy="1" layout_weight="1" alpha="0.75" NOT_FOUND_0x15="12"/>
+    </LinearLayout>
+    <com.ss.android.ugc.aweme.shortvideo.cut.videoedit.rtlview.RTLImageView id="@+id/dx1" layout_width="63dp" layout_height="37dp" layout_marginTop="12dp" src="0x7f0804d9" scaleType="fitXY" alpha="0.3" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="@+id/el1"/>
+    <ImageView id="@+id/d60" visibility="gone" layout_width="40dp" layout_height="50dp" src="0x7f0804d8" scaleType="fitXY" NOT_FOUND_0x10="0" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x14="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

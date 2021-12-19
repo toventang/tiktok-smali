@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/cdm" background="@color/l" layout_width="match_parent" layout_height="wrap_content" minHeight="64dp" elevation="8dp">
+    <FrameLayout id="@+id/eox" layout_width="48dp" layout_height="wrap_content" minHeight="64dp" NOT_FOUND_0x16="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="0">
+        <ImageView layout_gravity="center" id="@+id/ep0" visibility="gone" layout_width="24dp" layout_height="24dp"/>
+        <com.bytedance.android.live.core.widget.CustomFontTextView textSize="15sp" textColor="#1e1e1e" gravity="center" layout_gravity="center" id="@+id/ep2" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x15="7"/>
+    </FrameLayout>
+    <ImageView layout_gravity="center" id="@+id/epe" layout_width="36dp" layout_height="36dp" scaleType="fitXY" NOT_FOUND_0x16="0" NOT_FOUND_0x19="@+id/eox" NOT_FOUND_0x1b="0"/>
+    <View id="@+id/ep6" background="0x7f080eef" layout_width="32dp" layout_height="32dp" layout_marginRight="12dp" layout_marginEnd="12dp" NOT_FOUND_0x16="0" NOT_FOUND_0x17="0" NOT_FOUND_0x1b="0"/>
+    <LinearLayout orientation="vertical" id="@+id/csc" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="8dp" layout_marginRight="8dp" layout_marginStart="8dp" layout_marginEnd="8dp" NOT_FOUND_0x16="0" NOT_FOUND_0x18="@+id/ep6" NOT_FOUND_0x19="@+id/epe" NOT_FOUND_0x1b="0">
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="15sp" textColor="#1e1e1e" ellipsize="end" gravity="center" id="@+id/eph" layout_width="wrap_content" layout_height="20dp" maxWidth="110dp" maxLines="1" NOT_FOUND_0x15="7"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="12sp" textColor="#b0b0b0" gravity="left|center_vertical|center_horizontal|center|start" id="@+id/eoz" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="2dp" minHeight="14dp" maxLines="2"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

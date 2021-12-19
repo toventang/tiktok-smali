@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" clipChildren="false" layout_width="wrap_content" layout_height="96dp">
+    <LinearLayout gravity="center_horizontal" orientation="vertical" clipChildren="false" clipToPadding="false" layout_width="wrap_content" layout_height="wrap_content">
+        <FrameLayout id="@+id/eab" layout_width="52dp" layout_height="52dp">
+            <com.ss.android.ugc.aweme.views.CircleDraweeView id="@+id/eb7" layout_width="match_parent" layout_height="match_parent" layout_margin="2dp"/>
+        </FrameLayout>
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView gravity="center" id="@+id/ebr" layout_width="54dp" layout_height="wrap_content" layout_marginTop="6dp"/>
+    </LinearLayout>
+    <ImageView layout_gravity="end" id="@+id/bwk" visibility="gone" layout_width="16dp" layout_height="16dp" layout_marginLeft="3dp" layout_marginTop="37dp" src="0x7f0800e2" scaleType="fitXY" layout_marginStart="3dp"/>
+</FrameLayout>

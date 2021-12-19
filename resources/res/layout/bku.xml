@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.ies.xelement.viewpager.CustomAppBarLayout xmlns="" id="@+id/l_" background="@android:color/transparent" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x8="0dp">
+    <com.google.android.material.appbar.CollapsingToolbarLayout id="@+id/a8d" fitsSystemWindows="false" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xa="b" NOT_FOUND_0xb="200" NOT_FOUND_0xc="false">
+        <androidx.appcompat.widget.Toolbar id="@+id/fnj" visibility="gone" layout_width="match_parent" layout_height="wrap_content" minHeight="0dp" NOT_FOUND_0x7="0dp" NOT_FOUND_0x9="1"/>
+    </com.google.android.material.appbar.CollapsingToolbarLayout>
+</com.bytedance.ies.xelement.viewpager.CustomAppBarLayout>

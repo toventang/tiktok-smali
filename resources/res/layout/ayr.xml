@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@color/l" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <View id="@+id/e_f" background="@color/bz" layout_width="match_parent" layout_height="0dp"/>
+    <RelativeLayout gravity="center_vertical" orientation="horizontal" layout_width="match_parent" layout_height="@dimen/a0s">
+        <com.ss.android.ugc.aweme.views.AutoRTLImageView id="@+id/qb" layout_width="44dp" layout_height="match_parent" src="0x7f081080" layout_alignParentLeft="true" contentDescription="@string/a2g" layout_alignParentStart="true" style="@style/a3j"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/title_tv" layout_width="wrap_content" layout_height="wrap_content" text="@string/wh" maxLines="1" layout_centerInParent="true" layout_marginStart="88dp" layout_marginEnd="88dp" NOT_FOUND_0x26="33"/>
+        <View background="@color/b2" layout_width="match_parent" layout_height="1px" layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <LinearLayout orientation="vertical" fitsSystemWindows="true" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="29dp">
+        <RelativeLayout id="@+id/nq" background="@color/v" layout_width="match_parent" layout_height="wrap_content">
+            <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/nn" paddingBottom="16dp" layout_width="48dp" layout_height="64dp" layout_marginLeft="16dp" layout_marginTop="16dp" layout_alignParentLeft="true" layout_marginStart="16dp" layout_alignParentStart="true" NOT_FOUND_0x20="@color/e2" NOT_FOUND_0x24="@color/e2" NOT_FOUND_0x25="8dp"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/no" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginTop="16dp" layout_toRightOf="@+id/nn" layout_marginStart="12dp" layout_toEndOf="@+id/nn" NOT_FOUND_0x26="53"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bh" id="@+id/nm" background="#0fff2c55" paddingLeft="4dp" paddingRight="4dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" layout_marginTop="16dp" layout_toRightOf="@+id/no" layout_marginStart="4dp" layout_toEndOf="@+id/no" NOT_FOUND_0x26="93"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/nl" paddingBottom="16dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginRight="16dp" layout_toRightOf="@+id/nn" layout_below="@+id/no" layout_marginStart="12dp" layout_marginEnd="16dp" layout_toEndOf="@+id/nn" NOT_FOUND_0x26="51"/>
+        </RelativeLayout>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/nk" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="24dp" text="@string/w1" layout_marginStart="16dp" NOT_FOUND_0x22="0" NOT_FOUND_0x23="0" NOT_FOUND_0x26="61"/>
+        <LinearLayout orientation="vertical" id="@+id/dsz" layout_width="match_parent" layout_height="wrap_content" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x23="@+id/nk"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/lh" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="16dp" layout_marginStart="16dp" NOT_FOUND_0x26="72"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtButton textSize="15dp" textColor="@color/a2" gravity="center" id="@+id/xm" background="@drawable/bel" layout_width="match_parent" layout_height="44dp" layout_marginTop="24dp" text="@string/wr" fontFamily="ProximaNova-Semibold" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x21="7"/>
+    </LinearLayout>
+    <com.bytedance.tux.status.TuxStatusView id="@+id/e_o" visibility="gone" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x27="0"/>
+</LinearLayout>

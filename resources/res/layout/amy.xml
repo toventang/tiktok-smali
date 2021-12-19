@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/cet" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout gravity="center_vertical" layout_gravity="center_horizontal" background="@drawable/auo" layout_width="wrap_content" layout_height="wrap_content">
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/bz4" layout_width="32dp" layout_height="32dp" NOT_FOUND_0xe="6" NOT_FOUND_0xf="@color/j" NOT_FOUND_0x10="@color/j"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" gravity="center_vertical" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="8dp" layout_marginRight="7dp" text="@string/pp" maxLines="2" layout_marginStart="8dp" layout_marginEnd="7dp" NOT_FOUND_0x11="62"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <FrameLayout id="@+id/h3" visibility="gone" layout_width="match_parent" layout_height="52dp">
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView textSize="13sp" textStyle="bold" textColor="@color/a9" layout_gravity="center" id="@+id/dy5" paddingLeft="6dp" paddingTop="3dp" paddingRight="6dp" paddingBottom="3dp" layout_width="wrap_content" layout_height="wrap_content" alpha="0"/>
+    </FrameLayout>
+    <com.ss.android.ugc.aweme.shortvideo.cut.videoeditv2.VEVideoEditViewV2 id="@+id/ffa" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x13="72dp" NOT_FOUND_0x14="4dp" NOT_FOUND_0x16="36dp"/>
+    <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView textSize="10dp" gravity="center" layout_gravity="center_horizontal" id="@+id/e5w" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="20dp" text="ddd" shadowColor="@color/bo" shadowRadius="2" NOT_FOUND_0x15="false"/>
+</LinearLayout>

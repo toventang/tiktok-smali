@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.feed.widget.FeedSwipeRefreshLayout xmlns="" id="@+id/dk8" layout_width="match_parent" layout_height="match_parent" keepScreenOn="true">
+    <com.ss.android.ugc.aweme.feed.widget.LoadMoreFrameLayout id="@+id/cic" layout_width="match_parent" layout_height="match_parent">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+            <View id="@+id/ep9" background="@color/a2" layout_width="match_parent" layout_height="0dp"/>
+            <com.ss.android.ugc.aweme.common.widget.VerticalViewPager layout_gravity="top" id="@+id/fk_" layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+            <View id="@+id/w9" background="@color/a2" layout_width="match_parent" layout_height="0dp"/>
+        </LinearLayout>
+        <com.ss.android.ugc.aweme.feed.ui.progressguidance.NewUserFeedProgressBar id="@+id/cuu" layout_width="match_parent" layout_height="wrap_content"/>
+        <com.ss.android.ugc.aweme.feed.ui.VideoDownloadStatusBar id="@+id/ap9" layout_width="match_parent" layout_height="wrap_content"/>
+        <ViewStub id="@+id/is" layout="@layout/rt" inflatedId="@+id/ir" layout_width="match_parent" layout_height="match_parent"/>
+        <include layout="@layout/s5"/>
+        <com.ss.android.ugc.aweme.common.widget.DiggLayout id="@+id/am5" layout_width="match_parent" layout_height="match_parent" layout_centerInParent="true"/>
+    </com.ss.android.ugc.aweme.feed.widget.LoadMoreFrameLayout>
+</com.ss.android.ugc.aweme.feed.widget.FeedSwipeRefreshLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center_vertical" layout_width="match_parent" layout_height="22dp" paddingStart="5dp" paddingEnd="5dp">
+    <com.ss.android.ugc.aweme.views.MutualRelationView layout_gravity="center_vertical" id="@+id/eem" layout_width="wrap_content" layout_height="22dp"/>
+</LinearLayout>

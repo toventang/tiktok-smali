@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout id="@+id/d74" background="@color/bk" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout id="@+id/d19" layout_width="match_parent" layout_height="match_parent">
+        <com.ss.android.ugc.aweme.commercialize.feed.popupwebview.AdPopUpWebBottomSheetContainer id="@+id/d70" background="@color/c9" layout_width="match_parent" layout_height="match_parent">
+            <com.ss.android.ugc.aweme.views.RoundedFrameLayout id="@+id/d7c" background="@color/a9" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x1d="8dp">
+                <com.ss.android.ugc.aweme.views.RoundedFrameLayout id="@+id/d73" background="@color/a9" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x1d="8dp">
+                    <com.ss.android.ugc.aweme.commercialize.feed.popupwebview.AdPopUpWebTitleBar id="@+id/d7g" layout_width="match_parent" layout_height="wrap_content"/>
+                    <com.ss.android.ugc.aweme.crossplatform.view.CrossPlatformWebView id="@+id/d79" layout_width="match_parent" layout_height="match_parent" layout_marginTop="44.5dp"/>
+                    <com.ss.android.ugc.aweme.bullet.module.base.CommonBizWebView id="@+id/d7_" visibility="gone" layout_width="match_parent" layout_height="match_parent" layout_marginTop="44.5dp"/>
+                    <FrameLayout layout_gravity="bottom" id="@+id/g2" background="@color/a9" visibility="gone" layout_width="match_parent" layout_height="58dp">
+                        <View layout_gravity="top" background="#26ffffff" layout_width="match_parent" layout_height="1dp"/>
+                        <com.bytedance.tux.input.TuxTextView textColor="@color/p" gravity="center" layout_gravity="center" id="@+id/g1" background="@drawable/a3l" layout_width="335dp" layout_height="40dp" layout_marginLeft="20dp" layout_marginRight="20dp" text="@string/b6r" NOT_FOUND_0x1e="41"/>
+                        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" layout_gravity="bottom|left|center_vertical|center_horizontal|center" id="@+id/aiq" paddingLeft="7dp" paddingTop="4dp" paddingRight="7dp" paddingBottom="4dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="10dp" layout_marginBottom="10dp" NOT_FOUND_0x1e="61"/>
+                    </FrameLayout>
+                    <FrameLayout id="@+id/d78" background="@color/l" visibility="gone" layout_width="match_parent" layout_height="match_parent" layout_marginTop="44.5dp">
+                        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" layout_gravity="top|center_vertical|center_horizontal|center" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="194dp" text="@string/oo" NOT_FOUND_0x1e="31"/>
+                        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" gravity="center" layout_gravity="top|center_vertical|center_horizontal|center" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="230dp" text="@string/od" NOT_FOUND_0x1e="51"/>
+                        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_gravity="bottom|center_vertical|center_horizontal|center" id="@+id/d7b" background="@drawable/sd" paddingLeft="100dp" paddingTop="12dp" paddingRight="100dp" paddingBottom="12dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="153dp" text="@string/fen" NOT_FOUND_0x1e="41"/>
+                    </FrameLayout>
+                    <com.ss.android.ugc.aweme.commercialize.feed.popupwebview.AdPopUpWebNaviBar layout_gravity="bottom" id="@+id/d75" background="@color/l" focusable="true" visibility="gone" clickable="true" layout_width="match_parent" layout_height="52dp"/>
+                </com.ss.android.ugc.aweme.views.RoundedFrameLayout>
+                <RelativeLayout orientation="horizontal" id="@+id/azr" background="@drawable/rh" paddingTop="12dp" visibility="gone" layout_width="match_parent" layout_height="match_parent" paddingStart="16dp" paddingEnd="16dp">
+                    <com.ss.android.ugc.aweme.base.ui.SmartAvatarImageView layout_gravity="center_vertical" id="@+id/gw" visibility="gone" layout_width="40dp" layout_height="40dp"/>
+                    <com.ss.android.ugc.aweme.base.ui.SmartRoundImageView layout_gravity="center_vertical" id="@+id/de" visibility="gone" layout_width="40dp" layout_height="40dp"/>
+                    <LinearLayout orientation="vertical" id="@+id/d_" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="3dp" layout_marginStart="8dp" layout_marginEnd="8dp" layout_toEndOf="@+id/de">
+                        <com.bytedance.tux.input.TuxTextView textColor="@color/a2" id="@+id/dc" paddingBottom="2dp" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x1e="43"/>
+                        <com.bytedance.tux.input.TuxTextView textColor="@color/i" id="@+id/d9" paddingBottom="3sp" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x1e="81"/>
+                    </LinearLayout>
+                    <ImageView id="@+id/dg" layout_width="20dp" layout_height="20dp" layout_marginTop="10dp" src="@drawable/anp" scaleType="fitXY" layout_alignParentRight="true" layout_alignParentEnd="true"/>
+                </RelativeLayout>
+            </com.ss.android.ugc.aweme.views.RoundedFrameLayout>
+        </com.ss.android.ugc.aweme.commercialize.feed.popupwebview.AdPopUpWebBottomSheetContainer>
+    </FrameLayout>
+</FrameLayout>

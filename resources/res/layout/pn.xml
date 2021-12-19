@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center" orientation="horizontal" paddingLeft="8dp" paddingRight="8dp" layout_width="match_parent" layout_height="26dp" paddingStart="8dp" paddingEnd="8dp">
+    <com.bytedance.lighten.loader.SmartImageView id="@+id/bec" layout_width="wrap_content" layout_height="match_parent" layout_marginTop="8dp" layout_marginBottom="8dp" scaleType="fitEnd"/>
+    <View id="@+id/a3u" background="@color/a9" layout_width="1dp" layout_height="8dp" layout_marginLeft="8dp" layout_marginTop="9dp" layout_marginRight="8dp" layout_marginBottom="9dp" layout_marginStart="8dp" layout_marginEnd="8dp"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" ellipsize="end" gravity="start" id="@+id/bed" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4.5dp" layout_marginBottom="4.5dp" maxLines="1" textAlignment="viewStart" NOT_FOUND_0x15="52"/>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/b4l" layout_width="272dp" layout_height="@dimen/g2">
+    <LinearLayout gravity="center" layout_gravity="center" id="@+id/ap6" layout_width="match_parent" layout_height="wrap_content">
+        <com.airbnb.lottie.LottieAnimationView id="@+id/epj" visibility="gone" layout_width="12dp" layout_height="12dp" layout_marginRight="6dp" layout_marginEnd="6dp" NOT_FOUND_0xf="true" NOT_FOUND_0x10="feed_live_volume_icon_lottie.json" NOT_FOUND_0x11="true"/>
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/dns" visibility="gone" layout_width="16dp" layout_height="16dp" alpha="0.5" layout_marginEnd="4dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/ac" gravity="center" layout_gravity="center" id="@+id/ci0" paddingTop="1dp" layout_width="wrap_content" layout_height="wrap_content" text="@string/bv3" NOT_FOUND_0x12="62"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/ac" id="@+id/ci3" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="5dp" layout_marginStart="5dp" NOT_FOUND_0x12="91"/>
+        <com.ss.android.ugc.aweme.views.AutoRTLImageView layout_gravity="center" id="@+id/ap1" paddingTop="0.5dp" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/b0i"/>
+    </LinearLayout>
+    <FrameLayout layout_gravity="center_vertical" id="@+id/ckq" layout_width="match_parent" layout_height="match_parent">
+        <View id="@+id/ap2" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+        <View id="@+id/ap3" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+    </FrameLayout>
+</FrameLayout>

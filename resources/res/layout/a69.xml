@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content">
+    <include layout="@layout/a7f"/>
+    <androidx.constraintlayout.widget.ConstraintLayout background="@drawable/aqt" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginRight="12dp" layout_marginStart="12dp" layout_marginEnd="12dp" NOT_FOUND_0x17="3">
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/bl9" layout_width="16dp" layout_height="16dp" layout_marginLeft="12dp" layout_marginTop="12dp" layout_marginStart="12dp" NOT_FOUND_0x14="0" NOT_FOUND_0x16="0"/>
+        <com.bytedance.tux.input.TuxTextView id="@+id/bld" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" layout_marginStart="4dp" NOT_FOUND_0x13="@+id/bl9" NOT_FOUND_0x16="@+id/bl9" NOT_FOUND_0x19="41" style="@style/y6"/>
+        <View id="@+id/ble" background="@color/b6" layout_width="match_parent" layout_height="0.5dp" layout_marginTop="7.5dp" NOT_FOUND_0x15="@+id/bl9"/>
+        <RelativeLayout id="@+id/im_msg_card_video_container" focusable="true" clickable="true" layout_width="84dp" layout_height="112dp" layout_marginTop="16dp" layout_marginRight="12dp" layout_marginEnd="12dp" NOT_FOUND_0x11="0" NOT_FOUND_0x15="@+id/ble">
+            <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/blf" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x18="2dp"/>
+            <com.bytedance.tux.icon.TuxIconView layout_width="24dp" layout_height="24dp" layout_centerInParent="true" NOT_FOUND_0x1a="0x7f08081c"/>
+        </RelativeLayout>
+        <com.bytedance.tux.input.TuxTextView id="@+id/blc" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginTop="16dp" layout_marginRight="12dp" layout_marginStart="12dp" layout_marginEnd="12dp" NOT_FOUND_0x12="@+id/im_msg_card_video_container" NOT_FOUND_0x14="0" NOT_FOUND_0x15="@+id/ble" NOT_FOUND_0x19="42" style="@style/y6"/>
+        <LinearLayout orientation="vertical" id="@+id/im_msg_card_info_container" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginTop="12dp" layout_marginRight="12dp" layout_marginStart="12dp" layout_marginEnd="12dp" NOT_FOUND_0x12="@+id/im_msg_card_video_container" NOT_FOUND_0x14="0" NOT_FOUND_0x15="@+id/blc"/>
+        <androidx.constraintlayout.widget.Barrier id="@+id/bl8" layout_width="wrap_content" layout_height="0dp" NOT_FOUND_0xe="3" NOT_FOUND_0xf="im_msg_card_info_container, im_msg_card_video_container"/>
+        <LinearLayout orientation="vertical" id="@+id/bl7" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" NOT_FOUND_0x10="0" NOT_FOUND_0x15="@+id/bl8"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

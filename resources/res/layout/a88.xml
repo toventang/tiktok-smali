@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" paddingLeft="16dp" paddingRight="6dp" focusable="true" clickable="true" layout_width="match_parent" layout_height="64dp" paddingStart="16dp" paddingEnd="6dp">
+    <com.ss.android.ugc.aweme.base.ui.CircleImageView id="@+id/bkk" layout_width="48dp" layout_height="48dp" layout_marginRight="12dp" layout_centerVertical="true" layout_marginEnd="12dp" NOT_FOUND_0x1f="0x7f08080c"/>
+    <com.ss.android.ugc.aweme.views.EllipsizeLayout orientation="horizontal" id="@+id/bkp" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="14dp" layout_toLeftOf="@+id/bki" layout_toRightOf="@+id/bkk" layout_toStartOf="@+id/bki" layout_toEndOf="@+id/bkk">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/bkn" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" NOT_FOUND_0x20="52"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/bko" paddingLeft="2dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/fbf" paddingStart="2dp" NOT_FOUND_0x20="52"/>
+    </com.ss.android.ugc.aweme.views.EllipsizeLayout>
+    <LinearLayout orientation="horizontal" id="@+id/bkm" layout_width="wrap_content" layout_height="wrap_content" layout_toRightOf="@+id/bkk" layout_below="@+id/bkp" layout_toEndOf="@+id/bkk">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/bkl" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x20="51"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" id="@+id/bkj" background="@drawable/aq4" paddingLeft="5dp" paddingRight="5dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" text="@string/c6m" maxLines="1" paddingStart="5dp" paddingEnd="5dp" layout_marginStart="4dp" NOT_FOUND_0x20="72"/>
+    </LinearLayout>
+    <ImageView id="@+id/bki" padding="10dp" layout_width="44dp" layout_height="44dp" src="0x7f080840" layout_alignParentRight="true" layout_centerVertical="true" layout_alignParentEnd="true"/>
+</RelativeLayout>

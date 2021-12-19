@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/dqk" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.android.livesdk.drawerfeed.LiveDrawerLayoutV2 id="@+id/apv" layout_width="match_parent" layout_height="match_parent">
+        <FrameLayout id="@+id/b94" layout_width="match_parent" layout_height="match_parent"/>
+        <RelativeLayout layout_gravity="end" id="@+id/d1n" background="@drawable/brr" paddingTop="14dp" focusable="true" clickable="true" layout_width="match_parent" layout_height="match_parent">
+            <FrameLayout id="@+id/d1m" visibility="visible" layout_width="match_parent" layout_height="match_parent" layout_toEndOf="@+id/b1t"/>
+            <View id="@+id/b1t" background="@drawable/c_t" layout_width="5dp" layout_height="100dp" layout_centerVertical="true" layout_marginStart="7dp" layout_marginEnd="3dp"/>
+            <com.bytedance.android.livesdk.widget.LiveLoadingView id="@+id/anw" layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true"/>
+        </RelativeLayout>
+    </com.bytedance.android.livesdk.drawerfeed.LiveDrawerLayoutV2>
+</FrameLayout>

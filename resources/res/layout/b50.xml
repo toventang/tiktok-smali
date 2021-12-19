@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/cs" fitsSystemWindows="false" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.tux.status.loading.TuxDualBallView layout_gravity="center" id="@+id/eu5" layout_width="32dp" layout_height="32dp"/>
+</FrameLayout>

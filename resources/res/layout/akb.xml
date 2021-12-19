@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="">
+    <com.facebook.drawee.view.SimpleDraweeView id="@+id/cl8" layout_width="match_parent" layout_height="match_parent"/>
+    <com.zhihu.matisse.internal.ui.widget.CheckView layout_gravity="top|right|center_vertical|center_horizontal|center" id="@+id/a59" layout_width="wrap_content" layout_height="wrap_content"/>
+    <ImageView layout_gravity="bottom|right|center_vertical|center_horizontal|center" id="@+id/bak" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="8dp" layout_marginBottom="8dp" src="0x7f08062f"/>
+    <TextView textSize="12sp" textColor="@android:color/white" layout_gravity="bottom|right|center_vertical|center_horizontal|center" id="@+id/fg0" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="8dp" layout_marginBottom="8dp"/>
+</merge>

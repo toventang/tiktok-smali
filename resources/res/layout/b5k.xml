@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" paddingTop="@dimen/vv" visibility="invisible" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="@dimen/vy" textColor="@color/wk" gravity="center" id="@+id/b33" layout_width="192dp" layout_height="wrap_content" text="@string/gyz" maxLines="2" shadowColor="@color/xf" shadowDx="1" shadowDy="1" lineSpacingExtra="8sp" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0" NOT_FOUND_0x18="0"/>
+    <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlImageView id="@+id/fit" visibility="gone" layout_width="@dimen/vw" layout_height="@dimen/vw" layout_marginRight="@dimen/vx" src="@drawable/c85" layout_marginEnd="@dimen/vx" NOT_FOUND_0x13="@+id/b33" NOT_FOUND_0x14="@+id/b33" NOT_FOUND_0x18="@+id/b33"/>
+    <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlImageView id="@+id/fiu" visibility="gone" layout_width="@dimen/vw" layout_height="@dimen/vw" layout_marginLeft="@dimen/vx" src="@drawable/c87" layout_marginStart="@dimen/vx" NOT_FOUND_0x13="@+id/b33" NOT_FOUND_0x17="@+id/b33" NOT_FOUND_0x18="@+id/b33"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

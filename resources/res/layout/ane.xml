@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" id="@+id/ces" background="@drawable/b6b" layout_width="match_parent" layout_height="wrap_content" layout_alignParentBottom="true">
+        <FrameLayout layout_width="match_parent" layout_height="52dp">
+            <ImageView layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/bve" padding="5dp" layout_width="20dp" layout_height="20dp" layout_marginRight="23dp" src="0x7f080a55" layout_marginEnd="23dp"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_gravity="center" layout_width="wrap_content" layout_height="wrap_content" text="@string/a2_" NOT_FOUND_0xe="33"/>
+        </FrameLayout>
+    </LinearLayout>
+    <View id="@+id/fj9" layout_width="match_parent" layout_height="match_parent" layout_above="@+id/ces"/>
+</RelativeLayout>

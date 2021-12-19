@@ -1,0 +1,485 @@
+package com.ss.android.ugc.aweme.shortvideo.mvtemplate.choosemedia;
+
+import android.content.Context;
+import android.content.res.Resources;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import com.bytedance.common.utility.n;
+import com.bytedance.covode.number.Covode;
+import com.bytedance.ies.dmt.ui.widget.DmtLoadingLayout;
+import com.kakao.usermgmt.StringSet;
+import com.ss.android.ugc.aweme.df.q;
+import com.ss.android.ugc.aweme.mediachoose.g;
+import com.ss.android.ugc.aweme.mediachoose.helper.MediaModel;
+import com.ss.android.ugc.aweme.shortvideo.ar;
+import com.ss.android.ugc.aweme.shortvideo.di;
+import com.ss.android.ugc.aweme.shortvideo.mvtemplate.choosemedia.MediaRecycledViewPoolViewModel;
+import com.ss.android.ugc.aweme.shortvideo.mvtemplate.choosemedia.MvImageChooseAdapter;
+import com.ss.android.ugc.aweme.shortvideo.mvtemplate.choosemedia.ac;
+import com.ss.android.ugc.aweme.shortvideo.mvtemplate.lazy.a;
+import com.ss.android.ugc.aweme.shortvideo.util.b;
+import com.ss.android.ugc.aweme.shortvideo.util.performance.OpenAlbumPanelPerformanceMonitor;
+import com.ss.android.ugc.aweme.widgetcompat.WrapGridLayoutManager;
+import com.zhiliaoapp.musically.R;
+import h.f.b.l;
+import h.f.b.m;
+import h.h;
+import h.i;
+import h.z;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Objects;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+public final class e extends a implements a.AbstractC3368a {
+    public boolean q = true;
+    public MvImageChooseAdapter.c r;
+    public boolean s;
+    public long t = di.a();
+    private TextView u;
+    private final h v = i.a((h.f.a.a) new f(this));
+    private HashMap w;
+
+    static {
+        Covode.recordClassIndex(84753);
+    }
+
+    private final g h() {
+        return (g) this.v.getValue();
+    }
+
+    @Override // com.ss.android.ugc.aweme.j.b, com.ss.android.ugc.aweme.j.c
+    public final View a(int i2) {
+        if (this.w == null) {
+            this.w = new HashMap();
+        }
+        View view = (View) this.w.get(Integer.valueOf(i2));
+        if (view != null) {
+            return view;
+        }
+        View view2 = getView();
+        if (view2 == null) {
+            return null;
+        }
+        View findViewById = view2.findViewById(i2);
+        this.w.put(Integer.valueOf(i2), findViewById);
+        return findViewById;
+    }
+
+    @Override // com.ss.android.ugc.aweme.j.b, com.ss.android.ugc.aweme.j.c
+    public final void a() {
+        HashMap hashMap = this.w;
+        if (hashMap != null) {
+            hashMap.clear();
+        }
+    }
+
+    @Override // com.ss.android.ugc.aweme.j.b, com.ss.android.ugc.aweme.j.c, androidx.fragment.app.Fragment
+    public final /* synthetic */ void onDestroyView() {
+        super.onDestroyView();
+        a();
+    }
+
+    /* access modifiers changed from: protected */
+    @Override // com.ss.android.ugc.aweme.shortvideo.mvtemplate.choosemedia.a
+    public final void c() {
+        super.c();
+        f.a(this, ac.a.f128896a);
+    }
+
+    /* renamed from: com.ss.android.ugc.aweme.shortvideo.mvtemplate.choosemedia.e$e  reason: collision with other inner class name */
+    static final class C3362e extends m implements h.f.a.a<z> {
+        final /* synthetic */ MediaModel $item;
+        final /* synthetic */ View $v;
+        final /* synthetic */ e this$0;
+
+        static {
+            Covode.recordClassIndex(84759);
+        }
+
+        /* JADX INFO: super call moved to the top of the method (can break code semantics) */
+        C3362e(e eVar, MediaModel mediaModel, View view) {
+            super(0);
+            this.this$0 = eVar;
+            this.$item = mediaModel;
+            this.$v = view;
+        }
+
+        /* Return type fixed from 'java.lang.Object' to match base method */
+        @Override // h.f.a.a
+        public final /* synthetic */ z invoke() {
+            MvImageChooseAdapter.c cVar = this.this$0.r;
+            if (cVar != null) {
+                MediaModel mediaModel = this.$item;
+                if (mediaModel instanceof MvImageChooseAdapter.MyMediaModel) {
+                    cVar.a((MvImageChooseAdapter.MyMediaModel) mediaModel, this.$v);
+                    this.this$0.s = false;
+                }
+            }
+            return z.f158842a;
+        }
+    }
+
+    static final class f extends m implements h.f.a.a<com.ss.android.ugc.aweme.mediachoose.c> {
+        final /* synthetic */ e this$0;
+
+        static {
+            Covode.recordClassIndex(84760);
+        }
+
+        /* JADX INFO: super call moved to the top of the method (can break code semantics) */
+        f(e eVar) {
+            super(0);
+            this.this$0 = eVar;
+        }
+
+        /* Return type fixed from 'java.lang.Object' to match base method */
+        @Override // h.f.a.a
+        public final /* synthetic */ com.ss.android.ugc.aweme.mediachoose.c invoke() {
+            androidx.fragment.app.e activity = this.this$0.getActivity();
+            if (activity == null) {
+                l.b();
+            }
+            l.b(activity, "");
+            return new com.ss.android.ugc.aweme.mediachoose.c(activity);
+        }
+    }
+
+    public static final class d extends GridLayoutManager.c {
+
+        /* renamed from: e  reason: collision with root package name */
+        final /* synthetic */ e f129135e;
+
+        /* renamed from: f  reason: collision with root package name */
+        final /* synthetic */ WrapGridLayoutManager f129136f;
+
+        static {
+            Covode.recordClassIndex(84758);
+        }
+
+        @Override // androidx.recyclerview.widget.GridLayoutManager.c
+        public final int a(int i2) {
+            if (this.f129135e.f128883c.getItemViewType(i2) == 1) {
+                return ((GridLayoutManager) this.f129136f).f3760b;
+            }
+            return 1;
+        }
+
+        d(e eVar, WrapGridLayoutManager wrapGridLayoutManager) {
+            this.f129135e = eVar;
+            this.f129136f = wrapGridLayoutManager;
+        }
+    }
+
+    @Override // com.ss.android.ugc.aweme.shortvideo.mvtemplate.choosemedia.a
+    public final void a(boolean z) {
+        String str;
+        this.q = z;
+        MvImageChooseAdapter mvImageChooseAdapter = this.f128883c;
+        if (mvImageChooseAdapter != null) {
+            mvImageChooseAdapter.a(z);
+        }
+        if (getActivity() != null) {
+            g h2 = h();
+            if (z) {
+                str = "enter_from_multi";
+            } else {
+                str = "enter_from_single";
+            }
+            h2.a(str);
+        }
+    }
+
+    /* access modifiers changed from: package-private */
+    public static final class a extends m implements h.f.a.b<com.ss.android.ugc.aweme.mediachoose.f, z> {
+        final /* synthetic */ MediaModel $mediaModel;
+        final /* synthetic */ h.f.a.a $onSuccess;
+        final /* synthetic */ String $scene;
+        final /* synthetic */ e this$0;
+
+        static {
+            Covode.recordClassIndex(84754);
+        }
+
+        /* JADX INFO: super call moved to the top of the method (can break code semantics) */
+        a(e eVar, MediaModel mediaModel, String str, h.f.a.a aVar) {
+            super(1);
+            this.this$0 = eVar;
+            this.$mediaModel = mediaModel;
+            this.$scene = str;
+            this.$onSuccess = aVar;
+        }
+
+        /* Return type fixed from 'java.lang.Object' to match base method */
+        /* JADX DEBUG: Method arguments types fixed to match base method, original types: [java.lang.Object] */
+        @Override // h.f.a.b
+        public final /* synthetic */ z invoke(com.ss.android.ugc.aweme.mediachoose.f fVar) {
+            com.ss.android.ugc.aweme.mediachoose.f fVar2 = fVar;
+            l.d(fVar2, "");
+            f.a(fVar2);
+            q.a("aweme_movie_import_error_rate", 0, (JSONObject) null);
+            e.a(this.$mediaModel, fVar2.f109384b, 0, 0, fVar2.f109385c, this.$scene);
+            if (this.this$0.getActivity() == null || !this.this$0.f104785a) {
+                this.this$0.s = false;
+            } else {
+                this.$onSuccess.invoke();
+            }
+            return z.f158842a;
+        }
+    }
+
+    /* access modifiers changed from: package-private */
+    public static final class b extends m implements h.f.a.b<com.ss.android.ugc.aweme.mediachoose.f, z> {
+        final /* synthetic */ MediaModel $mediaModel;
+        final /* synthetic */ String $scene;
+        final /* synthetic */ e this$0;
+
+        static {
+            Covode.recordClassIndex(84755);
+        }
+
+        /* JADX INFO: super call moved to the top of the method (can break code semantics) */
+        b(e eVar, MediaModel mediaModel, String str) {
+            super(1);
+            this.this$0 = eVar;
+            this.$mediaModel = mediaModel;
+            this.$scene = str;
+        }
+
+        /* Return type fixed from 'java.lang.Object' to match base method */
+        /* JADX DEBUG: Method arguments types fixed to match base method, original types: [java.lang.Object] */
+        @Override // h.f.a.b
+        public final /* synthetic */ z invoke(com.ss.android.ugc.aweme.mediachoose.f fVar) {
+            com.ss.android.ugc.aweme.mediachoose.f fVar2 = fVar;
+            l.d(fVar2, "");
+            f.a(fVar2);
+            this.this$0.s = false;
+            e eVar = this.this$0;
+            MediaModel mediaModel = this.$mediaModel;
+            String str = fVar2.f109384b;
+            int i2 = fVar2.f109387e;
+            long j2 = fVar2.f109385c;
+            String str2 = this.$scene;
+            String str3 = fVar2.f109388f;
+            if (eVar.getActivity() != null && eVar.f104785a) {
+                aa.a(eVar.getActivity(), i2, (int) eVar.t);
+                q.a("aweme_movie_import_error_rate", 1, new ar().a("errorCode", String.valueOf(i2)).a("errorMsg", str3).a());
+                e.a(mediaModel, str, 1, i2, j2, str2);
+            }
+            return z.f158842a;
+        }
+    }
+
+    @Override // com.ss.android.ugc.aweme.shortvideo.mvtemplate.choosemedia.a, androidx.fragment.app.Fragment
+    public final void onActivityCreated(Bundle bundle) {
+        super.onActivityCreated(bundle);
+        this.f128883c = new MvImageChooseAdapter(getContext(), this.f128882b, 3, this.n);
+        this.f128883c.n = this.o;
+        MvImageChooseAdapter mvImageChooseAdapter = this.f128883c;
+        l.b(mvImageChooseAdapter, "");
+        mvImageChooseAdapter.a(this.q);
+        this.f128883c.f128853i = true;
+        this.f128883c.f128851g = this.r;
+        this.f128883c.f128850f = new c(this);
+        WrapGridLayoutManager wrapGridLayoutManager = new WrapGridLayoutManager(getActivity(), this.f128882b);
+        wrapGridLayoutManager.a(new d(this, wrapGridLayoutManager));
+        this.f128884d.setHasFixedSize(true);
+        this.f128884d.setItemViewCacheSize(this.f128882b);
+        RecyclerView recyclerView = this.f128884d;
+        l.b(recyclerView, "");
+        recyclerView.setLayoutManager(wrapGridLayoutManager);
+        this.f128884d.a(new com.ss.android.ugc.aweme.widgetcompat.b(this.f128882b, (int) n.b(getContext(), 1.0f)));
+        this.f128883c.f128856l = this.f128884d;
+        RecyclerView recyclerView2 = this.f128884d;
+        l.b(recyclerView2, "");
+        recyclerView2.setAdapter(this.f128883c);
+        this.f128883c.f128845a = this.f128889i;
+        this.f128883c.f128846b = g();
+        DmtLoadingLayout dmtLoadingLayout = this.f128888h;
+        l.b(dmtLoadingLayout, "");
+        dmtLoadingLayout.setVisibility(0);
+        if (this.f128890j) {
+            this.f128883c.c(this.f128892l);
+        }
+    }
+
+    static final class c implements MvImageChooseAdapter.d {
+
+        /* renamed from: a  reason: collision with root package name */
+        final /* synthetic */ e f129134a;
+
+        static {
+            Covode.recordClassIndex(84756);
+        }
+
+        c(e eVar) {
+            this.f129134a = eVar;
+        }
+
+        @Override // com.ss.android.ugc.aweme.shortvideo.mvtemplate.choosemedia.MvImageChooseAdapter.d
+        public final void a(View view, final MediaModel mediaModel) {
+            String str;
+            Resources resources;
+            MvImageChooseAdapter.c cVar = this.f129134a.r;
+            if (cVar != null) {
+                cVar.a();
+            }
+            if (this.f129134a.q) {
+                e eVar = this.f129134a;
+                if (mediaModel != null && view != null) {
+                    if (!mediaModel.b()) {
+                        MvImageChooseAdapter.c cVar2 = eVar.r;
+                        if (cVar2 != null && (mediaModel instanceof MvImageChooseAdapter.MyMediaModel)) {
+                            cVar2.a((MvImageChooseAdapter.MyMediaModel) mediaModel, view);
+                            eVar.s = false;
+                        }
+                    } else if (!eVar.s) {
+                        eVar.s = true;
+                        eVar.a(true, mediaModel, new C3362e(eVar, mediaModel, view));
+                    }
+                }
+            } else {
+                l.b(mediaModel, "");
+                if (mediaModel.b()) {
+                    if (!com.ss.android.ugc.tools.utils.i.a(mediaModel.f109390b)) {
+                        com.ss.android.ugc.aweme.tux.a.i.a aVar = new com.ss.android.ugc.aweme.tux.a.i.a(this.f129134a.getActivity());
+                        androidx.fragment.app.e activity = this.f129134a.getActivity();
+                        if (activity == null || (resources = activity.getResources()) == null) {
+                            str = null;
+                        } else {
+                            str = resources.getString(R.string.cd4);
+                        }
+                        aVar.a(str).a();
+                        return;
+                    }
+                    this.f129134a.a(false, mediaModel, new h.f.a.a<z>(this) {
+                        /* class com.ss.android.ugc.aweme.shortvideo.mvtemplate.choosemedia.e.c.AnonymousClass1 */
+                        final /* synthetic */ c this$0;
+
+                        static {
+                            Covode.recordClassIndex(84757);
+                        }
+
+                        {
+                            this.this$0 = r2;
+                        }
+
+                        /* Return type fixed from 'java.lang.Object' to match base method */
+                        @Override // h.f.a.a
+                        public final /* synthetic */ z invoke() {
+                            MvImageChooseAdapter.c cVar = this.this$0.f129134a.r;
+                            if (cVar != null) {
+                                cVar.a(mediaModel);
+                            }
+                            return z.f158842a;
+                        }
+                    });
+                } else if (!com.ss.android.ugc.tools.utils.i.a(mediaModel.f109390b)) {
+                    com.ss.android.ugc.aweme.tux.a.i.a aVar2 = new com.ss.android.ugc.aweme.tux.a.i.a(this.f129134a.getContext());
+                    Context context = this.f129134a.getContext();
+                    if (context == null) {
+                        l.b();
+                    }
+                    aVar2.a(context.getString(R.string.dq6)).a();
+                } else {
+                    MvImageChooseAdapter.c cVar3 = this.f129134a.r;
+                    if (cVar3 != null) {
+                        cVar3.a(mediaModel);
+                    }
+                }
+            }
+        }
+    }
+
+    @Override // com.ss.android.ugc.aweme.shortvideo.mvtemplate.choosemedia.a
+    public final void a(List<? extends MvImageChooseAdapter.MyMediaModel> list, boolean z) {
+        if (list != null) {
+            DmtLoadingLayout dmtLoadingLayout = this.f128888h;
+            l.b(dmtLoadingLayout, "");
+            dmtLoadingLayout.setVisibility(8);
+            if (list.isEmpty()) {
+                TextView textView = this.u;
+                if (textView == null) {
+                    l.a("noVideoHintTextView");
+                }
+                textView.setVisibility(0);
+                TextView textView2 = this.u;
+                if (textView2 == null) {
+                    l.a("noVideoHintTextView");
+                }
+                textView2.setText(R.string.aj5);
+                if (this.n) {
+                    b.a.f132249a.end(OpenAlbumPanelPerformanceMonitor.f132344a, "imageLoaded");
+                    this.n = false;
+                }
+            } else {
+                TextView textView3 = this.u;
+                if (textView3 == null) {
+                    l.a("noVideoHintTextView");
+                }
+                textView3.setVisibility(8);
+            }
+            if (z) {
+                this.f128883c.a((List<MvImageChooseAdapter.MyMediaModel>) list);
+            } else {
+                this.f128883c.b((List<MvImageChooseAdapter.MyMediaModel>) list);
+            }
+            com.ss.android.ugc.tools.f.b bVar = new com.ss.android.ugc.tools.f.b();
+            long currentTimeMillis = System.currentTimeMillis();
+            Long l2 = this.f128893m;
+            l.b(l2, "");
+            com.ss.android.ugc.aweme.utils.d.a("tool_performance_fetch_album_assets", bVar.a("duration", currentTimeMillis - l2.longValue()).a(StringSet.type, 0).a("count", list.size()).f149193a);
+        }
+    }
+
+    @Override // androidx.fragment.app.Fragment
+    public final View onCreateView(LayoutInflater layoutInflater, ViewGroup viewGroup, Bundle bundle) {
+        l.d(layoutInflater, "");
+        this.f128886f = com.a.a(layoutInflater, R.layout.big, viewGroup, false);
+        this.f128884d = (RecyclerView) this.f128886f.findViewById(R.id.bd0);
+        this.f128884d.setRecycledViewPool(MediaRecycledViewPoolViewModel.a.a(getActivity()));
+        View findViewById = this.f128886f.findViewById(R.id.f0c);
+        l.b(findViewById, "");
+        this.u = (TextView) findViewById;
+        this.f128888h = (DmtLoadingLayout) this.f128886f.findViewById(R.id.fgl);
+        h().a("enter_from_multi");
+        if (this.f128884d instanceof FastScrollRecyclerView) {
+            RecyclerView recyclerView = this.f128884d;
+            Objects.requireNonNull(recyclerView, "null cannot be cast to non-null type com.ss.android.ugc.aweme.shortvideo.mvtemplate.choosemedia.FastScrollRecyclerView");
+            ((FastScrollRecyclerView) recyclerView).setFastScrollEnabled(true);
+            RecyclerView recyclerView2 = this.f128884d;
+            Objects.requireNonNull(recyclerView2, "null cannot be cast to non-null type com.ss.android.ugc.aweme.shortvideo.mvtemplate.choosemedia.FastScrollRecyclerView");
+            ((FastScrollRecyclerView) recyclerView2).setFastScrollListener(this.p);
+        }
+        return this.f128886f;
+    }
+
+    public final void a(boolean z, MediaModel mediaModel, h.f.a.a<z> aVar) {
+        String str;
+        long j2;
+        if (z) {
+            str = "preview";
+            j2 = 0;
+        } else {
+            str = "select";
+            j2 = this.t;
+        }
+        h().a(mediaModel, j2, -1, new a(this, mediaModel, str, aVar), new b(this, mediaModel, str));
+    }
+
+    public static void a(MediaModel mediaModel, String str, int i2, int i3, long j2, String str2) {
+        try {
+            JSONObject jSONObject = new JSONObject();
+            jSONObject.put("duration", (int) j2);
+            q.a("aweme_video_import_duration", jSONObject, new ar().a("status", String.valueOf(i2)).a("scene_name", str2).a("errorCode", Integer.valueOf(i3)).a(StringSet.type, str).a("width", Integer.valueOf(mediaModel.f109400l)).a("height", Integer.valueOf(mediaModel.f109401m)).a());
+        } catch (JSONException e2) {
+            e2.printStackTrace();
+        }
+    }
+}

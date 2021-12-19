@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_gravity="center" id="@+id/dqe" background="@drawable/t2" paddingLeft="20dp" paddingRight="20dp" paddingBottom="15dp" layout_width="wrap_content" layout_height="wrap_content" minWidth="150dp" layoutDirection="ltr" paddingStart="20dp" paddingEnd="20dp">
+    <RelativeLayout id="@+id/aht" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="19dp" layout_centerHorizontal="true">
+        <com.ss.android.ugc.aweme.aabplugin.core.base.view.DFCircularProgressView id="@+id/byw" layout_width="36dp" layout_height="36dp" layout_centerInParent="true" NOT_FOUND_0x14="true" NOT_FOUND_0x15="@color/a2r" NOT_FOUND_0x16="true" NOT_FOUND_0x17="100" NOT_FOUND_0x18="2dp"/>
+        <TextView textSize="11sp" textColor="@color/a2r" gravity="center" id="@+id/dby" layout_width="wrap_content" layout_height="wrap_content" text="0%" layout_centerInParent="true"/>
+    </RelativeLayout>
+    <TextView textSize="15sp" textColor="@color/a2r" gravity="center" id="@+id/clf" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10dp" layout_below="@+id/aht" layout_centerHorizontal="true"/>
+</RelativeLayout>

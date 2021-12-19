@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns="" textSize="16sp" textColor="@color/pm" ellipsize="marquee" gravity="center_vertical" id="@+id/eiz" paddingLeft="24dp" paddingRight="24dp" layout_width="match_parent" layout_height="wrap_content" checkMark="?attr/a2o" minHeight="@dimen/bl"/>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/dqe" background="@drawable/b_q" layout_width="130dp" layout_height="176dp">
+    <FrameLayout id="@+id/pg" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" layout_centerHorizontal="true">
+        <com.ss.android.ugc.aweme.profile.ui.widget.AvatarImageWithVerifyMus id="@+id/or" layout_width="72dp" layout_height="72dp" layout_marginLeft="5dp" layout_marginRight="5dp"/>
+        <View id="@+id/p3" background="@drawable/b_r" layout_width="72dp" layout_height="72dp" layout_marginLeft="5dp" layout_marginRight="5dp"/>
+    </FrameLayout>
+    <com.bytedance.tux.icon.TuxIconView id="@+id/a7h" layout_width="16dp" layout_height="16dp" layout_marginTop="12dp" layout_alignParentTop="true" layout_marginEnd="12dp" layout_alignParentEnd="true" NOT_FOUND_0x1b="@raw/icon_x_mark_small" NOT_FOUND_0x1c="?attr/bj"/>
+    <LinearLayout gravity="center_vertical" orientation="horizontal" id="@+id/fdo" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="10dp" layout_marginTop="6dp" layout_marginRight="10dp" layout_below="@+id/pg" layout_centerHorizontal="true" layout_marginStart="10dp" layout_marginEnd="10dp">
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/bc" ellipsize="end" gravity="center" id="@+id/fdm" layout_width="wrap_content" layout_height="wrap_content" lines="1" layout_weight="1" NOT_FOUND_0x1a="62"/>
+        <com.ss.android.ugc.aweme.views.AutoRTLImageView id="@+id/bwj" visibility="gone" layout_width="wrap_content" layout_height="match_parent" layout_marginLeft="4dp" src="0x7f080a52" layout_marginStart="4dp"/>
+    </LinearLayout>
+    <LinearLayout gravity="center" id="@+id/dih" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="8dp" layout_marginRight="8dp" layout_below="@+id/fdo" layout_centerHorizontal="true">
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/bj" gravity="center" id="@+id/dig" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="2dp" maxWidth="114dp" NOT_FOUND_0x1a="71"/>
+        <com.ss.android.ugc.aweme.views.MutualRelationView id="@+id/dii" visibility="gone" layout_width="wrap_content" layout_height="wrap_content"/>
+    </LinearLayout>
+    <com.bytedance.tux.input.TuxTextView ellipsize="end" gravity="center" id="@+id/b7a" layout_width="106dp" layout_height="28dp" layout_marginTop="10dp" layout_marginBottom="12dp" maxLines="1" drawablePadding="4dp" layout_alignParentBottom="true" layout_centerHorizontal="true" NOT_FOUND_0x1a="62"/>
+</RelativeLayout>

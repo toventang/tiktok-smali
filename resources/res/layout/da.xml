@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="wrap_content" layout_height="75dp">
+    <com.ss.android.ugc.aweme.themechange.base.AVDmtImageTextView id="@+id/cn9" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x3="true" NOT_FOUND_0x4="false" NOT_FOUND_0x5="false" NOT_FOUND_0x6="true" NOT_FOUND_0x7="52dp" NOT_FOUND_0x8="52dp" NOT_FOUND_0x9="true" NOT_FOUND_0xa="10dp" NOT_FOUND_0xb="0x7f080891" NOT_FOUND_0xc="true"/>
+</FrameLayout>

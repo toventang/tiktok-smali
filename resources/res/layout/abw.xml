@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/e64" paddingLeft="32dp" paddingRight="32dp" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_gravity="bottom" id="@+id/e63" layout_width="wrap_content" layout_height="wrap_content" alpha="0" NOT_FOUND_0xa="13"/>
+    <ImageView layout_gravity="bottom" id="@+id/cj3" layout_width="104dp" layout_height="101dp" src="@drawable/aip" alpha="0"/>
+    <ViewStub id="@+id/e_o" layout="@layout/ahr" layout_width="match_parent" layout_height="match_parent"/>
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content">
+    <com.bytedance.tux.input.TuxTextView layout_gravity="center" id="@android:id/text1" visibility="visible" text="@string/gk2" NOT_FOUND_0xf="32" style="@style/yc"/>
+    <ViewStub id="@+id/b8l" layout="@layout/a40" inflatedId="@+id/b8k" layout_width="match_parent" layout_height="wrap_content"/>
+    <ViewStub id="@+id/f8u" layout="@layout/a43" inflatedId="@+id/f8q" layout_width="8dp" layout_height="8dp" layout_marginLeft="-12dp" layout_marginTop="17dp" layout_marginStart="-12dp"/>
+    <ViewStub id="@+id/f8s" paddingLeft="5dp" paddingRight="5dp" layout="@layout/a41" inflatedId="@+id/f8r" layout_width="wrap_content" layout_height="15dp" layout_marginLeft="-8dp" layout_marginTop="13dp" minWidth="16dp" layout_marginStart="-8dp"/>
+    <ViewStub id="@+id/f8t" paddingLeft="4dp" paddingRight="4dp" layout="@layout/a42" inflatedId="@+id/ce8" layout_width="wrap_content" layout_height="14dp" layout_marginLeft="-18dp" layout_marginTop="13dp" layout_marginStart="-18dp"/>
+</LinearLayout>

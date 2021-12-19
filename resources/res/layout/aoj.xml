@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" background="?attr/ab_" layout_width="match_parent" layout_height="76dp">
+    <com.ss.android.ugc.aweme.base.ui.AvatarImageView id="@+id/or" layout_width="56dp" layout_height="56dp" layout_marginLeft="16dp" layout_marginStart="16dp" NOT_FOUND_0x12="0" NOT_FOUND_0x14="0" NOT_FOUND_0x16="0" NOT_FOUND_0x17="0"/>
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="84dp" layout_marginRight="60dp" layout_marginStart="84dp" layout_marginEnd="60dp" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0" NOT_FOUND_0x17="0">
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/bc" ellipsize="end" id="@+id/ca7" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" NOT_FOUND_0x1a="42"/>
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/bj" ellipsize="end" id="@+id/ca8" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" maxLines="1" NOT_FOUND_0x1a="61"/>
+    </LinearLayout>
+    <ImageView id="@+id/ahj" layout_width="24dp" layout_height="24dp" layout_marginRight="16dp" src="0x7f080a59" layout_marginEnd="16dp" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0" NOT_FOUND_0x15="0" NOT_FOUND_0x17="0"/>
+    <LinearLayout gravity="center_vertical" orientation="horizontal" layout_width="wrap_content" layout_height="match_parent" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0" NOT_FOUND_0x15="0" NOT_FOUND_0x17="0">
+        <com.bytedance.tux.badge.TuxAlertBadge gravity="center" id="@+id/clk" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" paddingStart="5dp" paddingEnd="5dp" layout_marginEnd="16dp" NOT_FOUND_0x18="2" NOT_FOUND_0x19="1"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.ad.feed.interactive.FeedAdInteractiveLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <com.facebook.drawee.view.SimpleDraweeView id="@+id/ex" layout_width="200dp" layout_height="200dp"/>
+    <com.ss.android.ugc.aweme.ad.feed.interactive.FeedAdInteractiveDrawView id="@+id/ew" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+    <com.ss.android.ugc.aweme.ad.feed.interactive.FeedAdInteractiveClickView id="@+id/ev" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+</com.ss.android.ugc.aweme.ad.feed.interactive.FeedAdInteractiveLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/bez" layout_width="match_parent" layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/sr" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x1c="0"/>
+    <FrameLayout background="@color/l" layout_width="match_parent" layout_height="match_parent" alpha="0.96"/>
+    <LinearLayout orientation="vertical" paddingBottom="24dp" layout_width="match_parent" layout_height="wrap_content">
+        <RelativeLayout paddingLeft="16dp" paddingRight="16dp" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="8dp" paddingStart="16dp" paddingEnd="16dp">
+            <FrameLayout layout_gravity="left|center_vertical|center_horizontal|center|start" id="@+id/b5x" layout_width="120dp" layout_height="120dp">
+                <com.ss.android.ugc.aweme.shortvideo.widget.ShapedRemoteImageView id="@+id/cok" layout_width="120dp" layout_height="120dp" scaleType="centerCrop" NOT_FOUND_0x1b="0x7f080665" NOT_FOUND_0x1d="4dp" NOT_FOUND_0x1e="1"/>
+            </FrameLayout>
+            <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_toRightOf="@+id/b5x" layout_alignTop="@+id/b5x" layout_marginStart="16dp" layout_toEndOf="@+id/b5x">
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center_vertical" id="@+id/com" layout_width="match_parent" layout_height="wrap_content" maxLines="3" textDirection="locale" NOT_FOUND_0x1f="22"/>
+                <LinearLayout orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp">
+                    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" layout_gravity="center_vertical" id="@+id/crz" layout_width="wrap_content" layout_height="wrap_content" maxWidth="330dp" singleLine="true" NOT_FOUND_0x1f="61"/>
+                    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" layout_gravity="center_vertical" id="@+id/coo" layout_width="wrap_content" layout_height="wrap_content" text="@string/doq" singleLine="true" NOT_FOUND_0x1f="61"/>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <include layout_width="match_parent" layout_height="wrap_content" layout_marginTop="10dp" layout_marginBottom="0dp" layout="@layout/vz"/>
+    </LinearLayout>
+</FrameLayout>

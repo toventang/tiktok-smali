@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="horizontal" id="@+id/tk" background="@color/l" paddingLeft="0dp" paddingTop="15dp" paddingRight="16dp" paddingBottom="15dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="0dp" paddingEnd="16dp">
+    <com.ss.android.ugc.aweme.base.ui.AvatarImageView id="@+id/th" layout_width="56dp" layout_height="56dp" layout_marginLeft="16dp" layout_marginRight="12dp" layout_centerHorizontal="true" layout_marginStart="16dp" layout_marginEnd="12dp" NOT_FOUND_0x18="@color/bl" NOT_FOUND_0x19="6" NOT_FOUND_0x1a="true"/>
+    <LinearLayout layout_gravity="center_vertical" orientation="vertical" layout_width="0dp" layout_height="wrap_content" layout_marginRight="15dp" layout_weight="1" layout_marginEnd="15dp">
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/bc" id="@+id/ti" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" singleLine="true" NOT_FOUND_0x1b="42"/>
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/bj" id="@+id/tj" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" maxLines="1" singleLine="true" NOT_FOUND_0x1b="71"/>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.ui.widget.DmtButton textColor="@color/bx" layout_gravity="center_vertical" id="@+id/tg" background="@drawable/bep" layout_width="76.5dp" layout_height="28dp" layout_marginLeft="16dp" text="@string/h3i" maxLines="1" textAllCaps="false" layout_marginStart="16dp" style="@style/y2"/>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/en1" background="@color/em" layout_width="match_parent" layout_height="@dimen/tn" minHeight="@dimen/tn">
+    <LinearLayout layout_gravity="left|center_vertical|center_horizontal|center|start" orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="6dp" layout_marginStart="6dp">
+        <com.bytedance.ies.bullet.ui.common.view.AutoRTLImageView id="@+id/bu7" padding="10dp" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" src="0x7f0806d7"/>
+        <com.bytedance.ies.bullet.ui.common.view.AutoRTLImageView layout_gravity="center_vertical" id="@+id/bvf" padding="10dp" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" src="0x7f0806d9"/>
+    </LinearLayout>
+    <TextView textSize="17sp" textStyle="bold" textColor="@color/eo" ellipsize="end" layout_gravity="center" id="@+id/f9l" layout_width="wrap_content" layout_height="wrap_content" lines="1" maxEms="9"/>
+    <LinearLayout layout_gravity="right|center_vertical|center_horizontal|center|end" orientation="horizontal" id="@+id/emd" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="6dp" layout_marginStart="6dp">
+        <com.bytedance.ies.bullet.ui.common.view.AutoRTLImageView id="@+id/c19" padding="10dp" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" src="0x7f080320"/>
+        <com.bytedance.ies.bullet.ui.common.view.AutoRTLImageView id="@+id/c0f" padding="10dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" src="0x7f08031f"/>
+        <com.bytedance.ies.bullet.ui.common.view.AutoRTLImageView id="@+id/bz1" padding="10dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" src="0x7f08031e"/>
+    </LinearLayout>
+</FrameLayout>

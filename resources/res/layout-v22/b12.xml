@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" paddingTop="8dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" NOT_FOUND_0x12="8dp">
+    <com.ss.android.ugc.aweme.base.ui.SmartAvatarImageView layout_gravity="center_vertical" id="@+id/ow" layout_width="56dp" layout_height="56dp" NOT_FOUND_0x13="0" NOT_FOUND_0x18="0" NOT_FOUND_0x19="0"/>
+    <LinearLayout orientation="vertical" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginRight="12dp" NOT_FOUND_0x11="12dp" NOT_FOUND_0x13="0" NOT_FOUND_0x15="@+id/b7b" NOT_FOUND_0x16="0" NOT_FOUND_0x17="@+id/ow" NOT_FOUND_0x19="0">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/cv9" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" NOT_FOUND_0x1c="42"/>
+        <FrameLayout layout_gravity="center_vertical" id="@+id/adm" layout_width="wrap_content" layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" id="@+id/di0" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="4dp" maxWidth="128dp" maxLines="2" NOT_FOUND_0x1c="61"/>
+            <com.ss.android.ugc.aweme.views.MutualRelationView id="@+id/crt" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+        </FrameLayout>
+    </LinearLayout>
+    <com.ss.android.ugc.aweme.social.widget.card.view.FollowButtonWithBlock layout_gravity="center_vertical" id="@+id/b7b" layout_width="88dp" layout_height="28dp" layout_marginEnd="12dp" NOT_FOUND_0x13="0" NOT_FOUND_0x15="@+id/ajq" NOT_FOUND_0x19="0" NOT_FOUND_0x1a="1" NOT_FOUND_0x1b="0"/>
+    <com.bytedance.tux.icon.TuxIconView layout_gravity="center_vertical" id="@+id/ajq" layout_width="24dp" layout_height="24dp" layout_marginEnd="12dp" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0" NOT_FOUND_0x19="0" NOT_FOUND_0x1d="@raw/icon_x_mark_small" NOT_FOUND_0x1e="24dp" NOT_FOUND_0x1f="24dp" NOT_FOUND_0x20="@color/bz"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

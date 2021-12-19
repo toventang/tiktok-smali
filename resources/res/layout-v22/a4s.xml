@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" focusable="true" focusableInTouchMode="true" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.im.sdk.common.ui.widget.ImTextTitleBar id="@+id/em8" layout_width="match_parent" layout_height="@dimen/mr" NOT_FOUND_0xf="@color/bx" NOT_FOUND_0x10="@string/cdh" NOT_FOUND_0x11="15dp" NOT_FOUND_0x12="create group chat" NOT_FOUND_0x13="@color/bx" NOT_FOUND_0x14="17dp" NOT_FOUND_0x19="0"/>
+    <include layout_width="match_parent" layout_height="36dp" layout_marginLeft="16dp" layout_marginTop="4dp" layout_marginRight="16dp" layout_marginBottom="4dp" NOT_FOUND_0xd="16dp" NOT_FOUND_0xe="4dp" NOT_FOUND_0x18="@+id/em8" layout="@layout/a85"/>
+    <androidx.constraintlayout.widget.Guideline orientation="horizontal" id="@+id/cbh" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x17="96dp"/>
+    <com.bytedance.ies.powerlist.PowerList id="@+id/dme" visibility="gone" layout_width="match_parent" layout_height="0dp" layout_marginTop="8dp" NOT_FOUND_0x16="@+id/w1" NOT_FOUND_0x18="@+id/cbh"/>
+    <com.bytedance.ies.powerlist.PowerList id="@+id/ad4" paddingBottom="16dp" clipToPadding="false" layout_width="match_parent" layout_height="0dp" NOT_FOUND_0x16="@+id/w1" NOT_FOUND_0x18="@+id/cbh"/>
+    <include visibility="gone" layout_width="wrap_content" layout_height="0dp" NOT_FOUND_0x15="0" layout="@layout/a6x"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@color/c9" layout_width="match_parent" layout_height="wrap_content">
+    <RelativeLayout orientation="vertical" id="@+id/dp0" background="@color/a2" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="52dp" minHeight="34dp">
+        <LinearLayout gravity="center" orientation="horizontal" id="@+id/cev" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" layout_marginBottom="8dp">
+            <ImageView id="@+id/by0" visibility="gone" layout_width="wrap_content" layout_height="wrap_content"/>
+            <com.ss.android.ugc.tools.view.widget.AVTextView textSize="14sp" textColor="@color/a9" id="@+id/exf" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="6.5dp" lineSpacingExtra="4dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

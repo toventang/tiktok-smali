@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="match_parent" layout_height="40dp">
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="13dp" textColor="@color/c5" id="@+id/f9v" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginBottom="4dp" layout_alignParentLeft="true" layout_centerVertical="true" layout_marginStart="16dp" layout_alignParentStart="true"/>
+    <ImageView id="@+id/bjj" layout_width="12dp" layout_height="12dp" layout_marginRight="4dp" src="0x7f081017" layout_toLeftOf="@+id/ex3" layout_centerVertical="true" layout_marginEnd="4dp" layout_toStartOf="@+id/ex3"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="13dp" textColor="@color/c5" id="@+id/ex3" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="16dp" layout_marginBottom="4dp" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+</RelativeLayout>

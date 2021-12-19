@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <com.facebook.drawee.view.SimpleDraweeView id="@+id/cl_" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x1d="6" NOT_FOUND_0x1e="@drawable/q3"/>
+    <LinearLayout layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="5dp" layout_marginBottom="5dp" layout_alignParentRight="true" layout_alignParentBottom="true" layout_marginEnd="5dp" layout_alignParentEnd="true">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center_vertical" id="@+id/fg0" background="@null" paddingLeft="7dp" paddingRight="7dp" layout_width="wrap_content" layout_height="18dp" layout_marginBottom="5dp" shadowColor="@color/a2" shadowDx="5" shadowDy="5" shadowRadius="6" paddingStart="7dp" paddingEnd="7dp" NOT_FOUND_0x1f="71"/>
+    </LinearLayout>
+    <View id="@+id/fc8" background="@color/kr" visibility="gone" layout_width="match_parent" layout_height="match_parent" layout_alignLeft="@+id/cl_" layout_alignTop="@+id/cl_" layout_alignRight="@+id/cl_" layout_alignBottom="@+id/cl_" layout_alignStart="@+id/cl_" layout_alignEnd="@+id/cl_"/>
+    <View id="@+id/dxc" background="@color/of" visibility="invisible" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout id="@+id/b5m" layout_width="44dp" layout_height="44dp" layout_alignParentRight="true" layout_alignParentEnd="true">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/ae" gravity="center" layout_gravity="end" id="@+id/bmg" background="@drawable/s0" layout_width="20dp" layout_height="20dp" layout_marginTop="6dp" layout_marginRight="6dp" layout_marginEnd="6dp" NOT_FOUND_0x1f="61"/>
+    </FrameLayout>
+</RelativeLayout>

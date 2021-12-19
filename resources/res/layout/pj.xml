@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/u_" background="@color/l" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.ecommerce.widget.FixedRecyclerView id="@+id/djj" layout_width="match_parent" layout_height="match_parent" layout_marginBottom="@dimen/ff"/>
+    <com.bytedance.tux.status.TuxStatusView id="@+id/e_c" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xf="0"/>
+    <androidx.cardview.widget.CardView layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" id="@+id/eo8" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="@dimen/fj" layout_marginBottom="100dp" layout_marginEnd="@dimen/fj" NOT_FOUND_0xa="32dp">
+        <com.bytedance.tux.icon.TuxIconView padding="8dp" layout_width="48dp" layout_height="48dp" NOT_FOUND_0xe="@raw/icon_2pt_arrow_stroke_to_top" NOT_FOUND_0x10="?attr/bi"/>
+    </androidx.cardview.widget.CardView>
+    <View layout_gravity="center_horizontal" id="@+id/aez" background="@drawable/xo" layout_width="32dp" layout_height="4dp" layout_marginTop="8dp"/>
+</FrameLayout>

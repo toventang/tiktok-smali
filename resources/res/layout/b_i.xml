@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp" layout_marginBottom="4dp">
+    <LinearLayout id="@+id/adh" background="@drawable/bre" layout_width="0dp" layout_height="wrap_content" NOT_FOUND_0x1c="true" NOT_FOUND_0x1d="0" NOT_FOUND_0x1e="0" NOT_FOUND_0x1f="-2" NOT_FOUND_0x20="0.83">
+        <ImageView layout_gravity="center" id="@+id/bi7" layout_width="32dp" layout_height="32dp" layout_marginLeft="5dp" layout_marginTop="6dp" layout_marginBottom="6dp" src="0x7f080f93" contentDescription="share icon" layout_marginStart="5dp"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="11dp" textColor="@color/a_" layout_gravity="center" id="@+id/e0t" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="6dp" layout_marginTop="8dp" layout_marginRight="6dp" layout_marginBottom="8dp" shadowColor="@color/a0z" shadowDx="1" shadowDy="1" shadowRadius="1" layout_weight="1" lineSpacingExtra="3dp" layout_marginStart="6dp" layout_marginEnd="6dp" NOT_FOUND_0x1b="7"/>
+        <View layout_gravity="center" id="@+id/ans" background="@color/a7" layout_width="1dp" layout_height="32dp"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="13dp" textColor="@color/a_" gravity="center" layout_gravity="center_vertical" id="@+id/e0_" paddingLeft="24dp" paddingRight="24dp" layout_width="wrap_content" layout_height="match_parent" text="@string/gyt" shadowColor="@color/a1l" shadowDx="1" shadowDy="1" shadowRadius="1" lineSpacingExtra="4dp" paddingStart="24dp" paddingEnd="24dp" NOT_FOUND_0x1b="7"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

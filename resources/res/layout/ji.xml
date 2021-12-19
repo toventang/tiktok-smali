@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="horizontal" paddingTop="4dp" paddingBottom="4dp" layout_width="wrap_content" layout_height="48dp" minWidth="100dp" paddingStart="4dp" paddingEnd="12dp">
+    <com.bytedance.lighten.loader.SmartImageView id="@+id/ov" layout_width="40dp" layout_height="40dp" NOT_FOUND_0x11="@drawable/cc1" NOT_FOUND_0x12="@drawable/cc1" NOT_FOUND_0x13="6"/>
+    <LinearLayout orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="4dp">
+        <LinearLayout orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxTextView textColor="?attr/ad" ellipsize="end" id="@+id/csa" layout_width="0dp" layout_height="wrap_content" layout_marginTop="4dp" maxLines="1" layout_weight="1" NOT_FOUND_0x14="72"/>
+            <com.bytedance.tux.input.TuxTextView textColor="?attr/ad" id="@+id/ekz" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" maxLines="1" NOT_FOUND_0x14="72"/>
+        </LinearLayout>
+        <com.ss.android.ugc.aweme.comment.barrage.view.BubbleDescView ellipsize="end" id="@+id/aka" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="1dp" maxLines="2"/>
+        <com.ss.android.ugc.aweme.comment.barrage.view.HollowTextView id="@+id/dv" paddingTop="1dp" paddingBottom="1dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" paddingStart="4dp" paddingEnd="4dp" NOT_FOUND_0x14="62"/>
+        <com.ss.android.ugc.aweme.comment.barrage.view.CommentBubbleTaggedPeopleView id="@+id/a0c" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp"/>
+        <com.ss.android.ugc.aweme.comment.barrage.view.CommentBubbleMultiAnchorView id="@+id/cp5" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" layout_marginBottom="4dp" layout_marginStart="-4dp"/>
+    </LinearLayout>
+</LinearLayout>

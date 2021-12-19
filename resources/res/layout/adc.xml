@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout gravity="center" layout_gravity="center" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content">
+        <ImageView id="@+id/bgn" layout_width="36dp" layout_height="36dp"/>
+        <com.bytedance.tux.input.TuxTextView ellipsize="end" id="@+id/bgo" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="-5dp" maxLines="1" NOT_FOUND_0x9="92"/>
+    </LinearLayout>
+</FrameLayout>

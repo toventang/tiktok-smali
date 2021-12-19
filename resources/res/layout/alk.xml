@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="24dp">
+    <LinearLayout orientation="horizontal" id="@+id/cfu" background="@drawable/b3s" paddingLeft="12dp" paddingTop="6dp" paddingRight="12dp" paddingBottom="6dp" layout_width="wrap_content" layout_height="wrap_content">
+        <com.ss.android.ugc.aweme.music.ui.CheckableImageView layout_gravity="center_vertical" id="@+id/cpr" layout_width="15dp" layout_height="15dp" src="0x7f080968"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_gravity="center_vertical" id="@+id/f34" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="6dp" text="@string/pj" layout_marginStart="6dp" NOT_FOUND_0x10="52"/>
+    </LinearLayout>
+</LinearLayout>

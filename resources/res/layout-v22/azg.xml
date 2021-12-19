@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" background="@color/l" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.ies.dmt.ui.widget.DmtStatusView id="@+id/e_o" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x19="0" NOT_FOUND_0x1b="0" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="@+id/as0"/>
+    <RelativeLayout id="@+id/as0" background="@color/l" layout_width="match_parent" layout_height="52dp" NOT_FOUND_0x1b="0" NOT_FOUND_0x1c="0" NOT_FOUND_0x1e="0">
+        <RelativeLayout id="@+id/asb" layout_width="60dp" layout_height="match_parent" layout_centerVertical="true">
+            <com.bytedance.tux.icon.TuxIconView id="@+id/asc" layout_width="32dp" layout_height="32dp" layout_centerInParent="true" NOT_FOUND_0x21="@raw/icon_x_mark" NOT_FOUND_0x22="24dp" NOT_FOUND_0x23="24dp"/>
+        </RelativeLayout>
+        <com.bytedance.tux.input.TuxTextView textSize="17sp" textColor="@color/bx" ellipsize="end" gravity="center" id="@+id/asa" layout_width="wrap_content" layout_height="match_parent" maxWidth="199dp" text="@string/ex9" maxLines="1" layout_centerInParent="true" NOT_FOUND_0x17="@integer/g" NOT_FOUND_0x20="33"/>
+        <View id="@+id/as8" background="@color/b2" layout_width="match_parent" layout_height="0.5dp" layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <RelativeLayout layout_gravity="center" id="@+id/arz" layout_width="128dp" layout_height="wrap_content" layout_marginTop="8dp" NOT_FOUND_0x1b="0" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="@+id/as0">
+        <com.bytedance.lighten.loader.SmartCircleImageView id="@+id/arx" layout_width="96dp" layout_height="96dp" layout_marginTop="16dp" layout_alignParentTop="true" layout_centerHorizontal="true" NOT_FOUND_0x1f="@raw/icon_color_default_avatar"/>
+        <com.bytedance.lighten.loader.SmartImageView id="@+id/ary" layout_width="128dp" layout_height="64dp" scaleType="fitCenter" layout_alignParentTop="true" layout_centerHorizontal="true" NOT_FOUND_0x18="2"/>
+    </RelativeLayout>
+    <com.bytedance.tux.input.TuxTextView textSize="15sp" textColor="@color/bx" gravity="center" id="@+id/as2" layout_width="match_parent" layout_height="18dp" layout_marginTop="12dp" text="@string/exi" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x17="@integer/l" NOT_FOUND_0x1b="0" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="@+id/arz" NOT_FOUND_0x20="42"/>
+    <com.bytedance.tux.input.TuxTextView textSize="13sp" textColor="@color/c5" gravity="center" id="@+id/as1" layout_width="match_parent" layout_height="0dp" layout_marginTop="4dp" minHeight="18dp" text="@string/exg" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x17="@integer/q" NOT_FOUND_0x1b="0" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="@+id/as2" NOT_FOUND_0x20="61"/>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/as9" layout_width="match_parent" layout_height="0dp" layout_marginTop="24dp" layout_marginBottom="12dp" layout_marginStart="6dp" layout_marginEnd="6dp" NOT_FOUND_0x1a="@+id/as_" NOT_FOUND_0x1b="0" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="@+id/as1"/>
+    <com.bytedance.tux.button.TuxButton textSize="15sp" textColor="@color/a9" id="@+id/as_" background="@color/bh" layout_width="match_parent" layout_height="44dp" layout_marginBottom="12dp" text="@string/exb" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x17="@integer/l" NOT_FOUND_0x19="0" NOT_FOUND_0x1b="0" NOT_FOUND_0x1c="0" NOT_FOUND_0x20="42"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

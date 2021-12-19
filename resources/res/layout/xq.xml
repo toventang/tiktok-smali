@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.tux.skeleton.TuxSkeletonLayout xmlns="" id="@+id/amv" paddingBottom="@dimen/j0" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x7="true">
+    <RelativeLayout id="@+id/e4v" background="?attr/m" layout_width="match_parent" layout_height="match_parent">
+        <com.bytedance.tux.skeleton.TuxSkeletonView id="@+id/e4r" layout_width="match_parent" layout_height="@dimen/rx" NOT_FOUND_0x6="-1" NOT_FOUND_0x7="true" NOT_FOUND_0xb="-1"/>
+        <com.bytedance.tux.skeleton.TuxSkeletonLayout layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/e4r" NOT_FOUND_0x7="true" NOT_FOUND_0x8="@layout/xr" NOT_FOUND_0x9="0" NOT_FOUND_0xa="1"/>
+    </RelativeLayout>
+</com.bytedance.tux.skeleton.TuxSkeletonLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" layout_gravity="center" orientation="vertical" background="@drawable/a2v" layout_width="match_parent" layout_height="wrap_content" layout_marginStart="32dp" layout_marginEnd="32dp">
+    <com.bytedance.tux.input.TuxTextView textSize="20dp" textColor="@color/bx" gravity="center" id="@+id/eiw" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="24dp" layout_marginBottom="8dp" text="@string/ata" layout_marginStart="24dp" layout_marginEnd="24dp" NOT_FOUND_0x1b="Proxima Nova" NOT_FOUND_0x1c="23"/>
+    <RelativeLayout id="@+id/dx9" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="10dp">
+        <androidx.appcompat.widget.AppCompatCheckBox id="@+id/a3a" background="@drawable/a2z" layout_width="24dp" layout_height="24dp" button="@null" layout_marginStart="16dp" layout_marginEnd="10dp"/>
+        <com.bytedance.tux.input.TuxTextView textSize="15dp" textColor="@color/bx" id="@+id/f6z" layout_width="match_parent" layout_height="wrap_content" text="@string/at8" layout_centerVertical="true" lineSpacingExtra="4dp" layout_marginEnd="16dp" layout_toEndOf="@+id/a3a" NOT_FOUND_0x1b="Proxima Nova" NOT_FOUND_0x1c="43"/>
+    </RelativeLayout>
+    <RelativeLayout layout_width="match_parent" layout_height="wrap_content" layout_marginTop="20dp">
+        <androidx.appcompat.widget.AppCompatCheckBox id="@+id/a32" background="@drawable/a2z" layout_width="20dp" layout_height="20dp" button="@null" layout_marginStart="30dp" layout_marginEnd="12dp"/>
+        <com.bytedance.tux.input.TuxTextView textSize="15dp" textColor="@color/c4" id="@+id/f93" layout_width="match_parent" layout_height="wrap_content" text="@string/at9" lineSpacingExtra="4dp" layout_marginEnd="16dp" layout_toEndOf="@+id/a32" NOT_FOUND_0x1b="Proxima Nova" NOT_FOUND_0x1c="41"/>
+        <RelativeLayout id="@+id/eiu" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" layout_below="@+id/f93" layout_alignStart="@+id/f93">
+            <com.bytedance.tux.input.TuxTextView textSize="15dp" textColor="@color/bh" id="@+id/f94" paddingBottom="1.5dp" layout_width="wrap_content" layout_height="wrap_content" text="@string/at_" layout_centerVertical="true" lineSpacingExtra="4dp" NOT_FOUND_0x1b="Proxima Nova" NOT_FOUND_0x1c="43"/>
+            <ImageView layout_width="12dp" layout_height="12dp" src="0x7f080450" scaleType="centerCrop" layout_centerVertical="true" layout_toEndOf="@+id/f94"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout layout_width="match_parent" layout_height="wrap_content" layout_marginTop="18dp" layout_marginBottom="12dp">
+        <androidx.appcompat.widget.AppCompatCheckBox id="@+id/a30" background="@drawable/a2z" layout_width="20dp" layout_height="20dp" button="@null" layout_marginStart="30dp" layout_marginEnd="12dp"/>
+        <com.bytedance.tux.input.TuxTextView textSize="15dp" textColor="@color/c4" id="@+id/f4v" layout_width="match_parent" layout_height="wrap_content" text="@string/at6" lineSpacingExtra="4dp" layout_marginEnd="16dp" layout_toEndOf="@+id/a30" NOT_FOUND_0x1b="Proxima Nova" NOT_FOUND_0x1c="41"/>
+        <RelativeLayout id="@+id/d9d" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" layout_below="@+id/f4v" layout_alignStart="@+id/f4v">
+            <com.bytedance.tux.input.TuxTextView textSize="15dp" textColor="@color/bh" id="@+id/f4w" paddingBottom="1.5dp" layout_width="wrap_content" layout_height="wrap_content" text="@string/at7" lineSpacingExtra="4dp" NOT_FOUND_0x1b="Proxima Nova" NOT_FOUND_0x1c="43"/>
+            <ImageView layout_width="12dp" layout_height="12dp" src="0x7f080450" scaleType="centerCrop" layout_centerVertical="true" layout_toEndOf="@+id/f4w"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout id="@+id/dco" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="6dp">
+        <androidx.appcompat.widget.AppCompatCheckBox id="@+id/a37" background="@drawable/a2z" layout_width="20dp" layout_height="20dp" button="@null" layout_marginStart="30dp" layout_marginEnd="12dp"/>
+        <com.bytedance.tux.input.TuxTextView textSize="10dp" textColor="@color/c5" gravity="top|center_vertical|center_horizontal|center" id="@+id/f50" background="@color/g" layout_width="wrap_content" layout_height="wrap_content" text="@string/at5" lineSpacingExtra="4dp" paddingStart="4dp" paddingEnd="4dp" layout_marginEnd="16dp" layout_toEndOf="@+id/a37" NOT_FOUND_0x1b="Proxima Nova" NOT_FOUND_0x1c="82"/>
+        <com.bytedance.tux.input.TuxTextView textSize="15dp" textColor="@color/c4" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="6dp" text="@string/at4" layout_below="@+id/f50" lineSpacingExtra="3dp" translationY="-1.5sp" layout_marginEnd="15dp" layout_alignStart="@+id/f50" layout_alignParentEnd="true" NOT_FOUND_0x1b="Proxima Nova" NOT_FOUND_0x1c="41"/>
+    </RelativeLayout>
+    <RelativeLayout id="@+id/dx8" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="26dp">
+        <androidx.appcompat.widget.AppCompatCheckBox id="@+id/a39" background="@drawable/a2z" layout_width="24dp" layout_height="24dp" button="@null" layout_marginStart="16dp" layout_marginEnd="10dp"/>
+        <com.bytedance.tux.input.TuxTextView textSize="15dp" textColor="@color/bx" id="@+id/f6y" layout_width="match_parent" layout_height="wrap_content" text="@string/at8" layout_centerVertical="true" lineSpacingExtra="4dp" layout_marginEnd="16dp" layout_toEndOf="@+id/a39" NOT_FOUND_0x1b="Proxima Nova" NOT_FOUND_0x1c="43"/>
+    </RelativeLayout>
+    <com.bytedance.tux.button.TuxButton textColor="@color/a9" gravity="center" id="@+id/y7" background="@color/bh" layout_width="match_parent" layout_height="44dp" layout_marginTop="13dp" layout_marginBottom="18dp" text="@string/at2" layout_marginStart="20dp" layout_marginEnd="20dp" NOT_FOUND_0x1b="Proxima Nova" NOT_FOUND_0x1c="42"/>
+</LinearLayout>

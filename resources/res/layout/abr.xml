@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/bqs" layout_width="wrap_content" layout_height="wrap_content">
+    <LinearLayout id="@+id/bqr" layout_width="wrap_content" layout_height="wrap_content">
+        <com.bytedance.lighten.loader.SmartImageView id="@+id/bmk" layout_width="20dp" layout_height="20dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/text" layout_width="wrap_content" layout_height="20dp" layout_marginLeft="12dp" layout_toRightOf="@+id/bmk" layout_marginStart="12dp" layout_toEndOf="@+id/bmk" NOT_FOUND_0xa="33"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/epm" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_below="@+id/bqr"/>
+</RelativeLayout>

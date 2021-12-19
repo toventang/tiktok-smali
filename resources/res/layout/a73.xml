@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/dqe" layout_width="match_parent" layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/dw4" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x14="0" NOT_FOUND_0x15="0" NOT_FOUND_0x17="0">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="16dp" text="@string/fih" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0" NOT_FOUND_0x15="0" NOT_FOUND_0x17="0" NOT_FOUND_0x18="33"/>
+        <View background="@color/b2" layout_width="0dp" layout_height="0.5dp" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0" NOT_FOUND_0x15="0"/>
+        <com.bytedance.tux.icon.TuxIconView id="@+id/a7i" layout_width="24dp" layout_height="24dp" layout_marginTop="14dp" layout_marginBottom="14dp" layout_marginEnd="16dp" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0" NOT_FOUND_0x17="0" NOT_FOUND_0x19="@raw/icon_x_mark_small"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.airbnb.epoxy.EpoxyRecyclerView id="@+id/djj" paddingLeft="16dp" paddingTop="8dp" paddingRight="16dp" clipToPadding="false" layout_width="0dp" layout_height="0dp" paddingStart="16dp" paddingEnd="16dp" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0" NOT_FOUND_0x15="0" NOT_FOUND_0x16="@+id/dw4"/>
+    <ProgressBar id="@+id/dbz" visibility="gone" layout_width="32dp" layout_height="32dp" layout_marginTop="32dp" indeterminateOnly="true" indeterminateDrawable="@drawable/atn" indeterminateBehavior="repeat" NOT_FOUND_0x14="@+id/djj" NOT_FOUND_0x15="@+id/djj" NOT_FOUND_0x17="@+id/djj"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/e_b" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="33dp" text="@string/cdk" NOT_FOUND_0x14="@+id/djj" NOT_FOUND_0x15="@+id/djj" NOT_FOUND_0x17="@+id/djj"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

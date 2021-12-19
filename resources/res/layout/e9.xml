@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.tux.table.cell.TuxTextCell id="@+id/aq8" layout_width="match_parent" layout_height="70dp" layout_marginTop="8dp" layout_marginBottom="8dp" checked="false" NOT_FOUND_0x10="0" NOT_FOUND_0x12="2" NOT_FOUND_0x14="true" NOT_FOUND_0x15="@string/bek"/>
+    <com.bytedance.tux.table.header.TuxTableHeader id="@+id/br7" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0xe="0" NOT_FOUND_0xf="@+id/aq8" NOT_FOUND_0x11="16dp"/>
+    <androidx.recyclerview.widget.RecyclerView orientation="horizontal" id="@+id/aqp" layout_width="match_parent" layout_height="92dp" layout_marginTop="4dp" NOT_FOUND_0xd="androidx.recyclerview.widget.LinearLayoutManager" NOT_FOUND_0xf="@+id/br7"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" gravity="start" id="@+id/aqr" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="58dp" minHeight="50dp" text="" layout_marginStart="16dp" NOT_FOUND_0xf="@+id/aqp" NOT_FOUND_0x13="61"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

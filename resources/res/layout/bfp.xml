@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="200dp" layout_marginStart="16dp" layout_marginEnd="16dp">
+        <include id="@+id/brr" visibility="gone" layout_width="0dp" layout_height="200dp" layout_weight="1" layout="@layout/baz"/>
+        <View layout_width="2dp" layout_height="200dp"/>
+        <include id="@+id/brs" visibility="gone" layout_width="0dp" layout_height="200dp" layout_weight="1" layout="@layout/baz"/>
+    </LinearLayout>
+    <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="2dp" layout_marginStart="16dp" layout_marginEnd="16dp">
+        <include id="@+id/brt" visibility="gone" layout_width="0dp" layout_height="200dp" layout_weight="1" layout="@layout/baz"/>
+        <View id="@+id/an6" visibility="gone" layout_width="2dp" layout_height="200dp"/>
+        <include id="@+id/bru" visibility="gone" layout_width="0dp" layout_height="200dp" layout_weight="1" layout="@layout/baz"/>
+    </LinearLayout>
+</LinearLayout>

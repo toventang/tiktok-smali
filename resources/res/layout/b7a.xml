@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.android.live.core.widget.StateLayout id="@+id/au5" background="@drawable/bow" layout_width="0dp" layout_height="174dp" NOT_FOUND_0x7="@layout/b7_" NOT_FOUND_0x8="@layout/bbp" NOT_FOUND_0x9="0" NOT_FOUND_0xb="0" NOT_FOUND_0xe="0" NOT_FOUND_0x10="@layout/b8s"/>
+    <com.bytedance.android.livesdk.widget.AdjustPercentBar id="@+id/e6b" background="#0000" padding="0dp" visibility="gone" layout_width="0dp" layout_height="45dp" layout_marginBottom="20dp" NOT_FOUND_0xa="@+id/au5" NOT_FOUND_0xb="0" NOT_FOUND_0xe="0" NOT_FOUND_0x11="25dp" NOT_FOUND_0x12="3dp" NOT_FOUND_0x13="9dp" NOT_FOUND_0x14="#ffffff" NOT_FOUND_0x15="11sp"/>
+    <FrameLayout id="@+id/ede" layout_width="0dp" layout_height="0dp" NOT_FOUND_0x9="@+id/au5" NOT_FOUND_0xb="@+id/au5" NOT_FOUND_0xe="@+id/au5" NOT_FOUND_0xf="@+id/au5"/>
+    <View id="@+id/an1" layout_width="0dp" layout_height="0dp" NOT_FOUND_0xa="@+id/e6b" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xf="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

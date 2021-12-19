@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content">
+    <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView id="@+id/biq" background="0x7f0809f4" layout_width="70dp" layout_height="55dp"/>
+    <com.bytedance.tux.input.TuxTextView textColor="?attr/bc" id="@+id/f9l" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="29dp" text="@string/di2" NOT_FOUND_0xd="32"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c4" gravity="center" id="@+id/eyc" paddingLeft="16dp" paddingRight="16dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" text="@string/di3" paddingStart="16dp" paddingEnd="16dp" NOT_FOUND_0xd="51"/>
+</LinearLayout>

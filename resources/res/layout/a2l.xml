@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout orientation="horizontal" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+        <com.ss.android.ugc.aweme.base.ui.AvatarImageWithVerify id="@+id/bu0" background="@drawable/a_d" layout_width="48dp" layout_height="48dp"/>
+        <RelativeLayout layout_gravity="center_vertical" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginStart="12dp">
+            <LinearLayout orientation="horizontal" id="@+id/bwe" layout_width="wrap_content" layout_height="36dp" layout_marginTop="6dp" layout_alignParentRight="true" layout_alignParentEnd="true">
+                <com.ss.android.ugc.aweme.friends.ui.FansFollowUserBtn layout_gravity="center_vertical" id="@+id/a56" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="12dp" layout_marginEnd="12dp"/>
+                <ImageView layout_gravity="center_vertical" id="@+id/amw" layout_width="24dp" layout_height="24dp" src="0x7f0805df" contentDescription="@string/vk"/>
+            </LinearLayout>
+            <LinearLayout orientation="vertical" id="@+id/c5a" layout_width="match_parent" layout_height="wrap_content" layout_marginRight="8dp" layout_toLeftOf="@+id/bwe" layout_marginEnd="8dp" layout_toStartOf="@+id/bwe">
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/title_tv" layout_width="wrap_content" layout_height="wrap_content" text="@string/bxq" singleLine="true" layout_weight="1" NOT_FOUND_0x18="42"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" id="@+id/akl" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp" text="@string/p7" maxLines="1" NOT_FOUND_0x18="61"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

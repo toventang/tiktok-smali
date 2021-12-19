@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/fgw" layout_width="match_parent" layout_height="wrap_content">
+    <ViewStub id="@+id/aa3" layout="@layout/aak" layout_width="match_parent" layout_height="wrap_content"/>
+    <ViewStub id="@+id/aqs" layout="@layout/aal" layout_width="match_parent" layout_height="wrap_content"/>
+    <ViewStub id="@+id/ebw" layout="@layout/aap" layout_width="match_parent" layout_height="wrap_content"/>
+</LinearLayout>

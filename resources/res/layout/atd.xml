@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" clipChildren="false" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout layout_gravity="center" id="@+id/ek3" clipChildren="false" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout layout_gravity="center" id="@+id/ek1" clipChildren="false" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout id="@+id/dhu" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout id="@+id/b4o" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout layout_gravity="center" id="@+id/ek4" clipChildren="false" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout layout_gravity="center" id="@+id/aqu" clipChildren="false" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout layout_gravity="center" id="@+id/deg" clipChildren="false" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout layout_gravity="center" id="@+id/ek5" clipChildren="false" layout_width="match_parent" layout_height="match_parent"/>
+    <ViewStub id="@+id/fjs" layout="@layout/ev" layout_width="match_parent" layout_height="match_parent"/>
+    <ViewStub id="@+id/fjq" layout="@layout/eu" layout_width="match_parent" layout_height="match_parent"/>
+    <com.ss.android.ugc.aweme.shortvideo.edit.infosticker.interact.livecountdown.edit.LiveCDEditStickerLayout layout_gravity="center" id="@+id/c6e" layout_width="match_parent" layout_height="match_parent"/>
+    <com.ss.android.ugc.aweme.shortvideo.edit.infosticker.interact.poll.PollingStickerLayout layout_gravity="center" id="@+id/c75" layout_width="match_parent" layout_height="match_parent"/>
+    <com.ss.android.ugc.aweme.shortvideo.edit.infosticker.interact.duet.DuetEditStickerLayout layout_gravity="center" id="@+id/c5i" layout_width="match_parent" layout_height="match_parent"/>
+    <com.ss.android.ugc.aweme.shortvideo.edit.infosticker.interact.qa.QaStickerEditLayout layout_gravity="center" id="@+id/c79" layout_width="match_parent" layout_height="match_parent"/>
+    <ViewStub id="@+id/fk1" layout="@layout/ew" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout id="@+id/boi" clipChildren="false" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout id="@+id/f81" layout_width="match_parent" layout_height="match_parent"/>
+</FrameLayout>

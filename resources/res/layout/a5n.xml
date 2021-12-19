@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" paddingTop="8dp" paddingBottom="13dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="12.5dp" layout_marginBottom="12.5dp">
+    <include layout="@layout/a7f"/>
+    <RelativeLayout layout_gravity="center" orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView id="@+id/bda" layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true"/>
+        <androidx.appcompat.widget.AppCompatImageView layout_width="72dp" layout_height="72dp" layout_marginRight="-40dp" layout_toLeftOf="@+id/bda" layout_centerVertical="true" NOT_FOUND_0xf="0x7f0807d8"/>
+        <androidx.appcompat.widget.AppCompatImageView layout_width="72dp" layout_height="72dp" layout_marginLeft="-40dp" layout_toRightOf="@+id/bda" layout_centerVertical="true" NOT_FOUND_0xf="0x7f0807d9"/>
+    </RelativeLayout>
+</LinearLayout>

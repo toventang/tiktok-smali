@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" orientation="vertical" background="@color/l" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout id="@+id/b9n" layout_width="match_parent" layout_height="0dp" NOT_FOUND_0x17="@+id/ef8" NOT_FOUND_0x18="0" NOT_FOUND_0x19="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="0">
+        <com.bytedance.tux.status.loading.TuxDualBallView layout_gravity="center" id="@+id/ef7" visibility="visible" layout_width="36dp" layout_height="36dp"/>
+        <androidx.recyclerview.widget.RecyclerView id="@+id/ef6" visibility="gone" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x18="0" NOT_FOUND_0x19="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="0"/>
+        <LinearLayout gravity="center" layout_gravity="center" orientation="vertical" id="@+id/ef3" visibility="gone" layout_width="wrap_content" layout_height="wrap_content">
+            <com.bytedance.tux.icon.TuxIconView layout_gravity="center" id="@+id/ef2" layout_width="80dp" layout_height="80dp" layout_margin="5dp" NOT_FOUND_0x1d="@raw/icon_large_error_robot" NOT_FOUND_0x1f="@color/c5"/>
+            <com.bytedance.tux.input.TuxTextView id="@+id/ef5" layout_width="wrap_content" layout_height="wrap_content" layout_margin="5dp" text="@string/ge" NOT_FOUND_0x1c="43" NOT_FOUND_0x1e="20dp"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bh" id="@+id/ef4" layout_width="wrap_content" layout_height="wrap_content" layout_margin="5dp" text="@string/hax" NOT_FOUND_0x1e="14dp"/>
+        </LinearLayout>
+    </FrameLayout>
+    <com.bytedance.ies.dmt.ui.common.rebranding.NiceWidthTextView textStyle="bold" textColor="@color/a_" ellipsize="end" gravity="center" layout_gravity="center_horizontal" id="@+id/ef8" background="@drawable/azs" paddingLeft="8dp" paddingRight="8dp" layout_width="match_parent" layout_height="44dp" text="@string/hbg" maxLines="1" drawablePadding="4dp" textAllCaps="false" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x15="7" NOT_FOUND_0x16="0" NOT_FOUND_0x18="0" NOT_FOUND_0x1a="0" style="@style/y8"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

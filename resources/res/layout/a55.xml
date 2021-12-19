@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" paddingLeft="2dp" paddingRight="0dp" layout_width="wrap_content" layout_height="wrap_content" paddingStart="2dp" paddingEnd="0dp">
+    <com.ss.android.ugc.aweme.base.ui.AvatarImageView id="@+id/pf" layout_width="16dp" layout_height="16dp" NOT_FOUND_0x9="true"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_gravity="center" id="@+id/c_s" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0xa="91"/>
+</FrameLayout>

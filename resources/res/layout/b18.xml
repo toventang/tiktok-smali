@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/d7n" layout_width="match_parent" layout_height="match_parent">
+    <View id="@+id/d7j" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout id="@+id/d7l" layout_width="match_parent" layout_height="match_parent">
+        <com.bytedance.hybrid.spark.view.RadiusLayout layout_gravity="center_horizontal" id="@+id/d7k" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x5="com.bytedance.hybrid.spark.anim.BottomSheetBehavior"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@color/v" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.tux.input.TuxCompoundIconTextView textColor="?attr/bc" gravity="center" id="@+id/evy" layout_width="wrap_content" layout_height="64dp" text="@string/f7y" layout_marginStart="16dp" NOT_FOUND_0x14="31" NOT_FOUND_0x15="24dp" NOT_FOUND_0x16="5dp" NOT_FOUND_0x17="@raw/icon_arrow_left_ltr" NOT_FOUND_0x18="24dp" NOT_FOUND_0x19="?attr/bc"/>
+    <Space layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView layout_gravity="center" id="@+id/bx9" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x13="6"/>
+    <Space layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+    <LinearLayout orientation="vertical" id="@+id/cgn" background="@drawable/ul" layout_width="match_parent" layout_height="163dp" layout_marginTop="16dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/f79" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="24dp" layout_marginBottom="27dp" text="@string/fu7" NOT_FOUND_0x14="63"/>
+        <HorizontalScrollView id="@+id/e0s" paddingLeft="0dp" paddingRight="15dp" scrollbars="none" clipToPadding="false" layout_width="match_parent" layout_height="match_parent" paddingStart="0dp" paddingEnd="15dp">
+            <LinearLayout orientation="horizontal" id="@+id/cgm" layout_width="match_parent" layout_height="match_parent"/>
+        </HorizontalScrollView>
+    </LinearLayout>
+</LinearLayout>

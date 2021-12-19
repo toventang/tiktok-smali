@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout xmlns="" id="@+id/dqj" layout_width="120dp" layout_height="160dp" layout_marginEnd="8dp" NOT_FOUND_0x16="1" NOT_FOUND_0x19="0.75">
+    <com.ss.android.ugc.aweme.feed.widget.LinearGradientDraweeView id="@+id/agf" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x15="7" NOT_FOUND_0x17="2dp"/>
+    <View layout_gravity="bottom" id="@+id/fgo" layout_width="match_parent" layout_height="match_parent"/>
+    <com.bytedance.tux.input.TuxTextView ellipsize="end" gravity="center_vertical" id="@+id/cum" paddingLeft="5dp" paddingRight="5dp" visibility="gone" layout_width="wrap_content" layout_height="17dp" layout_marginTop="4dp" maxLines="1" layout_marginStart="4dp" layout_marginEnd="4dp" NOT_FOUND_0x14="5dp" NOT_FOUND_0x18="72"/>
+    <RelativeLayout layout_gravity="bottom" orientation="vertical" paddingLeft="7dp" paddingRight="7dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="7dp" paddingEnd="7dp">
+        <LinearLayout layout_gravity="bottom" orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="6dp">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/a9" layout_gravity="center_vertical" id="@+id/c_s" layout_width="wrap_content" layout_height="wrap_content" drawablePadding="2dp" drawableStart="0x7f080b46" paddingStart="4dp" paddingEnd="0dp" NOT_FOUND_0x18="62"/>
+        </LinearLayout>
+    </RelativeLayout>
+</com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>

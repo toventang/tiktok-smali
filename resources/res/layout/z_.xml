@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <androidx.cardview.widget.CardView background="@null" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x4="@color/us" NOT_FOUND_0x5="4dp" NOT_FOUND_0x6="0dp">
+        <com.ss.android.ugc.playerkit.videoview.KeepSurfaceTextureView id="@+id/efe" layout_width="match_parent" layout_height="match_parent"/>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

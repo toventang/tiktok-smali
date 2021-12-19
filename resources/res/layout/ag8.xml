@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.ies.dmt.ui.widget.DmtTextView xmlns="" textColor="@color/a9" gravity="center" id="@+id/f3t" background="@drawable/tl" padding="1dp" layout_width="20dp" layout_height="20dp" lines="1" NOT_FOUND_0x8="7" style="@style/xy"/>

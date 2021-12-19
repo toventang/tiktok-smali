@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.tux.badge.TuxAlertBadgeLayout xmlns="" id="@+id/ax3" layout_width="44dp" layout_height="44dp" layout_alignParentEnd="true">
+    <com.bytedance.tux.icon.TuxIconView layout_gravity="center" id="@+id/f2r" layout_width="24dp" layout_height="24dp" NOT_FOUND_0x5="@raw/icon_paperplane" NOT_FOUND_0x6="true" NOT_FOUND_0x7="@color/a9"/>
+</com.bytedance.tux.badge.TuxAlertBadgeLayout>

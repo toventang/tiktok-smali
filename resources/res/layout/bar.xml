@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="68dp" layout_height="78dp">
+    <View id="@+id/us" background="@drawable/bru" layout_width="56dp" layout_height="56dp" NOT_FOUND_0xe="@+id/f3c" NOT_FOUND_0xf="0" NOT_FOUND_0x11="0" NOT_FOUND_0x13="0" NOT_FOUND_0x14="2"/>
+    <com.bytedance.android.live.core.widget.HSImageView id="@+id/buf" layout_width="52dp" layout_height="52dp" NOT_FOUND_0xd="@+id/us" NOT_FOUND_0xf="@+id/us" NOT_FOUND_0x11="@+id/us" NOT_FOUND_0x13="@+id/us" NOT_FOUND_0x15="true"/>
+    <ImageView id="@+id/bzc" layout_width="24dp" layout_height="24dp" src="0x7f080f12" scaleType="fitXY" NOT_FOUND_0xd="@+id/us" NOT_FOUND_0xf="@+id/us" NOT_FOUND_0x11="@+id/us" NOT_FOUND_0x13="@+id/us"/>
+    <ImageView id="@+id/byw" visibility="gone" layout_width="28dp" layout_height="28dp" layout_margin="16dp" src="0x7f080fc5" NOT_FOUND_0xd="@+id/us" NOT_FOUND_0xf="@+id/us" NOT_FOUND_0x11="@+id/us" NOT_FOUND_0x13="@+id/us"/>
+    <View id="@+id/bs7" background="@drawable/bzg" visibility="gone" layout_width="7dp" layout_height="7dp" NOT_FOUND_0xf="@+id/buf" NOT_FOUND_0x10="@+id/buf" NOT_FOUND_0x13="@+id/buf"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="12dp" textColor="@color/a9" gravity="center" id="@+id/f3c" layout_width="64dp" layout_height="wrap_content" layout_marginTop="6dp" maxLines="2" NOT_FOUND_0xd="0" NOT_FOUND_0xf="0" NOT_FOUND_0x11="0" NOT_FOUND_0x12="@+id/us"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

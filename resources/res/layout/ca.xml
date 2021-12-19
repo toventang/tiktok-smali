@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <RelativeLayout id="@+id/aiz" layout_width="match_parent" layout_height="44dp">
+        <ImageView id="@+id/aiy" clickable="true" layout_width="24dp" layout_height="24dp" src="@drawable/adn" layout_centerVertical="true" layout_marginStart="16dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" layout_width="wrap_content" layout_height="wrap_content" text="@string/ffd" layout_centerInParent="true" NOT_FOUND_0x16="33"/>
+        <View background="@color/b2" layout_width="match_parent" layout_height="1px" layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <LinearLayout gravity="center_horizontal" orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="132dp" layout_below="@+id/aiz" layout_centerHorizontal="true" layout_marginStart="32dp" layout_marginEnd="32dp">
+        <ImageView layout_gravity="center_horizontal" layout_width="72dp" layout_height="72dp" src="0x7f080506"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="20dp" text="@string/ffc" NOT_FOUND_0x16="33"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c4" gravity="center" id="@+id/aix" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" text="@string/ffb" NOT_FOUND_0x16="51"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" gravity="center" id="@+id/aiw" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="24dp" NOT_FOUND_0x16="51"/>
+    </LinearLayout>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" id="@+id/aiv" background="@drawable/tf" layout_width="match_parent" layout_height="44dp" layout_marginBottom="58dp" text="@string/ffa" layout_alignParentBottom="true" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x16="52"/>
+</RelativeLayout>

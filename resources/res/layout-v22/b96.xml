@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.android.livesdk.feed.BannerSwipeRefreshLayout id="@+id/egg" layout_width="match_parent" layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView id="@+id/cb4" background="@color/xe" paddingLeft="@dimen/vd" paddingRight="@dimen/vd" scrollbars="none" layout_width="match_parent" layout_height="match_parent" overScrollMode="never" paddingStart="@dimen/vd" paddingEnd="@dimen/vd"/>
+    </com.bytedance.android.livesdk.feed.BannerSwipeRefreshLayout>
+    <FrameLayout layout_gravity="end" id="@+id/efc" background="@drawable/bxw" padding="0.5dp" visibility="invisible" layout_width="2dp" layout_height="2dp">
+        <com.bytedance.android.livesdkapi.view.TextureViewWrapper id="@+id/efa" layout_width="match_parent" layout_height="match_parent"/>
+    </FrameLayout>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="15dp" textColor="@color/a9" ellipsize="end" gravity="center" layout_gravity="bottom|center_vertical|center_horizontal|center" id="@+id/ery" background="@drawable/bu9" paddingLeft="24dp" paddingRight="24dp" visibility="gone" layout_width="wrap_content" layout_height="46dp" layout_marginBottom="46dp" maxWidth="250dp" minWidth="103dp" text="@string/eg0" maxLines="1" paddingStart="24dp" paddingEnd="24dp" NOT_FOUND_0x1c="2"/>
+    <LinearLayout layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" id="@+id/apu" background="@drawable/bu9" paddingLeft="16dp" paddingRight="16dp" visibility="gone" layout_width="wrap_content" layout_height="46dp" layout_marginRight="12dp" layout_marginBottom="44dp" layout_marginEnd="12dp" NOT_FOUND_0x1b="16dp">
+        <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlImageView layout_gravity="center" layout_width="30dp" layout_height="30dp" src="@drawable/by0"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/a9" ellipsize="end" layout_gravity="right|center_vertical|center_horizontal|center|end" layout_width="wrap_content" layout_height="24dp" layout_marginLeft="6dp" text="@string/eg0" maxLines="1" layout_marginStart="6dp" style="@style/tn"/>
+    </LinearLayout>
+</FrameLayout>

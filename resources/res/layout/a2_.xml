@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/bre" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" layout_marginBottom="10dp" text="@string/cox" layout_marginStart="16dp" NOT_FOUND_0xe="61"/>
+    <com.ss.android.ugc.aweme.sharer.ui.bar.ShareChannelBar orientation="horizontal" id="@+id/cgm" layout_width="match_parent" layout_height="89dp" NOT_FOUND_0xd="@color/bx"/>
+    <View id="@+id/br6" background="@color/a0" layout_width="match_parent" layout_height="0.5dp"/>
+    <LinearLayout orientation="horizontal" id="@+id/bfk" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="20dp" layout_marginRight="16dp" layout_marginBottom="4dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" layout_width="wrap_content" layout_height="wrap_content" text="@string/sj" NOT_FOUND_0xe="61"/>
+        <View layout_width="0dp" layout_height="1dp" layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

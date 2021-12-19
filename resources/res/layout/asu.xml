@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" layout_width="match_parent" layout_height="match_parent" layout_alignParentBottom="true" NOT_FOUND_0x27="@color/c" NOT_FOUND_0x2a="true">
+    <RelativeLayout id="@+id/b_h" layout_width="match_parent" layout_height="match_parent">
+        <RelativeLayout layout_width="match_parent" layout_height="52dp">
+            <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView textColor="@color/bx" gravity="center" id="@+id/ewh" paddingLeft="16dp" paddingRight="16dp" visibility="visible" layout_width="wrap_content" layout_height="52dp" text="@string/a9e" layout_centerVertical="true" paddingStart="16dp" paddingEnd="16dp" NOT_FOUND_0x2b="false" style="@style/y9"/>
+            <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView textStyle="bold" textColor="@color/bx" gravity="center" id="@+id/f6c" paddingLeft="16dp" paddingRight="16dp" visibility="visible" layout_width="wrap_content" layout_height="match_parent" text="@string/ffv" layout_alignParentRight="true" layout_centerVertical="true" paddingStart="16dp" paddingEnd="16dp" layout_alignParentEnd="true" NOT_FOUND_0x26="7" NOT_FOUND_0x2b="false" style="@style/y9"/>
+        </RelativeLayout>
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtPanelRelativeLayout id="@+id/ae6" paddingTop="10dp" layout_width="match_parent" layout_height="266dp" layout_alignParentBottom="true" NOT_FOUND_0x27="@color/d" NOT_FOUND_0x2c="@dimen/cl" NOT_FOUND_0x2d="true">
+            <FrameLayout orientation="vertical" id="@+id/dx0" paddingTop="6dp" layout_width="match_parent" layout_height="46dp">
+                <com.ss.android.ugc.aweme.shortvideo.widget.ChooseVideoCoverView id="@+id/a61" layout_width="match_parent" layout_height="28dp" layout_marginLeft="16dp" layout_marginTop="6dp" layout_marginRight="16dp" NOT_FOUND_0x28="28dp" NOT_FOUND_0x29="28dp"/>
+            </FrameLayout>
+            <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView textSize="13dp" textColor="@color/bx" gravity="center" id="@+id/f2z" visibility="visible" layout_width="match_parent" layout_height="52dp" layout_marginLeft="64dp" layout_marginRight="64dp" text="@string/aya" maxLines="2" layout_below="@+id/dx0" style="@style/y9"/>
+            <com.airbnb.lottie.LottieAnimationView id="@+id/cjk" visibility="gone" layout_width="155dp" layout_height="28dp" layout_marginTop="12dp" layout_below="@+id/dx0" layout_centerHorizontal="true"/>
+            <FrameLayout orientation="horizontal" id="@+id/qo" layout_width="wrap_content" layout_height="28dp" layout_marginTop="12dp" layout_marginRight="16dp" layout_below="@+id/dx0" layout_alignParentRight="true" layout_marginEnd="16dp" layout_alignParentEnd="true">
+                <LinearLayout orientation="horizontal" id="@+id/ara" layout_width="wrap_content" layout_height="28dp">
+                    <ImageView padding="4dp" layout_width="20dp" layout_height="20dp" layout_marginLeft="4.5dp" layout_marginTop="4dp" src="0x7f0805ac" scaleType="fitXY"/>
+                    <com.bytedance.tux.input.TuxTextView textColor="@color/a_" gravity="center_vertical" layout_width="wrap_content" layout_height="match_parent" text="@string/bln" layout_marginEnd="9dp" NOT_FOUND_0x2e="61"/>
+                </LinearLayout>
+                <RelativeLayout id="@+id/cov" layout_width="44dp" layout_height="28dp">
+                    <ImageView padding="4dp" layout_width="20dp" layout_height="20dp" src="0x7f0805ac" scaleType="fitXY" layout_centerInParent="true"/>
+                </RelativeLayout>
+            </FrameLayout>
+            <com.ss.android.ugc.aweme.shortvideo.edit.audiorecord.AudioRecordStartButton id="@+id/e9r" layout_width="72dp" layout_height="72dp" layout_marginTop="10dp" layout_below="@+id/f2z" layout_centerHorizontal="true"/>
+            <CheckBox textSize="13dp" textColor="@color/a_" id="@+id/a2z" paddingLeft="0dp" layout_width="wrap_content" layout_height="20dp" layout_marginLeft="16dp" layout_marginBottom="17dp" button="@drawable/bj5" text="@string/axg" drawablePadding="5dp" layout_alignParentLeft="true" layout_alignParentBottom="true" layout_marginStart="16dp" layout_alignParentStart="true"/>
+        </com.ss.android.ugc.aweme.themechange.base.AVDmtPanelRelativeLayout>
+        <RelativeLayout id="@+id/fhv" layout_width="match_parent" layout_height="match_parent" layout_marginTop="50dp" layout_above="@+id/ae6" layout_centerHorizontal="true">
+            <ImageView id="@+id/bzv" padding="50dp" layout_width="wrap_content" layout_height="wrap_content" src="0x7f080100" layout_centerInParent="true"/>
+        </RelativeLayout>
+        <FrameLayout id="@+id/ci6" visibility="gone" layout_width="match_parent" layout_height="match_parent">
+            <com.bytedance.ies.dmt.ui.widget.DmtStatusView gravity="center" layout_gravity="center" id="@+id/ci4" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+        </FrameLayout>
+    </RelativeLayout>
+</FrameLayout>

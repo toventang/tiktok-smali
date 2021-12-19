@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="">
+    <com.airbnb.lottie.LottieAnimationView id="@+id/e60" layout_width="wrap_content" layout_height="190dp" NOT_FOUND_0xa="@+id/e61" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="2" NOT_FOUND_0x10="false" NOT_FOUND_0x11="mt_slide_up.json" NOT_FOUND_0x12="images/"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="24sp" textColor="@color/a9" gravity="center" id="@+id/e61" layout_width="0dp" layout_height="wrap_content" layout_marginTop="37dp" text="@string/eo_" NOT_FOUND_0x8="7" NOT_FOUND_0x9="0" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xd="@+id/e60" NOT_FOUND_0xf="2"/>
+</merge>

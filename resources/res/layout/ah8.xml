@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/jo" background="@color/l" layout_width="match_parent" layout_height="wrap_content">
+    <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/aa3" background="@drawable/cbo" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x9="@color/c2" NOT_FOUND_0xa="0x7f080768" NOT_FOUND_0xb="@string/st" NOT_FOUND_0xc="@color/bx" NOT_FOUND_0xd="false"/>
+    <View id="@+id/an3" background="@color/b4" layout_width="match_parent" layout_height="0.5dp" layout_marginLeft="16dp" layout_marginRight="16dp" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+</LinearLayout>

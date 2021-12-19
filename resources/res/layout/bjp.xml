@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" theme="?attr/c0" orientation="vertical" id="@+id/ad7" background="?attr/ef" layout_width="match_parent" layout_height="match_parent">
+    <View id="@+id/e_f" layout_width="0dp" layout_height="0dp" NOT_FOUND_0x8="0" NOT_FOUND_0x9="0" NOT_FOUND_0xb="0"/>
+    <com.bytedance.tux.extension.player.view.TextureVideoView id="@+id/fhs" layout_width="0dp" layout_height="0dp" NOT_FOUND_0x7="0" NOT_FOUND_0x8="0" NOT_FOUND_0x9="0" NOT_FOUND_0xa="@+id/e_f"/>
+    <com.bytedance.tux.extension.player.view.PlayerMaskView id="@+id/d68" visibility="visible" layout_width="0dp" layout_height="0dp" NOT_FOUND_0x7="0" NOT_FOUND_0x8="0" NOT_FOUND_0x9="0" NOT_FOUND_0xa="@+id/e_f"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

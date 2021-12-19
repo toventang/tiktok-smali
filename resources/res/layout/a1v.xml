@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" orientation="vertical" id="@+id/dqe" background="@color/l" fitsSystemWindows="true" clickable="true" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.ies.dmt.ui.titlebar.ButtonTitleBar id="@+id/emo" layout_width="match_parent" layout_height="@dimen/tn" NOT_FOUND_0x9="8" NOT_FOUND_0xd="@color/bx" NOT_FOUND_0xe="true"/>
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/emo">
+        <com.ss.android.ugc.aweme.setting.ui.ChooseOneOfMultiItemView id="@+id/j6" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" NOT_FOUND_0xa="@string/fmv" NOT_FOUND_0xb="@string/fmu"/>
+        <com.ss.android.ugc.aweme.setting.ui.ChooseOneOfMultiItemView id="@+id/czp" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xa="@string/fmy" NOT_FOUND_0xb="@string/fmx"/>
+        <com.ss.android.ugc.aweme.setting.ui.ChooseOneOfMultiItemView id="@+id/czq" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xa="@string/fmz" NOT_FOUND_0xb="@string/bw7" NOT_FOUND_0xc="false"/>
+    </LinearLayout>
+</RelativeLayout>

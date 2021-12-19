@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <RelativeLayout padding="12dp" layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout orientation="horizontal" id="@+id/bio" layout_width="@dimen/lk" layout_height="@dimen/lk">
+            <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/icon_iv" layout_width="@dimen/lk" layout_height="@dimen/lk" NOT_FOUND_0x1b="true"/>
+            <com.bytedance.tux.icon.TuxIconView id="@+id/bji" visibility="gone" layout_width="@dimen/lk" layout_height="@dimen/lk" NOT_FOUND_0x22="24dp" NOT_FOUND_0x23="24dp"/>
+        </LinearLayout>
+        <com.bytedance.tux.input.TuxTextView textSize="15dp" textColor="@color/bh" gravity="center_vertical" id="@+id/b80" visibility="gone" layout_width="wrap_content" layout_height="32dp" text="@string/ces" drawablePadding="3dp" layout_centerVertical="true" lineSpacingExtra="0dp" drawableStart="0x7f080835" layout_marginStart="8dp" layout_alignParentEnd="true" NOT_FOUND_0x21="42"/>
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_centerVertical="true" layout_marginStart="8dp" layout_toStartOf="@+id/b80" layout_toEndOf="@+id/bio">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" gravity="left|center_vertical|center_horizontal|center|start" id="@+id/title_tv" layout_width="match_parent" layout_height="wrap_content" maxLines="1" lineSpacingExtra="0dp" textAlignment="viewStart" NOT_FOUND_0x21="42"/>
+            <com.bytedance.tux.input.TuxTextView textSize="13dp" textColor="@color/c5" ellipsize="end" gravity="left|center_vertical|center_horizontal|center|start" id="@+id/akl" visibility="gone" layout_width="match_parent" layout_height="wrap_content" maxLines="1" lineSpacingExtra="0dp" textAlignment="viewStart" NOT_FOUND_0x21="61"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="118dp">
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/bml" layout_width="0dp" layout_height="match_parent" layout_weight="1" NOT_FOUND_0x19="6" NOT_FOUND_0x1a="@drawable/au7" NOT_FOUND_0x1c="true" NOT_FOUND_0x1d="false" NOT_FOUND_0x1e="false" NOT_FOUND_0x1f="false" NOT_FOUND_0x20="8dp"/>
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/bmm" layout_width="0dp" layout_height="match_parent" layout_marginLeft="1dp" layout_marginRight="1dp" layout_weight="1" layout_marginStart="1dp" layout_marginEnd="1dp" NOT_FOUND_0x19="6" NOT_FOUND_0x1a="@drawable/au6"/>
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/bmn" layout_width="0dp" layout_height="match_parent" layout_weight="1" NOT_FOUND_0x19="6" NOT_FOUND_0x1a="@drawable/au8" NOT_FOUND_0x1c="false" NOT_FOUND_0x1d="true" NOT_FOUND_0x1e="false" NOT_FOUND_0x1f="false" NOT_FOUND_0x20="8dp"/>
+    </LinearLayout>
+</LinearLayout>

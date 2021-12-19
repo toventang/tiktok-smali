@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="48dp">
+    <ImageView id="@+id/d16" background="0x7f080f6c" layout_width="21dp" layout_height="22dp" layout_marginLeft="16dp" layout_marginTop="13dp" layout_marginStart="16dp" NOT_FOUND_0x14="0" NOT_FOUND_0x15="0"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textColor="#ccffffff" ellipsize="end" gravity="left|center_vertical|center_horizontal|center|start" layout_width="0dp" layout_height="match_parent" layout_marginRight="12dp" text="@string/e9w" maxLines="1" alpha="0.75" layout_marginStart="8dp" layout_marginEnd="12dp" NOT_FOUND_0x11="@+id/fie" NOT_FOUND_0x12="@+id/fie" NOT_FOUND_0x13="@+id/d16" NOT_FOUND_0x15="0" style="@style/tz"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/a9" gravity="center" id="@+id/fie" background="@drawable/bq5" layout_width="64dp" layout_height="24dp" layout_marginTop="12dp" text="@string/ecm" layout_marginEnd="15dp" NOT_FOUND_0x10="0" NOT_FOUND_0x15="0" style="@style/tz"/>
+    <View background="@color/a2" layout_width="match_parent" layout_height="0.5dp" layout_marginStart="8dp" layout_marginEnd="8dp" NOT_FOUND_0xf="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

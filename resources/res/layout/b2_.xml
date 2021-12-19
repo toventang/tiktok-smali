@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.story.feed.ui.player.DragScaleLayout xmlns="" enabled="false" id="@+id/apq" layout_width="match_parent" layout_height="match_parent">
+    <include layout="@layout/sa"/>
+</com.ss.android.ugc.aweme.story.feed.ui.player.DragScaleLayout>

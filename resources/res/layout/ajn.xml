@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/b5t" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.android.live.core.widget.HSImageView id="@+id/cbx" background="@drawable/c12" visibility="gone" layout_width="match_parent" layout_height="match_parent" scaleType="centerCrop"/>
+    <com.bytedance.android.livesdk.widget.LiveLoadingView layout_gravity="center" id="@+id/cdi" visibility="gone" layout_width="wrap_content" layout_height="wrap_content"/>
+</FrameLayout>

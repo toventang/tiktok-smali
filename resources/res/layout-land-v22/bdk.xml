@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" id="@+id/c4k" paddingTop="4dp" paddingBottom="4dp" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xf="4dp">
+    <com.bytedance.android.live.core.widget.HSImageView id="@+id/clg" layout_width="@dimen/w8" layout_height="@dimen/w8" layout_marginTop="2dp" NOT_FOUND_0x10="0x7f080fa6" NOT_FOUND_0x11="6" NOT_FOUND_0x12="?attr/am8" NOT_FOUND_0x13="true"/>
+    <LinearLayout orientation="vertical" id="@+id/cse" layout_width="match_parent" layout_height="wrap_content" layout_marginStart="8dp" layout_marginEnd="8dp">
+        <com.bytedance.android.live.publicscreen.impl.model.chat.badge.BadgeView id="@+id/r3" layout_width="match_parent" layout_height="@dimen/xu"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="?attr/alv" ellipsize="end" id="@+id/cs_" layout_width="match_parent" layout_height="wrap_content" singleLine="true" textIsSelectable="false" textAlignment="viewStart" style="@style/tz"/>
+        <com.bytedance.android.live.publicscreen.impl.view.DrawableVerifiableTextView textColor="?attr/alt" id="@+id/adh" layout_width="match_parent" layout_height="wrap_content" textIsSelectable="false" textDirection="anyRtl" textAlignment="viewStart" style="@style/tz"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/dqe" paddingTop="12dp" visibility="gone" layout_width="270dp" layout_height="48dp">
+    <com.bytedance.tux.button.TuxButton id="@+id/z9" layout_width="131dp" layout_height="36dp" layout_alignParentStart="true" NOT_FOUND_0x7="2"/>
+    <com.ss.android.ugc.aweme.follow.NewFollowButton id="@+id/yf" layout_width="131dp" layout_height="36dp" layout_alignParentEnd="true"/>
+</RelativeLayout>

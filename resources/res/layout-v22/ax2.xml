@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/b5p" background="@drawable/bdi" layout_width="match_parent" layout_height="36dp" transitionName="@string/fij">
+    <ImageView layout_gravity="left|center_vertical|center_horizontal|center|start" id="@+id/c0w" layout_width="20dp" layout_height="20dp" layout_marginLeft="6dp" src="0x7f080b5b" layout_marginStart="6dp" transitionName="@string/fhp"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtEditText textColor="@color/bx" textColorHint="@color/c5" ellipsize="end" gravity="left|center_vertical|center_horizontal|center|start" layout_gravity="left|center_vertical|center_horizontal|center|start" id="@+id/ay6" background="@null" paddingLeft="32.5dp" paddingRight="32.5dp" focusable="true" focusableInTouchMode="true" layout_width="match_parent" layout_height="36dp" cursorVisible="false" singleLine="true" inputType="textNoSuggestions" imeOptions="actionSearch" textCursorDrawable="@drawable/bdl" textAlignment="viewStart" NOT_FOUND_0x1b="32.5dp" style="@style/y6"/>
+    <com.bytedance.tux.icon.TuxIconView layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/y1" visibility="gone" layout_width="20dp" layout_height="20dp" layout_marginRight="6dp" layout_marginEnd="6dp" NOT_FOUND_0x1c="@raw/icon_x_mark_circle_fill" NOT_FOUND_0x1d="?attr/bj"/>
+    <ViewStub id="@+id/fl3" layout="@layout/ax5" layout_width="match_parent" layout_height="match_parent"/>
+</FrameLayout>

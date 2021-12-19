@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" background="@drawable/cbd" paddingTop="8dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.ecommerce.widget.FixedRecyclerView orientation="vertical" id="@+id/djs" layout_width="match_parent" layout_height="wrap_content"/>
+</FrameLayout>

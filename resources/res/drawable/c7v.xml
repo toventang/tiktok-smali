@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns="">
+    <size height="@dimen/y3" width="@dimen/y4"/>
+    <solid color="@color/c9"/>
+    <corners radius="@dimen/y2"/>
+    <stroke width="@dimen/uy" color="@color/zc"/>
+</shape>

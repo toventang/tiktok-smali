@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center" layout_gravity="bottom" orientation="horizontal" id="@+id/chj" visibility="gone" layout_width="match_parent" layout_height="100dp">
+    <com.ss.android.ugc.tools.view.widget.AVStatusView gravity="center" layout_gravity="center" id="@+id/ci4" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+</LinearLayout>

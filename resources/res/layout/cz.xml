@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.tabs.TabLayout xmlns="" layout_gravity="center_horizontal" id="@+id/cn_" background="@drawable/dj" layout_width="wrap_content" layout_height="32dp" layout_marginTop="16dp" NOT_FOUND_0x6="@drawable/dk" NOT_FOUND_0x7="1" NOT_FOUND_0x8="true" NOT_FOUND_0x9="0dp" NOT_FOUND_0xa="1" NOT_FOUND_0xb="@android:color/transparent"/>

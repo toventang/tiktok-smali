@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="" orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.base.ui.SmartAvatarImageView layout_gravity="center_vertical" id="@+id/ov" layout_width="56dp" layout_height="56dp" layout_marginStart="16dp" layout_marginEnd="12dp"/>
+    <LinearLayout layout_gravity="center_vertical" orientation="vertical" id="@+id/bo_" layout_width="0dp" layout_height="wrap_content" layout_weight="1" layout_marginEnd="12dp">
+        <RelativeLayout gravity="center_vertical" id="@+id/cjz" layout_width="wrap_content" layout_height="wrap_content">
+            <com.bytedance.tux.icon.TuxIconView id="@+id/fey" visibility="gone" layout_width="10dp" layout_height="10dp" src="0x7f08082a" layout_centerVertical="true" layout_marginStart="3dp"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/ck0" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" NOT_FOUND_0x11="42"/>
+        </RelativeLayout>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" id="@+id/ak_" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" NOT_FOUND_0x11="61"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" id="@+id/dhz" layout_width="wrap_content" layout_height="wrap_content" maxWidth="128dp" maxLines="2" NOT_FOUND_0x11="61"/>
+        <com.ss.android.ugc.aweme.views.MutualRelationView id="@+id/crt" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+    </LinearLayout>
+    <com.ss.android.ugc.aweme.follow.NewFollowButton layout_gravity="center_vertical" id="@+id/b7b" layout_width="88dp" layout_height="28dp" NOT_FOUND_0x10="1"/>
+    <com.bytedance.tux.icon.TuxIconView layout_gravity="center_vertical" id="@+id/tq" layout_width="24dp" layout_height="24dp" layout_marginStart="12dp" layout_marginEnd="12dp" NOT_FOUND_0x12="@raw/icon_x_mark_small" NOT_FOUND_0x13="?attr/bd"/>
+</merge>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center" layout_width="wrap_content" layout_height="19dp">
+    <com.bytedance.tux.tag.TuxTag id="@+id/f1e" paddingRight="5dp" layout_width="wrap_content" layout_height="19dp" paddingEnd="5dp" NOT_FOUND_0x6="@color/a2" NOT_FOUND_0x7="@color/a2"/>
+</LinearLayout>

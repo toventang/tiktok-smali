@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="horizontal" id="@+id/ciw" background="@drawable/bei" layout_width="match_parent" layout_height="wrap_content">
+    <ImageView id="@+id/civ" layout_width="wrap_content" layout_height="match_parent" layout_margin="5dp" contentDescription="@string/d08"/>
+    <View background="@android:color/black" layout_width="1dp" layout_height="match_parent" layout_marginTop="10dp" layout_marginBottom="10dp" alpha="0.1"/>
+    <TextView textSize="16dp" textColor="@color/g4" id="@+id/cix" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="20dp" layout_marginTop="10dp" layout_marginRight="10dp" layout_marginBottom="10dp" layout_marginStart="20dp" layout_marginEnd="10dp"/>
+</LinearLayout>

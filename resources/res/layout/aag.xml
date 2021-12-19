@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="wrap_content" layout_height="wrap_content">
+    <com.facebook.drawee.view.SimpleDraweeView id="@+id/bvr" paddingLeft="@dimen/dz" paddingRight="@dimen/dz" layout_width="@dimen/e0" layout_height="@dimen/dy" scaleType="centerCrop" NOT_FOUND_0x9="@color/bk" NOT_FOUND_0xa="2dp"/>
+    <com.ss.android.ugc.aweme.tools.mvtemplate.thumbnail.NoDisappearDoubleColorBallAnimationView layout_gravity="center_vertical" id="@+id/ci9" visibility="gone" layout_width="36dp" layout_height="36dp" layout_marginLeft="10dp"/>
+</FrameLayout>

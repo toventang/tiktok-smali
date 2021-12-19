@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="bottom|center_vertical|center_horizontal|center" layout_gravity="bottom|center_vertical|center_horizontal|center" orientation="vertical" layout_width="wrap_content" layout_height="120dp" paddingStart="24dp" paddingEnd="16dp">
+    <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView background="@drawable/bc2" layout_width="48dp" layout_height="48dp" scaleType="center" NOT_FOUND_0xe="@drawable/bcw"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bz" gravity="center" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/b8j" textDirection="locale" textAlignment="center" NOT_FOUND_0xf="61"/>
+</LinearLayout>

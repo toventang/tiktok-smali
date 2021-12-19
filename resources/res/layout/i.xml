@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <com.bytedance.tux.input.TuxTextView gravity="center" layout_gravity="center" id="@+id/title_tv" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="12dp"/>
+    <ScrollView scrollbarThumbVertical="@drawable/k" scrollbarAlwaysDrawVerticalTrack="false" scrollbarStyle="outsideInset" id="@+id/dtk" scrollbars="vertical" fadingEdge="none" layout_width="match_parent" layout_height="wrap_content" minHeight="18dp" scrollbarFadeDuration="0" fadeScrollbars="true" overScrollMode="never">
+        <com.bytedance.tux.input.TuxTextView gravity="center" layout_gravity="center_horizontal" id="@+id/aei" layout_width="wrap_content" layout_height="wrap_content"/>
+    </ScrollView>
+</LinearLayout>

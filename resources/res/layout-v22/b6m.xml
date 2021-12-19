@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/amz" layout_width="match_parent" layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/fme" background="@drawable/bqf" layout_width="140dp" layout_height="wrap_content" layout_marginRight="12dp" layout_marginBottom="58dp" layout_marginEnd="12dp" NOT_FOUND_0x10="0" NOT_FOUND_0x11="0">
+        <ImageView id="@+id/ah9" background="0x7f080e04" layout_width="16dp" layout_height="16dp" layout_marginTop="4dp" layout_marginEnd="4dp" NOT_FOUND_0x11="0" NOT_FOUND_0x14="0"/>
+        <ImageView id="@+id/bb7" layout_width="56dp" layout_height="56dp" layout_marginTop="12dp" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x14="0"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/bx" gravity="center" id="@+id/fe3" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="8dp" layout_marginTop="4dp" layout_marginRight="8dp" NOT_FOUND_0xf="8dp" NOT_FOUND_0x13="@+id/bb7" style="@style/tt"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/bx" gravity="center" id="@+id/akp" layout_width="match_parent" layout_height="wrap_content" layout_marginStart="8dp" layout_marginEnd="8dp" NOT_FOUND_0x13="@+id/fe3" style="@style/u0"/>
+        <LinearLayout gravity="center" id="@+id/dyi" background="@drawable/btx" paddingBottom="2dp" layout_width="match_parent" layout_height="24dp" layout_marginLeft="8dp" layout_marginTop="6dp" layout_marginRight="8dp" layout_marginBottom="16dp" NOT_FOUND_0xf="8dp" NOT_FOUND_0x10="0" NOT_FOUND_0x13="@+id/akp">
+            <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/a9" gravity="center" layout_gravity="center" id="@+id/dyh" layout_width="wrap_content" layout_height="wrap_content" text="@string/gye" style="@style/tz"/>
+            <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/a9" gravity="center" layout_gravity="center" id="@+id/dyj" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="2dp" style="@style/tz"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

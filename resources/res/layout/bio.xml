@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center" layout_gravity="center_horizontal" id="@+id/oa" visibility="gone" layout_width="195dp" layout_height="44dp" layout_alignParentTop="true" layout_centerInParent="true">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/o6" layout_width="wrap_content" layout_height="44dp">
+        <View id="@+id/o8" background="@drawable/ss" layout_width="0dp" layout_height="28dp" layout_marginLeft="10dp" layout_marginTop="8dp" layout_marginRight="10dp" layout_marginBottom="8dp" alpha="0.5" layout_marginStart="10dp" layout_marginEnd="10dp" NOT_FOUND_0x25="0" NOT_FOUND_0x26="0" NOT_FOUND_0x28="0" NOT_FOUND_0x2a="0" NOT_FOUND_0x2b="0"/>
+        <com.ss.android.ugc.aweme.views.CircleDraweeView id="@+id/o9" paddingTop="11dp" paddingBottom="11dp" visibility="visible" layout_width="44dp" layout_height="44dp" scaleType="centerInside" paddingStart="14dp" paddingEnd="8dp" NOT_FOUND_0x26="0" NOT_FOUND_0x2a="0" NOT_FOUND_0x2b="0" NOT_FOUND_0x2c="true"/>
+        <View id="@+id/o_" background="@drawable/cy" layout_width="22dp" layout_height="22dp" layout_marginTop="11dp" layout_marginStart="14dp" NOT_FOUND_0x26="@+id/o9" NOT_FOUND_0x2a="@+id/o9" NOT_FOUND_0x2b="@+id/o9"/>
+        <ImageView id="@+id/ob" layout_width="12dp" layout_height="12dp" layout_marginTop="16dp" src="0x7f080089" layout_marginStart="19dp" NOT_FOUND_0x26="@+id/o9" NOT_FOUND_0x2a="@+id/o9" NOT_FOUND_0x2b="@+id/o9"/>
+        <LinearLayout id="@+id/od" layout_width="wrap_content" layout_height="28dp" NOT_FOUND_0x24="0" NOT_FOUND_0x27="@+id/o9" NOT_FOUND_0x29="@+id/o9" NOT_FOUND_0x2b="0">
+            <com.ss.android.ugc.aweme.views.AlwaysMarqueeTextView textSize="13sp" textColor="@color/a9" ellipsize="marquee" gravity="center" layout_gravity="center_vertical" id="@+id/oc" paddingTop="1.5dp" paddingBottom="1.5dp" focusable="true" focusableInTouchMode="true" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" maxWidth="140dp" text="@string/adm" scrollHorizontally="true" singleLine="true" shadowColor="@color/bo" shadowDx="0" shadowDy="2" shadowRadius="2" marqueeRepeatLimit="marquee_forever" paddingEnd="10dp"/>
+            <Space id="@+id/oe" layout_width="8dp" layout_height="28dp"/>
+        </LinearLayout>
+        <FrameLayout id="@+id/o4" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x27="@+id/od" NOT_FOUND_0x29="@+id/od" NOT_FOUND_0x2b="0">
+            <View id="@+id/o7" background="@color/a7" visibility="visible" layout_width="1dp" layout_height="14dp" layout_marginTop="15dp" layout_marginStart="6dp"/>
+            <Space id="@+id/o5" layout_width="38dp" layout_height="28dp"/>
+            <ImageView layout_gravity="center_vertical" id="@+id/o3" paddingTop="14dp" paddingBottom="14dp" layout_width="44dp" layout_height="44dp" src="0x7f0800f6" paddingStart="12dp" paddingEnd="16dp" layout_marginStart="2dp"/>
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

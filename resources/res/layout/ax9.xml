@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="wrap_content" layout_height="wrap_content">
+    <com.bytedance.lighten.loader.SmartImageView id="@+id/d_5" layout_width="120dp" layout_height="120dp" NOT_FOUND_0x11="0" NOT_FOUND_0x13="0" NOT_FOUND_0x15="0" NOT_FOUND_0x16="@color/j" NOT_FOUND_0x17="2dp" NOT_FOUND_0x18="@color/by" NOT_FOUND_0x19="0.5dp"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/d__" layout_width="0dp" layout_height="wrap_content" layout_marginTop="6dp" maxLines="1" textDirection="locale" NOT_FOUND_0x11="@+id/d_5" NOT_FOUND_0x13="@+id/d_5" NOT_FOUND_0x14="@+id/d_5" NOT_FOUND_0x1a="71"/>
+    <LinearLayout id="@+id/d_7" background="@drawable/bdx" paddingLeft="4dp" paddingTop="2dp" paddingRight="4dp" paddingBottom="2dp" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="2dp" NOT_FOUND_0x11="@+id/d_5" NOT_FOUND_0x12="0" NOT_FOUND_0x13="@+id/d_5" NOT_FOUND_0x14="@+id/d__">
+        <com.bytedance.lighten.loader.SmartImageView layout_gravity="center_vertical" id="@+id/d_8" layout_width="12dp" layout_height="12dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" ellipsize="end" gravity="center" id="@+id/d_9" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" layout_marginStart="2dp" NOT_FOUND_0x1a="92"/>
+    </LinearLayout>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/d_6" layout_width="0dp" layout_height="wrap_content" layout_marginTop="4dp" maxLines="1" textDirection="locale" NOT_FOUND_0x11="@+id/d_5" NOT_FOUND_0x13="@+id/d_5" NOT_FOUND_0x14="@+id/d_7" NOT_FOUND_0x1a="72"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

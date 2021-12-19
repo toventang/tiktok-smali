@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.android.live.design.widget.LiveTextView xmlns="" textSize="16sp" textColor="@color/a24" gravity="center" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/gqx" shadowColor="@color/bk"/>

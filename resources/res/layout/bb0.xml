@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" background="@drawable/bur" paddingTop="13dp" paddingBottom="13dp" layout_width="match_parent" layout_height="wrap_content">
+    <ImageView id="@+id/eah" layout_width="48dp" layout_height="48dp" layout_marginLeft="16dp" layout_marginStart="16dp" NOT_FOUND_0x11="0" NOT_FOUND_0x16="0" NOT_FOUND_0x18="0"/>
+    <ImageView layout_width="0dp" layout_height="0dp" src="@drawable/buq" NOT_FOUND_0x11="@+id/eah" NOT_FOUND_0x12="@+id/eah" NOT_FOUND_0x16="@+id/eah" NOT_FOUND_0x18="@+id/eah"/>
+    <ImageView id="@+id/eaj" layout_width="20dp" layout_height="20dp" layout_marginRight="16dp" src="0x7f081030" layout_marginEnd="16dp" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x18="0"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="15sp" textColor="@color/bx" gravity="start" id="@+id/eak" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginRight="15dp" singleLine="false" layout_marginStart="12dp" layout_marginEnd="15dp" NOT_FOUND_0x10="7" NOT_FOUND_0x13="@+id/eaj" NOT_FOUND_0x14="0" NOT_FOUND_0x15="@+id/eah" NOT_FOUND_0x18="0" NOT_FOUND_0x19="1"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="13sp" textColor="@color/c5" gravity="start" id="@+id/eai" layout_width="0dp" layout_height="wrap_content" layout_marginTop="4dp" layout_marginRight="15dp" singleLine="false" layout_marginEnd="15dp" NOT_FOUND_0x11="0" NOT_FOUND_0x13="@+id/eaj" NOT_FOUND_0x14="0" NOT_FOUND_0x16="@+id/eak" NOT_FOUND_0x17="@+id/eak" NOT_FOUND_0x19="1"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

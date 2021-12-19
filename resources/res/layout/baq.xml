@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="56dp" paddingStart="16dp" paddingEnd="16dp">
+    <ImageView id="@+id/bzn" layout_width="32dp" layout_height="32dp" layout_marginStart="4dp" layout_marginEnd="4dp" NOT_FOUND_0x10="0" NOT_FOUND_0x14="0" NOT_FOUND_0x16="0"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="16sp" textColor="@color/a0s" id="@+id/f46" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="4dp" layout_marginEnd="4dp" NOT_FOUND_0x11="@+id/f45" NOT_FOUND_0x13="@+id/bzn" NOT_FOUND_0x16="0" NOT_FOUND_0x17="2"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="13sp" textColor="#808080" id="@+id/f44" layout_width="wrap_content" layout_height="wrap_content" layout_marginStart="8dp" layout_marginEnd="8dp" NOT_FOUND_0x10="@+id/f46" NOT_FOUND_0x13="@+id/f46" NOT_FOUND_0x16="@+id/f46"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="10sp" textColor="#ff4e33" id="@+id/f45" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="2dp" layout_marginBottom="2dp" layout_marginStart="12dp" layout_marginEnd="12dp" NOT_FOUND_0x10="0" NOT_FOUND_0x13="@+id/bzn" NOT_FOUND_0x15="@+id/f46" NOT_FOUND_0x17="2"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="10dp" textColor="@color/a9" gravity="center" id="@+id/f5l" background="@drawable/bsw" visibility="gone" layout_width="32dp" layout_height="16dp" text="@string/gx9" layout_marginStart="6dp" layout_marginEnd="6dp" NOT_FOUND_0x10="@+id/f46" NOT_FOUND_0x13="@+id/f46" NOT_FOUND_0x16="@+id/f46"/>
+    <com.bytedance.android.live.core.widget.DeprecatedCheckBox id="@+id/a5_" background="@color/c9" clickable="false" layout_width="24dp" layout_height="20dp" NOT_FOUND_0x10="0" NOT_FOUND_0x12="0" NOT_FOUND_0x16="0" style="@style/a3b"/>
+    <View id="@+id/an6" background="@color/k" layout_width="0dp" layout_height="1dp" NOT_FOUND_0x10="0" NOT_FOUND_0x12="@+id/a5_" NOT_FOUND_0x14="@+id/f46"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

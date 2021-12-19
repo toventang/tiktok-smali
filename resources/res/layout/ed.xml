@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.tools.view.style.StyleLinearLayout xmlns="" gravity="center" paddingLeft="0dp" paddingTop="0dp" paddingRight="12dp" paddingBottom="0dp" layout_width="wrap_content" layout_height="wrap_content" paddingStart="0dp" paddingEnd="12dp" NOT_FOUND_0x12="false">
+    <com.ss.android.ugc.tools.view.style.StyleImageView layout_gravity="center_vertical" id="@+id/bm4" layout_width="wrap_content" layout_height="wrap_content" src="0x7f080775" NOT_FOUND_0x13="false"/>
+    <com.ss.android.ugc.tools.view.style.StyleTextView textSize="15sp" ellipsize="end" layout_gravity="center_vertical" id="@+id/text" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" text="@string/yo" maxLines="1" layout_marginStart="4dp"/>
+</com.ss.android.ugc.tools.view.style.StyleLinearLayout>

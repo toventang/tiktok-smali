@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <include id="@+id/bpg" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="32dp" layout_marginTop="@dimen/dg" layout_marginRight="32dp" layout_marginStart="32dp" layout_marginEnd="32dp" NOT_FOUND_0x10="0" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0" NOT_FOUND_0x15="0" layout="@layout/hx"/>
+    <com.ss.android.ugc.aweme.account.ui.LoadingButton textSize="@dimen/d6" id="@+id/bph" layout_width="match_parent" layout_height="44dp" layout_marginLeft="32dp" layout_marginTop="@dimen/dd" layout_marginRight="32dp" text="@string/aqr" layout_marginStart="32dp" layout_marginEnd="32dp" NOT_FOUND_0x14="@+id/bpg"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bh" gravity="center" id="@+id/a4j" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="@dimen/d9" NOT_FOUND_0x14="@+id/bph" NOT_FOUND_0x16="43" style="@style/uj"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/a4k" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="@dimen/de" NOT_FOUND_0xf="0" NOT_FOUND_0x16="41" style="@style/uj"/>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/bpf" background="@color/l" visibility="gone" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xf="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

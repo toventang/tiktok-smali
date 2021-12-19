@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="14sp" textColor="#b0b0b0" gravity="center_horizontal" layout_gravity="center" id="@+id/awc" paddingTop="16.5dp" layout_width="wrap_content" layout_height="wrap_content" text="@string/glw" drawableTop="0x7f080e14" drawablePadding="10dp" layout_centerInParent="true"/>
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" layout_gravity="center" orientation="vertical" id="@+id/dqe" background="@drawable/d5" padding="16dp" layout_width="wrap_content" layout_height="wrap_content" minWidth="112dp">
+    <FrameLayout layout_gravity="center_horizontal" id="@+id/aht" layout_width="wrap_content" layout_height="wrap_content" baselineAligned="false">
+        <com.ss.android.ugc.tools.view.widget.CircularProgressView layout_gravity="center" id="@+id/byw" background="@drawable/e0" layout_width="48dp" layout_height="48dp" NOT_FOUND_0x12="@color/a9" NOT_FOUND_0x13="100" NOT_FOUND_0x14="2dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" layout_gravity="center" id="@+id/dby" layout_width="wrap_content" layout_height="wrap_content" text="0%" NOT_FOUND_0x15="42"/>
+    </FrameLayout>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" layout_gravity="bottom|center_vertical|center_horizontal|center" id="@+id/clf" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" NOT_FOUND_0xe="15sp" NOT_FOUND_0xf="10sp" NOT_FOUND_0x10="1dp" NOT_FOUND_0x11="1" NOT_FOUND_0x15="52"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" layout_gravity="bottom|center_vertical|center_horizontal|center" id="@+id/eln" visibility="gone" layout_width="170dp" layout_height="wrap_content" layout_marginTop="5dp" NOT_FOUND_0x15="42"/>
+</LinearLayout>

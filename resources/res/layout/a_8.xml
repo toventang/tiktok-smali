@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout xmlns="" id="@+id/ad7" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x17="1" NOT_FOUND_0x21="0.75">
+    <com.bytedance.lighten.loader.SmartImageView id="@+id/agf" layout_width="match_parent" layout_height="match_parent" scaleType="centerCrop" NOT_FOUND_0x18="@color/f" NOT_FOUND_0x19="6"/>
+    <com.bytedance.tux.input.TuxTextView textColor="#ffffff" layout_gravity="top|left|center_vertical|center_horizontal|center|start" id="@+id/f9s" background="@drawable/a5w" paddingTop="6dp" visibility="visible" layout_width="match_parent" layout_height="wrap_content" textDirection="locale" paddingStart="6dp" NOT_FOUND_0x1c="62"/>
+    <LinearLayout gravity="bottom" layout_gravity="bottom" id="@+id/e4q" background="@drawable/ba3" paddingBottom="5dp" layout_width="match_parent" layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView textSize="13dp" textColor="@color/st" ellipsize="end" gravity="center_vertical" id="@+id/eyt" paddingTop="5dp" visibility="visible" layout_width="0dp" layout_height="wrap_content" maxLines="2" maxEms="12" layout_weight="1" textDirection="locale" layout_marginStart="5dp" NOT_FOUND_0x1c="72"/>
+    </LinearLayout>
+    <RelativeLayout gravity="bottom" layout_gravity="bottom" id="@+id/fgh" background="#4d000000" layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout id="@+id/ej9" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="6dp" layout_marginBottom="6dp" layout_centerInParent="true" layout_marginStart="4dp" layout_marginEnd="4dp">
+            <com.bytedance.tux.icon.TuxIconView id="@+id/c0c" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x1d="@raw/icon_video" NOT_FOUND_0x1e="16dp" NOT_FOUND_0x1f="16dp" NOT_FOUND_0x20="?attr/aa"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/st" ellipsize="end" gravity="center_vertical" id="@+id/f4l" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" maxLines="2" maxEms="12" textDirection="locale" layout_marginStart="4dp" layout_marginEnd="4dp" NOT_FOUND_0x1c="62"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <com.bytedance.tux.input.TuxCheckBox layout_gravity="top|right|center_vertical|center_horizontal|center|end" id="@+id/a5_" layout_width="24dp" layout_height="24dp" layout_marginTop="8dp" layout_marginEnd="8dp" NOT_FOUND_0x1a="1" NOT_FOUND_0x1b="?attr/aa"/>
+</com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>

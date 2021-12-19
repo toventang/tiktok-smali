@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/de_" layout_width="210dp" layout_height="wrap_content">
+    <FrameLayout id="@+id/dee" background="@drawable/t9" paddingTop="22dp" paddingBottom="16dp" layout_width="210dp" layout_height="wrap_content" layout_marginTop="20dp" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0" NOT_FOUND_0x15="0">
+        <com.bytedance.tux.input.TuxEditText textColorHint="@color/bz" layout_gravity="center" id="@+id/ded" background="@color/us" layout_width="wrap_content" layout_height="wrap_content" hint="@string/cq" maxLength="150" textCursorDrawable="@drawable/bmu" textAlignment="center" layout_marginStart="12dp" layout_marginEnd="12dp" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0" NOT_FOUND_0x15="0" NOT_FOUND_0x16="43"/>
+        <com.bytedance.tux.input.TuxTextView textColorHint="@color/bz" gravity="center" layout_gravity="center" id="@+id/def" layout_width="wrap_content" layout_height="wrap_content" hint="@string/cq" maxLength="150" textCursorDrawable="@drawable/bmu" layout_marginStart="12dp" layout_marginEnd="12dp" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0" NOT_FOUND_0x15="0" NOT_FOUND_0x16="43"/>
+    </FrameLayout>
+    <com.ss.android.ugc.tools.view.widget.CircleImageView id="@+id/dec" background="@drawable/t_" padding="4dp" layout_width="40dp" layout_height="40dp" NOT_FOUND_0x13="@+id/dee" NOT_FOUND_0x14="@+id/dee" NOT_FOUND_0x15="0"/>
+    <com.ss.android.ugc.tools.view.widget.AVAutoRTLImageView layout_width="16dp" layout_height="16dp" layout_marginTop="24dp" src="0x7f080699" layout_marginStart="24dp" NOT_FOUND_0x14="@+id/dec" NOT_FOUND_0x15="@+id/dec"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

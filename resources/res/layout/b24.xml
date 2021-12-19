@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" gravity="end" layout_gravity="end" id="@+id/zz" clipChildren="false" clipToPadding="false" layout_width="wrap_content" layout_height="wrap_content">
+    <ImageView id="@+id/by0" padding="1dp" layout_width="32dp" layout_height="32dp" scaleType="centerCrop" layout_alignParentEnd="true" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="end" id="@+id/f9a" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="8dp" maxLines="1" shadowDx="0" shadowDy="1" shadowRadius="2" layout_marginEnd="8dp" NOT_FOUND_0x11="0" NOT_FOUND_0x13="@+id/by0" NOT_FOUND_0x14="@+id/by0" NOT_FOUND_0x16="0" NOT_FOUND_0x17="52"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

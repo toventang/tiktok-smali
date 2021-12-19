@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="wrap_content">
+    <ImageView id="@+id/eoi" layout_width="80dp" layout_height="80dp" layout_marginTop="40dp" src="0x7f080719" contentDescription="@null" NOT_FOUND_0xd="0" NOT_FOUND_0xf="0" NOT_FOUND_0x11="0"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/o1" layout_width="0dp" layout_height="wrap_content" layout_marginTop="16dp" text="@string/b30" layout_marginStart="32dp" layout_marginEnd="32dp" NOT_FOUND_0xd="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="@+id/eoi" NOT_FOUND_0x13="23"/>
+    <ImageView id="@+id/c2e" layout_width="24dp" layout_height="24dp" layout_marginTop="20dp" src="0x7f0800fc" layout_marginStart="32dp" NOT_FOUND_0xf="0" NOT_FOUND_0x10="@+id/o1"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c4" id="@+id/f_2" layout_width="0dp" layout_height="wrap_content" text="@string/b2w" layout_marginStart="16dp" layout_marginEnd="32dp" NOT_FOUND_0xd="0" NOT_FOUND_0xe="@+id/c2e" NOT_FOUND_0x11="@+id/c2e" NOT_FOUND_0x13="41"/>
+    <ImageView id="@+id/bxb" layout_width="24dp" layout_height="24dp" layout_marginTop="20dp" src="0x7f0800e7" layout_marginStart="32dp" NOT_FOUND_0xf="0" NOT_FOUND_0x10="@+id/f_2"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c4" id="@+id/ewn" layout_width="0dp" layout_height="wrap_content" text="@string/b2x" layout_marginStart="16dp" layout_marginEnd="32dp" NOT_FOUND_0xd="0" NOT_FOUND_0xe="@+id/bxb" NOT_FOUND_0x11="@+id/bxb" NOT_FOUND_0x13="41"/>
+    <com.bytedance.tux.button.TuxButton id="@+id/a06" layout_width="0dp" layout_height="44dp" layout_marginTop="48dp" text="@string/b2z" layout_marginStart="32dp" layout_marginEnd="32dp" NOT_FOUND_0xd="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="@+id/ewn" NOT_FOUND_0x12="0"/>
+    <com.bytedance.tux.input.TuxTextView gravity="center" id="@+id/z_" layout_width="0dp" layout_height="44dp" layout_marginTop="8dp" layout_marginBottom="12dp" text="@string/dj3" layout_marginStart="32dp" layout_marginEnd="32dp" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="@+id/a06" NOT_FOUND_0x13="41"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

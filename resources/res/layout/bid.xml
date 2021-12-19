@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="" layout_width="match_parent" layout_height="wrap_content">
+    <com.bytedance.tux.icon.TuxIconView id="@+id/bve" layout_width="52dp" layout_height="52dp" layout_marginEnd="2dp" NOT_FOUND_0xd="0" NOT_FOUND_0x11="0" NOT_FOUND_0x13="@raw/icon_x_mark_small" NOT_FOUND_0x14="24dp" NOT_FOUND_0x15="24dp" NOT_FOUND_0x16="?attr/bc"/>
+    <com.ss.android.ugc.aweme.base.ui.AnimationImageView id="@+id/btq" layout_width="80dp" layout_height="80dp" layout_marginTop="36dp" NOT_FOUND_0xd="0" NOT_FOUND_0xf="0" NOT_FOUND_0x11="0"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/f9l" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" layout_marginStart="32dp" layout_marginEnd="32dp" NOT_FOUND_0xd="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="@+id/btq" NOT_FOUND_0x12="32"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c4" gravity="center" id="@+id/eyc" layout_width="0dp" layout_height="wrap_content" layout_marginTop="12dp" NOT_FOUND_0xd="@+id/f9l" NOT_FOUND_0xf="@+id/f9l" NOT_FOUND_0x10="@+id/f9l" NOT_FOUND_0x12="51"/>
+    <com.ss.android.ugc.aweme.base.ui.SmartAvatarImageView id="@+id/bu0" layout_width="32dp" layout_height="32dp" layout_marginTop="43dp" layout_marginStart="12dp" NOT_FOUND_0xf="0" NOT_FOUND_0x10="@+id/eyc"/>
+    <LinearLayout gravity="center" id="@+id/cf7" layout_width="0dp" layout_height="wrap_content" layout_marginTop="40dp" minHeight="38dp" layout_marginStart="8dp" layout_marginEnd="12dp" NOT_FOUND_0xd="0" NOT_FOUND_0xe="@+id/bu0" NOT_FOUND_0x10="@+id/eyc">
+        <com.bytedance.tux.input.TuxEditText textColor="@color/bz" id="@+id/axz" focusable="false" focusableInTouchMode="false" layout_width="0dp" layout_height="wrap_content" layout_weight="1" inputType="none" layout_marginStart="8dp" layout_marginEnd="30dp" NOT_FOUND_0x12="51"/>
+        <com.ss.android.ugc.aweme.emoji.widget.EmojiCompatTuxTextView gravity="center" id="@+id/f1s" layout_width="28dp" layout_height="28dp" NOT_FOUND_0x12="21"/>
+        <com.ss.android.ugc.aweme.emoji.widget.EmojiCompatTuxTextView gravity="center" id="@+id/f69" layout_width="28dp" layout_height="28dp" layout_marginStart="16dp" layout_marginEnd="13dp" NOT_FOUND_0x12="21"/>
+    </LinearLayout>
+    <Space layout_width="match_parent" layout_height="16dp" NOT_FOUND_0x10="@+id/cf7"/>
+</merge>

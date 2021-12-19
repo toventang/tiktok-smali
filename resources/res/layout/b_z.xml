@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="bottom" layout_gravity="bottom" orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="7dp" layout_marginRight="16dp" layout_marginBottom="10dp">
+    <com.bytedance.android.livesdk.rank.impl.view.SinglePrimaryTopView gravity="bottom|center_vertical|center_horizontal|center" layout_gravity="bottom" id="@+id/esp" paddingTop="11dp" layout_width="0dp" layout_height="wrap_content" layout_marginRight="5dp" layout_weight="110" layout_marginEnd="5dp"/>
+    <com.bytedance.android.livesdk.rank.impl.view.SinglePrimaryTopView gravity="bottom|center_vertical|center_horizontal|center" layout_gravity="bottom|center_vertical|center_horizontal|center" id="@+id/eso" paddingTop="14dp" layout_width="0dp" layout_height="wrap_content" layout_weight="114"/>
+    <com.bytedance.android.livesdk.rank.impl.view.SinglePrimaryTopView gravity="bottom|center_vertical|center_horizontal|center" layout_gravity="bottom" id="@+id/esq" paddingTop="11dp" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="5dp" layout_weight="110" layout_marginStart="5dp"/>
+</LinearLayout>

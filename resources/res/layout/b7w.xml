@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" background="@drawable/bqz" layout_width="match_parent" layout_height="wrap_content">
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="20dp" textColor="#161823" id="@+id/f5b" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="20dp" text="@string/dy9" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x12="2" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0" NOT_FOUND_0x18="0"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="15dp" textColor="#c0161823" gravity="center" id="@+id/f5a" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" layout_marginStart="20dp" layout_marginEnd="20dp" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0" NOT_FOUND_0x17="@+id/f5b"/>
+    <LinearLayout orientation="horizontal" id="@+id/c53" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="18dp" layout_marginBottom="18dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x14="@+id/c9c" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0" NOT_FOUND_0x17="@+id/f5a">
+        <com.bytedance.android.live.design.widget.LiveButton id="@+id/xb" layout_width="match_parent" layout_height="wrap_content" layout_weight="1" layout_marginEnd="4.5dp" style="@style/t1"/>
+        <com.bytedance.android.live.design.widget.LiveButton id="@+id/xc" layout_width="match_parent" layout_height="wrap_content" text="@string/e05" layout_weight="1" layout_marginStart="4.5dp" style="@style/sv"/>
+    </LinearLayout>
+    <LinearLayout orientation="horizontal" id="@+id/c9c" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="18dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x13="0" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0" NOT_FOUND_0x17="@+id/c53">
+        <ImageView layout_width="12dp" layout_height="12dp" layout_marginTop="1dp" src="0x7f080ea6"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="12dp" textColor="#c0161823" layout_gravity="center" layout_width="wrap_content" layout_height="wrap_content" text="@string/du6" includeFontPadding="false" layout_marginStart="5dp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

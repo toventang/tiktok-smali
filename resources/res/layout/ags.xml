@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/in" background="@color/l" layout_width="match_parent" layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView id="@+id/bm9" background="@color/l" layout_width="match_parent" layout_height="match_parent" layout_marginTop="8dp"/>
+</FrameLayout>

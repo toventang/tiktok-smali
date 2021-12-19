@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@color/l" focusable="true" focusableInTouchMode="true" clickable="true" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.tux.navigation.TuxNavBar id="@+id/dd0" layout_width="match_parent" layout_height="44dp"/>
+    <LinearLayout orientation="vertical" id="@+id/dd1" layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout orientation="vertical" id="@+id/dcv" layout_width="wrap_content" layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxTextView textColor="?attr/bc" id="@+id/dcx" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" text="@string/f09" layout_marginStart="16dp" NOT_FOUND_0x19="33"/>
+            <com.bytedance.tux.input.TuxTextView textColor="?attr/bi" id="@+id/dcw" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" text="@string/f04" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x19="51"/>
+        </LinearLayout>
+        <com.ss.android.ugc.aweme.profile.editprofile.pronouns.views.PronounsEditText textColor="@color/bx" gravity="bottom" id="@+id/dcu" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="32dp" hint="@string/f07" lineSpacingExtra="13dp" textDirection="ltr" textAlignment="viewStart" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+        <View id="@+id/fbk" background="@color/b6" layout_width="match_parent" layout_height="0.5dp" layout_marginLeft="16dp" layout_marginTop="10.5dp" layout_marginRight="16dp" paddingStart="16dp" paddingEnd="16dp"/>
+        <com.bytedance.tux.status.TuxStatusView id="@+id/dd2" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+        <com.bytedance.ies.powerlist.PowerList id="@+id/dcz" paddingTop="8dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+        <LinearLayout gravity="center" orientation="vertical" id="@+id/dct" visibility="gone" layout_width="match_parent" layout_height="70dp" layout_marginTop="8dp">
+            <com.bytedance.tux.input.TuxTextView layout_gravity="center_horizontal" layout_width="wrap_content" layout_height="wrap_content" text="@string/chq" NOT_FOUND_0x19="41"/>
+            <com.bytedance.tux.input.TuxTextView layout_gravity="center_horizontal" id="@+id/dcs" layout_width="wrap_content" layout_height="wrap_content" text="@string/chr" NOT_FOUND_0x19="41"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

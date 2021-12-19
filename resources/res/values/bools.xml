@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="a">true</bool>
+    <bool name="b">false</bool>
+    <bool name="c">true</bool>
+    <bool name="d">false</bool>
+    <bool name="e">false</bool>
+    <bool name="f">false</bool>
+    <bool name="g">false</bool>
+    <bool name="h">false</bool>
+    <bool name="i">true</bool>
+    <bool name="j">false</bool>
+    <bool name="k">true</bool>
+    <bool name="l">true</bool>
+    <bool name="m">false</bool>
+    <bool name="n">false</bool>
+</resources>

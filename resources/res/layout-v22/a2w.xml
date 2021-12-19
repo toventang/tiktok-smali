@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@color/l" layout_width="match_parent" layout_height="wrap_content">
+    <com.bytedance.ies.dmt.ui.searchbar.SearchBar id="@+id/dto" tag="INBOX_SEARCH_BAR" background="@color/l" paddingTop="4dp" paddingBottom="4dp" layout_width="match_parent" layout_height="44dp" NOT_FOUND_0xd="4dp" NOT_FOUND_0xe="@string/cmi" NOT_FOUND_0xf="false" NOT_FOUND_0x10="true" NOT_FOUND_0x11="false" NOT_FOUND_0x12="false"/>
+    <FrameLayout id="@+id/dts" visibility="gone" layout_width="match_parent" layout_height="match_parent">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" layout_gravity="center_horizontal" id="@+id/dtq" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="29dp" text="@string/bb9" NOT_FOUND_0x13="41"/>
+        <androidx.recyclerview.widget.RecyclerView id="@+id/dtr" background="@color/l" layout_width="match_parent" layout_height="match_parent"/>
+        <com.bytedance.tux.status.TuxStatusView id="@+id/dtt" visibility="gone" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x14="0"/>
+    </FrameLayout>
+</LinearLayout>

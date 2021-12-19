@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout xmlns="" id="@+id/ad7" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x1b="1" NOT_FOUND_0x24="0.75">
+    <com.bytedance.lighten.loader.SmartImageView id="@+id/agf" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x1c="@color/c1" NOT_FOUND_0x1d="6"/>
+    <View id="@+id/d7o" background="@color/bo" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+    <ImageView layout_gravity="end" layout_width="15dp" layout_height="15dp" layout_marginTop="6dp" layout_marginRight="6dp" src="0x7f080a56" layout_marginEnd="6dp"/>
+    <com.bytedance.tux.tag.TuxTag layout_gravity="top|left|center_vertical|center_horizontal|center|start" id="@+id/f9s" paddingLeft="6dp" paddingTop="2dp" paddingRight="8.5dp" paddingBottom="2.5dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="6dp" layout_marginTop="6dp" text="@string/dqt" paddingStart="6dp" paddingEnd="8.5dp" layout_marginStart="6dp" NOT_FOUND_0x1e="?attr/ay" NOT_FOUND_0x1f="71" NOT_FOUND_0x21="2" NOT_FOUND_0x22="?attr/aa"/>
+    <LinearLayout gravity="bottom" layout_gravity="bottom" orientation="horizontal" id="@+id/bmc" background="@drawable/b6d" paddingBottom="4dp" layout_width="match_parent" layout_height="50dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" id="@+id/f4l" visibility="visible" layout_width="0dp" layout_height="wrap_content" drawableLeft="0x7f080a95" drawablePadding="1dp" layout_weight="1" drawableStart="0x7f080a95" layout_marginStart="4dp" NOT_FOUND_0x1f="71"/>
+        <com.bytedance.tux.icon.TuxIconView id="@+id/fgn" layout_width="15dp" layout_height="15dp" layout_marginLeft="5dp" layout_marginRight="6dp" layout_marginStart="5dp" layout_marginEnd="6dp" NOT_FOUND_0x20="@raw/icon_lock_small" NOT_FOUND_0x23="?attr/aa"/>
+    </LinearLayout>
+    <ViewStub id="@+id/c4d" layout="@layout/apa" layout_width="match_parent" layout_height="match_parent"/>
+</com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>

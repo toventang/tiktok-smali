@@ -1,0 +1,1 @@
+{"adaptive_gear_group":{"bitrate_range":[100000,2500000],"default_bitrate":200000,"default_gear_name":"lowest_540","gear_group":["lowest_540","lowest_480","lowest_360"]},"auto_bitrate_params":{"param_c":0.04519879,"param_d":93227.31984573,"min_bitrate":100000,"param_a":0,"param_b":3.63469855e-9},"default_gear_group":"adaptive_gear_group"}

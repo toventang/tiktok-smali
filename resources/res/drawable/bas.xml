@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns="" shape="rectangle">
+    <stroke width="1dp" color="@color/r9" dashWidth="4dp" dashGap="4dp"/>
+</shape>

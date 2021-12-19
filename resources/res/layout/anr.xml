@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="horizontal" background="?attr/ab_" layout_width="match_parent" layout_height="72dp" weightSum="1">
+    <FrameLayout layout_gravity="center_vertical" layout_width="80dp" layout_height="wrap_content" layout_marginStart="4dp">
+        <include layout_gravity="center" id="@+id/c97" layout_width="56dp" layout_height="56dp" layout="@layout/mk"/>
+        <com.ss.android.ugc.aweme.tux.business.story.StoryBrandView layout_gravity="center" id="@+id/ec6" visibility="gone" layout_width="64dp" layout_height="64dp" NOT_FOUND_0x14="2.5dp"/>
+    </FrameLayout>
+    <LinearLayout layout_gravity="center_vertical" orientation="vertical" layout_width="0dp" layout_height="wrap_content" layout_weight="1" layout_marginEnd="15dp">
+        <LinearLayout orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxTextView textColor="?attr/bc" ellipsize="end" layout_gravity="start" id="@+id/fb8" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" singleLine="true" layout_weight="1" NOT_FOUND_0x15="42"/>
+            <com.bytedance.tux.icon.TuxIconView layout_gravity="center_vertical" id="@+id/bwj" visibility="gone" layout_width="20dp" layout_height="20dp" layout_marginStart="4dp" NOT_FOUND_0x16="@raw/icon_pen" NOT_FOUND_0x19="?attr/ad"/>
+        </LinearLayout>
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/bj" ellipsize="end" layout_gravity="start" id="@+id/fak" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp" maxLines="1" singleLine="true" drawablePadding="2dp" textDirection="locale" textAlignment="viewStart" NOT_FOUND_0x15="71"/>
+    </LinearLayout>
+    <com.ss.android.ugc.aweme.following.ui.view.I18nFollowUserBtn layout_gravity="center_vertical" id="@+id/fap" layout_width="wrap_content" layout_height="wrap_content"/>
+    <com.bytedance.tux.icon.TuxIconView layout_gravity="center_vertical" id="@+id/sf" padding="12dp" layout_width="48dp" layout_height="48dp" NOT_FOUND_0x16="@raw/icon_bell" NOT_FOUND_0x19="?attr/bj"/>
+    <com.bytedance.tux.icon.TuxIconView layout_gravity="center_vertical" id="@+id/co6" padding="12dp" layout_width="48dp" layout_height="48dp" NOT_FOUND_0x16="@raw/icon_ellipsis_vertical" NOT_FOUND_0x17="24dp" NOT_FOUND_0x18="24dp" NOT_FOUND_0x19="?attr/bj"/>
+</LinearLayout>

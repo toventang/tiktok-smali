@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.ies.dmt.ui.frameworkui.PullUpLayout xmlns="" id="@+id/ddo" background="@color/c9" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout orientation="horizontal" id="@+id/dqk" background="@drawable/bjg" paddingTop="12dp" paddingBottom="12dp" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginTop="12dp" layout_marginRight="12dp" layout_marginBottom="12dp">
+        <ImageView id="@+id/bix" layout_width="24dp" layout_height="24dp" layout_marginLeft="16dp" layout_marginRight="12dp" src="0x7f080c26" layout_marginStart="16dp" layout_marginEnd="12dp"/>
+        <LinearLayout orientation="vertical" layout_width="0dp" layout_height="wrap_content" layout_marginRight="17dp" layout_weight="1" layout_marginEnd="17dp">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/title_tv" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" lines="1" singleLine="true" NOT_FOUND_0x19="62"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/message_tv" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x19="61"/>
+        </LinearLayout>
+        <com.bytedance.tux.icon.TuxIconView id="@+id/a7x" visibility="visible" layout_width="16dp" layout_height="16dp" layout_marginTop="0dp" layout_marginRight="12dp" layout_marginEnd="12dp" NOT_FOUND_0x1a="@raw/icon_x_mark" NOT_FOUND_0x1b="@color/bz"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" ellipsize="end" id="@+id/bck" background="@drawable/bjh" paddingLeft="24dp" paddingTop="4.5dp" paddingRight="24dp" paddingBottom="4.5dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="12dp" text="@string/b6q" lines="1" singleLine="true" paddingStart="24dp" paddingEnd="24dp" layout_marginEnd="12dp" NOT_FOUND_0x19="72"/>
+    </LinearLayout>
+</com.bytedance.ies.dmt.ui.frameworkui.PullUpLayout>

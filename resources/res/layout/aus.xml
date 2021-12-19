@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/dqh" background="@color/a2" layout_width="200dp" layout_height="356dp" layout_marginBottom="16dp" layout_marginEnd="8dp" NOT_FOUND_0x15="0.75">
+    <com.ss.android.ugc.aweme.autoplay.player.live.SearchLiveView id="@+id/fhs" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x16="0" NOT_FOUND_0x1b="0" NOT_FOUND_0x1d="0"/>
+    <com.bytedance.lighten.loader.SmartImageView id="@+id/bs4" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x11="7" NOT_FOUND_0x13="0" NOT_FOUND_0x17="0" NOT_FOUND_0x1b="0" NOT_FOUND_0x1d="0" NOT_FOUND_0x1e="180dp" NOT_FOUND_0x20="2dp"/>
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="match_parent" layout_height="match_parent">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" id="@+id/f2f" background="@drawable/bbi" layout_width="wrap_content" layout_height="17dp" layout_marginTop="8dp" paddingStart="5dp" paddingEnd="5dp" layout_marginStart="8dp" NOT_FOUND_0x18="0" NOT_FOUND_0x1b="0" NOT_FOUND_0x1d="0" NOT_FOUND_0x21="73"/>
+        <View layout_gravity="top" id="@+id/ce6" background="@drawable/bea" layout_width="match_parent" layout_height="104dp" NOT_FOUND_0x13="0"/>
+        <com.bytedance.lighten.loader.SmartCircleImageView id="@+id/or" layout_width="24dp" layout_height="24dp" layout_marginBottom="8dp" layout_marginStart="8dp" NOT_FOUND_0x12="@color/f" NOT_FOUND_0x13="0" NOT_FOUND_0x18="0" NOT_FOUND_0x1b="0" NOT_FOUND_0x1f="@color/f"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" ellipsize="end" gravity="start" id="@+id/fdm" layout_width="wrap_content" layout_height="wrap_content" maxWidth="155dp" maxLines="1" layout_marginStart="5dp" NOT_FOUND_0x14="@+id/or" NOT_FOUND_0x19="@+id/or" NOT_FOUND_0x1a="@+id/or" NOT_FOUND_0x1c="@+id/or" NOT_FOUND_0x21="62"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" ellipsize="end" gravity="bottom|left|center_vertical|center_horizontal|center|start" id="@+id/dqd" layout_width="0dp" layout_height="wrap_content" layout_marginBottom="8dp" maxLines="2" layout_marginStart="10dp" layout_marginEnd="10dp" NOT_FOUND_0x14="@+id/or" NOT_FOUND_0x16="0" NOT_FOUND_0x18="0" NOT_FOUND_0x1b="0" NOT_FOUND_0x21="42"/>
+        <com.ss.android.ugc.aweme.search.ecom.live.TopLiveProductView id="@+id/d_3" visibility="gone" layout_width="68dp" layout_height="wrap_content" layout_marginBottom="8dp" layout_marginEnd="8dp" NOT_FOUND_0x13="0" NOT_FOUND_0x16="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

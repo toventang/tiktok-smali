@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.tools.view.widget.AVAutoRTLImageView xmlns="" id="@+id/bmu" padding="@dimen/ci" focusable="true" layout_width="@dimen/ch" layout_height="44dp" layout_marginLeft="12dp" layout_marginTop="@dimen/rk" src="0x7f0806ad" scaleType="centerInside" layout_marginStart="12dp"/>

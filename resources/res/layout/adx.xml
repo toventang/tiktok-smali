@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@color/l" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.ies.dmt.ui.titlebar.TextTitleBar id="@+id/em8" layout_width="match_parent" layout_height="@dimen/a0s" NOT_FOUND_0x6="1" NOT_FOUND_0x7="@string/bye" NOT_FOUND_0x8="15dp" NOT_FOUND_0x9="@string/a7u" NOT_FOUND_0xa="@color/c4" NOT_FOUND_0xb="15dp" NOT_FOUND_0xc="@string/ab6" NOT_FOUND_0xd="@color/c4" NOT_FOUND_0xe="false"/>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/cbe" background="@color/l" layout_width="match_parent" layout_height="match_parent"/>
+</LinearLayout>

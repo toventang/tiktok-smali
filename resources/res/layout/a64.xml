@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout gravity="center_vertical" orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_margin="12dp">
+        <com.ss.android.ugc.aweme.base.ui.CircleImageView id="@+id/icon_iv" layout_width="62dp" layout_height="62dp" NOT_FOUND_0xf="@drawable/au6"/>
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="12dp" layout_weight="1" layout_marginStart="12dp">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/title_tv" layout_width="match_parent" layout_height="wrap_content" singleLine="true" lineSpacingMultiplier="1" NOT_FOUND_0x10="52"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" id="@+id/akl" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp" maxLines="2" NOT_FOUND_0x10="51"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

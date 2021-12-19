@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout gravity="center_vertical" orientation="horizontal" paddingLeft="16dp" paddingRight="16dp" layout_width="match_parent" layout_height="52dp" paddingStart="16dp" paddingEnd="16dp">
+        <LinearLayout gravity="center_vertical" orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content">
+            <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/d9n" layout_width="20dp" layout_height="20dp" layout_marginRight="12dp" src="0x7f08068b" scaleType="centerCrop" importantForAccessibility="no" layout_marginEnd="12dp" NOT_FOUND_0x21="2dp"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView textColor="@color/bx" id="@+id/d9t" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" style="@style/y6"/>
+            <View layout_gravity="center_vertical" id="@+id/d9j" background="@color/l" visibility="gone" layout_width="1dp" layout_height="12dp" layout_marginLeft="6dp" layout_marginRight="6dp" alpha="0.34"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView textColor="@color/bx" id="@+id/d9l" layout_width="wrap_content" layout_height="wrap_content" text="@string/evo" maxLines="1" maxEms="15" singleLine="true" style="@style/y6"/>
+            <ImageView layout_gravity="center" id="@+id/d9m" visibility="gone" layout_width="7dp" layout_height="7dp" layout_marginLeft="2dp" layout_marginBottom="7dp" importantForAccessibility="no" layout_marginStart="2dp"/>
+            <com.bytedance.lighten.loader.SmartImageView id="@+id/dd9" visibility="gone" layout_width="140dp" layout_height="14dp" layout_marginLeft="7dp" importantForAccessibility="no" layout_marginStart="7dp" NOT_FOUND_0x1f="0" NOT_FOUND_0x20="@color/c9"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView textColor="@color/bi" ellipsize="end" gravity="center_vertical" layout_gravity="center_vertical" id="@+id/dd_" background="@drawable/t7" paddingLeft="3dp" paddingTop="1dp" paddingRight="3dp" paddingBottom="1dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="8dp" singleLine="true" layout_marginStart="8dp" style="@style/xw"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView textColor="@color/c5" ellipsize="end" gravity="center" id="@+id/d9q" background="@drawable/bab" paddingLeft="4dp" paddingTop="1.5dp" paddingRight="4dp" paddingBottom="1.5dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="7dp" layout_marginTop="1dp" text="@string/f0y" maxLines="1" layout_marginStart="10dp" style="@style/xw"/>
+        </LinearLayout>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView textColor="@color/c5" ellipsize="middle" gravity="right|center_vertical|center_horizontal|center|end" id="@+id/d9s" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="8dp" text="@string/f0f" singleLine="true" layout_weight="1" layout_marginStart="8dp" style="@style/y6"/>
+        <FrameLayout id="@+id/dn_" layout_width="40dp" layout_height="40dp" layout_marginLeft="-24dp" layout_marginStart="-24dp">
+            <com.ss.android.ugc.aweme.views.AutoRTLImageView layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/bj9" layout_width="wrap_content" layout_height="wrap_content" src="@drawable/apz" scaleType="center" importantForAccessibility="no"/>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

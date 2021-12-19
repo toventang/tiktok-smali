@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/b69" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout id="@+id/d84" layout_width="match_parent" layout_height="match_parent"/>
+    <com.ss.android.ugc.aweme.base.ui.CustomInterceptTouchEventFrameLayout id="@+id/b52" layout_width="match_parent" layout_height="match_parent">
+        <com.ss.android.ugc.aweme.homepage.ui.view.FlippableViewPagerExt id="@+id/fk_" layout_width="match_parent" layout_height="match_parent"/>
+        <ImageView id="@+id/emr" visibility="visible" layout_width="match_parent" layout_height="wrap_content" src="@drawable/a_n"/>
+        <LinearLayout orientation="vertical" id="@+id/emb" layout_width="match_parent" layout_height="match_parent">
+            <View id="@+id/e_f" layout_width="match_parent" layout_height="0dp"/>
+            <FrameLayout layout_width="match_parent" layout_height="wrap_content">
+                <FrameLayout layout_gravity="center_vertical" id="@+id/dp7" layout_width="match_parent" layout_height="wrap_content"/>
+                <include layout="@layout/a46"/>
+            </FrameLayout>
+        </LinearLayout>
+    </com.ss.android.ugc.aweme.base.ui.CustomInterceptTouchEventFrameLayout>
+    <View layout_gravity="bottom" id="@+id/fek" background="@color/ok" visibility="gone" layout_width="match_parent" layout_height="@dimen/n5"/>
+    <ViewStub id="@+id/bgp" layout_width="match_parent" layout_height="match_parent"/>
+</FrameLayout>

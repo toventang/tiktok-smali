@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.common.widget.NestedScrollingRecyclerView id="@+id/djj" layout_width="match_parent" layout_height="match_parent" layout_marginBottom="18dp"/>
+</LinearLayout>

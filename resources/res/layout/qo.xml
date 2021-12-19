@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@color/l" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout layout_width="match_parent" layout_height="wrap_content">
+        <View background="@drawable/y2" layout_width="56dp" layout_height="18dp" layout_marginLeft="@dimen/fj" layout_marginTop="@dimen/fj" layout_marginRight="@dimen/fj"/>
+        <View background="@drawable/y2" layout_width="139dp" layout_height="18dp" layout_marginLeft="89dp" layout_marginTop="@dimen/fj" layout_marginStart="89dp"/>
+    </FrameLayout>
+    <View background="@drawable/y2" layout_width="match_parent" layout_height="18dp" layout_marginLeft="@dimen/fj" layout_marginTop="@dimen/fj" layout_marginRight="@dimen/fj" layout_marginStart="@dimen/fj" layout_marginEnd="@dimen/fj"/>
+    <View background="@drawable/y2" layout_width="match_parent" layout_height="18dp" layout_marginLeft="@dimen/fj" layout_marginTop="@dimen/fj" layout_marginRight="@dimen/fj" layout_marginStart="@dimen/fj" layout_marginEnd="@dimen/fj"/>
+    <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="match_parent">
+        <View background="@drawable/y2" layout_width="32dp" layout_height="32dp" layout_marginLeft="@dimen/fj" layout_marginTop="@dimen/fj" layout_marginStart="@dimen/fj"/>
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+            <View background="@drawable/y2" layout_width="113dp" layout_height="18dp" layout_marginLeft="@dimen/fj" layout_marginTop="@dimen/fj" layout_marginRight="@dimen/fj" layout_marginStart="@dimen/fj" layout_marginEnd="@dimen/fj"/>
+            <View background="@drawable/y2" layout_width="177dp" layout_height="18dp" layout_marginLeft="@dimen/fj" layout_marginTop="@dimen/fj" layout_marginRight="@dimen/fj" layout_marginStart="@dimen/fj" layout_marginEnd="@dimen/fj"/>
+            <View background="@drawable/y2" layout_width="113dp" layout_height="18dp" layout_marginLeft="@dimen/fj" layout_marginTop="@dimen/fj" layout_marginRight="@dimen/fj" layout_marginStart="@dimen/fj" layout_marginEnd="@dimen/fj"/>
+            <View background="@drawable/y2" layout_width="match_parent" layout_height="18dp" layout_marginLeft="@dimen/fj" layout_marginTop="26dp" layout_marginRight="@dimen/fj" layout_marginStart="@dimen/fj" layout_marginEnd="@dimen/fj"/>
+            <View background="@drawable/y2" layout_width="221dp" layout_height="18dp" layout_marginLeft="@dimen/fj" layout_marginTop="@dimen/fj" layout_marginRight="@dimen/fj" layout_marginStart="@dimen/fj" layout_marginEnd="@dimen/fj"/>
+            <androidx.constraintlayout.widget.ConstraintLayout layout_width="match_parent" layout_height="wrap_content" layout_marginTop="22dp" layout_marginRight="@dimen/fj" layout_marginEnd="@dimen/fj">
+                <View id="@+id/abz" background="@drawable/y2" layout_width="0dp" layout_height="0dp" layout_marginLeft="16dp" layout_marginStart="16dp" NOT_FOUND_0xb="0" NOT_FOUND_0xc="h,1:1" NOT_FOUND_0xe="@+id/aby" NOT_FOUND_0xf="0.5" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0"/>
+                <View id="@+id/ac1" background="@drawable/y2" layout_width="0dp" layout_height="0dp" layout_marginLeft="8dp" layout_marginStart="8dp" NOT_FOUND_0xb="0" NOT_FOUND_0xc="h,1:1" NOT_FOUND_0xd="0" NOT_FOUND_0xf="0.5" NOT_FOUND_0x10="@+id/ac0" NOT_FOUND_0x12="0"/>
+                <View id="@+id/ac0" background="@drawable/y2" layout_width="0dp" layout_height="0dp" layout_marginLeft="8dp" layout_marginStart="8dp" NOT_FOUND_0xb="0" NOT_FOUND_0xc="h,1:1" NOT_FOUND_0xe="@+id/ac1" NOT_FOUND_0xf="0.5" NOT_FOUND_0x10="@+id/aby" NOT_FOUND_0x12="0"/>
+                <View id="@+id/aby" background="@drawable/y2" layout_width="0dp" layout_height="0dp" layout_marginLeft="8dp" layout_marginStart="8dp" NOT_FOUND_0xb="0" NOT_FOUND_0xc="h,1:1" NOT_FOUND_0xe="@+id/ac0" NOT_FOUND_0xf="0.5" NOT_FOUND_0x10="@+id/abz" NOT_FOUND_0x12="0"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <View background="@drawable/y2" layout_width="113dp" layout_height="18dp" layout_marginLeft="@dimen/fj" layout_marginTop="@dimen/fj" layout_marginRight="@dimen/fj" layout_marginStart="@dimen/fj" layout_marginEnd="@dimen/fj"/>
+            <View background="@drawable/y2" layout_width="match_parent" layout_height="18dp" layout_marginLeft="@dimen/fj" layout_marginTop="@dimen/fj" layout_marginRight="@dimen/fj" layout_marginStart="@dimen/fj" layout_marginEnd="@dimen/fj"/>
+            <View background="@drawable/y2" layout_width="match_parent" layout_height="18dp" layout_marginLeft="@dimen/fj" layout_marginTop="@dimen/fj" layout_marginRight="@dimen/fj" layout_marginStart="@dimen/fj" layout_marginEnd="@dimen/fj"/>
+            <View background="@drawable/y2" layout_width="match_parent" layout_height="18dp" layout_marginLeft="@dimen/fj" layout_marginTop="@dimen/fj" layout_marginRight="@dimen/fj" layout_marginStart="@dimen/fj" layout_marginEnd="@dimen/fj"/>
+            <View background="@drawable/y2" layout_width="221dp" layout_height="18dp" layout_marginLeft="@dimen/fj" layout_marginTop="@dimen/fj" layout_marginRight="@dimen/fj" layout_marginStart="@dimen/fj" layout_marginEnd="@dimen/fj"/>
+            <FrameLayout layout_width="match_parent" layout_height="wrap_content">
+                <View background="@drawable/y2" layout_width="113dp" layout_height="18dp" layout_marginLeft="@dimen/fj" layout_marginTop="@dimen/fj" layout_marginRight="@dimen/fj" layout_marginStart="@dimen/fj" layout_marginEnd="@dimen/fj"/>
+                <View layout_gravity="end" background="@drawable/y2" layout_width="24dp" layout_height="24dp" layout_marginLeft="@dimen/fj" layout_marginTop="@dimen/fj" layout_marginRight="@dimen/fj" layout_marginStart="@dimen/fj" layout_marginEnd="@dimen/fj"/>
+                <View layout_gravity="end" background="@drawable/y2" layout_width="24dp" layout_height="24dp" layout_marginLeft="@dimen/fj" layout_marginTop="@dimen/fj" layout_marginRight="66dp" layout_marginStart="@dimen/fj" layout_marginEnd="66dp"/>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

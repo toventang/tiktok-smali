@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns="" layout_width="match_parent" layout_height="match_parent" fillViewport="true" layout_height="match_parent" layout_width="match parent">
+    <FrameLayout layout_width="match_parent" layout_height="match_parent">
+        <com.bytedance.tux.status.loading.TuxDualBallView layout_gravity="center" id="@+id/bc5" visibility="visible" layout_width="36dp" layout_height="36dp"/>
+        <LinearLayout gravity="center" layout_gravity="center" orientation="vertical" id="@+id/bc1" visibility="gone" layout_width="match_parent" layout_height="match_parent">
+            <com.bytedance.tux.icon.TuxIconView layout_gravity="center" id="@+id/bc0" layout_width="80dp" layout_height="80dp" layout_margin="5dp" NOT_FOUND_0x18="@raw/icon_large_error_robot" NOT_FOUND_0x1a="@color/c5"/>
+            <com.bytedance.tux.input.TuxTextView id="@+id/bc3" layout_width="wrap_content" layout_height="wrap_content" layout_margin="5dp" text="@string/ge" NOT_FOUND_0x17="43" NOT_FOUND_0x19="20dp"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bh" id="@+id/bc2" layout_width="wrap_content" layout_height="wrap_content" layout_margin="5dp" text="@string/hax" NOT_FOUND_0x19="14dp"/>
+        </LinearLayout>
+        <LinearLayout orientation="vertical" id="@+id/bc4" background="@color/l" visibility="gone" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+            <com.ss.android.ugc.aweme.base.ui.SmartAvatarImageView layout_gravity="center" id="@+id/bbc" layout_width="88dp" layout_height="88dp"/>
+            <com.bytedance.tux.input.TuxTextView layout_gravity="center" id="@+id/bbf" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10dp" layout_marginBottom="10dp" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0" NOT_FOUND_0x17="43"/>
+            <View id="@+id/pu" background="?android:attr/listDivider" layout_width="match_parent" layout_height="1dp" layout_marginLeft="16dp" layout_marginRight="16dp" layout_marginBottom="10dp"/>
+            <androidx.recyclerview.widget.RecyclerView id="@+id/bc6" layout_width="match_parent" layout_height="wrap_content" overScrollMode="never" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0"/>
+        </LinearLayout>
+    </FrameLayout>
+</androidx.core.widget.NestedScrollView>

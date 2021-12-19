@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" layout_gravity="center" orientation="vertical" id="@+id/d1w" layout_width="match_parent" layout_height="wrap_content" paddingStart="@dimen/jl" paddingEnd="@dimen/jl">
+    <ImageView layout_gravity="center_horizontal" id="@+id/bn2" visibility="gone" layout_width="66dp" layout_height="68dp"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a_" gravity="center" layout_gravity="center_horizontal" id="@+id/f9l" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xb="32"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/aa" gravity="center" layout_gravity="center_horizontal" id="@+id/eyc" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xb="51"/>
+    <com.ss.android.ugc.aweme.feed.guide.AutoCenterDmtIconButton layout_gravity="center_horizontal" id="@+id/bhk" layout_width="wrap_content" layout_height="@dimen/gq" minWidth="247dp"/>
+</LinearLayout>

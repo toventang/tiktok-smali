@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/d_y" background="@drawable/b_b" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="horizontal" id="@+id/da3" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="34dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x12="0" NOT_FOUND_0x15="0" NOT_FOUND_0x17="0">
+        <com.bytedance.tux.icon.TuxIconView layout_gravity="center_vertical" id="@+id/d_x" layout_width="24dp" layout_height="24dp" layout_marginEnd="52dp" NOT_FOUND_0x1a="@raw/icon_x_mark" NOT_FOUND_0x1b="@color/u"/>
+        <View gravity="center" layout_width="0dp" layout_height="35dp" layout_weight="1" elevation="10dp"/>
+        <com.bytedance.tux.button.TuxButton textColor="@color/l" gravity="center" id="@+id/ct1" layout_width="76dp" layout_height="35dp" text="@string/a1_" NOT_FOUND_0x19="63"/>
+    </LinearLayout>
+    <com.ss.android.ugc.aweme.view.customView.NaviGLSurfaceView id="@+id/ct2" layout_width="match_parent" layout_height="0dp" NOT_FOUND_0x11="@+id/ct8" NOT_FOUND_0x12="0" NOT_FOUND_0x15="0" NOT_FOUND_0x16="@+id/da3"/>
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/ct8" layout_width="match_parent" layout_height="360dp" NOT_FOUND_0x10="0" NOT_FOUND_0x12="0" NOT_FOUND_0x15="0">
+        <com.ss.android.ugc.aweme.view.customView.NaviNonSwipingViewPager id="@+id/ct7" NOT_FOUND_0x10="0" NOT_FOUND_0x12="0" NOT_FOUND_0x15="0" style="@style/a0d">
+            <com.google.android.material.tabs.TabLayout id="@+id/ct9" NOT_FOUND_0x18="@style/a0f" style="@style/a0e"/>
+        </com.ss.android.ugc.aweme.view.customView.NaviNonSwipingViewPager>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@+id/ct3" visibility="gone" layout_width="match_parent" layout_height="match_parent">
+            <com.ss.android.ugc.aweme.view.customView.NaviNonSwipingViewPager id="@+id/ct4" NOT_FOUND_0x10="0" NOT_FOUND_0x12="0" NOT_FOUND_0x15="0" style="@style/a0d">
+                <com.google.android.material.tabs.TabLayout id="@+id/ct5" NOT_FOUND_0x18="@style/a0f" style="@style/a0e"/>
+                <com.bytedance.tux.input.TuxTextView layout_width="139dp" layout_height="36dp" text="@string/a1_"/>
+            </com.ss.android.ugc.aweme.view.customView.NaviNonSwipingViewPager>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/l" gravity="center" id="@+id/da4" layout_width="140dp" layout_height="24dp" layout_marginBottom="46dp" text="@string/a11" layout_marginEnd="8dp" NOT_FOUND_0x10="0" NOT_FOUND_0x13="@+id/da5" NOT_FOUND_0x15="0" NOT_FOUND_0x19="61"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/l" gravity="center" id="@+id/da5" layout_width="140dp" layout_height="24dp" layout_marginBottom="46dp" text="@string/a1_" layout_marginStart="8dp" NOT_FOUND_0x10="0" NOT_FOUND_0x12="0" NOT_FOUND_0x14="@+id/da4" NOT_FOUND_0x19="63"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

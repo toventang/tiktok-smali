@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <View id="@+id/enx" background="@color/b4" layout_width="match_parent" layout_height="1px" layout_marginTop="10dp" layout_marginBottom="5dp" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" gravity="center_vertical" id="@+id/title" layout_width="wrap_content" layout_height="20dp" layout_marginTop="12dp" layout_marginBottom="8dp" singleLine="true" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x13="33"/>
+    <LinearLayout orientation="vertical" id="@+id/adh" layout_width="match_parent" layout_height="wrap_content"/>
+    <RelativeLayout id="@+id/fi3" layout_width="match_parent" layout_height="40dp" layout_marginLeft="16dp" layout_marginStart="16dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c4" id="@+id/fi4" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="6.5dp" text="@string/d5y" NOT_FOUND_0x13="51"/>
+        <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView id="@+id/dn5" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="9dp" layout_marginRight="16dp" src="@drawable/bdf" layout_alignParentRight="true" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <Space id="@+id/v0" layout_width="match_parent" layout_height="10dp"/>
+    <View id="@+id/uz" background="@color/b4" layout_width="match_parent" layout_height="1px" layout_marginBottom="10dp" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+</LinearLayout>

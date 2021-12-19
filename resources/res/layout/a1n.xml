@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.creativex.recorder.gesture.api.VideoRecordGestureLayout xmlns="" id="@+id/bah" saveEnabled="false" clipChildren="false" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.widgetcompat.RemoteImageView id="@+id/dje" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout id="@+id/dja" layout_width="match_parent" layout_height="match_parent"/>
+    <com.ss.android.ugc.gamora.recorder.quickupload.InterceptMotionEventsFrameLayout id="@+id/dj9" layout_width="match_parent" layout_height="match_parent">
+        <FrameLayout id="@+id/dj6" layout_width="match_parent" layout_height="match_parent"/>
+        <FrameLayout id="@+id/dj5" layout_width="match_parent" layout_height="match_parent"/>
+    </com.ss.android.ugc.gamora.recorder.quickupload.InterceptMotionEventsFrameLayout>
+    <FrameLayout id="@+id/dqn" clipChildren="false" layout_width="match_parent" layout_height="match_parent">
+        <FrameLayout id="@+id/c7c" background="@color/c9" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+            <FrameLayout id="@+id/c7a" layout_width="match_parent" layout_height="match_parent"/>
+            <FrameLayout id="@+id/c7b" layout_width="match_parent" layout_height="match_parent"/>
+        </FrameLayout>
+    </FrameLayout>
+</com.bytedance.creativex.recorder.gesture.api.VideoRecordGestureLayout>

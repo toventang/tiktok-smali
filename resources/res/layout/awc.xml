@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center_vertical" orientation="horizontal" paddingTop="8dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp">
+    <com.ss.android.ugc.aweme.base.ui.SmartAvatarImageView id="@+id/bo" layout_width="32dp" layout_height="32dp"/>
+    <com.ss.android.ugc.aweme.search.view.UsernameWithVerifyAndRelation id="@+id/bt" layout_width="0dp" layout_height="wrap_content" layout_weight="1" layoutDirection="locale" layout_marginStart="12dp" layout_marginEnd="12dp"/>
+    <com.bytedance.tux.icon.TuxIconView id="@+id/bp" layout_width="20dp" layout_height="20dp" layout_marginEnd="16dp" NOT_FOUND_0xc="@raw/icon_x_mark" NOT_FOUND_0xd="?attr/bj"/>
+</LinearLayout>

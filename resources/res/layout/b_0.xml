@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="36dp" layout_height="36dp">
+    <com.bytedance.android.live.core.widget.HSImageView id="@+id/bb8" visibility="gone" layout_width="36dp" layout_height="36dp"/>
+    <ImageView id="@+id/bb9" layout_width="36dp" layout_height="36dp"/>
+</FrameLayout>

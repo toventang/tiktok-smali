@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView xmlns="" id="@+id/cl7" background="@color/l" paddingLeft="9dp" paddingTop="14dp" paddingRight="9dp" paddingBottom="14dp" visibility="gone" clipChildren="false" clipToPadding="false" layout_width="match_parent" layout_height="wrap_content" paddingStart="9dp" paddingEnd="9dp"/>

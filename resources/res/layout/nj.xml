@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/a_v" layout_width="match_parent" layout_height="match_parent">
+    <View id="@+id/aaa" layout_width="match_parent" layout_height="219dp" alpha="0"/>
+    <com.ss.android.ugc.aweme.commentStickerPanel.CommentStickerPanelContainer layout_gravity="bottom|center_vertical|center_horizontal|center" id="@+id/aa_" background="@drawable/xh" layout_width="match_parent" layout_height="match_parent">
+        <FrameLayout id="@+id/d1o" layout_width="match_parent" layout_height="52dp" paddingStart="16dp" paddingEnd="16dp">
+            <com.google.android.material.tabs.TabLayout layout_gravity="bottom" id="@+id/aad" layout_width="match_parent" layout_height="40dp" NOT_FOUND_0xb="@color/a9" NOT_FOUND_0xc="2dp" NOT_FOUND_0xd="@color/us" NOT_FOUND_0xe="@color/a9" NOT_FOUND_0xf="@style/fb" NOT_FOUND_0x10="@color/aa"/>
+        </FrameLayout>
+        <FrameLayout id="@+id/aac" layout_width="match_parent" layout_height="1dp" layout_below="@+id/d1o">
+            <View layout_gravity="center_vertical" background="@color/a7" layout_width="match_parent" layout_height="0.5dp"/>
+        </FrameLayout>
+        <androidx.viewpager.widget.ViewPager id="@+id/aag" clipToPadding="false" layout_width="match_parent" layout_height="match_parent" layout_below="@+id/d1o" paddingStart="12dp" paddingEnd="12dp"/>
+    </com.ss.android.ugc.aweme.commentStickerPanel.CommentStickerPanelContainer>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="wb" />
+    <drawable name="a5x">@color/j</drawable>
+    <drawable name="ahh" />
+    <drawable name="b5c">#3333b5e5</drawable>
+    <drawable name="b5d">#0cffffff</drawable>
+    <drawable name="bn1">?unknown_ref: 7f0800e2</drawable>
+    <drawable name="bn2">?unknown_ref: 7f0800e4</drawable>
+</resources>

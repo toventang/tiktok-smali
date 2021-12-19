@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/am7" focusable="false" focusableInTouchMode="false" layout_width="wrap_content" layout_height="wrap_content">
+    <FrameLayout id="@+id/am3" focusable="false" focusableInTouchMode="false" layout_width="50dp" layout_height="50dp" style="@style/vx">
+        <com.ss.android.ugc.aweme.feed.widget.DiggAnimationView layout_gravity="center" id="@+id/am1" focusable="false" focusableInTouchMode="false" layout_width="50dp" layout_height="50dp" scaleType="centerInside" contentDescription="@string/kx"/>
+    </FrameLayout>
+    <com.bytedance.tux.input.TuxTextView layout_gravity="center_horizontal" id="@+id/am4" paddingBottom="16dp" focusable="false" focusableInTouchMode="false" layout_marginTop="-3.4dp" importantForAccessibility="no" NOT_FOUND_0xc="72" style="@style/w0"/>
+</LinearLayout>

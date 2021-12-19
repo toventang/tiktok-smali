@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/cy0" layout_width="58dp" layout_height="58dp">
+    <com.ss.android.ugc.aweme.base.ui.AvatarImageWithVerify layout_gravity="center" id="@+id/bu0" layout_width="56dp" layout_height="56dp" NOT_FOUND_0x5="@color/bl" NOT_FOUND_0x6="6" NOT_FOUND_0x7="true"/>
+    <com.ss.android.ugc.aweme.unread.UnReadCircleView layout_gravity="center" id="@+id/fk6" visibility="gone" layout_width="56dp" layout_height="56dp" NOT_FOUND_0x8="2dp"/>
+</FrameLayout>

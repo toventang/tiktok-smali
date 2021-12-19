@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.lighten.loader.SmartImageView id="@+id/atc" layout_width="match_parent" layout_height="match_parent" scaleType="centerInside"/>
+    <RelativeLayout id="@+id/ckp" layout_width="match_parent" layout_height="match_parent">
+        <com.bytedance.lighten.loader.SmartImageView id="@+id/atd" layout_width="0dp" layout_height="0dp" scaleType="centerInside"/>
+        <com.ss.android.ugc.aweme.infoSticker.widget.AnimationPathView id="@+id/ckn" layout_width="wrap_content" layout_height="wrap_content"/>
+    </RelativeLayout>
+    <com.ss.android.ugc.aweme.infoSticker.widget.AnimationPathView id="@+id/kp" layout_width="wrap_content" layout_height="wrap_content"/>
+    <View id="@+id/ep7" background="@drawable/gm" layout_width="match_parent" layout_height="120dp" scaleY="-1"/>
+    <View id="@+id/w3" background="@drawable/gm" layout_width="match_parent" layout_height="120dp" layout_alignParentBottom="true"/>
+    <com.ss.android.ugc.tools.view.widget.AVAutoRTLImageView id="@+id/q9" padding="8dp" layout_width="40dp" layout_height="40dp" layout_marginLeft="12dp" layout_marginTop="24.5dp" src="0x7f0805c3" scaleType="centerCrop" layout_marginStart="12dp"/>
+    <View id="@+id/a7_" layout_width="110dp" layout_height="50dp" layout_alignParentLeft="true" layout_alignParentBottom="true" layout_alignParentStart="true"/>
+    <com.ss.android.ugc.aweme.themechange.base.AVDmtImageView id="@+id/bip" visibility="invisible" layout_width="32dp" layout_height="32dp" layout_marginLeft="16dp" layout_marginBottom="22dp" layout_alignParentBottom="true" layout_marginStart="16dp" NOT_FOUND_0x21="0x7f0800df"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center_vertical" id="@+id/ey6" visibility="invisible" layout_width="200dp" layout_height="wrap_content" layout_marginLeft="6dp" text="@string/ay4" maxLines="2" layout_toRightOf="@+id/bip" layout_alignTop="@+id/bip" layout_alignBottom="@+id/bip" layout_marginStart="6dp" layout_toEndOf="@+id/bip" NOT_FOUND_0x22="41"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" ellipsize="end" gravity="center" id="@+id/yq" background="?attr/a9w" layout_width="70dp" layout_height="wrap_content" layout_marginRight="16dp" layout_marginBottom="20dp" text="@string/ay1" shadowColor="@color/bo" shadowDx="0" shadowDy="2" shadowRadius="2" layout_alignTop="@+id/bip" layout_alignBottom="@+id/bip" layout_alignParentRight="true" layout_alignParentBottom="true" layout_marginEnd="16dp" layout_alignParentEnd="true" NOT_FOUND_0x22="41"/>
+</RelativeLayout>

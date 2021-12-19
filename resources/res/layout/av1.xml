@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/dva" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout id="@+id/aeh" layout_width="match_parent" layout_height="wrap_content"/>
+    <FrameLayout layout_width="match_parent" layout_height="0dp" layout_weight="1">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout layout_width="match_parent" layout_height="match_parent">
+            <com.google.android.material.appbar.AppBarLayout id="@+id/du8" background="@null" fadingEdge="none" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xc="0dp">
+                <LinearLayout orientation="vertical" id="@+id/b46" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xe="15">
+                    <FrameLayout id="@+id/bdt" layout_width="match_parent" layout_height="wrap_content"/>
+                </LinearLayout>
+            </com.google.android.material.appbar.AppBarLayout>
+            <com.ss.android.ugc.aweme.search.view.SearchDoubleBallSwipeRefreshLayout id="@+id/dk8" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0xd="@string/uo">
+                <FrameLayout layout_width="match_parent" layout_height="match_parent">
+                    <com.ss.android.ugc.aweme.discover.mixfeed.ui.SearchRecyclerView id="@+id/cbi" paddingTop="8dp" layout_width="match_parent" layout_height="match_parent"/>
+                    <LinearLayout orientation="vertical" id="@+id/arb" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+                    <com.bytedance.ies.dmt.ui.widget.DmtStatusView id="@+id/e_o" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+                    <com.bytedance.ies.dmt.ui.widget.DmtStatusView id="@+id/e_9" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+                    <com.ss.android.ugc.aweme.discover.lynx.container.SinglePageLynxViewContainer id="@+id/arc" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+                </FrameLayout>
+            </com.ss.android.ugc.aweme.search.view.SearchDoubleBallSwipeRefreshLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        <ViewStub layout_gravity="center" id="@+id/aot" layout="@layout/axm" layout_width="55dp" layout_height="55dp"/>
+    </FrameLayout>
+    <LinearLayout orientation="vertical" id="@+id/c7u" background="@color/l" visibility="gone" layout_width="match_parent" layout_height="match_parent" layout_below="@+id/dvh"/>
+</LinearLayout>

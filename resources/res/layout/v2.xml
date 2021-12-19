@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@color/a9" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <RelativeLayout paddingLeft="8dp" paddingTop="10dp" paddingRight="8dp" paddingBottom="10dp" layout_width="match_parent" layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c4" id="@+id/ewf" layout_width="wrap_content" layout_height="wrap_content" text="@string/a7u" NOT_FOUND_0x10="41"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c4" layout_width="wrap_content" layout_height="wrap_content" text="@string/a95" layout_centerInParent="true" NOT_FOUND_0x10="31"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bh" id="@+id/f8l" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/a81" layout_alignParentEnd="true" NOT_FOUND_0x10="41"/>
+    </RelativeLayout>
+    <FrameLayout layout_width="match_parent" layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView id="@+id/drg" layout_width="match_parent" layout_height="match_parent"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bz" layout_gravity="center" id="@+id/f3j" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x10="41"/>
+    </FrameLayout>
+</LinearLayout>

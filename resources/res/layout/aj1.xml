@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.base.ui.RemoteImageView xmlns="" layout_gravity="center_vertical" id="@+id/or" background="@drawable/sq" padding="1dp" layout_width="20dp" layout_height="20dp" NOT_FOUND_0x6="1" NOT_FOUND_0x7="@color/j" NOT_FOUND_0x8="1" NOT_FOUND_0x9="@color/j" NOT_FOUND_0xa="1" NOT_FOUND_0xb="true"/>

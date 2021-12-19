@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" background="@color/ri" layout_width="match_parent" layout_height="match_parent">
+    <RelativeLayout id="@+id/emo" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="6dp">
+        <TextView textSize="17sp" textColor="@color/go" gravity="center" id="@+id/ef9" layout_width="50dp" layout_height="32dp" layout_marginRight="16dp" text="@string/ffv" layout_alignParentRight="true" fontFamily="ProximaNova-Semibold" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <EditText textSize="15dp" textColor="#ffffff" textColorHint="#80ffffff" layout_gravity="bottom" id="@+id/atq" background="@drawable/bay" paddingLeft="10dp" paddingTop="8dp" paddingRight="10dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" layout_margin="16dp" maxLines="1" singleLine="true" imeOptions="actionDone"/>
+</FrameLayout>

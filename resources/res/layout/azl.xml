@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.common.keyboard.MeasureLinearLayout xmlns="" layout_gravity="bottom" orientation="vertical" id="@+id/cof" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout layout_gravity="top" orientation="vertical" id="@+id/coe" background="@drawable/r1" layout_width="match_parent" layout_height="match_parent">
+        <FrameLayout id="@+id/coc" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="11.5dp">
+            <LinearLayout orientation="vertical" id="@+id/cob" layout_width="match_parent" layout_height="wrap_content">
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/cnp" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="12dp" NOT_FOUND_0xc="32"/>
+                <com.ss.android.ugc.aweme.sharer.ui.bar.ShareActionBar id="@+id/coa" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+            </LinearLayout>
+            <com.bytedance.tux.icon.TuxIconView layout_gravity="top|right|center_vertical|center_horizontal|center|end" id="@+id/cny" layout_width="18dp" layout_height="18dp" layout_marginTop="13dp" layout_marginEnd="19dp" NOT_FOUND_0xd="@raw/icon_x_mark" NOT_FOUND_0xe="@color/bx"/>
+        </FrameLayout>
+        <View id="@+id/cnz" background="@color/v" visibility="visible" layout_width="match_parent" layout_height="0.5dp"/>
+        <com.ss.android.ugc.aweme.share.more.ui.ShareActionVerticalList id="@+id/cod" layout_width="match_parent" layout_height="wrap_content"/>
+    </LinearLayout>
+</com.ss.android.ugc.aweme.common.keyboard.MeasureLinearLayout>

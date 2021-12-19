@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" paddingLeft="16dp" paddingRight="16dp" layout_width="match_parent" layout_height="?attr/s4" minWidth="196dp">
+    <TextView textAppearance="?attr/ai2" ellipsize="marquee" layout_gravity="center_vertical" id="@android:id/title" fadingEdge="horizontal" layout_width="match_parent" layout_height="wrap_content" singleLine="true" textAlignment="viewStart"/>
+</FrameLayout>

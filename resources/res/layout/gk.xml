@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/ag9" background="@color/l" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/f0j" background="@color/l" paddingLeft="16dp" paddingTop="12dp" paddingBottom="3dp" layout_width="match_parent" layout_height="wrap_content" textDirection="locale" textAlignment="gravity" paddingStart="16dp" NOT_FOUND_0x15="53"/>
+    <RelativeLayout background="?android:attr/selectableItemBackground" layout_width="match_parent" layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/f3c" paddingLeft="16dp" paddingTop="15dp" paddingRight="0dp" paddingBottom="15dp" layout_width="wrap_content" layout_height="wrap_content" layout_centerVertical="true" paddingStart="16dp" paddingEnd="0dp" NOT_FOUND_0x15="41"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/ex1" paddingLeft="0dp" paddingTop="15dp" paddingRight="36dp" paddingBottom="15dp" layout_width="wrap_content" layout_height="wrap_content" layout_alignParentRight="true" layout_centerVertical="true" paddingStart="0dp" paddingEnd="36dp" layout_alignParentEnd="true" NOT_FOUND_0x15="61"/>
+    </RelativeLayout>
+    <View background="@color/b6" layout_width="match_parent" layout_height="0.5dp" layout_marginLeft="16dp" layout_marginRight="24dp" layout_marginStart="16dp" layout_marginEnd="24dp"/>
+</LinearLayout>

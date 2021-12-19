@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" paddingLeft="16dp" paddingTop="4dp" paddingRight="16dp" paddingBottom="4dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp" NOT_FOUND_0x11="4dp">
+    <LinearLayout orientation="vertical" id="@+id/b8j" layout_width="0dp" layout_height="wrap_content" layout_weight="1">
+        <com.bytedance.android.live.core.widget.CustomFontTextView textSize="20dp" textColor="@color/a_" gravity="center_horizontal" id="@+id/b8e" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x12="7"/>
+        <com.bytedance.android.live.core.widget.FitTextView textSize="12dp" textColor="@color/aa" gravity="center_horizontal" id="@+id/b8m" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp" text="@string/gsy"/>
+    </LinearLayout>
+    <LinearLayout orientation="vertical" layout_width="0dp" layout_height="wrap_content" layout_weight="1">
+        <com.bytedance.android.live.core.widget.CustomFontTextView textSize="20dp" textColor="@color/a_" gravity="center_horizontal" id="@+id/b82" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x12="7"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="12dp" textColor="@color/aa" gravity="center_horizontal" id="@+id/b8b" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp" text="@string/gsx"/>
+    </LinearLayout>
+    <LinearLayout orientation="vertical" id="@+id/ca0" visibility="visible" layout_width="0dp" layout_height="wrap_content" layout_weight="1">
+        <com.bytedance.android.live.core.widget.CustomFontTextView textSize="20dp" textColor="@color/a_" gravity="center_horizontal" id="@+id/c_z" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x12="7"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="12dp" textColor="@color/aa" gravity="center_horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="4dp" text="@string/gwe"/>
+    </LinearLayout>
+</LinearLayout>

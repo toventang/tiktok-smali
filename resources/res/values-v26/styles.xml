@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="bg" parent="@style/d1">
+    </style>
+    <style name="bn" parent="@style/d2">
+    </style>
+    <style name="d1" parent="@style/cz">
+        <item name="ok">?unknown_attr_ref: 1010543</item>
+    </style>
+    <style name="d2" parent="@style/d0">
+        <item name="ok">?unknown_attr_ref: 1010543</item>
+    </style>
+    <style name="d3" parent="@style/dc">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="?0x1010540">true</item>
+    </style>
+    <style name="ev" parent="@style/d3">
+    </style>
+    <style name="o1" parent="@style/o0">
+        <item name="android:colorBackground">@color/l</item>
+        <item name="android:windowBackground">@color/l</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:indeterminateDuration">1500</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:navigationBarColor">@color/l</item>
+        <item name="?0x101056c">true</item>
+        <item name="oe">#ff4081</item>
+        <item name="oi">#0f161823</item>
+        <item name="ol">@color/l</item>
+        <item name="om">@color/l</item>
+        <item name="au3">false</item>
+        <item name="au_">true</item>
+    </style>
+    <style name="qw" parent="@android:style/Widget">
+        <item name="android:background">?attr/ol</item>
+        <item name="android:stateListAnimator">@animator/a</item>
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="?0x1010540">true</item>
+    </style>
+</resources>

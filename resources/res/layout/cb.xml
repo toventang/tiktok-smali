@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/c8s" background="@color/e" layout_width="match_parent" layout_height="match_parent">
+    <SurfaceView id="@+id/d94" visibility="visible" layout_width="match_parent" layout_height="match_parent"/>
+    <ImageView layout_gravity="center_horizontal" id="@+id/fgx" visibility="invisible" layout_width="match_parent" layout_height="match_parent" scaleType="fitXY"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/ewm" background="@drawable/dv" padding="8dp" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" maxWidth="320dp" layout_marginStart="16dp" NOT_FOUND_0xc="32"/>
+    <com.ss.android.ugc.aweme.shortvideo.edit.infosticker.interact.poll.PollingStickerView id="@+id/d91" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content"/>
+    <com.ss.android.ugc.aweme.shortvideo.edit.infosticker.interact.duet.DuetEditStickerView id="@+id/d8u" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content"/>
+    <com.ss.android.ugc.aweme.shortvideo.edit.infosticker.interact.livecountdown.edit.LiveCDEditStickerView id="@+id/d8z" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content"/>
+    <View id="@+id/fiv" visibility="invisible" layout_width="match_parent" layout_height="wrap_content"/>
+</FrameLayout>

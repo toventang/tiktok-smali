@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" clipChildren="false" clipToPadding="false" layout_width="match_parent" layout_height="wrap_content">
+    <androidx.recyclerview.widget.RecyclerView id="@+id/cut" layout_width="0dp" layout_height="20dp" layout_marginLeft="16dp" layout_marginRight="16dp" requiresFadingEdge="horizontal" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x18="0" NOT_FOUND_0x1a="@+id/az3" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="0"/>
+    <RelativeLayout id="@+id/az3" clipChildren="false" clipToPadding="false" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="16dp" layout_marginEnd="16dp" NOT_FOUND_0x18="0" NOT_FOUND_0x19="0" NOT_FOUND_0x1d="0">
+        <LinearLayout id="@+id/coh" background="@drawable/bqg" paddingLeft="10dp" paddingRight="0dp" visibility="gone" layout_width="wrap_content" layout_height="31dp" paddingStart="10dp" paddingEnd="0dp">
+            <com.bytedance.android.live.design.widget.LiveTextView textSize="14sp" textColor="@color/a_" gravity="center" layout_gravity="center" id="@+id/a8j" paddingBottom="2dp" layout_width="wrap_content" layout_height="wrap_content" text="@string/gwb"/>
+            <ImageView layout_gravity="center" id="@+id/lv" background="0x7f080f87" layout_width="12dp" layout_height="12dp" layout_marginLeft="3dp" layout_marginRight="11dp" layout_marginStart="3dp" layout_marginEnd="11dp"/>
+        </LinearLayout>
+        <LinearLayout id="@+id/cvg" background="@drawable/bqg" visibility="gone" layout_width="wrap_content" layout_height="30dp">
+            <ImageView layout_gravity="center_vertical" background="0x7f080f53" layout_width="14.67dp" layout_height="14.67dp" layout_marginStart="12.67dp"/>
+            <com.bytedance.android.live.design.widget.LiveTextView textSize="14sp" textColor="@color/a_" gravity="center" layout_gravity="center" id="@+id/dia" paddingBottom="2dp" layout_width="wrap_content" layout_height="wrap_content" text="@string/goh" layout_marginStart="4.67dp"/>
+            <ImageView layout_gravity="center" id="@+id/lw" background="0x7f080f87" layout_width="12dp" layout_height="12dp" layout_marginLeft="3dp" layout_marginRight="11dp" layout_marginStart="3dp" layout_marginEnd="11dp"/>
+        </LinearLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@+id/di6" background="@drawable/bqg" visibility="gone" clipChildren="false" clipToPadding="false" layout_width="wrap_content" layout_height="30dp">
+            <Space id="@+id/e7k" layout_width="12dp" layout_height="match_parent" NOT_FOUND_0x18="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x1d="0"/>
+            <com.bytedance.android.live.core.widget.HSImageView layout_gravity="center" id="@+id/c0b" visibility="gone" layout_width="64dp" layout_height="62dp" NOT_FOUND_0x18="0" NOT_FOUND_0x1c="@+id/e7k" NOT_FOUND_0x1d="0"/>
+            <ImageView layout_gravity="center" id="@+id/a84" background="0x7f08103c" layout_width="16dp" layout_height="16dp" layout_marginTop="7dp" layout_marginStart="12dp" layout_marginEnd="4dp" NOT_FOUND_0x1a="@+id/r6" NOT_FOUND_0x1b="1" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="0"/>
+            <com.bytedance.android.live.design.widget.LiveTextView textSize="14sp" textColor="#ccffffff" gravity="center" layout_gravity="center" id="@+id/r6" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x18="0" NOT_FOUND_0x1a="@+id/lx" NOT_FOUND_0x1d="0"/>
+            <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/a" gravity="center" layout_gravity="center" id="@+id/h5" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="12dp" NOT_FOUND_0x18="@+id/a84" NOT_FOUND_0x19="@+id/a84" NOT_FOUND_0x1c="@+id/a84" NOT_FOUND_0x1d="@+id/a84" style="@style/tt"/>
+            <ImageView id="@+id/lx" background="0x7f080f87" layout_width="12dp" layout_height="12dp" layout_marginEnd="17dp" NOT_FOUND_0x18="0" NOT_FOUND_0x19="0" NOT_FOUND_0x1b="1" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="0"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </RelativeLayout>
+    <View id="@+id/di9" background="@drawable/btm" visibility="gone" layout_width="8dp" layout_height="8dp" NOT_FOUND_0x19="@+id/az3" NOT_FOUND_0x1d="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

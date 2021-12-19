@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="horizontal" id="@+id/b_4" background="?attr/ab_" layout_width="match_parent" layout_height="76dp">
+    <com.ss.android.ugc.aweme.base.ui.AvatarImageWithVerify layout_gravity="center_vertical" id="@+id/bu0" layout_width="56dp" layout_height="56dp" layout_marginLeft="11.5dp" layout_marginRight="12dp" layout_marginStart="11.5dp" layout_marginEnd="12dp"/>
+    <LinearLayout gravity="center_vertical" layout_gravity="center_vertical" orientation="vertical" layout_width="0dp" layout_height="match_parent" layout_marginRight="15dp" layout_weight="1" layout_marginEnd="15dp">
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/bc" ellipsize="end" id="@+id/fb8" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" singleLine="true" NOT_FOUND_0x10="42"/>
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/bj" ellipsize="end" id="@+id/faq" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" singleLine="true" NOT_FOUND_0x10="71"/>
+    </LinearLayout>
+    <com.ss.android.ugc.aweme.friends.invite.I18nFollowAndInviteUserBtn layout_gravity="center_vertical" id="@+id/fap" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="16dp" layout_marginEnd="16dp"/>
+</LinearLayout>

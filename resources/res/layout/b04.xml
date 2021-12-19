@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="198dp" layout_height="wrap_content" layout_centerHorizontal="true">
+    <LinearLayout orientation="vertical" background="@drawable/bi8" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="20dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a2" ellipsize="end" gravity="center_horizontal" layout_gravity="center_horizontal" id="@+id/e1d" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="28dp" layout_marginRight="16dp" maxLines="2" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x15="43"/>
+        <FrameLayout layout_gravity="center_horizontal" layout_width="134dp" layout_height="134dp" layout_marginTop="8dp">
+            <ImageView layout_width="17dp" layout_height="17dp" src="0x7f080c04"/>
+            <ImageView layout_gravity="top|right|center_vertical|center_horizontal|center|end" layout_width="17dp" layout_height="17dp" src="0x7f080c06"/>
+            <ImageView layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" layout_width="17dp" layout_height="17dp" src="0x7f080c05"/>
+            <ImageView layout_gravity="bottom" layout_width="17dp" layout_height="17dp" src="0x7f080c03"/>
+            <com.ss.android.ugc.aweme.share.qrcode.view.QRCodeSquareView layout_gravity="center" id="@+id/e1b" layout_width="118dp" layout_height="118dp" NOT_FOUND_0x14="0x7f080ae0"/>
+        </FrameLayout>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" gravity="center" layout_gravity="center_horizontal" id="@+id/e1a" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="8dp" layout_marginRight="16dp" text="@string/f7h" maxLines="2" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x15="91"/>
+        <ImageView layout_gravity="center_horizontal" id="@+id/e1e" layout_width="wrap_content" layout_height="16dp" layout_marginTop="8dp" layout_marginBottom="24dp" src="0x7f080bfa"/>
+    </LinearLayout>
+    <ImageView layout_gravity="center_horizontal" id="@+id/e1c" background="@drawable/bib" padding="2dp" layout_width="@dimen/sk" layout_height="@dimen/sk"/>
+</FrameLayout>

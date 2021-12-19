@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" layout_gravity="bottom" orientation="vertical" id="@+id/alj" clipChildren="true" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout id="@+id/cug" layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+    <androidx.constraintlayout.widget.ConstraintLayout orientation="vertical" id="@+id/alm" background="@drawable/bqh" clipChildren="false" layout_width="match_parent" layout_height="wrap_content">
+        <FrameLayout id="@+id/cuh" clipChildren="false" layout_width="match_parent" layout_height="276dp" layout_marginTop="16dp" NOT_FOUND_0xe="@+id/cue" NOT_FOUND_0xf="@+id/eo_"/>
+        <FrameLayout id="@+id/cue" background="#2e2e2e" paddingTop="10dp" paddingBottom="12dp" clipChildren="false" clipToPadding="false" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xd="0"/>
+        <View id="@+id/bay" background="@drawable/bqd" layout_width="match_parent" layout_height="30dp" NOT_FOUND_0x10="0"/>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@+id/eo_" background="#00000000" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x10="0">
+            <com.bytedance.android.widget.WidgetContainer id="@+id/baw" background="@drawable/bqe" visibility="gone" layout_width="match_parent" layout_height="48dp" NOT_FOUND_0x10="0"/>
+            <FrameLayout id="@+id/bb6" background="@drawable/bqe" visibility="gone" layout_width="match_parent" layout_height="48dp" NOT_FOUND_0x10="0"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

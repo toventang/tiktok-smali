@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_gravity="bottom" layout_width="match_parent" layout_height="1dp">
+    <com.ss.android.ugc.aweme.kids.commonfeed.ui.widget.AudioControlView layout_gravity="bottom" id="@+id/nj" layout_width="match_parent" layout_height="match_parent" alpha="0" NOT_FOUND_0x5="@color/bm"/>
+    <com.ss.android.ugc.aweme.feed.widget.LineProgressBar id="@+id/cag" layout_width="match_parent" layout_height="match_parent"/>
+    <com.ss.android.ugc.aweme.kids.commonfeed.ui.widget.VideoPlayerProgressBar id="@+id/fgu" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x6="@color/q" NOT_FOUND_0x7="1dp"/>
+</FrameLayout>

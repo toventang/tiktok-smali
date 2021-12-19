@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns="" gravity="center" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content">
+    <com.bytedance.tux.icon.TuxIconView id="@+id/bhu" layout_width="24dp" layout_height="24dp" NOT_FOUND_0x7="@raw/icon_heart" NOT_FOUND_0x8="20dp" NOT_FOUND_0x9="20dp"/>
+    <com.bytedance.tux.input.TuxTextView textColor="?attr/bi" id="@+id/eyo" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x6="61"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

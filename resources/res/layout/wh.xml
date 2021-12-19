@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.detail.ui.MarqueeView2 layout_gravity="center_vertical" id="@+id/b1o" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x6="25dp" NOT_FOUND_0x7="@color/a9" NOT_FOUND_0x8="@color/bl" NOT_FOUND_0x9="14sp"/>
+    <View id="@+id/b1f" background="@drawable/a50" visibility="gone" layout_width="16dp" layout_height="match_parent"/>
+    <View layout_gravity="end" id="@+id/b1w" background="@drawable/a51" visibility="gone" layout_width="16dp" layout_height="match_parent"/>
+</FrameLayout>

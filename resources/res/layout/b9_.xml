@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" orientation="vertical" background="@color/ws" focusable="true" clickable="true" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.android.live.liveinteract.cohost.ui.view.PkInviteUserListRefreshLayout id="@+id/brc" visibility="gone" layout_width="match_parent" layout_height="match_parent">
+        <FrameLayout layout_width="match_parent" layout_height="wrap_content">
+            <com.bytedance.android.livesdk.widget.LiveLoadingView layout_gravity="center_horizontal" id="@+id/brb" padding="6dp" layout_width="wrap_content" layout_height="48dp"/>
+        </FrameLayout>
+        <androidx.recyclerview.widget.RecyclerView id="@+id/brd" background="@color/ws" layout_width="match_parent" layout_height="match_parent"/>
+    </com.bytedance.android.live.liveinteract.cohost.ui.view.PkInviteUserListRefreshLayout>
+    <com.bytedance.android.live.liveinteract.cohost.ui.view.RandomLinkMicEntranceButton id="@+id/dgt" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+    <com.bytedance.android.livesdk.widget.LiveLoadingView layout_gravity="center" id="@+id/bra" padding="6dp" layout_width="wrap_content" layout_height="wrap_content"/>
+    <LinearLayout layout_gravity="center" orientation="vertical" id="@+id/c5m" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="33dp" layout_marginRight="33dp">
+        <androidx.appcompat.widget.AppCompatImageView layout_gravity="center_horizontal" layout_width="110dp" layout_height="92dp" NOT_FOUND_0x11="@drawable/c9q"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="17sp" textColor="@color/a0h" gravity="center_horizontal" layout_gravity="center_horizontal" layout_width="wrap_content" layout_height="wrap_content" text="@string/e6v"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="14sp" textColor="@color/a0j" gravity="center" layout_gravity="center_horizontal" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" text="@string/e6u"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="lj" parent="@style/l2">
+        <item name="android:backgroundDimAmount">?attr/amf</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowAnimationStyle">@style/i</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="a3a">@style/ra</item>
+    </style>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" gravity="center" layout_gravity="center_horizontal" id="@+id/dol" layout_width="180dp" layout_height="28dp" layout_marginTop="@dimen/rk" layout_alignParentTop="true" layout_centerInParent="true">
+    <View id="@+id/bv8" background="@drawable/ss" layout_width="0dp" layout_height="28dp" layout_alignParentTop="true" layout_alignParentBottom="true" alpha="0.5" layout_alignStart="@+id/e7n" layout_alignEnd="@+id/e7o"/>
+    <Space id="@+id/e7n" layout_width="0dp" layout_height="0dp" layout_alignParentTop="true" layout_alignParentBottom="true" layout_toStartOf="@+id/bv7"/>
+    <Space id="@+id/e7o" layout_width="0dp" layout_height="0dp" layout_alignParentTop="true" layout_alignParentBottom="true" layout_toEndOf="@+id/eww"/>
+    <ImageView id="@+id/bv7" visibility="gone" layout_width="20dp" layout_height="20dp" src="0x7f080663" scaleType="centerInside" layout_centerVertical="true" layout_marginStart="10dp"/>
+    <com.ss.android.ugc.aweme.views.AlwaysMarqueeTextView textSize="13dp" textColor="@color/a9" ellipsize="marquee" gravity="center" layout_gravity="center" id="@+id/eww" paddingBottom="1.5dp" focusable="true" focusableInTouchMode="true" visibility="gone" layout_width="wrap_content" layout_height="44dp" text="@string/adm" scrollHorizontally="true" singleLine="true" shadowColor="@color/bo" shadowDx="0" shadowDy="2" shadowRadius="2" marqueeRepeatLimit="marquee_forever" paddingEnd="10dp" layout_marginStart="4dp" layout_toEndOf="@+id/bv7"/>
+</RelativeLayout>

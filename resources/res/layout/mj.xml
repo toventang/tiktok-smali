@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_gravity="center" id="@+id/dqe" background="@drawable/po" layout_width="wrap_content" layout_height="wrap_content" minWidth="112dp">
+    <ImageView layout_gravity="end" id="@+id/a1q" visibility="gone" layout_width="24dp" layout_height="24dp" layout_marginTop="4dp" layout_marginRight="4dp" src="0x7f080347" scaleType="fitXY" layout_marginEnd="4dp"/>
+    <LinearLayout layout_gravity="center_horizontal" orientation="vertical" padding="16dp" layout_width="wrap_content" layout_height="match_parent">
+        <FrameLayout layout_gravity="center_horizontal" id="@+id/aht" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="8dp">
+            <com.ss.android.ugc.aweme.base.widget.CircularProgressView layout_gravity="center" id="@+id/byw" background="@drawable/vh" layout_width="48dp" layout_height="48dp" NOT_FOUND_0x18="@color/a9" NOT_FOUND_0x19="100" NOT_FOUND_0x1a="2dp"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView textColor="@color/a9" gravity="center" layout_gravity="center" id="@+id/dby" layout_width="wrap_content" layout_height="wrap_content" text="0%" NOT_FOUND_0x1b="7" style="@style/y6"/>
+        </FrameLayout>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView textSize="15sp" textColor="@color/a9" gravity="center" layout_gravity="bottom|center_vertical|center_horizontal|center" id="@+id/clf" layout_width="wrap_content" layout_height="wrap_content" singleLine="false" NOT_FOUND_0x16="1dp" NOT_FOUND_0x17="1" NOT_FOUND_0x1b="7"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView textSize="15sp" textColor="@color/a9" gravity="center" layout_gravity="bottom|center_vertical|center_horizontal|center" id="@+id/a21" background="@drawable/va" paddingTop="5dp" paddingBottom="5dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/a9e" singleLine="false" NOT_FOUND_0x16="1dp" NOT_FOUND_0x17="1" NOT_FOUND_0x1b="7"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView textSize="15sp" textColor="@color/a9" gravity="center" layout_gravity="bottom|center_vertical|center_horizontal|center" id="@+id/eln" visibility="gone" layout_width="170dp" layout_height="wrap_content" layout_marginTop="5dp" NOT_FOUND_0x1b="7"/>
+    </LinearLayout>
+</FrameLayout>

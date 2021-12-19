@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" background="@drawable/blq" layout_width="wrap_content" layout_height="wrap_content">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a2" gravity="center" id="@+id/avi" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x6="11"/>
+</LinearLayout>

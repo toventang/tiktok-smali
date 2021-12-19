@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content">
+    <TextView textAppearance="@style/ii" textColor="?attr/ajo" ellipsize="end" id="@+id/clf" background="?attr/ajp" paddingLeft="@dimen/tx" paddingTop="@dimen/u1" paddingRight="@dimen/tx" paddingBottom="@dimen/u1" layout_width="wrap_content" layout_height="wrap_content" layout_margin="@dimen/ty" maxWidth="256dp" maxLines="3" paddingStart="@dimen/tx" paddingEnd="@dimen/tx"/>
+</LinearLayout>

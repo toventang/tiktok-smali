@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.common.keyboard.MeasureLinearLayout xmlns="" layout_gravity="bottom" orientation="vertical" id="@+id/e1o" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout layout_gravity="bottom" orientation="vertical" id="@+id/e1n" background="@drawable/r1" layout_width="match_parent" layout_height="wrap_content">
+        <FrameLayout id="@+id/e1s" layout_width="match_parent" layout_height="wrap_content"/>
+        <LinearLayout orientation="vertical" id="@+id/e1l" layout_width="match_parent" layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/ae" gravity="center" id="@+id/e1r" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="12dp" NOT_FOUND_0xd="62"/>
+            <com.ss.android.ugc.aweme.sharer.ui.bar.ShareChannelBar id="@+id/e1p" layout_width="match_parent" layout_height="wrap_content"/>
+            <View id="@+id/e14" background="@color/b6" layout_width="match_parent" layout_height="1px" layout_marginLeft="18dp" layout_marginRight="18dp"/>
+        </LinearLayout>
+        <FrameLayout id="@+id/e1m" layout_width="match_parent" layout_height="wrap_content"/>
+        <FrameLayout id="@+id/e1h" layout_width="match_parent" layout_height="wrap_content">
+            <LinearLayout orientation="vertical" id="@+id/e1g" layout_width="match_parent" layout_height="wrap_content">
+                <com.bytedance.tux.input.TuxTextView textColor="@color/ae" gravity="center" id="@+id/e0f" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="12dp" NOT_FOUND_0xd="62"/>
+                <com.ss.android.ugc.aweme.sharer.ui.bar.ShareActionBar id="@+id/e1f" layout_width="match_parent" layout_height="wrap_content"/>
+            </LinearLayout>
+        </FrameLayout>
+        <View id="@+id/e1k" background="@color/b6" layout_width="match_parent" layout_height="1px"/>
+        <FrameLayout id="@+id/e1j" layout_width="match_parent" layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/ol" gravity="center" id="@+id/e1i" background="@drawable/bhj" layout_width="match_parent" layout_height="52dp" text="@string/a9e" NOT_FOUND_0xd="41"/>
+        </FrameLayout>
+    </LinearLayout>
+</com.ss.android.ugc.aweme.common.keyboard.MeasureLinearLayout>

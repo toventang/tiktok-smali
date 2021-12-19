@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="10dp">
+    <FrameLayout layout_gravity="center" layout_width="54dp" layout_height="54dp" layout_marginStart="2dp">
+        <com.ss.android.ugc.aweme.views.CircleDraweeView layout_gravity="center" id="@+id/au2" layout_width="match_parent" layout_height="match_parent" scaleType="fitXY"/>
+        <ImageView layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" id="@+id/bnh" visibility="visible" layout_width="16dp" layout_height="16dp" layout_margin="1dp" src="0x7f0800e2" scaleType="fitXY"/>
+        <com.ss.android.ugc.tools.view.widget.CircleProgressView layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" id="@+id/byw" background="0x7f0800e3" visibility="gone" layout_width="16dp" layout_height="16dp" layout_margin="1dp" NOT_FOUND_0x14="5dp"/>
+    </FrameLayout>
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="7dp" layout_marginStart="12dp" layout_marginEnd="12dp">
+        <com.ss.android.ugc.tools.view.style.StyleTextView textSize="14dp" textColor="#bfffffff" id="@+id/dvr" layout_width="wrap_content" layout_height="wrap_content" text="Green Jelly" shadowDx="0" shadowDy="1" shadowRadius="1"/>
+        <com.ss.android.ugc.tools.view.style.StyleTextView textSize="12dp" textColor="#ffffff" id="@+id/dvs" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" text="11.2k videos" alpha="0.75"/>
+    </LinearLayout>
+</LinearLayout>

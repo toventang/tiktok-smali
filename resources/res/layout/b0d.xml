@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" background="@color/a2" layout_width="match_parent" layout_height="match_parent">
+    <ViewStub id="@+id/fjw" visibility="gone" layout="@layout/b0w" layout_width="match_parent" layout_height="match_parent"/>
+    <ViewStub id="@+id/fjp" visibility="gone" layout="@layout/b0q" layout_width="match_parent" layout_height="match_parent"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtStatusView id="@+id/ci4" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0"/>
+    <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView id="@+id/e3v" padding="8dp" layout_width="40dp" layout_height="40dp" layout_marginTop="32dp" src="0x7f080c1c" layout_marginStart="8dp" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0"/>
+    <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView id="@+id/e3w" visibility="gone" layout_width="24dp" layout_height="24dp" src="0x7f080c1e" layout_marginEnd="16dp" NOT_FOUND_0xb="@+id/e3v" NOT_FOUND_0xc="0" NOT_FOUND_0xe="@+id/e3v"/>
+    <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView id="@+id/f9d" visibility="gone" layout_width="120dp" layout_height="120dp" layout_marginTop="130dp" src="0x7f080c1b" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="@+id/e3w"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

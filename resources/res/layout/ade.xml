@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" gravity="center" orientation="vertical" background="@drawable/ay7" layout_width="57dp" layout_height="57dp">
+    <ProgressBar layout_width="27dp" layout_height="27dp" indeterminate="false" indeterminateDrawable="@drawable/cd5" indeterminateDuration="800"/>
+</RelativeLayout>

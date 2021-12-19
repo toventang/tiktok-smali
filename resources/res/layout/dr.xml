@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="wrap_content" layout_height="75dp">
+    <com.ss.android.ugc.aweme.themechange.base.AVDmtImageTextView id="@+id/bnj" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0xc="false" NOT_FOUND_0xd="true" NOT_FOUND_0xe="false" NOT_FOUND_0xf="false" NOT_FOUND_0x10="true" NOT_FOUND_0x11="52dp" NOT_FOUND_0x12="52dp" NOT_FOUND_0x13="true" NOT_FOUND_0x14="10dp" NOT_FOUND_0x15="0x7f0800fd" NOT_FOUND_0x16="true"/>
+    <ImageView layout_gravity="right" id="@+id/btz" visibility="gone" layout_width="16dp" layout_height="16dp" layout_marginLeft="3dp" layout_marginTop="40dp" layout_marginRight="3dp" src="0x7f0800e2" scaleType="fitXY" layout_marginStart="3dp" layout_marginEnd="3dp"/>
+</FrameLayout>

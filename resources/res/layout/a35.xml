@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.shortvideo.widget.TabHost xmlns="" layout_gravity="bottom|center_vertical|center_horizontal|center" id="@+id/wa" layout_width="match_parent" layout_height="49dp">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+        <com.ss.android.ugc.aweme.views.TransEdgeView gravity="center" orientation="horizontal" id="@+id/eh8" layout_width="match_parent" layout_height="0dp" layout_weight="0.9" NOT_FOUND_0x9="8">
+            <com.ss.android.ugc.aweme.shortvideo.widget.ScrollableLinearLayout gravity="center" orientation="horizontal" id="@+id/ad7" layout_width="match_parent" layout_height="match_parent"/>
+        </com.ss.android.ugc.aweme.views.TransEdgeView>
+        <ImageView layout_gravity="center_horizontal" id="@+id/dj3" layout_width="5dp" layout_height="0dp" src="@drawable/bb0" scaleType="center" layout_weight="0.1"/>
+    </LinearLayout>
+</com.ss.android.ugc.aweme.shortvideo.widget.TabHost>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/eq" background="@drawable/pd" layout_width="120dp" layout_height="120dp" layout_marginBottom="16dp"/>
+    <LinearLayout gravity="center" id="@+id/gs" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="8.5dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/ez" background="@drawable/pj" paddingLeft="4dp" paddingRight="4dp" paddingBottom="1dp" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" NOT_FOUND_0x18="71"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/gr" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="8dp" maxLines="1" NOT_FOUND_0x18="41"/>
+    </LinearLayout>
+    <LinearLayout gravity="center_vertical" orientation="horizontal" id="@+id/fe" layout_width="wrap_content" layout_height="wrap_content">
+        <com.ss.android.ugc.aweme.commercialize.uikit.AdRatingView id="@+id/g9" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x14="3dp" NOT_FOUND_0x15="0x7f080c52" NOT_FOUND_0x16="5" NOT_FOUND_0x17="0x7f080c54"/>
+        <View id="@+id/fd" background="@color/a7" layout_width="0.5dp" layout_height="10dp" layout_marginLeft="8dp" layout_marginRight="10.5dp" layout_marginStart="8dp" layout_marginEnd="10.5dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/ac" id="@+id/d5" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="0.5dp" NOT_FOUND_0x18="71"/>
+    </LinearLayout>
+    <LinearLayout gravity="center" id="@+id/g5" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8.5dp" layout_marginBottom="36.5dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" layout_gravity="bottom" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="0.5dp" text="@string/ff4" NOT_FOUND_0x18="81"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/g4" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x18="41"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/ac" ellipsize="end" id="@+id/gb" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="8dp" maxLines="1" NOT_FOUND_0x18="71"/>
+    </LinearLayout>
+</LinearLayout>

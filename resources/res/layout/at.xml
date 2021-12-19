@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.ies.dmt.ui.titlebar.TextTitleBar id="@+id/em8" layout_width="match_parent" layout_height="@dimen/a0s" NOT_FOUND_0x18="@string/fqa" NOT_FOUND_0x19="@color/bx" NOT_FOUND_0x1a="17dp" NOT_FOUND_0x1c="true"/>
+    <ScrollView layout_width="match_parent" layout_height="0dp" layout_weight="1">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+            <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" NOT_FOUND_0x14="@string/h9t" NOT_FOUND_0x15="@string/h9w" NOT_FOUND_0x16="@color/bx" NOT_FOUND_0x17="1"/>
+            <View background="@color/b6" layout_width="match_parent" layout_height="0.5dp" layout_marginLeft="16dp" layout_marginRight="16dp"/>
+            <com.bytedance.ies.dmt.ui.common.views.CommonItemView id="@+id/g8" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" NOT_FOUND_0x14="@string/nw" NOT_FOUND_0x15="@string/nv" NOT_FOUND_0x16="@color/bx" NOT_FOUND_0x17="1"/>
+            <RelativeLayout padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+                <CheckBox id="@+id/a38" background="@null" layout_width="16dp" layout_height="16dp" button="@null" layout_centerVertical="true" drawableStart="@drawable/cg" layout_marginEnd="8dp"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/c4" id="@+id/gc" layout_width="match_parent" layout_height="wrap_content" layout_centerVertical="true" layout_marginStart="0dp" layout_toEndOf="@+id/a38" NOT_FOUND_0x1b="71"/>
+            </RelativeLayout>
+            <LinearLayout orientation="vertical" id="@+id/c55" layout_width="match_parent" layout_height="wrap_content">
+                <View background="@color/b6" layout_width="match_parent" layout_height="0.5dp" layout_marginLeft="16dp" layout_marginRight="16dp"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="16dp" layout_marginRight="16dp" text="@string/hfx" NOT_FOUND_0x1b="42"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/c5" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="8dp" layout_marginRight="16dp" text="@string/h_1" NOT_FOUND_0x1b="61"/>
+            </LinearLayout>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/ezz" background="@drawable/ps" layout_width="match_parent" layout_height="44dp" layout_marginLeft="16dp" layout_marginTop="32dp" layout_marginRight="16dp" text="@string/c4_" NOT_FOUND_0x1b="42"/>
+            <LinearLayout orientation="vertical" id="@+id/c56" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="32dp" layout_marginRight="16dp">
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/exj" background="@drawable/ps" layout_width="match_parent" layout_height="44dp" text="@string/auj" NOT_FOUND_0x1b="42"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/eya" background="@drawable/ps" layout_width="match_parent" layout_height="44dp" layout_marginTop="12dp" text="@string/b5m" NOT_FOUND_0x1b="42"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/ezc" background="@drawable/ps" layout_width="match_parent" layout_height="44dp" layout_marginTop="12dp" text="@string/f1e" NOT_FOUND_0x1b="42"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/ex2" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" NOT_FOUND_0x1b="41"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/evq" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" NOT_FOUND_0x1b="41"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

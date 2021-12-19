@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actions>
+    <action intentName="actions.intent.OPEN_APP_FEATURE">
+        <fulfillment urlTemplate="{@url}"/>
+        <fulfillment urlTemplate="tiktok://feed?tab=1&amp;gd_label=google_assistant"/>
+        <parameter name="feature">
+            <entity-set-reference entitySetId="featureParamSet"/>
+        </parameter>
+    </action>
+    <entity-set entitySetId="featureParamSet">
+        <entity alternateName="@array/w" name="@string/bun" url="tiktok://feed?tab=1&amp;gd_label=google_assistant"/>
+        <entity alternateName="@array/v" name="@string/bum" url="tiktok://feed?tab=0&amp;gd_label=google_assistant"/>
+        <entity alternateName="@array/f" name="@string/bul" url="tiktok://studio/create?auto_shoot=true&amp;camera_type=front&amp;gd_label=google_assistant"/>
+    </entity-set>
+    <action intentName="actions.intent.GET_THING">
+        <fulfillment urlTemplate="tiktok://search{?keyword}&amp;gd_label=google_assistant">
+            <parameter-mapping intentParameter="thing.name" required="true" urlParameter="keyword"/>
+        </fulfillment>
+        <fulfillment urlTemplate="tiktok://search?gd_label=google_assistant"/>
+    </action>
+    <action intentName="actions.intent.CREATE_MEDIA_OBJECT">
+        <fulfillment urlTemplate="tiktok://studio/task/create?auto_shoot=true&amp;camera_type=front&amp;gd_label=google_assistant"/>
+    </action>
+    <action intentName="actions.intent.GET_SOCIAL_MEDIA_PROFILE">
+        <fulfillment urlTemplate="{@url}?gd_label=google_assistant"/>
+        <fulfillment urlTemplate="tiktok://search?gd_label=google_assistant{&amp;keyword}">
+            <parameter-mapping intentParameter="socialMediaProfile.profileOwner.name" urlParameter="keyword"/>
+        </fulfillment>
+        <parameter name="socialMediaProfile.profileOwner.name">
+            <entity-set-reference urlFilter="https://www.tiktok.com/@.*"/>
+        </parameter>
+    </action>
+    <action intentName="actions.intent.GET_SOCIAL_MEDIA_POSTING">
+        <fulfillment urlTemplate="{@url}?gd_label=google_assistant"/>
+        <fulfillment urlTemplate="tiktok://search?gd_label=google_assistant{&amp;keyword}">
+            <parameter-mapping intentParameter="socialMediaPosting.author.name" required="true" urlParameter="keyword"/>
+        </fulfillment>
+        <fulfillment urlTemplate="tiktok://search?gd_label=google_assistant{&amp;keyword}">
+            <parameter-mapping intentParameter="socialMediaPosting.about.description" urlParameter="keyword"/>
+        </fulfillment>
+        <parameter name="socialMediaPosting.author.name">
+            <entity-set-reference urlFilter="https://www.tiktok.com/@.*"/>
+        </parameter>
+        <parameter name="socialMediaPosting.about.description">
+            <entity-set-reference urlFilter="https://www.tiktok.com/tag/.*"/>
+        </parameter>
+    </action>
+</actions>

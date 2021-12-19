@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="" layout_width="match_parent" layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.discover.ui.view.ScrollToEndRecyclerView id="@+id/djs" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="12dp"/>
+</merge>

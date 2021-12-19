@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="64dp">
+    <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/bz" gravity="center" id="@+id/f5g" layout_width="40dp" layout_height="wrap_content" NOT_FOUND_0x13="0" NOT_FOUND_0x15="0" NOT_FOUND_0x19="0" NOT_FOUND_0x1a="0" style="@style/tq"/>
+    <ImageView id="@+id/c2r" layout_width="40dp" layout_height="40dp" scaleType="fitXY" NOT_FOUND_0x13="0" NOT_FOUND_0x16="@+id/f5g" NOT_FOUND_0x18="@+id/f5g" NOT_FOUND_0x1a="0"/>
+    <com.bytedance.android.live.core.widget.HSImageView layout_gravity="center" id="@+id/bu1" layout_width="50dp" layout_height="50dp" NOT_FOUND_0x13="@+id/c2r" NOT_FOUND_0x14="@+id/c2r" NOT_FOUND_0x15="@+id/c2r" NOT_FOUND_0x17="@+id/c2r" NOT_FOUND_0x19="@+id/c2r" NOT_FOUND_0x1a="@+id/c2r"/>
+    <com.bytedance.android.live.core.widget.HSImageView id="@+id/b7n" layout_width="18dp" layout_height="18dp" layout_marginTop="28dp" layout_marginRight="11dp" layout_marginEnd="11dp" NOT_FOUND_0x12="5" NOT_FOUND_0x14="@+id/c2r" NOT_FOUND_0x17="@+id/c2r" NOT_FOUND_0x1a="@+id/c2r"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="15dp" textColor="@color/bx" ellipsize="end" id="@+id/f_b" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="12dp" maxWidth="130dp" maxLines="1" layout_marginStart="12dp" NOT_FOUND_0x13="0" NOT_FOUND_0x16="@+id/c2r" NOT_FOUND_0x18="@+id/c2r" NOT_FOUND_0x1a="0"/>
+    <com.bytedance.android.live.core.widget.HSImageView id="@+id/bu_" visibility="gone" layout_width="wrap_content" layout_height="14dp" scaleType="centerCrop" minWidth="46dp" layout_marginStart="4dp" NOT_FOUND_0x13="@+id/f_b" NOT_FOUND_0x18="@+id/f_b" NOT_FOUND_0x1a="@+id/f_b" NOT_FOUND_0x1b="4dp"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="12sp" textColor="@color/bx" id="@+id/f9c" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="16dp" layout_marginEnd="16dp" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0" NOT_FOUND_0x17="0" NOT_FOUND_0x1a="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

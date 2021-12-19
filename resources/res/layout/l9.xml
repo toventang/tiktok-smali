@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="" layout_width="wrap_content" layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.notification.view.NotificationFollowUserBtn gravity="center" id="@+id/cx5" layout_width="wrap_content" layout_height="28dp" layout_marginTop="10dp" NOT_FOUND_0x12="true"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtButton textSize="14dp" textColor="@color/a9" ellipsize="end" gravity="center" id="@+id/cww" background="@drawable/op" paddingLeft="6dp" paddingRight="6dp" layout_width="88dp" layout_height="28dp" layout_marginTop="10dp" text="@string/dln" maxLines="1" textAllCaps="false" paddingStart="6dp" paddingEnd="6dp" NOT_FOUND_0x13="7" style="?android:attr/borderlessButtonStyle"/>
+    <com.ss.android.ugc.aweme.base.ui.SmartRoundImageView id="@+id/dnj" layout_width="42dp" layout_height="56dp"/>
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/cws" layout_width="wrap_content" layout_height="wrap_content">
+        <com.bytedance.tux.icon.TuxIconView id="@+id/cwr" layout_width="20dp" layout_height="20dp" layout_marginTop="14dp" NOT_FOUND_0x14="0" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0" NOT_FOUND_0x17="0.5" NOT_FOUND_0x19="@raw/icon_chevron_right_offset_small_ltr" NOT_FOUND_0x1a="20dp" NOT_FOUND_0x1b="20dp" NOT_FOUND_0x1c="?attr/bj"/>
+        <com.bytedance.tux.badge.TuxAlertBadge id="@+id/bzg" visibility="gone" layout_width="8dp" layout_height="8dp" layout_marginTop="20dp" layout_marginEnd="18dp" NOT_FOUND_0x14="0" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0" NOT_FOUND_0x17="0.5" NOT_FOUND_0x18="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

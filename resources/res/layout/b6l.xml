@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" background="@drawable/bqe" layout_width="match_parent" layout_height="48dp">
+    <com.bytedance.android.livesdk.chatroom.widget.AvatarIconView id="@+id/or" layout_width="32dp" layout_height="32dp" layout_marginLeft="16dp" layout_marginStart="16dp" NOT_FOUND_0xe="0" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0" NOT_FOUND_0x15="32dp" NOT_FOUND_0x16="8dp"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="14dp" textColor="@color/a9" ellipsize="end" id="@+id/en6" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="8dp" layout_marginRight="54dp" lines="1" layout_marginStart="8dp" layout_marginEnd="54dp" NOT_FOUND_0xe="@+id/or" NOT_FOUND_0x10="@+id/fdr" NOT_FOUND_0x11="0" NOT_FOUND_0x12="@+id/or" NOT_FOUND_0x14="@+id/or"/>
+    <View gravity="center" id="@+id/fdr" background="0x7f080e88" visibility="gone" layout_width="32dp" layout_height="32dp" layout_marginRight="16dp" layout_marginEnd="16dp" NOT_FOUND_0xe="@+id/en6" NOT_FOUND_0xf="0" NOT_FOUND_0x14="@+id/en6"/>
+    <View background="#22ffffff" layout_width="match_parent" layout_height="0.5dp" NOT_FOUND_0xe="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

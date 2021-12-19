@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.android.livesdk.chatroom.widget.CountDownView xmlns="" layout_gravity="center" background="@drawable/bpa" visibility="gone" layout_width="100dp" layout_height="100dp" NOT_FOUND_0x5="4000"/>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="">
+    <FrameLayout id="@+id/d32" visibility="gone" layout_width="wrap_content" layout_height="120dp">
+        <com.bytedance.lighten.loader.SmartImageView layout_gravity="top" id="@+id/t6" visibility="gone" layout_width="90dp" layout_height="90dp" scaleType="fitXY" app:NOT_FOUND_0x10="2" app:NOT_FOUND_0x11="0"/>
+        <com.bytedance.lighten.loader.SmartImageView layout_gravity="top" id="@+id/ta" visibility="gone" layout_width="90dp" layout_height="90dp" scaleType="fitXY" app:NOT_FOUND_0x10="2" app:NOT_FOUND_0x11="0"/>
+        <com.bytedance.lighten.loader.SmartImageView layout_gravity="top" id="@+id/e6_" visibility="gone" layout_width="36dp" layout_height="120dp" scaleType="fitXY" app:NOT_FOUND_0x10="2" app:NOT_FOUND_0x11="0"/>
+        <com.bytedance.lighten.loader.SmartImageView layout_gravity="top" id="@+id/e6f" visibility="gone" layout_width="36dp" layout_height="120dp" scaleType="fitXY" app:NOT_FOUND_0x10="2" app:NOT_FOUND_0x11="0"/>
+        <com.ss.android.ugc.aweme.pendant.OptimizedLottieAnimationView layout_gravity="top" id="@+id/t7" visibility="gone" layout_width="90dp" layout_height="90dp" scaleType="fitCenter" app:NOT_FOUND_0x10="2" app:NOT_FOUND_0x11="0"/>
+        <RelativeLayout layout_gravity="center_horizontal" id="@+id/a2_" background="@drawable/w1" visibility="gone" layout_width="61dp" layout_height="22dp" layout_marginTop="68dp">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" id="@+id/a2b" layout_width="match_parent" layout_height="match_parent" app:NOT_FOUND_0x12="81"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" id="@+id/a2a" visibility="gone" layout_width="match_parent" layout_height="match_parent" app:NOT_FOUND_0x12="81"/>
+        </RelativeLayout>
+        <com.ss.android.ugc.aweme.pendant.OptimizedLottieAnimationView layout_gravity="top" id="@+id/e6c" visibility="gone" layout_width="36dp" layout_height="120dp" scaleType="fitCenter" app:NOT_FOUND_0x10="2" app:NOT_FOUND_0x11="0"/>
+        <ImageView layout_gravity="top|right|center_vertical|center_horizontal|center|end" id="@+id/a7q" paddingLeft="6dp" paddingRight="0dp" paddingBottom="6dp" layout_width="30dp" layout_height="30dp" src="0x7f080337" paddingStart="6dp" paddingEnd="0dp"/>
+    </FrameLayout>
+</merge>

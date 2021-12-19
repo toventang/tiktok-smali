@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlTextView textSize="13sp" textColor="@color/a0k" id="@+id/f1l" paddingLeft="16dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/e6p" textAlignment="viewStart" paddingStart="16dp"/>
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/a6n" layout_width="match_parent" layout_height="72dp" layout_marginTop="4dp">
+        <ImageView id="@+id/bx3" background="@drawable/c93" paddingLeft="3.5dp" paddingTop="3.5dp" paddingRight="3.5dp" paddingBottom="3.5dp" layout_width="0dp" layout_height="51dp" layout_marginLeft="16dp" src="@drawable/c8w" scaleType="fitXY" paddingStart="3.5dp" paddingEnd="3.5dp" layout_marginStart="16dp" NOT_FOUND_0x20="0" NOT_FOUND_0x22="@+id/bwp" NOT_FOUND_0x26="0" NOT_FOUND_0x27="0"/>
+        <LinearLayout orientation="horizontal" id="@+id/cfd" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x20="@+id/bx3" NOT_FOUND_0x23="@+id/bx3" NOT_FOUND_0x24="@+id/bx3" NOT_FOUND_0x27="@+id/bx3">
+            <ImageView layout_width="24dp" layout_height="24dp" src="0x7f080fdd"/>
+            <com.bytedance.android.live.design.widget.LiveTextView textSize="14sp" textColor="@color/a0h" layout_gravity="center_vertical" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="8dp" text="@string/eha" layout_marginStart="8dp" style="@style/tq"/>
+        </LinearLayout>
+        <ImageView id="@+id/bwp" background="@drawable/c93" paddingLeft="3.5dp" paddingTop="3.5dp" paddingRight="3.5dp" paddingBottom="3.5dp" layout_width="0dp" layout_height="48dp" layout_marginLeft="3dp" layout_marginRight="16dp" src="@drawable/c8t" scaleType="fitXY" paddingStart="3.5dp" paddingEnd="3.5dp" layout_marginStart="3dp" layout_marginEnd="16dp" NOT_FOUND_0x20="0" NOT_FOUND_0x21="0" NOT_FOUND_0x25="@+id/bx3" NOT_FOUND_0x27="0"/>
+        <LinearLayout orientation="horizontal" id="@+id/cf_" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x20="@+id/bwp" NOT_FOUND_0x23="@+id/bwp" NOT_FOUND_0x24="@+id/bwp" NOT_FOUND_0x27="@+id/bwp">
+            <ImageView layout_width="24dp" layout_height="24dp" src="0x7f080fdc"/>
+            <com.bytedance.android.live.design.widget.LiveTextView textSize="14sp" textColor="@color/a0h" layout_gravity="center_vertical" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="8dp" text="@string/e50" layout_marginStart="8dp" style="@style/tq"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout id="@+id/b5f" layout_width="match_parent" layout_height="78dp">
+        <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlTextView textSize="14sp" textColor="@color/a0h" id="@+id/ezm" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="8dp" text="@string/e2v" layout_marginStart="16dp" layout_alignParentStart="true" NOT_FOUND_0x1f="7" style="@style/tq"/>
+        <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlTextView textSize="12sp" textColor="@color/a0k" id="@+id/ezl" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="6dp" layout_marginRight="12dp" text="@string/e2x" layout_below="@+id/ezm" lineSpacingExtra="3dp" textAlignment="viewStart" layout_marginStart="16dp" layout_marginEnd="12dp" layout_toStartOf="@+id/b6l" layout_alignParentStart="true" NOT_FOUND_0x1f="1"/>
+        <RelativeLayout id="@+id/b6l" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" layout_marginRight="16dp" layout_marginEnd="16dp" layout_alignParentEnd="true">
+            <com.bytedance.android.live.design.widget.LiveSwitch id="@+id/egs" clickable="false" layout_width="wrap_content" layout_height="wrap_content" checked="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <View background="@color/xa" layout_width="match_parent" layout_height="8dp"/>
+    <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlTextView textSize="13sp" textColor="@color/a0k" id="@+id/f1j" paddingLeft="16dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" text="@string/ehf" textAlignment="viewStart" paddingStart="16dp"/>
+    <RelativeLayout id="@+id/j0" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="17dp">
+        <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlTextView textSize="15sp" textColor="@color/a0h" paddingLeft="16dp" layout_width="match_parent" layout_height="wrap_content" text="@string/eq5" layout_centerVertical="true" textAlignment="viewStart" paddingStart="16dp" layout_alignParentStart="true"/>
+        <RelativeLayout id="@+id/fk8" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="16dp" layout_centerVertical="true" layout_marginEnd="16dp" layout_alignParentEnd="true">
+            <com.bytedance.android.live.design.widget.LiveSwitch id="@+id/egz" clickable="false" layout_width="wrap_content" layout_height="wrap_content" checked="true" layout_centerVertical="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout id="@+id/b8_" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="27dp">
+        <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlTextView textSize="15sp" textColor="@color/a0h" paddingLeft="16dp" layout_width="match_parent" layout_height="wrap_content" text="@string/e3_" layout_centerVertical="true" textAlignment="viewStart" paddingStart="16dp" layout_alignParentStart="true"/>
+        <RelativeLayout id="@+id/b8a" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="16dp" layout_centerVertical="true" layout_marginEnd="16dp" layout_alignParentEnd="true">
+            <com.bytedance.android.live.design.widget.LiveSwitch id="@+id/egt" clickable="false" layout_width="wrap_content" layout_height="wrap_content" checked="true" layout_centerVertical="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

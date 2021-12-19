@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="match_parent" layout_height="@dimen/bv" layout_centerVertical="true">
+    <com.bytedance.lighten.loader.SmartImageView id="@+id/bhm" layout_width="@dimen/bu" layout_height="@dimen/bt" layout_centerVertical="true" NOT_FOUND_0x11="2" NOT_FOUND_0x12="@color/l" NOT_FOUND_0x13="2dp"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/euw" layout_width="@dimen/bx" layout_height="@dimen/bw" layout_marginTop="25dp" text="Movie Name" maxLines="2" maxEms="15" textDirection="locale" textAlignment="viewStart" layout_marginStart="12dp" layout_toEndOf="@+id/bhm" NOT_FOUND_0x14="42"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtButton textSize="14sp" textColor="@color/bx" id="@+id/xt" background="@drawable/pl" layout_width="88dp" layout_height="29dp" text="@string/fk8" layout_centerVertical="true" layout_alignParentEnd="true" style="?android:attr/borderlessButtonStyle"/>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/dqe" layout_width="match_parent" layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView id="@+id/dr2" paddingLeft="32dp" paddingBottom="24dp" clipToPadding="false" layout_width="match_parent" layout_height="0dp" paddingStart="32dp" NOT_FOUND_0x17="@+id/an6" NOT_FOUND_0x18="0" NOT_FOUND_0x19="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="0" NOT_FOUND_0x1c="0" NOT_FOUND_0x1e="0" NOT_FOUND_0x1f="0"/>
+    <com.bytedance.ies.dmt.ui.titlebar.TextTitleBar id="@+id/em8" background="@color/l" layout_width="match_parent" layout_height="44dp" alpha="0" NOT_FOUND_0x1e="0" NOT_FOUND_0x20="@color/bx" NOT_FOUND_0x21="17dp"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c6" gravity="top" id="@+id/ep8" visibility="visible" layout_width="28dp" layout_height="17dp" layout_marginTop="20dp" layout_marginRight="32dp" text="@string/dg6" layout_marginEnd="32dp" NOT_FOUND_0x1b="0" NOT_FOUND_0x1e="0" NOT_FOUND_0x22="52"/>
+    <View id="@+id/an6" background="@color/b6" layout_width="match_parent" layout_height="0.5dp" NOT_FOUND_0x17="@+id/vb" NOT_FOUND_0x1d="@+id/dr2"/>
+    <LinearLayout orientation="horizontal" id="@+id/vb" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="32dp" layout_marginTop="12dp" layout_marginRight="32dp" layout_marginBottom="12dp" layout_marginStart="32dp" layout_marginEnd="32dp" NOT_FOUND_0x16="0" NOT_FOUND_0x1d="@+id/an6">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/w8" background="@drawable/avt" layout_width="0dp" layout_height="44dp" layout_marginRight="4dp" text="@string/dg6" layout_weight="1" layout_marginEnd="4dp" NOT_FOUND_0x22="43"/>
+        <FrameLayout layout_gravity="center" id="@+id/aok" layout_width="0dp" layout_height="44dp" layout_marginLeft="4dp" layout_weight="1" layout_marginStart="4dp">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" id="@+id/dni" background="@drawable/s6" layout_width="match_parent" layout_height="match_parent" text="@string/dg3" NOT_FOUND_0x22="43"/>
+        </FrameLayout>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/a3q" background="@drawable/s6" visibility="gone" layout_width="match_parent" layout_height="44dp" text="@string/dg3" layout_weight="1" NOT_FOUND_0x22="43"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

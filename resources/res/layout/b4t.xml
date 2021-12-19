@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="wrap_content">
+    <TextView textSize="13sp" textColor="@color/sw" gravity="center_horizontal" id="@+id/cw0" paddingTop="16dp" visibility="gone" layout_width="match_parent" layout_height="64dp"/>
+</FrameLayout>

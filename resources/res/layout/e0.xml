@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns="" id="@+id/af4" background="@color/c9" layout_width="match_parent" layout_height="match_parent">
+    <View id="@+id/cre" layout_width="match_parent" layout_height="match_parent" soundEffectsEnabled="false" importantForAccessibility="no"/>
+    <LinearLayout layout_gravity="bottom" orientation="vertical" id="@+id/cpv" layout_width="match_parent" layout_height="wrap_content">
+        <FrameLayout id="@+id/b5e" layout_width="match_parent" layout_height="wrap_content"/>
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtPanelRelativeLayout layout_gravity="bottom" orientation="vertical" visibility="visible" clickable="true" layout_width="match_parent" layout_height="@dimen/ck" NOT_FOUND_0x17="true" NOT_FOUND_0x18="@dimen/cl" NOT_FOUND_0x1a="true">
+            <FrameLayout id="@+id/b77" layout_width="match_parent" layout_height="164dp">
+                <FrameLayout orientation="vertical" id="@+id/dph" layout_width="match_parent" layout_height="match_parent"/>
+                <FrameLayout layout_width="match_parent" layout_height="match_parent">
+                    <include layout="@layout/dx"/>
+                </FrameLayout>
+            </FrameLayout>
+            <com.ss.android.ugc.aweme.themechange.base.AVDmtView layout_width="match_parent" layout_height="0.5dp" layout_above="@+id/ch5" NOT_FOUND_0x19="true"/>
+            <LinearLayout gravity="center_vertical" orientation="horizontal" id="@+id/ch5" layout_width="match_parent" layout_height="44dp" layout_below="@+id/b77">
+                <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView textSize="15dp" textStyle="bold" textColor="@color/dc" gravity="center" id="@+id/fa3" layout_width="0dp" layout_height="match_parent" text="@string/my" maxLines="1" layout_weight="1" lineSpacingExtra="3sp" NOT_FOUND_0x14="7" NOT_FOUND_0x15="false" NOT_FOUND_0x16="true"/>
+                <com.ss.android.ugc.aweme.themechange.base.AVDmtView layout_width="0.5dp" layout_height="16dp" NOT_FOUND_0x19="true"/>
+                <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView textSize="15dp" textStyle="bold" textColor="@color/dc" gravity="center" id="@+id/fa5" layout_width="0dp" layout_height="match_parent" text="@string/hd_" maxLines="1" layout_weight="1" lineSpacingExtra="3sp" NOT_FOUND_0x14="7" NOT_FOUND_0x15="false" NOT_FOUND_0x16="true"/>
+            </LinearLayout>
+        </com.ss.android.ugc.aweme.themechange.base.AVDmtPanelRelativeLayout>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

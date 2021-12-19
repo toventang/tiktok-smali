@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.shoutouts.review.view.ShoutoutsProductReviewError xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <ImageView id="@+id/c29" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="207dp" src="0x7f080c14" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0x10="0"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/f9l" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="21dp" text="Something went wrong" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="@+id/c29" NOT_FOUND_0x11="32"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/aa" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" text="Please try again" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="@+id/f9l" NOT_FOUND_0x11="51"/>
+    <LinearLayout gravity="center" orientation="horizontal" id="@+id/cgb" background="@drawable/bis" layout_width="240dp" layout_height="44dp" layout_marginBottom="156dp" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0">
+        <com.bytedance.tux.icon.TuxIconView layout_width="15dp" layout_height="13dp" src="0x7f080c15"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" layout_width="wrap_content" layout_height="wrap_content" text="Retry" layout_marginStart="7.3dp" NOT_FOUND_0x11="42"/>
+    </LinearLayout>
+</com.ss.android.ugc.aweme.shoutouts.review.view.ShoutoutsProductReviewError>

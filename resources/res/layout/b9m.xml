@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" id="@+id/fdn" paddingLeft="32dp" paddingRight="32dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="32dp" paddingEnd="32dp" NOT_FOUND_0x1d="@+id/evu" NOT_FOUND_0x1e="0" NOT_FOUND_0x1f="0" NOT_FOUND_0x21="0" NOT_FOUND_0x22="0">
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="16dp" textColor="@color/a_" ellipsize="end" gravity="center_horizontal" layout_gravity="center" id="@+id/cs_" layout_width="wrap_content" layout_height="wrap_content" maxWidth="250dp" maxLines="1" NOT_FOUND_0x1b="7"/>
+        <LinearLayout gravity="center" layout_gravity="center" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="6dp">
+            <com.bytedance.android.live.design.widget.LiveTextView textSize="12dp" textColor="@color/aa" gravity="center_horizontal" layout_gravity="center" id="@+id/cva" layout_width="0dp" layout_height="wrap_content" singleLine="true" includeFontPadding="false" layout_weight="1"/>
+            <ImageView id="@+id/nt" visibility="gone" layout_width="10dp" layout_height="10dp" layout_marginLeft="3dp" contentDescription="authentication icon" layout_marginStart="3dp"/>
+        </LinearLayout>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="12dp" textColor="@color/aa" gravity="center" id="@+id/ff0" paddingTop="8dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content"/>
+        <LinearLayout gravity="center" orientation="horizontal" id="@+id/r2" paddingTop="8dp" paddingBottom="12dp" layout_width="match_parent" layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView layout_gravity="center" id="@+id/fd_" paddingTop="6dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="2dp" layoutDirection="locale" layout_marginStart="2dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="12sp" textColor="@color/aa" gravity="center" id="@+id/evu" layout_width="match_parent" layout_height="wrap_content" lineSpacingExtra="3dp" NOT_FOUND_0x1d="@+id/esl" NOT_FOUND_0x20="@+id/fdn"/>
+    <include id="@+id/esl" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x1d="@+id/c6" NOT_FOUND_0x20="@+id/evu" layout="@layout/bdj"/>
+    <include id="@+id/c6" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x1c="0" NOT_FOUND_0x20="@+id/esl" layout="@layout/bfd"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

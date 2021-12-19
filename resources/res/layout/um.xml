@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.ies.dmt.ui.titlebar.ButtonTitleBar xmlns="" layout_width="match_parent" layout_height="@dimen/a0s" NOT_FOUND_0x2="8" NOT_FOUND_0x3="8" NOT_FOUND_0x4="@color/bx" NOT_FOUND_0x5="true"/>

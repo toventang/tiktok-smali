@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.ug.guide.SwipeUpGuideStrengthenLayout xmlns="" id="@+id/egj" background="@color/bk" layout_width="match_parent" layout_height="match_parent" alpha="0.5">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+        <RelativeLayout layout_width="match_parent" layout_height="match_parent">
+            <LinearLayout layout_gravity="center" orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_centerInParent="true">
+                <com.ss.android.ugc.aweme.base.ui.AnimationImageView layout_gravity="center" id="@+id/bxd" layout_width="match_parent" layout_height="210dp"/>
+                <com.ss.android.ugc.aweme.ug.guide.GuideView layout_gravity="center_horizontal" id="@+id/bxe" visibility="gone" layout_width="260dp" layout_height="210dp"/>
+                <FrameLayout paddingTop="20dp" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="32dp" layout_marginRight="32dp">
+                    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" id="@+id/f89" layout_width="match_parent" layout_height="wrap_content" text="@string/gb3" NOT_FOUND_0xf="13"/>
+                </FrameLayout>
+                <FrameLayout layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="32dp" layout_marginRight="32dp">
+                    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" id="@+id/f8_" visibility="gone" layout_width="match_parent" layout_height="wrap_content" text="@string/gb3" NOT_FOUND_0xf="23"/>
+                </FrameLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</com.ss.android.ugc.aweme.ug.guide.SwipeUpGuideStrengthenLayout>

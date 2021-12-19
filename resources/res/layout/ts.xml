@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" background="@color/bj" clickable="true" layout_width="match_parent" layout_height="match_parent">
+    <ImageView id="@+id/bi7" layout_width="72dp" layout_height="72dp" src="0x7f08033c" NOT_FOUND_0xd="@+id/title" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0.4" NOT_FOUND_0x13="2"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a_" gravity="center" id="@+id/title" layout_width="0dp" layout_height="wrap_content" layout_marginTop="20dp" text="@string/bw3" layout_marginStart="32dp" layout_marginEnd="32dp" NOT_FOUND_0xd="@+id/ak7" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="@+id/bi7" NOT_FOUND_0x14="33"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/aa" gravity="center" id="@+id/ak7" layout_width="0dp" layout_height="wrap_content" layout_marginTop="12dp" text="@string/bw2" layout_marginStart="32dp" layout_marginEnd="32dp" NOT_FOUND_0xc="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="@+id/title" NOT_FOUND_0x14="51"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

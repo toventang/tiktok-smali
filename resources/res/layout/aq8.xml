@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/b69" layout_width="match_parent" layout_height="wrap_content">
+    <ScrollView layout_width="match_parent" layout_height="match_parent">
+        <com.bytedance.ies.dmt.ui.widget.DmtStatusView id="@+id/e_o" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="80dp"/>
+    </ScrollView>
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout id="@+id/cgi" background="@drawable/b6r" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="12dp" layout_marginRight="16dp" layout_marginBottom="4dp" layout_marginStart="16dp" layout_marginEnd="16dp">
+            <com.bytedance.tux.icon.TuxIconView layout_gravity="center_vertical" layout_width="20dp" layout_height="20dp" layout_marginTop="8dp" layout_marginBottom="8dp" layout_marginStart="6dp" NOT_FOUND_0x14="@raw/icon_magnifying_glass" NOT_FOUND_0x15="?attr/bc"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c5" paddingTop="9dp" paddingBottom="9dp" layout_width="wrap_content" layout_height="wrap_content" text="@string/dp9" layout_marginStart="6dp" NOT_FOUND_0x13="41"/>
+        </LinearLayout>
+        <com.bytedance.ies.powerlist.PowerList id="@+id/drv" clipToPadding="false" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp"/>
+    </LinearLayout>
+    <ViewStub id="@+id/ed6" visibility="invisible" layout="@layout/aqn" layout_width="match_parent" layout_height="wrap_content"/>
+</FrameLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" orientation="vertical" background="@drawable/bqw" paddingLeft="16dp" paddingTop="16dp" paddingRight="16dp" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+    <RelativeLayout id="@+id/ae6" visibility="invisible" layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout orientation="horizontal" id="@+id/bfr" layout_width="wrap_content" layout_height="wrap_content">
+            <com.bytedance.android.live.design.widget.LiveTextView textSize="18sp" textColor="@color/yh" id="@+id/bfs" layout_width="wrap_content" layout_height="wrap_content"/>
+            <com.bytedance.android.livesdk.widget.LiveLoadingView layout_gravity="center_vertical" id="@+id/bfo" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="8dp" layout_marginStart="8dp"/>
+        </LinearLayout>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="12sp" textColor="@color/yf" id="@+id/bfp" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="6dp" layout_below="@+id/bfr"/>
+        <RelativeLayout id="@+id/flo" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="40dp" minHeight="35dp" layout_below="@+id/bfp">
+            <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_centerInParent="true">
+                <com.bytedance.android.live.design.widget.LiveTextView textSize="12sp" textColor="@color/yf" gravity="center" id="@+id/flp" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" minHeight="35dp" layout_weight="1"/>
+                <com.bytedance.android.live.design.widget.LiveTextView textSize="12sp" textColor="@color/yf" gravity="center" id="@+id/flq" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" minHeight="35dp" layout_weight="1"/>
+            </LinearLayout>
+            <com.bytedance.android.live.design.widget.LiveTextView textSize="16sp" textColor="@color/ye" gravity="center" id="@+id/a3r" visibility="invisible" layout_width="wrap_content" layout_height="wrap_content" minHeight="35dp" layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout id="@+id/dhr" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="32dp" layout_below="@+id/flo">
+            <View background="@color/yg" layout_width="wrap_content" layout_height="0.5dp" layout_toLeftOf="@+id/dhs" layout_centerVertical="true" layout_toStartOf="@+id/dhs"/>
+            <com.bytedance.android.live.design.widget.LiveTextView textSize="12sp" textColor="@color/yh" id="@+id/dhs" layout_width="wrap_content" layout_height="wrap_content" text="@string/gsr" layout_centerInParent="true" layout_marginStart="8dp" layout_marginEnd="8dp"/>
+            <View background="@color/yg" layout_width="wrap_content" layout_height="0.5dp" layout_toRightOf="@+id/dhs" layout_centerVertical="true" layout_toEndOf="@+id/dhs"/>
+        </RelativeLayout>
+        <LinearLayout gravity="center" orientation="horizontal" id="@+id/vn" visibility="invisible" layout_width="match_parent" layout_height="64dp" layout_marginTop="16dp" layout_below="@+id/dhr"/>
+    </RelativeLayout>
+    <com.bytedance.android.live.uikit.recyclerview.LoadingStatusView layout_gravity="center" id="@+id/chf" layout_width="match_parent" layout_height="wrap_content"/>
+</FrameLayout>

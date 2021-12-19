@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/dnx" background="@color/l" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.lighten.loader.SmartImageView id="@+id/sr" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x1e="@drawable/azp" NOT_FOUND_0x1f="@drawable/azp" NOT_FOUND_0x20="6"/>
+    <FrameLayout id="@+id/st" background="@color/l" layout_width="match_parent" layout_height="match_parent"/>
+    <LinearLayout orientation="vertical" id="@+id/cek" layout_width="match_parent" layout_height="match_parent">
+        <LinearLayout orientation="vertical" id="@+id/emo" clickable="true" layout_width="match_parent" layout_height="wrap_content">
+            <View id="@+id/e_f" background="@color/l" layout_width="match_parent" layout_height="0dp"/>
+            <RelativeLayout gravity="center_vertical" background="@color/c9" layout_width="match_parent" layout_height="@dimen/a0s">
+                <View id="@+id/emi" background="@color/l" layout_width="match_parent" layout_height="match_parent" alpha="1"/>
+                <com.ss.android.ugc.aweme.views.AutoRTLImageView id="@+id/qb" layout_width="44dp" layout_height="44dp" src="@drawable/ccg" layout_centerVertical="true" style="@style/a3j"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/nq" ellipsize="end" id="@+id/title" layout_width="wrap_content" layout_height="wrap_content" maxWidth="@dimen/ec" singleLine="true" drawablePadding="3dp" layout_centerHorizontal="true" layout_centerVertical="true" alpha="0" NOT_FOUND_0x29="31"/>
+                <ImageView id="@+id/duc" padding="10dp" visibility="gone" layout_width="44dp" layout_height="44dp" layout_marginRight="-4dp" scaleType="fitXY" layout_toLeftOf="@+id/e0k" layout_centerVertical="true" alpha="0.67" layout_marginEnd="-4dp" layout_toStartOf="@+id/e0k"/>
+                <ImageView id="@+id/e0k" layout_width="24dp" layout_height="24dp" layout_marginRight="16dp" src="0x7f080355" scaleType="fitXY" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <com.bytedance.tux.status.refresh.TuxRefreshLayout id="@+id/c7d" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x2a="true" NOT_FOUND_0x2b="1">
+            <com.ss.android.ugc.aweme.common.widget.scrollablelayout.ScrollableLayout id="@+id/dtd" layout_width="match_parent" layout_height="match_parent">
+                <com.ss.android.ugc.aweme.challenge.widget.MonitorSizeChangedLinearLayout id="@+id/bf9" layout_width="match_parent" layout_height="wrap_content"/>
+                <com.bytedance.ies.dmt.ui.widget.tablayout.DmtTabLayout id="@+id/ehe" layout_width="match_parent" layout_height="45dp" NOT_FOUND_0x21="@null" NOT_FOUND_0x22="0" NOT_FOUND_0x23="@color/bi" NOT_FOUND_0x24="2dp" NOT_FOUND_0x25="0dp" NOT_FOUND_0x26="1" NOT_FOUND_0x27="12dp" NOT_FOUND_0x28="12dp"/>
+                <View id="@+id/cu3" background="@color/b2" visibility="gone" layout_width="match_parent" layout_height="0.5dp"/>
+                <com.ss.android.ugc.aweme.views.ChallengeViewPager id="@+id/fk_" background="@color/l" layout_width="match_parent" layout_height="wrap_content"/>
+            </com.ss.android.ugc.aweme.common.widget.scrollablelayout.ScrollableLayout>
+        </com.bytedance.tux.status.refresh.TuxRefreshLayout>
+    </LinearLayout>
+    <FrameLayout id="@+id/e9v" layout_width="74dp" layout_height="74dp" layout_marginBottom="8dp" layout_alignParentBottom="true" layout_centerHorizontal="true">
+        <View layout_gravity="center" id="@+id/e_0" background="0x7f08094e" layout_width="49dp" layout_height="49dp"/>
+        <ImageView id="@+id/e9z" background="0x7f080488" layout_width="74dp" layout_height="74dp"/>
+    </FrameLayout>
+    <RelativeLayout id="@+id/e9y" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtStatusView id="@+id/e_o" background="@color/l" layout_width="match_parent" layout_height="match_parent" layout_marginTop="@dimen/a0s"/>
+    <ViewStub id="@+id/akb" layout="@layout/mt" layout_width="match_parent" layout_height="match_parent"/>
+</RelativeLayout>

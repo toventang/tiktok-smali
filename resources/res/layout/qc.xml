@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" gravity="start" id="@+id/dmv" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" layout_marginBottom="4dp" textAlignment="viewStart" NOT_FOUND_0x10="62"/>
+    <com.ss.android.ugc.aweme.ecommerce.review.view.ViewMoreText layout_gravity="start" id="@+id/dmm" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="8dp"/>
+    <com.bytedance.tux.widget.FlowLayout id="@+id/dms" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+    <com.ss.android.ugc.aweme.ecommerce.review.view.ViewMoreText id="@+id/dmt" background="@drawable/y2" paddingLeft="16dp" paddingTop="12dp" paddingRight="16dp" paddingBottom="12dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="8dp"/>
+</LinearLayout>

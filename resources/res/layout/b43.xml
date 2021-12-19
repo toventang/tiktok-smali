@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+        <com.ss.android.ugc.aweme.common.widget.scrollablelayout.ScrollableLayout id="@+id/dtd" layout_width="match_parent" layout_height="match_parent">
+            <FrameLayout id="@+id/bf9" layout_width="match_parent" layout_height="wrap_content"/>
+            <com.bytedance.ies.dmt.ui.widget.tablayout.DmtTabLayout id="@+id/ehe" layout_width="match_parent" layout_height="0dp"/>
+            <com.ss.android.ugc.aweme.views.RtlViewPager id="@+id/fk_" layout_width="match_parent" layout_height="wrap_content"/>
+        </com.ss.android.ugc.aweme.common.widget.scrollablelayout.ScrollableLayout>
+    </LinearLayout>
+    <LinearLayout orientation="vertical" id="@+id/emo" clickable="true" layout_width="match_parent" layout_height="wrap_content">
+        <RelativeLayout gravity="center_vertical" background="@color/c9" layout_width="match_parent" layout_height="@dimen/a0s">
+            <View id="@+id/emi" background="@color/l" layout_width="match_parent" layout_height="match_parent" alpha="1"/>
+            <com.ss.android.ugc.aweme.views.AutoRTLImageView id="@+id/qb" layout_width="44dp" layout_height="44dp" src="@drawable/ccg" layout_centerVertical="true" style="@style/a3j"/>
+            <com.bytedance.tux.input.TuxTextView textColor="?attr/bc" ellipsize="end" id="@+id/title" layout_width="wrap_content" layout_height="wrap_content" maxWidth="@dimen/eg" singleLine="true" drawablePadding="3dp" layout_centerHorizontal="true" layout_centerVertical="true" alpha="0"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <com.bytedance.tux.status.TuxStatusView id="@+id/e_o" background="?attr/m" visibility="gone" layout_width="match_parent" layout_height="match_parent" layout_marginTop="@dimen/a0s" NOT_FOUND_0x12="0"/>
+    <include layout_width="match_parent" layout_height="match_parent" layout="@layout/b42"/>
+</RelativeLayout>

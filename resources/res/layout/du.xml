@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/b4g" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="14dp" layout_marginEnd="14dp">
+    <FrameLayout layout_gravity="center_horizontal" id="@+id/b5i" layout_width="wrap_content" layout_height="wrap_content"/>
+</FrameLayout>

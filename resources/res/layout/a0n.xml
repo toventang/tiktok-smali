@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.ies.dmt.ui.titlebar.TextTitleBar id="@+id/elv" background="@color/l" layout_width="match_parent" layout_height="@dimen/a0s" NOT_FOUND_0x5="15dp" NOT_FOUND_0x7="0" NOT_FOUND_0x8="0" NOT_FOUND_0xa="0" NOT_FOUND_0xb="@string/q7" NOT_FOUND_0xc="@color/bx" NOT_FOUND_0xe="true"/>
+    <com.bytedance.tux.status.loading.TuxDualBallView id="@+id/chl" visibility="gone" layout_width="36dp" layout_height="36dp" NOT_FOUND_0x6="0" NOT_FOUND_0x7="0" NOT_FOUND_0x8="0" NOT_FOUND_0xa="0"/>
+    <com.bytedance.tux.status.TuxStatusView id="@+id/e_c" layout_width="match_parent" layout_height="0dp" NOT_FOUND_0x6="0" NOT_FOUND_0x7="0" NOT_FOUND_0x8="0" NOT_FOUND_0x9="@+id/elv" NOT_FOUND_0xd="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

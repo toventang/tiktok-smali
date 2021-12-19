@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/ad7" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout id="@+id/af4" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+        <View id="@+id/epv" layout_width="match_parent" layout_height="match_parent" soundEffectsEnabled="false" importantForAccessibility="no"/>
+        <FrameLayout layout_gravity="top|center_vertical|center_horizontal|center" id="@+id/akq" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x7="com.ss.android.ugc.aweme.shortvideo.sticker.infoSticker.interact.consume.dialog.ViewPagerBottomSheetBehavior" style="?attr/kz"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

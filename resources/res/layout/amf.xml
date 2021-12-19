@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton xmlns="" gravity="center" id="@+id/a1r" visibility="gone" layout_width="48dp" layout_height="match_parent" layout_marginLeft="2dp" layout_marginRight="2dp" src="@android:drawable/ic_menu_close_clear_cancel" layout_weight="1" style="?android:attr/borderlessButtonStyle"/>

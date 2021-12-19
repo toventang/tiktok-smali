@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.common.keyboard.MeasureLinearLayout xmlns="" orientation="vertical" id="@+id/d0u" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+    <LinearLayout gravity="center" layout_gravity="bottom" orientation="vertical" id="@+id/cee" layout_width="match_parent" layout_height="wrap_content">
+        <View id="@+id/fe5" background="@color/a8" layout_width="match_parent" layout_height="0.5dp"/>
+        <LinearLayout gravity="center" orientation="horizontal" id="@+id/cfy" paddingTop="6dp" paddingBottom="6dp" layout_width="match_parent" layout_height="wrap_content" minHeight="52dp" paddingStart="16dp" paddingEnd="16dp">
+            <com.bytedance.tux.input.TuxTextView textColor="?attr/ad" gravity="center" id="@+id/etq" visibility="gone" layout_width="match_parent" layout_height="47dp" NOT_FOUND_0x1b="41"/>
+            <LinearLayout gravity="center" orientation="horizontal" id="@+id/cfl" layout_width="match_parent" layout_height="wrap_content">
+                <LinearLayout gravity="center" orientation="vertical" id="@+id/cep" layout_width="wrap_content" layout_height="wrap_content">
+                    <ImageView id="@+id/bvn" focusable="false" focusableInTouchMode="false" layout_width="24dp" layout_height="24dp" src="0x7f080954"/>
+                    <com.bytedance.tux.input.TuxTextView textColor="@color/a_" id="@+id/etr" focusable="false" focusableInTouchMode="false" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="-3dp" includeFontPadding="false" importantForAccessibility="no" NOT_FOUND_0x1b="72"/>
+                </LinearLayout>
+                <LinearLayout gravity="center" id="@+id/c58" background="@drawable/ll" layout_width="0dp" layout_height="wrap_content" minHeight="38dp" layout_weight="1" layout_marginStart="16dp">
+                    <com.ss.android.ugc.aweme.views.mention.MentionEditText textSize="15dp" gravity="left|center_vertical|center_horizontal|center|start" layout_gravity="center" id="@+id/a_5" background="@color/c9" layout_width="0dp" layout_height="match_parent" hint="@string/ajp" maxLines="1" layout_weight="1" lineSpacingExtra="3dp" paddingEnd="10dp" layout_marginStart="10dp"/>
+                    <com.ss.android.ugc.aweme.emoji.views.StoryEmojiReactionView id="@+id/ave" layout_width="wrap_content" layout_height="wrap_content" layout_marginEnd="12dp"/>
+                </LinearLayout>
+                <com.ss.android.ugc.aweme.detail.ui.FadeImageView layout_gravity="center_vertical" id="@+id/en2" visibility="gone" layout_width="28dp" layout_height="28dp" src="@drawable/mr" layout_marginStart="12dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.ss.android.ugc.aweme.common.keyboard.MeasureLinearLayout>

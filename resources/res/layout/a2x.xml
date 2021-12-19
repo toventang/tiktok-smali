@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/dqe" clipChildren="false" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout id="@+id/c8s" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout id="@+id/dj9" layout_width="match_parent" layout_height="match_parent"/>
+    <com.bytedance.creativex.recorder.gesture.api.VideoRecordGestureLayout id="@+id/c5v" background="@color/c9" saveEnabled="false" layout_width="match_parent" layout_height="match_parent"/>
+</FrameLayout>

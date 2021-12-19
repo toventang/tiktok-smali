@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_gravity="center_horizontal" id="@+id/dom" background="@drawable/ss" visibility="gone" layout_width="wrap_content" layout_height="28dp" layout_marginTop="24.5dp">
+    <LinearLayout gravity="center" orientation="horizontal" id="@+id/a60" layout_width="wrap_content" layout_height="match_parent" NOT_FOUND_0x20="0" NOT_FOUND_0x23="0" NOT_FOUND_0x24="0">
+        <FrameLayout id="@+id/asw" layout_width="wrap_content" layout_height="wrap_content">
+            <ImageView id="@+id/bv9" layout_width="20dp" layout_height="20dp" layout_marginLeft="10dp" src="0x7f080663" scaleType="centerInside" layout_marginStart="10dp"/>
+            <ImageView id="@+id/bv_" visibility="gone" layout_width="16dp" layout_height="16dp" layout_marginLeft="10dp" src="@drawable/ain" scaleType="centerInside" layout_marginStart="10dp"/>
+        </FrameLayout>
+        <com.ss.android.ugc.aweme.views.AlwaysMarqueeTextView textSize="13sp" textColor="@color/a9" ellipsize="marquee" gravity="center" layout_gravity="center" id="@+id/ewx" paddingTop="1.5dp" paddingBottom="1.5dp" focusable="true" focusableInTouchMode="true" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" maxWidth="140dp" text="@string/fvx" scrollHorizontally="true" singleLine="true" shadowColor="@color/bo" shadowDx="0" shadowDy="2" shadowRadius="2" marqueeRepeatLimit="marquee_forever" paddingEnd="10dp" layout_marginStart="4dp"/>
+    </LinearLayout>
+    <View id="@+id/dxq" layout_width="0dp" layout_height="match_parent" NOT_FOUND_0x1f="@+id/a60" NOT_FOUND_0x20="0" NOT_FOUND_0x21="0" NOT_FOUND_0x23="0"/>
+    <LinearLayout id="@+id/cej" visibility="gone" layout_width="36dp" layout_height="match_parent" NOT_FOUND_0x1e="0" NOT_FOUND_0x1f="0" NOT_FOUND_0x22="@+id/a60" NOT_FOUND_0x24="0">
+        <View id="@+id/an6" background="@color/a7" visibility="visible" layout_width="1dp" layout_height="match_parent"/>
+        <FrameLayout id="@+id/a1y" visibility="visible" layout_width="36dp" layout_height="match_parent">
+            <ImageView layout_gravity="center" layout_width="16dp" layout_height="16dp" src="0x7f0800f6"/>
+        </FrameLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

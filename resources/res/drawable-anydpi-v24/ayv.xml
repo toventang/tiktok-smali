@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="48dp" android:width="48dp" android:viewportWidth="48" android:viewportHeight="48">
+    <path android:fillColor="@color/e_" android:pathData="M5 24C5 21.7909 6.79086 20 9 20C11.2091 20 13 21.7909 13 24C13 26.2091 11.2091 28 9 28C6.79086 28 5 26.2091 5 24ZM20 24C20 21.7909 21.7909 20 24 20C26.2091 20 28 21.7909 28 24C28 26.2091 26.2091 28 24 28C21.7909 28 20 26.2091 20 24ZM35 24C35 21.7909 36.7909 20 39 20C41.2091 20 43 21.7909 43 24C43 26.2091 41.2091 28 39 28C36.7909 28 35 26.2091 35 24Z" android:fillType="1"/>
+</vector>

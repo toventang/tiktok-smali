@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/fr" background="@color/l" layout_width="match_parent" layout_height="wrap_content">
+    <ImageView id="@+id/fo" paddingLeft="15dp" paddingTop="14dp" paddingRight="15dp" paddingBottom="14dp" layout_width="40dp" layout_height="43dp" src="0x7f080325" scaleType="fitCenter" layout_alignParentTop="true" layout_alignParentRight="true" layout_alignParentEnd="true"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/fs" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="25dp" layout_marginTop="10.5dp" layout_marginRight="25dp" layout_alignParentTop="true" layout_centerHorizontal="true" NOT_FOUND_0x17="41"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bz" id="@+id/fp" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="3.5dp" text="@string/ok" layout_below="@+id/fs" layout_centerHorizontal="true" NOT_FOUND_0x17="71"/>
+    <Button textSize="13sp" textColor="@color/bx" id="@+id/fq" background="@drawable/a3i" layout_width="295dp" layout_height="28dp" layout_marginTop="10dp" layout_marginBottom="10dp" text="@string/ol" layout_below="@+id/fp" layout_centerHorizontal="true" lineSpacingExtra="4sp"/>
+</RelativeLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns="" theme="@style/mn" layout_gravity="bottom" layout_width="match_parent" layout_height="wrap_content" class="com.google.android.material.snackbar.Snackbar$SnackbarLayout" style="?attr/acx"/>

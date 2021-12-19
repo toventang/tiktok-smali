@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/deo" layout_width="match_parent" layout_height="0dp" NOT_FOUND_0x3="0.65">
+    <com.bytedance.tux.status.TuxStatusView id="@+id/dew" layout_width="match_parent" layout_height="match_parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

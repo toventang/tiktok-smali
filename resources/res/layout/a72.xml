@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns="" id="@+id/avh" background="@drawable/aqe" layout_width="wrap_content" layout_height="102.6dp" maxWidth="196dp">
+    <LinearLayout orientation="horizontal" id="@+id/av_" paddingLeft="8dp" paddingRight="3dp" layout_width="wrap_content" layout_height="80dp" layout_marginTop="8dp" paddingStart="8dp" paddingEnd="3dp"/>
+</HorizontalScrollView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="" orientation="horizontal">
+    <androidx.cardview.widget.CardView id="@+id/dgl" layout_width="2dp" layout_height="match_parent" layout_marginEnd="8dp" NOT_FOUND_0xc="1dp" NOT_FOUND_0xd="0dp"/>
+    <com.ss.android.ugc.aweme.im.sdk.chat.ui.view.SolidEmojiTuxTextView ellipsize="end" id="@+id/dlc" layout_width="0dp" layout_height="wrap_content" maxLines="2" layout_weight="1" NOT_FOUND_0xf="61"/>
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/ffs" visibility="gone" layout_width="30dp" layout_height="40dp" scaleType="centerCrop" layout_marginStart="4dp" NOT_FOUND_0xe="@dimen/lc"/>
+    <com.bytedance.tux.icon.TuxIconView layout_gravity="top|right|center_vertical|center_horizontal|center|end" id="@+id/a7z" visibility="gone" layout_width="16dp" layout_height="16dp" layout_marginStart="10dp" NOT_FOUND_0x10="@raw/icon_x_mark"/>
+</merge>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" orientation="vertical" id="@+id/dba" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+        <View id="@+id/e_f" background="@color/l" layout_width="match_parent" layout_height="0dp"/>
+        <com.bytedance.tux.navigation.TuxNavBar id="@+id/csl" layout_width="match_parent" layout_height="@dimen/a0s"/>
+        <LinearLayout orientation="vertical" id="@+id/ad7" layout_width="match_parent" layout_height="match_parent">
+            <com.bytedance.tux.status.refresh.TuxRefreshLayout id="@+id/dk8" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0xe="true" NOT_FOUND_0xf="1">
+                <com.ss.android.ugc.aweme.common.widget.scrollablelayout.DampScrollableLayout orientation="vertical" id="@+id/dtd" layout_width="match_parent" layout_height="match_parent">
+                    <include layout="@layout/aqk"/>
+                    <include layout="@layout/aq3"/>
+                    <com.ss.android.ugc.aweme.profile.ui.SwipableViewPager id="@+id/dtj" layout_width="match_parent" layout_height="match_parent"/>
+                </com.ss.android.ugc.aweme.common.widget.scrollablelayout.DampScrollableLayout>
+            </com.bytedance.tux.status.refresh.TuxRefreshLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <ViewStub id="@+id/dk" layout_width="match_parent" layout_height="45dp" layout_marginBottom="-46dp" layout_above="@+id/tp"/>
+    <ViewStub id="@+id/cuc" layout_width="match_parent" layout_height="60dp" layout_marginBottom="-121dp" layout_above="@+id/tp" layout_marginStart="12dp" layout_marginEnd="12dp"/>
+    <ViewStub id="@+id/d6x" layout_width="match_parent" layout_height="64dp" layout_marginBottom="-129dp" layout_above="@+id/tp"/>
+    <ViewStub id="@+id/g7" layout_width="match_parent" layout_height="match_parent"/>
+    <com.ss.android.ugc.aweme.profile.tip.FollowRequestTipView id="@+id/b7v" background="@drawable/b6w" visibility="gone" layout_width="match_parent" layout_height="66dp" layout_marginLeft="12dp" layout_marginRight="12dp" layout_alignParentBottom="true" translationY="66dp"/>
+    <View id="@+id/tp" layout_width="0dp" layout_height="0dp" layout_alignParentBottom="true"/>
+</RelativeLayout>

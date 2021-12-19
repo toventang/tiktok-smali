@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" clipChildren="false" layout_width="match_parent" layout_height="71dp">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/c7o" layout_width="match_parent" layout_height="match_parent">
+        <com.bytedance.tux.status.loading.TuxDualBallView layout_gravity="center" id="@+id/bc7" visibility="visible" layout_width="36dp" layout_height="36dp" NOT_FOUND_0x6="0" NOT_FOUND_0x7="0" NOT_FOUND_0x8="0" NOT_FOUND_0x9="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

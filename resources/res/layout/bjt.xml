@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/c5f" background="@drawable/t4" focusable="true" clickable="true" layout_width="match_parent" layout_height="wrap_content">
+    <RelativeLayout layout_width="match_parent" layout_height="40dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/title" layout_width="wrap_content" layout_height="wrap_content" text="@string/hdc" layout_centerInParent="true" NOT_FOUND_0x13="61"/>
+        <ImageView id="@+id/bve" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="12dp" src="0x7f080810" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="12dp" layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <com.google.android.material.tabs.TabLayout id="@+id/ehm" layout_width="match_parent" layout_height="92dp" NOT_FOUND_0x10="1" NOT_FOUND_0x11="0dp" NOT_FOUND_0x12="0dp"/>
+    <com.ss.android.ugc.aweme.views.ChallengeViewPager id="@+id/fk_" layout_width="match_parent" layout_height="355.5dp"/>
+</LinearLayout>

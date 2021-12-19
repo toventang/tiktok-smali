@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" background="@null" layout_width="match_parent" layout_height="wrap_content">
+    <com.bytedance.android.live.core.widget.HSImageView id="@+id/ccc" layout_width="match_parent" layout_height="wrap_content" scaleType="centerCrop" NOT_FOUND_0x27="@drawable/bxs" NOT_FOUND_0x28="0"/>
+    <View id="@+id/ckx" background="@drawable/brt" layout_width="match_parent" layout_height="45dp" layout_above="@+id/cko" layout_alignLeft="@+id/ccc" layout_alignRight="@+id/ccc" layout_alignStart="@+id/ccc" layout_alignEnd="@+id/ccc"/>
+    <View id="@+id/cko" background="@drawable/brs" layout_width="match_parent" layout_height="45dp" layout_alignLeft="@+id/ccc" layout_alignRight="@+id/ccc" layout_alignBottom="@+id/ccc" layout_alignStart="@+id/ccc" layout_alignEnd="@+id/ccc"/>
+    <com.bytedance.android.live.core.widget.HSImageView id="@+id/cdo" visibility="gone" layout_width="wrap_content" layout_height="18dp" scaleType="centerInside" layout_alignParentLeft="true" layout_alignParentTop="true" layout_alignParentStart="true" NOT_FOUND_0x29="false" NOT_FOUND_0x2a="true" NOT_FOUND_0x2b="true" NOT_FOUND_0x2c="false" NOT_FOUND_0x2d="2dp"/>
+    <LinearLayout gravity="center" background="@drawable/bq0" visibility="gone" layout_width="wrap_content" layout_height="22dp" layout_marginTop="4dp" layout_marginRight="4dp" layout_alignTop="@+id/ccc" layout_alignRight="@+id/ccc" layout_marginEnd="4dp" layout_alignEnd="@+id/ccc">
+        <ImageView id="@+id/ce4" visibility="gone" layout_width="12dp" layout_height="12dp" layout_marginLeft="3dp" layout_marginTop="2dp" layout_marginBottom="2dp" src="0x7f080f4f" layout_marginStart="3dp"/>
+        <View id="@+id/cdy" background="@drawable/c15" layout_width="4dp" layout_height="4dp" layout_marginLeft="6dp" layout_marginRight="4dp" layout_marginStart="6dp" layout_marginEnd="4dp"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="10dp" textColor="@color/y9" gravity="center" id="@+id/cdx" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="6dp" text="@string/go7" includeFontPadding="false" layout_marginEnd="6dp"/>
+    </LinearLayout>
+    <LinearLayout orientation="vertical" id="@+id/adx" layout_width="match_parent" layout_height="wrap_content" layout_alignParentBottom="true">
+        <LinearLayout id="@+id/c9l" background="@drawable/bwz" paddingLeft="5dp" paddingRight="5dp" visibility="gone" layout_width="wrap_content" layout_height="22dp" layout_marginLeft="4dp" layout_marginBottom="4dp" layout_alignTop="@+id/adx" layout_marginStart="4dp" NOT_FOUND_0x25="5dp">
+            <com.bytedance.android.live.core.widget.HSImageView layout_gravity="center" id="@+id/c9m" layout_width="20dp" layout_height="20dp"/>
+            <com.bytedance.android.live.design.widget.LiveTextView textSize="11dp" textColor="@color/a9" layout_gravity="center" id="@+id/c9n" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="3dp" layout_marginStart="3dp" NOT_FOUND_0x26="7"/>
+        </LinearLayout>
+        <LinearLayout gravity="center_vertical" orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginRight="4dp" layout_marginBottom="6dp" layout_alignParentBottom="true" layout_marginEnd="4dp">
+            <com.bytedance.android.live.design.widget.LiveTextView textSize="11dp" textColor="@color/a9" ellipsize="end" gravity="bottom" id="@+id/title" layout_width="0dp" layout_height="wrap_content" maxLines="1" layout_weight="1" layout_marginStart="4dp" layout_marginEnd="4dp" NOT_FOUND_0x26="7"/>
+            <LinearLayout layout_width="wrap_content" layout_height="wrap_content">
+                <ImageView layout_gravity="bottom" layout_width="14dp" layout_height="14dp" layout_marginRight="4dp" src="0x7f080f9c" scaleType="centerInside" layout_marginEnd="4dp"/>
+                <com.bytedance.android.live.design.widget.LiveTextView textSize="11dp" textColor="@color/y2" gravity="bottom|right|center_vertical|center_horizontal|center|end" layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" id="@+id/n6" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="4dp" text="@string/gnx" singleLine="true" layout_marginEnd="4dp" NOT_FOUND_0x26="7"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

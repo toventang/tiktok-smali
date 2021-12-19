@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="60dp" layout_height="60dp">
+    <com.ss.android.ugc.aweme.commercialize.views.ScaleFadeCircleView layout_gravity="center" id="@+id/b3x" layout_width="40dp" layout_height="40dp"/>
+    <com.ss.android.ugc.aweme.commercialize.views.ScaleFadeCircleView layout_gravity="center" id="@+id/dwn" layout_width="40dp" layout_height="40dp"/>
+    <com.ss.android.ugc.aweme.base.ui.CircleImageView layout_gravity="center" id="@+id/a67" layout_width="40dp" layout_height="40dp"/>
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@color/l" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout layout_width="match_parent" layout_height="@dimen/a0s">
+        <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView layout_gravity="center_vertical" id="@+id/qb" layout_width="44dp" layout_height="44dp" src="@drawable/ccg" style="@style/a3j"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" gravity="center_horizontal" layout_gravity="center" id="@+id/emt" paddingLeft="8dp" paddingRight="8dp" layout_width="wrap_content" layout_height="wrap_content" maxWidth="264dp" text="@string/dki" maxLines="1" paddingStart="8dp" paddingEnd="8dp" NOT_FOUND_0x13="33"/>
+        <View layout_gravity="bottom" id="@+id/ca6" layout_width="match_parent" layout_height="0.5dp"/>
+    </FrameLayout>
+    <View background="@color/b2" layout_width="match_parent" layout_height="0.5dp"/>
+    <FrameLayout id="@+id/cxe" background="@color/l" layout_width="match_parent" layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView id="@+id/cxr" layout_width="match_parent" layout_height="match_parent"/>
+        <com.bytedance.tux.status.TuxStatusView id="@+id/e_o" visibility="gone" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x14="0"/>
+    </FrameLayout>
+</LinearLayout>

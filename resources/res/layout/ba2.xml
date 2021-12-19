@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="30dp">
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="16sp" textColor="#161823" id="@+id/f7p" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" text="@string/ems" includeFontPadding="false" layout_marginStart="16dp" NOT_FOUND_0x11="2" NOT_FOUND_0x13="0" NOT_FOUND_0x15="0"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="12sp" id="@+id/f7o" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="5dp" text="@string/ejx" includeFontPadding="false" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0" NOT_FOUND_0x14="@+id/f7p"/>
+    <LinearLayout gravity="bottom" orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="10dp" layout_marginTop="16dp" layout_marginRight="10dp" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0" NOT_FOUND_0x14="@+id/f7o">
+        <com.bytedance.android.livesdk.rank.impl.view.StarHostView id="@+id/e9h" background="0x7f080dcd" layout_width="0dp" layout_height="118dp" layout_marginLeft="2dp" layout_marginRight="2dp" layout_weight="1"/>
+        <com.bytedance.android.livesdk.rank.impl.view.StarHostView id="@+id/e9g" background="0x7f080dcb" layout_width="0dp" layout_height="138dp" layout_marginLeft="2dp" layout_marginRight="2dp" layout_weight="1"/>
+        <com.bytedance.android.livesdk.rank.impl.view.StarHostView id="@+id/e9i" background="0x7f080dcf" layout_width="0dp" layout_height="118dp" layout_marginLeft="2dp" layout_marginRight="2dp" layout_weight="1"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" background="@drawable/azf" layout_width="match_parent" layout_height="56dp">
+    <ImageView layout_gravity="center_vertical" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="2dp" layout_marginTop="12dp" layout_marginRight="2dp" layout_marginBottom="12dp" src="@drawable/azg" contentDescription="@string/aiq"/>
+    <View background="@drawable/aze" layout_width="1.5dp" layout_height="match_parent" layout_marginTop="14dp" layout_marginBottom="14dp"/>
+    <TextView textSize="18dp" textStyle="bold" textColor="@color/g4" gravity="center" layout_width="0dp" layout_height="match_parent" text="@string/aio" layout_weight="1" contentDescription="@string/aip"/>
+</LinearLayout>

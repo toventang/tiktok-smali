@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@drawable/ax3" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout background="@drawable/ax3" layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout orientation="vertical" paddingBottom="20dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp">
+            <LinearLayout layout_gravity="center_vertical" orientation="horizontal" id="@+id/co_" paddingLeft="18dp" paddingTop="18dp" paddingRight="14dp" paddingBottom="18dp" layout_width="match_parent" layout_height="wrap_content">
+                <ImageView layout_width="17dp" layout_height="17dp" src="@drawable/ayu"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="8dp" text="@string/cth" layout_marginStart="8dp" NOT_FOUND_0x12="42"/>
+            </LinearLayout>
+            <View background="@color/b6" layout_width="match_parent" layout_height="0.3dp" layout_marginLeft="12dp" layout_marginRight="12dp"/>
+            <LinearLayout layout_gravity="center_vertical" orientation="horizontal" id="@+id/co9" paddingLeft="18dp" paddingTop="18dp" paddingRight="14dp" paddingBottom="18dp" layout_width="match_parent" layout_height="wrap_content">
+                <ImageView layout_width="17dp" layout_height="17dp" src="@drawable/ayt"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="8dp" text="@string/ctg" layout_marginStart="8dp" NOT_FOUND_0x12="42"/>
+            </LinearLayout>
+            <View background="@color/b6" layout_width="match_parent" layout_height="0.3dp" layout_marginLeft="12dp" layout_marginRight="12dp"/>
+            <LinearLayout layout_gravity="center_vertical" orientation="horizontal" id="@+id/co8" paddingLeft="18dp" paddingTop="18dp" paddingRight="14dp" paddingBottom="18dp" layout_width="match_parent" layout_height="wrap_content">
+                <ImageView layout_width="17dp" layout_height="17dp" src="@drawable/ays"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="8dp" text="@string/ctf" layout_marginStart="8dp" NOT_FOUND_0x12="42"/>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

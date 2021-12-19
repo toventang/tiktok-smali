@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.story.base.widget.FadeEdgeRecyclerView xmlns="" id="@+id/a7e" scrollbars="none" fadingEdge="horizontal" fadingEdgeLength="12dp" clipChildren="false" clipToPadding="false" layout_width="match_parent" layout_height="wrap_content" requiresFadingEdge="horizontal"/>

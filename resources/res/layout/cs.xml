@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/de_" paddingBottom="4dp" layout_width="match_parent" layout_height="wrap_content">
+    <FrameLayout id="@+id/dee" background="@drawable/t9" paddingLeft="8dp" paddingTop="22dp" paddingRight="8dp" paddingBottom="8dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" NOT_FOUND_0x14="0" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0" NOT_FOUND_0x17="0">
+        <com.bytedance.tux.input.TuxEditText textColorHint="@color/bz" layout_gravity="center" id="@+id/ded" layout_width="wrap_content" layout_height="wrap_content" hint="@string/cq" maxLength="150" textCursorDrawable="@drawable/bmu" textAlignment="center" NOT_FOUND_0x14="0" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0" NOT_FOUND_0x17="0" NOT_FOUND_0x19="43"/>
+    </FrameLayout>
+    <com.ss.android.ugc.tools.view.widget.AVAutoRTLImageView background="0x7f08025d" layout_width="30dp" layout_height="9dp" NOT_FOUND_0x15="@+id/dee" NOT_FOUND_0x16="@+id/dee" NOT_FOUND_0x17="0"/>
+    <com.ss.android.ugc.tools.view.widget.CircleImageView id="@+id/dec" layout_width="24dp" layout_height="24dp" layout_marginLeft="3dp" layout_marginTop="3dp" layout_marginRight="3dp" layout_marginBottom="3dp" NOT_FOUND_0x15="@+id/dee" NOT_FOUND_0x16="@+id/dee" NOT_FOUND_0x17="0" NOT_FOUND_0x18="0x7f080add"/>
+    <com.ss.android.ugc.tools.view.widget.AVAutoRTLImageView layout_width="13.33dp" layout_height="13.33dp" layout_marginTop="15.17dp" src="0x7f080699" layout_marginStart="15.33dp" NOT_FOUND_0x16="@+id/dec" NOT_FOUND_0x17="@+id/dec"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

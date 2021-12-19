@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/b9p" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout gravity="bottom" layout_gravity="bottom" id="@+id/af6" layout_width="match_parent" layout_height="match_parent" layout_marginTop="20dp">
+        <RelativeLayout id="@+id/dqe" background="@drawable/hs" paddingTop="10dp" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x17="com.ss.android.ugc.aweme.account.login.ViewPagerBottomSheetBehavior">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/em8" background="@color/l" layout_width="match_parent" layout_height="52dp" text="@string/aql" layout_alignParentTop="true" alpha="0" NOT_FOUND_0x1c="33"/>
+            <View id="@+id/an6" background="@color/b6" layout_width="match_parent" layout_height="0.5dp" layout_below="@+id/em8" alpha="0"/>
+            <com.ss.android.ugc.aweme.account.login.NonSwipeableViewPager id="@+id/fk_" layout_width="match_parent" layout_height="match_parent" layout_below="@+id/an6"/>
+            <com.ss.android.ugc.aweme.account.views.AutoRTLImageView id="@+id/eos" visibility="gone" layout_width="24dp" layout_height="24dp" layout_marginLeft="16dp" layout_marginTop="14dp" layout_alignParentLeft="true" layout_alignParentTop="true" layout_marginStart="16dp" layout_alignParentStart="true" NOT_FOUND_0x19="0" NOT_FOUND_0x1b="0"/>
+            <com.ss.android.ugc.aweme.account.views.AutoRTLImageView id="@+id/ep4" visibility="gone" layout_width="24dp" layout_height="24dp" layout_marginTop="14dp" layout_marginRight="16dp" layout_alignParentTop="true" layout_alignParentRight="true" layout_marginEnd="16dp" layout_alignParentEnd="true" NOT_FOUND_0x18="0" NOT_FOUND_0x1a="0"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c5" gravity="center" id="@+id/e51" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="14dp" layout_marginRight="16dp" text="@string/n8" layout_alignParentTop="true" layout_alignParentRight="true" layout_marginEnd="16dp" layout_alignParentEnd="true" NOT_FOUND_0x18="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x1c="51"/>
+        </RelativeLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" background="@color/a2" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.ies.dmt.ui.titlebar.TextTitleBar id="@+id/atm" layout_width="match_parent" layout_height="@dimen/a0s" NOT_FOUND_0x8="1" NOT_FOUND_0x9="@string/afp" NOT_FOUND_0xa="15dp" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="@string/afl" NOT_FOUND_0x11="@color/a9" NOT_FOUND_0x12="15dp" NOT_FOUND_0x13="@string/afu" NOT_FOUND_0x14="@color/a9" NOT_FOUND_0x18="false"/>
+    <FrameLayout id="@+id/d66" layout_width="match_parent" layout_height="200dp" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="@+id/atm">
+        <FrameLayout layout_gravity="center" id="@+id/d61" layout_width="120dp" layout_height="200dp">
+            <FrameLayout id="@+id/fhs" layout_width="match_parent" layout_height="match_parent"/>
+            <com.bytedance.tux.icon.TuxIconView layout_gravity="center" id="@+id/fgr" visibility="gone" layout_width="36dp" layout_height="36dp" NOT_FOUND_0x15="@raw/icon_play_fill" NOT_FOUND_0x16="true" NOT_FOUND_0x17="@color/a9"/>
+        </FrameLayout>
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/asg" layout_width="match_parent" layout_height="0dp" layout_marginTop="12dp" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="@+id/d66"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtStatusView id="@+id/ci4" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xf="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

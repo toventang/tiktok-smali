@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <include layout_width="match_parent" layout_height="match_parent" layout="@layout/wl"/>
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/cmx" layout_width="match_parent" layout_height="wrap_content" layout_alignParentStart="true">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" ellipsize="end" gravity="center" id="@+id/akz" layout_width="wrap_content" layout_height="52dp" maxWidth="300dp" maxLines="1" layout_centerHorizontal="true" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="33"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

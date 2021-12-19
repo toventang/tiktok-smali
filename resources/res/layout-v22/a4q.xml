@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/a4y" background="@color/l" layout_width="match_parent" layout_height="match_parent" splitMotionEvents="false">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+        <View id="@+id/e_o" background="@color/l" layout_width="match_parent" layout_height="0dp"/>
+        <com.ss.android.ugc.aweme.im.sdk.common.ui.widget.ImTextTitleBar id="@+id/a4z" background="@drawable/aq7" layout_width="match_parent" layout_height="@dimen/mr" NOT_FOUND_0x24="@raw/icon_ellipsis_vertical"/>
+        <FrameLayout id="@+id/b6o" layout_width="match_parent" layout_height="wrap_content">
+            <RelativeLayout id="@+id/b7s" background="@drawable/aq7" visibility="gone" layout_width="match_parent" layout_height="60dp" splitMotionEvents="false">
+                <com.bytedance.tux.icon.TuxIconView id="@+id/a7y" layout_width="44dp" layout_height="44dp" layout_marginLeft="2dp" layout_marginRight="2dp" scaleType="centerInside" layout_centerVertical="true" NOT_FOUND_0x26="@raw/icon_x_mark_small" NOT_FOUND_0x27="24dp" NOT_FOUND_0x28="24dp"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" gravity="center_vertical" layout_width="match_parent" layout_height="match_parent" text="@string/cdq" maxLines="2" layout_toLeftOf="@+id/b7f" layout_toRightOf="@+id/a7y" layout_centerVertical="true" layout_toStartOf="@+id/b7f" layout_toEndOf="@+id/a7y" NOT_FOUND_0x25="61"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" id="@+id/b7f" background="@drawable/aqf" paddingLeft="8dp" paddingRight="8dp" layout_width="wrap_content" layout_height="28dp" layout_marginLeft="12dp" layout_marginRight="16dp" minWidth="86dp" text="@string/ces" layout_alignParentRight="true" layout_centerVertical="true" textAllCaps="false" layout_marginStart="12dp" layout_marginEnd="16dp" layout_alignParentEnd="true" NOT_FOUND_0x23="8dp" NOT_FOUND_0x25="41"/>
+            </RelativeLayout>
+            <com.ss.android.ugc.aweme.im.sdk.chat.feature.top.ui.ChatTopTip orientation="horizontal" id="@+id/a50" background="@color/v" paddingLeft="12dp" paddingTop="12dp" paddingRight="12dp" paddingBottom="12dp" layout_width="match_parent" layout_height="wrap_content"/>
+        </FrameLayout>
+        <RelativeLayout id="@+id/cjp" layout_width="match_parent" layout_height="wrap_content"/>
+        <com.ss.android.ugc.aweme.im.sdk.chat.ui.view.ChatDiggLayout id="@+id/b56" layout_width="match_parent" layout_height="0dp" layout_weight="1" splitMotionEvents="false">
+            <com.ss.android.ugc.aweme.im.sdk.common.ui.widget.ChatRecyclerView id="@+id/djh" paddingBottom="8dp" clipToPadding="false" layout_width="match_parent" layout_height="match_parent"/>
+            <LinearLayout layout_gravity="end" orientation="horizontal" id="@+id/fc7" background="@drawable/arh" padding="8dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="20dp">
+                <ImageView layout_gravity="center_vertical" background="0x7f080826" layout_width="12dp" layout_height="12dp" layout_marginLeft="2dp" layout_marginStart="2dp"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bh" layout_gravity="center_vertical" id="@+id/fc6" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="8dp" layout_marginStart="8dp" NOT_FOUND_0x25="61"/>
+            </LinearLayout>
+        </com.ss.android.ugc.aweme.im.sdk.chat.ui.view.ChatDiggLayout>
+        <include layout_gravity="bottom" id="@+id/ds8" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout="@layout/a5r"/>
+        <include layout="@layout/a79"/>
+        <com.ss.android.ugc.aweme.im.sdk.chat.feature.top.SafeConversationConfirmation id="@+id/dcf" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+        <include layout="@layout/a77"/>
+        <com.ss.android.ugc.aweme.im.sdk.chat.feature.group.ui.view.GroupChatBlockedView layout_gravity="bottom" id="@+id/bd7" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+        <com.ss.android.ugc.aweme.im.sdk.chat.ui.view.StrangerChatRiskHint id="@+id/a4x" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+    </LinearLayout>
+</FrameLayout>

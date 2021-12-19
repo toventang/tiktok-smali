@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" background="@color/r" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginStart="16dp" layout_marginEnd="14dp">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/f_" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" layout_marginBottom="7dp" text="@string/fql" NOT_FOUND_0x11="61"/>
+        </LinearLayout>
+        <RelativeLayout orientation="horizontal" id="@+id/f1" layout_width="match_parent" layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/f3" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="17dp" layout_marginBottom="17dp" text="@string/fqk" layout_marginEnd="30dp" NOT_FOUND_0x11="41"/>
+            <com.bytedance.tux.input.TuxRadio id="@+id/f2" layout_width="wrap_content" layout_height="wrap_content" checked="false" layout_centerVertical="true" layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <RelativeLayout orientation="horizontal" id="@+id/f4" layout_width="match_parent" layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/f6" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="17dp" layout_marginBottom="17dp" text="@string/fqm" layout_marginEnd="30dp" NOT_FOUND_0x11="41"/>
+            <com.bytedance.tux.input.TuxRadio id="@+id/f5" layout_width="wrap_content" layout_height="wrap_content" checked="false" layout_centerVertical="true" layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <com.ss.android.ugc.aweme.compliance.business.inference.ui.CustomRelativeLayout orientation="horizontal" id="@+id/f7" visibility="gone" layout_width="match_parent" layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxEditText textColor="@color/bx" id="@+id/f9" paddingBottom="30dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="17dp" layout_marginBottom="17dp" hint="@string/fqg" layout_marginEnd="30dp" NOT_FOUND_0x11="41"/>
+            <com.bytedance.tux.input.TuxRadio id="@+id/f8" paddingBottom="30dp" layout_width="wrap_content" layout_height="wrap_content" checked="false" layout_centerVertical="true" layout_alignParentEnd="true"/>
+        </com.ss.android.ugc.aweme.compliance.business.inference.ui.CustomRelativeLayout>
+        <View id="@+id/f0" background="@color/b6" visibility="gone" layout_width="match_parent" layout_height="0.5dp" layout_marginTop="-30dp"/>
+    </LinearLayout>
+</FrameLayout>

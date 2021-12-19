@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" orientation="vertical" id="@+id/dqe" layout_width="match_parent" layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar theme="?attr/ajb" id="@+id/end" background="?attr/ol" layout_width="match_parent" layout_height="wrap_content" elevation="4dp">
+        <TextView textSize="20sp" textColor="?attr/i1" gravity="center" id="@+id/dxx" layout_width="wrap_content" layout_height="?attr/h0" foreground="?attr/ab_" drawableRight="0x7f0805a8"/>
+    </androidx.appcompat.widget.Toolbar>
+    <FrameLayout id="@+id/wd" background="?attr/l1" layout_width="match_parent" layout_height="wrap_content" layout_alignParentBottom="true" elevation="4dp">
+        <TextView textSize="16sp" textColor="?attr/l2" layout_gravity="start" id="@+id/a18" padding="16dp" layout_width="wrap_content" layout_height="wrap_content" foreground="?attr/ab_" text="@string/d2i"/>
+        <LinearLayout layout_gravity="center" orientation="horizontal" id="@+id/d0h" padding="16dp" visibility="visible" layout_width="wrap_content" layout_height="wrap_content" foreground="?attr/ab_">
+            <com.zhihu.matisse.internal.ui.widget.CheckRadioView layout_gravity="center_vertical" id="@+id/d0g" layout_width="16dp" layout_height="16dp" src="0x7f080688"/>
+            <TextView enabled="true" textSize="14sp" textColor="?attr/l2" layout_gravity="center_vertical" paddingLeft="4dp" layout_width="wrap_content" layout_height="wrap_content" text="@string/d2h" paddingStart="4dp"/>
+        </LinearLayout>
+        <TextView textSize="16sp" textColor="?attr/l0" layout_gravity="end" id="@+id/a0x" padding="16dp" layout_width="wrap_content" layout_height="wrap_content" foreground="?attr/ab_"/>
+    </FrameLayout>
+    <FrameLayout id="@+id/ad7" visibility="gone" layout_width="match_parent" layout_height="match_parent" layout_above="@+id/wd" layout_below="@+id/end"/>
+    <FrameLayout id="@+id/awd" visibility="gone" layout_width="match_parent" layout_height="match_parent" layout_above="@+id/wd" layout_below="@+id/end">
+        <TextView textSize="16sp" textColor="?attr/i3" gravity="center" layout_gravity="center" id="@+id/awe" layout_width="wrap_content" layout_height="wrap_content" text="@string/d2l" drawableTop="?attr/i2" drawablePadding="8dp"/>
+    </FrameLayout>
+</RelativeLayout>

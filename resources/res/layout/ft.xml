@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="" orientation="horizontal" layout_width="match_parent">
+    <ImageView id="@+id/a5f" layout_width="16dp" layout_height="16dp" src="@drawable/ir"/>
+    <com.bytedance.tux.input.TuxTextView id="@+id/a5g" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" layout_marginRight="8dp" layout_marginStart="4dp" layout_marginEnd="8dp" NOT_FOUND_0x9="41"/>
+</merge>

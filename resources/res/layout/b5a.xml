@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" clipChildren="false" clipToPadding="false" layout_width="match_parent" layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/a9i" visibility="invisible" layout_width="match_parent" layout_height="110dp" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0">
+        <View id="@+id/a9h" background="0x7f080cd7" layout_width="12dp" layout_height="110dp" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0"/>
+        <View id="@+id/a9j" background="0x7f080cd8" layout_width="24dp" layout_height="110dp" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/a9_" background="@drawable/bnx" clipChildren="false" clipToPadding="false" layout_width="wrap_content" layout_height="32dp" layout_marginBottom="40dp" NOT_FOUND_0xb="@+id/a9i" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0">
+        <View id="@+id/a99" layout_width="32dp" layout_height="32dp" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="32dp" textColor="@color/a7" id="@+id/a9c" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0xb="@+id/a9a" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="@+id/a9a"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="28dp" textColor="#66ffffff" id="@+id/a9b" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0xb="@+id/a9a" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="@+id/a9a"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="24dp" textColor="@color/a9" id="@+id/a9a" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="5dp" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0xe="@+id/a99"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

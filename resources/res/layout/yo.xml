@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_gravity="center" descendantFocusability="blocksDescendants" layout_width="@dimen/jg" layout_height="@dimen/jg">
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/av9" layout_width="@dimen/jg" layout_height="@dimen/jg" NOT_FOUND_0x5="2"/>
+</FrameLayout>

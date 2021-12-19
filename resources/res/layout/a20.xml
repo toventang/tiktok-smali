@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/dqe" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.ies.dmt.ui.titlebar.NormalTitleBar id="@+id/em8" layout_width="match_parent" layout_height="@dimen/a0s" NOT_FOUND_0x1f="0x7f08054e" NOT_FOUND_0x22="8" NOT_FOUND_0x23="@string/p_" NOT_FOUND_0x24="@color/bx" NOT_FOUND_0x26="true"/>
+    <View id="@+id/an5" background="?attr/aj" layout_width="match_parent" layout_height="0.5dp"/>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout layout_width="match_parent" layout_height="match_parent">
+        <com.google.android.material.appbar.AppBarLayout id="@+id/l_" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x1e="0dp">
+            <FrameLayout gravity="center_vertical" id="@+id/c7q" paddingLeft="16dp" paddingTop="8dp" paddingRight="16dp" paddingBottom="8dp" visibility="gone" layout_width="match_parent" layout_height="52dp" NOT_FOUND_0x21="11">
+                <com.bytedance.tux.input.TuxTextView textColor="?attr/bc" gravity="center" layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/f6k" visibility="gone" layout_width="wrap_content" layout_height="match_parent" text="@string/a9e" paddingStart="16dp" paddingEnd="0dp" NOT_FOUND_0x25="41"/>
+                <FrameLayout id="@+id/c7r" background="@drawable/a9q" layout_width="match_parent" layout_height="match_parent">
+                    <ImageView layout_gravity="left|center_vertical|center_horizontal|center|start" id="@+id/c0w" layout_width="20dp" layout_height="20dp" src="0x7f08054b" layout_marginStart="6dp"/>
+                    <com.bytedance.ies.dmt.ui.widget.DmtEditText textColor="?attr/bc" textColorHint="?attr/bj" layout_gravity="left|center_vertical|center_horizontal|center|start" id="@+id/ay3" background="@null" paddingLeft="32.5dp" paddingRight="32.5dp" focusable="true" focusableInTouchMode="true" layout_width="match_parent" layout_height="match_parent" hint="@string/by2" cursorVisible="false" singleLine="true" inputType="textNoSuggestions" imeOptions="actionSearch" textCursorDrawable="@drawable/a9u" textAlignment="viewStart" paddingStart="32.5dp" paddingEnd="32.5dp" style="@style/y6"/>
+                    <ImageButton layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/zl" background="0x7f080550" visibility="gone" layout_width="20dp" layout_height="20dp" layout_marginEnd="6dp"/>
+                </FrameLayout>
+            </FrameLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <FrameLayout layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x20="@string/uo">
+            <androidx.recyclerview.widget.RecyclerView id="@+id/die" layout_width="match_parent" layout_height="match_parent"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtStatusView id="@+id/e_o" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+            <com.ss.android.ugc.aweme.find.ui.FriendsSearchResultView id="@+id/c7t" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+        </FrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

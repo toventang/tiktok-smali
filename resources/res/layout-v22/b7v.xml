@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" orientation="vertical" id="@+id/adh" background="@drawable/bpq" layout_width="match_parent" layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/title" layout_width="match_parent" layout_height="48dp" NOT_FOUND_0x1f="0">
+        <ImageView id="@+id/a7k" layout_width="24dp" layout_height="24dp" layout_marginLeft="16dp" layout_marginTop="14dp" src="0x7f080f5a" layout_marginStart="16dp" NOT_FOUND_0x1d="0" NOT_FOUND_0x1f="0"/>
+        <ImageView id="@+id/cnk" layout_width="24dp" layout_height="24dp" layout_marginTop="14dp" layout_marginRight="16dp" src="0x7f080ee6" layout_marginEnd="16dp" NOT_FOUND_0x19="0" NOT_FOUND_0x1f="0"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="?attr/amo" id="@+id/em2" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" text="@string/egg" NOT_FOUND_0x19="0" NOT_FOUND_0x1d="0" NOT_FOUND_0x1f="0" style="@style/tm"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout orientation="horizontal" id="@+id/flu" background="?attr/alp" paddingLeft="12dp" paddingTop="10dp" paddingRight="12dp" paddingBottom="10dp" visibility="gone" layout_width="0dp" layout_height="wrap_content" NOT_FOUND_0x15="12dp" NOT_FOUND_0x16="10dp" NOT_FOUND_0x19="0" NOT_FOUND_0x1d="0" NOT_FOUND_0x1e="@+id/title">
+        <androidx.appcompat.widget.AppCompatImageView layout_width="wrap_content" layout_height="wrap_content" src="0x7f080fa2"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="?attr/als" id="@+id/flw" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" layout_marginStart="4dp" style="@style/tu"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/adn" layout_width="match_parent" layout_height="0dp" overScrollMode="never" NOT_FOUND_0x18="@+id/m7" NOT_FOUND_0x1e="@+id/flu"/>
+    <com.bytedance.android.livesdk.widget.LiveLoadingView id="@+id/e_o" layout_width="0dp" layout_height="0dp" NOT_FOUND_0x17="@+id/adn" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="@+id/adn" NOT_FOUND_0x1c="@+id/adn" NOT_FOUND_0x1f="@+id/adn"/>
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/m7" background="@color/l" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x17="0" NOT_FOUND_0x1d="0">
+        <View id="@+id/ma" background="@color/b6" layout_width="match_parent" layout_height="0.5dp" layout_marginBottom="16dp" NOT_FOUND_0x18="@+id/m9"/>
+        <LinearLayout gravity="center" orientation="horizontal" id="@+id/m9" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="16dp" NOT_FOUND_0x17="0">
+            <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView id="@+id/de6" layout_width="wrap_content" layout_height="wrap_content" src="0x7f080ee5"/>
+            <com.bytedance.android.live.design.widget.LiveTextView textColor="?attr/amo" id="@+id/mn" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="8dp" text="@string/dwj" layout_marginStart="8dp" style="@style/tn"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

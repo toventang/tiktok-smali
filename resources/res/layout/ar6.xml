@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="match_parent" layout_height="wrap_content">
+        <Space id="@+id/kv" layout_width="8dp" layout_height="0dp" app:NOT_FOUND_0xa="0" app:NOT_FOUND_0xc="0" app:NOT_FOUND_0xf="0" app:NOT_FOUND_0x11="0" app:NOT_FOUND_0x12="0"/>
+        <com.bytedance.tux.button.TuxButton id="@+id/kw" layout_width="0dp" layout_height="32dp" layout_marginLeft="16dp" text="@string/f60" layout_marginStart="16dp" app:NOT_FOUND_0x9="0" app:NOT_FOUND_0xb="@+id/kv" app:NOT_FOUND_0xc="0" app:NOT_FOUND_0xe="@+id/kv" app:NOT_FOUND_0x11="0" app:NOT_FOUND_0x13="false" app:NOT_FOUND_0x14="1" app:NOT_FOUND_0x15="1" app:NOT_FOUND_0x16="52" app:NOT_FOUND_0x17="@raw/icon_bookmark" app:NOT_FOUND_0x18="15dp" app:NOT_FOUND_0x19="15dp"/>
+        <com.bytedance.tux.button.TuxButton id="@+id/ku" layout_width="0dp" layout_height="32dp" layout_marginRight="16dp" text="@string/f4b" layout_marginEnd="16dp" app:NOT_FOUND_0x9="0" app:NOT_FOUND_0xa="0" app:NOT_FOUND_0xd="@+id/kv" app:NOT_FOUND_0xf="0" app:NOT_FOUND_0x10="@+id/kv" app:NOT_FOUND_0x13="false" app:NOT_FOUND_0x14="1" app:NOT_FOUND_0x15="0" app:NOT_FOUND_0x16="52" app:NOT_FOUND_0x17="@raw/icon_video_fill" app:NOT_FOUND_0x18="19dp" app:NOT_FOUND_0x19="16dp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include layout="@layout/ar4"/>
+</LinearLayout>

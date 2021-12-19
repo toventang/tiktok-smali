@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.view.customView.NaviGLSurfaceView id="@+id/daj" visibility="invisible" layout_width="360dp" layout_height="360dp" NOT_FOUND_0x4="0" NOT_FOUND_0x5="0" NOT_FOUND_0x6="0" NOT_FOUND_0x7="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

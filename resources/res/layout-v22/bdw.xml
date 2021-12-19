@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" gravity="center" layout_width="match_parent" layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/fcx" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x17="0" NOT_FOUND_0x18="0" NOT_FOUND_0x1a="0">
+        <View id="@+id/ckm" background="@drawable/bp_" layout_width="48dp" layout_height="48dp" NOT_FOUND_0x16="0" NOT_FOUND_0x17="0" NOT_FOUND_0x18="0" NOT_FOUND_0x1a="0"/>
+        <ImageView id="@+id/fcu" layout_width="48dp" layout_height="48dp" src="0x7f080fa6" scaleType="fitXY" NOT_FOUND_0x16="0" NOT_FOUND_0x17="0" NOT_FOUND_0x18="0" NOT_FOUND_0x1a="0"/>
+        <com.bytedance.android.live.core.widget.HSImageView id="@+id/bu1" layout_width="54dp" layout_height="54dp" NOT_FOUND_0x16="0" NOT_FOUND_0x17="0" NOT_FOUND_0x18="0" NOT_FOUND_0x1a="0"/>
+        <com.bytedance.android.live.core.widget.HSImageView id="@+id/bzi" layout_width="18dp" layout_height="18dp" scaleType="centerCrop" NOT_FOUND_0x16="@+id/bu1" NOT_FOUND_0x18="@+id/bu1"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout orientation="vertical" id="@+id/dh6" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="6dp" NOT_FOUND_0x17="0" NOT_FOUND_0x18="0" NOT_FOUND_0x19="@+id/fcx">
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="15dp" textColor="@color/x4" ellipsize="end" gravity="center_horizontal" id="@+id/fdm" paddingLeft="8dp" paddingRight="8dp" layout_width="match_parent" layout_height="wrap_content" maxLines="1" singleLine="true" NOT_FOUND_0x14="8dp" NOT_FOUND_0x15="7"/>
+        <com.bytedance.android.livesdk.widget.ComboView gravity="center_horizontal" layout_gravity="center_horizontal" id="@+id/a96" visibility="gone" layout_width="wrap_content" layout_height="wrap_content"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="12sp" textColor="@color/c5" ellipsize="end" gravity="center_horizontal" id="@+id/fdw" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="2dp" layout_marginBottom="10dp" minWidth="80dp" maxLines="1" singleLine="true"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

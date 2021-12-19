@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" layout_gravity="center" orientation="vertical" background="@color/us" layout_width="280dp" layout_height="wrap_content">
+    <RelativeLayout gravity="center_horizontal" layout_gravity="center_vertical" orientation="vertical" id="@+id/dqr" layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout orientation="vertical" id="@+id/cec" background="@drawable/p2" layout_width="match_parent" layout_height="wrap_content" layout_centerHorizontal="true">
+            <TextView textSize="17sp" textStyle="bold" textColor="@color/e_" gravity="center" layout_gravity="center_horizontal" id="@+id/f9l" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="24dp" layout_marginTop="24dp" layout_marginRight="24dp" layout_marginStart="24dp" layout_marginEnd="24dp"/>
+            <TextView textSize="14sp" textColor="@color/e_" gravity="center" layout_gravity="center_horizontal" id="@+id/exf" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="24dp" layout_marginTop="8dp" layout_marginRight="24dp" layout_marginStart="24dp" layout_marginEnd="24dp"/>
+            <TextView id="@+id/anj" background="@color/dv" layout_width="match_parent" layout_height="0.5dp" layout_marginTop="24dp"/>
+            <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="47.5dp">
+                <TextView textSize="15sp" textColor="@color/dw" gravity="center" id="@+id/f1p" background="@drawable/p8" layout_width="0dp" layout_height="match_parent" layout_weight="1"/>
+                <TextView id="@+id/f1y" background="@color/dv" layout_width="0.5dp" layout_height="match_parent" layout_weight="0"/>
+                <TextView textSize="15sp" textStyle="bold" textColor="@color/dw" gravity="center" id="@+id/f67" background="@drawable/p3" layout_width="0dp" layout_height="match_parent" layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

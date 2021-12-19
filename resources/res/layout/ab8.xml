@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="wrap_content" layout_height="48dp">
+    <LinearLayout orientation="vertical" id="@+id/aem" layout_width="wrap_content" layout_height="wrap_content">
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtImageView layout_gravity="center_horizontal" layout_width="31dp" layout_height="27dp" src="0x7f080791"/>
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView textSize="11dp" textStyle="bold" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="5dp" text="@string/g7s" NOT_FOUND_0xe="7"/>
+    </LinearLayout>
+    <com.ss.android.ugc.aweme.themechange.base.AVDmtView layout_width="0.5dp" layout_height="match_parent" layout_marginLeft="12dp" layout_toRightOf="@+id/aem" layout_marginStart="12dp" layout_toEndOf="@+id/aem" NOT_FOUND_0xf="true"/>
+</RelativeLayout>

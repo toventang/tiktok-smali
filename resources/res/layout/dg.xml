@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content">
+    <FrameLayout id="@+id/bs1" layout_width="wrap_content" layout_height="wrap_content">
+        <RelativeLayout layout_width="60dp" layout_height="60dp">
+            <ImageView id="@+id/bwk" visibility="gone" layout_width="@dimen/ce" layout_height="@dimen/ce" layout_marginRight="5dp" layout_marginBottom="5dp" src="0x7f0800e2" scaleType="fitXY" layout_alignParentRight="true" layout_alignParentBottom="true" layout_alignParentEnd="true"/>
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

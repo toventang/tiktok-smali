@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="match_parent" layout_height="wrap_content">
+    <RelativeLayout gravity="center_vertical" id="@+id/doj" background="@drawable/hq" layout_width="311dp" layout_height="68dp" layout_marginTop="14dp" layout_centerInParent="true">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/f2w" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="13dp" layout_toRightOf="@+id/bl2" layout_marginStart="13dp" layout_toEndOf="@+id/bl2" NOT_FOUND_0x18="32"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/f2v" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="13dp" layout_marginTop="2dp" layout_toRightOf="@+id/bl2" layout_below="@+id/f2w" layout_marginStart="13dp" layout_toEndOf="@+id/bl2" NOT_FOUND_0x18="61"/>
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/bl2" layout_width="40dp" layout_height="40dp" layout_marginLeft="16dp" layout_alignParentLeft="true" layout_marginStart="16dp" layout_alignParentStart="true"/>
+        <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView id="@+id/bk2" layout_width="wrap_content" layout_height="35dp" layout_marginRight="16dp" src="@drawable/jy" layout_alignParentRight="true" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/evw" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" layout_centerHorizontal="true" NOT_FOUND_0x18="32"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" gravity="center" id="@+id/f_f" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="32dp" layout_marginTop="8dp" layout_marginRight="32dp" layout_marginBottom="29dp" text="@string/fa_" layout_below="@+id/evw" layout_centerHorizontal="true" layout_marginStart="32dp" layout_marginEnd="32dp" NOT_FOUND_0x18="51"/>
+    <com.ss.android.ugc.aweme.base.ui.AvatarImageView id="@+id/bk3" visibility="gone" layout_width="72dp" layout_height="72dp" layout_marginTop="32dp" layout_centerHorizontal="true"/>
+</RelativeLayout>

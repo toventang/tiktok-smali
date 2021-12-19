@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/c5a" layout_width="match_parent" layout_height="match_parent">
+    <View id="@+id/qq" background="@color/g9" visibility="gone" layout_width="match_parent" layout_height="match_parent" alpha="0"/>
+    <View id="@+id/d0s" background="@color/bk" visibility="gone" layout_width="match_parent" layout_height="match_parent" alpha="0"/>
+    <com.ss.android.ugc.aweme.common.keyboard.MeasureLinearLayout orientation="vertical" id="@+id/d0u" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+        <View id="@+id/d0t" layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+        <FrameLayout layout_gravity="bottom" layout_width="match_parent" layout_height="wrap_content">
+            <LinearLayout orientation="vertical" id="@+id/c64" layout_width="match_parent" layout_height="wrap_content">
+                <FrameLayout id="@+id/c5z" background="@color/bj" paddingTop="8dp" paddingBottom="8dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp">
+                    <com.bytedance.tux.input.TuxTextView textColor="?attr/aa" gravity="center" layout_gravity="center" id="@+id/ejl" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x24="51"/>
+                </FrameLayout>
+                <LinearLayout layout_gravity="bottom" orientation="vertical" id="@+id/ad7" layout_width="match_parent" layout_height="wrap_content">
+                    <FrameLayout layout_width="match_parent" layout_height="wrap_content">
+                        <LinearLayout gravity="center_horizontal" layout_gravity="bottom" orientation="vertical" id="@+id/ch7" paddingBottom="85dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content" alpha="0">
+                            <com.bytedance.tux.input.TuxTextView textColor="?attr/aa" layout_gravity="center_horizontal" id="@+id/f_x" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="16dp" NOT_FOUND_0x24="41"/>
+                            <LinearLayout orientation="vertical" id="@+id/b78" layout_width="wrap_content" layout_height="wrap_content"/>
+                        </LinearLayout>
+                        <com.bytedance.tux.input.TuxTextView textColor="?attr/ab" gravity="center" layout_gravity="center_horizontal" id="@+id/etv" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="12dp" text="@string/h8w" layout_marginStart="32dp" layout_marginEnd="32dp" NOT_FOUND_0x24="51"/>
+                        <LinearLayout layout_gravity="bottom" orientation="horizontal" id="@+id/dxy" background="@drawable/l_" visibility="gone" layout_width="match_parent" layout_height="48dp">
+                            <ImageView id="@+id/dkr" background="0x7f0801f8" layout_width="16dp" layout_height="16dp" layout_marginTop="8dp" layout_marginStart="12dp"/>
+                            <com.bytedance.lighten.loader.SmartImageView id="@+id/dxz" layout_width="40dp" layout_height="40dp" layout_marginTop="8dp" scaleType="centerInside" layout_marginStart="-4dp"/>
+                        </LinearLayout>
+                        <com.ss.android.ugc.aweme.comment.ui.CommentAtSearchLayout layout_gravity="bottom" id="@+id/a1g" background="@drawable/l_" layout_width="match_parent" layout_height="220dp" layout_marginBottom="-220dp">
+                            <com.bytedance.tux.input.TuxTextView gravity="center" id="@+id/ez8" visibility="gone" layout_width="match_parent" layout_height="match_parent" text="@string/cys" NOT_FOUND_0x24="51"/>
+                            <com.ss.android.ugc.aweme.comment.ui.CommentAtSearchLoadingView id="@+id/ci9" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+                            <androidx.recyclerview.widget.RecyclerView id="@+id/drn" paddingTop="8dp" layout_width="match_parent" layout_height="match_parent"/>
+                        </com.ss.android.ugc.aweme.comment.ui.CommentAtSearchLayout>
+                        <LinearLayout gravity="center_vertical" layout_gravity="bottom" orientation="horizontal" id="@+id/ch8" background="@drawable/l_" paddingLeft="16dp" paddingTop="12dp" paddingRight="16dp" paddingBottom="8dp" visibility="gone" clickable="true" layout_width="match_parent" layout_height="wrap_content">
+                            <ImageView layout_width="16dp" layout_height="16dp" layout_marginRight="3.5dp" src="@drawable/mb"/>
+                            <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="middle" id="@+id/f_y" layout_width="wrap_content" layout_height="wrap_content" singleLine="true" NOT_FOUND_0x24="61"/>
+                        </LinearLayout>
+                    </FrameLayout>
+                    <LinearLayout orientation="vertical" background="@color/p" layout_width="match_parent" layout_height="wrap_content">
+                        <View id="@+id/eh7" background="@color/b4" layout_width="match_parent" layout_height="0.5dp"/>
+                        <include id="@+id/a_0" layout_width="match_parent" layout_height="wrap_content" layout="@layout/i5"/>
+                        <FrameLayout id="@+id/c5w" visibility="gone" layout_width="60dp" layout_height="60dp" layout_marginLeft="16dp" layout_marginStart="16dp">
+                            <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/bal" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x1e="6" NOT_FOUND_0x1f="300" NOT_FOUND_0x20="@color/a9" NOT_FOUND_0x21="2dp" NOT_FOUND_0x22="@color/b4" NOT_FOUND_0x23="0.5dp"/>
+                            <ImageView layout_gravity="end" id="@+id/bam" paddingLeft="8dp" paddingRight="0dp" paddingBottom="8dp" visibility="gone" layout_width="24dp" layout_height="24dp" src="0x7f0801eb" paddingStart="8dp" paddingEnd="0dp"/>
+                        </FrameLayout>
+                        <include layout="@layout/ie"/>
+                        <LinearLayout orientation="vertical" id="@+id/d1k" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+                        <LinearLayout orientation="vertical" id="@+id/bbg" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+                        <com.ss.android.ugc.aweme.comment.ui.ClipLinearLayout orientation="vertical" id="@+id/d1l" visibility="gone" layout_width="match_parent" layout_height="40dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <FrameLayout layout_gravity="bottom" id="@+id/c7s" visibility="invisible" layout_width="match_parent" layout_height="wrap_content"/>
+        </FrameLayout>
+    </com.ss.android.ugc.aweme.common.keyboard.MeasureLinearLayout>
+    <ImageView id="@+id/ban" visibility="gone" layout_width="60dp" layout_height="60dp"/>
+</FrameLayout>

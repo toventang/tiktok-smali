@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@color/c9" layout_width="match_parent" layout_height="wrap_content">
+    <ViewStub id="@+id/fjt" layout="@layout/f0" layout_width="match_parent" layout_height="wrap_content"/>
+    <LinearLayout orientation="vertical" background="@color/l" layout_width="match_parent" layout_height="wrap_content">
+        <View background="@color/bo" layout_width="match_parent" layout_height="0.5dp"/>
+        <LinearLayout orientation="horizontal" paddingLeft="16dp" paddingRight="16dp" layout_width="match_parent" layout_height="52dp" paddingStart="16dp" paddingEnd="16dp">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/c5" layout_gravity="center_vertical" id="@+id/fgg" layout_width="match_parent" layout_height="wrap_content" layout_marginRight="16dp" text="@string/b24" layout_weight="1" layout_marginEnd="16dp" NOT_FOUND_0x12="61"/>
+            <com.bytedance.tux.input.TuxTextView textSize="14dp" textColor="@color/a9" gravity="center" layout_gravity="right|center_vertical|center_horizontal|center" id="@+id/ef_" background="@drawable/e4" paddingLeft="12dp" paddingRight="12dp" layout_width="wrap_content" layout_height="36dp" text="@string/dgs" layout_weight="0" paddingStart="12dp" paddingEnd="12dp" NOT_FOUND_0x12="42"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

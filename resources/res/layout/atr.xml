@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/dsq" visibility="gone" layout_width="match_parent" layout_height="match_parent">
+    <RelativeLayout layout_width="match_parent" layout_height="52dp">
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView textColor="@color/bx" gravity="center" id="@+id/ewh" paddingLeft="16dp" paddingRight="16dp" layout_width="wrap_content" layout_height="52dp" text="@string/a9e" layout_centerVertical="true" paddingStart="16dp" paddingEnd="16dp" NOT_FOUND_0x15="false" style="@style/y9"/>
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView textStyle="bold" textColor="@color/bx" gravity="center" id="@+id/f6c" paddingLeft="16dp" paddingRight="16dp" layout_width="wrap_content" layout_height="match_parent" text="@string/ffv" layout_alignParentRight="true" layout_centerVertical="true" paddingStart="16dp" paddingEnd="16dp" layout_alignParentEnd="true" NOT_FOUND_0x14="7" NOT_FOUND_0x15="false" style="@style/y9"/>
+    </RelativeLayout>
+    <FrameLayout id="@+id/af0" layout_width="match_parent" layout_height="match_parent" layout_marginTop="52dp" layout_marginBottom="242dp">
+        <ImageView layout_gravity="center" id="@+id/bta" layout_width="45dp" layout_height="45dp" src="0x7f080100" scaleType="centerInside"/>
+    </FrameLayout>
+    <FrameLayout layout_gravity="bottom" layout_width="match_parent" layout_height="wrap_content">
+        <include layout="@layout/aes"/>
+    </FrameLayout>
+</FrameLayout>

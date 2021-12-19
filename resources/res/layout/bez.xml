@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" gravity="center" layout_width="wrap_content" layout_height="wrap_content">
+    <View id="@+id/c18" background="@drawable/bwh" visibility="gone" layout_width="8dp" layout_height="8dp" layout_marginLeft="16dp" layout_marginStart="16dp" NOT_FOUND_0x8="@+id/bzs" NOT_FOUND_0x9="@+id/bzs"/>
+    <View id="@+id/bzs" background="0x7f080f92" layout_width="24dp" layout_height="24dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="@drawable/bws">
+    <target android:name="ttlive_radio_button_unchecked_stroke" android:animation="@animator/o"/>
+    <target android:name="ttlive_radio_button_checked_stroke" android:animation="@animator/n"/>
+    <target android:name="ttlive_radio_button_checked_fill" android:animation="@animator/l"/>
+</animated-vector>

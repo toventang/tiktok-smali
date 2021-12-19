@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" paddingTop="@dimen/fj" paddingBottom="@dimen/fj" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="@dimen/fj" layout_marginRight="@dimen/fj" layout_marginStart="@dimen/fj" layout_marginEnd="@dimen/fj">
+    <include layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x9="0" NOT_FOUND_0xa="0" NOT_FOUND_0xb="0" layout="@layout/qe"/>
+    <include layout="@layout/qb"/>
+    <include layout="@layout/qd"/>
+</LinearLayout>

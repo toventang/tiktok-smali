@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.feed.widget.RectCornerRelativeLayout xmlns="" id="@+id/afb" layout_width="279dp" layout_height="372dp" NOT_FOUND_0x1a="10dp">
+    <FrameLayout id="@+id/b4y" layout_width="match_parent" layout_height="match_parent">
+        <com.ss.android.ugc.playerkit.videoview.KeepSurfaceTextureView layout_gravity="center" id="@+id/ekb" layout_width="match_parent" layout_height="match_parent" layerType="hardware"/>
+        <View id="@+id/sy" background="#d3191919" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView layout_gravity="center" id="@+id/bvt" layout_width="match_parent" layout_height="match_parent"/>
+        <View background="@drawable/a9j" layout_width="match_parent" layout_height="match_parent"/>
+        <RelativeLayout id="@+id/dqe" layout_width="match_parent" layout_height="match_parent">
+            <ImageView id="@+id/a7h" layout_width="24dp" layout_height="24dp" layout_marginTop="8dp" layout_marginRight="8dp" src="0x7f08053c" layout_alignParentRight="true" layout_marginEnd="8dp" layout_alignParentEnd="true"/>
+            <LinearLayout gravity="center_horizontal" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content" layout_alignParentBottom="true" layout_centerHorizontal="true">
+                <RelativeLayout padding="4dp" clipToPadding="false" layout_width="80dp" layout_height="80dp">
+                    <View background="@drawable/a9h" layout_width="72dp" layout_height="72dp" layout_centerInParent="true"/>
+                    <com.ss.android.ugc.aweme.base.ui.AvatarImageWithVerify id="@+id/or" layout_width="70dp" layout_height="70dp" layout_centerInParent="true"/>
+                </RelativeLayout>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/a_" ellipsize="end" gravity="center" id="@+id/fdm" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="7dp" text="Maroon 5" lines="1" NOT_FOUND_0x1b="32"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/ac" ellipsize="end" gravity="center_horizontal" id="@+id/dhv" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="6dp" lines="1" NOT_FOUND_0x1b="61"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" id="@+id/b7a" background="@drawable/nc" layout_width="183dp" layout_height="44dp" layout_marginTop="12dp" layout_marginBottom="24dp" text="@string/byp" drawablePadding="4dp" NOT_FOUND_0x1b="42"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</com.ss.android.ugc.aweme.feed.widget.RectCornerRelativeLayout>

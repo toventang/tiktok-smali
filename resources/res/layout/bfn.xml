@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <View layout_gravity="center" id="@+id/fjc" background="@drawable/bte" visibility="invisible" layout_width="72dp" layout_height="72dp"/>
+    <View layout_gravity="center" id="@+id/fjd" background="@drawable/bte" visibility="invisible" layout_width="72dp" layout_height="72dp"/>
+    <com.bytedance.android.livesdk.widget.VHeadView layout_gravity="center" id="@+id/c09" layout_width="72dp" layout_height="72dp" NOT_FOUND_0x6="0" NOT_FOUND_0x7="true"/>
+</FrameLayout>

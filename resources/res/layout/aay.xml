@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="48dp">
+    <com.bytedance.tux.icon.TuxIconView id="@+id/bxn" layout_width="16dp" layout_height="16dp" layout_marginStart="16dp" NOT_FOUND_0xf="0" NOT_FOUND_0x13="0" NOT_FOUND_0x14="0" NOT_FOUND_0x16="@raw/icon_clock" NOT_FOUND_0x17="?attr/bj"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" gravity="start" id="@+id/f0d" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="8dp" layout_marginRight="6dp" maxLines="1" alpha="0.9" textDirection="locale" textAlignment="viewStart" layout_marginStart="8dp" layout_marginEnd="6dp" NOT_FOUND_0xf="0" NOT_FOUND_0x11="@+id/bvb" NOT_FOUND_0x12="@+id/bxn" NOT_FOUND_0x14="0" NOT_FOUND_0x15="41"/>
+    <com.bytedance.tux.icon.TuxIconView id="@+id/bvb" padding="10dp" layout_width="36dp" layout_height="36dp" layout_marginEnd="6dp" NOT_FOUND_0xf="0" NOT_FOUND_0x10="0" NOT_FOUND_0x14="0" NOT_FOUND_0x16="@raw/icon_x_mark" NOT_FOUND_0x17="?attr/bj"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/dqn" paddingLeft="7dp" paddingRight="7dp" clipChildren="false" clipToPadding="false" layout_width="70dp" layout_height="56dp" paddingStart="7dp" paddingEnd="7dp">
+    <View id="@+id/dxa" visibility="gone" layout_width="56dp" layout_height="56dp"/>
+    <FrameLayout layout_width="56dp" layout_height="56dp">
+        <com.facebook.drawee.view.SimpleDraweeView id="@+id/ffs" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x16="6" NOT_FOUND_0x17="2dp"/>
+        <View layout_gravity="bottom" id="@+id/bcs" background="@drawable/baz" visibility="gone" layout_width="match_parent" layout_height="20dp"/>
+    </FrameLayout>
+    <RelativeLayout id="@+id/ajw" layout_width="30dp" layout_height="30dp" layout_alignParentRight="true" layout_alignParentEnd="true">
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtImageView id="@+id/ajv" padding="2dp" layout_width="16dp" layout_height="16dp" src="0x7f080765" layout_alignParentRight="true" layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a_" id="@+id/ar9" background="@null" padding="2dp" layout_width="wrap_content" layout_height="wrap_content" shadowColor="#4c000000" shadowDy="1" shadowRadius="1" layout_alignParentBottom="true" layout_centerHorizontal="true" NOT_FOUND_0x18="72"/>
+    <View id="@+id/d8p" background="@drawable/el" layout_width="match_parent" layout_height="match_parent"/>
+</RelativeLayout>

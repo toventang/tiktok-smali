@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="horizontal" paddingLeft="16dp" paddingTop="4dp" paddingRight="16dp" paddingBottom="16dp" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout gravity="center_horizontal" orientation="horizontal" id="@+id/cg4" background="@drawable/b3s" paddingLeft="6dp" paddingTop="6dp" paddingRight="6dp" paddingBottom="6dp" layout_width="0dp" layout_height="wrap_content" layout_weight="1" paddingStart="6dp" paddingEnd="6dp">
+        <com.bytedance.tux.icon.TuxIconView layout_gravity="center_vertical" id="@+id/bzx" layout_width="20dp" layout_height="20dp" NOT_FOUND_0x14="@raw/icon_headphone" NOT_FOUND_0x15="?attr/bc"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_gravity="center_vertical" id="@+id/fac" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" text="@string/dcd" layout_marginStart="4dp" NOT_FOUND_0x13="52"/>
+    </LinearLayout>
+    <LinearLayout gravity="center_horizontal" orientation="horizontal" id="@+id/cfu" background="@drawable/b3s" paddingLeft="6dp" paddingTop="6dp" paddingRight="6dp" paddingBottom="6dp" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="8dp" layout_weight="1" paddingStart="6dp" paddingEnd="6dp" layout_marginStart="8dp">
+        <com.ss.android.ugc.aweme.music.ui.CheckableImageView layout_gravity="center_vertical" id="@+id/cpr" layout_width="20dp" layout_height="20dp" src="0x7f080968"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_gravity="center_vertical" id="@+id/f34" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" text="@string/pj" layout_marginStart="4dp" NOT_FOUND_0x13="52"/>
+    </LinearLayout>
+</LinearLayout>

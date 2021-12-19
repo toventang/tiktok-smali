@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_gravity="center" layout_width="wrap_content" layout_height="wrap_content">
+    <ImageView id="@+id/apb" background="@drawable/a_v" layout_width="43dp" layout_height="28dp" src="0x7f080574" scaleType="center"/>
+    <ProgressBar id="@+id/ahn" layout_width="43dp" layout_height="28dp" max="100" progress="50" progressDrawable="@drawable/a_w" style="@style/qf"/>
+</FrameLayout>

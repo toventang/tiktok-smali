@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_gravity="center" layout_width="wrap_content" layout_height="wrap_content">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a2" gravity="center" layout_gravity="center_horizontal" id="@+id/avk" layout_width="24dp" layout_height="24dp" layout_marginTop="4dp" NOT_FOUND_0x7="31"/>
+    <View id="@+id/av6" layout_width="40dp" layout_height="40dp"/>
+</FrameLayout>

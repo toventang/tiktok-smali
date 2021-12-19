@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_gravity="center_vertical" layout_width="match_parent" layout_height="52dp" layout_marginLeft="16dp" layout_marginRight="16dp" layout_marginStart="16dp" layout_marginEnd="16dp">
+    <ImageView gravity="center_vertical" id="@+id/bi7" layout_width="20dp" layout_height="20dp" layout_alignParentLeft="true" layout_centerVertical="true" layout_alignParentStart="true"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="15dp" textColor="?attr/amo" ellipsize="end" gravity="center_vertical" id="@+id/title" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" maxLines="1" layout_toRightOf="@+id/bi7" layout_centerVertical="true" layout_marginStart="16dp" layout_toEndOf="@+id/bi7" style="@style/tq"/>
+    <com.bytedance.android.live.design.widget.LiveTextView textSize="15dp" textColor="?attr/amo" ellipsize="end" gravity="center_vertical" id="@+id/az2" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="1dp" maxLines="1" layout_toRightOf="@+id/title" layout_centerVertical="true" layout_marginStart="1dp" layout_toEndOf="@+id/title" style="@style/tq"/>
+    <View id="@+id/an6" background="@color/b6" visibility="visible" layout_width="match_parent" layout_height="0.5dp" layout_alignParentBottom="true"/>
+</RelativeLayout>

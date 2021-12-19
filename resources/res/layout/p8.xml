@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center_vertical" orientation="vertical" layout_width="match_parent" layout_height="wrap_content">
+    <View id="@+id/ak3" layout_width="16dp" layout_height="0dp"/>
+    <FrameLayout layout_width="match_parent" layout_height="wrap_content">
+        <com.ss.android.ugc.aweme.ecommerce.address.widget.InputWithIndicator gravity="center_vertical" id="@+id/bps" layout_width="match_parent" layout_height="match_parent" inputType="number" NOT_FOUND_0x9="15dp"/>
+        <LinearLayout gravity="center_vertical" layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" orientation="horizontal" layout_width="wrap_content" layout_height="match_parent">
+            <com.bytedance.tux.icon.TuxIconView id="@+id/bi9" visibility="gone" layout_width="14dp" layout_height="14dp" NOT_FOUND_0xa="0x7f081083"/>
+            <com.bytedance.tux.icon.TuxIconView layout_gravity="center_vertical" id="@+id/bid" layout_width="15dp" layout_height="15dp" alpha="0.5" NOT_FOUND_0xa="0x7f0803b8"/>
+            <androidx.appcompat.widget.LinearLayoutCompat orientation="horizontal" id="@+id/dse" layout_width="wrap_content" layout_height="wrap_content"/>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

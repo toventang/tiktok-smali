@@ -1,0 +1,27 @@
+package com.ss.android.ugc.aweme.commercialize.log;
+
+import com.bytedance.covode.number.Covode;
+import com.ss.android.ugc.aweme.commercialize.log.f;
+import com.ss.android.ugc.aweme.feed.model.AwemeRawAd;
+import h.f.a.m;
+
+public final /* synthetic */ class aa implements m {
+
+    /* renamed from: a  reason: collision with root package name */
+    private final AwemeRawAd f74721a;
+
+    static {
+        Covode.recordClassIndex(46082);
+    }
+
+    public aa(AwemeRawAd awemeRawAd) {
+        this.f74721a = awemeRawAd;
+    }
+
+    @Override // h.f.a.m
+    public final Object invoke(Object obj, Object obj2) {
+        AwemeRawAd awemeRawAd = this.f74721a;
+        f.b bVar = (f.b) obj;
+        return ((Boolean) obj2).booleanValue() ? bVar.b(awemeRawAd) : bVar.a(awemeRawAd);
+    }
+}

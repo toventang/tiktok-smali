@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" orientation="vertical" id="@+id/w1" background="@color/r" layout_width="match_parent" layout_height="wrap_content" layout_margin="16dp">
+    <com.bytedance.tux.input.TuxTextView id="@+id/brg" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x8="@+id/cow" NOT_FOUND_0xb="0" NOT_FOUND_0xd="@+id/cow" NOT_FOUND_0xf="41"/>
+    <com.ss.android.ugc.aweme.views.MultiAvatarView id="@+id/cow" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x8="0" NOT_FOUND_0xa="@+id/awh" NOT_FOUND_0xd="0" NOT_FOUND_0xe="0"/>
+    <com.bytedance.tux.icon.TuxIconView id="@+id/awh" layout_width="16dp" layout_height="16dp" layout_marginEnd="8dp" NOT_FOUND_0x8="@+id/cow" NOT_FOUND_0x9="0" NOT_FOUND_0xd="@+id/cow" NOT_FOUND_0x10="@raw/icon_chevron_right_offset_ltr" NOT_FOUND_0x11="@color/c5"/>
+    <View id="@+id/anj" background="@color/b6" layout_width="match_parent" layout_height="0.5dp" layout_marginTop="14dp" NOT_FOUND_0x9="0" NOT_FOUND_0xa="0" NOT_FOUND_0xc="@+id/cow"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

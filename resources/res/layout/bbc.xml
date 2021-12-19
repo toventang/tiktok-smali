@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="wrap_content" layout_height="wrap_content" minWidth="100dp">
+    <com.bytedance.android.live.core.widget.CustomFontTextView textSize="12dp" textColor="@color/a24" gravity="center" id="@+id/f3f" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="5dp" layout_marginBottom="1dp" maxLines="1" maxEms="9" shadowColor="#51000000" shadowDx="0" shadowDy="1" shadowRadius="1" NOT_FOUND_0x16="@+id/exf" NOT_FOUND_0x17="@+id/bf0"/>
+    <ImageView id="@+id/e7y" layout_width="16dp" layout_height="16dp" layout_marginRight="2dp" src="0x7f081040" layout_marginEnd="2dp" NOT_FOUND_0x15="@+id/f3f" NOT_FOUND_0x17="@+id/f3f" NOT_FOUND_0x1a="@+id/f3f" NOT_FOUND_0x1b="2dp"/>
+    <com.bytedance.android.live.core.widget.CustomFontTextView textSize="12dp" textColor="@color/a24" gravity="center_vertical" id="@+id/exf" background="@drawable/bos" paddingLeft="8dp" paddingRight="24dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="16dp" singleLine="true" NOT_FOUND_0x15="0" NOT_FOUND_0x19="@+id/bf0"/>
+    <ImageView id="@+id/bf0" layout_width="32dp" layout_height="32dp" NOT_FOUND_0x15="0" NOT_FOUND_0x19="0"/>
+    <ImageView id="@+id/bxp" layout_width="12dp" layout_height="12dp" src="@drawable/by4" NOT_FOUND_0x15="@+id/bf0" NOT_FOUND_0x18="@+id/bf0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

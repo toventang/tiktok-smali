@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" paddingTop="4dp" paddingBottom="4dp" layout_width="130dp" layout_height="wrap_content">
+    <LinearLayout gravity="center_horizontal" orientation="vertical" background="@drawable/bs0" paddingBottom="12dp" layout_width="130dp" layout_height="wrap_content">
+        <include layout_width="match_parent" layout_height="136dp" layout="@layout/ba8"/>
+        <com.bytedance.android.live.design.widget.LiveButton id="@+id/acs" visibility="gone" layout_width="75dp" layout_height="wrap_content" text="@string/dv5" style="@style/sy"/>
+        <com.bytedance.android.live.core.widget.FitTextView textSize="12sp" textColor="@color/a0h" gravity="center" id="@+id/amk" background="@drawable/br8" visibility="gone" layout_width="75dp" layout_height="28dp" text="@string/ei8" maxLines="1" NOT_FOUND_0xd="7"/>
+    </LinearLayout>
+</LinearLayout>

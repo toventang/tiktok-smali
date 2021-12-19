@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/dqn" background="@drawable/bs7" layout_width="match_parent" layout_height="440dp">
+    <FrameLayout id="@+id/title" background="@drawable/bpd" layout_width="match_parent" layout_height="60dp">
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="17sp" textColor="@color/a09" layout_gravity="center" id="@+id/f9l" layout_width="wrap_content" layout_height="wrap_content" text="@string/e7g" NOT_FOUND_0x1b="7"/>
+        <View layout_gravity="bottom" background="@color/b2" layout_width="match_parent" layout_height="0.5dp"/>
+    </FrameLayout>
+    <androidx.core.widget.NestedScrollView layout_width="match_parent" layout_height="match_parent">
+        <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+            <com.bytedance.android.live.design.widget.LiveTextView textColor="?attr/amv" padding="16dp" layout_width="match_parent" layout_height="wrap_content" text="@string/eiq" style="@style/tu"/>
+            <LinearLayout orientation="vertical" id="@+id/cb9" background="@color/a24" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="10dp">
+                <LinearLayout gravity="center_vertical" orientation="horizontal" id="@+id/aa4" layout_width="match_parent" layout_height="52dp">
+                    <com.bytedance.android.live.design.widget.LiveTextView textAppearance="@style/a2i" gravity="center_vertical" layout_width="0dp" layout_height="52dp" layout_marginLeft="16dp" text="@string/e8_" layout_weight="1" layout_marginStart="16dp"/>
+                    <View id="@+id/aa5" background="@drawable/c2g" visibility="gone" layout_width="8dp" layout_height="8dp" layout_marginRight="7dp" layout_marginEnd="7dp"/>
+                    <ImageView background="@drawable/c8a" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="19dp" layout_marginEnd="19dp"/>
+                </LinearLayout>
+                <com.bytedance.android.live.design.widget.LiveTextView textAppearance="@style/a2i" gravity="center_vertical" id="@+id/dt4" paddingLeft="16dp" paddingRight="19dp" layout_width="match_parent" layout_height="52dp" text="@string/el0" drawableRight="@drawable/c8a" lineSpacingExtra="0sp" translationY="-0.21sp" drawableEnd="@drawable/c8a" paddingStart="16dp" paddingEnd="19dp"/>
+                <LinearLayout gravity="center_vertical" orientation="horizontal" id="@+id/cki" layout_width="match_parent" layout_height="52dp">
+                    <com.bytedance.android.live.design.widget.LiveTextView textAppearance="@style/a2i" gravity="center_vertical" layout_width="0dp" layout_height="52dp" layout_marginLeft="16dp" text="@string/eb8" layout_weight="1" layout_marginStart="16dp"/>
+                    <View id="@+id/cnc" background="@drawable/c2g" visibility="gone" layout_width="8dp" layout_height="8dp" layout_marginRight="7dp" layout_marginEnd="7dp"/>
+                    <ImageView background="@drawable/c8a" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="19dp" layout_marginEnd="19dp"/>
+                </LinearLayout>
+                <com.bytedance.android.live.design.widget.LiveTextView textAppearance="@style/a2i" gravity="center_vertical" id="@+id/dh7" paddingLeft="16dp" paddingRight="19dp" layout_width="match_parent" layout_height="52dp" text="@string/eax" drawableRight="@drawable/c8a" lineSpacingExtra="0sp" translationY="-0.21sp" drawableEnd="@drawable/c8a" paddingStart="16dp" paddingEnd="19dp"/>
+                <LinearLayout orientation="vertical" id="@+id/crp" padding="16dp" layout_width="match_parent" layout_height="wrap_content">
+                    <com.bytedance.android.live.design.widget.LiveTextView textAppearance="@style/a2i" paddingRight="3dp" layout_width="match_parent" layout_height="wrap_content" text="@string/eba" drawableRight="@drawable/c8a" lineSpacingExtra="0sp" translationY="-0.21sp" drawableEnd="@drawable/c8a" paddingEnd="3dp"/>
+                    <com.bytedance.android.live.design.widget.LiveTextView textColor="?attr/amv" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="6dp" text="@string/egf" style="@style/tu"/>
+                </LinearLayout>
+                <com.bytedance.android.live.design.widget.LiveTextView textAppearance="@style/a2i" gravity="center_vertical" id="@+id/c3w" paddingLeft="16dp" paddingRight="19dp" layout_width="match_parent" layout_height="52dp" text="@string/eb4" drawableRight="@drawable/c8a" lineSpacingExtra="0sp" translationY="-0.21sp" drawableEnd="@drawable/c8a" paddingStart="16dp" paddingEnd="19dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

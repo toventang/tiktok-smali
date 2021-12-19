@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout id="@+id/ejp" layout_width="match_parent" layout_height="match_parent" layout_above="@+id/flv">
+        <com.bytedance.android.livesdk.chatroom.widget.LiveCoordinatorLayout fadingEdgeLength="24dp" layout_width="match_parent" layout_height="match_parent" requiresFadingEdge="vertical">
+            <com.bytedance.android.livesdk.chatroom.widget.LiveMessageRecyclerView id="@+id/clw" fadingEdgeLength="24dp" layout_width="match_parent" layout_height="match_parent" requiresFadingEdge="vertical" NOT_FOUND_0x17="com.bytedance.android.livesdk.chatroom.behavior.ScrollHeaderBehavior" NOT_FOUND_0x18="true"/>
+            <com.bytedance.android.live.publicscreen.impl.view.CommonModelView id="@+id/b7_" tag="suctionBottomView" visibility="gone" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x16="1" NOT_FOUND_0x17="com.bytedance.android.livesdk.chatroom.behavior.SuctionBottomBehavior"/>
+        </com.bytedance.android.livesdk.chatroom.widget.LiveCoordinatorLayout>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/a0c" gravity="center" layout_gravity="bottom" id="@+id/clv" background="@drawable/bsi" paddingLeft="6dp" paddingRight="6dp" visibility="invisible" layout_width="wrap_content" layout_height="24dp" text="@string/glo" paddingStart="6dp" paddingEnd="6dp" style="@style/tw"/>
+        <ImageView layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" id="@+id/bh1" layout_width="wrap_content" layout_height="wrap_content" src="0x7f080e49"/>
+    </FrameLayout>
+    <com.bytedance.android.live.publicscreen.impl.view.WarningInfoView id="@+id/flv" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10dp" layout_alignParentLeft="true" layout_alignParentBottom="true" layout_alignParentStart="true"/>
+</RelativeLayout>

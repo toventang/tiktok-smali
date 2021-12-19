@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/c3a" background="@color/bk" visibility="gone" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true">
+        <ImageView layout_width="7dp" layout_height="9dp" layout_marginTop="2dp" src="0x7f080a97"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" layout_width="wrap_content" layout_height="wrap_content" maxWidth="72dp" text="@string/g2n" layout_marginStart="4dp" NOT_FOUND_0xd="72"/>
+    </LinearLayout>
+</RelativeLayout>

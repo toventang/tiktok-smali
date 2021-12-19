@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/dqe" background="@color/bj" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.themechange.base.AVDmtImageView id="@+id/q9" layout_width="36dp" layout_height="36dp" layout_marginLeft="16dp" layout_marginTop="8dp" src="0x7f080c76" layout_marginStart="16dp"/>
+    <com.ss.android.ugc.tools.view.widget.AVAutoRTLImageView id="@+id/qi" padding="@dimen/ci" focusable="true" visibility="gone" layout_width="@dimen/ch" layout_height="44dp" layout_marginLeft="12dp" layout_marginTop="@dimen/rk" src="0x7f0806ad" scaleType="centerInside" layout_marginStart="12dp"/>
+    <RelativeLayout layout_gravity="center" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="62dp" layout_marginRight="62dp" layout_marginStart="62dp" layout_marginEnd="62dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center_horizontal" id="@+id/title" layout_width="match_parent" layout_height="wrap_content" text="@string/ax4" NOT_FOUND_0x1a="13"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a_" gravity="center_horizontal" id="@+id/ee9" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="14dp" text="@string/ax3" layout_below="@+id/title" NOT_FOUND_0x1a="51"/>
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtImageView id="@+id/bur" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="50dp" src="0x7f080c7e" layout_below="@+id/ee9" layout_alignParentLeft="true" layout_alignParentStart="true"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/a1h" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" text="@string/awx" layout_alignBottom="@+id/bur" layout_marginStart="16dp" layout_toEndOf="@+id/bur" NOT_FOUND_0x1a="42"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/ac" id="@+id/a1l" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" text="@string/awy" layout_below="@+id/a1h" layout_alignStart="@+id/a1h" NOT_FOUND_0x1a="51"/>
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtImageView id="@+id/bz0" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="32dp" src="0x7f080c7f" layout_below="@+id/a1l"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/cm1" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" text="@string/ax1" layout_alignBottom="@+id/bz0" layout_marginStart="16dp" layout_toEndOf="@+id/bz0" NOT_FOUND_0x1a="42"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/ac" id="@+id/cm6" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" text="@string/ax2" layout_below="@+id/cm1" layout_alignStart="@+id/cm1" NOT_FOUND_0x1a="51"/>
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtImageView id="@+id/bwz" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="32dp" src="0x7f080c75" layout_below="@+id/cm6"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/b29" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" text="@string/awz" layout_alignBottom="@+id/bwz" layout_marginStart="16dp" layout_toEndOf="@+id/bwz" NOT_FOUND_0x1a="42"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/ac" id="@+id/b2a" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" text="@string/ax0" layout_below="@+id/b29" layout_alignStart="@+id/b29" NOT_FOUND_0x1a="51"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" id="@+id/j1" background="@drawable/bkw" paddingTop="13dp" paddingBottom="13dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="112dp" text="@string/aww" layout_below="@+id/b2a" NOT_FOUND_0x1a="42"/>
+    </RelativeLayout>
+    <View id="@+id/ckm" background="#dd000000" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+</FrameLayout>

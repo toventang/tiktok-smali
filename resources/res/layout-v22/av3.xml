@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/ad7" clickable="true" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.discover.ui.Dialog.SearchNestedLayout orientation="vertical" id="@+id/dqk" layout_width="match_parent" layout_height="match_parent" translationY="500dp">
+        <com.ss.android.ugc.aweme.discover.ui.Dialog.PlaceHolderLayout id="@+id/d0t" layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+        <LinearLayout layout_gravity="bottom" orientation="vertical" id="@+id/alb" background="@drawable/bc1" layout_width="match_parent" layout_height="300dp">
+            <RelativeLayout orientation="horizontal" id="@+id/emj" layout_width="match_parent" layout_height="53dp">
+                <androidx.appcompat.widget.AppCompatTextView textSize="15dp" textColor="@color/bx" id="@+id/a7t" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginRight="16dp" layout_alignParentLeft="true" layout_centerVertical="true" layout_alignParentStart="true" NOT_FOUND_0x17="1" NOT_FOUND_0x18="2dp" NOT_FOUND_0x19="11dp" NOT_FOUND_0x1a="15dp"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/alr" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginRight="16dp" layout_centerInParent="true" NOT_FOUND_0x1b="32"/>
+                <androidx.appcompat.widget.AppCompatTextView textSize="15dp" textColor="@color/bx" gravity="end" id="@+id/aco" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginRight="16dp" maxWidth="110dp" maxLines="1" layout_alignParentRight="true" layout_centerVertical="true" layout_alignParentEnd="true" NOT_FOUND_0x17="1" NOT_FOUND_0x18="2dp" NOT_FOUND_0x19="13dp" NOT_FOUND_0x1a="15dp"/>
+            </RelativeLayout>
+            <View id="@+id/fip" background="@color/b2" layout_width="match_parent" layout_height="0.5dp" alpha="0.2"/>
+            <com.ss.android.ugc.aweme.discover.ui.Dialog.NestedScrollingChildFrameLayout id="@+id/ali" layout_width="match_parent" layout_height="match_parent"/>
+        </LinearLayout>
+    </com.ss.android.ugc.aweme.discover.ui.Dialog.SearchNestedLayout>
+</FrameLayout>

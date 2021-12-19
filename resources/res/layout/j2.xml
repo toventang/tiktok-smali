@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="horizontal" id="@+id/a_j" background="@drawable/l9" layout_width="match_parent" layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.comment.ui.CommentAtAvaterWithVerify layout_gravity="center_vertical" id="@+id/dtn" layout_width="40dp" layout_height="40dp" layout_marginLeft="16dp" layout_marginTop="8dp" layout_marginRight="12dp" layout_marginBottom="8dp" layout_marginStart="16dp" layout_marginEnd="12dp"/>
+    <LinearLayout layout_gravity="center_vertical" orientation="vertical" layout_width="0dp" layout_height="wrap_content" layout_marginRight="15dp" layout_weight="1" layout_toRightOf="@+id/dtn" layout_centerVertical="true" layout_marginEnd="15dp" layout_toEndOf="@+id/dtn">
+        <LinearLayout orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxTextView textColor="?attr/be" ellipsize="end" id="@+id/f3c" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" layout_weight="1" NOT_FOUND_0x18="42"/>
+            <com.bytedance.tux.input.TuxTextView textColor="?attr/bg" layout_gravity="center" id="@+id/ezs" layout_width="wrap_content" layout_height="wrap_content" text="@string/c06" NOT_FOUND_0x18="72"/>
+        </LinearLayout>
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/bg" id="@+id/f7d" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" maxLines="1" singleLine="true" NOT_FOUND_0x18="71"/>
+    </LinearLayout>
+    <com.bytedance.tux.input.TuxTextView textColor="?attr/be" gravity="center" layout_gravity="center_vertical" id="@+id/f0f" background="@drawable/ld" visibility="gone" layout_width="72dp" layout_height="28dp" text="@string/d35" layout_centerVertical="true" layout_marginEnd="16dp" layout_alignParentEnd="true" NOT_FOUND_0x18="51"/>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" background="@drawable/ri" layout_width="match_parent" layout_height="34dp">
+    <LinearLayout gravity="center" layout_gravity="center" id="@+id/ap6" layout_width="match_parent" layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/ci0" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="20dp" text="@string/bv3" layout_marginStart="10dp" NOT_FOUND_0xd="61"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/ci3" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="5dp" layout_marginStart="5dp" NOT_FOUND_0xd="91"/>
+        <com.ss.android.ugc.aweme.views.AutoRTLImageView layout_gravity="center" id="@+id/ap1" paddingTop="1dp" layout_width="wrap_content" layout_height="wrap_content" src="0x7f0804b5"/>
+    </LinearLayout>
+    <FrameLayout layout_gravity="center_vertical" id="@+id/ckq" layout_width="match_parent" layout_height="match_parent">
+        <View id="@+id/ap2" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+        <View id="@+id/ap3" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+    </FrameLayout>
+</FrameLayout>

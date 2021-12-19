@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" orientation="vertical" paddingTop="@dimen/dk" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.account.ui.InputWithIndicator id="@+id/aum" paddingLeft="30dp" paddingRight="30dp" layout_width="match_parent" layout_height="wrap_content" inputType="textEmailAddress" NOT_FOUND_0x12="1" NOT_FOUND_0x13="@string/apc" NOT_FOUND_0x16="0"/>
+    <com.ss.android.ugc.aweme.account.login.v2.ui.InputResultIndicator textSize="@dimen/d5" id="@+id/aun" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="30dp" layout_marginTop="@dimen/d6" layout_marginRight="30dp" NOT_FOUND_0x15="@+id/aum" NOT_FOUND_0x17="@dimen/d4" NOT_FOUND_0x18="true"/>
+    <LinearLayout id="@+id/a5a" paddingLeft="30dp" paddingRight="30dp" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x15="@+id/aun">
+        <com.bytedance.tux.input.TuxCheckBox id="@+id/auo" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="11dp" checked="false" NOT_FOUND_0x19="0" NOT_FOUND_0x1a="0"/>
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/bi" id="@+id/auy" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" text="@string/bd" layout_marginStart="8dp" NOT_FOUND_0x1b="61"/>
+    </LinearLayout>
+    <com.bytedance.tux.input.TuxTextView id="@+id/auk" paddingLeft="30dp" paddingRight="30dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="16dp" NOT_FOUND_0x15="@+id/a5a" NOT_FOUND_0x1b="51"/>
+    <com.ss.android.ugc.aweme.account.ui.LoadingButton textSize="@dimen/d6" id="@+id/auj" paddingLeft="30dp" paddingRight="30dp" layout_width="match_parent" layout_height="44dp" layout_marginTop="12dp" text="@string/aq4" NOT_FOUND_0x15="@+id/auk"/>
+    <androidx.recyclerview.widget.RecyclerView id="@+id/aul" background="@color/l" visibility="gone" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x14="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="wrap_content" layout_height="wrap_content">
+    <ImageView layout_gravity="center" id="@+id/dpw" layout_width="wrap_content" layout_height="wrap_content" scaleType="centerCrop"/>
+    <com.bytedance.android.live.design.widget.LiveTextView ellipsize="end" gravity="center" layout_gravity="center" id="@+id/dpx" layout_width="125dp" layout_height="wrap_content"/>
+</FrameLayout>

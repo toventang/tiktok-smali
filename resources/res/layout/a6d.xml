@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" style="@style/yj">
+    <androidx.constraintlayout.widget.Guideline orientation="vertical" id="@+id/pa" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x18="48dp"/>
+    <androidx.constraintlayout.widget.Guideline orientation="vertical" id="@+id/adz" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x19="0.1787"/>
+    <include id="@+id/c6k" NOT_FOUND_0x16="0" NOT_FOUND_0x1b="0" NOT_FOUND_0x1d="0" layout="@layout/a7f"/>
+    <com.ss.android.ugc.aweme.base.ui.AvatarImageView id="@+id/pf" layout_marginEnd="12dp" NOT_FOUND_0x16="0" NOT_FOUND_0x1d="@+id/adh" style="@style/yl"/>
+    <include layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x17="@+id/pa" NOT_FOUND_0x1c="@+id/c6k" layout="@layout/a7i"/>
+    <ViewStub id="@+id/dl_" background="@drawable/aqw" paddingTop="6dp" paddingBottom="6dp" layout="@layout/a7t" inflatedId="@+id/dl_" layout_width="wrap_content" layout_height="wrap_content" paddingStart="12dp" paddingEnd="12dp" layout_marginStart="24dp" NOT_FOUND_0x14="true" NOT_FOUND_0x17="@+id/pa" NOT_FOUND_0x1a="1" NOT_FOUND_0x1b="@+id/adz" NOT_FOUND_0x1c="@+id/fdm"/>
+    <LinearLayout orientation="vertical" id="@+id/adh" background="@drawable/aqy" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="2dp" NOT_FOUND_0x14="true" NOT_FOUND_0x17="@+id/pa" NOT_FOUND_0x1a="1" NOT_FOUND_0x1b="@+id/adz" NOT_FOUND_0x1c="@+id/dl_">
+        <ViewStub id="@+id/dl9" paddingTop="12dp" layout="@layout/a7s" inflatedId="@+id/dl9" layout_width="wrap_content" layout_height="wrap_content" paddingStart="12dp" paddingEnd="12dp"/>
+        <com.ss.android.ugc.aweme.im.sdk.common.ui.widget.SpanInterceptNoTextView textColor="@color/bx" id="@+id/cos" padding="12dp" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x1e="31"/>
+    </LinearLayout>
+    <include layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x1b="@+id/adh" NOT_FOUND_0x1c="@+id/adh" layout="@layout/a71"/>
+    <androidx.constraintlayout.widget.Barrier id="@+id/adl" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x12="5" NOT_FOUND_0x13="user_name,reply_layout_2,content,ll_dm_like"/>
+    <com.bytedance.tux.icon.TuxIconView id="@+id/e_l" visibility="gone" layout_width="20dp" layout_height="20dp" scaleType="fitXY" layout_marginEnd="8dp" NOT_FOUND_0x15="@+id/cf5" NOT_FOUND_0x17="@+id/adl" NOT_FOUND_0x1d="@+id/fdm"/>
+    <include layout_width="wrap_content" layout_height="32dp" layout_marginStart="16dp" NOT_FOUND_0x1b="0" NOT_FOUND_0x1d="@+id/fdm" layout="@layout/a7w"/>
+    <include layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x16="0" NOT_FOUND_0x1b="0" NOT_FOUND_0x1c="@+id/cf5" layout="@layout/a7d"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

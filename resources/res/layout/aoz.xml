@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.tux.button.TuxButton xmlns="" textColor="@color/bx" gravity="center" id="@+id/bs8" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" layout_marginBottom="12dp" maxWidth="1000dp" minWidth="88dp" NOT_FOUND_0x9="2" NOT_FOUND_0xa="1" NOT_FOUND_0xb="0x7f080a45"/>

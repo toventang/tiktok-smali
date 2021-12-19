@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center" layout_width="match_parent" layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/av9" background="@color/f" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x5="6" NOT_FOUND_0x6="6" NOT_FOUND_0x7="@color/l" NOT_FOUND_0x8="8dp" NOT_FOUND_0x9="0dp"/>
+</LinearLayout>

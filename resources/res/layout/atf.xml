@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/dsm" background="@drawable/uj" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout orientation="horizontal" id="@+id/c51" paddingLeft="16dp" paddingTop="2dp" paddingRight="16dp" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="11dp" paddingStart="16dp" paddingEnd="16dp">
+        <FrameLayout id="@+id/dge" background="@drawable/ea" layout_width="0dp" layout_height="44dp" layout_weight="1">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" layout_gravity="center" id="@+id/f59" layout_width="wrap_content" layout_height="wrap_content" text="@string/g8z" fontFamily="ProximaNova-Semibold" NOT_FOUND_0x19="52" style="@style/y4"/>
+        </FrameLayout>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" ellipsize="end" gravity="center" id="@+id/cv4" background="?attr/a9w" paddingLeft="12dp" paddingRight="12dp" layout_width="0dp" layout_height="44dp" layout_marginLeft="6dp" text="@string/dgs" maxLines="4" shadowColor="@color/bo" shadowDx="0" shadowDy="2" shadowRadius="2" layout_weight="1" fontFamily="ProximaNova-Semibold" layout_marginStart="6dp" NOT_FOUND_0x19="52" style="@style/y4"/>
+    </LinearLayout>
+    <LinearLayout orientation="horizontal" id="@+id/c52" paddingLeft="16dp" paddingTop="2dp" paddingRight="16dp" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="11dp" paddingStart="16dp" paddingEnd="16dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" ellipsize="end" gravity="center" id="@+id/dgf" background="?attr/a9w" paddingLeft="12dp" paddingRight="12dp" layout_width="0dp" layout_height="44dp" text="@string/g8z" maxLines="4" shadowColor="@color/bo" shadowDx="0" shadowDy="2" shadowRadius="2" layout_weight="1" NOT_FOUND_0x19="52" style="@style/y4"/>
+    </LinearLayout>
+</FrameLayout>

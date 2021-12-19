@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/c4v" layout_width="match_parent" layout_height="match_parent">
+    <RelativeLayout id="@+id/adx" visibility="invisible" layout_width="match_parent" layout_height="match_parent" layout_below="@+id/c94">
+        <ScrollView id="@+id/d3h" layout_width="match_parent" layout_height="match_parent" layout_above="@+id/fb5">
+            <LinearLayout orientation="vertical" id="@+id/nr" layout_width="match_parent" layout_height="wrap_content">
+                <LinearLayout orientation="vertical" layout_width="match_parent" layout_height="match_parent" layout_marginLeft="32dp" layout_marginTop="45dp" layout_marginRight="32dp">
+                    <LinearLayout gravity="center_horizontal" orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+                        <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/ekt" layout_width="72dp" layout_height="72dp" layout_marginRight="30dp" layout_marginEnd="30dp" NOT_FOUND_0x23="true" NOT_FOUND_0x24="true" NOT_FOUND_0x25="true" NOT_FOUND_0x26="true" NOT_FOUND_0x27="12dp"/>
+                        <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/bii" layout_width="72dp" layout_height="72dp" NOT_FOUND_0x23="true" NOT_FOUND_0x24="true" NOT_FOUND_0x25="true" NOT_FOUND_0x26="true" NOT_FOUND_0x27="12dp"/>
+                    </LinearLayout>
+                    <LinearLayout orientation="vertical" background="@color/v" paddingLeft="16dp" paddingRight="16dp" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="24dp" paddingStart="16dp" paddingEnd="16dp">
+                        <com.bytedance.tux.input.TuxTextView textColor="@color/c4" id="@+id/faz" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="16dp" NOT_FOUND_0x29="41"/>
+                        <LinearLayout orientation="vertical" id="@+id/dt1" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="16dp" NOT_FOUND_0x22="@+id/np"/>
+                        <LinearLayout orientation="horizontal" layout_width="match_parent" layout_height="wrap_content">
+                            <ImageView layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x28="@drawable/afx"/>
+                            <com.bytedance.tux.input.TuxTextView textColor="@color/c4" id="@+id/fay" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="16dp" layout_marginStart="2dp" layout_marginEnd="2dp" NOT_FOUND_0x29="71"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout gravity="center" orientation="horizontal" id="@+id/art" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="37dp">
+                    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center_vertical" id="@+id/faf" focusable="false" clickable="false" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="6dp" layout_marginStart="6dp" NOT_FOUND_0x29="42"/>
+                    <ImageButton id="@+id/cuz" background="?attr/aba" focusable="false" nextFocusDown="@+id/cnj" clickable="false" layout_width="wrap_content" layout_height="wrap_content" minWidth="24dp" minHeight="48dp" contentDescription="@string/wa" nextFocusForward="@+id/cnj" NOT_FOUND_0x28="@drawable/aco"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c4" id="@+id/fb5" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10dp" layout_marginBottom="20dp" layout_above="@+id/fah" layout_marginStart="32dp" layout_marginEnd="32dp" NOT_FOUND_0x29="71"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c4" id="@+id/fah" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="20dp" layout_above="@+id/z2" layout_marginStart="32dp" layout_marginEnd="32dp" NOT_FOUND_0x29="71"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtButton textSize="15dp" textStyle="bold" textColor="@color/a9" gravity="center" id="@+id/z2" background="@drawable/b5h" layout_width="match_parent" layout_height="44dp" layout_marginLeft="32dp" layout_marginRight="32dp" layout_marginBottom="21dp" layout_above="@+id/xx" fontFamily="ProximaNova-Semibold" NOT_FOUND_0x21="2" style="?android:attr/borderlessButtonStyle"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/xx" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="33dp" text="@string/w8" layout_alignParentBottom="true" NOT_FOUND_0x29="43"/>
+    </RelativeLayout>
+    <FrameLayout id="@+id/c94" layout_width="match_parent" layout_height="44dp" layout_marginTop="12dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" layout_gravity="center" id="@+id/far" layout_width="wrap_content" layout_height="match_parent" NOT_FOUND_0x29="33"/>
+    </FrameLayout>
+</RelativeLayout>

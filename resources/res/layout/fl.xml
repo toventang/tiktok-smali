@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="match_parent" layout_marginTop="20dp">
+    <RelativeLayout layout_gravity="bottom" id="@+id/dqe" background="@drawable/hs" paddingTop="10dp" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x17="com.ss.android.ugc.aweme.account.login.ViewPagerBottomSheetBehavior">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/em8" background="@color/l" layout_width="match_parent" layout_height="52dp" text="@string/aql" layout_alignParentTop="true" alpha="0" NOT_FOUND_0x1c="33"/>
+        <View id="@+id/an6" background="@color/b6" layout_width="match_parent" layout_height="0.5dp" layout_below="@+id/em8" alpha="0"/>
+        <FrameLayout id="@+id/b94" layout_width="match_parent" layout_height="match_parent" layout_below="@+id/an6"/>
+        <ImageView id="@+id/bfw" layout_width="24dp" layout_height="24dp" layout_marginTop="14dp" layout_marginRight="16dp" src="@drawable/jl" layout_alignParentTop="true" layout_alignParentRight="true" layout_marginEnd="16dp" layout_alignParentEnd="true" NOT_FOUND_0x18="0" NOT_FOUND_0x1a="0"/>
+        <com.ss.android.ugc.aweme.account.views.AutoRTLImageView id="@+id/a7h" layout_width="24dp" layout_height="24dp" layout_marginLeft="16dp" layout_marginTop="14dp" src="0x7f080165" layout_alignParentLeft="true" layout_alignParentTop="true" layout_marginStart="16dp" layout_alignParentStart="true" NOT_FOUND_0x19="0" NOT_FOUND_0x1b="0"/>
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout orientation="horizontal" id="@+id/ceb" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="26dp" layout_marginBottom="20dp" NOT_FOUND_0xc="0" NOT_FOUND_0xd="0" NOT_FOUND_0x10="0" NOT_FOUND_0x11="0">
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView layout_gravity="center_vertical" id="@+id/bu3" layout_width="84dp" layout_height="84dp" NOT_FOUND_0xb="@drawable/a9l" NOT_FOUND_0x12="@drawable/a9l" NOT_FOUND_0x13="true"/>
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/bu5" background="@drawable/a_a" padding="3dp" layout_width="90dp" layout_height="90dp" layout_marginStart="-18dp" NOT_FOUND_0xb="@drawable/a9l" NOT_FOUND_0x12="@drawable/a9l" NOT_FOUND_0x13="true"/>
+    </LinearLayout>
+    <View id="@+id/byh" background="0x7f08055a" layout_width="53dp" layout_height="60dp" layout_marginEnd="0.8dp" NOT_FOUND_0xc="@+id/ceb" NOT_FOUND_0xe="@+id/ceb" NOT_FOUND_0x11="@+id/ceb"/>
+    <View background="0x7f08055b" layout_width="47dp" layout_height="69dp" layout_marginTop="1dp" layout_marginStart="2dp" NOT_FOUND_0xf="@+id/ceb" NOT_FOUND_0x11="@+id/ceb"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

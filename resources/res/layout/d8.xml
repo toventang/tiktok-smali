@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center_vertical" orientation="horizontal" background="@drawable/a9b" layout_width="match_parent" layout_height="52dp">
+    <com.ss.android.ugc.tools.view.widget.CircleImageView layout_width="28dp" layout_height="28dp" layout_marginLeft="24dp" layout_marginStart="24dp"/>
+    <com.ss.android.ugc.tools.view.style.StyleTextView textSize="13sp" textStyle="bold" textColor="@color/tq" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginRight="12dp" shadowColor="#26000000" shadowDy="1" shadowRadius="2" layout_weight="1" layout_marginStart="12dp" layout_marginEnd="12dp" NOT_FOUND_0x11="7"/>
+    <ImageView layout_width="20dp" layout_height="20dp" layout_marginLeft="0dp" layout_marginRight="20dp" src="0x7f0805ca" layout_marginStart="0dp" layout_marginEnd="20dp"/>
+</LinearLayout>

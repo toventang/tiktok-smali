@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.feed.ui.seekbar.VideoSeekBarMaskView xmlns="" id="@+id/dwz" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.detail.ui.CanVerticalScroolFrameLayout id="@+id/dqk" background="@color/a2" layout_width="match_parent" layout_height="match_parent">
+        <include layout="@layout/s3"/>
+        <View id="@+id/al4" background="@drawable/azv" layout_width="match_parent" layout_height="90dp"/>
+        <ViewStub id="@+id/ed7" layout_width="match_parent" layout_height="match_parent"/>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@+id/b9a" layout_width="match_parent" layout_height="wrap_content">
+            <com.ss.android.ugc.aweme.views.AutoRTLImageView id="@+id/qb" padding="14dp" layout_width="52dp" layout_height="52dp" src="@drawable/b0l" NOT_FOUND_0xb="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0" style="@style/a3j"/>
+            <com.bytedance.tux.icon.TuxIconView id="@+id/c0w" visibility="invisible" layout_width="50dp" layout_height="50dp" scaleType="center" layout_marginEnd="3.5dp" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="@raw/icon_magnifying_glass_offset" NOT_FOUND_0x11="24dp" NOT_FOUND_0x12="24dp" NOT_FOUND_0x13="?attr/aa"/>
+            <ViewStub id="@+id/flg" layout_width="0dp" layout_height="36dp" layout_marginEnd="16dp" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xd="@+id/qb" NOT_FOUND_0xf="0"/>
+            <ViewStub id="@+id/b9b" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xf="0"/>
+            <ViewStub id="@+id/b9_" layout="@layout/wn" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xe="0" NOT_FOUND_0xf="0"/>
+            <com.bytedance.tux.icon.TuxIconView id="@+id/a7y" visibility="invisible" layout_width="24dp" layout_height="24dp" layout_marginEnd="16dp" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0xf="0" NOT_FOUND_0x10="@raw/icon_x_mark" NOT_FOUND_0x13="?attr/aa"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <ViewStub layout_gravity="center" id="@+id/b98" layout="@layout/wo" layout_width="wrap_content" layout_height="wrap_content"/>
+        <include layout="@layout/sn"/>
+    </com.ss.android.ugc.aweme.detail.ui.CanVerticalScroolFrameLayout>
+</com.ss.android.ugc.aweme.feed.ui.seekbar.VideoSeekBarMaskView>

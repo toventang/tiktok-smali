@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/b1x" layout_width="match_parent" layout_height="match_parent">
+    <include layout="@layout/s3"/>
+    <androidx.constraintlayout.widget.ConstraintLayout id="@+id/alh" layout_width="match_parent" layout_height="match_parent"/>
+    <include layout="@layout/sn"/>
+</FrameLayout>

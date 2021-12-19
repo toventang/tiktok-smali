@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <RelativeLayout id="@+id/do9" layout_width="match_parent" layout_height="49dp">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/q9" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" text="@string/bkf" layout_centerVertical="true" layout_marginStart="12dp" NOT_FOUND_0x1d="42"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bh" id="@+id/cuz" paddingLeft="10dp" paddingTop="4.5dp" paddingRight="10dp" paddingBottom="4.5dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="12dp" text="@string/bkt" layout_centerVertical="true" paddingStart="10dp" paddingEnd="10dp" layout_marginEnd="12dp" layout_alignParentEnd="true" NOT_FOUND_0x1d="42"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" gravity="center" id="@+id/title" layout_width="wrap_content" layout_height="wrap_content" text="@string/daa" layout_centerHorizontal="true" layout_centerVertical="true" NOT_FOUND_0x1d="33"/>
+    </RelativeLayout>
+    <FrameLayout id="@+id/eff" layout_width="match_parent" layout_height="100dp" layout_marginBottom="40dp">
+        <TextureView id="@+id/efb" layout_width="match_parent" layout_height="wrap_content"/>
+    </FrameLayout>
+    <RelativeLayout layout_width="match_parent" layout_height="0dp" layout_marginBottom="25dp" layout_weight="1">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/nr" id="@+id/f9e" layout_width="wrap_content" layout_height="wrap_content" text="@string/d7v" layout_alignParentBottom="true" layout_centerHorizontal="true" NOT_FOUND_0x1d="41"/>
+        <FrameLayout id="@+id/dqs" visibility="invisible" layout_width="44dp" layout_height="44dp" layout_marginRight="6.5dp" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="6.5dp" layout_alignParentEnd="true">
+            <ImageView layout_gravity="center" layout_width="27dp" layout_height="27dp" src="0x7f080aa5"/>
+        </FrameLayout>
+    </RelativeLayout>
+    <RelativeLayout id="@+id/uw" background="@color/o4" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="8dp">
+        <androidx.recyclerview.widget.RecyclerView id="@+id/djj" layout_width="match_parent" layout_height="100dp" layout_marginTop="7dp"/>
+    </RelativeLayout>
+</LinearLayout>

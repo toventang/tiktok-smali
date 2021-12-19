@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.ies.dmt.ui.titlebar.TextTitleBar id="@+id/em8" layout_width="match_parent" layout_height="@dimen/a0s" NOT_FOUND_0x8="15dp" NOT_FOUND_0x9="@string/gam" NOT_FOUND_0xa="?attr/bc" NOT_FOUND_0xb="true"/>
+    <RelativeLayout background="?attr/m" layout_width="match_parent" layout_height="match_parent">
+        <com.bytedance.ies.dmt.ui.widget.DmtStatusView id="@+id/e_o" layout_width="match_parent" layout_height="match_parent"/>
+        <com.ss.android.ugc.aweme.base.opensourcemodified.android.support.v4.widget.SwipeRefreshLayout id="@+id/dk8" visibility="gone" layout_width="match_parent" layout_height="match_parent" layout_marginTop="0.5dp">
+            <androidx.recyclerview.widget.RecyclerView id="@+id/cbi" layout_width="match_parent" layout_height="wrap_content"/>
+        </com.ss.android.ugc.aweme.base.opensourcemodified.android.support.v4.widget.SwipeRefreshLayout>
+    </RelativeLayout>
+</LinearLayout>

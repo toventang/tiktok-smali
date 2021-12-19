@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/dqn" background="@drawable/bs7" layout_width="match_parent" layout_height="440dp">
+    <FrameLayout layout_width="match_parent" layout_height="wrap_content">
+        <FrameLayout id="@+id/q9" layout_width="50dp" layout_height="60dp">
+            <ImageView layout_width="wrap_content" layout_height="19dp" layout_marginLeft="18dp" layout_marginTop="20dp" layout_marginStart="18dp" NOT_FOUND_0x19="@drawable/c8_"/>
+        </FrameLayout>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="17sp" textColor="@color/a09" gravity="center" layout_gravity="center" layout_width="wrap_content" layout_height="60dp" text="@string/eax" NOT_FOUND_0x14="7"/>
+    </FrameLayout>
+    <View background="@color/b6" layout_width="match_parent" layout_height="0.5dp"/>
+    <LinearLayout orientation="vertical" id="@+id/dh_" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="10dp">
+        <androidx.constraintlayout.widget.ConstraintLayout layout_width="match_parent" layout_height="35dp">
+            <com.bytedance.android.live.design.widget.LiveTextView textAppearance="@style/a2i" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" text="@string/eax" layout_marginStart="16dp" NOT_FOUND_0x15="0" NOT_FOUND_0x17="0" NOT_FOUND_0x18="0"/>
+            <FrameLayout id="@+id/dha" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="16dp" layout_marginEnd="16dp" NOT_FOUND_0x15="0" NOT_FOUND_0x16="0" NOT_FOUND_0x18="0">
+                <com.bytedance.android.live.design.widget.LiveSwitch id="@+id/dh8" clickable="false" layout_width="wrap_content" layout_height="wrap_content"/>
+            </FrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.bytedance.android.live.design.widget.LiveTextView textSize="13sp" textColor="@color/c5" gravity="start" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginRight="16dp" text="@string/e7o" lineSpacingExtra="3sp" translationY="-1.38sp" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+    </LinearLayout>
+</LinearLayout>

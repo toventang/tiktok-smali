@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout layout_width="match_parent" layout_height="52dp">
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView textStyle="bold" textColor="@color/bx" gravity="center_vertical" id="@+id/ev0" layout_width="wrap_content" layout_height="match_parent" layout_marginLeft="16dp" shadowColor="@color/bo" shadowRadius="2" layout_marginStart="16dp" NOT_FOUND_0xa="7" style="@style/ww"/>
+    </FrameLayout>
+</FrameLayout>

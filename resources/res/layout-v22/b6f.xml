@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/amz" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" background="@drawable/bqc" layout_width="310dp" layout_height="wrap_content" NOT_FOUND_0x10="0" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0">
+        <androidx.constraintlayout.widget.ConstraintLayout layout_width="match_parent" layout_height="129dp">
+            <com.bytedance.android.live.core.widget.HSImageView background="0x7f080d2f" layout_width="match_parent" layout_height="match_parent"/>
+            <com.bytedance.android.live.core.widget.HSImageView id="@+id/b0c" layout_width="80dp" layout_height="80dp" layout_marginTop="36dp" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0"/>
+            <ImageView id="@+id/a1r" background="0x7f080e40" layout_width="24dp" layout_height="24dp" layout_marginTop="8dp" layout_marginEnd="8dp" NOT_FOUND_0x11="0" NOT_FOUND_0x13="0"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/bx" gravity="center" id="@+id/b0d" layout_width="match_parent" layout_height="wrap_content" style="@style/tj"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/bx" gravity="center" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="33dp" layout_marginTop="5dp" layout_marginRight="33dp" text="@string/eju" alpha="0.75" NOT_FOUND_0xf="33dp" style="@style/to"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="@color/a9" gravity="center" layout_gravity="center" id="@+id/bbj" background="@drawable/bqa" layout_width="270dp" layout_height="44dp" layout_marginTop="22dp" style="@style/tq"/>
+        <com.bytedance.android.live.design.widget.LiveTextView textColor="#88161823" gravity="center" layout_gravity="center" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="35dp" layout_marginTop="14dp" layout_marginRight="35dp" layout_marginBottom="23dp" text="@string/ejv" NOT_FOUND_0xf="35dp" style="@style/tu"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

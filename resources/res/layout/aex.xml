@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/e9v" layout_width="wrap_content" layout_height="@dimen/id" layout_marginBottom="@dimen/il" layout_alignParentBottom="true" layout_centerHorizontal="true">
+    <View layout_gravity="center" id="@+id/e_0" background="@drawable/a4h" visibility="gone" layout_width="@dimen/ih" layout_height="@dimen/ig"/>
+    <RelativeLayout layout_gravity="center" id="@+id/e9x" paddingLeft="@dimen/ir" paddingRight="@dimen/ir" layout_width="wrap_content" layout_height="match_parent" layout_marginTop="1dp" layout_marginBottom="1dp" paddingStart="@dimen/ir" paddingEnd="@dimen/ir">
+        <com.bytedance.tux.icon.TuxIconView id="@+id/e_2" layout_width="24dp" layout_height="24dp" layout_alignParentLeft="true" layout_centerVertical="true" layout_alignParentStart="true" NOT_FOUND_0x1e="@raw/icon_video_fill" NOT_FOUND_0x1f="?attr/aa"/>
+        <com.bytedance.lighten.loader.SmartCircleImageView id="@+id/e9w" visibility="gone" layout_width="20dp" layout_height="20dp" layout_toRightOf="@+id/e_2" layout_alignParentLeft="true" layout_centerVertical="true" layout_toEndOf="@+id/e_2" layout_alignParentStart="true" NOT_FOUND_0x1a="6" NOT_FOUND_0x1b="true" NOT_FOUND_0x1c="@color/a9" NOT_FOUND_0x1d="1.5dp"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView textSize="@dimen/io" textColor="@color/a9" ellipsize="end" id="@+id/e_1" paddingLeft="@dimen/in" layout_width="wrap_content" layout_height="wrap_content" maxWidth="@dimen/im" maxLines="1" singleLine="true" layout_toRightOf="@+id/e9w" layout_centerVertical="true" paddingStart="@dimen/in" layout_toEndOf="@+id/e9w" NOT_FOUND_0x19="2"/>
+    </RelativeLayout>
+</FrameLayout>

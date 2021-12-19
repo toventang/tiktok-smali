@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="@dimen/y5" android:width="@dimen/y6" android:viewportWidth="24" android:viewportHeight="24">
+    <path android:name="ttlive_radio_button_unchecked_stroke" android:pathData="M23.25,12C23.25,18.2132 18.2132,23.25 12,23.25C5.7868,23.25 0.75,18.2132 0.75,12C0.75,5.7868 5.7868,0.75 12,0.75C18.2132,0.75 23.25,5.7868 23.25,12Z" android:strokeColor="?attr/am3" android:strokeWidth="1.5"/>
+    <path android:name="ttlive_radio_button_checked_stroke" android:pathData="M23,12C23,18.0751 18.0751,23 12,23C5.9249,23 1,18.0751 1,12C1,5.9249 5.9249,1 12,1C18.0751,1 23,5.9249 23,12Z" android:strokeColor="?attr/ama" android:strokeWidth="2" android:strokeLineCap="square" android:strokeAlpha="0"/>
+    <path android:name="ttlive_radio_button_checked_fill" android:fillColor="?attr/ama" android:pathData="M12,20C16.4183,20 20,16.4183 20,12C20,7.5817 16.4183,4 12,4C7.5817,4 4,7.5817 4,12C4,16.4183 7.5817,20 12,20Z" android:fillAlpha="0" android:fillType="1"/>
+</vector>

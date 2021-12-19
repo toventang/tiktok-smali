@@ -1,0 +1,116 @@
+package com.ss.android.ugc.aweme.newfollow.ui;
+
+import android.content.Context;
+import android.os.Bundle;
+import android.view.View;
+import androidx.fragment.app.Fragment;
+import com.bytedance.covode.number.Covode;
+import com.ss.android.ugc.aweme.TabFragmentNode;
+import com.ss.android.ugc.aweme.ar;
+import com.ss.android.ugc.aweme.bz;
+import com.ss.android.ugc.aweme.experiment.az;
+import com.ss.android.ugc.aweme.homepage.ui.inflate.X2CFragmentMainPageIcon;
+import com.ss.android.ugc.aweme.lego.f;
+import h.f.b.l;
+import h.f.b.m;
+import h.h;
+import h.i;
+
+public final class DiscoverSearchTab extends TabFragmentNode {
+
+    /* renamed from: b  reason: collision with root package name */
+    public final Context f112596b;
+
+    /* renamed from: c  reason: collision with root package name */
+    private View.OnClickListener f112597c;
+
+    /* renamed from: d  reason: collision with root package name */
+    private final h f112598d = i.a((h.f.a.a) new a(this));
+
+    static {
+        Covode.recordClassIndex(72360);
+    }
+
+    private final ar b() {
+        return (ar) this.f112598d.getValue();
+    }
+
+    @Override // com.bytedance.hox.d
+    public final String e() {
+        return "discovery";
+    }
+
+    @Override // com.bytedance.hox.d
+    public final Bundle g() {
+        return null;
+    }
+
+    @Override // com.bytedance.hox.d
+    public final Class<? extends Fragment> f() {
+        return c.class;
+    }
+
+    @Override // com.ss.android.ugc.aweme.by
+    public final String U_() {
+        return b().f82873i;
+    }
+
+    @Override // com.ss.android.ugc.aweme.by, com.bytedance.hox.d
+    public final String d() {
+        return b().f82872h;
+    }
+
+    static final class a extends m implements h.f.a.a<ar> {
+        final /* synthetic */ DiscoverSearchTab this$0;
+
+        static {
+            Covode.recordClassIndex(72361);
+        }
+
+        /* JADX INFO: super call moved to the top of the method (can break code semantics) */
+        a(DiscoverSearchTab discoverSearchTab) {
+            super(0);
+            this.this$0 = discoverSearchTab;
+        }
+
+        /* Return type fixed from 'java.lang.Object' to match base method */
+        @Override // h.f.a.a
+        public final /* synthetic */ ar invoke() {
+            return b.a(this.this$0.f112596b);
+        }
+    }
+
+    @Override // com.ss.android.ugc.aweme.by, com.ss.android.ugc.aweme.TabFragmentNode
+    public final void h() {
+        if (this.f112597c == null) {
+            this.f112597c = new a(this.f112596b);
+        }
+        View.OnClickListener onClickListener = this.f112597c;
+        if (onClickListener != null) {
+            onClickListener.onClick(null);
+        }
+    }
+
+    public DiscoverSearchTab(Context context) {
+        l.d(context, "");
+        this.f112596b = context;
+    }
+
+    @Override // com.ss.android.ugc.aweme.by
+    public final View a(bz bzVar) {
+        l.d(bzVar, "");
+        if (!az.a()) {
+            return bzVar.a(b());
+        }
+        X2CFragmentMainPageIcon x2CFragmentMainPageIcon = (X2CFragmentMainPageIcon) f.a(new X2CFragmentMainPageIcon());
+        if (x2CFragmentMainPageIcon.f99516b != null) {
+            X2CFragmentMainPageIcon.a(x2CFragmentMainPageIcon.f99516b);
+            com.ss.android.ugc.aweme.homepage.ui.view.tab.bottom.m mVar = x2CFragmentMainPageIcon.f99516b;
+            x2CFragmentMainPageIcon.f99516b = null;
+            if (mVar != null) {
+                return mVar;
+            }
+        }
+        return bzVar.a(b());
+    }
+}

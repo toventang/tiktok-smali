@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="72dp">
+    <com.bytedance.lighten.loader.SmartCircleImageView id="@+id/aqx" layout_width="56dp" layout_height="56dp" NOT_FOUND_0xb="0" NOT_FOUND_0x10="0" NOT_FOUND_0x11="0"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/aqz" layout_width="0dp" layout_height="wrap_content" layout_marginTop="16dp" maxLines="1" layout_marginStart="12dp" layout_marginEnd="12dp" NOT_FOUND_0xd="@+id/aqw" NOT_FOUND_0xe="0" NOT_FOUND_0xf="@+id/aqx" NOT_FOUND_0x11="0" NOT_FOUND_0x12="42"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" id="@+id/aqy" layout_width="0dp" layout_height="wrap_content" layout_marginBottom="16dp" text="222222dfsfhdjfdkhfdkshfdskfhdskfhfdskjfhksdhfdshfkdshfkdshfdkshfdskfhdshfdshfhdsfhdsfhsdfhdsfhdsfsfdskfdhskfsfsfdsfsfsfdsfdsfdsfs" maxLines="1" layout_marginStart="12dp" layout_marginEnd="12dp" NOT_FOUND_0xb="0" NOT_FOUND_0xd="@+id/aqw" NOT_FOUND_0xe="0" NOT_FOUND_0xf="@+id/aqx" NOT_FOUND_0x12="61"/>
+    <com.bytedance.tux.input.TuxCheckBox id="@+id/aqw" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0xb="0" NOT_FOUND_0xc="0" NOT_FOUND_0x11="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

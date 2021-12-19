@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.android.live.design.widget.LiveButton xmlns="" id="@+id/yy" layout_width="@dimen/yb" layout_height="52dp" text="@string/ef1" NOT_FOUND_0x4="true" style="@style/sm"/>

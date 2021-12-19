@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="match_parent" layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.shortvideo.cut.stickingpoint.view.StickPointVideoSegView id="@+id/fh9" visibility="gone" layout_width="match_parent" layout_height="@dimen/sy"/>
+    <FrameLayout layout_gravity="bottom" id="@+id/vw" visibility="gone" clipChildren="false" layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout orientation="vertical" clipChildren="false" layout_width="match_parent" layout_height="wrap_content">
+            <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView textSize="11dp" textColor="@color/c5" ellipsize="end" gravity="center_vertical" id="@+id/ev4" layout_width="match_parent" layout_height="36dp" layout_marginLeft="16dp" layout_marginRight="16dp" layout_marginBottom="8dp" text="@string/d6l" maxLines="2" shadowColor="@color/bo" shadowRadius="2" lineSpacingExtra="2dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x1e="false"/>
+            <com.ss.android.ugc.aweme.themechange.base.AVDmtPanelRecycleView id="@+id/ffc" clipChildren="false" clipToPadding="false" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x1c="16dp" NOT_FOUND_0x1f="16dp" NOT_FOUND_0x20="16dp"/>
+            <FrameLayout layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp">
+                <com.ss.android.ugc.aweme.themechange.base.AVDmtView layout_gravity="center_vertical" id="@+id/kl" layout_width="10dp" layout_height="2dp" layout_marginLeft="38dp" layout_marginStart="38dp" NOT_FOUND_0x1d="false" NOT_FOUND_0x21="10dp" NOT_FOUND_0x23="true"/>
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout layout_gravity="bottom" id="@+id/e4e" visibility="gone" layout_width="match_parent" layout_height="52dp">
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtView layout_gravity="top" layout_width="match_parent" layout_height="0.5dp" NOT_FOUND_0x22="true"/>
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtImageView layout_gravity="left|center_vertical|center_horizontal|center|start" id="@+id/bt5" padding="5dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="16dp" src="0x7f080765" scaleType="centerInside" layout_marginStart="16dp"/>
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView textSize="17sp" textStyle="bold" textColor="@color/a9" layout_gravity="center" id="@+id/e4h" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" text="@string/ax6" fontFamily="Proxima Nova"/>
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtImageView layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/bth" padding="5dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="16dp" src="0x7f080766" scaleType="centerInside" layout_marginEnd="16dp"/>
+    </FrameLayout>
+</FrameLayout>

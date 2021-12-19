@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="" layout_width="match_parent" layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.shortvideo.cut.videoeditv2.InterceptFrameLayout id="@+id/djm" layout_width="match_parent" layout_height="wrap_content">
+        <com.ss.android.ugc.aweme.shortvideo.cut.videoeditv2.AutoPollRecyclerView id="@+id/e4i" clipToPadding="false" layout_width="match_parent" layout_height="wrap_content"/>
+        <com.ss.android.ugc.aweme.shortvideo.cut.videoeditv2.AutoPollRecyclerView id="@+id/b9q" clipToPadding="false" layout_width="match_parent" layout_height="wrap_content"/>
+    </com.ss.android.ugc.aweme.shortvideo.cut.videoeditv2.InterceptFrameLayout>
+    <com.ss.android.ugc.aweme.shortvideo.cut.videoedit.rtlview.RTLLinearLayout id="@+id/ahl" layout_width="20dp" layout_height="wrap_content">
+        <ImageView id="@+id/ahk" layout_width="wrap_content" layout_height="match_parent"/>
+    </com.ss.android.ugc.aweme.shortvideo.cut.videoedit.rtlview.RTLLinearLayout>
+</merge>

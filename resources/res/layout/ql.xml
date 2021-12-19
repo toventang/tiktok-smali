@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="" layout_width="wrap_content" layout_height="wrap_content">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/dt2" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x4="12"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/an6" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x4="71"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" id="@+id/cl5" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x4="71"/>
+</merge>

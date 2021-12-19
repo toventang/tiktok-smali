@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="horizontal" id="@+id/cfs" layout_width="match_parent" layout_height="match_parent">
+    <TextSwitcher layout_gravity="left|center_vertical|center_horizontal|center|start" id="@+id/eri" background="@null" paddingLeft="32.5dp" paddingRight="0dp" layout_width="match_parent" layout_height="36dp" inAnimation="@anim/dm" outAnimation="@anim/dz" paddingStart="32.5dp" paddingEnd="0dp"/>
+</LinearLayout>

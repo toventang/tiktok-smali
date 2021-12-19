@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" layout_width="wrap_content" layout_height="wrap_content">
+    <FrameLayout id="@+id/ekh" visibility="gone" layout_width="36dp" layout_height="36dp" layout_marginLeft="16dp" layout_marginStart="16dp">
+        <ImageView layout_gravity="center" id="@+id/ekg" layout_width="16dp" layout_height="16dp" src="0x7f0809d7"/>
+    </FrameLayout>
+    <LinearLayout gravity="center_vertical" orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content">
+        <View id="@+id/flj" background="@color/b6" layout_width="0.5dp" layout_height="12dp" layout_marginLeft="16dp" layout_marginRight="16dp" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+        <com.ss.android.ugc.aweme.views.WrapContentRemoteImageView id="@+id/c21" layout_width="32dp" layout_height="32dp" scaleType="centerCrop"/>
+    </LinearLayout>
+</FrameLayout>

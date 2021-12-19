@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" layout_width="match_parent" layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.commerce_challenge_impl.view.CommerceRemoteImageView id="@+id/aaw" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x3="@drawable/wa" NOT_FOUND_0x4="2dp"/>
+</LinearLayout>

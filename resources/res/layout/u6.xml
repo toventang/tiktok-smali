@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/dqk" background="@color/c9" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <View id="@+id/an1" background="?attr/b1" layout_width="match_parent" layout_height="match_parent"/>
+    <FrameLayout layout_width="match_parent" layout_height="match_parent">
+        <com.bytedance.tux.widget.RadiusLayout layout_gravity="bottom" id="@+id/ahb" background="?attr/m" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x6="8dp" NOT_FOUND_0x7="8dp">
+            <com.ss.android.ugc.aweme.crossplatform.view.CrossPlatformWebView id="@+id/ah_" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x8="0" NOT_FOUND_0x9="0" NOT_FOUND_0xa="0"/>
+        </com.bytedance.tux.widget.RadiusLayout>
+    </FrameLayout>
+</FrameLayout>

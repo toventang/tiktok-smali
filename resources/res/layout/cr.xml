@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" padding="2dp" layout_width="match_parent" layout_height="match_parent">
+    <RelativeLayout layout_gravity="center" id="@+id/dqe" background="@drawable/cs" layout_width="match_parent" layout_height="155dp">
+        <LinearLayout orientation="vertical" id="@+id/cgz" layout_width="match_parent" layout_height="wrap_content" layout_centerInParent="true" layout_marginStart="16dp" layout_marginEnd="16dp">
+            <ImageView id="@+id/c2b" layout_width="62dp" layout_height="62dp" src="@drawable/ao7" scaleType="fitCenter"/>
+            <TextView textSize="12dp" textStyle="bold" textColor="@color/a2" ellipsize="end" id="@+id/f9w" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" text="@string/un" includeFontPadding="false"/>
+            <TextView textSize="15dp" textStyle="bold" textColor="@color/bh" ellipsize="end" id="@+id/f9z" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="2dp" text="@string/uh" singleLine="true" includeFontPadding="false"/>
+            <TextView textSize="10dp" textStyle="bold" textColor="@color/c5" ellipsize="end" id="@+id/f_j" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="7dp" singleLine="true" includeFontPadding="false"/>
+        </LinearLayout>
+        <ImageView id="@+id/c2d" layout_width="25dp" layout_height="32dp" src="@raw/icon_color_tiktok_logo_dark" layout_alignTop="@+id/cgz" layout_marginEnd="16dp" layout_alignParentEnd="true"/>
+    </RelativeLayout>
+</FrameLayout>

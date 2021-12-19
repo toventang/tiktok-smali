@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/dqk" background="@color/a2" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.profile.ui.widget.SwitchModeFrameLayout id="@+id/ah6" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x10="0" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="0">
+        <com.ss.android.ugc.aweme.profile.ui.widget.PinchImageView id="@+id/bvt" layout_width="match_parent" layout_height="match_parent"/>
+        <com.ss.android.ugc.aweme.profile.ui.widget.PreviewBoxView id="@+id/bw1" layout_width="match_parent" layout_height="match_parent"/>
+    </com.ss.android.ugc.aweme.profile.ui.widget.SwitchModeFrameLayout>
+    <com.bytedance.tux.input.TuxTextView textColor="?attr/aa" gravity="center" id="@+id/ah7" layout_width="match_parent" layout_height="52dp" text="@string/ewv" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x14="0" NOT_FOUND_0x15="33"/>
+    <com.ss.android.ugc.aweme.profile.ui.widget.TopCropImageView id="@+id/bww" layout_width="match_parent" layout_height="wrap_content" src="0x7f080a8c" alpha="0" layout_marginStart="15dp" layout_marginEnd="15dp" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x14="0"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center_vertical" id="@+id/ewf" layout_width="wrap_content" layout_height="48dp" layout_marginLeft="16dp" layout_marginBottom="34dp" text="@string/a9e" layout_marginStart="16dp" NOT_FOUND_0x10="0" NOT_FOUND_0x12="0" NOT_FOUND_0x15="32"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bh" gravity="center_vertical" id="@+id/exb" layout_width="wrap_content" layout_height="48dp" layout_marginRight="16dp" layout_marginBottom="34dp" text="@string/bye" layout_marginEnd="16dp" NOT_FOUND_0x10="0" NOT_FOUND_0x11="0" NOT_FOUND_0x15="32"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtStatusView id="@+id/e_o" visibility="gone" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x10="0" NOT_FOUND_0x11="0" NOT_FOUND_0x12="0" NOT_FOUND_0x13="@+id/ah7"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

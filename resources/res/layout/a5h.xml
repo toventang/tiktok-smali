@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="wrap_content" style="@style/yj">
+    <include layout="@layout/a7f"/>
+    <RelativeLayout layout_width="match_parent" layout_height="wrap_content">
+        <LinearLayout gravity="end" orientation="horizontal" layout_width="match_parent" layout_height="wrap_content" minHeight="84dp">
+            <com.bytedance.tux.icon.TuxIconView layout_gravity="center_vertical" id="@+id/e_l" visibility="gone" layout_width="20dp" layout_height="20dp" scaleType="fitXY" layout_marginEnd="8dp"/>
+            <LinearLayout gravity="end" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content">
+                <include layout="@layout/a7h"/>
+                <FrameLayout id="@+id/adh" background="@drawable/aqz" layout_width="255dp" layout_height="wrap_content">
+                    <LinearLayout layout_gravity="left|center_vertical|center_horizontal|center|start" orientation="vertical" layout_width="177dp" layout_height="wrap_content" layout_marginTop="12dp" layout_marginBottom="12dp" layout_marginStart="12dp" layout_marginEnd="12dp">
+                        <com.bytedance.tux.input.TuxTextView gravity="center_vertical" id="@+id/title_tv" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0xe="@integer/k"/>
+                    </LinearLayout>
+                    <com.ss.android.ugc.aweme.base.ui.RemoteImageView layout_gravity="end" id="@+id/d4o" layout_width="42dp" layout_height="56dp" layout_marginTop="12dp" layout_marginBottom="12dp" layout_marginStart="12dp" layout_marginEnd="12dp"/>
+                </FrameLayout>
+                <include layout="@layout/a71"/>
+                <include layout="@layout/a7e"/>
+            </LinearLayout>
+            <com.ss.android.ugc.aweme.base.ui.AvatarImageView id="@+id/pf" style="@style/yl"/>
+        </LinearLayout>
+        <include layout="@layout/a7w"/>
+    </RelativeLayout>
+    <include layout="@layout/a7d"/>
+</LinearLayout>

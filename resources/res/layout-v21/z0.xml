@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="center_horizontal" orientation="vertical" layout_width="match_parent" layout_height="@dimen/jk">
+    <LinearLayout orientation="horizontal" id="@+id/c5l" background="@color/l" layout_width="match_parent" layout_height="44dp">
+        <com.bytedance.tux.icon.TuxIconView id="@+id/avg" paddingLeft="16dp" paddingTop="6dp" paddingRight="16dp" paddingBottom="14dp" layout_width="wrap_content" layout_height="match_parent" paddingStart="16dp" paddingEnd="16dp" NOT_FOUND_0x1c="@raw/icon_gif" NOT_FOUND_0x1d="24dp" NOT_FOUND_0x1e="24dp"/>
+        <View background="@color/b2" layout_width="1dp" layout_height="match_parent" layout_marginTop="6dp" layout_marginBottom="14dp"/>
+        <androidx.recyclerview.widget.RecyclerView id="@+id/avl" layout_width="0dp" layout_height="match_parent" layout_marginLeft="16dp" layout_weight="1" layout_marginStart="16dp"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtButton enabled="false" textColor="@color/c5" ellipsize="end" gravity="center" id="@+id/avd" background="@drawable/a7x" visibility="gone" layout_width="wrap_content" layout_height="28dp" layout_marginRight="12dp" maxWidth="90dp" minWidth="60dp" text="@string/bn_" maxLines="1" layout_marginEnd="12dp" stateListAnimator="@null" style="@style/y0"/>
+    </LinearLayout>
+    <com.ss.android.ugc.aweme.emoji.views.SwipeControlledViewPager id="@+id/ava" layout_width="match_parent" layout_height="0dp" layout_weight="1"/>
+</LinearLayout>

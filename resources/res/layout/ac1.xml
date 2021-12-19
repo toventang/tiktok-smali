@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" background="@color/l" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <View id="@+id/e_f" background="@color/l" layout_width="match_parent" layout_height="0dp"/>
+    <com.bytedance.tux.navigation.TuxNavBar id="@+id/em8" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/e_f"/>
+    <com.ss.android.ugc.aweme.kids.setting.items.clearcache.DiskManagerItemView id="@+id/a6c" layout_width="match_parent" NOT_FOUND_0x7="@string/fpr" NOT_FOUND_0x8="true" NOT_FOUND_0x9="@string/fpy" NOT_FOUND_0xa="@string/fpb" NOT_FOUND_0xb="4dp" style="@style/a11"/>
+    <com.ss.android.ugc.aweme.setting.ui.Divider id="@+id/dm4" layout_width="match_parent" layout_height="wrap_content"/>
+    <com.ss.android.ugc.aweme.kids.setting.items.clearcache.DiskManagerItemView id="@+id/a6b" layout_width="match_parent" NOT_FOUND_0x7="@string/csn" NOT_FOUND_0x8="true" NOT_FOUND_0x9="@string/fpe" NOT_FOUND_0xa="@string/fpb" NOT_FOUND_0xb="4dp" style="@style/a11"/>
+    <com.ss.android.ugc.aweme.setting.ui.Divider id="@+id/fli" layout_width="match_parent" layout_height="wrap_content"/>
+    <com.ss.android.ugc.aweme.kids.setting.items.clearcache.DiskManagerItemView id="@+id/a6a" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x7="@string/fpt" NOT_FOUND_0x9="@string/fpj" NOT_FOUND_0xb="4dp"/>
+</LinearLayout>

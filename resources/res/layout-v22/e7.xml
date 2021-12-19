@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <FrameLayout id="@+id/aqv" background="@drawable/ev" layout_width="match_parent" layout_height="36dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x27="0">
+        <ImageView layout_gravity="left|center_vertical|center_horizontal|center|start" id="@+id/c0w" layout_width="24dp" layout_height="24dp" src="@raw/icon_tab_explore" scaleType="fitXY" layout_marginStart="4dp"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtEditText textColor="@color/bx" textColorHint="@color/c5" ellipsize="end" gravity="left|center_vertical|center_horizontal|center|start" layout_gravity="left|center_vertical|center_horizontal|center|start" id="@+id/aqm" background="@null" paddingLeft="32.5dp" paddingRight="32.5dp" focusable="true" focusableInTouchMode="true" layout_width="match_parent" layout_height="36dp" hint="@string/drv" cursorVisible="true" singleLine="true" inputType="textNoSuggestions" imeOptions="actionSearch" textCursorDrawable="@drawable/bdl" textAlignment="viewStart" NOT_FOUND_0x21="32.5dp" style="@style/y6"/>
+        <ImageButton layout_gravity="right|center_vertical|center_horizontal|center|end" id="@+id/aq_" background="0x7f080b59" visibility="gone" layout_width="20dp" layout_height="20dp" layout_marginRight="6dp" layout_marginEnd="6dp"/>
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView orientation="vertical" id="@+id/aqq" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="8dp" paddingStart="16dp" paddingEnd="16dp" NOT_FOUND_0x22="androidx.recyclerview.widget.LinearLayoutManager" NOT_FOUND_0x23="true" NOT_FOUND_0x24="@+id/aqn" NOT_FOUND_0x26="@+id/aqv" NOT_FOUND_0x28="0"/>
+    <View id="@+id/aqn" background="@color/b2" layout_width="match_parent" layout_height="0.5dp" NOT_FOUND_0x25="@+id/aqo"/>
+    <com.bytedance.tux.input.TuxTextView textSize="13dp" textColor="@color/c5" gravity="start" id="@+id/aqo" background="@color/l" paddingTop="16dp" paddingBottom="16dp" visibility="gone" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="16dp" NOT_FOUND_0x24="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

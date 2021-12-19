@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" id="@+id/cwl" layout_width="match_parent" layout_height="wrap_content">
+    <LinearLayout background="@drawable/t0" layout_width="match_parent" layout_height="wrap_content" layout_margin="12dp" elevation="3dp" outlineProvider="background">
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/by0" layout_width="24dp" layout_height="24dp" layout_marginLeft="16dp" layout_marginTop="16dp" layout_marginRight="12dp" layout_marginStart="16dp" layout_marginEnd="12dp" NOT_FOUND_0x14="@drawable/ayy"/>
+        <LinearLayout gravity="center_vertical" layout_gravity="center_vertical" id="@+id/emj" paddingTop="8dp" paddingBottom="8dp" layout_width="0dp" layout_height="wrap_content" minHeight="66dp" layout_weight="1">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/f9l" layout_width="0dp" layout_height="wrap_content" layout_weight="1" NOT_FOUND_0x15="61"/>
+        </LinearLayout>
+        <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView id="@+id/bve" layout_width="24dp" layout_height="24dp" layout_marginLeft="12dp" layout_marginTop="16dp" layout_marginRight="12dp" src="0x7f08066f" layout_marginStart="12dp" layout_marginEnd="12dp"/>
+    </LinearLayout>
+</LinearLayout>

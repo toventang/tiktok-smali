@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" id="@+id/a9s" background="#3e75c9" layout_width="match_parent" layout_height="56dp" layout_marginLeft="12dp" layout_marginRight="12dp">
+    <androidx.constraintlayout.widget.ConstraintLayout layout_width="match_parent" layout_height="match_parent">
+        <com.bytedance.tux.icon.TuxIconView id="@+id/a9o" layout_width="24dp" layout_height="24dp" layout_marginLeft="12dp" layout_marginStart="12dp" NOT_FOUND_0xe="0" NOT_FOUND_0x14="0" NOT_FOUND_0x16="0" NOT_FOUND_0x1a="@raw/icon_x_mark_small" NOT_FOUND_0x1b="?attr/ad"/>
+        <com.ss.android.ugc.aweme.base.ui.RemoteRoundImageView id="@+id/a9t" visibility="visible" layout_width="36dp" layout_height="36dp" layout_marginLeft="10dp" layout_marginStart="10dp" NOT_FOUND_0xe="0" NOT_FOUND_0x13="@+id/a9o" NOT_FOUND_0x16="0"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" ellipsize="end" gravity="bottom" id="@+id/a9r" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginRight="50dp" singleLine="true" layout_marginStart="12dp" layout_marginEnd="50dp" NOT_FOUND_0xf="@+id/a9p" NOT_FOUND_0x11="@+id/a9q" NOT_FOUND_0x12="0" NOT_FOUND_0x13="@+id/a9t" NOT_FOUND_0x16="0" NOT_FOUND_0x17="2" NOT_FOUND_0x18="1" NOT_FOUND_0x19="43"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" ellipsize="end" layout_gravity="bottom" id="@+id/a9p" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginRight="50dp" singleLine="true" layout_marginStart="12dp" layout_marginEnd="50dp" NOT_FOUND_0xe="0" NOT_FOUND_0x11="@+id/a9q" NOT_FOUND_0x12="0" NOT_FOUND_0x13="@+id/a9t" NOT_FOUND_0x15="@+id/a9r" NOT_FOUND_0x18="1" NOT_FOUND_0x19="71"/>
+        <com.bytedance.tux.icon.TuxIconView id="@+id/a9q" layout_width="24dp" layout_height="24dp" layout_marginRight="12dp" layout_marginEnd="12dp" NOT_FOUND_0xe="0" NOT_FOUND_0x10="0" NOT_FOUND_0x16="0" NOT_FOUND_0x1a="@raw/icon_chevron_right_ltr" NOT_FOUND_0x1b="?attr/aa"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

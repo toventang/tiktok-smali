@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns="" padding="12dp" layout_width="@dimen/c5" layout_height="@dimen/c3">
+    <LinearLayout layout_gravity="center" orientation="horizontal" layout_width="wrap_content" layout_height="wrap_content">
+        <ImageView layout_gravity="center_vertical" id="@+id/by0" layout_width="20dp" layout_height="20dp"/>
+        <com.ss.android.ugc.tools.view.widget.AVTextView ellipsize="end" layout_gravity="center_vertical" id="@+id/f9a" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="4dp" maxLines="1" layout_marginStart="4dp" NOT_FOUND_0xa="7" style="@style/a22"/>
+    </LinearLayout>
+</merge>

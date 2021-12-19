@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" paddingLeft="30dp" paddingTop="@dimen/d8" paddingRight="30dp" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.account.ui.InputWithIndicator id="@+id/agv" layout_width="match_parent" layout_height="48dp" maxLines="1" inputType="textPassword" NOT_FOUND_0xe="4" NOT_FOUND_0xf="@string/h63" NOT_FOUND_0x15="1"/>
+    <com.ss.android.ugc.aweme.account.login.v2.ui.InputResultIndicator textSize="@dimen/d5" id="@+id/agw" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="@dimen/di" NOT_FOUND_0x14="@dimen/d4"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/a5g" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" layout_marginBottom="8dp" text="@string/awq" NOT_FOUND_0x16="42"/>
+    <com.ss.android.ugc.aweme.account.ui.ChecklistItemView id="@+id/a5d" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="4dp"/>
+    <com.ss.android.ugc.aweme.account.ui.ChecklistItemView id="@+id/a5e" layout_width="match_parent" layout_height="wrap_content"/>
+    <com.ss.android.ugc.aweme.account.ui.LoadingButton textSize="@dimen/d6" textColor="@color/a9" id="@+id/agu" layout_width="match_parent" layout_height="44dp" layout_marginTop="@dimen/db" text="@string/aqm" NOT_FOUND_0x10="@color/l" NOT_FOUND_0x11="3dp" NOT_FOUND_0x12="15dp" NOT_FOUND_0x13="18dp"/>
+</LinearLayout>

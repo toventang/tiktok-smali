@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" id="@+id/dqk" paddingTop="3dp" paddingBottom="3dp" layout_width="match_parent" layout_height="40dp" NOT_FOUND_0x28="3dp">
+    <LinearLayout orientation="horizontal" id="@+id/chb" background="0x7f080cf8" paddingLeft="8dp" paddingRight="8dp" visibility="gone" layout_width="wrap_content" layout_height="28dp" layout_centerInParent="true" layout_marginStart="12dp" layout_marginEnd="12dp" NOT_FOUND_0x27="8dp">
+        <com.bytedance.android.live.liveinteract.match.ui.view.TaskMarqueeTextView textSize="13sp" textColor="@color/a2r" ellipsize="marquee" gravity="left|center_vertical|center_horizontal|center|start" layout_gravity="center" id="@+id/f91" focusable="true" focusableInTouchMode="true" layout_width="match_parent" layout_height="match_parent" text="" scrollHorizontally="true" singleLine="true" marqueeRepeatLimit="marquee_forever" alpha="0" style="@style/kg"/>
+    </LinearLayout>
+    <FrameLayout id="@+id/ud" paddingLeft="12dp" paddingRight="12dp" visibility="gone" layout_width="wrap_content" layout_height="28dp" layout_centerInParent="true" NOT_FOUND_0x27="12dp">
+        <androidx.constraintlayout.widget.ConstraintLayout layout_gravity="center" id="@+id/aed" background="@drawable/bsx" visibility="gone" layout_width="wrap_content" layout_height="match_parent" minWidth="100dp">
+            <ProgressBar id="@+id/d2t" layout_width="0dp" layout_height="28dp" progress="0" progressDrawable="@drawable/bt1" NOT_FOUND_0x2c="0" NOT_FOUND_0x2d="0" NOT_FOUND_0x2f="0" NOT_FOUND_0x30="0" style="?android:attr/progressBarStyleHorizontal"/>
+            <LinearLayout gravity="center" orientation="horizontal" layout_width="wrap_content" layout_height="match_parent" NOT_FOUND_0x2e="@+id/anp" NOT_FOUND_0x2f="0">
+                <ImageView id="@+id/c1x" visibility="visible" layout_width="14dp" layout_height="12dp" src="0x7f080cd9" scaleType="centerCrop" layout_marginStart="10dp"/>
+                <com.bytedance.android.live.liveinteract.match.ui.view.TaskMarqueeTextView textSize="13sp" textColor="@color/a2r" ellipsize="marquee" gravity="center" id="@+id/f90" focusable="true" focusableInTouchMode="true" visibility="visible" layout_width="wrap_content" layout_height="match_parent" text="" scrollHorizontally="true" singleLine="true" marqueeRepeatLimit="marquee_forever" layout_marginStart="8dp" layout_marginEnd="6dp" style="@style/kg"/>
+                <com.bytedance.android.live.core.widget.HSAnimImageView id="@+id/c1w" visibility="gone" layout_width="20dp" layout_height="20dp" layout_marginEnd="5dp" NOT_FOUND_0x31="3dp"/>
+            </LinearLayout>
+            <View id="@+id/anp" background="@color/a2r" visibility="visible" layout_width="0.5dp" layout_height="12dp" NOT_FOUND_0x2c="0" NOT_FOUND_0x2e="@+id/ey0" NOT_FOUND_0x30="0"/>
+            <com.bytedance.android.live.design.widget.LiveTextView textSize="13sp" textColor="@color/a2r" gravity="center" id="@+id/ey0" visibility="visible" layout_width="42dp" layout_height="match_parent" text="" NOT_FOUND_0x2c="0" NOT_FOUND_0x2d="0" NOT_FOUND_0x30="0" style="@style/kg"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout gravity="center_vertical" layout_gravity="center" orientation="horizontal" id="@+id/a6f" background="@drawable/bsy" visibility="gone" layout_width="wrap_content" layout_height="match_parent" minWidth="100dp" paddingStart="8dp">
+            <com.bytedance.android.live.liveinteract.match.ui.view.TaskMarqueeTextView textSize="13sp" textColor="@color/a2r" ellipsize="marquee" gravity="center" layout_gravity="center" id="@+id/ew8" focusable="true" focusableInTouchMode="true" visibility="visible" layout_width="0dp" layout_height="match_parent" text="" scrollHorizontally="true" singleLine="true" layout_weight="1" marqueeRepeatLimit="marquee_forever" layout_marginEnd="8dp" style="@style/kg"/>
+            <View id="@+id/and" background="@color/a2r" visibility="visible" layout_width="0.5dp" layout_height="12dp"/>
+            <com.bytedance.android.live.design.widget.LiveTextView textSize="13sp" textColor="@color/a2r" gravity="center" id="@+id/exy" visibility="visible" layout_width="42dp" layout_height="match_parent" text="" style="@style/kg"/>
+        </LinearLayout>
+    </FrameLayout>
+    <androidx.cardview.widget.CardView orientation="horizontal" id="@+id/ch4" background="@color/us" visibility="gone" layout_width="wrap_content" layout_height="28dp" layout_marginLeft="12dp" layout_marginRight="12dp" layout_alignTop="@+id/ud" layout_alignBottom="@+id/ud" layout_alignStart="@+id/ud" layout_alignEnd="@+id/ud" NOT_FOUND_0x26="12dp" NOT_FOUND_0x29="@color/us" NOT_FOUND_0x2a="22dp" NOT_FOUND_0x2b="0dp">
+        <com.bytedance.android.live.design.widget.rtl.LiveAutoRtlImageView id="@+id/fly" background="0x7f080e5a" visibility="visible" layout_width="67dp" layout_height="28dp" scaleType="centerCrop"/>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

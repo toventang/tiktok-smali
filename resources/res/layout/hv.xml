@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" orientation="vertical" paddingLeft="32dp" paddingRight="32dp" layout_width="match_parent" layout_height="match_parent" paddingStart="32dp" paddingEnd="32dp">
+    <com.bytedance.ies.dmt.ui.titlebar.NormalTitleBar id="@+id/rq" visibility="gone" layout_width="match_parent" layout_height="@dimen/do" layout_marginBottom="8dp" NOT_FOUND_0x17="0" NOT_FOUND_0x18="0" NOT_FOUND_0x1c="0" NOT_FOUND_0x1e="0" NOT_FOUND_0x1f="8"/>
+    <LinearLayout orientation="vertical" id="@+id/bpl" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="@dimen/de">
+        <com.ss.android.ugc.aweme.account.ui.InputWithIndicator id="@+id/bpw" layout_width="match_parent" layout_height="20dp" maxLines="1" inputType="textPassword" NOT_FOUND_0x14="1"/>
+        <com.ss.android.ugc.aweme.account.login.v2.ui.InputResultIndicator textSize="@dimen/d5" id="@+id/bpx" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="@dimen/d5" NOT_FOUND_0x24="@dimen/d4"/>
+    </LinearLayout>
+    <include id="@+id/bpk" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/d8" NOT_FOUND_0x1d="@+id/bpl" layout="@layout/hw"/>
+    <com.ss.android.ugc.aweme.account.ui.LoadingButton textSize="@dimen/d6" id="@+id/bpm" layout_width="match_parent" layout_height="44dp" layout_marginTop="@dimen/d8" text="@string/aof" NOT_FOUND_0x1d="@+id/bpk"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/a4j" paddingTop="@dimen/d3" paddingBottom="@dimen/d3" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="@dimen/di" text="@string/d0p" NOT_FOUND_0x19="0" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="@+id/bpk" NOT_FOUND_0x27="43"/>
+    <com.bytedance.tux.input.TuxCheckBox id="@+id/a54" layout_width="wrap_content" layout_height="wrap_content" layout_marginBottom="22dp" NOT_FOUND_0x16="@+id/cuz" NOT_FOUND_0x19="0" NOT_FOUND_0x1c="0" NOT_FOUND_0x25="0" NOT_FOUND_0x26="0"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c4" id="@+id/a55" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="8dp" text="@string/d0t" layout_marginStart="8dp" NOT_FOUND_0x15="@+id/a54" NOT_FOUND_0x1a="@+id/a54" NOT_FOUND_0x1b="@+id/a54" NOT_FOUND_0x1e="@+id/a54" NOT_FOUND_0x27="41"/>
+    <com.ss.android.ugc.aweme.account.ui.LoadingButton textSize="@dimen/d6" textColor="@color/a9" id="@+id/cuz" layout_width="match_parent" layout_height="44dp" layout_marginBottom="12dp" text="@string/d09" NOT_FOUND_0x15="0" NOT_FOUND_0x20="@color/l" NOT_FOUND_0x21="3dp" NOT_FOUND_0x22="15dp" NOT_FOUND_0x23="18dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

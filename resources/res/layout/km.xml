@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/cxx" paddingTop="10dp" paddingBottom="10dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="13dp" paddingEnd="16dp">
+    <com.ss.android.ugc.aweme.base.ui.AvatarImageWithVerify id="@+id/cx6" layout_width="48dp" layout_height="48dp" layout_marginStart="3dp" NOT_FOUND_0x10="0" NOT_FOUND_0x13="0" NOT_FOUND_0x17="0" NOT_FOUND_0x19="0"/>
+    <com.ss.android.ugc.aweme.tux.business.story.StoryBrandView id="@+id/cx9" visibility="gone" layout_width="54dp" layout_height="54dp" NOT_FOUND_0x10="@+id/cx6" NOT_FOUND_0x12="@+id/cx6" NOT_FOUND_0x17="@+id/cx6" NOT_FOUND_0x19="@+id/cx6"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c4" ellipsize="end" id="@+id/cxm" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="12dp" maxWidth="243dp" maxLines="1" layout_marginStart="12dp" NOT_FOUND_0x11="@+id/cwx" NOT_FOUND_0x14="@+id/cx6" NOT_FOUND_0x16="@+id/cx6" NOT_FOUND_0x19="0" NOT_FOUND_0x1a="2" NOT_FOUND_0x1b="52"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" id="@+id/cwx" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginRight="40dp" layout_marginStart="12dp" layout_marginEnd="40dp" NOT_FOUND_0x10="0" NOT_FOUND_0x12="0" NOT_FOUND_0x14="@+id/cx6" NOT_FOUND_0x15="0" NOT_FOUND_0x16="@+id/cx6" NOT_FOUND_0x18="@+id/cxm" NOT_FOUND_0x1b="51"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

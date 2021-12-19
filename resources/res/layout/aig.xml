@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="67dp">
+    <LinearLayout gravity="center_vertical" layout_gravity="center" layout_width="wrap_content" layout_height="match_parent">
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView textSize="15sp" gravity="center" id="@+id/ea8" layout_width="wrap_content" layout_height="match_parent" text="@string/g7k" NOT_FOUND_0xc="7" NOT_FOUND_0xd="true"/>
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtView layout_gravity="center_vertical" layout_width="1dp" layout_height="8dp" layout_marginLeft="11.5dp" layout_marginRight="11.5dp" layout_marginStart="11.5dp" layout_marginEnd="11.5dp" NOT_FOUND_0xe="true"/>
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView textSize="15sp" gravity="center" id="@+id/cwc" layout_width="wrap_content" layout_height="match_parent" text="@string/g7n" NOT_FOUND_0xc="7" NOT_FOUND_0xd="true"/>
+    </LinearLayout>
+    <com.ss.android.ugc.aweme.shortvideo.cut.stickingpoint.view.DmtThreeAngleView layout_gravity="bottom|left|center_vertical|center_horizontal|center" id="@+id/kk" layout_width="24dp" layout_height="11dp"/>
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns="" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" id="@+id/akq" layout_width="match_parent" layout_height="match_parent" NOT_FOUND_0x13="com.ss.android.ugc.aweme.base.opensourcemodified.android.support.design.widget.ViewPagerBottomSheetBehavior">
+        <androidx.legacy.widget.Space id="@+id/e7k" layout_width="match_parent" layout_height="wrap_content"/>
+        <RelativeLayout id="@+id/em_" background="@drawable/aya" layout_width="match_parent" layout_height="@dimen/a0s">
+            <ImageView layout_gravity="center_vertical" id="@+id/qb" padding="10dp" focusableInTouchMode="true" layout_width="44dp" layout_height="44dp" layout_marginLeft="6dp" src="0x7f080904" scaleType="centerInside" layout_centerVertical="true" layout_marginStart="6dp"/>
+            <com.bytedance.tux.input.TuxTextView textColor="#e6161823" gravity="center" layout_gravity="center" id="@+id/f9l" layout_width="wrap_content" layout_height="@dimen/a0s" layout_centerInParent="true" NOT_FOUND_0x14="33"/>
+        </RelativeLayout>
+        <FrameLayout id="@+id/b94" background="@color/l" layout_width="match_parent" layout_height="match_parent" layout_alignParentLeft="true" layout_alignParentStart="true"/>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

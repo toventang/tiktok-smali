@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="wrap_content" layout_height="30dp">
+    <com.bytedance.ies.dmt.ui.common.rebranding.NiceWidthTextView textColor="@color/a9" ellipsize="end" gravity="center" id="@+id/yg" background="@drawable/azs" layout_width="wrap_content" layout_height="match_parent" adjustViewBounds="true" text="@string/byp" maxLines="1" drawablePadding="4dp" textAllCaps="false" NOT_FOUND_0xc="7" style="@style/y2"/>
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" gravity="center" id="@+id/ac7" focusable="true" clickable="true" layout_width="50dp" layout_height="wrap_content" layout_marginTop="8dp">
+    <ImageView id="@+id/co6" clickable="false" src="0x7f080410" layout_centerInParent="true" style="@style/vx"/>
+</RelativeLayout>

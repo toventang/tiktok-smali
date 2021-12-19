@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="wrap_content" layout_height="wrap_content">
+    <RelativeLayout layout_width="wrap_content" layout_height="wrap_content">
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtImageTextView id="@+id/bsa" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x11="false" NOT_FOUND_0x13="true" NOT_FOUND_0x14="false" NOT_FOUND_0x15="true" NOT_FOUND_0x16="70dp" NOT_FOUND_0x17="70dp" NOT_FOUND_0x18="0" NOT_FOUND_0x19="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="0" NOT_FOUND_0x1e="1dp"/>
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView textSize="12dp" textColor="@color/a9" gravity="bottom|right|center_vertical|center_horizontal|center" id="@+id/f35" background="0x7f0802d2" padding="4dp" visibility="gone" layout_width="70dp" layout_height="70dp" layout_marginLeft="3dp" layout_marginTop="3dp" shadowColor="@color/a3" shadowDx="0" shadowDy="3" shadowRadius="6" NOT_FOUND_0x12="true"/>
+        <com.facebook.drawee.view.SimpleDraweeView id="@+id/c39" visibility="gone" layout_width="26dp" layout_height="26dp" NOT_FOUND_0x10="0x7f080c92" NOT_FOUND_0x1a="@+id/bsa" NOT_FOUND_0x1b="@+id/bsa" NOT_FOUND_0x1c="0x7f080c92" NOT_FOUND_0x1d="false"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_gravity="center" id="@+id/dqe" clipChildren="true" clipToPadding="false" layout_width="70dp" layout_height="90dp">
+    <ImageView id="@+id/sv" layout_width="52dp" layout_height="72dp" layout_marginTop="18dp" scaleType="centerCrop" layout_marginStart="18dp" NOT_FOUND_0x18="0" NOT_FOUND_0x19="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="0" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="0"/>
+    <ImageView id="@+id/su" layout_width="52dp" layout_height="72dp" layout_marginTop="18dp" scaleType="centerCrop" layout_marginStart="18dp" NOT_FOUND_0x18="0" NOT_FOUND_0x19="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="0" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="0"/>
+    <ImageView id="@+id/ss" layout_width="52dp" layout_height="72dp" scaleType="centerCrop" NOT_FOUND_0x18="0" NOT_FOUND_0x19="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="0" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="0"/>
+    <FrameLayout layout_gravity="center_horizontal" id="@+id/aht" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x18="0" NOT_FOUND_0x19="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="0" NOT_FOUND_0x1c="0" NOT_FOUND_0x1d="0">
+        <com.ss.android.ugc.aweme.base.widget.CircularProgressView layout_gravity="center" id="@+id/byw" background="@drawable/ud" layout_width="34dp" layout_height="34dp" NOT_FOUND_0x12="true" NOT_FOUND_0x13="@color/l" NOT_FOUND_0x14="true" NOT_FOUND_0x15="100" NOT_FOUND_0x16="180" NOT_FOUND_0x17="2dp"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a9" gravity="center" layout_gravity="center" id="@+id/dby" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x1e="91"/>
+    </FrameLayout>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" ellipsize="end" id="@+id/ev3" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="@dimen/sw" layout_marginRight="@dimen/sw" layout_marginBottom="3dp" maxLines="1" layout_marginStart="@dimen/sw" layout_marginEnd="@dimen/sw" NOT_FOUND_0x18="0" NOT_FOUND_0x19="0" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="0" NOT_FOUND_0x1c="0" NOT_FOUND_0x1e="91"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

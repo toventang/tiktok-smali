@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="horizontal" paddingLeft="16dp" paddingRight="0dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="16dp" paddingEnd="0dp">
+    <com.ss.android.ugc.aweme.base.ui.SmartAvatarImageView id="@+id/dib" layout_width="56dp" layout_height="56dp"/>
+    <LinearLayout layout_gravity="center_vertical" orientation="vertical" id="@+id/dij" paddingLeft="12dp" paddingRight="0dp" layout_width="0dp" layout_height="wrap_content" layout_weight="1" paddingStart="12dp" paddingEnd="0dp">
+        <RelativeLayout gravity="center_vertical" layout_width="wrap_content" layout_height="wrap_content">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/f3g" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" NOT_FOUND_0x11="43"/>
+        </RelativeLayout>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" id="@+id/f_d" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" NOT_FOUND_0x11="61"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" id="@+id/dig" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" NOT_FOUND_0x11="71"/>
+        <com.ss.android.ugc.aweme.views.MutualRelationView id="@+id/crw" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+    </LinearLayout>
+    <com.ss.android.ugc.aweme.friends.ui.FansFollowUserBtn ellipsize="end" layout_gravity="center_vertical" id="@+id/yf" layout_width="88dp" layout_height="28dp" maxLines="1" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+</LinearLayout>

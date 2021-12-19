@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" id="@+id/dbd" clickable="true" layout_width="match_parent" layout_height="match_parent" layout_marginTop="166dp" layout_below="@+id/ann">
+    <com.bytedance.tux.input.TuxTextView textColor="?attr/bj" layout_gravity="center_horizontal" id="@+id/bf5" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="20dp" layout_marginBottom="4dp" text="@string/cbb" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x16="62"/>
+    <com.bytedance.tux.table.cell.TuxTextCell id="@+id/cty" layout_width="match_parent" layout_height="52dp" NOT_FOUND_0x15="1" NOT_FOUND_0x1a="@string/a1y"/>
+    <com.bytedance.tux.table.cell.TuxTextCell id="@+id/cvc" layout_width="match_parent" layout_height="52dp" NOT_FOUND_0x15="1" NOT_FOUND_0x18="@string/bkn" NOT_FOUND_0x1a="@string/bko"/>
+    <com.bytedance.tux.table.cell.TuxTextCell id="@+id/fe2" layout_width="match_parent" layout_height="52dp" NOT_FOUND_0x15="1" NOT_FOUND_0x18="@string/bky" NOT_FOUND_0x1a="@string/bkz"/>
+    <LinearLayout gravity="right|center_vertical|center_horizontal|center|end" orientation="horizontal" id="@+id/cg0" layout_width="match_parent" layout_height="52dp" paddingStart="16dp" paddingEnd="12dp">
+        <com.bytedance.tux.input.TuxTextView textColor="?attr/bj" id="@+id/d3r" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" layout_marginStart="20dp" layout_marginEnd="4dp" NOT_FOUND_0x14="app.com/@" NOT_FOUND_0x16="41"/>
+        <com.bytedance.tux.icon.TuxIconView layout_width="16dp" layout_height="16dp" NOT_FOUND_0x17="@raw/icon_doc_on_doc" NOT_FOUND_0x19="?attr/bj"/>
+    </LinearLayout>
+    <com.bytedance.tux.table.cell.TuxTextCell id="@+id/dd3" layout_width="match_parent" layout_height="52dp" NOT_FOUND_0x15="1" NOT_FOUND_0x18="@string/pg" NOT_FOUND_0x1a="@string/f0_"/>
+    <com.bytedance.tux.table.cell.TuxTextCell id="@+id/te" layout_width="match_parent" layout_height="52dp" NOT_FOUND_0x15="1" NOT_FOUND_0x18="@string/bkb" NOT_FOUND_0x1a="@string/bkc"/>
+    <com.bytedance.tux.table.cell.TuxTextCell id="@+id/fm7" layout_width="match_parent" layout_height="52dp" NOT_FOUND_0x15="1" NOT_FOUND_0x18="@string/bl0" NOT_FOUND_0x1a="@string/bl1"/>
+    <com.bytedance.tux.table.cell.TuxTextCell id="@+id/cjy" layout_width="match_parent" layout_height="52dp" NOT_FOUND_0x15="1" NOT_FOUND_0x18="@string/bkh" NOT_FOUND_0x1a="@string/bki"/>
+    <com.bytedance.tux.table.cell.TuxTextCell id="@+id/cw6" layout_width="match_parent" layout_height="52dp" NOT_FOUND_0x15="1" NOT_FOUND_0x18="@string/diu" NOT_FOUND_0x1a="@string/diq"/>
+    <com.bytedance.tux.table.cell.TuxTextCell id="@+id/lc" layout_width="match_parent" layout_height="52dp" NOT_FOUND_0x15="1" NOT_FOUND_0x18="@string/c" NOT_FOUND_0x1a="@string/ul"/>
+    <com.bytedance.tux.table.cell.TuxTextCell id="@+id/a2u" layout_width="match_parent" layout_height="52dp" NOT_FOUND_0x15="1" NOT_FOUND_0x18="@string/adj" NOT_FOUND_0x1a="@string/a_q"/>
+    <View id="@+id/tc" background="?attr/an" layout_width="match_parent" layout_height="0.5dp" layout_marginLeft="16dp" layout_marginTop="24dp" layout_marginRight="16dp" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+    <com.bytedance.tux.input.TuxTextView textColor="?attr/bj" layout_gravity="center_horizontal" id="@+id/bfl" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="20dp" layout_marginBottom="4dp" text="@string/cbf" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0x16="62"/>
+    <com.bytedance.tux.table.cell.TuxTextCell id="@+id/bqa" layout_width="match_parent" layout_height="52dp" NOT_FOUND_0x15="1" NOT_FOUND_0x18="@string/bkg" NOT_FOUND_0x1a="@string/cnm"/>
+    <com.bytedance.tux.table.cell.TuxTextCell id="@+id/fnv" layout_width="match_parent" layout_height="52dp" NOT_FOUND_0x15="1" NOT_FOUND_0x18="@string/bl2" NOT_FOUND_0x1a="@string/hfy"/>
+    <com.bytedance.tux.table.cell.TuxTextCell id="@+id/fa9" layout_width="match_parent" layout_height="52dp" NOT_FOUND_0x15="1" NOT_FOUND_0x18="@string/bkv" NOT_FOUND_0x1a="@string/h0b"/>
+    <View id="@+id/td" background="?attr/an" layout_width="match_parent" layout_height="0.5dp" layout_marginLeft="16dp" layout_marginTop="24dp" layout_marginRight="16dp" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+    <com.bytedance.ies.powerlist.PowerList id="@+id/i5" layout_width="match_parent" layout_height="wrap_content"/>
+</LinearLayout>

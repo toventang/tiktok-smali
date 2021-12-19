@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <ProgressBar id="@+id/a8z" visibility="gone" layout_width="wrap_content" layout_height="50dp" indeterminate="true" indeterminateOnly="true" layout_centerInParent="true"/>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <com.ss.android.ugc.aweme.im.sdk.common.ui.widget.ImTextTitleBar id="@+id/em8" background="@drawable/aq7" layout_width="match_parent" layout_height="@dimen/mr" NOT_FOUND_0xc="@string/cex"/>
+    <RelativeLayout focusable="true" focusableInTouchMode="true" layout_width="match_parent" layout_height="match_parent">
+        <View id="@+id/clt" background="?attr/z" visibility="gone" layout_width="match_parent" layout_height="0.5dp" layout_alignParentTop="true"/>
+        <androidx.recyclerview.widget.RecyclerView id="@+id/dzg" layout_width="match_parent" layout_height="match_parent" layout_below="@+id/clt"/>
+        <com.bytedance.tux.status.TuxStatusView id="@+id/e_o" visibility="gone" layout_width="match_parent" layout_height="match_parent" layout_centerHorizontal="true" NOT_FOUND_0xd="0"/>
+    </RelativeLayout>
+</LinearLayout>

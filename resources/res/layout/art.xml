@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" layout_width="match_parent" layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.base.ui.AvatarImageWithVerify id="@+id/or" layout_width="48dp" layout_height="48dp" layout_marginTop="8dp" layout_marginBottom="8dp" layout_marginStart="16dp" NOT_FOUND_0x12="0" NOT_FOUND_0x17="0" NOT_FOUND_0x19="0"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" gravity="start" id="@+id/cs_" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="5dp" maxWidth="190dp" maxLines="1" textDirection="locale" textAlignment="viewStart" layout_marginStart="12dp" layout_marginEnd="16dp" NOT_FOUND_0x14="@+id/yf" NOT_FOUND_0x15="0" NOT_FOUND_0x16="@+id/or" NOT_FOUND_0x19="@+id/or" NOT_FOUND_0x1b="52"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" gravity="start" id="@+id/ak7" layout_width="0dp" layout_height="wrap_content" layout_marginTop="2dp" maxLines="1" textDirection="locale" textAlignment="viewStart" NOT_FOUND_0x13="@+id/cs_" NOT_FOUND_0x17="@+id/cs_" NOT_FOUND_0x18="@+id/cs_" NOT_FOUND_0x1b="51"/>
+    <com.ss.android.ugc.aweme.following.ui.view.I18nFollowUserBtn layout_gravity="center_vertical" id="@+id/yf" visibility="visible" layout_width="0dp" layout_height="28dp" text="@string/byp" layout_weight="2" layout_marginEnd="16dp" NOT_FOUND_0x12="@+id/or" NOT_FOUND_0x13="0" NOT_FOUND_0x19="@+id/or" NOT_FOUND_0x1a="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

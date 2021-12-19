@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" gravity="bottom" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <LinearLayout orientation="vertical" id="@+id/d0r" paddingLeft="4dp" paddingRight="4dp" layout_width="match_parent" layout_height="wrap_content" paddingStart="4dp" paddingEnd="4dp">
+        <LinearLayout gravity="center_vertical" orientation="horizontal" id="@+id/bp5" layout_width="wrap_content" layout_height="28dp">
+            <com.ss.android.ugc.aweme.base.ui.AvatarImageView layout_gravity="center_vertical" id="@+id/bxg" background="@drawable/r5" padding="2dp" visibility="gone" layout_width="20dp" layout_height="20dp"/>
+            <com.ss.android.ugc.aweme.base.ui.AvatarImageView layout_gravity="center_vertical" id="@+id/bxh" background="@drawable/r5" padding="2dp" visibility="gone" layout_width="20dp" layout_height="20dp" layout_marginLeft="-5dp" layout_marginStart="-5dp"/>
+            <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/bxi" layout_width="20dp" layout_height="20dp" scaleType="centerCrop" NOT_FOUND_0x1c="2dp"/>
+            <com.ss.android.ugc.aweme.newfollow.ui.FollowFeedTagGroup layout_gravity="center_vertical" layout_width="wrap_content" layout_height="match_parent">
+                <com.bytedance.tux.input.TuxTextView textColor="@color/a_" ellipsize="end" gravity="center" layout_gravity="center_vertical" id="@+id/jf" paddingLeft="6dp" paddingRight="0dp" layout_width="wrap_content" layout_height="30dp" maxLines="1" paddingStart="6dp" paddingEnd="0dp" NOT_FOUND_0x1d="62"/>
+                <ImageView layout_gravity="center_vertical" id="@+id/anq" layout_width="1dp" layout_height="10dp" layout_marginLeft="4dp" layout_marginRight="4dp" src="@color/bz" layout_marginStart="4dp" layout_marginEnd="4dp"/>
+                <View layout_gravity="center_vertical" id="@+id/e38" background="@drawable/a00" visibility="gone" layout_width="1dp" layout_height="10dp" layout_marginLeft="4dp" layout_marginRight="4dp" alpha="0.34" layout_marginStart="4dp" layout_marginEnd="4dp"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" layout_gravity="center_vertical" id="@+id/fbb" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" NOT_FOUND_0x1d="81"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/a_" ellipsize="end" gravity="center" layout_gravity="center_vertical" id="@+id/e39" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" NOT_FOUND_0x1d="61"/>
+                <ImageView layout_gravity="center_vertical" id="@+id/c0n" visibility="gone" layout_width="12dp" layout_height="12dp" layout_marginLeft="3dp" src="0x7f080962" layout_marginStart="3dp"/>
+                <View id="@+id/d59" background="@color/c9" layout_width="1dp" layout_height="match_parent"/>
+            </com.ss.android.ugc.aweme.newfollow.ui.FollowFeedTagGroup>
+        </LinearLayout>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" gravity="center" id="@+id/a69" paddingBottom="4dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="25dp" maxLines="1" layout_marginStart="25dp" NOT_FOUND_0x1d="81"/>
+        <LinearLayout gravity="center_vertical" orientation="horizontal" id="@+id/jm" visibility="gone" layout_width="wrap_content" layout_height="14dp" layout_marginLeft="25dp" layout_marginTop="-4dp" layout_marginBottom="5.5dp" layout_marginStart="25dp">
+            <com.ss.android.ugc.aweme.newfollow.ui.FollowFeedTagGroup layout_gravity="center_vertical" id="@+id/eon" layout_width="wrap_content" layout_height="wrap_content">
+                <com.bytedance.tux.input.TuxTextView textColor="@color/aa" ellipsize="end" id="@+id/a68" layout_width="wrap_content" layout_height="match_parent" layout_marginRight="7dp" maxLines="1" layout_marginEnd="7dp" NOT_FOUND_0x1d="81"/>
+                <ImageView layout_gravity="center_vertical" id="@+id/an6" layout_width="1dp" layout_height="8dp" layout_marginRight="7dp" src="@color/ad" layout_marginEnd="7dp"/>
+                <com.bytedance.tux.input.TuxTextView textColor="@color/aa" ellipsize="end" id="@+id/bs2" layout_width="wrap_content" layout_height="14dp" layout_marginRight="5dp" maxLines="1" layout_marginEnd="5dp" NOT_FOUND_0x1d="81"/>
+                <LinearLayout orientation="horizontal" id="@+id/agc" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="5dp" layout_marginEnd="5dp"/>
+            </com.ss.android.ugc.aweme.newfollow.ui.FollowFeedTagGroup>
+        </LinearLayout>
+        <LinearLayout gravity="center_vertical" layout_gravity="center_vertical" orientation="horizontal" id="@+id/abe" visibility="gone" layout_width="wrap_content" layout_height="15dp" layout_marginLeft="25dp" layout_marginTop="-4dp" layout_marginBottom="5dp" layout_marginStart="25dp">
+            <com.bytedance.tux.input.TuxTextView textColor="@color/aa" gravity="center" layout_gravity="center_vertical" id="@+id/dwf" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0x1d="81"/>
+            <ImageView layout_gravity="center_vertical" id="@+id/dw8" background="@color/ad" layout_width="1dp" layout_height="8dp" layout_marginLeft="7dp" layout_marginTop="0.5dp" layout_marginRight="7dp" layout_marginStart="7dp" layout_marginEnd="7dp"/>
+            <com.bytedance.tux.input.TuxTextView textColor="@color/aa" gravity="center" layout_gravity="center_vertical" id="@+id/dwg" layout_width="0dp" layout_height="wrap_content" maxLines="1" layout_weight="1" NOT_FOUND_0x1d="81"/>
+        </LinearLayout>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/a" ellipsize="end" id="@+id/ezg" paddingLeft="5dp" paddingRight="0dp" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="25dp" layout_marginTop="-4dp" layout_marginBottom="4dp" maxWidth="215dp" maxLines="1" paddingStart="5dp" paddingEnd="0dp" layout_marginStart="25dp" NOT_FOUND_0x1d="81"/>
+    </LinearLayout>
+</LinearLayout>

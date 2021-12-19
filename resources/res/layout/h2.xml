@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns="" layout_width="match_parent" layout_height="@dimen/do">
+    <com.ss.android.ugc.aweme.views.AutoRTLImageView id="@+id/qb" layout_width="wrap_content" layout_height="match_parent" layout_marginLeft="15dp" src="@drawable/ccg" layout_centerVertical="true" layout_marginStart="15dp"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/nq" gravity="center" id="@+id/title" layout_width="wrap_content" layout_height="match_parent" layout_centerInParent="true" NOT_FOUND_0x10="31"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/nr" gravity="center" id="@+id/eji" background="@drawable/hx" visibility="gone" layout_width="56dp" layout_height="30dp" layout_marginRight="15dp" layout_alignParentRight="true" layout_centerVertical="true" layout_marginEnd="15dp" layout_alignParentEnd="true" NOT_FOUND_0x10="61"/>
+</RelativeLayout>

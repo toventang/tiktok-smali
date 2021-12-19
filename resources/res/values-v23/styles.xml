@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ax" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu">
+    </style>
+    <style name="b7" parent="@android:style/WindowTitle">
+    </style>
+    <style name="bg" parent="@style/cz">
+    </style>
+    <style name="bn" parent="@style/d0">
+    </style>
+    <style name="cz" parent="@style/cx">
+        <item name="gy">?android:attr/actionBarItemBackground</item>
+        <item name="ha">?android:attr/actionMenuTextAppearance</item>
+        <item name="hb">?android:attr/actionMenuTextColor</item>
+        <item name="pz">@drawable/aa</item>
+        <item name="a95">?android:attr/ratingBarStyleIndicator</item>
+        <item name="a96">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="d0" parent="@style/cy">
+        <item name="gy">?android:attr/actionBarItemBackground</item>
+        <item name="ha">?android:attr/actionMenuTextAppearance</item>
+        <item name="hb">?android:attr/actionMenuTextColor</item>
+        <item name="pz">@drawable/aa</item>
+        <item name="a95">?android:attr/ratingBarStyleIndicator</item>
+        <item name="a96">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="dq" parent="@android:style/Widget.Material.Button.Borderless.Colored">
+    </style>
+    <style name="ds" parent="@android:style/WindowTitleBackground">
+    </style>
+    <style name="em" parent="@android:style/Widget.Material.RatingBar.Indicator">
+    </style>
+    <style name="en" parent="@android:style/Widget.Material.RatingBar.Small">
+    </style>
+    <style name="et" parent="@android:style/Widget.Material.Spinner.Underlined">
+    </style>
+    <style name="f7" parent="@style/a3">
+        <item name="mg">?unknown_attr_ref: 10104e2</item>
+    </style>
+    <style name="a0o" parent="@style/lb">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:statusBarColor">@color/r</item>
+        <item name="android:navigationBarColor">@color/r</item>
+        <item name="?0x10104e0">true</item>
+        <item name="?0x101056c">true</item>
+        <item name="om">@color/r</item>
+    </style>
+    <style name="a1a" parent="@style/lb">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:navigationBarColor">@color/l</item>
+        <item name="?0x10104e0">true</item>
+        <item name="?0x101056c">true</item>
+        <item name="om">@color/l</item>
+    </style>
+</resources>

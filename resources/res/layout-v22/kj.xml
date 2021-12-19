@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" layout_width="match_parent" layout_height="match_parent">
+    <View id="@+id/fej" layout_width="match_parent" layout_height="0dp"/>
+    <RelativeLayout id="@+id/dp_" layout_width="match_parent" layout_height="@dimen/a0s">
+        <com.bytedance.tux.icon.TuxIconView id="@+id/qa" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="10dp" layout_marginBottom="10dp" layout_marginStart="16dp" layout_alignParentStart="true" NOT_FOUND_0x18="10dp" NOT_FOUND_0x22="@raw/icon_chevron_left_offset_ltr" NOT_FOUND_0x23="24dp" NOT_FOUND_0x24="24dp"/>
+        <androidx.constraintlayout.widget.ConstraintLayout id="@+id/c93" layout_width="wrap_content" layout_height="wrap_content" layout_centerInParent="true">
+            <com.bytedance.tux.input.TuxTextView textColor="?attr/bc" ellipsize="end" gravity="center" id="@+id/f08" paddingTop="3dp" paddingBottom="3dp" layout_width="wrap_content" layout_height="wrap_content" text="@string/djs" maxLines="1" NOT_FOUND_0x1a="0" NOT_FOUND_0x1b="0" NOT_FOUND_0x1d="0" NOT_FOUND_0x1e="0" NOT_FOUND_0x21="33"/>
+            <com.bytedance.tux.icon.TuxIconView id="@+id/bx0" visibility="gone" layout_width="10dp" layout_height="10dp" layout_marginTop="6dp" layout_marginBottom="6dp" layout_marginStart="6dp" NOT_FOUND_0x1a="0" NOT_FOUND_0x1c="@+id/f08" NOT_FOUND_0x1e="0" NOT_FOUND_0x22="@raw/icon_arrow_triangle_down_large_fill" NOT_FOUND_0x23="10dp" NOT_FOUND_0x24="10dp" NOT_FOUND_0x26="?attr/bc"/>
+            <ImageView id="@+id/c25" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="3dp" src="@drawable/on" scaleType="centerInside" NOT_FOUND_0x1c="@+id/bx0" NOT_FOUND_0x1e="@+id/f08"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <View id="@+id/fem" background="?attr/aj" visibility="invisible" layout_width="match_parent" layout_height="0.5dp" layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <FrameLayout layout_width="match_parent" layout_height="wrap_content">
+        <com.bytedance.tux.status.TuxStatusView id="@+id/ega" background="?attr/m" visibility="gone" layout_width="match_parent" layout_height="52dp" NOT_FOUND_0x25="1"/>
+    </FrameLayout>
+    <FrameLayout layout_width="match_parent" layout_height="0dp" layout_weight="1">
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout id="@+id/e92" layout_width="match_parent" layout_height="match_parent">
+            <FrameLayout layout_width="match_parent" layout_height="match_parent">
+                <androidx.recyclerview.widget.RecyclerView id="@+id/drj" layout_width="match_parent" layout_height="wrap_content"/>
+                <com.bytedance.ies.dmt.ui.widget.DmtStatusView id="@+id/eg_" visibility="gone" layout_width="match_parent" layout_height="match_parent"/>
+                <FrameLayout id="@+id/dut" background="?attr/m" focusable="true" focusableInTouchMode="true" visibility="gone" layout_width="match_parent" layout_height="wrap_content"/>
+            </FrameLayout>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    </FrameLayout>
+    <FrameLayout layout_width="match_parent" layout_height="wrap_content">
+        <androidx.legacy.widget.Space id="@+id/v2" layout_width="wrap_content" layout_height="@dimen/n5"/>
+        <com.ss.android.ugc.aweme.discover.ui.NoticeView id="@+id/bcf" visibility="gone" layout_width="match_parent" layout_height="wrap_content" layout_marginBottom="56dp" NOT_FOUND_0x19="0x7f080223" NOT_FOUND_0x1f="@color/l" NOT_FOUND_0x20="@string/cle"/>
+    </FrameLayout>
+</LinearLayout>

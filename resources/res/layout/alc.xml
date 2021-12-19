@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" orientation="vertical" fitsSystemWindows="true" layout_width="match_parent" layout_height="match_parent">
+    <com.bytedance.ies.dmt.ui.titlebar.TextTitleBar id="@+id/em8" layout_width="match_parent" layout_height="@dimen/a0s" NOT_FOUND_0x1d="1" NOT_FOUND_0x1e="@string/blc" NOT_FOUND_0x1f="@color/bz" NOT_FOUND_0x20="15dp" NOT_FOUND_0x22="@string/a7u" NOT_FOUND_0x23="@color/bx" NOT_FOUND_0x24="15dp" NOT_FOUND_0x25="@string/bjl" NOT_FOUND_0x26="@color/bx" NOT_FOUND_0x28="false"/>
+    <LinearLayout background="@color/v" layout_width="match_parent" layout_height="wrap_content">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/c5" layout_width="wrap_content" layout_height="wrap_content" layout_margin="16dp" text="@string/bjo" NOT_FOUND_0x27="51"/>
+    </LinearLayout>
+    <RelativeLayout layout_width="match_parent" layout_height="wrap_content">
+        <com.bytedance.ies.dmt.ui.widget.DmtEditText textColor="@color/bx" textColorHint="@color/bz" gravity="start" id="@+id/crc" background="@null" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="16dp" layout_marginTop="24dp" layout_marginRight="50dp" hint="@string/blb" lineSpacingExtra="5dp" textCursorDrawable="@drawable/a45" textDirection="locale" textAlignment="viewStart" layout_marginStart="16dp" layout_marginEnd="50dp" style="@style/y6"/>
+        <ImageView id="@+id/a75" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginRight="20dp" layout_marginBottom="16dp" layout_alignTop="@+id/crc" layout_alignParentRight="true" layout_marginEnd="20dp" layout_alignParentEnd="true" NOT_FOUND_0x21="@drawable/b45"/>
+        <View background="@color/b6" layout_width="match_parent" layout_height="0.5dp" layout_marginTop="14.5dp" layout_below="@+id/crc" paddingStart="16dp" paddingEnd="16dp" layout_marginStart="16dp" layout_marginEnd="16dp"/>
+    </RelativeLayout>
+</LinearLayout>

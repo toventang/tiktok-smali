@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns="" id="@+id/b9l" layout_width="match_parent" layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.shortvideo.cut.videoedit.MVRecycleView id="@+id/b9q" clipToPadding="false" layout_width="match_parent" layout_height="wrap_content"/>
+    <com.ss.android.ugc.aweme.shortvideo.cut.videoedit.MVRecycleView id="@+id/e4i" visibility="gone" clipToPadding="false" layout_width="match_parent" layout_height="wrap_content"/>
+    <FrameLayout id="@+id/ae6" visibility="gone" layout_width="match_parent" layout_height="28dp"/>
+    <View id="@+id/e08" background="#33000000" visibility="gone" clipToPadding="false" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="48dp" layout_marginRight="48dp" layout_marginStart="48dp" layout_marginEnd="48dp"/>
+    <com.ss.android.ugc.aweme.shortvideo.cut.videoedit.AudioTrackView id="@+id/ni" visibility="gone" clipToPadding="false" layout_width="match_parent" layout_height="wrap_content" layout_marginLeft="48dp" layout_marginRight="48dp" layout_marginStart="48dp" layout_marginEnd="48dp"/>
+    <com.ss.android.ugc.aweme.shortvideo.cut.videoedit.rtlview.RTLLinearLayout id="@+id/ahl" layout_width="20dp" layout_height="wrap_content">
+        <ImageView id="@+id/ahk" layout_width="wrap_content" layout_height="match_parent"/>
+    </com.ss.android.ugc.aweme.shortvideo.cut.videoedit.rtlview.RTLLinearLayout>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout xmlns="" gravity="center" layout_gravity="bottom" orientation="vertical" id="@+id/eeh" visibility="visible" layout_width="match_parent" layout_height="266dp" NOT_FOUND_0x11="@color/d" NOT_FOUND_0x12="@dimen/cl" NOT_FOUND_0x13="true">
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" layout_width="wrap_content" layout_height="wrap_content" text="@string/xf" NOT_FOUND_0x14="42"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/ac" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" text="@string/xy" NOT_FOUND_0x14="61"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/zi" background="@drawable/qj" paddingLeft="27.5dp" paddingTop="5.5dp" paddingRight="27.5dp" paddingBottom="5.5dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="13dp" text="@string/xn" NOT_FOUND_0xf="27.5dp" NOT_FOUND_0x10="5.5dp" NOT_FOUND_0x14="52"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/a9" id="@+id/eea" paddingLeft="27.5dp" paddingTop="5.5dp" paddingRight="27.5dp" paddingBottom="5.5dp" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" text="@string/xe" NOT_FOUND_0xf="27.5dp" NOT_FOUND_0x10="5.5dp" NOT_FOUND_0x14="52"/>
+</com.ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout>

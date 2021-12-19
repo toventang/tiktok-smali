@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper xmlns="" id="@+id/bfu" background="@color/y2" visibility="gone" layout_width="match_parent" layout_height="48dp" inAnimation="@anim/ek" outAnimation="@anim/eq"/>

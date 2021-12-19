@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" layout_width="match_parent" layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout layout_gravity="top" id="@+id/b4b" layout_width="match_parent" layout_height="match_parent" layout_marginTop="100dp">
+        <FrameLayout id="@+id/eax" layout_width="0dp" layout_height="0dp" NOT_FOUND_0x14="@+id/ebc" NOT_FOUND_0x15="4:3" NOT_FOUND_0x16="0" NOT_FOUND_0x17="0" NOT_FOUND_0x19="0" NOT_FOUND_0x1a="2" NOT_FOUND_0x1b="252dp">
+            <com.facebook.drawee.view.SimpleDraweeView id="@+id/ebd" layout_width="match_parent" layout_height="match_parent" layout_margin="6dp" NOT_FOUND_0x12="6"/>
+            <ImageView layout_gravity="top|right|center_vertical|center_horizontal|center|end" id="@+id/eay" visibility="gone" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="4dp" layout_marginRight="4dp" src="0x7f080999" layout_marginEnd="4dp"/>
+        </FrameLayout>
+        <com.ss.android.ugc.tools.view.style.StyleTextView textColor="@color/r3" gravity="center" id="@+id/ebc" layout_width="0dp" layout_height="wrap_content" layout_marginTop="20dp" shadowColor="@color/a2r" shadowDx="0" shadowDy="1" shadowRadius="2" layout_centerHorizontal="true" layout_marginStart="56dp" layout_marginEnd="56dp" NOT_FOUND_0x13="0" NOT_FOUND_0x16="0" NOT_FOUND_0x17="0" NOT_FOUND_0x18="@+id/eax" style="@style/a25"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

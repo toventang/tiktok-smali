@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns="" id="@+id/cwo" layout_width="match_parent" layout_height="wrap_content" layout_margin="12dp">
+    <com.ss.android.ugc.aweme.widgetcompat.RemoteImageView id="@+id/biw" layout_width="20dp" layout_height="24dp" layout_marginLeft="16dp" layout_marginTop="16dp" layout_marginRight="12dp" layout_marginStart="16dp" layout_marginEnd="12dp"/>
+    <LinearLayout layout_gravity="center_vertical" orientation="vertical" id="@+id/emj" paddingTop="16dp" paddingBottom="16dp" layout_width="0dp" layout_height="wrap_content" minHeight="66dp" layout_weight="1">
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/f9l" layout_width="match_parent" layout_height="wrap_content" NOT_FOUND_0x11="0" NOT_FOUND_0x12="42"/>
+        <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/exf" layout_width="match_parent" layout_height="wrap_content" layout_marginTop="2dp" NOT_FOUND_0x11="0" NOT_FOUND_0x12="81"/>
+    </LinearLayout>
+    <com.ss.android.ugc.tools.view.widget.AVAutoRTLImageView id="@+id/a7w" layout_width="24dp" layout_height="24dp" layout_marginLeft="12dp" layout_marginTop="16dp" layout_marginRight="12dp" src="0x7f08066f" layout_marginStart="12dp" layout_marginEnd="12dp"/>
+</LinearLayout>

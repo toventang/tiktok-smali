@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/caz" paddingLeft="17dp" paddingRight="0dp" visibility="gone" layout_width="match_parent" layout_height="54dp" paddingStart="17dp" paddingEnd="0dp">
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView id="@+id/caw" layout_width="20dp" layout_height="20dp" NOT_FOUND_0x11="0" NOT_FOUND_0x15="0" NOT_FOUND_0x17="0"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" ellipsize="end" id="@+id/cb0" layout_width="0dp" layout_height="wrap_content" layout_marginTop="11.5dp" maxLines="1" layout_alignParentTop="true" layout_marginStart="17dp" NOT_FOUND_0x12="0" NOT_FOUND_0x14="@+id/caw" NOT_FOUND_0x17="0" NOT_FOUND_0x18="61"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" id="@+id/gm" layout_width="wrap_content" layout_height="wrap_content" maxLines="1" NOT_FOUND_0x11="@+id/cav" NOT_FOUND_0x13="@+id/go" NOT_FOUND_0x15="@+id/cb0" NOT_FOUND_0x17="@+id/cav" NOT_FOUND_0x18="81"/>
+    <View id="@+id/go" background="@color/b4" layout_width="1dp" layout_height="8dp" layout_marginLeft="8dp" layout_marginRight="8dp" NOT_FOUND_0x11="@+id/cav" NOT_FOUND_0x13="@+id/cav" NOT_FOUND_0x14="@+id/gm" NOT_FOUND_0x17="@+id/cav"/>
+    <com.bytedance.tux.input.TuxTextView ellipsize="end" id="@+id/cav" layout_width="0dp" layout_height="wrap_content" maxLines="1" NOT_FOUND_0x12="0" NOT_FOUND_0x14="@+id/go" NOT_FOUND_0x16="@+id/cb0" NOT_FOUND_0x18="81"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/d_a" layout_width="match_parent" layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.base.ui.SmartAvatarImageView id="@+id/or" layout_width="32dp" layout_height="32dp" NOT_FOUND_0x12="0" NOT_FOUND_0x15="0" NOT_FOUND_0x17="0"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/bx" id="@+id/fe1" layout_width="wrap_content" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginStart="12dp" NOT_FOUND_0x14="@+id/or" NOT_FOUND_0x17="@+id/or" NOT_FOUND_0x19="62"/>
+    <com.bytedance.tux.input.TuxTextView textColor="@color/c5" ellipsize="end" gravity="start" id="@+id/e52" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="12dp" layout_marginTop="3dp" maxLines="1" textAlignment="viewStart" layout_marginStart="12dp" NOT_FOUND_0xf="0" NOT_FOUND_0x13="0" NOT_FOUND_0x14="@+id/or" NOT_FOUND_0x16="@+id/fe1" NOT_FOUND_0x19="62"/>
+    <LinearLayout orientation="horizontal" id="@+id/fdv" layout_width="0dp" layout_height="wrap_content" layout_marginLeft="4dp" layout_marginRight="8dp" layout_marginStart="4dp" layout_marginEnd="8dp" NOT_FOUND_0xe="@+id/fe1" NOT_FOUND_0x10="@+id/e9k" NOT_FOUND_0x14="@+id/fe1" NOT_FOUND_0x17="@+id/fe1"/>
+    <com.ss.android.ugc.aweme.ecommerce.review.view.RatingStar id="@+id/e9k" layout_width="wrap_content" layout_height="wrap_content" NOT_FOUND_0xe="@+id/fe1" NOT_FOUND_0xf="0" NOT_FOUND_0x11="1" NOT_FOUND_0x17="@+id/fe1" NOT_FOUND_0x18="1"/>
+    <com.ss.android.ugc.aweme.ecommerce.review.view.RatingStar id="@+id/e9e" layout_width="wrap_content" layout_height="wrap_content" layout_marginTop="8dp" NOT_FOUND_0x15="@+id/e52" NOT_FOUND_0x16="@+id/e52"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

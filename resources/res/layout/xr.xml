@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns="" id="@+id/e4t" layout_width="match_parent" layout_height="wrap_content" layout_below="@+id/e4r">
+    <com.bytedance.tux.skeleton.TuxSkeletonView id="@+id/e4u" layout_width="32dp" layout_height="32dp" layout_alignParentTop="true" layout_marginStart="16dp" layout_alignParentStart="true" NOT_FOUND_0xc="0" NOT_FOUND_0xe="@+id/e4x" NOT_FOUND_0xf="-1" NOT_FOUND_0x10="true" NOT_FOUND_0x11="16dp" NOT_FOUND_0x12="-1"/>
+    <com.bytedance.tux.skeleton.TuxSkeletonView textColor="@color/bx" id="@+id/e4x" layout_width="100dp" layout_height="18dp" layout_marginTop="16dp" layout_marginStart="8dp" layout_marginEnd="16dp" NOT_FOUND_0xb="@+id/e4u" NOT_FOUND_0xe="0" NOT_FOUND_0xf="-1" NOT_FOUND_0x10="true" NOT_FOUND_0x12="-1"/>
+    <com.bytedance.tux.skeleton.TuxSkeletonView textColor="@color/bx" id="@+id/e4y" layout_width="150dp" layout_height="15dp" layout_marginTop="4dp" layout_marginStart="8dp" NOT_FOUND_0xb="@+id/e4u" NOT_FOUND_0xd="@+id/e4x" NOT_FOUND_0xf="-1" NOT_FOUND_0x10="true" NOT_FOUND_0x12="-1"/>
+    <com.bytedance.tux.skeleton.TuxSkeletonView id="@+id/e4w" layout_width="match_parent" layout_height="@dimen/iy" layout_marginTop="16dp" layout_marginStart="16dp" layout_marginEnd="16dp" NOT_FOUND_0xa="0" NOT_FOUND_0xc="0" NOT_FOUND_0xd="@+id/e4u" NOT_FOUND_0xf="-1" NOT_FOUND_0x10="true" NOT_FOUND_0x12="-1"/>
+    <Space layout_width="match_parent" layout_height="17dp" NOT_FOUND_0xa="0" NOT_FOUND_0xc="0" NOT_FOUND_0xd="@+id/e4w"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

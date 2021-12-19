@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns="" shape="oval">
+    <size height="200dp" width="200dp"/>
+    <solid color="@color/bh"/>
+</shape>
